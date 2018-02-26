@@ -1,0 +1,890 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Extensions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Extensions
+   ">
+    <meta name="generator" content="docfx 2.31.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Celeste.Mod.Extensions">
+  
+  
+  <h1 id="Celeste_Mod_Extensions" data-uid="Celeste.Mod.Extensions" class="text-break">Class Extensions
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Extensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Celeste.Mod.html">Celeste.Mod</a></h6>
+  <h6><strong>Assembly</strong>: Celeste.Mod.mm.dll</h6>
+  <h5 id="Celeste_Mod_Extensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Extensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Celeste_Mod_Extensions_CastDelegate_" data-uid="Celeste.Mod.Extensions.CastDelegate*"></a>
+  <h4 id="Celeste_Mod_Extensions_CastDelegate_System_Delegate_System_Type_" data-uid="Celeste.Mod.Extensions.CastDelegate(System.Delegate,System.Type)">CastDelegate(Delegate, Type)</h4>
+  <div class="markdown level1 summary"><p>Cast a delegate from one type to another. Compatible with delegates holding an invocation list (combined delegates).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Delegate CastDelegate(this Delegate source, Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Delegate</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>The input delegate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The wanted output delegate type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Delegate</span></td>
+        <td><p>The output delegate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Extensions_DialogClean_" data-uid="Celeste.Mod.Extensions.DialogClean*"></a>
+  <h4 id="Celeste_Mod_Extensions_DialogClean_System_String_Celeste_Language_" data-uid="Celeste.Mod.Extensions.DialogClean(System.String,Celeste.Language)">DialogClean(String, Language)</h4>
+  <div class="markdown level1 summary"><p>Get the dialog string for the given input key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DialogClean(this string input, Language language = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>The dialog key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Celeste.Language</span></td>
+        <td><span class="parametername">language</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The resolved dialog string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Extensions_DialogCleanOrNull_" data-uid="Celeste.Mod.Extensions.DialogCleanOrNull*"></a>
+  <h4 id="Celeste_Mod_Extensions_DialogCleanOrNull_System_String_Celeste_Language_" data-uid="Celeste.Mod.Extensions.DialogCleanOrNull(System.String,Celeste.Language)">DialogCleanOrNull(String, Language)</h4>
+  <div class="markdown level1 summary"><p>Get the dialog string for the given input key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DialogCleanOrNull(this string input, Language language = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>The dialog key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Celeste.Language</span></td>
+        <td><span class="parametername">language</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The resolved dialog string or null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Extensions_DialogKeyify_" data-uid="Celeste.Mod.Extensions.DialogKeyify*"></a>
+  <h4 id="Celeste_Mod_Extensions_DialogKeyify_System_String_" data-uid="Celeste.Mod.Extensions.DialogKeyify(System.String)">DialogKeyify(String)</h4>
+  <div class="markdown level1 summary"><p>Escape some common strings from a given string for usage with the Dialog class.
+The following characters get replaced with an underscore: /-+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string DialogKeyify(this string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>The input string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The Dialog-compatible key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Extensions_ExtractStream_" data-uid="Celeste.Mod.Extensions.ExtractStream*"></a>
+  <h4 id="Celeste_Mod_Extensions_ExtractStream_Ionic_Zip_ZipEntry_" data-uid="Celeste.Mod.Extensions.ExtractStream(Ionic.Zip.ZipEntry)">ExtractStream(ZipEntry)</h4>
+  <div class="markdown level1 summary"><p>Create a new MemoryStream for a given ZipEntry, which is safe to use in outside contexts.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MemoryStream ExtractStream(this ZipEntry entry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Ionic.Zip.ZipEntry</span></td>
+        <td><span class="parametername">entry</span></td>
+        <td><p>The input ZipEntry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.MemoryStream</span></td>
+        <td><p>The MemoryStream holding the extracted data of the ZipEntry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Extensions_InvokePassing_" data-uid="Celeste.Mod.Extensions.InvokePassing*"></a>
+  <h4 id="Celeste_Mod_Extensions_InvokePassing__1_System_MulticastDelegate___0_System_Object___" data-uid="Celeste.Mod.Extensions.InvokePassing``1(System.MulticastDelegate,``0,System.Object[])">InvokePassing&lt;T&gt;(MulticastDelegate, T, Object[])</h4>
+  <div class="markdown level1 summary"><p>Invokes all delegates in the invocation list, passing on the result to the next.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T InvokePassing&lt;T&gt;(this MulticastDelegate md, T val, params object[] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.MulticastDelegate</span></td>
+        <td><span class="parametername">md</span></td>
+        <td><p>The multicast delegate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">val</span></td>
+        <td><p>The initial value and first parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td><p>Any other arguments that may be passed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The result of all delegates.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of the result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Extensions_InvokeWhileFalse_" data-uid="Celeste.Mod.Extensions.InvokeWhileFalse*"></a>
+  <h4 id="Celeste_Mod_Extensions_InvokeWhileFalse_System_MulticastDelegate_System_Object___" data-uid="Celeste.Mod.Extensions.InvokeWhileFalse(System.MulticastDelegate,System.Object[])">InvokeWhileFalse(MulticastDelegate, Object[])</h4>
+  <div class="markdown level1 summary"><p>Invokes all delegates in the invocation list, as long as the previously invoked delegate returns false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool InvokeWhileFalse(this MulticastDelegate md, params object[] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.MulticastDelegate</span></td>
+        <td><span class="parametername">md</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Extensions_InvokeWhileNull_" data-uid="Celeste.Mod.Extensions.InvokeWhileNull*"></a>
+  <h4 id="Celeste_Mod_Extensions_InvokeWhileNull__1_System_MulticastDelegate_System_Object___" data-uid="Celeste.Mod.Extensions.InvokeWhileNull``1(System.MulticastDelegate,System.Object[])">InvokeWhileNull&lt;T&gt;(MulticastDelegate, Object[])</h4>
+  <div class="markdown level1 summary"><p>Invokes all delegates in the invocation list, as long as the previously invoked delegate returns null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T InvokeWhileNull&lt;T&gt;(this MulticastDelegate md, params object[] args)where T : class</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.MulticastDelegate</span></td>
+        <td><span class="parametername">md</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Extensions_InvokeWhileTrue_" data-uid="Celeste.Mod.Extensions.InvokeWhileTrue*"></a>
+  <h4 id="Celeste_Mod_Extensions_InvokeWhileTrue_System_MulticastDelegate_System_Object___" data-uid="Celeste.Mod.Extensions.InvokeWhileTrue(System.MulticastDelegate,System.Object[])">InvokeWhileTrue(MulticastDelegate, Object[])</h4>
+  <div class="markdown level1 summary"><p>Invokes all delegates in the invocation list, as long as the previously invoked delegate returns true.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool InvokeWhileTrue(this MulticastDelegate md, params object[] args)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.MulticastDelegate</span></td>
+        <td><span class="parametername">md</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">args</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Extensions_NeedsRelaunch_" data-uid="Celeste.Mod.Extensions.NeedsRelaunch*"></a>
+  <h4 id="Celeste_Mod_Extensions_NeedsRelaunch_Celeste_TextMenu_Item_System_Boolean_" data-uid="Celeste.Mod.Extensions.NeedsRelaunch(Celeste.TextMenu.Item,System.Boolean)">NeedsRelaunch(TextMenu.Item, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Add an Enter and Leave handler, notifying the user that a relaunch is required to apply the changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextMenu.Item NeedsRelaunch(this TextMenu.Item option, bool needsRelaunch)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.TextMenu.Item</span></td>
+        <td><span class="parametername">option</span></td>
+        <td><p>The input TextMenu.Item option.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">needsRelaunch</span></td>
+        <td><p>This method does nothing if this is set to false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.TextMenu.Item</span></td>
+        <td><p>The passed option.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Extensions_SpacedPascalCase_" data-uid="Celeste.Mod.Extensions.SpacedPascalCase*"></a>
+  <h4 id="Celeste_Mod_Extensions_SpacedPascalCase_System_String_" data-uid="Celeste.Mod.Extensions.SpacedPascalCase(System.String)">SpacedPascalCase(String)</h4>
+  <div class="markdown level1 summary"><p>Split PascalCase words to become Pascal Case instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SpacedPascalCase(this string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>PascalCaseString</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Pascal Case String</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Extensions_ToHexadecimalString_" data-uid="Celeste.Mod.Extensions.ToHexadecimalString*"></a>
+  <h4 id="Celeste_Mod_Extensions_ToHexadecimalString_System_Byte___" data-uid="Celeste.Mod.Extensions.ToHexadecimalString(System.Byte[])">ToHexadecimalString(Byte[])</h4>
+  <div class="markdown level1 summary"><p>Create a hexadecimal string for the given bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToHexadecimalString(this byte[] data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The input bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The output hexadecimal string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Extensions_ToVector2_" data-uid="Celeste.Mod.Extensions.ToVector2*"></a>
+  <h4 id="Celeste_Mod_Extensions_ToVector2_System_Single___" data-uid="Celeste.Mod.Extensions.ToVector2(System.Single[])">ToVector2(Single[])</h4>
+  <div class="markdown level1 summary"><p>Get a Vector2 from any float[] with a length of 2.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2? ToVector2(this float[] a)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td><span class="parametername">a</span></td>
+        <td><p>The input array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Microsoft.Xna.Framework.Vector2</span>&gt;</td>
+        <td><p>The output Vector2 or null if the length doesn&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Extensions_ToVector3_" data-uid="Celeste.Mod.Extensions.ToVector3*"></a>
+  <h4 id="Celeste_Mod_Extensions_ToVector3_System_Single___" data-uid="Celeste.Mod.Extensions.ToVector3(System.Single[])">ToVector3(Single[])</h4>
+  <div class="markdown level1 summary"><p>Get a Vector3 from any float[] with a length of 3.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3? ToVector3(this float[] a)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td><span class="parametername">a</span></td>
+        <td><p>The input array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">Microsoft.Xna.Framework.Vector3</span>&gt;</td>
+        <td><p>The output Vector3 or null if the length doesn&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Extensions_WriteNullTerminatedString_" data-uid="Celeste.Mod.Extensions.WriteNullTerminatedString*"></a>
+  <h4 id="Celeste_Mod_Extensions_WriteNullTerminatedString_System_IO_BinaryWriter_System_String_" data-uid="Celeste.Mod.Extensions.WriteNullTerminatedString(System.IO.BinaryWriter,System.String)">WriteNullTerminatedString(BinaryWriter, String)</h4>
+  <div class="markdown level1 summary"><p>Write the string to the BinaryWriter in a C-friendly format.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteNullTerminatedString(this BinaryWriter stream, string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.BinaryWriter</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The output which the method writes to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>The input string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1508 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Repos/Everest/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.AreaDataExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.AreaDataExt.html",
+          "hash": "JglkIfV3htiTotopk9NaIg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.AreaKeyExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.AreaKeyExt.html",
+          "hash": "7+OrHsdGv388Q7L1ixwb/Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.AreaStatsExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.AreaStatsExt.html",
+          "hash": "pvM/N1qLr9rlj5k+m4oyKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.AutotilerExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.AutotilerExt.html",
+          "hash": "1Rntz0xtnOUcAYgHmm954A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.DialogExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.DialogExt.html",
+          "hash": "U4xla1ffdXDOf3rwaAhF2Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.LevelEnterExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.LevelEnterExt.html",
+          "hash": "eyBHiitm17eoddcju2i9vg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.LevelExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.LevelExt.html",
+          "hash": "IEp6IsqBhuoU2Dm8/XBB+g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.LevelSetStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.LevelSetStats.html",
+          "hash": "8V6uldrAdytdJoEAte1E8w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.MainMenuSmallButtonExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.MainMenuSmallButtonExt.html",
+          "hash": "+8k8sKtEhvF5WVT8Wk9Nng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.AssetTypeAssembly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.AssetTypeAssembly.html",
+          "hash": "2mw3FC3mkqVVrdZzygQopw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.AssetTypeDialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.AssetTypeDialog.html",
+          "hash": "EoOdzDiXVIjRuFl6cDTELQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.AssetTypeDirectory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.AssetTypeDirectory.html",
+          "hash": "kP2QehsZEldS8D7ctNMPYg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.AssetTypeMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.AssetTypeMap.html",
+          "hash": "lh+6vf1lnlSt0g2ikpzTFw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.AssetTypeYaml.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.AssetTypeYaml.html",
+          "hash": "4KL1Icew/xbiDuFXyO1Ajw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.ContentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.ContentExtensions.html",
+          "hash": "NJ4tNUP746Gnl6pCr4+IfA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.ContentModMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.ContentModMetadata.html",
+          "hash": "iSaCSKQ3v3Ds3knhAiQDnw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Core.CoreModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Core.CoreModule.html",
+          "hash": "QX9v+SlPBIW8IX5rv3pKbA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Core.CoreModuleSaveData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Core.CoreModuleSaveData.html",
+          "hash": "VOnJMPkuLcsCyycev8BedQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Core.CoreModuleSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Core.CoreModuleSettings.html",
+          "hash": "KmmwFROFZMb2Ur7OGGm6FQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Core.html",
+          "hash": "8hOCVtWw3/QdRTdx/3MrVA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Entities.CustomCoreMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Entities.CustomCoreMessage.html",
+          "hash": "VeZgsoAShaX9VepO1rxjuw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Entities.CustomMemorial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Entities.CustomMemorial.html",
+          "hash": "dnvuaShla9UE46q6NAWOuA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Entities.CustomMemorialText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Entities.CustomMemorialText.html",
+          "hash": "S+cZ/VB3tI2FhpJ9VSnCqA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Entities.LevelFlagTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Entities.LevelFlagTrigger.html",
+          "hash": "UuxA+d1M6ip3L1welDX/rA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Entities.html",
+          "hash": "iShPCfmLDFDqHZyVsROVIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Content.html",
+          "hash": "R9/PhvVO/ir3UhIJtqONEA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.AreaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.AreaData.html",
+          "hash": "Izip8zNcdSLDZLvWCmaZkQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.Atlas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.Atlas.html",
+          "hash": "Ml8QBBQ0Rt6giEBoEsTdoQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.Celeste.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.Celeste.html",
+          "hash": "udh4hWfjB/JARz57erLCDw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.Dialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.Dialog.html",
+          "hash": "M/e64FCjZKLRbD7+zrbl4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.GFX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.GFX.html",
+          "hash": "8JZPVqg14a4DUzqlBdPVLg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.Input.html",
+          "hash": "svVfXt84YT4MDTtVLRkkJw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.Level.CreatePauseMenuButtonsHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.Level.CreatePauseMenuButtonsHandler.html",
+          "hash": "+L2wFTuzmR8Gab64E1Dp6A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.Level.EnterHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.Level.EnterHandler.html",
+          "hash": "1oHz44IfdS5qGgH7SI23cQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.Level.ExitHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.Level.ExitHandler.html",
+          "hash": "lFnqHmMcG59kImlmr2AI7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.Level.LoadEntityHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.Level.LoadEntityHandler.html",
+          "hash": "ADmZQvr9CLbrhLiP05ib2Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.Level.LoadLevelHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.Level.LoadLevelHandler.html",
+          "hash": "vwfe4FtwnDuN7rJuCLhlhA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.Level.PauseHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.Level.PauseHandler.html",
+          "hash": "lGTP/KLTZnRqUefABTnfDg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.Level.TransitionToHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.Level.TransitionToHandler.html",
+          "hash": "szivea6/8tjS1pEAnuXM1w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.Level.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.Level.html",
+          "hash": "JtkgWnsxq+kZ7+zWJ9+Lsg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.OuiJournal.EnterHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.OuiJournal.EnterHandler.html",
+          "hash": "RhjtbWdMYOWfcc8F6TuImQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.OuiJournal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.OuiJournal.html",
+          "hash": "UlHAyvBUSqUNcUGMEcfWKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.OuiMainMenu.CreateButtonsHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.OuiMainMenu.CreateButtonsHandler.html",
+          "hash": "JZmjFK6stE3Co788287xWQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.OuiMainMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.OuiMainMenu.html",
+          "hash": "51fn4ZJF+U5YZDfSc5BI4A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.Player.html",
+          "hash": "DFMY2dthamOuRB3eSwgBRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Events.html",
+          "hash": "XE2C7IRotbjqDU0U+4LnNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Loader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Loader.html",
+          "hash": "8GIJHPDOLQ5z5tor2zpbQg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Relinker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Relinker.html",
+          "hash": "7FgCD6rl1xdW+VFHX3964A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.html",
+          "hash": "DIvmFOo3riOIrF9JsbaoFw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.EverestModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.EverestModule.html",
+          "hash": "85qPlbUuz2TfEkwMPLSslA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.EverestModuleBinarySaveData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.EverestModuleBinarySaveData.html",
+          "hash": "5A4kFZW78uJEPaJUOlc7hQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.EverestModuleBinarySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.EverestModuleBinarySettings.html",
+          "hash": "Si2eqVM8JbBoq2JAaaOESQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.EverestModuleMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.EverestModuleMetadata.html",
+          "hash": "WxIPj6JFJmAk8vrgoOGH+A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.EverestModuleSaveData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.EverestModuleSaveData.html",
+          "hash": "vvon9z7CDa7uUldTF+9d2Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.EverestModuleSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.EverestModuleSettings.html",
+          "hash": "JxwpazjUqm1LMJkuFEX8QQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Extensions.html",
+          "hash": "3u+mR+4xUj78d5S9hxivPQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.FakeAssembly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.FakeAssembly.html",
+          "hash": "P0nY3mkHF+2/kmwIXMSuvA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.FileProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.FileProxy.html",
+          "hash": "ZLzQitglv4p2GQaEcTEJ2g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.FileProxyStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.FileProxyStream.html",
+          "hash": "/h/5G4zVQ2dT02F3vHbsbg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.LimitedStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.LimitedStream.html",
+          "hash": "J+YNScaAZZGrM4sKdMS0Jw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.LogWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.LogWriter.html",
+          "hash": "7H3g5THKhsV6htVUmWSmmA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.html",
+          "hash": "ZqDPOM9GzTEPGs/cdhtLmw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.LogLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.LogLevel.html",
+          "hash": "tLQCMt1cjd0fAatZ3wW10Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Logger.html",
+          "hash": "7jBiE6qOTpM4Zn6hkJleow=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.MTextureOverride.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.MTextureOverride.html",
+          "hash": "FJMixyAUKbBEVAyzQlhROg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.MTextureParent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.MTextureParent.html",
+          "hash": "HbaWnNnz20U2xBraa4t6+w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Meta.IMTextureMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Meta.IMTextureMeta.html",
+          "hash": "u8n5M7e4hcYT8aGnz8Iq/Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Meta.IMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Meta.IMeta.html",
+          "hash": "d0XwLDZOHMuZkOtRRs/mKQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Meta.ITextureMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Meta.ITextureMeta.html",
+          "hash": "fayhBhJA7J+HGMwyVLSOSg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Meta.MTextureMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Meta.MTextureMeta.html",
+          "hash": "fFaDjZS2xLiYa8vGqFMVew=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Meta.MapMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Meta.MapMeta.html",
+          "hash": "iEHi5ko5zbAZUpRq1MXMBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Meta.MapMetaAudioState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Meta.MapMetaAudioState.html",
+          "hash": "tdNUk20cAwiS+U8fooK3PQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Meta.MapMetaCheckpointData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Meta.MapMetaCheckpointData.html",
+          "hash": "9raEqVa5zwl+31HqUZgVww=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Meta.MapMetaCompleteScreen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Meta.MapMetaCompleteScreen.html",
+          "hash": "f6bsXrAW76AbVHS+YrmeKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Meta.MapMetaCompleteScreenLayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Meta.MapMetaCompleteScreenLayer.html",
+          "hash": "6FXKTCdU8Fv+eoMq37FBng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Meta.MapMetaModeProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Meta.MapMetaModeProperties.html",
+          "hash": "xuJ2oPkuKMUzqEqZW0oEJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Meta.MapMetaMountain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Meta.MapMetaMountain.html",
+          "hash": "72bNs88eII0kQl5w3aBEfA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Meta.MapMetaMountainCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Meta.MapMetaMountainCamera.html",
+          "hash": "o007GSAglnuWuUhaA/j7aA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Meta.TextureMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Meta.TextureMeta.html",
+          "hash": "p3jbaDndoQ3ojlW5K+uUKw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Meta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Meta.html",
+          "hash": "Q6QTaWZ4JveDjR0IF4iitg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.ModAsset.SourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.ModAsset.SourceType.html",
+          "hash": "HWvz1YfE5r93wr95TCl0Dg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.ModAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.ModAsset.html",
+          "hash": "9zADsrfq5M5Fq4ApLhkOCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.SettingIgnoreAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.SettingIgnoreAttribute.html",
+          "hash": "djZ1u0DvsSiv/XK1ZV7I5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.SettingInGameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.SettingInGameAttribute.html",
+          "hash": "MIk3/8mJkuz2pLUKyNkz2A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.SettingNameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.SettingNameAttribute.html",
+          "hash": "2bx0GyyyipmHUmsdNwFVxA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.SettingNeedsRelaunchAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.SettingNeedsRelaunchAttribute.html",
+          "hash": "ueM2UkZE9XNEnTUFPNF0vw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.SettingRangeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.SettingRangeAttribute.html",
+          "hash": "0dTXKMtURXm0JG/z7Igp6A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.TypeGuesser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.TypeGuesser.html",
+          "hash": "kfd7ShwsijS/CBwEBFLv9Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.UI.OuiHelper_ChapterSelect_LevelSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.UI.OuiHelper_ChapterSelect_LevelSet.html",
+          "hash": "Xb5are5agBdmYXzSTNPJwg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.UI.OuiHelper_Shutdown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.UI.OuiHelper_Shutdown.html",
+          "hash": "vxYNPsfXmJo/6FP/Swkqcw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.UI.OuiLoggedProgress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.UI.OuiLoggedProgress.html",
+          "hash": "iypYgCKNLU4Rv7QBavsMJw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.UI.OuiMapList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.UI.OuiMapList.html",
+          "hash": "BN4/k0rUVJ6WzOtKcPni6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.UI.OuiModOptionString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.UI.OuiModOptionString.html",
+          "hash": "8ODP3vlAXJhmrDmxUqf93g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.UI.OuiModOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.UI.OuiModOptions.html",
+          "hash": "waPo2d9lFTkBtDPOKxxm4g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.UI.OuiVersionList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.UI.OuiVersionList.html",
+          "hash": "INIT+iv7EqtAlTUjp298qw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.UI.TextMenuExt.ButtonExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.UI.TextMenuExt.ButtonExt.html",
+          "hash": "sGk3LY15LASYf+hwYxgioQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.UI.TextMenuExt.IItemExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.UI.TextMenuExt.IItemExt.html",
+          "hash": "N6393DS4279iw1NKsc6m7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.UI.TextMenuExt.SubHeaderExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.UI.TextMenuExt.SubHeaderExt.html",
+          "hash": "QC8YgqqXafdHfh/VYObKCw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.UI.TextMenuExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.UI.TextMenuExt.html",
+          "hash": "iY0xP+MuotdMZFZTEI/WFQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.UI.html",
+          "hash": "rwMW5XLXQ/SWeUF6uXcyWg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.YamlHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.YamlHelper.html",
+          "hash": "kIrtXBAjJJltzoUg+nlEhg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.html",
+          "hash": "S0ZZXCkAqn+1Yd8vW/d2bg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.OuiChapterSelectIconExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.OuiChapterSelectIconExt.html",
+          "hash": "vfqN8JUiDw3Zm1worEZo7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.PlayerExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.PlayerExt.html",
+          "hash": "Wqpz+Tz0H0MtNOYkJi/Q6w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.PlayerHairExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.PlayerHairExt.html",
+          "hash": "1oa9aGcRsJ2414998nwVvA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.SaveDataExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.SaveDataExt.html",
+          "hash": "LWv+rB1f2vAxaQ14ObjOEg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.TextMenuExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.TextMenuExt.html",
+          "hash": "lz0JHMfq32eECpUF8te82w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.html",
+          "hash": "OZTqEBCvlQ3kYqhr9B+28g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monocle.AtlasExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monocle.AtlasExt.html",
+          "hash": "CdswbF18R3KD6JwR2AJkZA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monocle.CoroutineExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monocle.CoroutineExt.html",
+          "hash": "LNpEClzl60EnqbfWAJNU5g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monocle.EngineExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monocle.EngineExt.html",
+          "hash": "Ywygo04KtO4EmKKN1nsBwg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monocle.EntityListExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monocle.EntityListExt.html",
+          "hash": "PCdmGHEobnFgPgGjYEDUKQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monocle.MTextureExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monocle.MTextureExt.html",
+          "hash": "ix2mTGAqktWy4SJ8zl4bCA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monocle.RendererListExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monocle.RendererListExt.html",
+          "hash": "5kt2SQ7rlo/YFvVI2ogAww=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monocle.SpriteBankExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monocle.SpriteBankExt.html",
+          "hash": "FJ1ZSO7kBhpy5dFW3hgymQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monocle.VirtualContentExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monocle.VirtualContentExt.html",
+          "hash": "4XxbgrvJ0E08fcQrPUjruA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monocle.VirtualTextureExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monocle.VirtualTextureExt.html",
+          "hash": "TgPO5sd6maebRHL291izVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monocle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monocle.html",
+          "hash": "w0x3DjmFY8oWln2luxTbSg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "rOrhIdAOBHZG4+gCq2JC1g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "TxwbaygadQC3BueimoouDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "teoM4Az65/PgDf+/EYVnJA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "zUEcqxeC8MmPdFio0fKEQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
