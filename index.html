@@ -5,20 +5,20 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Everest - Celeste Mod Loader / Base API </title>
+    <title>Everest - Celeste Mod Loader </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Everest - Celeste Mod Loader / Base API ">
+    <meta name="title" content="Everest - Celeste Mod Loader ">
     <meta name="generator" content="docfx 2.31.0.0">
     
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.png">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
     <link rel="stylesheet" href="styles/docfx.css">
     <link rel="stylesheet" href="styles/main.css">
     <meta property="docfx:navrel" content="toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    
-    
+    <meta property="docfx:rel" content="">
+    <meta property="docfx:newtab" content="true">
   </head>
   <body data-spy="scroll" data-target="#affix">
     <div id="wrapper">
@@ -35,7 +35,7 @@
               </button>
               
               <a class="navbar-brand" href="index.html">
-                <img id="logo" class="svg" src="logo.svg" alt="">
+                <img id="logo" class="svg" src="logo-small.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -56,16 +56,52 @@
           </div>
         </div>
       </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
       <div role="main" class="container body-content hide-when-search">
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="everest---celeste-mod-loader--base-api">Everest - Celeste Mod Loader / Base API</h1>
+<h1 class="h1 main-header">EVEREST</h1>
+<!-- .h1 is styled by the default DocFX theme. -->
 
-<h3 id="license-mit">License: MIT</h3>
+
 <hr>
-<p>This is the <strong>Everest API documentation.</strong></p>
-<p><a href="https://github.com/EverestAPI/Everest/blob/master/README.md"><strong>For up-to-date installation and usage instructions, check the README on GitHub.</strong></a></p>
+<blockquote><p>We&#39;re still working on the website. Sorry for any inconveniences!</p>
+<p>// TODO: What is Everest (purpose)?</p>
+<p>// TODO: What can it do (functions)?</p>
+</blockquote>
+<p><strong>We&#39;re in #game_modding on the &quot;Mt. Celeste Climbing Association&quot; Discord server:</strong></p>
+<p><a href="https://discord.gg/6qjaePQ"><img src="/images/invite.png" alt="Discord invite"></a></p>
+<h3 id="installing-everest">Installing Everest</h3>
+<ul>
+<li>If you&#39;ve updated Celeste or switched betas / branches, delete the <code>orig</code> directory where Celeste is installed.</li>
+<li><a href="https://ams3.digitaloceanspaces.com/lollyde/index.html"><strong>Download the latest <code>build-XYZ-stable.zip</code></strong></a><ul>
+<li>If you just want to use Everest without issues, <strong>download the latest <code>-stable</code> build.</strong></li>
+<li>If you want to help testing the newest updates <em>and are okay with bugs</em>, download the latest build.
+<!--    - Milestone GitHub releases are updated _very slowly_ (currently not at all), but are present [here.](https://github.com/EverestAPI/Everest/releases) --></li>
+</ul>
+</li>
+<li>Extract <code>build-XYZ.zip</code> to where Celeste is installed. <code>Celeste.Mod.mm.dll</code> should be right next to <code>Celeste.exe</code></li>
+<li>Run <code>MiniInstaller.exe</code><ul>
+<li>Linux / macOS users: Run <code>mono MiniInstaller.exe</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="installing-mods">Installing mods</h3>
+<ul>
+<li>Move the mod <code>.zip</code> into the <code>Mods</code> directory where Celeste is.<ul>
+<li>For prototyping: Create a subdirectory, use the same setup as in a <code>.zip</code></li>
+</ul>
+</li>
+<li>That&#39;s it. No need to extract anything.</li>
+</ul>
 </article>
           </div>
           
@@ -74,7 +110,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/EverestAPI/Everest/blob/master/docfx_project/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/EverestAPI/EverestAPI.github.io/blob/docfx/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -93,8 +129,8 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
+            Baked with 🍓 by the Everest Team
             
-            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>

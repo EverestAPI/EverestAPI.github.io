@@ -1,0 +1,147 @@
+@font-face {
+  font-family: Renogare;
+  src:
+    url("/fonts/Renogare-Regular.woff") format("woff"),
+    url("/fonts/Renogare-Regular.otf") format("opentype");
+}
+
+/* Navbar theme. */
+
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+
+.navbar-inverse {
+  background: #3b2d4a;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-text {
+  font-family: Renogare, 'Segoe UI', Tahoma, Helvetica, sans-serif;
+  color: white;
+  text-shadow:
+   -2px -2px 0 #161a31,
+    2px -2px 0 #161a31,
+   -2px  2px 0 #161a31,
+    2px  2px 0 #161a31;
+}
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-text:hover {
+  animation: selected 0.2s linear infinite;
+}
+
+/* Celeste menu-styled main header - mostly a bunch of text shadows. */
+
+article h1.main-header {
+  color: #9d98b3;
+  font-weight: 600;
+  font-size: 108px;
+  text-shadow:
+    0    4px   0 #6055bd,
+
+   -2px -2px   0 #161a31,
+   -2px -1px   0 #161a31,
+   -2px -1.5px 0 #161a31,
+   -2px  0px   0 #161a31,
+   -2px  0.5px 0 #161a31,
+   -2px  1px   0 #161a31,
+   -2px  1.5px 0 #161a31,
+   -2px  2px   0 #161a31,
+   -2px  2.5px 0 #161a31,
+   -2px  3px   0 #161a31,
+   -2px  3.5px 0 #161a31,
+   -2px  4px   0 #161a31,
+   -2px  4.5px 0 #161a31,
+   -2px  5px   0 #161a31,
+   -2px  5.5px 0 #161a31,
+   -2px  6px   0 #161a31,
+
+   -1px -2px   0 #161a31,
+   -1px -1px   0 #161a31,
+   -1px -1.5px 0 #161a31,
+   -1px  0px   0 #161a31,
+   -1px  0.5px 0 #161a31,
+   -1px  1px   0 #161a31,
+   -1px  1.5px 0 #161a31,
+   -1px  2px   0 #161a31,
+   -1px  2.5px 0 #161a31,
+   -1px  3px   0 #161a31,
+   -1px  3.5px 0 #161a31,
+   -1px  4px   0 #161a31,
+   -1px  4.5px 0 #161a31,
+   -1px  5px   0 #161a31,
+   -1px  5.5px 0 #161a31,
+   -1px  6px   0 #161a31,
+
+    1px -2px   0 #161a31,
+    1px -1px   0 #161a31,
+    1px -1.5px 0 #161a31,
+    1px  0px   0 #161a31,
+    1px  0.5px 0 #161a31,
+    1px  1px   0 #161a31,
+    1px  1.5px 0 #161a31,
+    1px  2px   0 #161a31,
+    1px  2.5px 0 #161a31,
+    1px  3px   0 #161a31,
+    1px  3.5px 0 #161a31,
+    1px  4px   0 #161a31,
+    1px  4.5px 0 #161a31,
+    1px  5px   0 #161a31,
+    1px  5.5px 0 #161a31,
+    1px  6px   0 #161a31,
+
+    2px -2px   0 #161a31,
+    2px -1px   0 #161a31,
+    2px -1.5px 0 #161a31,
+    2px  0px   0 #161a31,
+    2px  0.5px 0 #161a31,
+    2px  1px   0 #161a31,
+    2px  1.5px 0 #161a31,
+    2px  2px   0 #161a31,
+    2px  2.5px 0 #161a31,
+    2px  3px   0 #161a31,
+    2px  3.5px 0 #161a31,
+    2px  4px   0 #161a31,
+    2px  4.5px 0 #161a31,
+    2px  5px   0 #161a31,
+    2px  5.5px 0 #161a31,
+    2px  6px   0 #161a31;
+}
+
+/* Apply transitions and minimal style changes on DocFX elements. */
+
+.anchorjs-link,
+.affix ul > li > a:before,
+.affix ul ul {
+  transition: opacity 0.2s;
+}
+
+.affix ul > li > a:before,
+.affix ul ul {
+  display: block;
+  white-space: nowrap;
+  opacity: 0;
+}
+.affix ul > li.active > ul,
+.affix ul > li.active > a:before,
+.affix ul > li > a:hover:before {
+  opacity: 1;
+}
+
+.affix > ul > li > a {
+  transition: color 0.2s;
+}
+.affix > ul > li.active > a,
+.affix > ul > li.active > a:before {
+  font-weight: normal;
+}
+
+/* Shared animation keyframes */
+
+@keyframes selected {
+  0% { color: #84ff54; }
+  49% { color: #84ff54; }
+  50% { color: #fcff59; }
+  99% { color: #fcff59; }
+}
