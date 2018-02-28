@@ -25,5 +25,5 @@
   <meta property="og:locale" content="{{#locale}}{{locale}}{{/locale}}{{^locale}}en_US{{/locale}}">
   {{#url}}<link rel="canonical" href="{{url}}"><meta property="og:url" content="{{url}}">{{/url}}
   {{#thumbnail}}<meta property="og:image" content="{{thumbnail}}" itemprop="thumbnailUrl">{{/thumbnail}}{{^thumbnail}}{{#image}}<meta property="og:image" content="{{image}}">{{/image}}{{/thumbnail}}
-  {{#twitter}}{{#image}}<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{{image}}">{{/image}}{{^image}}<meta name="twitter:card" content="summary">{{/image}}<meta name="twitter:site" content="{{twitter}}"><meta name="twitter:creator" content="{{twitter}}">{{/twitter}}
+  {{#twitter}}{{#image}}<meta name="twitter:card" content="summary"><meta name="twitter:image" content="{{image}}">{{/image}}{{^image}}<meta name="twitter:card" content="summary">{{/image}}<meta name="twitter:site" content="{{twitter}}"><meta name="twitter:creator" content="{{twitter}}">{{/twitter}}
 </head>
