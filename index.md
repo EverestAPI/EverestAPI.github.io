@@ -14,6 +14,8 @@ _appTitle: ""
 
 > // TODO: What can it do (functions)?
 
+> // TODO: Huge download button + installation gif?
+
 **We're in #game_modding on the "Mt. Celeste Climbing Association" Discord server:**
 
 [![Discord invite](/images/invite.png)](https://discord.gg/6qjaePQ)
