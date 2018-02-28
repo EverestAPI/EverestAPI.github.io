@@ -30,5 +30,5 @@ _appTitle: ""
 
 ### Installing mods
 - Move the mod `.zip` into the `Mods` directory where Celeste is.
-    - For prototyping: Create a subdirectory, use the same setup as in a `.zip`
+    - For prototyping: Feel free to use a subdirectory instead of a `.zip`
 - That's it. No need to extract anything.
