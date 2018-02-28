@@ -1,6 +1,12 @@
 {
   "_appTitle": "Everest",
   "_appFooter": "Baked with 🍓 by the Everest Team",
+  "_description": "Unofficial mod loader for the retro-style 2D platformer Celeste.",
+  "author": "Everest Team",
+  "url": "https://everestapi.github.io/",
+  "thumbnail": "https://everestapi.github.io/logo-small.png",
+  "image": "https://everestapi.github.io/logo.png",
+  "twitter": "@everestapi",
   "_appLogoPath": "logo-small.png",
   "_appFaviconPath": "favicon.png",
   "_enableSearch": true,
