@@ -16,10 +16,6 @@ _appTitle: ""
 
 > // TODO: Huge download button + installation gif?
 
-**We're in #game_modding on the "Mt. Celeste Climbing Association" Discord server:**
-
-[![Discord invite](/images/invite.png)](https://discord.gg/6qjaePQ)
-
 ### Installing Everest
 - If you've **previously installed Everest and updated Celeste** or switched betas / branches, delete the `orig` directory where Celeste is installed.
 - [**Download the latest `build-XYZ-stable.zip`**](https://ams3.digitaloceanspaces.com/lollyde/index.html)
@@ -34,3 +30,7 @@ _appTitle: ""
 - Move the mod `.zip` into the `Mods` directory where Celeste is.
     - For prototyping: Feel free to use a subdirectory instead of a `.zip`
 - That's it. No need to extract anything.
+
+### Discord
+
+[![Discord invite](/images/invite.png)](https://discord.gg/6qjaePQ)
