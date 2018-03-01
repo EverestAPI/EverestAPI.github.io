@@ -21,7 +21,7 @@ _appTitle: ""
 [![Discord invite](/images/invite.png)](https://discord.gg/6qjaePQ)
 
 ### Installing Everest
-- If you've updated Celeste or switched betas / branches, delete the `orig` directory where Celeste is installed.
+- If you've **previously installed Everest and updated Celeste** or switched betas / branches, delete the `orig` directory where Celeste is installed.
 - [**Download the latest `build-XYZ-stable.zip`**](https://ams3.digitaloceanspaces.com/lollyde/index.html)
     - If you just want to use Everest without issues, **download the latest `-stable` build.**
     - If you want to help testing the newest updates _and are okay with bugs_, download the latest build.
