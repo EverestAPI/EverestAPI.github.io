@@ -7,9 +7,13 @@ _description: "How should the files in your mod be structured? What formats are 
 
 ----
 
-<div class="prerequisites">
+<!-- TODO: Get > [!PREREQUISITES] working -->
+<div class="PREREQUISITES">
+<h5>PREREQUISITES</h5>
+<p>
 <li>Everest: [Website](/)</li>
 <li>Zipping software, f.e. 7zip: [Website](http://7-zip.org/)</li>
+</p>
 </div>
 
 ----
