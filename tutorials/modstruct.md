@@ -1,5 +1,6 @@
 ---
 title: "Mod Structure"
+description: "How should the files in your mod be structured? What formats are supported? This chapter lists some common mod structure information."
 ---
 
 # Mod Structure
