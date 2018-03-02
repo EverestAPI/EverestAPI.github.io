@@ -2125,6 +2125,18 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Loader.Blacklist
   fullName: Celeste.Mod.Everest.Loader.Blacklist
   nameWithType: Everest.Loader.Blacklist
+- uid: Celeste.Mod.Everest.Loader.DependenciesLoaded(Celeste.Mod.EverestModuleMetadata)
+  name: DependenciesLoaded(EverestModuleMetadata)
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_DependenciesLoaded_Celeste_Mod_EverestModuleMetadata_
+  commentId: M:Celeste.Mod.Everest.Loader.DependenciesLoaded(Celeste.Mod.EverestModuleMetadata)
+  fullName: Celeste.Mod.Everest.Loader.DependenciesLoaded(Celeste.Mod.EverestModuleMetadata)
+  nameWithType: Everest.Loader.DependenciesLoaded(EverestModuleMetadata)
+- uid: Celeste.Mod.Everest.Loader.DependenciesLoaded*
+  name: DependenciesLoaded
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_DependenciesLoaded_
+  commentId: Overload:Celeste.Mod.Everest.Loader.DependenciesLoaded
+  fullName: Celeste.Mod.Everest.Loader.DependenciesLoaded
+  nameWithType: Everest.Loader.DependenciesLoaded
 - uid: Celeste.Mod.Everest.Loader.DependencyLoaded(Celeste.Mod.EverestModuleMetadata)
   name: DependencyLoaded(EverestModuleMetadata)
   href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_DependencyLoaded_Celeste_Mod_EverestModuleMetadata_
@@ -2149,18 +2161,42 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Loader.LoadDir
   fullName: Celeste.Mod.Everest.Loader.LoadDir
   nameWithType: Everest.Loader.LoadDir
-- uid: Celeste.Mod.Everest.Loader.LoadMod(Celeste.Mod.EverestModuleMetadata,System.Reflection.Assembly)
-  name: LoadMod(EverestModuleMetadata, Assembly)
-  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_LoadMod_Celeste_Mod_EverestModuleMetadata_System_Reflection_Assembly_
-  commentId: M:Celeste.Mod.Everest.Loader.LoadMod(Celeste.Mod.EverestModuleMetadata,System.Reflection.Assembly)
-  fullName: Celeste.Mod.Everest.Loader.LoadMod(Celeste.Mod.EverestModuleMetadata, System.Reflection.Assembly)
-  nameWithType: Everest.Loader.LoadMod(EverestModuleMetadata, Assembly)
+- uid: Celeste.Mod.Everest.Loader.LoadMod(Celeste.Mod.EverestModuleMetadata)
+  name: LoadMod(EverestModuleMetadata)
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_LoadMod_Celeste_Mod_EverestModuleMetadata_
+  commentId: M:Celeste.Mod.Everest.Loader.LoadMod(Celeste.Mod.EverestModuleMetadata)
+  fullName: Celeste.Mod.Everest.Loader.LoadMod(Celeste.Mod.EverestModuleMetadata)
+  nameWithType: Everest.Loader.LoadMod(EverestModuleMetadata)
 - uid: Celeste.Mod.Everest.Loader.LoadMod*
   name: LoadMod
   href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_LoadMod_
   commentId: Overload:Celeste.Mod.Everest.Loader.LoadMod
   fullName: Celeste.Mod.Everest.Loader.LoadMod
   nameWithType: Everest.Loader.LoadMod
+- uid: Celeste.Mod.Everest.Loader.LoadModAssembly(Celeste.Mod.EverestModuleMetadata,System.Reflection.Assembly)
+  name: LoadModAssembly(EverestModuleMetadata, Assembly)
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_LoadModAssembly_Celeste_Mod_EverestModuleMetadata_System_Reflection_Assembly_
+  commentId: M:Celeste.Mod.Everest.Loader.LoadModAssembly(Celeste.Mod.EverestModuleMetadata,System.Reflection.Assembly)
+  fullName: Celeste.Mod.Everest.Loader.LoadModAssembly(Celeste.Mod.EverestModuleMetadata, System.Reflection.Assembly)
+  nameWithType: Everest.Loader.LoadModAssembly(EverestModuleMetadata, Assembly)
+- uid: Celeste.Mod.Everest.Loader.LoadModAssembly*
+  name: LoadModAssembly
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_LoadModAssembly_
+  commentId: Overload:Celeste.Mod.Everest.Loader.LoadModAssembly
+  fullName: Celeste.Mod.Everest.Loader.LoadModAssembly
+  nameWithType: Everest.Loader.LoadModAssembly
+- uid: Celeste.Mod.Everest.Loader.LoadModDelayed(Celeste.Mod.EverestModuleMetadata,System.Action)
+  name: LoadModDelayed(EverestModuleMetadata, Action)
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_LoadModDelayed_Celeste_Mod_EverestModuleMetadata_System_Action_
+  commentId: M:Celeste.Mod.Everest.Loader.LoadModDelayed(Celeste.Mod.EverestModuleMetadata,System.Action)
+  fullName: Celeste.Mod.Everest.Loader.LoadModDelayed(Celeste.Mod.EverestModuleMetadata, System.Action)
+  nameWithType: Everest.Loader.LoadModDelayed(EverestModuleMetadata, Action)
+- uid: Celeste.Mod.Everest.Loader.LoadModDelayed*
+  name: LoadModDelayed
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_LoadModDelayed_
+  commentId: Overload:Celeste.Mod.Everest.Loader.LoadModDelayed
+  fullName: Celeste.Mod.Everest.Loader.LoadModDelayed
+  nameWithType: Everest.Loader.LoadModDelayed
 - uid: Celeste.Mod.Everest.Loader.LoadZip(System.String)
   name: LoadZip(String)
   href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_LoadZip_System_String_
@@ -7162,6 +7198,18 @@ references:
   commentId: Overload:Celeste.PlayerHairExt.GetHairScale
   fullName: Celeste.PlayerHairExt.GetHairScale
   nameWithType: PlayerHairExt.GetHairScale
+- uid: Celeste.PlayerHairExt.GetHairTexture(Celeste.PlayerHair,System.Int32)
+  name: GetHairTexture(PlayerHair, Int32)
+  href: api/Celeste.PlayerHairExt.html#Celeste_PlayerHairExt_GetHairTexture_Celeste_PlayerHair_System_Int32_
+  commentId: M:Celeste.PlayerHairExt.GetHairTexture(Celeste.PlayerHair,System.Int32)
+  fullName: Celeste.PlayerHairExt.GetHairTexture(Celeste.PlayerHair, System.Int32)
+  nameWithType: PlayerHairExt.GetHairTexture(PlayerHair, Int32)
+- uid: Celeste.PlayerHairExt.GetHairTexture*
+  name: GetHairTexture
+  href: api/Celeste.PlayerHairExt.html#Celeste_PlayerHairExt_GetHairTexture_
+  commentId: Overload:Celeste.PlayerHairExt.GetHairTexture
+  fullName: Celeste.PlayerHairExt.GetHairTexture
+  nameWithType: PlayerHairExt.GetHairTexture
 - uid: Celeste.PlayerHairExt.GetSprite(Celeste.PlayerHair)
   name: GetSprite(PlayerHair)
   href: api/Celeste.PlayerHairExt.html#Celeste_PlayerHairExt_GetSprite_Celeste_PlayerHair_

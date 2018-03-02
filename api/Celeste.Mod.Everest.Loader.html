@@ -45,7 +45,7 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
+              <a class="navbar-brand" href="../">
                 <img id="logo" src="../logo-small.png" alt="">
               </a>
             </div>
@@ -237,6 +237,52 @@
   </h3>
   
   
+  <a id="Celeste_Mod_Everest_Loader_DependenciesLoaded_" data-uid="Celeste.Mod.Everest.Loader.DependenciesLoaded*"></a>
+  <h4 id="Celeste_Mod_Everest_Loader_DependenciesLoaded_Celeste_Mod_EverestModuleMetadata_" data-uid="Celeste.Mod.Everest.Loader.DependenciesLoaded(Celeste.Mod.EverestModuleMetadata)">DependenciesLoaded(EverestModuleMetadata)</h4>
+  <div class="markdown level1 summary"><p>Checks if all dependencies are loaded.
+Can be used by mods manually to f.e. activate / disable functionality.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool DependenciesLoaded(EverestModuleMetadata meta)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.EverestModuleMetadata.html">EverestModuleMetadata</a></td>
+        <td><span class="parametername">meta</span></td>
+        <td><p>The metadata of the mod listing the dependencies.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the dependencies have already been loaded by Everest, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Celeste_Mod_Everest_Loader_DependencyLoaded_" data-uid="Celeste.Mod.Everest.Loader.DependencyLoaded*"></a>
   <h4 id="Celeste_Mod_Everest_Loader_DependencyLoaded_Celeste_Mod_EverestModuleMetadata_" data-uid="Celeste.Mod.Everest.Loader.DependencyLoaded(Celeste.Mod.EverestModuleMetadata)">DependencyLoaded(EverestModuleMetadata)</h4>
   <div class="markdown level1 summary"><p>Checks if an dependency is loaded.
@@ -260,7 +306,8 @@ Can be used by mods manually to f.e. activate / disable functionality.</p>
       <tr>
         <td><a class="xref" href="Celeste.Mod.EverestModuleMetadata.html">EverestModuleMetadata</a></td>
         <td><span class="parametername">dep</span></td>
-        <td></td>
+        <td><p>Dependency to check for. Name and Version will be checked.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -312,13 +359,42 @@ Can be used by mods manually to f.e. activate / disable functionality.</p>
   
   
   <a id="Celeste_Mod_Everest_Loader_LoadMod_" data-uid="Celeste.Mod.Everest.Loader.LoadMod*"></a>
-  <h4 id="Celeste_Mod_Everest_Loader_LoadMod_Celeste_Mod_EverestModuleMetadata_System_Reflection_Assembly_" data-uid="Celeste.Mod.Everest.Loader.LoadMod(Celeste.Mod.EverestModuleMetadata,System.Reflection.Assembly)">LoadMod(EverestModuleMetadata, Assembly)</h4>
+  <h4 id="Celeste_Mod_Everest_Loader_LoadMod_Celeste_Mod_EverestModuleMetadata_" data-uid="Celeste.Mod.Everest.Loader.LoadMod(Celeste.Mod.EverestModuleMetadata)">LoadMod(EverestModuleMetadata)</h4>
+  <div class="markdown level1 summary"><p>Load a mod .dll given its metadata at runtime. Doesn&apos;t load the mod content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadMod(EverestModuleMetadata meta)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.EverestModuleMetadata.html">EverestModuleMetadata</a></td>
+        <td><span class="parametername">meta</span></td>
+        <td><p>Metadata of the mod to load.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Everest_Loader_LoadModAssembly_" data-uid="Celeste.Mod.Everest.Loader.LoadModAssembly*"></a>
+  <h4 id="Celeste_Mod_Everest_Loader_LoadModAssembly_Celeste_Mod_EverestModuleMetadata_System_Reflection_Assembly_" data-uid="Celeste.Mod.Everest.Loader.LoadModAssembly(Celeste.Mod.EverestModuleMetadata,System.Reflection.Assembly)">LoadModAssembly(EverestModuleMetadata, Assembly)</h4>
   <div class="markdown level1 summary"><p>Find and load all EverestModules in the given assembly.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LoadMod(EverestModuleMetadata meta, Assembly asm)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void LoadModAssembly(EverestModuleMetadata meta, Assembly asm)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -340,6 +416,42 @@ Can be used by mods manually to f.e. activate / disable functionality.</p>
         <td><span class="xref">System.Reflection.Assembly</span></td>
         <td><span class="parametername">asm</span></td>
         <td><p>The mod assembly, preferably relinked.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Everest_Loader_LoadModDelayed_" data-uid="Celeste.Mod.Everest.Loader.LoadModDelayed*"></a>
+  <h4 id="Celeste_Mod_Everest_Loader_LoadModDelayed_Celeste_Mod_EverestModuleMetadata_System_Action_" data-uid="Celeste.Mod.Everest.Loader.LoadModDelayed(Celeste.Mod.EverestModuleMetadata,System.Action)">LoadModDelayed(EverestModuleMetadata, Action)</h4>
+  <div class="markdown level1 summary"><p>Load a mod .dll given its metadata at runtime. Doesn&apos;t load the mod content.
+If required, loads the mod after all of its dependencies have been loaded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadModDelayed(EverestModuleMetadata meta, Action callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.EverestModuleMetadata.html">EverestModuleMetadata</a></td>
+        <td><span class="parametername">meta</span></td>
+        <td><p>Metadata of the mod to load.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback to be executed after the mod has been loaded. Executed immediately if meta == null.</p>
 </td>
       </tr>
     </tbody>

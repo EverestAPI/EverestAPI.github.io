@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Mod Structure | Everest </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Mod Structure | Everest ">
+    <meta name="generator" content="docfx 2.31.0.0">
+    <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Mod Structure">
+    <meta property="og:site_name" content="Everest"><meta property="og:description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
+    <meta name="author" content="Everest Team">
+    <meta property="og:locale" content="en_US">
+    <link rel="canonical" href="https://everestapi.github.io/"><meta property="og:url" content="https://everestapi.github.io/">
+    <meta property="og:image" content="https://everestapi.github.io/logo.png">
+    <meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://everestapi.github.io/logo.png"><meta name="twitter:site" content="@everestapi"><meta name="twitter:creator" content="@everestapi">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../">
+                <img id="logo" src="../logo-small.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="mod-structure">Mod Structure</h1>
+
+<hr>
+<div class="prerequisites">
+<li>Everest: <a href="/">Website</a></li>
+<li>Zipping software, f.e. 7zip: <a href="http://7-zip.org/">Website</a></li>
+</div>
+
+<hr>
+<h3 id="formats">Formats</h3>
+<p><strong>Everest currently supports the following formats:</strong></p>
+<ul>
+<li>Mod <code>.zip</code>s: Best used when using other&#39;s mods or when uploading your mod somewhere.</li>
+<li>Mod subdirectories: Best used for prototyping mods on your own machine.</li>
+</ul>
+<p>A mod can&#39;t contain &quot;submods&quot;, unless a code mod loads the &quot;submods&quot; dynamically.</p>
+<p>A mod <code>.zip</code> shouldn&#39;t contain the content in a subdirectory. All of its contents should be accessible on the top level (root) by just opening the <code>.zip</code> file.</p>
+<h3 id="file-layout">File Layout</h3>
+<p>Mods can contain custom content, both overrides / replacements (when supported) and new content. The content paths match the originals as close as possible.</p>
+<p><strong>The following content mappings are supported out of the box:</strong></p>
+<ul>
+<li><code>Graphics/Atlases/*.png</code>: Replace or add textures.<ul>
+<li>Supports <code>.meta</code> definition files.</li>
+<li><code>Graphics/Atlases/Gui/title.png</code> = Atlas: <code>Gui</code>; Texture: <code>title</code></li>
+<li><code>Graphics/Atlases/Gameplay/characters/player/bigfall00.png</code> = Atlas: <code>characters/player</code>; Texture: <code>bigfall00</code></li>
+</ul>
+</li>
+<li><code>Maps/*.bin</code>: Add new maps.<ul>
+<li>Supports <code>.meta</code> definition files.</li>
+<li>Replacing vanilla maps not supported.</li>
+<li><code>Maps/Author/LevelSet/1-Name.bin</code> = SID: <code>Author/LevelSet/1-Name</code>; LevelSet: <code>Author/LevelSet</code>; Name: <code>1-Name</code></li>
+</ul>
+</li>
+<li><code>Dialog/*.txt</code>: Add new texts.<ul>
+<li>Only contains the texts belonging to the mod.</li>
+<li>Multiple mods are allowed to occupy the same path. F.e. two mods can contain their own <code>Dialog/English.txt</code> files.</li>
+<li>Replacing existing texts not supported.</li>
+<li><code>Dialog/English.txt</code> is always used when a dialog key cannot be found in another language.</li>
+</ul>
+</li>
+</ul>
+<p><strong>With a few exceptions, each file path can only be occupied by one file.</strong></p>
+<ul>
+<li>If mod #1 contains <code>Graphics/Atlases/Gui/title.png</code> and <code>Graphics/Atlases/Gui/title.meta.yaml</code>, it overrides the texture shipped with Celeste.</li>
+<li>If an additional mod #2 contains <code>Graphics/Atlases/Gui/title.png</code>, it overrides the texture shipped with #1. The meta definitions of #1 still apply.</li>
+</ul>
+<p>All &quot;supported&quot; mod content can be loaded with the usual Celeste methods. For example, a texture in an atlas can be accessed with the matching atlas.</p>
+<p>All &quot;unsupported&quot; mod content can be loaded by codemods via <a href="/api/Celeste.Mod.Everest.Content.html#Celeste_Mod_Everest_Content_Get_System_String_System_Boolean_"><code>Everest.Content.Get*</code> (usage)</a>.</p>
+<h3 id="metadata">Metadata</h3>
+<p>The <code>metadata.yaml</code> file in your mod defines its name (ID), version, (optional) DLL path and any dependencies.</p>
+<p><strong>The version should match the <a href="https://semver.org/">semver (semantic versioning) format</a>:</strong></p>
+<ul>
+<li>The MAJOR version must match to prevent breakages caused by API changes.</li>
+<li>The MINOR version must rise with each backwards-compatible change. If the mod depends on a new version but an older version is installed, the mod won&#39;t load.</li>
+<li>The PATCH version isn&#39;t checked.</li>
+</ul>
+<p>Adding a dependency to a mod with version <code>0.0.*</code> ignores the above checks at your own risk.</p>
+<h3 id="example-code-mod">Example: Code Mod</h3>
+<p><strong>File list:</strong></p>
+<ul>
+<li><code>/metadata.yaml</code></li>
+<li><code>/GhostMod.dll</code></li>
+</ul>
+<p><strong>Metadata:</strong></p>
+<pre><code class="lang-yaml">Name: GhostMod
+Version: 1.0.0
+DLL: GhostMod.dll
+Dependencies:
+  - Name: Everest
+    Version: 2.1.0
+</code></pre><ul>
+<li>The mod will load with Everest <code>2.1+.*</code>, meaning <code>2.1.*</code>, <code>2.2.*</code>, <code>2.3.*</code>, ...</li>
+<li>The mod won&#39;t load with Everest <code>2.0.*</code> as the MINOR version is too old. The mod depends on a newer API.</li>
+<li>The mod won&#39;t load with Everest <code>1.*.*</code>, <code>3.*.*</code>, <code>4.*.*</code> or similar. The API has changed in a way that could break the mod.</li>
+</ul>
+<h3 id="example-level-mod">Example: Level Mod</h3>
+<p><strong>File list:</strong></p>
+<ul>
+<li><code>/Dialog/English.txt</code>: LevelSet and chapter names.</li>
+<li><code>/Maps/Cruor-Secret.bin</code>: A-side map binary.</li>
+<li><code>/Maps/Cruor-Secret.meta.yaml</code>: Chapter metadata. Always the <code>.meta</code> of the A-side binary.</li>
+<li><code>/Maps/Cruor-Secret-B.bin</code>: B-side map binary. The A-side / chapter <code>.meta</code> links to this.</li>
+<li><code>/Graphics/Atlases/Gui/areas/secret.png</code>, <code>secret_back.png</code>: The chapter selection screen icon and its backside (when flipping).</li>
+<li><code>/Graphics/Atlases/Gameplay/decals/cruor-secret/*.png</code>: Any decals used by the A-side or B-side map <code>.bin</code>s.</li>
+<li><code>/Graphics/Atlases/Ending-Cruor-Secret-1/*.png</code>, ...: Chapter completion screen textures. The chapter <code>.meta</code> links to this.</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/EverestAPI/EverestAPI.github.io/blob/docfx/tutorials/modstruct.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Baked with 🍓 by the Everest Team
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
