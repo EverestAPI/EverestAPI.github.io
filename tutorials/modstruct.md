@@ -58,6 +58,16 @@ All "supported" mod content can be loaded with the usual Celeste methods. For ex
 
 All "unsupported" mod content can be loaded by codemods via [`Everest.Content.Get*` (usage)](/api/Celeste.Mod.Everest.Content.html#Celeste_Mod_Everest_Content_Get_System_String_System_Boolean_).
 
+For content inside of `.zip`s and subdirectories, all mod content is directly contained in the `.zip` / subdirectory. For example, the mod `.zip` should directly contain a `Maps` directory. The `Maps` directory should not be in a `Content` subdirectory.
+
+For content in form of embedded resources inside of `.dlls`, all mod content requires a `Content/` path prefix. Embedded resources normally don't have logical file paths in the traditional sense - the C# compiler mangles the filepath into something C#-friendly. **To fix content embedded into .dlls, set a logical name for all `Content\` `<EmbeddedResource>`s in your `.csproj`:**
+
+```xml
+<EmbeddedResource Include="Content\Dialog\English.txt">
+  <LogicalName>Content\Dialog\English.txt</LogicalName>
+</EmbeddedResource>
+```
+
 ### Metadata
 
 The `metadata.yaml` file in your mod defines its name (ID), version, (optional) DLL path and any dependencies.
@@ -72,8 +82,11 @@ Adding a dependency to a mod with version `0.0.*` ignores the above checks at yo
 ### Example: Code Mod
 
 **File list:**
-- `/metadata.yaml`
-- `/GhostMod.dll`
+- `metadata.yaml`
+- `GhostMod.dll`
+
+**Embedded resources:**
+- `Content\Dialog\English.txt`: Mod option texts.
 
 **Metadata:**
 ```yaml
@@ -92,10 +105,10 @@ Dependencies:
 ### Example: Level Mod
 
 **File list:**
-- `/Dialog/English.txt`: LevelSet and chapter names.
-- `/Maps/Cruor-Secret.bin`: A-side map binary.
-- `/Maps/Cruor-Secret.meta.yaml`: Chapter metadata. Always the `.meta` of the A-side binary.
-- `/Maps/Cruor-Secret-B.bin`: B-side map binary. The A-side / chapter `.meta` links to this.
-- `/Graphics/Atlases/Gui/areas/secret.png`, `secret_back.png`: The chapter selection screen icon and its backside (when flipping).
-- `/Graphics/Atlases/Gameplay/decals/cruor-secret/*.png`: Any decals used by the A-side or B-side map `.bin`s.
-- `/Graphics/Atlases/Ending-Cruor-Secret-1/*.png`, ...: Chapter completion screen textures. The chapter `.meta` links to this.
+- `Dialog/English.txt`: LevelSet and chapter names.
+- `Maps/Cruor-Secret.bin`: A-side map binary.
+- `Maps/Cruor-Secret.meta.yaml`: Chapter metadata. Always the `.meta` of the A-side binary.
+- `Maps/Cruor-Secret-B.bin`: B-side map binary. The A-side / chapter `.meta` links to this.
+- `Graphics/Atlases/Gui/areas/secret.png`, `secret_back.png`: The chapter selection screen icon and its backside (when flipping).
+- `Graphics/Atlases/Gameplay/decals/cruor-secret/*.png`: Any decals used by the A-side or B-side map `.bin`s.
+- `Graphics/Atlases/Ending-Cruor-Secret-1/*.png`, ...: Chapter completion screen textures. The chapter `.meta` links to this.
