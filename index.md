@@ -10,7 +10,7 @@ _appTitle: ""
 
 Everest is an [open-source](https://github.com/EverestAPI) mod loader and modding API, making texture replacements, custom level sets and endless code mods a reality.
 
-Almost all other Celeste mods need you to install Everest first. Likewise, you need other mods to actually do something. Everest only enables other mods.
+**For a list of existing mods, visit [Nexus Mods](https://www.nexusmods.com/celeste/)**
 
 ## Installing Everest
 - If you've **previously installed Everest and updated Celeste** or switched betas / branches, delete the `orig` directory where Celeste is installed.
