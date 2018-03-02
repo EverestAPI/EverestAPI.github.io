@@ -1,9 +1,4 @@
 {
-  "tutorials/index.html": {
-    "href": "tutorials/index.html",
-    "title": "Tutorials | Everest",
-    "keywords": "Tutorials Everest: Website This is the work-in-progress community-maintained \"tutorial\" section. It should help you to get started in creating your first Everest mod. Each tutorial will list its prerequisites as seen above."
-  },
   "tutorials/modstruct.html": {
     "href": "tutorials/modstruct.html",
     "title": "Mod Structure | Everest",
@@ -608,5 +603,10 @@
     "href": "api/Celeste.LevelSetStats.html",
     "title": "Class LevelSetStats | Everest",
     "keywords": "Class LevelSetStats Inheritance System.Object LevelSetStats Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Celeste Assembly : Celeste.Mod.mm.dll Syntax public class LevelSetStats Constructors LevelSetStats() Declaration public LevelSetStats() Fields Areas Declaration public List<AreaStats> Areas Field Value Type Description System.Collections.Generic.List < Celeste.AreaStats > Name Declaration public string Name Field Value Type Description System.String TotalStrawberries Declaration public int TotalStrawberries Field Value Type Description System.Int32 Properties AreaOffset Declaration public int AreaOffset { get; } Property Value Type Description System.Int32 AreasIncludingCeleste Declaration public List<AreaStats> AreasIncludingCeleste { get; } Property Value Type Description System.Collections.Generic.List < Celeste.AreaStats > CompletionPercent Declaration public int CompletionPercent { get; } Property Value Type Description System.Int32 MaxArea Declaration public int MaxArea { get; } Property Value Type Description System.Int32 TotalCassettes Declaration public int TotalCassettes { get; } Property Value Type Description System.Int32 TotalCompletions Declaration public int TotalCompletions { get; } Property Value Type Description System.Int32 TotalHeartGems Declaration public int TotalHeartGems { get; } Property Value Type Description System.Int32 UnlockedAreas Declaration public int UnlockedAreas { get; set; } Property Value Type Description System.Int32 UnlockedModes Declaration public int UnlockedModes { get; } Property Value Type Description System.Int32"
+  },
+  "tutorials/index.html": {
+    "href": "tutorials/index.html",
+    "title": "Tutorials | Everest",
+    "keywords": "Tutorials Everest: Website This is the work-in-progress community-maintained \"tutorial\" section. It should help you to get started in creating your first Everest mod. Each tutorial will list its prerequisites as seen above. Start by selecting the first tutorial from the table on the left."
   }
 }
