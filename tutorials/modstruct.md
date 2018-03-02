@@ -60,13 +60,15 @@ All "unsupported" mod content can be loaded by codemods via [`Everest.Content.Ge
 
 For content inside of `.zip`s and subdirectories, all mod content is directly contained in the `.zip` / subdirectory. For example, the mod `.zip` should directly contain a `Maps` directory. The `Maps` directory should not be in a `Content` subdirectory.
 
-For content in form of embedded resources inside of `.dlls`, all mod content requires a `Content/` path prefix. Embedded resources normally don't have logical file paths in the traditional sense - the C# compiler mangles the filepath into something C#-friendly. **To fix content embedded into .dlls, set a logical name for all `Content\` `<EmbeddedResource>`s in your `.csproj`:**
+For content in form of embedded resources inside of `.dlls`, all mod content requires a `Content\` path prefix Embedded resources normally don't have logical file paths in the traditional sense - the C# compiler mangles the filepath into something C#-friendly. **To fix content embedded into .dlls, set a logical name for all `Content\` `<EmbeddedResource>`s in your `.csproj`:**
 
 ```xml
 <EmbeddedResource Include="Content\Dialog\English.txt">
   <LogicalName>Content\Dialog\English.txt</LogicalName>
 </EmbeddedResource>
 ```
+
+Additionally, for embedded resources, the C# compiler requires filepaths with `\` as the directory separator, but the content is accessed with `/` as the directory separator. **Everest replaces all `\` symbols with `/` symbols in embedded resource paths at runtime.**
 
 ### Metadata
 
