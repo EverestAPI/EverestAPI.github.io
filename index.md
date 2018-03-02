@@ -8,25 +8,21 @@ _appTitle: ""
 
 ----
 
-> We're still working on the website. Sorry for any inconveniences!
+Everest is an [open-source](https://github.com/EverestAPI) mod loader and modding API, making texture replacements, custom level sets and endless code mods a reality.
 
-> // TODO: What is Everest (purpose)?
-
-> // TODO: What can it do (functions)?
-
-> // TODO: Huge download button + installation gif?
+Almost all other Celeste mods need you to install Everest first. Likewise, you need other mods to actually do something. Everest only enables other mods.
 
 ## Installing Everest
 - If you've **previously installed Everest and updated Celeste** or switched betas / branches, delete the `orig` directory where Celeste is installed.
 - [**Download the latest `build-XYZ-stable.zip`**](https://ams3.digitaloceanspaces.com/lollyde/index.html)
     - If you just want to use Everest without issues, **download the latest `-stable` build.**
     - If you want to help testing the newest updates _and are okay with bugs_, download the latest build.
-<!--    - Milestone GitHub releases are updated _very slowly_ (currently not at all), but are present [here.](https://github.com/EverestAPI/Everest/releases) -->
 - Extract `build-XYZ.zip` to where Celeste is installed. `Celeste.Mod.mm.dll` should be right next to `Celeste.exe`
 - Run `MiniInstaller.exe`
     - Linux / macOS users: Run `mono MiniInstaller.exe`
 
 ## Installing mods
+- Find a mod on [Nexus Mods](https://www.nexusmods.com/celeste/)
 - Move the mod `.zip` into the `Mods` directory where Celeste is.
     - For prototyping: Feel free to use a subdirectory instead of a `.zip`
 - That's it. No need to extract anything.
