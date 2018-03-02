@@ -18,7 +18,7 @@ _description: "How should the files in your mod be structured? What formats are 
 
 ----
 
-### Formats
+## Formats
 
 **Everest currently supports the following formats:**
 - Mod `.zip`s: Best used when using other's mods or when uploading your mod somewhere.
@@ -28,7 +28,12 @@ A mod can't contain "submods", unless a code mod loads the "submods" dynamically
 
 A mod `.zip` shouldn't contain the content in a subdirectory. All of its contents should be accessible on the top level (root) by just opening the `.zip` file.
 
-### File Layout
+> [!NOTE]
+> A code mod can dynamically load external mod content and mod assemblies.  
+> Dynamically loaded mods aren't restricted by the above formats, but rather by how the "supporting" mod loads them.  
+> The following file layout still applies to dynamically loaded mods.
+
+## File Layout
 
 Mods can contain custom content, both overrides / replacements (when supported) and new content. The content paths match the originals as close as possible.
 
@@ -74,18 +79,20 @@ For content in form of embedded resources inside of `.dlls`, all mod content req
 
 Additionally, for embedded resources, the C# compiler requires filepaths with `\` as the directory separator, but the content is accessed with `/` as the directory separator. **Everest replaces all `\` symbols with `/` symbols in embedded resource paths at runtime.**
 
-### Metadata
+## Metadata
 
 The `metadata.yaml` file in your mod defines its name (ID), version, (optional) DLL path and any dependencies.
 
 **The version should match the [semver (semantic versioning) format](https://semver.org/):**
-- The MAJOR version must match to prevent breakages caused by API changes.
-- The MINOR version must rise with each backwards-compatible change. If the mod depends on a new version but an older version is installed, the mod won't load.
+- The MAJOR version must match to prevent breakages caused by API changes (f.e. API removals).
+- The MINOR version must rise with each backwards-compatible API change (f.e. API additions). If the mod depends on a new version but an older version is installed, the mod won't load.
 - The PATCH version isn't checked.
 
 Adding a dependency to a mod with version `0.0.*` ignores the above checks at your own risk.
 
-### Example: Code Mod
+## Examples
+
+### Code Mod
 
 **File list:**
 - `metadata.yaml`
@@ -108,7 +115,7 @@ Dependencies:
 - The mod won't load with Everest `2.0.*` as the MINOR version is too old. The mod depends on a newer API.
 - The mod won't load with Everest `1.*.*`, `3.*.*`, `4.*.*` or similar. The API has changed in a way that could break the mod.
 
-### Example: Level Mod
+### Level Mod
 
 **File list:**
 - `Dialog/English.txt`: LevelSet and chapter names.
