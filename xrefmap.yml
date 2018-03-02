@@ -6355,6 +6355,15 @@ references:
   commentId: Overload:Celeste.Mod.UI.OuiLoggedProgress.Init
   fullName: Celeste.Mod.UI.OuiLoggedProgress.Init
   nameWithType: OuiLoggedProgress.Init
+- uid: Celeste.Mod.UI.OuiLoggedProgress.Init``1(System.String,System.Action,System.Int32)
+  name: Init<T>(String, Action, Int32)
+  href: api/Celeste.Mod.UI.OuiLoggedProgress.html#Celeste_Mod_UI_OuiLoggedProgress_Init__1_System_String_System_Action_System_Int32_
+  commentId: M:Celeste.Mod.UI.OuiLoggedProgress.Init``1(System.String,System.Action,System.Int32)
+  name.vb: Init(Of T)(String, Action, Int32)
+  fullName: Celeste.Mod.UI.OuiLoggedProgress.Init<T>(System.String, System.Action, System.Int32)
+  fullName.vb: Celeste.Mod.UI.OuiLoggedProgress.Init(Of T)(System.String, System.Action, System.Int32)
+  nameWithType: OuiLoggedProgress.Init<T>(String, Action, Int32)
+  nameWithType.vb: OuiLoggedProgress.Init(Of T)(String, Action, Int32)
 - uid: Celeste.Mod.UI.OuiLoggedProgress.Init``1(System.String,System.Threading.Tasks.Task,System.Int32)
   name: Init<T>(String, Task, Int32)
   href: api/Celeste.Mod.UI.OuiLoggedProgress.html#Celeste_Mod_UI_OuiLoggedProgress_Init__1_System_String_System_Threading_Tasks_Task_System_Int32_

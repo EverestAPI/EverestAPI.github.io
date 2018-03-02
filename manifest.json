@@ -1098,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.UI.OuiLoggedProgress.html",
-          "hash": "dNybtiyKmfS4tAfto87g2A=="
+          "hash": "o63CczglCqeHYV20L+YSVg=="
         }
       },
       "is_incremental": false,
@@ -1547,7 +1547,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "OPuSOojvrF7CayqlcYCK2A=="
+          "hash": "Gc+RAry1qkcRLmXAhyJDyQ=="
         }
       },
       "is_incremental": false,
@@ -1597,17 +1597,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
-          "incrementalPhase": "build"
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ResourceDocumentProcessor": {
