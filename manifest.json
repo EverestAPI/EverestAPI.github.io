@@ -1513,7 +1513,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "oIwuQaxuOs2kMCdSVyQ7wQ=="
+          "hash": "xfftARmGuBBQkeyFoQ6F1w=="
         }
       },
       "is_incremental": false,
@@ -1571,7 +1571,7 @@
       "output": {
         ".html": {
           "relative_path": "tutorials/modstruct.html",
-          "hash": "zaEIoEwskiiBC6ZwjLjnrw=="
+          "hash": "ObXrg9XjmQRdlTSa23hQfw=="
         }
       },
       "is_incremental": false,
@@ -1597,17 +1597,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ResourceDocumentProcessor": {
