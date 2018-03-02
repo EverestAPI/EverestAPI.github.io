@@ -31,12 +31,19 @@ Mods can contain custom content, both overrides / replacements (when supported) 
 **The following content mappings are supported out of the box:**
 - `Graphics/Atlases/*.png`: Replace or add textures.
     - Supports `.meta` definition files.
-    - `Graphics/Atlases/Gui/title.png` = Atlas: `Gui`; Texture: `title`
-    - `Graphics/Atlases/Gameplay/characters/player/bigfall00.png` = Atlas: `characters/player`; Texture: `bigfall00`
+    - `Graphics/Atlases/Gui/title.png`
+        - Atlas: `Gui`
+        - Texture: `title`
+    - `Graphics/Atlases/Gameplay/scenery/sign.png`
+        - Atlas: `characters`
+        - Texture: `scenery/sign`
 - `Maps/*.bin`: Add new maps.
     - Supports `.meta` definition files.
     - Replacing vanilla maps not supported.
-    - `Maps/Author/LevelSet/1-Name.bin` = SID: `Author/LevelSet/1-Name`; LevelSet: `Author/LevelSet`; Name: `1-Name`
+    - `Maps/Author/LevelSet/1-Name.bin`
+        - Default SID (String ID): `Author/LevelSet/1-Name`
+        - Default LevelSet: `Author/LevelSet`
+        - Default Name: `1-Name`
 - `Dialog/*.txt`: Add new texts.
     - Only contains the texts belonging to the mod.
     - Multiple mods are allowed to occupy the same path. F.e. two mods can contain their own `Dialog/English.txt` files.
