@@ -144,7 +144,12 @@
 </ul>
 <p>All &quot;supported&quot; mod content can be loaded with the usual Celeste methods. For example, a texture in an atlas can be accessed with the matching atlas.</p>
 <p>All &quot;unsupported&quot; mod content can be loaded by codemods via <a href="/api/Celeste.Mod.Everest.Content.html#Celeste_Mod_Everest_Content_Get_System_String_System_Boolean_"><code>Everest.Content.Get*</code> (usage)</a>.</p>
-<h3 id="metadata">Metadata</h3>
+<p>For content inside of <code>.zip</code>s and subdirectories, all mod content is directly contained in the <code>.zip</code> / subdirectory. For example, the mod <code>.zip</code> should directly contain a <code>Maps</code> directory. The <code>Maps</code> directory should not be in a <code>Content</code> subdirectory.</p>
+<p>For content in form of embedded resources inside of <code>.dlls</code>, all mod content requires a <code>Content/</code> path prefix. Embedded resources normally don&#39;t have logical file paths in the traditional sense - the C# compiler mangles the filepath into something C#-friendly. <strong>To fix content embedded into .dlls, set a logical name for all <code>Content\</code> <code>&lt;EmbeddedResource&gt;</code>s in your <code>.csproj</code>:</strong></p>
+<pre><code class="lang-xml">&lt;EmbeddedResource Include=&quot;Content\Dialog\English.txt&quot;&gt;
+  &lt;LogicalName&gt;Content\Dialog\English.txt&lt;/LogicalName&gt;
+&lt;/EmbeddedResource&gt;
+</code></pre><h3 id="metadata">Metadata</h3>
 <p>The <code>metadata.yaml</code> file in your mod defines its name (ID), version, (optional) DLL path and any dependencies.</p>
 <p><strong>The version should match the <a href="https://semver.org/">semver (semantic versioning) format</a>:</strong></p>
 <ul>
@@ -156,8 +161,12 @@
 <h3 id="example-code-mod">Example: Code Mod</h3>
 <p><strong>File list:</strong></p>
 <ul>
-<li><code>/metadata.yaml</code></li>
-<li><code>/GhostMod.dll</code></li>
+<li><code>metadata.yaml</code></li>
+<li><code>GhostMod.dll</code></li>
+</ul>
+<p><strong>Embedded resources:</strong></p>
+<ul>
+<li><code>Content\Dialog\English.txt</code>: Mod option texts.</li>
 </ul>
 <p><strong>Metadata:</strong></p>
 <pre><code class="lang-yaml">Name: GhostMod
@@ -174,13 +183,13 @@ Dependencies:
 <h3 id="example-level-mod">Example: Level Mod</h3>
 <p><strong>File list:</strong></p>
 <ul>
-<li><code>/Dialog/English.txt</code>: LevelSet and chapter names.</li>
-<li><code>/Maps/Cruor-Secret.bin</code>: A-side map binary.</li>
-<li><code>/Maps/Cruor-Secret.meta.yaml</code>: Chapter metadata. Always the <code>.meta</code> of the A-side binary.</li>
-<li><code>/Maps/Cruor-Secret-B.bin</code>: B-side map binary. The A-side / chapter <code>.meta</code> links to this.</li>
-<li><code>/Graphics/Atlases/Gui/areas/secret.png</code>, <code>secret_back.png</code>: The chapter selection screen icon and its backside (when flipping).</li>
-<li><code>/Graphics/Atlases/Gameplay/decals/cruor-secret/*.png</code>: Any decals used by the A-side or B-side map <code>.bin</code>s.</li>
-<li><code>/Graphics/Atlases/Ending-Cruor-Secret-1/*.png</code>, ...: Chapter completion screen textures. The chapter <code>.meta</code> links to this.</li>
+<li><code>Dialog/English.txt</code>: LevelSet and chapter names.</li>
+<li><code>Maps/Cruor-Secret.bin</code>: A-side map binary.</li>
+<li><code>Maps/Cruor-Secret.meta.yaml</code>: Chapter metadata. Always the <code>.meta</code> of the A-side binary.</li>
+<li><code>Maps/Cruor-Secret-B.bin</code>: B-side map binary. The A-side / chapter <code>.meta</code> links to this.</li>
+<li><code>Graphics/Atlases/Gui/areas/secret.png</code>, <code>secret_back.png</code>: The chapter selection screen icon and its backside (when flipping).</li>
+<li><code>Graphics/Atlases/Gameplay/decals/cruor-secret/*.png</code>: Any decals used by the A-side or B-side map <code>.bin</code>s.</li>
+<li><code>Graphics/Atlases/Ending-Cruor-Secret-1/*.png</code>, ...: Chapter completion screen textures. The chapter <code>.meta</code> links to this.</li>
 </ul>
 </article>
           </div>
