@@ -31,6 +31,13 @@
   animation: selected 0.2s linear infinite;
 }
 
+/* Prerequisites. */
+
+.prerequisites:before {
+  content: "Prerequisites:";
+  font-weight: 700;
+}
+
 /* Celeste menu-styled main header - mostly a bunch of text shadows. */
 
 article h1.main-header {

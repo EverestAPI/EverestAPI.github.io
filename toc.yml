@@ -1,7 +1,12 @@
-- name: Mod API Docs
+- name: Tutorials
+  href: tutorials/
+  homepage: tutorials/index.md
+- name: Everest API
   href: api/
   homepage: api/index.md
 - name: Forum
   href: https://everestapi.github.io/forum/
+- name: Twitter
+  href: https://twitter.com/everestapi
 - name: Discord
   href: https://discord.gg/6qjaePQ
