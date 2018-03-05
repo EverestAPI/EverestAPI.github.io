@@ -18,8 +18,9 @@ Everest is an [open-source](https://github.com/EverestAPI) mod loader and moddin
     - If you just want to use Everest without issues, **download the latest `-stable` build.**
     - If you want to help testing the newest updates _and are okay with bugs_, download the latest build.
 - Extract `build-XYZ.zip` to where Celeste is installed. `Celeste.Mod.mm.dll` should be right next to `Celeste.exe`
+    - macOS: right next to the Celeste app.
 - Run `MiniInstaller.exe`
-    - Linux / macOS users: Run `mono MiniInstaller.exe`
+    - Linux / macOS: [Install the mono runtime](https://www.mono-project.com/download/stable/), open a terminal window where Celeste is and run `mono MiniInstaller.exe`
 
 ## Installing mods
 - Find a mod on [Nexus Mods](https://www.nexusmods.com/celeste/)

@@ -157,8 +157,6 @@ article h1.main-header {
 
 .affix ul > li > a:before,
 .affix ul ul {
-  display: block;
-  white-space: nowrap;
   opacity: 0;
 }
 .affix ul > li.active > ul,
