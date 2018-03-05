@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.LevelSetStats.html",
-          "hash": "Q80ibP45QQiOxaDPJoEzTQ=="
+          "hash": "jYXIKEIS/AObhhZTWpE7zg=="
         }
       },
       "is_incremental": false,
@@ -546,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Everest.Events.Player.html",
-          "hash": "gmJEIZdcq7K4MUB/gelO2g=="
+          "hash": "+XzudgYYLD6hJ1ujIr6ktw=="
         }
       },
       "is_incremental": false,
@@ -1398,7 +1398,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Monocle.VirtualContentExt.html",
-          "hash": "11YTCL1QA+zJZfnI6o10rQ=="
+          "hash": "xWpOIH3vyNkIqUnvaxPmsg=="
         }
       },
       "is_incremental": false,
@@ -1498,6 +1498,61 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/firstcodemod/1-newproj.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/firstcodemod/1-newproj.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/firstcodemod/2-everestdir.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/firstcodemod/2-everestdir.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/firstcodemod/3-addeverestproj.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/firstcodemod/3-addeverestproj.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/firstcodemod/4-addedeverestproj.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/firstcodemod/4-addedeverestproj.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/firstcodemod/5-addedeverestrefs.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/firstcodemod/5-addedeverestrefs.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/invite.png",
       "output": {
         "resource": {
@@ -1513,7 +1568,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "8hg50Duatbrj9blMxiH45Q=="
+          "hash": "TZrSLuIGShToUxQYqqu/rg=="
         }
       },
       "is_incremental": false,
@@ -1555,6 +1610,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "tutorials/firstcodemod.md",
+      "output": {
+        ".html": {
+          "relative_path": "tutorials/firstcodemod.html",
+          "hash": "8D2OUDbKyGtwDk/DtZKpXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "tutorials/index.md",
       "output": {
         ".html": {
@@ -1583,7 +1650,7 @@
       "output": {
         ".html": {
           "relative_path": "tutorials/toc.html",
-          "hash": "Dczj5H2sCM5CMqCBavZ20Q=="
+          "hash": "l8oIeC0P8DcfkYML6dzXuA=="
         }
       },
       "is_incremental": false,
@@ -1597,6 +1664,15 @@
         "incrementalPhase": "build"
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -1604,15 +1680,6 @@
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
-          "incrementalPhase": "build"
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }

@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Your First Code Mod | Everest </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Your First Code Mod | Everest ">
+    <meta name="generator" content="docfx 2.31.0.0">
+    <meta name="description" content="What project template do I use? How do I make my options show up? This chapter lists some common code mod setup information.">
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Your First Code Mod">
+    <meta property="og:site_name" content="Everest"><meta property="og:description" content="What project template do I use? How do I make my options show up? This chapter lists some common code mod setup information.">
+    <meta name="author" content="Everest Team">
+    <meta property="og:locale" content="en_US">
+    <link rel="canonical" href="https://everestapi.github.io/"><meta property="og:url" content="https://everestapi.github.io/">
+    <meta property="og:image" content="https://everestapi.github.io/logo.png">
+    <meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://everestapi.github.io/logo.png"><meta name="twitter:site" content="@everestapi"><meta name="twitter:creator" content="@everestapi">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../">
+                <img id="logo" src="../logo-small.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="your-first-code-mod">Your First Code Mod</h1>
+
+<hr>
+<!-- TODO: Get > [!PREREQUISITES] working -->
+<div class="PREREQUISITES">
+<h5>PREREQUISITES</h5>
+<p>
+<li>Everest: <a href="/">Website</a></li>
+<li>Visual Studio 2015 or newer. MonoDevelop instructions are different.</li>
+<li>NuGet, both for CLI and VS: <a href="https://www.nuget.org/downloads">Downloads</a>
+    <ul>
+        <li>Mono already ships with the <code>nuget</code> command-line command.</li>
+        <li>Make sure that <code>nuget.exe</code> is in a directory on your PATH. If you&#39;re on Windows and lazy, drop it in System32 <strong>at your own risk.</strong></li>
+    </ul>
+</li>
+<li><em>Optional:</em> git, either <a href="https://git-scm.com/downloads">CLI</a> or GUI client (f.e. <a href="https://desktop.github.com/">GitHub Desktop</a>)</li>
+</p>
+</div>
+
+<hr>
+<h2 id="project-setup">Project setup</h2>
+<p>Every Everest code mod starts out as a C# (.NET Framework) class library targeting the .NET Framework 4.5.2 (same as Celeste itself).</p>
+<ul>
+<li>Create a new project.</li>
+<li>In the top bar, select <code>.NET Framework 4.5.2</code></li>
+<li>In the left bar, select <code>Installed</code> &gt; <code>Visual C#</code></li>
+<li>Select the template <code>Class Library</code> (or <code>Class Library (.NET Framework)</code> or matching).</li>
+<li>Name your mod appropriately and create it in a new solution.</li>
+<li>Create a new directory for the solution.</li>
+</ul>
+<p>The dialog should look like this:</p>
+<p><img src="/images/firstcodemod/1-newproj.png" alt="1-newproj"></p>
+<h2 id="adding-everest-and-celeste">Adding Everest and Celeste</h2>
+<p>Now that you&#39;ve created a new, empty project, it&#39;s time to add the Everest API.</p>
+<h3 id="adding-everest-files">Adding Everest files</h3>
+<p>If your new project is a git repository, add Everest as a submodule.<br>CLI command: <code>git submodule add https://github.com/EverestAPI/Everest.git</code></p>
+<p>Otherwise, download the Everest source code .zip (<a href="https://github.com/EverestAPI/Everest/archive/master.zip">master</a>, <a href="https://github.com/EverestAPI/Everest/archive/stable.zip">stable</a>) and place it as <code>Everest</code> in your project directory.</p>
+<p>The file layout should look similar to this:</p>
+<p><img src="/images/firstcodemod/2-everestdir.png" alt="2-everestdir"></p>
+<h3 id="adding-everest-project">Adding Everest project</h3>
+<p>In Visual Studio, right-click the <em>solution</em> and add the existing Everest project.</p>
+<p><img src="/images/firstcodemod/3-addeverestproj.png" alt="3-addeverestproj"></p>
+<p>Navigate to where your project is, then into the Everest submodule, then Celeste.Mod.mm, then the matching <code>.csproj</code> project file.</p>
+<p>Everest (Celeste.Mod.mm) should now exist as a project in your solution like this:</p>
+<p><img src="/images/firstcodemod/4-addedeverestproj.png" alt="4-addedeverestproj"></p>
+<h3 id="adding-references">Adding References</h3>
+<p><strong>Everest comes with most of its dependencies in the <code>lib</code> and <code>lib-stripped</code> subdirectories.</strong></p>
+<ul>
+<li><code>lib</code> contains <code>.dlls</code> (and <code>MonoMod.exe</code>) ready to be used by your mod as-is.</li>
+<li><code>lib-stripped</code> contains copies of a select few game binaries, stripped with <code>mono-cil-strip</code>. They don&#39;t contain any executable code and only contain the definitions for you to compile against.</li>
+</ul>
+<div class="NOTE"><h5>Note</h5><p>Everest mods are built with the <a href="https://fna-xna.github.io/">FNA branch of Celeste</a> to make use of its <a href="https://github.com/FNA-XNA/FNA/wiki/5:-FNA-Extensions">API extensions</a> and for cross-platform compatibility. <strong>Everest will relink your mod from FNA to XNA at runtime.</strong></p>
+</div>
+<p>Right-click your project&#39;s &quot;References&quot; and select &quot;Add Reference...&quot;, then set up the references so that they look like in the following screenshot:</p>
+<p><img src="/images/firstcodemod/5-addedeverestrefs.png" alt="5-addedeverestrefs"></p>
+<div class="IMPORTANT"><h5>Important</h5><p>Make sure to go into the properties of each included reference and set &quot;Copy Local&quot; to &quot;False&quot;, otherwise Visual Studio will include outdated / conflicting copies in your mod.</p>
+</div>
+<h2 id="recommended-nuget-packages">Recommended NuGet packages</h2>
+<p><strong>We&#39;re recommending you to install the following NuGet packages:</strong></p>
+<ul>
+<li><code>Microsoft.Net.Compilers</code> - Maintain build compatibility on systems with older C# compilers installed.</li>
+<li><code>System.ValueTuple</code> - Used by HookedMethod.</li>
+<li><code>Mono.Cecil</code> - Used by HookedMethod and MonoMod. IL manipulation library. <strong>0.10.0 or newer required</strong></li>
+<li><code>HookedMethod</code> - Hook Celeste methods witr ease at runtime. <strong>0.3.1 or newer required</strong></li>
+</ul>
+<div class="IMPORTANT"><h5>Important</h5><p>Make sure to go into the properties of the Mono.Cecil and HookedMethod references and set &quot;Copy Local&quot; to &quot;False&quot;, otherwise Visual Studio will include outdated / conflicting copies in your mod.</p>
+</div>
+<h2 id="module-class">Module class</h2>
+<h2 id="settings-class">Settings class</h2>
+<h2 id="savedata-class">SaveData class</h2>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/EverestAPI/EverestAPI.github.io/blob/docfx/tutorials/firstcodemod.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Baked with 🍓 by the Everest Team
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

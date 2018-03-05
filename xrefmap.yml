@@ -388,7 +388,13 @@ references:
 - uid: Celeste.LevelSetStats.TotalStrawberries
   name: TotalStrawberries
   href: api/Celeste.LevelSetStats.html#Celeste_LevelSetStats_TotalStrawberries
-  commentId: F:Celeste.LevelSetStats.TotalStrawberries
+  commentId: P:Celeste.LevelSetStats.TotalStrawberries
+  fullName: Celeste.LevelSetStats.TotalStrawberries
+  nameWithType: LevelSetStats.TotalStrawberries
+- uid: Celeste.LevelSetStats.TotalStrawberries*
+  name: TotalStrawberries
+  href: api/Celeste.LevelSetStats.html#Celeste_LevelSetStats_TotalStrawberries_
+  commentId: Overload:Celeste.LevelSetStats.TotalStrawberries
   fullName: Celeste.LevelSetStats.TotalStrawberries
   nameWithType: LevelSetStats.TotalStrawberries
 - uid: Celeste.LevelSetStats.UnlockedAreas
@@ -2077,6 +2083,12 @@ references:
   commentId: E:Celeste.Mod.Everest.Events.Player.OnDie
   fullName: Celeste.Mod.Everest.Events.Player.OnDie
   nameWithType: Everest.Events.Player.OnDie
+- uid: Celeste.Mod.Everest.Events.Player.OnSpawn
+  name: OnSpawn
+  href: api/Celeste.Mod.Everest.Events.Player.html#Celeste_Mod_Everest_Events_Player_OnSpawn
+  commentId: E:Celeste.Mod.Everest.Events.Player.OnSpawn
+  fullName: Celeste.Mod.Everest.Events.Player.OnSpawn
+  nameWithType: Everest.Events.Player.OnSpawn
 - uid: Celeste.Mod.Everest.Invoke(System.String,System.Object[])
   name: Invoke(String, Object[])
   href: api/Celeste.Mod.Everest.html#Celeste_Mod_Everest_Invoke_System_String_System_Object___
@@ -7636,6 +7648,18 @@ references:
   commentId: Overload:Monocle.VirtualContentExt.CreateTexture
   fullName: Monocle.VirtualContentExt.CreateTexture
   nameWithType: VirtualContentExt.CreateTexture
+- uid: Monocle.VirtualContentExt.ForceReload
+  name: ForceReload()
+  href: api/Monocle.VirtualContentExt.html#Monocle_VirtualContentExt_ForceReload
+  commentId: M:Monocle.VirtualContentExt.ForceReload
+  fullName: Monocle.VirtualContentExt.ForceReload()
+  nameWithType: VirtualContentExt.ForceReload()
+- uid: Monocle.VirtualContentExt.ForceReload*
+  name: ForceReload
+  href: api/Monocle.VirtualContentExt.html#Monocle_VirtualContentExt_ForceReload_
+  commentId: Overload:Monocle.VirtualContentExt.ForceReload
+  fullName: Monocle.VirtualContentExt.ForceReload
+  nameWithType: VirtualContentExt.ForceReload
 - uid: Monocle.VirtualContentExt.Reload
   name: Reload()
   href: api/Monocle.VirtualContentExt.html#Monocle_VirtualContentExt_Reload
