@@ -89,7 +89,7 @@ Right-click your project's "References" and select "Add Reference...", then set 
 - `Microsoft.Net.Compilers` - Maintain build compatibility on systems with older C# compilers installed. **Latest version recommended**
 - `System.ValueTuple` - Used by HookedMethod.
 - `Mono.Cecil` - Used by HookedMethod and MonoMod. IL manipulation library. **0.10.0 or newer required**
-- `HookedMethod` - Hook methods with ease at runtime. **0.3.1 or newer required, earlier versions are broken**
+- `HookedMethod` - Hook methods with ease at runtime. **0.3.1 or newer required**
 
 > [!IMPORTANT]
 > Make sure to go into the properties of the Mono.Cecil and HookedMethod references and set "Copy Local" to "False", otherwise Visual Studio will include outdated / conflicting copies in your mod.
