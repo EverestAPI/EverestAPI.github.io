@@ -1614,7 +1614,7 @@
       "output": {
         ".html": {
           "relative_path": "tutorials/firstcodemod.html",
-          "hash": "3H7cIpsUUBF5gBjZ8sGDiA=="
+          "hash": "WsRPeaDEs19qQ1cXIreRSQ=="
         }
       },
       "is_incremental": false,
@@ -1664,17 +1664,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build"
         },
         "TocDocumentProcessor": {
