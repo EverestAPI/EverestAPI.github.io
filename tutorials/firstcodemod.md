@@ -86,10 +86,10 @@ Right-click your project's "References" and select "Add Reference...", then set 
 ## Recommended NuGet packages
 
 **We're recommending you to install the following NuGet packages:**
-- `Microsoft.Net.Compilers` - Maintain build compatibility on systems with older C# compilers installed.
+- `Microsoft.Net.Compilers` - Maintain build compatibility on systems with older C# compilers installed. **Latest version recommended**
 - `System.ValueTuple` - Used by HookedMethod.
 - `Mono.Cecil` - Used by HookedMethod and MonoMod. IL manipulation library. **0.10.0 or newer required**
-- `HookedMethod` - Hook Celeste methods witr ease at runtime. **0.3.1 or newer required**
+- `HookedMethod` - Hook methods with ease at runtime. **0.3.1 or newer required, earlier versions are broken**
 
 > [!IMPORTANT]
 > Make sure to go into the properties of the Mono.Cecil and HookedMethod references and set "Copy Local" to "False", otherwise Visual Studio will include outdated / conflicting copies in your mod.
@@ -154,6 +154,14 @@ namespace Celeste.Mod.Example {
     }
 }
 ```
+
+### Hooking Methods
+There are currently 3 ways to hook methods. These are:
+
+* RuntimeDetour: This is currently used by [RainbowMod](https://github.com/EverestAPI/RainbowMod) and [MadelineEnergySelector](https://github.com/EverestAPI/MadelineEnergySelector), and will be deprecated for end-user mods once HookedMethod has a stable version.
+* HookedMethod.Hook: This is the replacement for RuntimeDetour, intended to be more user-friendly and have more features. Currently, it has nothing except a slightly simpler interface, and a backbone to easily allow adding IL-manipulation and complex non-detour functionality. RainbowMod will most likely be ported to HookedMethod.Hook in the near future. This is currently recommended for new mods that do not require a stable development interface. Documentation is available in [`Examples/Examples.cs`](https://github.com/EverestAPI/HookedMethod/blob/master/Examples/Program.cs) in the HookedMethod repo.
+* Everest.Events: This is the hooking method built in to Everest, and is used by [GhostMod](https://github.com/EverestAPI/GhostMod).
+  * There's an early WIP to replace this with a feature of HookedMethod, HookedMethod.EventHook. MadelineEnergySelector may be ported to use this instead of RuntimeDetour.
 
 ## Settings / SaveData class
 
