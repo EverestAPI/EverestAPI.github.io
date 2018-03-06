@@ -143,10 +143,10 @@
 <h2 id="recommended-nuget-packages">Recommended NuGet packages</h2>
 <p><strong>We&#39;re recommending you to install the following NuGet packages:</strong></p>
 <ul>
-<li><code>Microsoft.Net.Compilers</code> - Maintain build compatibility on systems with older C# compilers installed.</li>
+<li><code>Microsoft.Net.Compilers</code> - Maintain build compatibility on systems with older C# compilers installed. <strong>Latest version recommended</strong></li>
 <li><code>System.ValueTuple</code> - Used by HookedMethod.</li>
 <li><code>Mono.Cecil</code> - Used by HookedMethod and MonoMod. IL manipulation library. <strong>0.10.0 or newer required</strong></li>
-<li><code>HookedMethod</code> - Hook Celeste methods witr ease at runtime. <strong>0.3.1 or newer required</strong></li>
+<li><code>HookedMethod</code> - Hook methods with ease at runtime. <strong>0.3.1 or newer required</strong></li>
 </ul>
 <div class="IMPORTANT"><h5>Important</h5><p>Make sure to go into the properties of the Mono.Cecil and HookedMethod references and set &quot;Copy Local&quot; to &quot;False&quot;, otherwise Visual Studio will include outdated / conflicting copies in your mod.</p>
 </div>
@@ -204,7 +204,17 @@ namespace Celeste.Mod.Example {
 
     }
 }
-</code></pre><h2 id="settings--savedata-class">Settings / SaveData class</h2>
+</code></pre><h3 id="hooking-methods">Hooking Methods</h3>
+<p>There are currently 3 ways to hook methods. These are:</p>
+<ul>
+<li>RuntimeDetour: This is currently used by <a href="https://github.com/EverestAPI/RainbowMod">RainbowMod</a> and <a href="https://github.com/EverestAPI/MadelineEnergySelector">MadelineEnergySelector</a>, and will be deprecated for end-user mods once HookedMethod has a stable version.</li>
+<li>HookedMethod.Hook: This is the replacement for RuntimeDetour, intended to be more user-friendly and have more features. Currently, it has nothing except a slightly simpler interface, and a backbone to easily allow adding IL-manipulation and complex non-detour functionality. RainbowMod will most likely be ported to HookedMethod.Hook in the near future. This is currently recommended for new mods that do not require a stable development interface. Documentation is available in <a href="https://github.com/EverestAPI/HookedMethod/blob/master/Examples/Program.cs"><code>Examples/Examples.cs</code></a> in the HookedMethod repo.</li>
+<li>Everest.Events: This is the hooking method built in to Everest, and is used by <a href="https://github.com/EverestAPI/GhostMod">GhostMod</a>.<ul>
+<li>There&#39;s an early WIP to replace this with a feature of HookedMethod, HookedMethod.EventHook. MadelineEnergySelector may be ported to use this instead of RuntimeDetour.</li>
+</ul>
+</li>
+</ul>
+<h2 id="settings--savedata-class">Settings / SaveData class</h2>
 <p>Your settings class should look similar to the example.</p>
 <p>Save data classes are very similar, but inherit from <code>EverestModuleSaveData</code> and the <code>Setting*</code> attributes are ignored.</p>
 <div class="NOTE"><h5>Note</h5><p><strong>All entries must be properties</strong>, unless you&#39;re overriding <code>LoadSettings</code> and <code>SaveSettings</code> / <code>LoadSaveData</code> and <code>SaveSaveData</code> to bypass YamlDotNet&#39;s restrictions.</p>
