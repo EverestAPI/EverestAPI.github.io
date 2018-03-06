@@ -151,9 +151,127 @@
 <div class="IMPORTANT"><h5>Important</h5><p>Make sure to go into the properties of the Mono.Cecil and HookedMethod references and set &quot;Copy Local&quot; to &quot;False&quot;, otherwise Visual Studio will include outdated / conflicting copies in your mod.</p>
 </div>
 <h2 id="module-class">Module class</h2>
-<h2 id="settings-class">Settings class</h2>
-<h2 id="savedata-class">SaveData class</h2>
-</article>
+<p>Your module class should look similar to the example.</p>
+<div class="NOTE"><h5>Note</h5><p>This example only shows a subset of Everest&#39;s capabilities.<br><a href="https://everestapi.github.io/api/Celeste.Mod.EverestModule.html"><strong>Read the full <code>EverestModule</code> documentation here.</strong></a></p>
+</div>
+<pre><code class="lang-cs">// Example usings.
+using Celeste.Mod.UI;
+using FMOD.Studio;
+using Microsoft.Xna.Framework;
+using Monocle;
+using Celeste;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Celeste.Mod.Example {
+    public class ExampleModule : EverestModule {
+
+        // Only one alive module instance can exist at any given time.
+        public static ExampleModule Instance;
+
+        public ExampleModule() {
+            Instance = this;
+        }
+
+        // If you don&#39;t need to store any settings, =&gt; null
+        public override Type SettingsType =&gt; typeof(ExampleSettings);
+        public static ExampleSettings Settings =&gt; (ExampleSettings) Instance._Settings;
+
+        // If you don&#39;t need to store any save data, =&gt; null
+        public override Type SaveDataType =&gt; typeof(ExampleSaveData);
+        public static ExampleSaveData SaveData =&gt; (ExampleSaveData) Instance._SaveData;
+
+        // Set up any hooks, event handlers and your mod in general here.
+        // Load runs before Celeste itself has initialized properly.
+        public override void Load() {
+        }
+
+        // Optional, initialize anything after Celeste has initialized itself properly.
+        public override void Initialize() {
+        }
+
+        // Optional, do anything requiring either the Celeste or mod content here.
+        public override void LoadContent() {
+        }
+
+        // Unload the entirety of your mod&#39;s content, remove any event listeners and undo all hooks.
+        public override void Unload() {
+        }
+
+    }
+}
+</code></pre><h2 id="settings--savedata-class">Settings / SaveData class</h2>
+<p>Your settings class should look similar to the example.</p>
+<p>Save data classes are very similar, but inherit from <code>EverestModuleSaveData</code> and the <code>Setting*</code> attributes are ignored.</p>
+<div class="NOTE"><h5>Note</h5><p><strong>All entries must be properties</strong>, unless you&#39;re overriding <code>LoadSettings</code> and <code>SaveSettings</code> / <code>LoadSaveData</code> and <code>SaveSaveData</code> to bypass YamlDotNet&#39;s restrictions.</p>
+<p>This example only shows a subset of Everest&#39;s capabilities.<br><a href="https://everestapi.github.io/api/Celeste.Mod.EverestModuleSettings.html"><strong>Read the full <code>EverestModuleSettings</code> documentation here.</strong></a></p>
+<p>For all settings attributes, search for <code>Celeste.Mod.Setting</code> in the Everest API.</p>
+</div>
+<pre><code class="lang-cs">// Example usings.
+using Celeste;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using YamlDotNet.Serialization;
+
+namespace Celeste.Mod.Example {
+    // If no SettingName is applied, it defaults to
+    // modoptions_[typename without settings]_title
+    // The value is then used to look up the UI text in the dialog files.
+    // If no dialog text can be found, Everest shows a prettified mod name instead.
+    [SettingName(&quot;modoptions_examplemodule_title&quot;)]
+    public class ExampleModuleSettings : EverestModuleSettings { 
+
+        // SettingName also works on props, defaulting to
+        // modoptions_[typename without settings]_[propname]
+
+        // Example ON / OFF property with a default value.
+        public bool ExampleSwitch { get; set; } = false;
+
+        [SettingIgnore] // Hide from the options menu, but still load / save it.
+        public string ExampleHidden { get; set; } = &quot;&quot;;
+
+        [SettingRange(0, 10)] // Allow choosing a value from 0 (inclusive) to 10 (inclusive).
+        public int ExampleSlider { get; set; } = 5;
+
+        [SettingRange(0, 10)]
+        [SettingInGame(false)] // Only show this in the main menu.
+        public int ExampleMainMenuSlider { get; set; } = 5;
+
+        [SettingRange(0, 10)]
+        [SettingInGame(true)] // Only show this in the in-game menu.
+        public int ExampleInGameSlider { get; set; } = 5;
+
+        [YamlIgnore] // Don&#39;t load / save it, but show it in the options menu.
+        [SettingNeedsRelaunch] // Tell the user to restart for changes to take effect.
+        public bool LaunchInDebugMode {
+            get {
+                return Settings.Instance.LaunchInDebugMode;
+            }
+            set {
+                Settings.Instance.LaunchInDebugMode = value;
+            }
+        }
+
+        public int SomethingWeird { get; set; } = 42;
+
+        // Custom entry creation methods are always called Create[propname]Entry
+        // and offer an alternative to overriding CreateModMenuSection in your module class.
+        public void CreateSomethingWeirdEntry(TextMenu menu, bool inGame) {
+            // Create your own menu entry here.
+            // Maybe you want to create a toggle for an int property?
+        }
+
+    }
+}
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
