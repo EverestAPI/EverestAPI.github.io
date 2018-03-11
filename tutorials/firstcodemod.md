@@ -51,6 +51,12 @@ CLI command: `git submodule add https://github.com/EverestAPI/Everest.git`
 
 Otherwise, download the Everest source code .zip ([master](https://github.com/EverestAPI/Everest/archive/master.zip), [stable](https://github.com/EverestAPI/Everest/archive/stable.zip)) and place it as `Everest` in your project directory.
 
+After adding Everest, open a terminal (cmd, bash) in the Everest directory and execute the following command:
+
+```
+nuget restore Everest.sln
+```
+
 The file layout should look similar to this:
 
 ![2-everestdir](/images/firstcodemod/2-everestdir.png)
@@ -62,6 +68,8 @@ In Visual Studio, right-click the _solution_ and add the existing Everest projec
 ![3-addeverestproj](/images/firstcodemod/3-addeverestproj.png)
 
 Navigate to where your project is, then into the Everest submodule, then Celeste.Mod.mm, then the matching `.csproj` project file.
+
+Afterwards, right-click on Celeste.Mod.mm and build it.
 
 Everest (Celeste.Mod.mm) should now exist as a project in your solution like this:
 
@@ -82,6 +90,21 @@ Right-click your project's "References" and select "Add Reference...", then set 
 
 > [!IMPORTANT]
 > Make sure to go into the properties of each included reference and set "Copy Local" to "False", otherwise Visual Studio will include outdated / conflicting copies in your mod.
+
+> [!IMPORTANT]
+> If you want to maintain cross-platform compatibility, make sure to remove any .NET Framework references not on this list.
+> - System
+> - System.Configuration
+> - System.Core
+> - System.Data
+> - System.Drawing (available, but behaves unpredictably)
+> - System.Runtime.Serialization
+> - System.Security
+> - System.Xml
+> - System.Xml.Linq
+>
+> This means: Microsoft.CSharp, System.Windows.Anything, System.IO.Compression and other libraries are not available on Linux / macOS.  
+> For an up-to-date list, check the [list of precompiled MonoKickstart libraries](https://github.com/flibitijibibo/MonoKickstart/tree/master/precompiled), as Celeste uses them for Linux / macOS.
 
 ## Recommended NuGet packages
 
