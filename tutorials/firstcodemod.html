@@ -120,12 +120,15 @@
 <h3 id="adding-everest-files">Adding Everest files</h3>
 <p>If your new project is a git repository, add Everest as a submodule.<br>CLI command: <code>git submodule add https://github.com/EverestAPI/Everest.git</code></p>
 <p>Otherwise, download the Everest source code .zip (<a href="https://github.com/EverestAPI/Everest/archive/master.zip">master</a>, <a href="https://github.com/EverestAPI/Everest/archive/stable.zip">stable</a>) and place it as <code>Everest</code> in your project directory.</p>
-<p>The file layout should look similar to this:</p>
+<p>After adding Everest, open a terminal (cmd, bash) in the Everest directory and execute the following command:</p>
+<pre><code>nuget restore Everest.sln
+</code></pre><p>The file layout should look similar to this:</p>
 <p><img src="/images/firstcodemod/2-everestdir.png" alt="2-everestdir"></p>
 <h3 id="adding-everest-project">Adding Everest project</h3>
 <p>In Visual Studio, right-click the <em>solution</em> and add the existing Everest project.</p>
 <p><img src="/images/firstcodemod/3-addeverestproj.png" alt="3-addeverestproj"></p>
 <p>Navigate to where your project is, then into the Everest submodule, then Celeste.Mod.mm, then the matching <code>.csproj</code> project file.</p>
+<p>Afterwards, right-click on Celeste.Mod.mm and build it.</p>
 <p>Everest (Celeste.Mod.mm) should now exist as a project in your solution like this:</p>
 <p><img src="/images/firstcodemod/4-addedeverestproj.png" alt="4-addedeverestproj"></p>
 <h3 id="adding-references">Adding References</h3>
@@ -139,6 +142,20 @@
 <p>Right-click your project&#39;s &quot;References&quot; and select &quot;Add Reference...&quot;, then set up the references so that they look like in the following screenshot:</p>
 <p><img src="/images/firstcodemod/5-addedeverestrefs.png" alt="5-addedeverestrefs"></p>
 <div class="IMPORTANT"><h5>Important</h5><p>Make sure to go into the properties of each included reference and set &quot;Copy Local&quot; to &quot;False&quot;, otherwise Visual Studio will include outdated / conflicting copies in your mod.</p>
+</div>
+<div class="IMPORTANT"><h5>Important</h5><p>If you want to maintain cross-platform compatibility, make sure to remove any .NET Framework references not on this list.</p>
+<ul>
+<li>System</li>
+<li>System.Configuration</li>
+<li>System.Core</li>
+<li>System.Data</li>
+<li>System.Drawing (available, but behaves unpredictably)</li>
+<li>System.Runtime.Serialization</li>
+<li>System.Security</li>
+<li>System.Xml</li>
+<li>System.Xml.Linq</li>
+</ul>
+<p>This means: Microsoft.CSharp, System.Windows.Anything, System.IO.Compression and other libraries are not available on Linux / macOS.<br>For an up-to-date list, check the <a href="https://github.com/flibitijibibo/MonoKickstart/tree/master/precompiled">list of precompiled MonoKickstart libraries</a>, as Celeste uses them for Linux / macOS.</p>
 </div>
 <h2 id="recommended-nuget-packages">Recommended NuGet packages</h2>
 <p><strong>We&#39;re recommending you to install the following NuGet packages:</strong></p>

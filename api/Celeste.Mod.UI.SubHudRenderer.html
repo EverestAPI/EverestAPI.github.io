@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class LevelExt
+    <title>Class SubHudRenderer
    | Everest </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class LevelExt
+    <meta name="title" content="Class SubHudRenderer
    | Everest ">
     <meta name="generator" content="docfx 2.31.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
@@ -22,7 +22,7 @@
     <meta property="docfx:rel" content="../">
     <meta property="docfx:newtab" content="true">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Class LevelExt
+    <meta property="og:title" content="Class SubHudRenderer
   ">
     <meta property="og:site_name" content="Everest"><meta property="og:description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <meta name="author" content="Everest Team">
@@ -85,59 +85,100 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Celeste.LevelExt">
+            <article class="content wrap" id="_content" data-uid="Celeste.Mod.UI.SubHudRenderer">
   
   
-  <h1 id="Celeste_LevelExt" data-uid="Celeste.LevelExt" class="text-break">Class LevelExt
+  <h1 id="Celeste_Mod_UI_SubHudRenderer" data-uid="Celeste.Mod.UI.SubHudRenderer" class="text-break">Class SubHudRenderer
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">LevelExt</span></div>
+    <div class="level1"><span class="xref">SubHudRenderer</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Celeste.html">Celeste</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Celeste.Mod.UI.html">Celeste.Mod.UI</a></h6>
   <h6><strong>Assembly</strong>: Celeste.Mod.mm.dll</h6>
-  <h5 id="Celeste_LevelExt_syntax">Syntax</h5>
+  <h5 id="Celeste_Mod_UI_SubHudRenderer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class LevelExt</code></pre>
+    <pre><code class="lang-csharp hljs">public class SubHudRenderer : Renderer</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Celeste_Mod_UI_SubHudRenderer__ctor_" data-uid="Celeste.Mod.UI.SubHudRenderer.#ctor*"></a>
+  <h4 id="Celeste_Mod_UI_SubHudRenderer__ctor" data-uid="Celeste.Mod.UI.SubHudRenderer.#ctor">SubHudRenderer()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SubHudRenderer()</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Celeste_Mod_UI_SubHudRenderer_Buffer" data-uid="Celeste.Mod.UI.SubHudRenderer.Buffer">Buffer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VirtualRenderTarget Buffer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Monocle.VirtualRenderTarget</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Celeste_Mod_UI_SubHudRenderer_DrawToBuffer_" data-uid="Celeste.Mod.UI.SubHudRenderer.DrawToBuffer*"></a>
+  <h4 id="Celeste_Mod_UI_SubHudRenderer_DrawToBuffer" data-uid="Celeste.Mod.UI.SubHudRenderer.DrawToBuffer">DrawToBuffer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool DrawToBuffer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Celeste_LevelExt_GetSubHudRenderer_" data-uid="Celeste.LevelExt.GetSubHudRenderer*"></a>
-  <h4 id="Celeste_LevelExt_GetSubHudRenderer_Celeste_Level_" data-uid="Celeste.LevelExt.GetSubHudRenderer(Celeste.Level)">GetSubHudRenderer(Level)</h4>
+  <a id="Celeste_Mod_UI_SubHudRenderer_BeforeRender_" data-uid="Celeste.Mod.UI.SubHudRenderer.BeforeRender*"></a>
+  <h4 id="Celeste_Mod_UI_SubHudRenderer_BeforeRender_Monocle_Scene_" data-uid="Celeste.Mod.UI.SubHudRenderer.BeforeRender(Monocle.Scene)">BeforeRender(Scene)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SubHudRenderer GetSubHudRenderer(this Level self)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void BeforeRender(Scene scene)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -150,36 +191,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Celeste.Level</span></td>
-        <td><span class="parametername">self</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Celeste.Mod.UI.SubHudRenderer.html">SubHudRenderer</a></td>
+        <td><span class="xref">Monocle.Scene</span></td>
+        <td><span class="parametername">scene</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Celeste_LevelExt_SetSubHudRenderer_" data-uid="Celeste.LevelExt.SetSubHudRenderer*"></a>
-  <h4 id="Celeste_LevelExt_SetSubHudRenderer_Celeste_Level_Celeste_Mod_UI_SubHudRenderer_" data-uid="Celeste.LevelExt.SetSubHudRenderer(Celeste.Level,Celeste.Mod.UI.SubHudRenderer)">SetSubHudRenderer(Level, SubHudRenderer)</h4>
+  <a id="Celeste_Mod_UI_SubHudRenderer_BeginRender_" data-uid="Celeste.Mod.UI.SubHudRenderer.BeginRender*"></a>
+  <h4 id="Celeste_Mod_UI_SubHudRenderer_BeginRender_Microsoft_Xna_Framework_Graphics_BlendState_Microsoft_Xna_Framework_Graphics_SamplerState_" data-uid="Celeste.Mod.UI.SubHudRenderer.BeginRender(Microsoft.Xna.Framework.Graphics.BlendState,Microsoft.Xna.Framework.Graphics.SamplerState)">BeginRender(BlendState, SamplerState)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetSubHudRenderer(this Level self, SubHudRenderer value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void BeginRender(BlendState blend = null, SamplerState sampler = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -192,13 +218,77 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Celeste.Level</span></td>
-        <td><span class="parametername">self</span></td>
+        <td><span class="xref">Microsoft.Xna.Framework.Graphics.BlendState</span></td>
+        <td><span class="parametername">blend</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Celeste.Mod.UI.SubHudRenderer.html">SubHudRenderer</a></td>
-        <td><span class="parametername">value</span></td>
+        <td><span class="xref">Microsoft.Xna.Framework.Graphics.SamplerState</span></td>
+        <td><span class="parametername">sampler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_UI_SubHudRenderer_EndRender_" data-uid="Celeste.Mod.UI.SubHudRenderer.EndRender*"></a>
+  <h4 id="Celeste_Mod_UI_SubHudRenderer_EndRender" data-uid="Celeste.Mod.UI.SubHudRenderer.EndRender">EndRender()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EndRender()</code></pre>
+  </div>
+  
+  
+  <a id="Celeste_Mod_UI_SubHudRenderer_Render_" data-uid="Celeste.Mod.UI.SubHudRenderer.Render*"></a>
+  <h4 id="Celeste_Mod_UI_SubHudRenderer_Render_Monocle_Scene_" data-uid="Celeste.Mod.UI.SubHudRenderer.Render(Monocle.Scene)">Render(Scene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Render(Scene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Monocle.Scene</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_UI_SubHudRenderer_RenderContent_" data-uid="Celeste.Mod.UI.SubHudRenderer.RenderContent*"></a>
+  <h4 id="Celeste_Mod_UI_SubHudRenderer_RenderContent_Monocle_Scene_" data-uid="Celeste.Mod.UI.SubHudRenderer.RenderContent(Monocle.Scene)">RenderContent(Scene)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RenderContent(Scene scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Monocle.Scene</span></td>
+        <td><span class="parametername">scene</span></td>
         <td></td>
       </tr>
     </tbody>

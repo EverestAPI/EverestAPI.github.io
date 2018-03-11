@@ -247,6 +247,24 @@ references:
   commentId: Overload:Celeste.DialogExt.CleanLevelSet
   fullName: Celeste.DialogExt.CleanLevelSet
   nameWithType: DialogExt.CleanLevelSet
+- uid: Celeste.GameplayRendererExt
+  name: GameplayRendererExt
+  href: api/Celeste.GameplayRendererExt.html
+  commentId: T:Celeste.GameplayRendererExt
+  fullName: Celeste.GameplayRendererExt
+  nameWithType: GameplayRendererExt
+- uid: Celeste.GameplayRendererExt.RenderDebug
+  name: RenderDebug
+  href: api/Celeste.GameplayRendererExt.html#Celeste_GameplayRendererExt_RenderDebug
+  commentId: P:Celeste.GameplayRendererExt.RenderDebug
+  fullName: Celeste.GameplayRendererExt.RenderDebug
+  nameWithType: GameplayRendererExt.RenderDebug
+- uid: Celeste.GameplayRendererExt.RenderDebug*
+  name: RenderDebug
+  href: api/Celeste.GameplayRendererExt.html#Celeste_GameplayRendererExt_RenderDebug_
+  commentId: Overload:Celeste.GameplayRendererExt.RenderDebug
+  fullName: Celeste.GameplayRendererExt.RenderDebug
+  nameWithType: GameplayRendererExt.RenderDebug
 - uid: Celeste.LevelEnterExt
   name: LevelEnterExt
   href: api/Celeste.LevelEnterExt.html
@@ -271,6 +289,30 @@ references:
   commentId: T:Celeste.LevelExt
   fullName: Celeste.LevelExt
   nameWithType: LevelExt
+- uid: Celeste.LevelExt.GetSubHudRenderer(Celeste.Level)
+  name: GetSubHudRenderer(Level)
+  href: api/Celeste.LevelExt.html#Celeste_LevelExt_GetSubHudRenderer_Celeste_Level_
+  commentId: M:Celeste.LevelExt.GetSubHudRenderer(Celeste.Level)
+  fullName: Celeste.LevelExt.GetSubHudRenderer(Celeste.Level)
+  nameWithType: LevelExt.GetSubHudRenderer(Level)
+- uid: Celeste.LevelExt.GetSubHudRenderer*
+  name: GetSubHudRenderer
+  href: api/Celeste.LevelExt.html#Celeste_LevelExt_GetSubHudRenderer_
+  commentId: Overload:Celeste.LevelExt.GetSubHudRenderer
+  fullName: Celeste.LevelExt.GetSubHudRenderer
+  nameWithType: LevelExt.GetSubHudRenderer
+- uid: Celeste.LevelExt.SetSubHudRenderer(Celeste.Level,Celeste.Mod.UI.SubHudRenderer)
+  name: SetSubHudRenderer(Level, SubHudRenderer)
+  href: api/Celeste.LevelExt.html#Celeste_LevelExt_SetSubHudRenderer_Celeste_Level_Celeste_Mod_UI_SubHudRenderer_
+  commentId: M:Celeste.LevelExt.SetSubHudRenderer(Celeste.Level,Celeste.Mod.UI.SubHudRenderer)
+  fullName: Celeste.LevelExt.SetSubHudRenderer(Celeste.Level, Celeste.Mod.UI.SubHudRenderer)
+  nameWithType: LevelExt.SetSubHudRenderer(Level, SubHudRenderer)
+- uid: Celeste.LevelExt.SetSubHudRenderer*
+  name: SetSubHudRenderer
+  href: api/Celeste.LevelExt.html#Celeste_LevelExt_SetSubHudRenderer_
+  commentId: Overload:Celeste.LevelExt.SetSubHudRenderer
+  fullName: Celeste.LevelExt.SetSubHudRenderer
+  nameWithType: LevelExt.SetSubHudRenderer
 - uid: Celeste.LevelSetStats
   name: LevelSetStats
   href: api/Celeste.LevelSetStats.html
@@ -2575,6 +2617,12 @@ references:
   commentId: M:Celeste.Mod.EverestModule.LoadContent
   fullName: Celeste.Mod.EverestModule.LoadContent()
   nameWithType: EverestModule.LoadContent()
+- uid: Celeste.Mod.EverestModule.LoadContent(System.Boolean)
+  name: LoadContent(Boolean)
+  href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_LoadContent_System_Boolean_
+  commentId: M:Celeste.Mod.EverestModule.LoadContent(System.Boolean)
+  fullName: Celeste.Mod.EverestModule.LoadContent(System.Boolean)
+  nameWithType: EverestModule.LoadContent(Boolean)
 - uid: Celeste.Mod.EverestModule.LoadContent*
   name: LoadContent
   href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_LoadContent_
@@ -6148,6 +6196,30 @@ references:
   commentId: F:Celeste.Mod.SettingRangeAttribute.Min
   fullName: Celeste.Mod.SettingRangeAttribute.Min
   nameWithType: SettingRangeAttribute.Min
+- uid: Celeste.Mod.TextInput
+  name: TextInput
+  href: api/Celeste.Mod.TextInput.html
+  commentId: T:Celeste.Mod.TextInput
+  fullName: Celeste.Mod.TextInput
+  nameWithType: TextInput
+- uid: Celeste.Mod.TextInput.Initialized
+  name: Initialized
+  href: api/Celeste.Mod.TextInput.html#Celeste_Mod_TextInput_Initialized
+  commentId: P:Celeste.Mod.TextInput.Initialized
+  fullName: Celeste.Mod.TextInput.Initialized
+  nameWithType: TextInput.Initialized
+- uid: Celeste.Mod.TextInput.Initialized*
+  name: Initialized
+  href: api/Celeste.Mod.TextInput.html#Celeste_Mod_TextInput_Initialized_
+  commentId: Overload:Celeste.Mod.TextInput.Initialized
+  fullName: Celeste.Mod.TextInput.Initialized
+  nameWithType: TextInput.Initialized
+- uid: Celeste.Mod.TextInput.OnInput
+  name: OnInput
+  href: api/Celeste.Mod.TextInput.html#Celeste_Mod_TextInput_OnInput
+  commentId: F:Celeste.Mod.TextInput.OnInput
+  fullName: Celeste.Mod.TextInput.OnInput
+  nameWithType: TextInput.OnInput
 - uid: Celeste.Mod.TypeGuesser
   name: TypeGuesser
   href: api/Celeste.Mod.TypeGuesser.html
@@ -6856,6 +6928,102 @@ references:
   commentId: Overload:Celeste.Mod.UI.OuiVersionList.Update
   fullName: Celeste.Mod.UI.OuiVersionList.Update
   nameWithType: OuiVersionList.Update
+- uid: Celeste.Mod.UI.SubHudRenderer
+  name: SubHudRenderer
+  href: api/Celeste.Mod.UI.SubHudRenderer.html
+  commentId: T:Celeste.Mod.UI.SubHudRenderer
+  fullName: Celeste.Mod.UI.SubHudRenderer
+  nameWithType: SubHudRenderer
+- uid: Celeste.Mod.UI.SubHudRenderer.#ctor
+  name: SubHudRenderer()
+  href: api/Celeste.Mod.UI.SubHudRenderer.html#Celeste_Mod_UI_SubHudRenderer__ctor
+  commentId: M:Celeste.Mod.UI.SubHudRenderer.#ctor
+  fullName: Celeste.Mod.UI.SubHudRenderer.SubHudRenderer()
+  nameWithType: SubHudRenderer.SubHudRenderer()
+- uid: Celeste.Mod.UI.SubHudRenderer.#ctor*
+  name: SubHudRenderer
+  href: api/Celeste.Mod.UI.SubHudRenderer.html#Celeste_Mod_UI_SubHudRenderer__ctor_
+  commentId: Overload:Celeste.Mod.UI.SubHudRenderer.#ctor
+  fullName: Celeste.Mod.UI.SubHudRenderer.SubHudRenderer
+  nameWithType: SubHudRenderer.SubHudRenderer
+- uid: Celeste.Mod.UI.SubHudRenderer.BeforeRender(Monocle.Scene)
+  name: BeforeRender(Scene)
+  href: api/Celeste.Mod.UI.SubHudRenderer.html#Celeste_Mod_UI_SubHudRenderer_BeforeRender_Monocle_Scene_
+  commentId: M:Celeste.Mod.UI.SubHudRenderer.BeforeRender(Monocle.Scene)
+  fullName: Celeste.Mod.UI.SubHudRenderer.BeforeRender(Monocle.Scene)
+  nameWithType: SubHudRenderer.BeforeRender(Scene)
+- uid: Celeste.Mod.UI.SubHudRenderer.BeforeRender*
+  name: BeforeRender
+  href: api/Celeste.Mod.UI.SubHudRenderer.html#Celeste_Mod_UI_SubHudRenderer_BeforeRender_
+  commentId: Overload:Celeste.Mod.UI.SubHudRenderer.BeforeRender
+  fullName: Celeste.Mod.UI.SubHudRenderer.BeforeRender
+  nameWithType: SubHudRenderer.BeforeRender
+- uid: Celeste.Mod.UI.SubHudRenderer.BeginRender(Microsoft.Xna.Framework.Graphics.BlendState,Microsoft.Xna.Framework.Graphics.SamplerState)
+  name: BeginRender(BlendState, SamplerState)
+  href: api/Celeste.Mod.UI.SubHudRenderer.html#Celeste_Mod_UI_SubHudRenderer_BeginRender_Microsoft_Xna_Framework_Graphics_BlendState_Microsoft_Xna_Framework_Graphics_SamplerState_
+  commentId: M:Celeste.Mod.UI.SubHudRenderer.BeginRender(Microsoft.Xna.Framework.Graphics.BlendState,Microsoft.Xna.Framework.Graphics.SamplerState)
+  fullName: Celeste.Mod.UI.SubHudRenderer.BeginRender(Microsoft.Xna.Framework.Graphics.BlendState, Microsoft.Xna.Framework.Graphics.SamplerState)
+  nameWithType: SubHudRenderer.BeginRender(BlendState, SamplerState)
+- uid: Celeste.Mod.UI.SubHudRenderer.BeginRender*
+  name: BeginRender
+  href: api/Celeste.Mod.UI.SubHudRenderer.html#Celeste_Mod_UI_SubHudRenderer_BeginRender_
+  commentId: Overload:Celeste.Mod.UI.SubHudRenderer.BeginRender
+  fullName: Celeste.Mod.UI.SubHudRenderer.BeginRender
+  nameWithType: SubHudRenderer.BeginRender
+- uid: Celeste.Mod.UI.SubHudRenderer.Buffer
+  name: Buffer
+  href: api/Celeste.Mod.UI.SubHudRenderer.html#Celeste_Mod_UI_SubHudRenderer_Buffer
+  commentId: F:Celeste.Mod.UI.SubHudRenderer.Buffer
+  fullName: Celeste.Mod.UI.SubHudRenderer.Buffer
+  nameWithType: SubHudRenderer.Buffer
+- uid: Celeste.Mod.UI.SubHudRenderer.DrawToBuffer
+  name: DrawToBuffer
+  href: api/Celeste.Mod.UI.SubHudRenderer.html#Celeste_Mod_UI_SubHudRenderer_DrawToBuffer
+  commentId: P:Celeste.Mod.UI.SubHudRenderer.DrawToBuffer
+  fullName: Celeste.Mod.UI.SubHudRenderer.DrawToBuffer
+  nameWithType: SubHudRenderer.DrawToBuffer
+- uid: Celeste.Mod.UI.SubHudRenderer.DrawToBuffer*
+  name: DrawToBuffer
+  href: api/Celeste.Mod.UI.SubHudRenderer.html#Celeste_Mod_UI_SubHudRenderer_DrawToBuffer_
+  commentId: Overload:Celeste.Mod.UI.SubHudRenderer.DrawToBuffer
+  fullName: Celeste.Mod.UI.SubHudRenderer.DrawToBuffer
+  nameWithType: SubHudRenderer.DrawToBuffer
+- uid: Celeste.Mod.UI.SubHudRenderer.EndRender
+  name: EndRender()
+  href: api/Celeste.Mod.UI.SubHudRenderer.html#Celeste_Mod_UI_SubHudRenderer_EndRender
+  commentId: M:Celeste.Mod.UI.SubHudRenderer.EndRender
+  fullName: Celeste.Mod.UI.SubHudRenderer.EndRender()
+  nameWithType: SubHudRenderer.EndRender()
+- uid: Celeste.Mod.UI.SubHudRenderer.EndRender*
+  name: EndRender
+  href: api/Celeste.Mod.UI.SubHudRenderer.html#Celeste_Mod_UI_SubHudRenderer_EndRender_
+  commentId: Overload:Celeste.Mod.UI.SubHudRenderer.EndRender
+  fullName: Celeste.Mod.UI.SubHudRenderer.EndRender
+  nameWithType: SubHudRenderer.EndRender
+- uid: Celeste.Mod.UI.SubHudRenderer.Render(Monocle.Scene)
+  name: Render(Scene)
+  href: api/Celeste.Mod.UI.SubHudRenderer.html#Celeste_Mod_UI_SubHudRenderer_Render_Monocle_Scene_
+  commentId: M:Celeste.Mod.UI.SubHudRenderer.Render(Monocle.Scene)
+  fullName: Celeste.Mod.UI.SubHudRenderer.Render(Monocle.Scene)
+  nameWithType: SubHudRenderer.Render(Scene)
+- uid: Celeste.Mod.UI.SubHudRenderer.Render*
+  name: Render
+  href: api/Celeste.Mod.UI.SubHudRenderer.html#Celeste_Mod_UI_SubHudRenderer_Render_
+  commentId: Overload:Celeste.Mod.UI.SubHudRenderer.Render
+  fullName: Celeste.Mod.UI.SubHudRenderer.Render
+  nameWithType: SubHudRenderer.Render
+- uid: Celeste.Mod.UI.SubHudRenderer.RenderContent(Monocle.Scene)
+  name: RenderContent(Scene)
+  href: api/Celeste.Mod.UI.SubHudRenderer.html#Celeste_Mod_UI_SubHudRenderer_RenderContent_Monocle_Scene_
+  commentId: M:Celeste.Mod.UI.SubHudRenderer.RenderContent(Monocle.Scene)
+  fullName: Celeste.Mod.UI.SubHudRenderer.RenderContent(Monocle.Scene)
+  nameWithType: SubHudRenderer.RenderContent(Scene)
+- uid: Celeste.Mod.UI.SubHudRenderer.RenderContent*
+  name: RenderContent
+  href: api/Celeste.Mod.UI.SubHudRenderer.html#Celeste_Mod_UI_SubHudRenderer_RenderContent_
+  commentId: Overload:Celeste.Mod.UI.SubHudRenderer.RenderContent
+  fullName: Celeste.Mod.UI.SubHudRenderer.RenderContent
+  nameWithType: SubHudRenderer.RenderContent
 - uid: Celeste.Mod.UI.TextMenuExt
   name: TextMenuExt
   href: api/Celeste.Mod.UI.TextMenuExt.html
@@ -7324,6 +7492,18 @@ references:
   commentId: Overload:Celeste.SaveDataExt.SetLevelSets
   fullName: Celeste.SaveDataExt.SetLevelSets
   nameWithType: SaveDataExt.SetLevelSets
+- uid: Celeste.TagsExt
+  name: TagsExt
+  href: api/Celeste.TagsExt.html
+  commentId: T:Celeste.TagsExt
+  fullName: Celeste.TagsExt
+  nameWithType: TagsExt
+- uid: Celeste.TagsExt.SubHUD
+  name: SubHUD
+  href: api/Celeste.TagsExt.html#Celeste_TagsExt_SubHUD
+  commentId: F:Celeste.TagsExt.SubHUD
+  fullName: Celeste.TagsExt.SubHUD
+  nameWithType: TagsExt.SubHUD
 - uid: Celeste.TextMenuExt
   name: TextMenuExt
   href: api/Celeste.TextMenuExt.html
