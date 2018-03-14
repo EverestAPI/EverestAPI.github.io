@@ -129,32 +129,6 @@ Uses FNA&apos;s TextInputEXT if available, falling back to a WinForms hook.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class TextInput</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="Celeste_Mod_TextInput_OnInput" data-uid="Celeste.Mod.TextInput.OnInput">OnInput</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Action&lt;char&gt; OnInput</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Char</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -178,6 +152,34 @@ Uses FNA&apos;s TextInputEXT if available, falling back to a WinForms hook.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Celeste_Mod_TextInput_OnInput" data-uid="Celeste.Mod.TextInput.OnInput">OnInput</h4>
+  <div class="markdown level1 summary"><p>Invoked whenever text input occurs, including some &quot;input action&quot; characters.
+Take a look at the FNA TextInputExt documentation for more info: <a href="https://github.com/FNA-XNA/FNA/wiki/5:-FNA-Extensions#textinputext">https://github.com/FNA-XNA/FNA/wiki/5:-FNA-Extensions#textinputext</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;char&gt; OnInput</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Char</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

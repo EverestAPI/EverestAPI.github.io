@@ -1074,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.TextInput.html",
-          "hash": "kIsRs402DRtxrfpXk03qjw=="
+          "hash": "4WLx7dySQIw543y5neM91A=="
         }
       },
       "is_incremental": false,
@@ -1662,7 +1662,7 @@
       "output": {
         ".html": {
           "relative_path": "tutorials/firstcodemod.html",
-          "hash": "k5C9Pv6W/Pfumj+BY5PIIw=="
+          "hash": "xRE0+nr/qsAfHgtdMZVsaQ=="
         }
       },
       "is_incremental": false,
@@ -1717,11 +1717,11 @@
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
