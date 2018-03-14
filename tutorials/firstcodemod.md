@@ -32,7 +32,7 @@ Every Everest code mod starts out as a C# (.NET Framework) class library targeti
 - Create a new project.
 - In the top bar, select `.NET Framework 4.5.2`
 - In the left bar, select `Installed` > `Visual C#`
-- Select the template `Class Library` (or `Class Library (.NET Framework)` or matching).
+- Select the template `Class Library` or `Class Library (.NET Framework)` (**not** `Standard`, `Core`, `Portable`, `Universal Windows`, ...).
 - Name your mod appropriately and create it in a new solution.
 - Create a new directory for the solution.
 
