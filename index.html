@@ -84,8 +84,11 @@
 <hr>
 <p>Everest is an <a href="https://github.com/EverestAPI">open-source</a> mod loader and modding API, making texture replacements, custom level sets and endless code mods a reality.</p>
 <p><strong>For a list of existing mods, visit <a href="https://www.nexusmods.com/celeste/">Nexus Mods</a></strong></p>
+<p>If you&#39;ve got any issues with Everest, we&#39;re in the #game_modding channel of this Discord server to help you:</p>
+<p><a href="https://discord.gg/6qjaePQ"><img src="/images/invite.png" alt="Discord invite"></a></p>
 <h2 id="installing-everest">Installing Everest</h2>
 <ul>
+<li>If you want to build your own version of Everest, go to <a href="#building-everest">Building Everest</a>.</li>
 <li>If you&#39;ve <strong>previously installed Everest and updated Celeste</strong> or switched betas / branches, delete the <code>orig</code> directory where Celeste is installed.<ul>
 <li>macOS: Open the Celeste app in Finder, then naviagte to <code>Contents</code>, then <code>MacOS</code>.</li>
 </ul>
@@ -113,8 +116,44 @@
 </li>
 <li>That&#39;s it. No need to extract anything.</li>
 </ul>
-<h2 id="discord">Discord</h2>
-<p><a href="https://discord.gg/6qjaePQ"><img src="/images/invite.png" alt="Discord invite"></a></p>
+<h2 id="building-everest">Building Everest</h2>
+<ul>
+<li>If you&#39;ve <strong>previously installed Everest and updated Celeste</strong> or switched betas / branches, delete the <code>orig</code> directory where Celeste is installed.<ul>
+<li>macOS: Open the Celeste app in Finder, then naviagte to <code>Contents</code>, then <code>MacOS</code>.</li>
+</ul>
+</li>
+<li>Clone the <a href="github.com/EverestAPI/Everest">Everest repo</a>, either in your IDE, via the CLI, or by downloading the .zip from GitHub.</li>
+</ul>
+<h3 id="windows">Windows</h3>
+<ul>
+<li>Open the .sln in the repo with Visual Studio</li>
+<li>Build all</li>
+<li>Copy everything in <code>MiniInstaller\bin\Debug</code> and <code>Celeste.Mod.mm\bin\Debug</code> to your Celeste directory</li>
+<li>Run MiniInstaller.exe</li>
+</ul>
+<h3 id="macos--linux-no-nix">macOS / Linux (no Nix)</h3>
+<ul>
+<li><a href="https://www.mono-project.com/download/stable/">Install the mono runtime</a></li>
+<li>Build all<ul>
+<li><em>With MonoDevelop:</em> Open the .sln in the repo with MonoDevelop</li>
+<li><em>Manually:</em> Open the terminal in the Everest directory and run <code>msbuild</code> or <code>xbuild</code></li>
+</ul>
+</li>
+<li>Copy everything in <code>MiniInstaller/bin/Debug</code> and <code>Celeste.Mod.mm/bin/Debug</code> to your Celeste directory<ul>
+<li>macOS: <code>Celeste.app/Contents/MacOS</code></li>
+</ul>
+</li>
+<li>Run <code>mono MiniInstaller.exe</code></li>
+</ul>
+<h3 id="nix">Nix</h3>
+<ul>
+<li>Run <code>nix-env -f . -iA everest</code> in the Everest repo</li>
+<li>Wait for it to install</li>
+<li>Run <code>miniinstaller ~/Celeste</code>, where <code>~/Celeste</code> is your Celeste path.<ul>
+<li><strong><code>miniinstaller</code> is a <em>wrapper</em> over the MiniInstaller.exe in the other methods.</strong></li>
+</ul>
+</li>
+</ul>
 </article>
           </div>
           

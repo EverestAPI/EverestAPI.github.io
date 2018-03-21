@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Everest.Events.Level
+    <title>Class RelinkerSymbolReaderProvider
    | Everest </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Everest.Events.Level
+    <meta name="title" content="Class RelinkerSymbolReaderProvider
    | Everest ">
     <meta name="generator" content="docfx 2.31.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
@@ -22,7 +22,7 @@
     <meta property="docfx:rel" content="../">
     <meta property="docfx:newtab" content="true">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Class Everest.Events.Level
+    <meta property="og:title" content="Class RelinkerSymbolReaderProvider
   ">
     <meta property="og:site_name" content="Everest"><meta property="og:description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <meta name="author" content="Everest Team">
@@ -85,17 +85,21 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Celeste.Mod.Everest.Events.Level">
+            <article class="content wrap" id="_content" data-uid="Celeste.Mod.RelinkerSymbolReaderProvider">
   
   
-  <h1 id="Celeste_Mod_Everest_Events_Level" data-uid="Celeste.Mod.Everest.Events.Level" class="text-break">Class Everest.Events.Level
+  <h1 id="Celeste_Mod_RelinkerSymbolReaderProvider" data-uid="Celeste.Mod.RelinkerSymbolReaderProvider" class="text-break">Class RelinkerSymbolReaderProvider
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Everest.Events.Level</span></div>
+    <div class="level1"><span class="xref">RelinkerSymbolReaderProvider</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">Mono.Cecil.Cil.ISymbolReaderProvider</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -123,22 +127,34 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Celeste.Mod.html">Celeste.Mod</a></h6>
   <h6><strong>Assembly</strong>: Celeste.Mod.mm.dll</h6>
-  <h5 id="Celeste_Mod_Everest_Events_Level_syntax">Syntax</h5>
+  <h5 id="Celeste_Mod_RelinkerSymbolReaderProvider_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Level</code></pre>
+    <pre><code class="lang-csharp hljs">public class RelinkerSymbolReaderProvider : ISymbolReaderProvider</code></pre>
   </div>
-  <h3 id="events">Events
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <h4 id="Celeste_Mod_Everest_Events_Level_OnComplete" data-uid="Celeste.Mod.Everest.Events.Level.OnComplete">OnComplete</h4>
+  <a id="Celeste_Mod_RelinkerSymbolReaderProvider__ctor_" data-uid="Celeste.Mod.RelinkerSymbolReaderProvider.#ctor*"></a>
+  <h4 id="Celeste_Mod_RelinkerSymbolReaderProvider__ctor" data-uid="Celeste.Mod.RelinkerSymbolReaderProvider.#ctor">RelinkerSymbolReaderProvider()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Everest.Events.Level.CompleteHandler OnComplete</code></pre>
+    <pre><code class="lang-csharp hljs">public RelinkerSymbolReaderProvider()</code></pre>
   </div>
-  <h5 class="eventType">Event Type</h5>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Celeste_Mod_RelinkerSymbolReaderProvider_Format" data-uid="Celeste.Mod.RelinkerSymbolReaderProvider.Format">Format</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DebugSymbolFormat Format</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -148,21 +164,46 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Celeste.Mod.Everest.Events.Level.CompleteHandler.html">Everest.Events.Level.CompleteHandler</a></td>
+        <td><span class="xref">MonoMod.DebugSymbolFormat</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <h4 id="Celeste_Mod_Everest_Events_Level_OnCreatePauseMenuButtons" data-uid="Celeste.Mod.Everest.Events.Level.OnCreatePauseMenuButtons">OnCreatePauseMenuButtons</h4>
+  <a id="Celeste_Mod_RelinkerSymbolReaderProvider_GetSymbolReader_" data-uid="Celeste.Mod.RelinkerSymbolReaderProvider.GetSymbolReader*"></a>
+  <h4 id="Celeste_Mod_RelinkerSymbolReaderProvider_GetSymbolReader_Mono_Cecil_ModuleDefinition_System_IO_Stream_" data-uid="Celeste.Mod.RelinkerSymbolReaderProvider.GetSymbolReader(Mono.Cecil.ModuleDefinition,System.IO.Stream)">GetSymbolReader(ModuleDefinition, Stream)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Everest.Events.Level.CreatePauseMenuButtonsHandler OnCreatePauseMenuButtons</code></pre>
+    <pre><code class="lang-csharp hljs">public ISymbolReader GetSymbolReader(ModuleDefinition module, Stream symbolStream)</code></pre>
   </div>
-  <h5 class="eventType">Event Type</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ModuleDefinition</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">symbolStream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -172,21 +213,44 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Celeste.Mod.Everest.Events.Level.CreatePauseMenuButtonsHandler.html">Everest.Events.Level.CreatePauseMenuButtonsHandler</a></td>
+        <td><span class="xref">Mono.Cecil.Cil.ISymbolReader</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Celeste_Mod_Everest_Events_Level_OnEnter" data-uid="Celeste.Mod.Everest.Events.Level.OnEnter">OnEnter</h4>
+  <a id="Celeste_Mod_RelinkerSymbolReaderProvider_GetSymbolReader_" data-uid="Celeste.Mod.RelinkerSymbolReaderProvider.GetSymbolReader*"></a>
+  <h4 id="Celeste_Mod_RelinkerSymbolReaderProvider_GetSymbolReader_Mono_Cecil_ModuleDefinition_System_String_" data-uid="Celeste.Mod.RelinkerSymbolReaderProvider.GetSymbolReader(Mono.Cecil.ModuleDefinition,System.String)">GetSymbolReader(ModuleDefinition, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Everest.Events.Level.EnterHandler OnEnter</code></pre>
+    <pre><code class="lang-csharp hljs">public ISymbolReader GetSymbolReader(ModuleDefinition module, string fileName)</code></pre>
   </div>
-  <h5 class="eventType">Event Type</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Mono.Cecil.ModuleDefinition</span></td>
+        <td><span class="parametername">module</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fileName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -196,21 +260,39 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Celeste.Mod.Everest.Events.Level.EnterHandler.html">Everest.Events.Level.EnterHandler</a></td>
+        <td><span class="xref">Mono.Cecil.Cil.ISymbolReader</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Celeste_Mod_Everest_Events_Level_OnExit" data-uid="Celeste.Mod.Everest.Events.Level.OnExit">OnExit</h4>
+  <a id="Celeste_Mod_RelinkerSymbolReaderProvider_IsPortablePdb_" data-uid="Celeste.Mod.RelinkerSymbolReaderProvider.IsPortablePdb*"></a>
+  <h4 id="Celeste_Mod_RelinkerSymbolReaderProvider_IsPortablePdb_System_IO_Stream_" data-uid="Celeste.Mod.RelinkerSymbolReaderProvider.IsPortablePdb(System.IO.Stream)">IsPortablePdb(Stream)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Everest.Events.Level.ExitHandler OnExit</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsPortablePdb(Stream stream)</code></pre>
   </div>
-  <h5 class="eventType">Event Type</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -220,107 +302,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Celeste.Mod.Everest.Events.Level.ExitHandler.html">Everest.Events.Level.ExitHandler</a></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <h4 id="Celeste_Mod_Everest_Events_Level_OnLoadEntity" data-uid="Celeste.Mod.Everest.Events.Level.OnLoadEntity">OnLoadEntity</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Everest.Events.Level.LoadEntityHandler OnLoadEntity</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Mono.Cecil.Cil.ISymbolReaderProvider</span>
   </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Celeste.Mod.Everest.Events.Level.LoadEntityHandler.html">Everest.Events.Level.LoadEntityHandler</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Celeste_Mod_Everest_Events_Level_OnLoadLevel" data-uid="Celeste.Mod.Everest.Events.Level.OnLoadLevel">OnLoadLevel</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Everest.Events.Level.LoadLevelHandler OnLoadLevel</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Celeste.Mod.Everest.Events.Level.LoadLevelHandler.html">Everest.Events.Level.LoadLevelHandler</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Celeste_Mod_Everest_Events_Level_OnPause" data-uid="Celeste.Mod.Everest.Events.Level.OnPause">OnPause</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Everest.Events.Level.PauseHandler OnPause</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Celeste.Mod.Everest.Events.Level.PauseHandler.html">Everest.Events.Level.PauseHandler</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Celeste_Mod_Everest_Events_Level_OnTransitionTo" data-uid="Celeste.Mod.Everest.Events.Level.OnTransitionTo">OnTransitionTo</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Everest.Events.Level.TransitionToHandler OnTransitionTo</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Celeste.Mod.Everest.Events.Level.TransitionToHandler.html">Everest.Events.Level.TransitionToHandler</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           

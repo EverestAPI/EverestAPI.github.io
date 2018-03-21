@@ -1555,6 +1555,60 @@ references:
   commentId: T:Celeste.Mod.Everest.Events.Level
   fullName: Celeste.Mod.Everest.Events.Level
   nameWithType: Everest.Events.Level
+- uid: Celeste.Mod.Everest.Events.Level.CompleteHandler
+  name: Everest.Events.Level.CompleteHandler
+  href: api/Celeste.Mod.Everest.Events.Level.CompleteHandler.html
+  commentId: T:Celeste.Mod.Everest.Events.Level.CompleteHandler
+  fullName: Celeste.Mod.Everest.Events.Level.CompleteHandler
+  nameWithType: Everest.Events.Level.CompleteHandler
+- uid: Celeste.Mod.Everest.Events.Level.CompleteHandler.#ctor(System.Object,System.IntPtr)
+  name: CompleteHandler(Object, IntPtr)
+  href: api/Celeste.Mod.Everest.Events.Level.CompleteHandler.html#Celeste_Mod_Everest_Events_Level_CompleteHandler__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Everest.Events.Level.CompleteHandler.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Everest.Events.Level.CompleteHandler.CompleteHandler(System.Object, System.IntPtr)
+  nameWithType: Everest.Events.Level.CompleteHandler.CompleteHandler(Object, IntPtr)
+- uid: Celeste.Mod.Everest.Events.Level.CompleteHandler.#ctor*
+  name: CompleteHandler
+  href: api/Celeste.Mod.Everest.Events.Level.CompleteHandler.html#Celeste_Mod_Everest_Events_Level_CompleteHandler__ctor_
+  commentId: Overload:Celeste.Mod.Everest.Events.Level.CompleteHandler.#ctor
+  fullName: Celeste.Mod.Everest.Events.Level.CompleteHandler.CompleteHandler
+  nameWithType: Everest.Events.Level.CompleteHandler.CompleteHandler
+- uid: Celeste.Mod.Everest.Events.Level.CompleteHandler.BeginInvoke(Celeste.Level,System.AsyncCallback,System.Object)
+  name: BeginInvoke(Level, AsyncCallback, Object)
+  href: api/Celeste.Mod.Everest.Events.Level.CompleteHandler.html#Celeste_Mod_Everest_Events_Level_CompleteHandler_BeginInvoke_Celeste_Level_System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Everest.Events.Level.CompleteHandler.BeginInvoke(Celeste.Level,System.AsyncCallback,System.Object)
+  fullName: Celeste.Mod.Everest.Events.Level.CompleteHandler.BeginInvoke(Celeste.Level, System.AsyncCallback, System.Object)
+  nameWithType: Everest.Events.Level.CompleteHandler.BeginInvoke(Level, AsyncCallback, Object)
+- uid: Celeste.Mod.Everest.Events.Level.CompleteHandler.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Everest.Events.Level.CompleteHandler.html#Celeste_Mod_Everest_Events_Level_CompleteHandler_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Everest.Events.Level.CompleteHandler.BeginInvoke
+  fullName: Celeste.Mod.Everest.Events.Level.CompleteHandler.BeginInvoke
+  nameWithType: Everest.Events.Level.CompleteHandler.BeginInvoke
+- uid: Celeste.Mod.Everest.Events.Level.CompleteHandler.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Celeste.Mod.Everest.Events.Level.CompleteHandler.html#Celeste_Mod_Everest_Events_Level_CompleteHandler_EndInvoke_System_IAsyncResult_
+  commentId: M:Celeste.Mod.Everest.Events.Level.CompleteHandler.EndInvoke(System.IAsyncResult)
+  fullName: Celeste.Mod.Everest.Events.Level.CompleteHandler.EndInvoke(System.IAsyncResult)
+  nameWithType: Everest.Events.Level.CompleteHandler.EndInvoke(IAsyncResult)
+- uid: Celeste.Mod.Everest.Events.Level.CompleteHandler.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Everest.Events.Level.CompleteHandler.html#Celeste_Mod_Everest_Events_Level_CompleteHandler_EndInvoke_
+  commentId: Overload:Celeste.Mod.Everest.Events.Level.CompleteHandler.EndInvoke
+  fullName: Celeste.Mod.Everest.Events.Level.CompleteHandler.EndInvoke
+  nameWithType: Everest.Events.Level.CompleteHandler.EndInvoke
+- uid: Celeste.Mod.Everest.Events.Level.CompleteHandler.Invoke(Celeste.Level)
+  name: Invoke(Level)
+  href: api/Celeste.Mod.Everest.Events.Level.CompleteHandler.html#Celeste_Mod_Everest_Events_Level_CompleteHandler_Invoke_Celeste_Level_
+  commentId: M:Celeste.Mod.Everest.Events.Level.CompleteHandler.Invoke(Celeste.Level)
+  fullName: Celeste.Mod.Everest.Events.Level.CompleteHandler.Invoke(Celeste.Level)
+  nameWithType: Everest.Events.Level.CompleteHandler.Invoke(Level)
+- uid: Celeste.Mod.Everest.Events.Level.CompleteHandler.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Everest.Events.Level.CompleteHandler.html#Celeste_Mod_Everest_Events_Level_CompleteHandler_Invoke_
+  commentId: Overload:Celeste.Mod.Everest.Events.Level.CompleteHandler.Invoke
+  fullName: Celeste.Mod.Everest.Events.Level.CompleteHandler.Invoke
+  nameWithType: Everest.Events.Level.CompleteHandler.Invoke
 - uid: Celeste.Mod.Everest.Events.Level.CreatePauseMenuButtonsHandler
   name: Everest.Events.Level.CreatePauseMenuButtonsHandler
   href: api/Celeste.Mod.Everest.Events.Level.CreatePauseMenuButtonsHandler.html
@@ -1825,6 +1879,12 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Events.Level.LoadLevelHandler.Invoke
   fullName: Celeste.Mod.Everest.Events.Level.LoadLevelHandler.Invoke
   nameWithType: Everest.Events.Level.LoadLevelHandler.Invoke
+- uid: Celeste.Mod.Everest.Events.Level.OnComplete
+  name: OnComplete
+  href: api/Celeste.Mod.Everest.Events.Level.html#Celeste_Mod_Everest_Events_Level_OnComplete
+  commentId: E:Celeste.Mod.Everest.Events.Level.OnComplete
+  fullName: Celeste.Mod.Everest.Events.Level.OnComplete
+  nameWithType: Everest.Events.Level.OnComplete
 - uid: Celeste.Mod.Everest.Events.Level.OnCreatePauseMenuButtons
   name: OnCreatePauseMenuButtons
   href: api/Celeste.Mod.Everest.Events.Level.html#Celeste_Mod_Everest_Events_Level_OnCreatePauseMenuButtons
@@ -2374,6 +2434,18 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Relinker.ChecksumsEqual
   fullName: Celeste.Mod.Everest.Relinker.ChecksumsEqual
   nameWithType: Everest.Relinker.ChecksumsEqual
+- uid: Celeste.Mod.Everest.Relinker.DefaultRelinker(Mono.Cecil.IMetadataTokenProvider,Mono.Cecil.IGenericParameterProvider)
+  name: DefaultRelinker(IMetadataTokenProvider, IGenericParameterProvider)
+  href: api/Celeste.Mod.Everest.Relinker.html#Celeste_Mod_Everest_Relinker_DefaultRelinker_Mono_Cecil_IMetadataTokenProvider_Mono_Cecil_IGenericParameterProvider_
+  commentId: M:Celeste.Mod.Everest.Relinker.DefaultRelinker(Mono.Cecil.IMetadataTokenProvider,Mono.Cecil.IGenericParameterProvider)
+  fullName: Celeste.Mod.Everest.Relinker.DefaultRelinker(Mono.Cecil.IMetadataTokenProvider, Mono.Cecil.IGenericParameterProvider)
+  nameWithType: Everest.Relinker.DefaultRelinker(IMetadataTokenProvider, IGenericParameterProvider)
+- uid: Celeste.Mod.Everest.Relinker.DefaultRelinker*
+  name: DefaultRelinker
+  href: api/Celeste.Mod.Everest.Relinker.html#Celeste_Mod_Everest_Relinker_DefaultRelinker_
+  commentId: Overload:Celeste.Mod.Everest.Relinker.DefaultRelinker
+  fullName: Celeste.Mod.Everest.Relinker.DefaultRelinker
+  nameWithType: Everest.Relinker.DefaultRelinker
 - uid: Celeste.Mod.Everest.Relinker.GameChecksum
   name: GameChecksum
   href: api/Celeste.Mod.Everest.Relinker.html#Celeste_Mod_Everest_Relinker_GameChecksum
@@ -5803,61 +5875,31 @@ references:
 - uid: Celeste.Mod.MTextureOverride.AtlasPath
   name: AtlasPath
   href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_AtlasPath
-  commentId: P:Celeste.Mod.MTextureOverride.AtlasPath
-  fullName: Celeste.Mod.MTextureOverride.AtlasPath
-  nameWithType: MTextureOverride.AtlasPath
-- uid: Celeste.Mod.MTextureOverride.AtlasPath*
-  name: AtlasPath
-  href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_AtlasPath_
-  commentId: Overload:Celeste.Mod.MTextureOverride.AtlasPath
+  commentId: F:Celeste.Mod.MTextureOverride.AtlasPath
   fullName: Celeste.Mod.MTextureOverride.AtlasPath
   nameWithType: MTextureOverride.AtlasPath
 - uid: Celeste.Mod.MTextureOverride.ClipRect
   name: ClipRect
   href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_ClipRect
-  commentId: P:Celeste.Mod.MTextureOverride.ClipRect
-  fullName: Celeste.Mod.MTextureOverride.ClipRect
-  nameWithType: MTextureOverride.ClipRect
-- uid: Celeste.Mod.MTextureOverride.ClipRect*
-  name: ClipRect
-  href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_ClipRect_
-  commentId: Overload:Celeste.Mod.MTextureOverride.ClipRect
+  commentId: F:Celeste.Mod.MTextureOverride.ClipRect
   fullName: Celeste.Mod.MTextureOverride.ClipRect
   nameWithType: MTextureOverride.ClipRect
 - uid: Celeste.Mod.MTextureOverride.DrawOffset
   name: DrawOffset
   href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_DrawOffset
-  commentId: P:Celeste.Mod.MTextureOverride.DrawOffset
-  fullName: Celeste.Mod.MTextureOverride.DrawOffset
-  nameWithType: MTextureOverride.DrawOffset
-- uid: Celeste.Mod.MTextureOverride.DrawOffset*
-  name: DrawOffset
-  href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_DrawOffset_
-  commentId: Overload:Celeste.Mod.MTextureOverride.DrawOffset
+  commentId: F:Celeste.Mod.MTextureOverride.DrawOffset
   fullName: Celeste.Mod.MTextureOverride.DrawOffset
   nameWithType: MTextureOverride.DrawOffset
 - uid: Celeste.Mod.MTextureOverride.ForceClipRect
   name: ForceClipRect
   href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_ForceClipRect
-  commentId: P:Celeste.Mod.MTextureOverride.ForceClipRect
-  fullName: Celeste.Mod.MTextureOverride.ForceClipRect
-  nameWithType: MTextureOverride.ForceClipRect
-- uid: Celeste.Mod.MTextureOverride.ForceClipRect*
-  name: ForceClipRect
-  href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_ForceClipRect_
-  commentId: Overload:Celeste.Mod.MTextureOverride.ForceClipRect
+  commentId: F:Celeste.Mod.MTextureOverride.ForceClipRect
   fullName: Celeste.Mod.MTextureOverride.ForceClipRect
   nameWithType: MTextureOverride.ForceClipRect
 - uid: Celeste.Mod.MTextureOverride.Height
   name: Height
   href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_Height
-  commentId: P:Celeste.Mod.MTextureOverride.Height
-  fullName: Celeste.Mod.MTextureOverride.Height
-  nameWithType: MTextureOverride.Height
-- uid: Celeste.Mod.MTextureOverride.Height*
-  name: Height
-  href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_Height_
-  commentId: Overload:Celeste.Mod.MTextureOverride.Height
+  commentId: F:Celeste.Mod.MTextureOverride.Height
   fullName: Celeste.Mod.MTextureOverride.Height
   nameWithType: MTextureOverride.Height
 - uid: Celeste.Mod.MTextureOverride.IsActiveMeta
@@ -5887,201 +5929,93 @@ references:
 - uid: Celeste.Mod.MTextureOverride.Texture
   name: Texture
   href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_Texture
-  commentId: P:Celeste.Mod.MTextureOverride.Texture
+  commentId: F:Celeste.Mod.MTextureOverride.Texture
   fullName: Celeste.Mod.MTextureOverride.Texture
   nameWithType: MTextureOverride.Texture
-- uid: Celeste.Mod.MTextureOverride.Texture*
-  name: Texture
-  href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_Texture_
-  commentId: Overload:Celeste.Mod.MTextureOverride.Texture
-  fullName: Celeste.Mod.MTextureOverride.Texture
-  nameWithType: MTextureOverride.Texture
+- uid: Celeste.Mod.MTextureOverride.UpdateMeta
+  name: UpdateMeta()
+  href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_UpdateMeta
+  commentId: M:Celeste.Mod.MTextureOverride.UpdateMeta
+  fullName: Celeste.Mod.MTextureOverride.UpdateMeta()
+  nameWithType: MTextureOverride.UpdateMeta()
+- uid: Celeste.Mod.MTextureOverride.UpdateMeta*
+  name: UpdateMeta
+  href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_UpdateMeta_
+  commentId: Overload:Celeste.Mod.MTextureOverride.UpdateMeta
+  fullName: Celeste.Mod.MTextureOverride.UpdateMeta
+  nameWithType: MTextureOverride.UpdateMeta
+- uid: Celeste.Mod.MTextureOverride.UpdateTexture
+  name: UpdateTexture()
+  href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_UpdateTexture
+  commentId: M:Celeste.Mod.MTextureOverride.UpdateTexture
+  fullName: Celeste.Mod.MTextureOverride.UpdateTexture()
+  nameWithType: MTextureOverride.UpdateTexture()
+- uid: Celeste.Mod.MTextureOverride.UpdateTexture*
+  name: UpdateTexture
+  href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_UpdateTexture_
+  commentId: Overload:Celeste.Mod.MTextureOverride.UpdateTexture
+  fullName: Celeste.Mod.MTextureOverride.UpdateTexture
+  nameWithType: MTextureOverride.UpdateTexture
 - uid: Celeste.Mod.MTextureOverride.Width
   name: Width
   href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_Width
-  commentId: P:Celeste.Mod.MTextureOverride.Width
+  commentId: F:Celeste.Mod.MTextureOverride.Width
   fullName: Celeste.Mod.MTextureOverride.Width
   nameWithType: MTextureOverride.Width
-- uid: Celeste.Mod.MTextureOverride.Width*
-  name: Width
-  href: api/Celeste.Mod.MTextureOverride.html#Celeste_Mod_MTextureOverride_Width_
-  commentId: Overload:Celeste.Mod.MTextureOverride.Width
-  fullName: Celeste.Mod.MTextureOverride.Width
-  nameWithType: MTextureOverride.Width
-- uid: Celeste.Mod.MTextureParent
-  name: MTextureParent
-  href: api/Celeste.Mod.MTextureParent.html
-  commentId: T:Celeste.Mod.MTextureParent
-  fullName: Celeste.Mod.MTextureParent
-  nameWithType: MTextureParent
-- uid: Celeste.Mod.MTextureParent.#ctor
-  name: MTextureParent()
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent__ctor
-  commentId: M:Celeste.Mod.MTextureParent.#ctor
-  fullName: Celeste.Mod.MTextureParent.MTextureParent()
-  nameWithType: MTextureParent.MTextureParent()
-- uid: Celeste.Mod.MTextureParent.#ctor(Monocle.MTexture)
-  name: MTextureParent(MTexture)
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent__ctor_Monocle_MTexture_
-  commentId: M:Celeste.Mod.MTextureParent.#ctor(Monocle.MTexture)
-  fullName: Celeste.Mod.MTextureParent.MTextureParent(Monocle.MTexture)
-  nameWithType: MTextureParent.MTextureParent(MTexture)
-- uid: Celeste.Mod.MTextureParent.#ctor*
-  name: MTextureParent
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent__ctor_
-  commentId: Overload:Celeste.Mod.MTextureParent.#ctor
-  fullName: Celeste.Mod.MTextureParent.MTextureParent
-  nameWithType: MTextureParent.MTextureParent
-- uid: Celeste.Mod.MTextureParent.AtlasPath
-  name: AtlasPath
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_AtlasPath
-  commentId: P:Celeste.Mod.MTextureParent.AtlasPath
-  fullName: Celeste.Mod.MTextureParent.AtlasPath
-  nameWithType: MTextureParent.AtlasPath
-- uid: Celeste.Mod.MTextureParent.AtlasPath*
-  name: AtlasPath
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_AtlasPath_
-  commentId: Overload:Celeste.Mod.MTextureParent.AtlasPath
-  fullName: Celeste.Mod.MTextureParent.AtlasPath
-  nameWithType: MTextureParent.AtlasPath
-- uid: Celeste.Mod.MTextureParent.ClipRect
-  name: ClipRect
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_ClipRect
-  commentId: P:Celeste.Mod.MTextureParent.ClipRect
-  fullName: Celeste.Mod.MTextureParent.ClipRect
-  nameWithType: MTextureParent.ClipRect
-- uid: Celeste.Mod.MTextureParent.ClipRect*
-  name: ClipRect
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_ClipRect_
-  commentId: Overload:Celeste.Mod.MTextureParent.ClipRect
-  fullName: Celeste.Mod.MTextureParent.ClipRect
-  nameWithType: MTextureParent.ClipRect
-- uid: Celeste.Mod.MTextureParent.DrawOffset
-  name: DrawOffset
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_DrawOffset
-  commentId: P:Celeste.Mod.MTextureParent.DrawOffset
-  fullName: Celeste.Mod.MTextureParent.DrawOffset
-  nameWithType: MTextureParent.DrawOffset
-- uid: Celeste.Mod.MTextureParent.DrawOffset*
-  name: DrawOffset
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_DrawOffset_
-  commentId: Overload:Celeste.Mod.MTextureParent.DrawOffset
-  fullName: Celeste.Mod.MTextureParent.DrawOffset
-  nameWithType: MTextureParent.DrawOffset
-- uid: Celeste.Mod.MTextureParent.GetRelativeRect(Microsoft.Xna.Framework.Rectangle)
-  name: GetRelativeRect(Rectangle)
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_GetRelativeRect_Microsoft_Xna_Framework_Rectangle_
-  commentId: M:Celeste.Mod.MTextureParent.GetRelativeRect(Microsoft.Xna.Framework.Rectangle)
-  fullName: Celeste.Mod.MTextureParent.GetRelativeRect(Microsoft.Xna.Framework.Rectangle)
-  nameWithType: MTextureParent.GetRelativeRect(Rectangle)
-- uid: Celeste.Mod.MTextureParent.GetRelativeRect(System.Int32,System.Int32,System.Int32,System.Int32)
-  name: GetRelativeRect(Int32, Int32, Int32, Int32)
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_GetRelativeRect_System_Int32_System_Int32_System_Int32_System_Int32_
-  commentId: M:Celeste.Mod.MTextureParent.GetRelativeRect(System.Int32,System.Int32,System.Int32,System.Int32)
-  fullName: Celeste.Mod.MTextureParent.GetRelativeRect(System.Int32, System.Int32, System.Int32, System.Int32)
-  nameWithType: MTextureParent.GetRelativeRect(Int32, Int32, Int32, Int32)
-- uid: Celeste.Mod.MTextureParent.GetRelativeRect*
-  name: GetRelativeRect
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_GetRelativeRect_
-  commentId: Overload:Celeste.Mod.MTextureParent.GetRelativeRect
-  fullName: Celeste.Mod.MTextureParent.GetRelativeRect
-  nameWithType: MTextureParent.GetRelativeRect
-- uid: Celeste.Mod.MTextureParent.HasRelativeRect
-  name: HasRelativeRect
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_HasRelativeRect
-  commentId: F:Celeste.Mod.MTextureParent.HasRelativeRect
-  fullName: Celeste.Mod.MTextureParent.HasRelativeRect
-  nameWithType: MTextureParent.HasRelativeRect
-- uid: Celeste.Mod.MTextureParent.Height
-  name: Height
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_Height
-  commentId: P:Celeste.Mod.MTextureParent.Height
-  fullName: Celeste.Mod.MTextureParent.Height
-  nameWithType: MTextureParent.Height
-- uid: Celeste.Mod.MTextureParent.Height*
-  name: Height
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_Height_
-  commentId: Overload:Celeste.Mod.MTextureParent.Height
-  fullName: Celeste.Mod.MTextureParent.Height
-  nameWithType: MTextureParent.Height
-- uid: Celeste.Mod.MTextureParent.IsActiveMeta
-  name: IsActiveMeta
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_IsActiveMeta
-  commentId: P:Celeste.Mod.MTextureParent.IsActiveMeta
-  fullName: Celeste.Mod.MTextureParent.IsActiveMeta
-  nameWithType: MTextureParent.IsActiveMeta
-- uid: Celeste.Mod.MTextureParent.IsActiveMeta*
-  name: IsActiveMeta
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_IsActiveMeta_
-  commentId: Overload:Celeste.Mod.MTextureParent.IsActiveMeta
-  fullName: Celeste.Mod.MTextureParent.IsActiveMeta
-  nameWithType: MTextureParent.IsActiveMeta
-- uid: Celeste.Mod.MTextureParent.IsActiveTexture
-  name: IsActiveTexture
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_IsActiveTexture
-  commentId: P:Celeste.Mod.MTextureParent.IsActiveTexture
-  fullName: Celeste.Mod.MTextureParent.IsActiveTexture
-  nameWithType: MTextureParent.IsActiveTexture
-- uid: Celeste.Mod.MTextureParent.IsActiveTexture*
-  name: IsActiveTexture
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_IsActiveTexture_
-  commentId: Overload:Celeste.Mod.MTextureParent.IsActiveTexture
-  fullName: Celeste.Mod.MTextureParent.IsActiveTexture
-  nameWithType: MTextureParent.IsActiveTexture
-- uid: Celeste.Mod.MTextureParent.Parent
-  name: Parent
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_Parent
-  commentId: F:Celeste.Mod.MTextureParent.Parent
-  fullName: Celeste.Mod.MTextureParent.Parent
-  nameWithType: MTextureParent.Parent
-- uid: Celeste.Mod.MTextureParent.RelativeRectHeight
-  name: RelativeRectHeight
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_RelativeRectHeight
-  commentId: F:Celeste.Mod.MTextureParent.RelativeRectHeight
-  fullName: Celeste.Mod.MTextureParent.RelativeRectHeight
-  nameWithType: MTextureParent.RelativeRectHeight
-- uid: Celeste.Mod.MTextureParent.RelativeRectWidth
-  name: RelativeRectWidth
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_RelativeRectWidth
-  commentId: F:Celeste.Mod.MTextureParent.RelativeRectWidth
-  fullName: Celeste.Mod.MTextureParent.RelativeRectWidth
-  nameWithType: MTextureParent.RelativeRectWidth
-- uid: Celeste.Mod.MTextureParent.RelativeRectX
-  name: RelativeRectX
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_RelativeRectX
-  commentId: F:Celeste.Mod.MTextureParent.RelativeRectX
-  fullName: Celeste.Mod.MTextureParent.RelativeRectX
-  nameWithType: MTextureParent.RelativeRectX
-- uid: Celeste.Mod.MTextureParent.RelativeRectY
-  name: RelativeRectY
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_RelativeRectY
-  commentId: F:Celeste.Mod.MTextureParent.RelativeRectY
-  fullName: Celeste.Mod.MTextureParent.RelativeRectY
-  nameWithType: MTextureParent.RelativeRectY
-- uid: Celeste.Mod.MTextureParent.Texture
-  name: Texture
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_Texture
-  commentId: P:Celeste.Mod.MTextureParent.Texture
-  fullName: Celeste.Mod.MTextureParent.Texture
-  nameWithType: MTextureParent.Texture
-- uid: Celeste.Mod.MTextureParent.Texture*
-  name: Texture
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_Texture_
-  commentId: Overload:Celeste.Mod.MTextureParent.Texture
-  fullName: Celeste.Mod.MTextureParent.Texture
-  nameWithType: MTextureParent.Texture
-- uid: Celeste.Mod.MTextureParent.Width
-  name: Width
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_Width
-  commentId: P:Celeste.Mod.MTextureParent.Width
-  fullName: Celeste.Mod.MTextureParent.Width
-  nameWithType: MTextureParent.Width
-- uid: Celeste.Mod.MTextureParent.Width*
-  name: Width
-  href: api/Celeste.Mod.MTextureParent.html#Celeste_Mod_MTextureParent_Width_
-  commentId: Overload:Celeste.Mod.MTextureParent.Width
-  fullName: Celeste.Mod.MTextureParent.Width
-  nameWithType: MTextureParent.Width
+- uid: Celeste.Mod.RelinkerSymbolReaderProvider
+  name: RelinkerSymbolReaderProvider
+  href: api/Celeste.Mod.RelinkerSymbolReaderProvider.html
+  commentId: T:Celeste.Mod.RelinkerSymbolReaderProvider
+  fullName: Celeste.Mod.RelinkerSymbolReaderProvider
+  nameWithType: RelinkerSymbolReaderProvider
+- uid: Celeste.Mod.RelinkerSymbolReaderProvider.#ctor
+  name: RelinkerSymbolReaderProvider()
+  href: api/Celeste.Mod.RelinkerSymbolReaderProvider.html#Celeste_Mod_RelinkerSymbolReaderProvider__ctor
+  commentId: M:Celeste.Mod.RelinkerSymbolReaderProvider.#ctor
+  fullName: Celeste.Mod.RelinkerSymbolReaderProvider.RelinkerSymbolReaderProvider()
+  nameWithType: RelinkerSymbolReaderProvider.RelinkerSymbolReaderProvider()
+- uid: Celeste.Mod.RelinkerSymbolReaderProvider.#ctor*
+  name: RelinkerSymbolReaderProvider
+  href: api/Celeste.Mod.RelinkerSymbolReaderProvider.html#Celeste_Mod_RelinkerSymbolReaderProvider__ctor_
+  commentId: Overload:Celeste.Mod.RelinkerSymbolReaderProvider.#ctor
+  fullName: Celeste.Mod.RelinkerSymbolReaderProvider.RelinkerSymbolReaderProvider
+  nameWithType: RelinkerSymbolReaderProvider.RelinkerSymbolReaderProvider
+- uid: Celeste.Mod.RelinkerSymbolReaderProvider.Format
+  name: Format
+  href: api/Celeste.Mod.RelinkerSymbolReaderProvider.html#Celeste_Mod_RelinkerSymbolReaderProvider_Format
+  commentId: F:Celeste.Mod.RelinkerSymbolReaderProvider.Format
+  fullName: Celeste.Mod.RelinkerSymbolReaderProvider.Format
+  nameWithType: RelinkerSymbolReaderProvider.Format
+- uid: Celeste.Mod.RelinkerSymbolReaderProvider.GetSymbolReader(Mono.Cecil.ModuleDefinition,System.IO.Stream)
+  name: GetSymbolReader(ModuleDefinition, Stream)
+  href: api/Celeste.Mod.RelinkerSymbolReaderProvider.html#Celeste_Mod_RelinkerSymbolReaderProvider_GetSymbolReader_Mono_Cecil_ModuleDefinition_System_IO_Stream_
+  commentId: M:Celeste.Mod.RelinkerSymbolReaderProvider.GetSymbolReader(Mono.Cecil.ModuleDefinition,System.IO.Stream)
+  fullName: Celeste.Mod.RelinkerSymbolReaderProvider.GetSymbolReader(Mono.Cecil.ModuleDefinition, System.IO.Stream)
+  nameWithType: RelinkerSymbolReaderProvider.GetSymbolReader(ModuleDefinition, Stream)
+- uid: Celeste.Mod.RelinkerSymbolReaderProvider.GetSymbolReader(Mono.Cecil.ModuleDefinition,System.String)
+  name: GetSymbolReader(ModuleDefinition, String)
+  href: api/Celeste.Mod.RelinkerSymbolReaderProvider.html#Celeste_Mod_RelinkerSymbolReaderProvider_GetSymbolReader_Mono_Cecil_ModuleDefinition_System_String_
+  commentId: M:Celeste.Mod.RelinkerSymbolReaderProvider.GetSymbolReader(Mono.Cecil.ModuleDefinition,System.String)
+  fullName: Celeste.Mod.RelinkerSymbolReaderProvider.GetSymbolReader(Mono.Cecil.ModuleDefinition, System.String)
+  nameWithType: RelinkerSymbolReaderProvider.GetSymbolReader(ModuleDefinition, String)
+- uid: Celeste.Mod.RelinkerSymbolReaderProvider.GetSymbolReader*
+  name: GetSymbolReader
+  href: api/Celeste.Mod.RelinkerSymbolReaderProvider.html#Celeste_Mod_RelinkerSymbolReaderProvider_GetSymbolReader_
+  commentId: Overload:Celeste.Mod.RelinkerSymbolReaderProvider.GetSymbolReader
+  fullName: Celeste.Mod.RelinkerSymbolReaderProvider.GetSymbolReader
+  nameWithType: RelinkerSymbolReaderProvider.GetSymbolReader
+- uid: Celeste.Mod.RelinkerSymbolReaderProvider.IsPortablePdb(System.IO.Stream)
+  name: IsPortablePdb(Stream)
+  href: api/Celeste.Mod.RelinkerSymbolReaderProvider.html#Celeste_Mod_RelinkerSymbolReaderProvider_IsPortablePdb_System_IO_Stream_
+  commentId: M:Celeste.Mod.RelinkerSymbolReaderProvider.IsPortablePdb(System.IO.Stream)
+  fullName: Celeste.Mod.RelinkerSymbolReaderProvider.IsPortablePdb(System.IO.Stream)
+  nameWithType: RelinkerSymbolReaderProvider.IsPortablePdb(Stream)
+- uid: Celeste.Mod.RelinkerSymbolReaderProvider.IsPortablePdb*
+  name: IsPortablePdb
+  href: api/Celeste.Mod.RelinkerSymbolReaderProvider.html#Celeste_Mod_RelinkerSymbolReaderProvider_IsPortablePdb_
+  commentId: Overload:Celeste.Mod.RelinkerSymbolReaderProvider.IsPortablePdb
+  fullName: Celeste.Mod.RelinkerSymbolReaderProvider.IsPortablePdb
+  nameWithType: RelinkerSymbolReaderProvider.IsPortablePdb
 - uid: Celeste.Mod.SettingIgnoreAttribute
   name: SettingIgnoreAttribute
   href: api/Celeste.Mod.SettingIgnoreAttribute.html
@@ -7762,6 +7696,18 @@ references:
   commentId: Overload:Monocle.MTextureExt.GetOverrideTexture
   fullName: Monocle.MTextureExt.GetOverrideTexture
   nameWithType: MTextureExt.GetOverrideTexture
+- uid: Monocle.MTextureExt.GetParent(Monocle.MTexture)
+  name: GetParent(MTexture)
+  href: api/Monocle.MTextureExt.html#Monocle_MTextureExt_GetParent_Monocle_MTexture_
+  commentId: M:Monocle.MTextureExt.GetParent(Monocle.MTexture)
+  fullName: Monocle.MTextureExt.GetParent(Monocle.MTexture)
+  nameWithType: MTextureExt.GetParent(MTexture)
+- uid: Monocle.MTextureExt.GetParent*
+  name: GetParent
+  href: api/Monocle.MTextureExt.html#Monocle_MTextureExt_GetParent_
+  commentId: Overload:Monocle.MTextureExt.GetParent
+  fullName: Monocle.MTextureExt.GetParent
+  nameWithType: MTextureExt.GetParent
 - uid: Monocle.MTextureExt.SetAtlasPath(Monocle.MTexture,System.String)
   name: SetAtlasPath(MTexture, String)
   href: api/Monocle.MTextureExt.html#Monocle_MTextureExt_SetAtlasPath_Monocle_MTexture_System_String_
@@ -7774,6 +7720,18 @@ references:
   commentId: Overload:Monocle.MTextureExt.SetAtlasPath
   fullName: Monocle.MTextureExt.SetAtlasPath
   nameWithType: MTextureExt.SetAtlasPath
+- uid: Monocle.MTextureExt.SetParent(Monocle.MTexture,Monocle.MTexture)
+  name: SetParent(MTexture, MTexture)
+  href: api/Monocle.MTextureExt.html#Monocle_MTextureExt_SetParent_Monocle_MTexture_Monocle_MTexture_
+  commentId: M:Monocle.MTextureExt.SetParent(Monocle.MTexture,Monocle.MTexture)
+  fullName: Monocle.MTextureExt.SetParent(Monocle.MTexture, Monocle.MTexture)
+  nameWithType: MTextureExt.SetParent(MTexture, MTexture)
+- uid: Monocle.MTextureExt.SetParent*
+  name: SetParent
+  href: api/Monocle.MTextureExt.html#Monocle_MTextureExt_SetParent_
+  commentId: Overload:Monocle.MTextureExt.SetParent
+  fullName: Monocle.MTextureExt.SetParent
+  nameWithType: MTextureExt.SetParent
 - uid: Monocle.RendererListExt
   name: RendererListExt
   href: api/Monocle.RendererListExt.html

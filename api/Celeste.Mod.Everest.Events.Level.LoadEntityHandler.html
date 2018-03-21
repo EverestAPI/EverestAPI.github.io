@@ -96,7 +96,7 @@
   <h6><strong>Assembly</strong>: Celeste.Mod.mm.dll</h6>
   <h5 id="Celeste_Mod_Everest_Events_Level_LoadEntityHandler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void LoadEntityHandler(Level level, LevelData levelData, Vector2 offset, EntityData entityData);</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate bool LoadEntityHandler(Level level, LevelData levelData, Vector2 offset, EntityData entityData);</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,6 +126,21 @@
       <tr>
         <td><span class="xref">Celeste.EntityData</span></td>
         <td><span class="parametername">entityData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -241,7 +256,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void EndInvoke(IAsyncResult result)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual bool EndInvoke(IAsyncResult result)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -260,6 +275,21 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Celeste_Mod_Everest_Events_Level_LoadEntityHandler_Invoke_" data-uid="Celeste.Mod.Everest.Events.Level.LoadEntityHandler.Invoke*"></a>
@@ -268,7 +298,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void Invoke(Level level, LevelData levelData, Vector2 offset, EntityData entityData)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual bool Invoke(Level level, LevelData levelData, Vector2 offset, EntityData entityData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -298,6 +328,21 @@
       <tr>
         <td><span class="xref">Celeste.EntityData</span></td>
         <td><span class="parametername">entityData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
