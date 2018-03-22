@@ -3088,6 +3088,21 @@ references:
   commentId: T:Celeste.Mod.Extensions
   fullName: Celeste.Mod.Extensions
   nameWithType: Extensions
+- uid: Celeste.Mod.Extensions.AddButtons(Monocle.VirtualButton,System.Collections.Generic.List{Microsoft.Xna.Framework.Input.Buttons})
+  name: AddButtons(VirtualButton, List<Buttons>)
+  href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_AddButtons_Monocle_VirtualButton_System_Collections_Generic_List_Microsoft_Xna_Framework_Input_Buttons__
+  commentId: M:Celeste.Mod.Extensions.AddButtons(Monocle.VirtualButton,System.Collections.Generic.List{Microsoft.Xna.Framework.Input.Buttons})
+  name.vb: AddButtons(VirtualButton, List(Of Buttons))
+  fullName: Celeste.Mod.Extensions.AddButtons(Monocle.VirtualButton, System.Collections.Generic.List<Microsoft.Xna.Framework.Input.Buttons>)
+  fullName.vb: Celeste.Mod.Extensions.AddButtons(Monocle.VirtualButton, System.Collections.Generic.List(Of Microsoft.Xna.Framework.Input.Buttons))
+  nameWithType: Extensions.AddButtons(VirtualButton, List<Buttons>)
+  nameWithType.vb: Extensions.AddButtons(VirtualButton, List(Of Buttons))
+- uid: Celeste.Mod.Extensions.AddButtons*
+  name: AddButtons
+  href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_AddButtons_
+  commentId: Overload:Celeste.Mod.Extensions.AddButtons
+  fullName: Celeste.Mod.Extensions.AddButtons
+  nameWithType: Extensions.AddButtons
 - uid: Celeste.Mod.Extensions.CastDelegate(System.Delegate,System.Type)
   name: CastDelegate(Delegate, Type)
   href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_CastDelegate_System_Delegate_System_Type_

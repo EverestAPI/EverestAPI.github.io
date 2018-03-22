@@ -702,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Extensions.html",
-          "hash": "T5pwSUwsRytmpSz7ElTL9A=="
+          "hash": "0ttC1c3U5v/dhcTFBcBMaQ=="
         }
       },
       "is_incremental": false,
@@ -1631,7 +1631,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "NcvjWi0ikTLun9zbRi8AaQ=="
+          "hash": "Pk5gsya9mOLn0uLiLmza4g=="
         }
       },
       "is_incremental": false,
@@ -1727,11 +1727,12 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
@@ -1740,9 +1741,8 @@
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build"
         }
       }
