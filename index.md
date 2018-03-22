@@ -17,7 +17,7 @@ If you've got any issues with Everest, we're in the #game_modding channel of thi
 [![Discord invite](/images/invite.png)](https://discord.gg/6qjaePQ)
 
 ## Installing Everest
-- If you want to build your own version of Everest, go to [Building Everest](#building-everest).
+- For developers: If you want to build your own version of Everest, go to [Building Everest](#building-everest).
 - If you've **previously installed Everest and updated Celeste** or switched betas / branches, delete the `orig` directory where Celeste is installed.
     - macOS: Open the Celeste app in Finder, then naviagte to `Contents`, then `MacOS`.
 - [**Download the latest `Everest.zip` on Nexus Mods**](https://www.nexusmods.com/celeste/mods/1?tab=files)
@@ -35,6 +35,7 @@ If you've got any issues with Everest, we're in the #game_modding channel of thi
 - That's it. No need to extract anything.
 
 ## Building Everest
+- ***If you just want to install Everest, go to [Installing Everest](#installing-everest).***
 - If you've **previously installed Everest and updated Celeste** or switched betas / branches, delete the `orig` directory where Celeste is installed.
     - macOS: Open the Celeste app in Finder, then naviagte to `Contents`, then `MacOS`.
 - Clone the [Everest repo](github.com/EverestAPI/Everest), either in your IDE, via the CLI, or by downloading the .zip from GitHub.
