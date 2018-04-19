@@ -4,7 +4,7 @@ _appTitle: ""
 ---
 
 <!-- .h1 is styled by the default DocFX theme. -->
-<h1 class="h1 main-header">EVEREST</h1>
+<h1 class="h1 main-header">Everest</h1>
 
 ----
 
@@ -17,6 +17,15 @@ If you've got any issues with Everest, we're in the #game_modding channel of thi
 [![Discord invite](/images/invite.png)](https://discord.gg/6qjaePQ)
 
 ## Installing Everest
+
+### Windows auto-installer
+- [**Download the latest installer `.exe` on Nexus Mods**](https://www.nexusmods.com/celeste/mods/1?tab=files#mod_files) and run it.
+- If Windows SmartScreen blocks it, tell it to run anyway.
+- Steam: The installer should find your game automatically.
+- itch.io: Select Celeste.exe in the installer.
+- Hit the huge install button.
+
+### Windows / macOS / Linux / *BSD manual installation
 - For developers: If you want to build your own version of Everest, go to [Building Everest](#building-everest).
 - If you've **previously installed Everest and updated Celeste** or switched betas / branches, delete the `orig` directory where Celeste is installed.
     - macOS: Open the Celeste app in Finder, then naviagte to `Contents`, then `MacOS`.
