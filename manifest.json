@@ -134,6 +134,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.ANotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.ANotification.html",
+          "hash": "Z6nNrQ76CmRkhi4Dv6F73w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.ATouchRegion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.ATouchRegion.html",
+          "hash": "LiWP8q+MprfVBbgLUKn0hA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Celeste.Mod.AssetTypeAssembly.yml",
       "output": {
         ".html": {
@@ -182,6 +206,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.AssetTypeXml.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.AssetTypeXml.html",
+          "hash": "q1IbRXSnwPPWN9ZXyLDUPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Celeste.Mod.AssetTypeYaml.yml",
       "output": {
         ".html": {
@@ -222,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Core.CoreModule.html",
-          "hash": "1YeEUw9RE3qJ8tqp6Y1n1w=="
+          "hash": "JwTQdCMHGh2Si3h/WPGikQ=="
         }
       },
       "is_incremental": false,
@@ -246,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Core.CoreModuleSettings.html",
-          "hash": "zn9TbJ3d/iTZumJPMv+jLQ=="
+          "hash": "qRxRDojSXteGScBpbVnxCQ=="
         }
       },
       "is_incremental": false,
@@ -330,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Everest.Content.html",
-          "hash": "wIYG9kN+/KoG60tHWel/qA=="
+          "hash": "dgycFbs3uo9FOH31kWKBcw=="
         }
       },
       "is_incremental": false,
@@ -582,7 +618,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Everest.Events.html",
-          "hash": "aJayyX8tzGaiOF9SrBJk5A=="
+          "hash": "jMf1pvZ6RPiVBJv9NGLPbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Flags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Flags.html",
+          "hash": "PmHwM8LmPm0j2M4Lutjlqw=="
         }
       },
       "is_incremental": false,
@@ -606,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Everest.Relinker.html",
-          "hash": "gXNXzzGrYvxF0aaP+/bCJQ=="
+          "hash": "KvJuWyudPd4S819uolPI2g=="
         }
       },
       "is_incremental": false,
@@ -666,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.EverestModuleMetadata.html",
-          "hash": "OMN4Chujfa7ExNdyBOIPaw=="
+          "hash": "g59R2ascl81wK9ybO2tgQg=="
         }
       },
       "is_incremental": false,
@@ -702,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Extensions.html",
-          "hash": "0ttC1c3U5v/dhcTFBcBMaQ=="
+          "hash": "+eJsYi0WNOn4XuZTf8CVYg=="
         }
       },
       "is_incremental": false,
@@ -746,18 +794,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Celeste.Mod.Helpers.LimitedStream.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Celeste.Mod.Helpers.LimitedStream.html",
-          "hash": "CXvMxLuimRXOuDIpC7I9rg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Celeste.Mod.Helpers.LogWriter.yml",
       "output": {
         ".html": {
@@ -774,7 +810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Helpers.html",
-          "hash": "ev/kg9U7jadFJutTW7GbhQ=="
+          "hash": "hz029mU1mQClMWCe3FSTmA=="
         }
       },
       "is_incremental": false,
@@ -1010,6 +1046,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Notification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Notification.html",
+          "hash": "iFYfJbktOL5waCnQuCOv1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.NotificationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.NotificationManager.html",
+          "hash": "rXCGe6aBrGsybWtsHuZftA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Celeste.Mod.RelinkerSymbolReaderProvider.yml",
       "output": {
         ".html": {
@@ -1087,6 +1147,78 @@
         ".html": {
           "relative_path": "api/Celeste.Mod.TextInput.html",
           "hash": "4WLx7dySQIw543y5neM91A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.TouchInputManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.TouchInputManager.html",
+          "hash": "aTxmFfh0oqP8l0d1phdy1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.TouchInputNodes.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.TouchInputNodes.Button.html",
+          "hash": "alLluAHeDL2gB75Pwv55Ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.TouchInputNodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.TouchInputNodes.html",
+          "hash": "ZaJxyz0ObsodrNpuEnyCqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.TouchRegion.TouchRegionCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.TouchRegion.TouchRegionCondition.html",
+          "hash": "xeU4I301t8bHqRTIyD0few=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.TouchRegion.TouchRegionEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.TouchRegion.TouchRegionEventHandler.html",
+          "hash": "P04yGt0jgUJ8fQ69GdqLlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.TouchRegion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.TouchRegion.html",
+          "hash": "uKbbXDFNLs2OGzZRn6VkIA=="
         }
       },
       "is_incremental": false,
@@ -1214,6 +1346,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.UI.TextMenuExt.HeaderImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html",
+          "hash": "729bkqzg2FnRx17uSiZyjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Celeste.Mod.UI.TextMenuExt.IItemExt.yml",
       "output": {
         ".html": {
@@ -1254,7 +1398,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.UI.html",
-          "hash": "/lGGa2IbX4MfFY7FYg5gRg=="
+          "hash": "6KTuELnupbSxhsDY4bZkJQ=="
         }
       },
       "is_incremental": false,
@@ -1278,7 +1422,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.html",
-          "hash": "HlPbJdqZx1tWT9US5d5nnA=="
+          "hash": "9dpLq8ItHN1Z27W5N62/Yg=="
         }
       },
       "is_incremental": false,
@@ -1374,7 +1518,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Monocle.AtlasExt.html",
-          "hash": "1RcCUxdifOdLQR3KyjxMQA=="
+          "hash": "ge/4dkW90Dm1NCJ+d3YBMA=="
         }
       },
       "is_incremental": false,
@@ -1454,11 +1598,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Monocle.VirtualAssetExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monocle.VirtualAssetExt.html",
+          "hash": "GNrryVrJL6OB8aHCPzc6Eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Monocle.VirtualContentExt.yml",
       "output": {
         ".html": {
           "relative_path": "api/Monocle.VirtualContentExt.html",
-          "hash": "xWpOIH3vyNkIqUnvaxPmsg=="
+          "hash": "Ac525CJP/ZxjSbeo+MKXqQ=="
         }
       },
       "is_incremental": false,
@@ -1482,7 +1638,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Monocle.html",
-          "hash": "jeXgU9xEzqz/G4ZPWJv5/w=="
+          "hash": "TNoDS/WREgrR4phpPMa9vw=="
         }
       },
       "is_incremental": false,
@@ -1506,7 +1662,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "2lIyp5fzpjq1egRVqN6mkQ=="
+          "hash": "Irp/PLur+rIYE7ynTmec9Q=="
         }
       },
       "is_incremental": false,
@@ -1631,7 +1787,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Pk5gsya9mOLn0uLiLmza4g=="
+          "hash": "gsd1RLGkxIyDVmwuDmmulA=="
         }
       },
       "is_incremental": false,
@@ -1732,13 +1888,13 @@
           "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {

@@ -69,9 +69,17 @@
   background-color: #faf2cc
 }
 
-/* Celeste menu-styled main header - mostly a bunch of text shadows. */
+/* Everest logo. */
 
 article h1.main-header {
+  color: #3b2d4a;
+  font-family: Renogare, sans-serif;
+  font-size: 108px;
+}
+
+/* Celeste menu-styled main header - mostly a bunch of text shadows. */
+
+article h1.menu-header {
   color: #9d98b3;
   font-weight: 600;
   font-size: 108px;

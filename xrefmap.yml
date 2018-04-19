@@ -499,6 +499,90 @@ references:
   commentId: N:Celeste.Mod
   fullName: Celeste.Mod
   nameWithType: Celeste.Mod
+- uid: Celeste.Mod.ANotification
+  name: ANotification
+  href: api/Celeste.Mod.ANotification.html
+  commentId: T:Celeste.Mod.ANotification
+  fullName: Celeste.Mod.ANotification
+  nameWithType: ANotification
+- uid: Celeste.Mod.ANotification.#ctor
+  name: ANotification()
+  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification__ctor
+  commentId: M:Celeste.Mod.ANotification.#ctor
+  fullName: Celeste.Mod.ANotification.ANotification()
+  nameWithType: ANotification.ANotification()
+- uid: Celeste.Mod.ANotification.#ctor*
+  name: ANotification
+  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification__ctor_
+  commentId: Overload:Celeste.Mod.ANotification.#ctor
+  fullName: Celeste.Mod.ANotification.ANotification
+  nameWithType: ANotification.ANotification
+- uid: Celeste.Mod.ANotification.Dispose
+  name: Dispose()
+  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Dispose
+  commentId: M:Celeste.Mod.ANotification.Dispose
+  fullName: Celeste.Mod.ANotification.Dispose()
+  nameWithType: ANotification.Dispose()
+- uid: Celeste.Mod.ANotification.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Dispose_System_Boolean_
+  commentId: M:Celeste.Mod.ANotification.Dispose(System.Boolean)
+  fullName: Celeste.Mod.ANotification.Dispose(System.Boolean)
+  nameWithType: ANotification.Dispose(Boolean)
+- uid: Celeste.Mod.ANotification.Dispose*
+  name: Dispose
+  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Dispose_
+  commentId: Overload:Celeste.Mod.ANotification.Dispose
+  fullName: Celeste.Mod.ANotification.Dispose
+  nameWithType: ANotification.Dispose
+- uid: Celeste.Mod.ANotification.Draw
+  name: Draw()
+  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Draw
+  commentId: M:Celeste.Mod.ANotification.Draw
+  fullName: Celeste.Mod.ANotification.Draw()
+  nameWithType: ANotification.Draw()
+- uid: Celeste.Mod.ANotification.Draw*
+  name: Draw
+  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Draw_
+  commentId: Overload:Celeste.Mod.ANotification.Draw
+  fullName: Celeste.Mod.ANotification.Draw
+  nameWithType: ANotification.Draw
+- uid: Celeste.Mod.ANotification.Duration
+  name: Duration
+  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Duration
+  commentId: F:Celeste.Mod.ANotification.Duration
+  fullName: Celeste.Mod.ANotification.Duration
+  nameWithType: ANotification.Duration
+- uid: Celeste.Mod.ANotification.Position
+  name: Position
+  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Position
+  commentId: F:Celeste.Mod.ANotification.Position
+  fullName: Celeste.Mod.ANotification.Position
+  nameWithType: ANotification.Position
+- uid: Celeste.Mod.ANotification.Size
+  name: Size
+  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Size
+  commentId: F:Celeste.Mod.ANotification.Size
+  fullName: Celeste.Mod.ANotification.Size
+  nameWithType: ANotification.Size
+- uid: Celeste.Mod.ANotification.Time
+  name: Time
+  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Time
+  commentId: F:Celeste.Mod.ANotification.Time
+  fullName: Celeste.Mod.ANotification.Time
+  nameWithType: ANotification.Time
+- uid: Celeste.Mod.ANotification.Update
+  name: Update()
+  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Update
+  commentId: M:Celeste.Mod.ANotification.Update
+  fullName: Celeste.Mod.ANotification.Update()
+  nameWithType: ANotification.Update()
+- uid: Celeste.Mod.ANotification.Update*
+  name: Update
+  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Update_
+  commentId: Overload:Celeste.Mod.ANotification.Update
+  fullName: Celeste.Mod.ANotification.Update
+  nameWithType: ANotification.Update
 - uid: Celeste.Mod.AssetTypeAssembly
   name: AssetTypeAssembly
   href: api/Celeste.Mod.AssetTypeAssembly.html
@@ -523,12 +607,96 @@ references:
   commentId: T:Celeste.Mod.AssetTypeMap
   fullName: Celeste.Mod.AssetTypeMap
   nameWithType: AssetTypeMap
+- uid: Celeste.Mod.AssetTypeXml
+  name: AssetTypeXml
+  href: api/Celeste.Mod.AssetTypeXml.html
+  commentId: T:Celeste.Mod.AssetTypeXml
+  fullName: Celeste.Mod.AssetTypeXml
+  nameWithType: AssetTypeXml
 - uid: Celeste.Mod.AssetTypeYaml
   name: AssetTypeYaml
   href: api/Celeste.Mod.AssetTypeYaml.html
   commentId: T:Celeste.Mod.AssetTypeYaml
   fullName: Celeste.Mod.AssetTypeYaml
   nameWithType: AssetTypeYaml
+- uid: Celeste.Mod.ATouchRegion
+  name: ATouchRegion
+  href: api/Celeste.Mod.ATouchRegion.html
+  commentId: T:Celeste.Mod.ATouchRegion
+  fullName: Celeste.Mod.ATouchRegion
+  nameWithType: ATouchRegion
+- uid: Celeste.Mod.ATouchRegion.#ctor
+  name: ATouchRegion()
+  href: api/Celeste.Mod.ATouchRegion.html#Celeste_Mod_ATouchRegion__ctor
+  commentId: M:Celeste.Mod.ATouchRegion.#ctor
+  fullName: Celeste.Mod.ATouchRegion.ATouchRegion()
+  nameWithType: ATouchRegion.ATouchRegion()
+- uid: Celeste.Mod.ATouchRegion.#ctor*
+  name: ATouchRegion
+  href: api/Celeste.Mod.ATouchRegion.html#Celeste_Mod_ATouchRegion__ctor_
+  commentId: Overload:Celeste.Mod.ATouchRegion.#ctor
+  fullName: Celeste.Mod.ATouchRegion.ATouchRegion
+  nameWithType: ATouchRegion.ATouchRegion
+- uid: Celeste.Mod.ATouchRegion.Draw
+  name: Draw()
+  href: api/Celeste.Mod.ATouchRegion.html#Celeste_Mod_ATouchRegion_Draw
+  commentId: M:Celeste.Mod.ATouchRegion.Draw
+  fullName: Celeste.Mod.ATouchRegion.Draw()
+  nameWithType: ATouchRegion.Draw()
+- uid: Celeste.Mod.ATouchRegion.Draw*
+  name: Draw
+  href: api/Celeste.Mod.ATouchRegion.html#Celeste_Mod_ATouchRegion_Draw_
+  commentId: Overload:Celeste.Mod.ATouchRegion.Draw
+  fullName: Celeste.Mod.ATouchRegion.Draw
+  nameWithType: ATouchRegion.Draw
+- uid: Celeste.Mod.ATouchRegion.Position
+  name: Position
+  href: api/Celeste.Mod.ATouchRegion.html#Celeste_Mod_ATouchRegion_Position
+  commentId: F:Celeste.Mod.ATouchRegion.Position
+  fullName: Celeste.Mod.ATouchRegion.Position
+  nameWithType: ATouchRegion.Position
+- uid: Celeste.Mod.ATouchRegion.Size
+  name: Size
+  href: api/Celeste.Mod.ATouchRegion.html#Celeste_Mod_ATouchRegion_Size
+  commentId: F:Celeste.Mod.ATouchRegion.Size
+  fullName: Celeste.Mod.ATouchRegion.Size
+  nameWithType: ATouchRegion.Size
+- uid: Celeste.Mod.ATouchRegion.Touch
+  name: Touch
+  href: api/Celeste.Mod.ATouchRegion.html#Celeste_Mod_ATouchRegion_Touch
+  commentId: P:Celeste.Mod.ATouchRegion.Touch
+  fullName: Celeste.Mod.ATouchRegion.Touch
+  nameWithType: ATouchRegion.Touch
+- uid: Celeste.Mod.ATouchRegion.Touch*
+  name: Touch
+  href: api/Celeste.Mod.ATouchRegion.html#Celeste_Mod_ATouchRegion_Touch_
+  commentId: Overload:Celeste.Mod.ATouchRegion.Touch
+  fullName: Celeste.Mod.ATouchRegion.Touch
+  nameWithType: ATouchRegion.Touch
+- uid: Celeste.Mod.ATouchRegion.TouchPrev
+  name: TouchPrev
+  href: api/Celeste.Mod.ATouchRegion.html#Celeste_Mod_ATouchRegion_TouchPrev
+  commentId: P:Celeste.Mod.ATouchRegion.TouchPrev
+  fullName: Celeste.Mod.ATouchRegion.TouchPrev
+  nameWithType: ATouchRegion.TouchPrev
+- uid: Celeste.Mod.ATouchRegion.TouchPrev*
+  name: TouchPrev
+  href: api/Celeste.Mod.ATouchRegion.html#Celeste_Mod_ATouchRegion_TouchPrev_
+  commentId: Overload:Celeste.Mod.ATouchRegion.TouchPrev
+  fullName: Celeste.Mod.ATouchRegion.TouchPrev
+  nameWithType: ATouchRegion.TouchPrev
+- uid: Celeste.Mod.ATouchRegion.Update(Microsoft.Xna.Framework.Input.Touch.TouchCollection,Microsoft.Xna.Framework.Input.Touch.TouchLocation)
+  name: Update(TouchCollection, TouchLocation)
+  href: api/Celeste.Mod.ATouchRegion.html#Celeste_Mod_ATouchRegion_Update_Microsoft_Xna_Framework_Input_Touch_TouchCollection_Microsoft_Xna_Framework_Input_Touch_TouchLocation_
+  commentId: M:Celeste.Mod.ATouchRegion.Update(Microsoft.Xna.Framework.Input.Touch.TouchCollection,Microsoft.Xna.Framework.Input.Touch.TouchLocation)
+  fullName: Celeste.Mod.ATouchRegion.Update(Microsoft.Xna.Framework.Input.Touch.TouchCollection, Microsoft.Xna.Framework.Input.Touch.TouchLocation)
+  nameWithType: ATouchRegion.Update(TouchCollection, TouchLocation)
+- uid: Celeste.Mod.ATouchRegion.Update*
+  name: Update
+  href: api/Celeste.Mod.ATouchRegion.html#Celeste_Mod_ATouchRegion_Update_
+  commentId: Overload:Celeste.Mod.ATouchRegion.Update
+  fullName: Celeste.Mod.ATouchRegion.Update
+  nameWithType: ATouchRegion.Update
 - uid: Celeste.Mod.ContentExtensions
   name: ContentExtensions
   href: api/Celeste.Mod.ContentExtensions.html
@@ -730,18 +898,30 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModule.Load
   fullName: Celeste.Mod.Core.CoreModule.Load
   nameWithType: CoreModule.Load
-- uid: Celeste.Mod.Core.CoreModule.LoadContent
-  name: LoadContent()
-  href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_LoadContent
-  commentId: M:Celeste.Mod.Core.CoreModule.LoadContent
-  fullName: Celeste.Mod.Core.CoreModule.LoadContent()
-  nameWithType: CoreModule.LoadContent()
+- uid: Celeste.Mod.Core.CoreModule.LoadContent(System.Boolean)
+  name: LoadContent(Boolean)
+  href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_LoadContent_System_Boolean_
+  commentId: M:Celeste.Mod.Core.CoreModule.LoadContent(System.Boolean)
+  fullName: Celeste.Mod.Core.CoreModule.LoadContent(System.Boolean)
+  nameWithType: CoreModule.LoadContent(Boolean)
 - uid: Celeste.Mod.Core.CoreModule.LoadContent*
   name: LoadContent
   href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_LoadContent_
   commentId: Overload:Celeste.Mod.Core.CoreModule.LoadContent
   fullName: Celeste.Mod.Core.CoreModule.LoadContent
   nameWithType: CoreModule.LoadContent
+- uid: Celeste.Mod.Core.CoreModule.LoadSettings
+  name: LoadSettings()
+  href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_LoadSettings
+  commentId: M:Celeste.Mod.Core.CoreModule.LoadSettings
+  fullName: Celeste.Mod.Core.CoreModule.LoadSettings()
+  nameWithType: CoreModule.LoadSettings()
+- uid: Celeste.Mod.Core.CoreModule.LoadSettings*
+  name: LoadSettings
+  href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_LoadSettings_
+  commentId: Overload:Celeste.Mod.Core.CoreModule.LoadSettings
+  fullName: Celeste.Mod.Core.CoreModule.LoadSettings
+  nameWithType: CoreModule.LoadSettings
 - uid: Celeste.Mod.Core.CoreModule.SaveData
   name: SaveData
   href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_SaveData
@@ -850,6 +1030,18 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.#ctor
   fullName: Celeste.Mod.Core.CoreModuleSettings.CoreModuleSettings
   nameWithType: CoreModuleSettings.CoreModuleSettings
+- uid: Celeste.Mod.Core.CoreModuleSettings.CreateInputGuiEntry(Celeste.TextMenu,System.Boolean)
+  name: CreateInputGuiEntry(TextMenu, Boolean)
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateInputGuiEntry_Celeste_TextMenu_System_Boolean_
+  commentId: M:Celeste.Mod.Core.CoreModuleSettings.CreateInputGuiEntry(Celeste.TextMenu,System.Boolean)
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateInputGuiEntry(Celeste.TextMenu, System.Boolean)
+  nameWithType: CoreModuleSettings.CreateInputGuiEntry(TextMenu, Boolean)
+- uid: Celeste.Mod.Core.CoreModuleSettings.CreateInputGuiEntry*
+  name: CreateInputGuiEntry
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateInputGuiEntry_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CreateInputGuiEntry
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateInputGuiEntry
+  nameWithType: CoreModuleSettings.CreateInputGuiEntry
 - uid: Celeste.Mod.Core.CoreModuleSettings.InputGui
   name: InputGui
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_InputGui
@@ -886,6 +1078,42 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.LaunchWithoutIntro
   fullName: Celeste.Mod.Core.CoreModuleSettings.LaunchWithoutIntro
   nameWithType: CoreModuleSettings.LaunchWithoutIntro
+- uid: Celeste.Mod.Core.CoreModuleSettings.LazyLoading
+  name: LazyLoading
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_LazyLoading
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.LazyLoading
+  fullName: Celeste.Mod.Core.CoreModuleSettings.LazyLoading
+  nameWithType: CoreModuleSettings.LazyLoading
+- uid: Celeste.Mod.Core.CoreModuleSettings.LazyLoading*
+  name: LazyLoading
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_LazyLoading_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.LazyLoading
+  fullName: Celeste.Mod.Core.CoreModuleSettings.LazyLoading
+  nameWithType: CoreModuleSettings.LazyLoading
+- uid: Celeste.Mod.Core.CoreModuleSettings.LQAtlas
+  name: LQAtlas
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_LQAtlas
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.LQAtlas
+  fullName: Celeste.Mod.Core.CoreModuleSettings.LQAtlas
+  nameWithType: CoreModuleSettings.LQAtlas
+- uid: Celeste.Mod.Core.CoreModuleSettings.LQAtlas*
+  name: LQAtlas
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_LQAtlas_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.LQAtlas
+  fullName: Celeste.Mod.Core.CoreModuleSettings.LQAtlas
+  nameWithType: CoreModuleSettings.LQAtlas
+- uid: Celeste.Mod.Core.CoreModuleSettings.NonThreadedGL
+  name: NonThreadedGL
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_NonThreadedGL
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.NonThreadedGL
+  fullName: Celeste.Mod.Core.CoreModuleSettings.NonThreadedGL
+  nameWithType: CoreModuleSettings.NonThreadedGL
+- uid: Celeste.Mod.Core.CoreModuleSettings.NonThreadedGL*
+  name: NonThreadedGL
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_NonThreadedGL_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.NonThreadedGL
+  fullName: Celeste.Mod.Core.CoreModuleSettings.NonThreadedGL
+  nameWithType: CoreModuleSettings.NonThreadedGL
 - uid: Celeste.Mod.Entities
   name: Celeste.Mod.Entities
   href: api/Celeste.Mod.Entities.html
@@ -2191,6 +2419,132 @@ references:
   commentId: E:Celeste.Mod.Everest.Events.Player.OnSpawn
   fullName: Celeste.Mod.Everest.Events.Player.OnSpawn
   nameWithType: Everest.Events.Player.OnSpawn
+- uid: Celeste.Mod.Everest.Flags
+  name: Everest.Flags
+  href: api/Celeste.Mod.Everest.Flags.html
+  commentId: T:Celeste.Mod.Everest.Flags
+  fullName: Celeste.Mod.Everest.Flags
+  nameWithType: Everest.Flags
+- uid: Celeste.Mod.Everest.Flags.AvoidRenderTargets
+  name: AvoidRenderTargets
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_AvoidRenderTargets
+  commentId: P:Celeste.Mod.Everest.Flags.AvoidRenderTargets
+  fullName: Celeste.Mod.Everest.Flags.AvoidRenderTargets
+  nameWithType: Everest.Flags.AvoidRenderTargets
+- uid: Celeste.Mod.Everest.Flags.AvoidRenderTargets*
+  name: AvoidRenderTargets
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_AvoidRenderTargets_
+  commentId: Overload:Celeste.Mod.Everest.Flags.AvoidRenderTargets
+  fullName: Celeste.Mod.Everest.Flags.AvoidRenderTargets
+  nameWithType: Everest.Flags.AvoidRenderTargets
+- uid: Celeste.Mod.Everest.Flags.IsAndroid
+  name: IsAndroid
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_IsAndroid
+  commentId: P:Celeste.Mod.Everest.Flags.IsAndroid
+  fullName: Celeste.Mod.Everest.Flags.IsAndroid
+  nameWithType: Everest.Flags.IsAndroid
+- uid: Celeste.Mod.Everest.Flags.IsAndroid*
+  name: IsAndroid
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_IsAndroid_
+  commentId: Overload:Celeste.Mod.Everest.Flags.IsAndroid
+  fullName: Celeste.Mod.Everest.Flags.IsAndroid
+  nameWithType: Everest.Flags.IsAndroid
+- uid: Celeste.Mod.Everest.Flags.IsFNADroid
+  name: IsFNADroid
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_IsFNADroid
+  commentId: P:Celeste.Mod.Everest.Flags.IsFNADroid
+  fullName: Celeste.Mod.Everest.Flags.IsFNADroid
+  nameWithType: Everest.Flags.IsFNADroid
+- uid: Celeste.Mod.Everest.Flags.IsFNADroid*
+  name: IsFNADroid
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_IsFNADroid_
+  commentId: Overload:Celeste.Mod.Everest.Flags.IsFNADroid
+  fullName: Celeste.Mod.Everest.Flags.IsFNADroid
+  nameWithType: Everest.Flags.IsFNADroid
+- uid: Celeste.Mod.Everest.Flags.IsMobile
+  name: IsMobile
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_IsMobile
+  commentId: P:Celeste.Mod.Everest.Flags.IsMobile
+  fullName: Celeste.Mod.Everest.Flags.IsMobile
+  nameWithType: Everest.Flags.IsMobile
+- uid: Celeste.Mod.Everest.Flags.IsMobile*
+  name: IsMobile
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_IsMobile_
+  commentId: Overload:Celeste.Mod.Everest.Flags.IsMobile
+  fullName: Celeste.Mod.Everest.Flags.IsMobile
+  nameWithType: Everest.Flags.IsMobile
+- uid: Celeste.Mod.Everest.Flags.IsMono
+  name: IsMono
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_IsMono
+  commentId: P:Celeste.Mod.Everest.Flags.IsMono
+  fullName: Celeste.Mod.Everest.Flags.IsMono
+  nameWithType: Everest.Flags.IsMono
+- uid: Celeste.Mod.Everest.Flags.IsMono*
+  name: IsMono
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_IsMono_
+  commentId: Overload:Celeste.Mod.Everest.Flags.IsMono
+  fullName: Celeste.Mod.Everest.Flags.IsMono
+  nameWithType: Everest.Flags.IsMono
+- uid: Celeste.Mod.Everest.Flags.PreferLazyLoading
+  name: PreferLazyLoading
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_PreferLazyLoading
+  commentId: P:Celeste.Mod.Everest.Flags.PreferLazyLoading
+  fullName: Celeste.Mod.Everest.Flags.PreferLazyLoading
+  nameWithType: Everest.Flags.PreferLazyLoading
+- uid: Celeste.Mod.Everest.Flags.PreferLazyLoading*
+  name: PreferLazyLoading
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_PreferLazyLoading_
+  commentId: Overload:Celeste.Mod.Everest.Flags.PreferLazyLoading
+  fullName: Celeste.Mod.Everest.Flags.PreferLazyLoading
+  nameWithType: Everest.Flags.PreferLazyLoading
+- uid: Celeste.Mod.Everest.Flags.PreferLQAtlas
+  name: PreferLQAtlas
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_PreferLQAtlas
+  commentId: P:Celeste.Mod.Everest.Flags.PreferLQAtlas
+  fullName: Celeste.Mod.Everest.Flags.PreferLQAtlas
+  nameWithType: Everest.Flags.PreferLQAtlas
+- uid: Celeste.Mod.Everest.Flags.PreferLQAtlas*
+  name: PreferLQAtlas
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_PreferLQAtlas_
+  commentId: Overload:Celeste.Mod.Everest.Flags.PreferLQAtlas
+  fullName: Celeste.Mod.Everest.Flags.PreferLQAtlas
+  nameWithType: Everest.Flags.PreferLQAtlas
+- uid: Celeste.Mod.Everest.Flags.SupportRelinkingMods
+  name: SupportRelinkingMods
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_SupportRelinkingMods
+  commentId: P:Celeste.Mod.Everest.Flags.SupportRelinkingMods
+  fullName: Celeste.Mod.Everest.Flags.SupportRelinkingMods
+  nameWithType: Everest.Flags.SupportRelinkingMods
+- uid: Celeste.Mod.Everest.Flags.SupportRelinkingMods*
+  name: SupportRelinkingMods
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_SupportRelinkingMods_
+  commentId: Overload:Celeste.Mod.Everest.Flags.SupportRelinkingMods
+  fullName: Celeste.Mod.Everest.Flags.SupportRelinkingMods
+  nameWithType: Everest.Flags.SupportRelinkingMods
+- uid: Celeste.Mod.Everest.Flags.SupportRuntimeMods
+  name: SupportRuntimeMods
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_SupportRuntimeMods
+  commentId: P:Celeste.Mod.Everest.Flags.SupportRuntimeMods
+  fullName: Celeste.Mod.Everest.Flags.SupportRuntimeMods
+  nameWithType: Everest.Flags.SupportRuntimeMods
+- uid: Celeste.Mod.Everest.Flags.SupportRuntimeMods*
+  name: SupportRuntimeMods
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_SupportRuntimeMods_
+  commentId: Overload:Celeste.Mod.Everest.Flags.SupportRuntimeMods
+  fullName: Celeste.Mod.Everest.Flags.SupportRuntimeMods
+  nameWithType: Everest.Flags.SupportRuntimeMods
+- uid: Celeste.Mod.Everest.Flags.SupportUpdatingEverest
+  name: SupportUpdatingEverest
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_SupportUpdatingEverest
+  commentId: P:Celeste.Mod.Everest.Flags.SupportUpdatingEverest
+  fullName: Celeste.Mod.Everest.Flags.SupportUpdatingEverest
+  nameWithType: Everest.Flags.SupportUpdatingEverest
+- uid: Celeste.Mod.Everest.Flags.SupportUpdatingEverest*
+  name: SupportUpdatingEverest
+  href: api/Celeste.Mod.Everest.Flags.html#Celeste_Mod_Everest_Flags_SupportUpdatingEverest_
+  commentId: Overload:Celeste.Mod.Everest.Flags.SupportUpdatingEverest
+  fullName: Celeste.Mod.Everest.Flags.SupportUpdatingEverest
+  nameWithType: Everest.Flags.SupportUpdatingEverest
 - uid: Celeste.Mod.Everest.Invoke(System.String,System.Object[])
   name: Invoke(String, Object[])
   href: api/Celeste.Mod.Everest.html#Celeste_Mod_Everest_Invoke_System_String_System_Object___
@@ -2434,18 +2788,6 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Relinker.ChecksumsEqual
   fullName: Celeste.Mod.Everest.Relinker.ChecksumsEqual
   nameWithType: Everest.Relinker.ChecksumsEqual
-- uid: Celeste.Mod.Everest.Relinker.DefaultRelinker(Mono.Cecil.IMetadataTokenProvider,Mono.Cecil.IGenericParameterProvider)
-  name: DefaultRelinker(IMetadataTokenProvider, IGenericParameterProvider)
-  href: api/Celeste.Mod.Everest.Relinker.html#Celeste_Mod_Everest_Relinker_DefaultRelinker_Mono_Cecil_IMetadataTokenProvider_Mono_Cecil_IGenericParameterProvider_
-  commentId: M:Celeste.Mod.Everest.Relinker.DefaultRelinker(Mono.Cecil.IMetadataTokenProvider,Mono.Cecil.IGenericParameterProvider)
-  fullName: Celeste.Mod.Everest.Relinker.DefaultRelinker(Mono.Cecil.IMetadataTokenProvider, Mono.Cecil.IGenericParameterProvider)
-  nameWithType: Everest.Relinker.DefaultRelinker(IMetadataTokenProvider, IGenericParameterProvider)
-- uid: Celeste.Mod.Everest.Relinker.DefaultRelinker*
-  name: DefaultRelinker
-  href: api/Celeste.Mod.Everest.Relinker.html#Celeste_Mod_Everest_Relinker_DefaultRelinker_
-  commentId: Overload:Celeste.Mod.Everest.Relinker.DefaultRelinker
-  fullName: Celeste.Mod.Everest.Relinker.DefaultRelinker
-  nameWithType: Everest.Relinker.DefaultRelinker
 - uid: Celeste.Mod.Everest.Relinker.GameChecksum
   name: GameChecksum
   href: api/Celeste.Mod.Everest.Relinker.html#Celeste_Mod_Everest_Relinker_GameChecksum
@@ -2986,6 +3328,18 @@ references:
   commentId: Overload:Celeste.Mod.EverestModuleMetadata.PathDirectory
   fullName: Celeste.Mod.EverestModuleMetadata.PathDirectory
   nameWithType: EverestModuleMetadata.PathDirectory
+- uid: Celeste.Mod.EverestModuleMetadata.PostParse
+  name: PostParse()
+  href: api/Celeste.Mod.EverestModuleMetadata.html#Celeste_Mod_EverestModuleMetadata_PostParse
+  commentId: M:Celeste.Mod.EverestModuleMetadata.PostParse
+  fullName: Celeste.Mod.EverestModuleMetadata.PostParse()
+  nameWithType: EverestModuleMetadata.PostParse()
+- uid: Celeste.Mod.EverestModuleMetadata.PostParse*
+  name: PostParse
+  href: api/Celeste.Mod.EverestModuleMetadata.html#Celeste_Mod_EverestModuleMetadata_PostParse_
+  commentId: Overload:Celeste.Mod.EverestModuleMetadata.PostParse
+  fullName: Celeste.Mod.EverestModuleMetadata.PostParse
+  nameWithType: EverestModuleMetadata.PostParse
 - uid: Celeste.Mod.EverestModuleMetadata.Prelinked
   name: Prelinked
   href: api/Celeste.Mod.EverestModuleMetadata.html#Celeste_Mod_EverestModuleMetadata_Prelinked
@@ -3223,6 +3577,30 @@ references:
   commentId: Overload:Celeste.Mod.Extensions.InvokeWhileTrue
   fullName: Celeste.Mod.Extensions.InvokeWhileTrue
   nameWithType: Extensions.InvokeWhileTrue
+- uid: Celeste.Mod.Extensions.IsDown(Microsoft.Xna.Framework.Input.Touch.TouchLocationState)
+  name: IsDown(TouchLocationState)
+  href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_IsDown_Microsoft_Xna_Framework_Input_Touch_TouchLocationState_
+  commentId: M:Celeste.Mod.Extensions.IsDown(Microsoft.Xna.Framework.Input.Touch.TouchLocationState)
+  fullName: Celeste.Mod.Extensions.IsDown(Microsoft.Xna.Framework.Input.Touch.TouchLocationState)
+  nameWithType: Extensions.IsDown(TouchLocationState)
+- uid: Celeste.Mod.Extensions.IsDown*
+  name: IsDown
+  href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_IsDown_
+  commentId: Overload:Celeste.Mod.Extensions.IsDown
+  fullName: Celeste.Mod.Extensions.IsDown
+  nameWithType: Extensions.IsDown
+- uid: Celeste.Mod.Extensions.IsUp(Microsoft.Xna.Framework.Input.Touch.TouchLocationState)
+  name: IsUp(TouchLocationState)
+  href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_IsUp_Microsoft_Xna_Framework_Input_Touch_TouchLocationState_
+  commentId: M:Celeste.Mod.Extensions.IsUp(Microsoft.Xna.Framework.Input.Touch.TouchLocationState)
+  fullName: Celeste.Mod.Extensions.IsUp(Microsoft.Xna.Framework.Input.Touch.TouchLocationState)
+  nameWithType: Extensions.IsUp(TouchLocationState)
+- uid: Celeste.Mod.Extensions.IsUp*
+  name: IsUp
+  href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_IsUp_
+  commentId: Overload:Celeste.Mod.Extensions.IsUp
+  fullName: Celeste.Mod.Extensions.IsUp
+  nameWithType: Extensions.IsUp
 - uid: Celeste.Mod.Extensions.NeedsRelaunch(Celeste.TextMenu.Item,System.Boolean)
   name: NeedsRelaunch(TextMenu.Item, Boolean)
   href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_NeedsRelaunch_Celeste_TextMenu_Item_System_Boolean_
@@ -4036,270 +4414,6 @@ references:
   commentId: Overload:Celeste.Mod.Helpers.FileProxyStream.WriteByte
   fullName: Celeste.Mod.Helpers.FileProxyStream.WriteByte
   nameWithType: FileProxyStream.WriteByte
-- uid: Celeste.Mod.Helpers.LimitedStream
-  name: LimitedStream
-  href: api/Celeste.Mod.Helpers.LimitedStream.html
-  commentId: T:Celeste.Mod.Helpers.LimitedStream
-  fullName: Celeste.Mod.Helpers.LimitedStream
-  nameWithType: LimitedStream
-- uid: Celeste.Mod.Helpers.LimitedStream.#ctor(System.IO.Stream,System.Int64,System.Int64)
-  name: LimitedStream(Stream, Int64, Int64)
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream__ctor_System_IO_Stream_System_Int64_System_Int64_
-  commentId: M:Celeste.Mod.Helpers.LimitedStream.#ctor(System.IO.Stream,System.Int64,System.Int64)
-  fullName: Celeste.Mod.Helpers.LimitedStream.LimitedStream(System.IO.Stream, System.Int64, System.Int64)
-  nameWithType: LimitedStream.LimitedStream(Stream, Int64, Int64)
-- uid: Celeste.Mod.Helpers.LimitedStream.#ctor*
-  name: LimitedStream
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream__ctor_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.#ctor
-  fullName: Celeste.Mod.Helpers.LimitedStream.LimitedStream
-  nameWithType: LimitedStream.LimitedStream
-- uid: Celeste.Mod.Helpers.LimitedStream.CacheBuffer
-  name: CacheBuffer
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_CacheBuffer
-  commentId: P:Celeste.Mod.Helpers.LimitedStream.CacheBuffer
-  fullName: Celeste.Mod.Helpers.LimitedStream.CacheBuffer
-  nameWithType: LimitedStream.CacheBuffer
-- uid: Celeste.Mod.Helpers.LimitedStream.CacheBuffer*
-  name: CacheBuffer
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_CacheBuffer_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.CacheBuffer
-  fullName: Celeste.Mod.Helpers.LimitedStream.CacheBuffer
-  nameWithType: LimitedStream.CacheBuffer
-- uid: Celeste.Mod.Helpers.LimitedStream.CachedBuffer
-  name: CachedBuffer
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_CachedBuffer
-  commentId: F:Celeste.Mod.Helpers.LimitedStream.CachedBuffer
-  fullName: Celeste.Mod.Helpers.LimitedStream.CachedBuffer
-  nameWithType: LimitedStream.CachedBuffer
-- uid: Celeste.Mod.Helpers.LimitedStream.CachedLength
-  name: CachedLength
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_CachedLength
-  commentId: F:Celeste.Mod.Helpers.LimitedStream.CachedLength
-  fullName: Celeste.Mod.Helpers.LimitedStream.CachedLength
-  nameWithType: LimitedStream.CachedLength
-- uid: Celeste.Mod.Helpers.LimitedStream.CachedOffset
-  name: CachedOffset
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_CachedOffset
-  commentId: F:Celeste.Mod.Helpers.LimitedStream.CachedOffset
-  fullName: Celeste.Mod.Helpers.LimitedStream.CachedOffset
-  nameWithType: LimitedStream.CachedOffset
-- uid: Celeste.Mod.Helpers.LimitedStream.CanRead
-  name: CanRead
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_CanRead
-  commentId: P:Celeste.Mod.Helpers.LimitedStream.CanRead
-  fullName: Celeste.Mod.Helpers.LimitedStream.CanRead
-  nameWithType: LimitedStream.CanRead
-- uid: Celeste.Mod.Helpers.LimitedStream.CanRead*
-  name: CanRead
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_CanRead_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.CanRead
-  fullName: Celeste.Mod.Helpers.LimitedStream.CanRead
-  nameWithType: LimitedStream.CanRead
-- uid: Celeste.Mod.Helpers.LimitedStream.CanSeek
-  name: CanSeek
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_CanSeek
-  commentId: P:Celeste.Mod.Helpers.LimitedStream.CanSeek
-  fullName: Celeste.Mod.Helpers.LimitedStream.CanSeek
-  nameWithType: LimitedStream.CanSeek
-- uid: Celeste.Mod.Helpers.LimitedStream.CanSeek*
-  name: CanSeek
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_CanSeek_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.CanSeek
-  fullName: Celeste.Mod.Helpers.LimitedStream.CanSeek
-  nameWithType: LimitedStream.CanSeek
-- uid: Celeste.Mod.Helpers.LimitedStream.CanWrite
-  name: CanWrite
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_CanWrite
-  commentId: P:Celeste.Mod.Helpers.LimitedStream.CanWrite
-  fullName: Celeste.Mod.Helpers.LimitedStream.CanWrite
-  nameWithType: LimitedStream.CanWrite
-- uid: Celeste.Mod.Helpers.LimitedStream.CanWrite*
-  name: CanWrite
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_CanWrite_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.CanWrite
-  fullName: Celeste.Mod.Helpers.LimitedStream.CanWrite
-  nameWithType: LimitedStream.CanWrite
-- uid: Celeste.Mod.Helpers.LimitedStream.Close
-  name: Close()
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Close
-  commentId: M:Celeste.Mod.Helpers.LimitedStream.Close
-  fullName: Celeste.Mod.Helpers.LimitedStream.Close()
-  nameWithType: LimitedStream.Close()
-- uid: Celeste.Mod.Helpers.LimitedStream.Close*
-  name: Close
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Close_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.Close
-  fullName: Celeste.Mod.Helpers.LimitedStream.Close
-  nameWithType: LimitedStream.Close
-- uid: Celeste.Mod.Helpers.LimitedStream.Dispose(System.Boolean)
-  name: Dispose(Boolean)
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Dispose_System_Boolean_
-  commentId: M:Celeste.Mod.Helpers.LimitedStream.Dispose(System.Boolean)
-  fullName: Celeste.Mod.Helpers.LimitedStream.Dispose(System.Boolean)
-  nameWithType: LimitedStream.Dispose(Boolean)
-- uid: Celeste.Mod.Helpers.LimitedStream.Dispose*
-  name: Dispose
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Dispose_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.Dispose
-  fullName: Celeste.Mod.Helpers.LimitedStream.Dispose
-  nameWithType: LimitedStream.Dispose
-- uid: Celeste.Mod.Helpers.LimitedStream.Flush
-  name: Flush()
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Flush
-  commentId: M:Celeste.Mod.Helpers.LimitedStream.Flush
-  fullName: Celeste.Mod.Helpers.LimitedStream.Flush()
-  nameWithType: LimitedStream.Flush()
-- uid: Celeste.Mod.Helpers.LimitedStream.Flush*
-  name: Flush
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Flush_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.Flush
-  fullName: Celeste.Mod.Helpers.LimitedStream.Flush
-  nameWithType: LimitedStream.Flush
-- uid: Celeste.Mod.Helpers.LimitedStream.GetBuffer
-  name: GetBuffer()
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_GetBuffer
-  commentId: M:Celeste.Mod.Helpers.LimitedStream.GetBuffer
-  fullName: Celeste.Mod.Helpers.LimitedStream.GetBuffer()
-  nameWithType: LimitedStream.GetBuffer()
-- uid: Celeste.Mod.Helpers.LimitedStream.GetBuffer*
-  name: GetBuffer
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_GetBuffer_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.GetBuffer
-  fullName: Celeste.Mod.Helpers.LimitedStream.GetBuffer
-  nameWithType: LimitedStream.GetBuffer
-- uid: Celeste.Mod.Helpers.LimitedStream.Length
-  name: Length
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Length
-  commentId: P:Celeste.Mod.Helpers.LimitedStream.Length
-  fullName: Celeste.Mod.Helpers.LimitedStream.Length
-  nameWithType: LimitedStream.Length
-- uid: Celeste.Mod.Helpers.LimitedStream.Length*
-  name: Length
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Length_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.Length
-  fullName: Celeste.Mod.Helpers.LimitedStream.Length
-  nameWithType: LimitedStream.Length
-- uid: Celeste.Mod.Helpers.LimitedStream.LimitLength
-  name: LimitLength
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_LimitLength
-  commentId: F:Celeste.Mod.Helpers.LimitedStream.LimitLength
-  fullName: Celeste.Mod.Helpers.LimitedStream.LimitLength
-  nameWithType: LimitedStream.LimitLength
-- uid: Celeste.Mod.Helpers.LimitedStream.LimitOffset
-  name: LimitOffset
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_LimitOffset
-  commentId: F:Celeste.Mod.Helpers.LimitedStream.LimitOffset
-  fullName: Celeste.Mod.Helpers.LimitedStream.LimitOffset
-  nameWithType: LimitedStream.LimitOffset
-- uid: Celeste.Mod.Helpers.LimitedStream.LimitPublicLength
-  name: LimitPublicLength
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_LimitPublicLength
-  commentId: F:Celeste.Mod.Helpers.LimitedStream.LimitPublicLength
-  fullName: Celeste.Mod.Helpers.LimitedStream.LimitPublicLength
-  nameWithType: LimitedStream.LimitPublicLength
-- uid: Celeste.Mod.Helpers.LimitedStream.LimitStream
-  name: LimitStream
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_LimitStream
-  commentId: F:Celeste.Mod.Helpers.LimitedStream.LimitStream
-  fullName: Celeste.Mod.Helpers.LimitedStream.LimitStream
-  nameWithType: LimitedStream.LimitStream
-- uid: Celeste.Mod.Helpers.LimitedStream.LimitStreamShared
-  name: LimitStreamShared
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_LimitStreamShared
-  commentId: F:Celeste.Mod.Helpers.LimitedStream.LimitStreamShared
-  fullName: Celeste.Mod.Helpers.LimitedStream.LimitStreamShared
-  nameWithType: LimitedStream.LimitStreamShared
-- uid: Celeste.Mod.Helpers.LimitedStream.Position
-  name: Position
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Position
-  commentId: P:Celeste.Mod.Helpers.LimitedStream.Position
-  fullName: Celeste.Mod.Helpers.LimitedStream.Position
-  nameWithType: LimitedStream.Position
-- uid: Celeste.Mod.Helpers.LimitedStream.Position*
-  name: Position
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Position_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.Position
-  fullName: Celeste.Mod.Helpers.LimitedStream.Position
-  nameWithType: LimitedStream.Position
-- uid: Celeste.Mod.Helpers.LimitedStream.Read(System.Byte[],System.Int32,System.Int32)
-  name: Read(Byte[], Int32, Int32)
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Read_System_Byte___System_Int32_System_Int32_
-  commentId: M:Celeste.Mod.Helpers.LimitedStream.Read(System.Byte[],System.Int32,System.Int32)
-  name.vb: Read(Byte(), Int32, Int32)
-  fullName: Celeste.Mod.Helpers.LimitedStream.Read(System.Byte[], System.Int32, System.Int32)
-  fullName.vb: Celeste.Mod.Helpers.LimitedStream.Read(System.Byte(), System.Int32, System.Int32)
-  nameWithType: LimitedStream.Read(Byte[], Int32, Int32)
-  nameWithType.vb: LimitedStream.Read(Byte(), Int32, Int32)
-- uid: Celeste.Mod.Helpers.LimitedStream.Read*
-  name: Read
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Read_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.Read
-  fullName: Celeste.Mod.Helpers.LimitedStream.Read
-  nameWithType: LimitedStream.Read
-- uid: Celeste.Mod.Helpers.LimitedStream.ReadByte
-  name: ReadByte()
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_ReadByte
-  commentId: M:Celeste.Mod.Helpers.LimitedStream.ReadByte
-  fullName: Celeste.Mod.Helpers.LimitedStream.ReadByte()
-  nameWithType: LimitedStream.ReadByte()
-- uid: Celeste.Mod.Helpers.LimitedStream.ReadByte*
-  name: ReadByte
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_ReadByte_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.ReadByte
-  fullName: Celeste.Mod.Helpers.LimitedStream.ReadByte
-  nameWithType: LimitedStream.ReadByte
-- uid: Celeste.Mod.Helpers.LimitedStream.Seek(System.Int64,System.IO.SeekOrigin)
-  name: Seek(Int64, SeekOrigin)
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Seek_System_Int64_System_IO_SeekOrigin_
-  commentId: M:Celeste.Mod.Helpers.LimitedStream.Seek(System.Int64,System.IO.SeekOrigin)
-  fullName: Celeste.Mod.Helpers.LimitedStream.Seek(System.Int64, System.IO.SeekOrigin)
-  nameWithType: LimitedStream.Seek(Int64, SeekOrigin)
-- uid: Celeste.Mod.Helpers.LimitedStream.Seek*
-  name: Seek
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Seek_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.Seek
-  fullName: Celeste.Mod.Helpers.LimitedStream.Seek
-  nameWithType: LimitedStream.Seek
-- uid: Celeste.Mod.Helpers.LimitedStream.SetLength(System.Int64)
-  name: SetLength(Int64)
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_SetLength_System_Int64_
-  commentId: M:Celeste.Mod.Helpers.LimitedStream.SetLength(System.Int64)
-  fullName: Celeste.Mod.Helpers.LimitedStream.SetLength(System.Int64)
-  nameWithType: LimitedStream.SetLength(Int64)
-- uid: Celeste.Mod.Helpers.LimitedStream.SetLength*
-  name: SetLength
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_SetLength_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.SetLength
-  fullName: Celeste.Mod.Helpers.LimitedStream.SetLength
-  nameWithType: LimitedStream.SetLength
-- uid: Celeste.Mod.Helpers.LimitedStream.ToArray
-  name: ToArray()
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_ToArray
-  commentId: M:Celeste.Mod.Helpers.LimitedStream.ToArray
-  fullName: Celeste.Mod.Helpers.LimitedStream.ToArray()
-  nameWithType: LimitedStream.ToArray()
-- uid: Celeste.Mod.Helpers.LimitedStream.ToArray*
-  name: ToArray
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_ToArray_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.ToArray
-  fullName: Celeste.Mod.Helpers.LimitedStream.ToArray
-  nameWithType: LimitedStream.ToArray
-- uid: Celeste.Mod.Helpers.LimitedStream.Write(System.Byte[],System.Int32,System.Int32)
-  name: Write(Byte[], Int32, Int32)
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Write_System_Byte___System_Int32_System_Int32_
-  commentId: M:Celeste.Mod.Helpers.LimitedStream.Write(System.Byte[],System.Int32,System.Int32)
-  name.vb: Write(Byte(), Int32, Int32)
-  fullName: Celeste.Mod.Helpers.LimitedStream.Write(System.Byte[], System.Int32, System.Int32)
-  fullName.vb: Celeste.Mod.Helpers.LimitedStream.Write(System.Byte(), System.Int32, System.Int32)
-  nameWithType: LimitedStream.Write(Byte[], Int32, Int32)
-  nameWithType.vb: LimitedStream.Write(Byte(), Int32, Int32)
-- uid: Celeste.Mod.Helpers.LimitedStream.Write*
-  name: Write
-  href: api/Celeste.Mod.Helpers.LimitedStream.html#Celeste_Mod_Helpers_LimitedStream_Write_
-  commentId: Overload:Celeste.Mod.Helpers.LimitedStream.Write
-  fullName: Celeste.Mod.Helpers.LimitedStream.Write
-  nameWithType: LimitedStream.Write
 - uid: Celeste.Mod.Helpers.LogWriter
   name: LogWriter
   href: api/Celeste.Mod.Helpers.LogWriter.html
@@ -5977,6 +6091,138 @@ references:
   commentId: F:Celeste.Mod.MTextureOverride.Width
   fullName: Celeste.Mod.MTextureOverride.Width
   nameWithType: MTextureOverride.Width
+- uid: Celeste.Mod.Notification
+  name: Notification
+  href: api/Celeste.Mod.Notification.html
+  commentId: T:Celeste.Mod.Notification
+  fullName: Celeste.Mod.Notification
+  nameWithType: Notification
+- uid: Celeste.Mod.Notification.#ctor
+  name: Notification()
+  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification__ctor
+  commentId: M:Celeste.Mod.Notification.#ctor
+  fullName: Celeste.Mod.Notification.Notification()
+  nameWithType: Notification.Notification()
+- uid: Celeste.Mod.Notification.#ctor*
+  name: Notification
+  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification__ctor_
+  commentId: Overload:Celeste.Mod.Notification.#ctor
+  fullName: Celeste.Mod.Notification.Notification
+  nameWithType: Notification.Notification
+- uid: Celeste.Mod.Notification.Background
+  name: Background
+  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Background
+  commentId: F:Celeste.Mod.Notification.Background
+  fullName: Celeste.Mod.Notification.Background
+  nameWithType: Notification.Background
+- uid: Celeste.Mod.Notification.ColorBackground
+  name: ColorBackground
+  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_ColorBackground
+  commentId: F:Celeste.Mod.Notification.ColorBackground
+  fullName: Celeste.Mod.Notification.ColorBackground
+  nameWithType: Notification.ColorBackground
+- uid: Celeste.Mod.Notification.ColorForeground
+  name: ColorForeground
+  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_ColorForeground
+  commentId: F:Celeste.Mod.Notification.ColorForeground
+  fullName: Celeste.Mod.Notification.ColorForeground
+  nameWithType: Notification.ColorForeground
+- uid: Celeste.Mod.Notification.Description
+  name: Description
+  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Description
+  commentId: F:Celeste.Mod.Notification.Description
+  fullName: Celeste.Mod.Notification.Description
+  nameWithType: Notification.Description
+- uid: Celeste.Mod.Notification.Draw
+  name: Draw()
+  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Draw
+  commentId: M:Celeste.Mod.Notification.Draw
+  fullName: Celeste.Mod.Notification.Draw()
+  nameWithType: Notification.Draw()
+- uid: Celeste.Mod.Notification.Draw*
+  name: Draw
+  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Draw_
+  commentId: Overload:Celeste.Mod.Notification.Draw
+  fullName: Celeste.Mod.Notification.Draw
+  nameWithType: Notification.Draw
+- uid: Celeste.Mod.Notification.Icon
+  name: Icon
+  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Icon
+  commentId: F:Celeste.Mod.Notification.Icon
+  fullName: Celeste.Mod.Notification.Icon
+  nameWithType: Notification.Icon
+- uid: Celeste.Mod.Notification.Title
+  name: Title
+  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Title
+  commentId: F:Celeste.Mod.Notification.Title
+  fullName: Celeste.Mod.Notification.Title
+  nameWithType: Notification.Title
+- uid: Celeste.Mod.Notification.Update
+  name: Update()
+  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Update
+  commentId: M:Celeste.Mod.Notification.Update
+  fullName: Celeste.Mod.Notification.Update()
+  nameWithType: Notification.Update()
+- uid: Celeste.Mod.Notification.Update*
+  name: Update
+  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Update_
+  commentId: Overload:Celeste.Mod.Notification.Update
+  fullName: Celeste.Mod.Notification.Update
+  nameWithType: Notification.Update
+- uid: Celeste.Mod.NotificationManager
+  name: NotificationManager
+  href: api/Celeste.Mod.NotificationManager.html
+  commentId: T:Celeste.Mod.NotificationManager
+  fullName: Celeste.Mod.NotificationManager
+  nameWithType: NotificationManager
+- uid: Celeste.Mod.NotificationManager.#ctor(Microsoft.Xna.Framework.Game)
+  name: NotificationManager(Game)
+  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager__ctor_Microsoft_Xna_Framework_Game_
+  commentId: M:Celeste.Mod.NotificationManager.#ctor(Microsoft.Xna.Framework.Game)
+  fullName: Celeste.Mod.NotificationManager.NotificationManager(Microsoft.Xna.Framework.Game)
+  nameWithType: NotificationManager.NotificationManager(Game)
+- uid: Celeste.Mod.NotificationManager.#ctor*
+  name: NotificationManager
+  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager__ctor_
+  commentId: Overload:Celeste.Mod.NotificationManager.#ctor
+  fullName: Celeste.Mod.NotificationManager.NotificationManager
+  nameWithType: NotificationManager.NotificationManager
+- uid: Celeste.Mod.NotificationManager.Draw(Microsoft.Xna.Framework.GameTime)
+  name: Draw(GameTime)
+  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager_Draw_Microsoft_Xna_Framework_GameTime_
+  commentId: M:Celeste.Mod.NotificationManager.Draw(Microsoft.Xna.Framework.GameTime)
+  fullName: Celeste.Mod.NotificationManager.Draw(Microsoft.Xna.Framework.GameTime)
+  nameWithType: NotificationManager.Draw(GameTime)
+- uid: Celeste.Mod.NotificationManager.Draw*
+  name: Draw
+  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager_Draw_
+  commentId: Overload:Celeste.Mod.NotificationManager.Draw
+  fullName: Celeste.Mod.NotificationManager.Draw
+  nameWithType: NotificationManager.Draw
+- uid: Celeste.Mod.NotificationManager.Instance
+  name: Instance
+  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager_Instance
+  commentId: F:Celeste.Mod.NotificationManager.Instance
+  fullName: Celeste.Mod.NotificationManager.Instance
+  nameWithType: NotificationManager.Instance
+- uid: Celeste.Mod.NotificationManager.Notifications
+  name: Notifications
+  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager_Notifications
+  commentId: F:Celeste.Mod.NotificationManager.Notifications
+  fullName: Celeste.Mod.NotificationManager.Notifications
+  nameWithType: NotificationManager.Notifications
+- uid: Celeste.Mod.NotificationManager.Update(Microsoft.Xna.Framework.GameTime)
+  name: Update(GameTime)
+  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager_Update_Microsoft_Xna_Framework_GameTime_
+  commentId: M:Celeste.Mod.NotificationManager.Update(Microsoft.Xna.Framework.GameTime)
+  fullName: Celeste.Mod.NotificationManager.Update(Microsoft.Xna.Framework.GameTime)
+  nameWithType: NotificationManager.Update(GameTime)
+- uid: Celeste.Mod.NotificationManager.Update*
+  name: Update
+  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager_Update_
+  commentId: Overload:Celeste.Mod.NotificationManager.Update
+  fullName: Celeste.Mod.NotificationManager.Update
+  nameWithType: NotificationManager.Update
 - uid: Celeste.Mod.RelinkerSymbolReaderProvider
   name: RelinkerSymbolReaderProvider
   href: api/Celeste.Mod.RelinkerSymbolReaderProvider.html
@@ -6169,6 +6415,342 @@ references:
   commentId: E:Celeste.Mod.TextInput.OnInput
   fullName: Celeste.Mod.TextInput.OnInput
   nameWithType: TextInput.OnInput
+- uid: Celeste.Mod.TouchInputManager
+  name: TouchInputManager
+  href: api/Celeste.Mod.TouchInputManager.html
+  commentId: T:Celeste.Mod.TouchInputManager
+  fullName: Celeste.Mod.TouchInputManager
+  nameWithType: TouchInputManager
+- uid: Celeste.Mod.TouchInputManager.#ctor(Microsoft.Xna.Framework.Game)
+  name: TouchInputManager(Game)
+  href: api/Celeste.Mod.TouchInputManager.html#Celeste_Mod_TouchInputManager__ctor_Microsoft_Xna_Framework_Game_
+  commentId: M:Celeste.Mod.TouchInputManager.#ctor(Microsoft.Xna.Framework.Game)
+  fullName: Celeste.Mod.TouchInputManager.TouchInputManager(Microsoft.Xna.Framework.Game)
+  nameWithType: TouchInputManager.TouchInputManager(Game)
+- uid: Celeste.Mod.TouchInputManager.#ctor*
+  name: TouchInputManager
+  href: api/Celeste.Mod.TouchInputManager.html#Celeste_Mod_TouchInputManager__ctor_
+  commentId: Overload:Celeste.Mod.TouchInputManager.#ctor
+  fullName: Celeste.Mod.TouchInputManager.TouchInputManager
+  nameWithType: TouchInputManager.TouchInputManager
+- uid: Celeste.Mod.TouchInputManager.Draw(Microsoft.Xna.Framework.GameTime)
+  name: Draw(GameTime)
+  href: api/Celeste.Mod.TouchInputManager.html#Celeste_Mod_TouchInputManager_Draw_Microsoft_Xna_Framework_GameTime_
+  commentId: M:Celeste.Mod.TouchInputManager.Draw(Microsoft.Xna.Framework.GameTime)
+  fullName: Celeste.Mod.TouchInputManager.Draw(Microsoft.Xna.Framework.GameTime)
+  nameWithType: TouchInputManager.Draw(GameTime)
+- uid: Celeste.Mod.TouchInputManager.Draw*
+  name: Draw
+  href: api/Celeste.Mod.TouchInputManager.html#Celeste_Mod_TouchInputManager_Draw_
+  commentId: Overload:Celeste.Mod.TouchInputManager.Draw
+  fullName: Celeste.Mod.TouchInputManager.Draw
+  nameWithType: TouchInputManager.Draw
+- uid: Celeste.Mod.TouchInputManager.Instance
+  name: Instance
+  href: api/Celeste.Mod.TouchInputManager.html#Celeste_Mod_TouchInputManager_Instance
+  commentId: F:Celeste.Mod.TouchInputManager.Instance
+  fullName: Celeste.Mod.TouchInputManager.Instance
+  nameWithType: TouchInputManager.Instance
+- uid: Celeste.Mod.TouchInputManager.IsTouch
+  name: IsTouch
+  href: api/Celeste.Mod.TouchInputManager.html#Celeste_Mod_TouchInputManager_IsTouch
+  commentId: P:Celeste.Mod.TouchInputManager.IsTouch
+  fullName: Celeste.Mod.TouchInputManager.IsTouch
+  nameWithType: TouchInputManager.IsTouch
+- uid: Celeste.Mod.TouchInputManager.IsTouch*
+  name: IsTouch
+  href: api/Celeste.Mod.TouchInputManager.html#Celeste_Mod_TouchInputManager_IsTouch_
+  commentId: Overload:Celeste.Mod.TouchInputManager.IsTouch
+  fullName: Celeste.Mod.TouchInputManager.IsTouch
+  nameWithType: TouchInputManager.IsTouch
+- uid: Celeste.Mod.TouchInputManager.Regions
+  name: Regions
+  href: api/Celeste.Mod.TouchInputManager.html#Celeste_Mod_TouchInputManager_Regions
+  commentId: F:Celeste.Mod.TouchInputManager.Regions
+  fullName: Celeste.Mod.TouchInputManager.Regions
+  nameWithType: TouchInputManager.Regions
+- uid: Celeste.Mod.TouchInputManager.TouchToUI
+  name: TouchToUI
+  href: api/Celeste.Mod.TouchInputManager.html#Celeste_Mod_TouchInputManager_TouchToUI
+  commentId: P:Celeste.Mod.TouchInputManager.TouchToUI
+  fullName: Celeste.Mod.TouchInputManager.TouchToUI
+  nameWithType: TouchInputManager.TouchToUI
+- uid: Celeste.Mod.TouchInputManager.TouchToUI*
+  name: TouchToUI
+  href: api/Celeste.Mod.TouchInputManager.html#Celeste_Mod_TouchInputManager_TouchToUI_
+  commentId: Overload:Celeste.Mod.TouchInputManager.TouchToUI
+  fullName: Celeste.Mod.TouchInputManager.TouchToUI
+  nameWithType: TouchInputManager.TouchToUI
+- uid: Celeste.Mod.TouchInputManager.Update(Microsoft.Xna.Framework.GameTime)
+  name: Update(GameTime)
+  href: api/Celeste.Mod.TouchInputManager.html#Celeste_Mod_TouchInputManager_Update_Microsoft_Xna_Framework_GameTime_
+  commentId: M:Celeste.Mod.TouchInputManager.Update(Microsoft.Xna.Framework.GameTime)
+  fullName: Celeste.Mod.TouchInputManager.Update(Microsoft.Xna.Framework.GameTime)
+  nameWithType: TouchInputManager.Update(GameTime)
+- uid: Celeste.Mod.TouchInputManager.Update*
+  name: Update
+  href: api/Celeste.Mod.TouchInputManager.html#Celeste_Mod_TouchInputManager_Update_
+  commentId: Overload:Celeste.Mod.TouchInputManager.Update
+  fullName: Celeste.Mod.TouchInputManager.Update
+  nameWithType: TouchInputManager.Update
+- uid: Celeste.Mod.TouchInputNodes
+  name: TouchInputNodes
+  href: api/Celeste.Mod.TouchInputNodes.html
+  commentId: T:Celeste.Mod.TouchInputNodes
+  fullName: Celeste.Mod.TouchInputNodes
+  nameWithType: TouchInputNodes
+- uid: Celeste.Mod.TouchInputNodes.Button
+  name: TouchInputNodes.Button
+  href: api/Celeste.Mod.TouchInputNodes.Button.html
+  commentId: T:Celeste.Mod.TouchInputNodes.Button
+  fullName: Celeste.Mod.TouchInputNodes.Button
+  nameWithType: TouchInputNodes.Button
+- uid: Celeste.Mod.TouchInputNodes.Button.#ctor(Celeste.Mod.ATouchRegion)
+  name: Button(ATouchRegion)
+  href: api/Celeste.Mod.TouchInputNodes.Button.html#Celeste_Mod_TouchInputNodes_Button__ctor_Celeste_Mod_ATouchRegion_
+  commentId: M:Celeste.Mod.TouchInputNodes.Button.#ctor(Celeste.Mod.ATouchRegion)
+  fullName: Celeste.Mod.TouchInputNodes.Button.Button(Celeste.Mod.ATouchRegion)
+  nameWithType: TouchInputNodes.Button.Button(ATouchRegion)
+- uid: Celeste.Mod.TouchInputNodes.Button.#ctor*
+  name: Button
+  href: api/Celeste.Mod.TouchInputNodes.Button.html#Celeste_Mod_TouchInputNodes_Button__ctor_
+  commentId: Overload:Celeste.Mod.TouchInputNodes.Button.#ctor
+  fullName: Celeste.Mod.TouchInputNodes.Button.Button
+  nameWithType: TouchInputNodes.Button.Button
+- uid: Celeste.Mod.TouchInputNodes.Button.Check
+  name: Check
+  href: api/Celeste.Mod.TouchInputNodes.Button.html#Celeste_Mod_TouchInputNodes_Button_Check
+  commentId: P:Celeste.Mod.TouchInputNodes.Button.Check
+  fullName: Celeste.Mod.TouchInputNodes.Button.Check
+  nameWithType: TouchInputNodes.Button.Check
+- uid: Celeste.Mod.TouchInputNodes.Button.Check*
+  name: Check
+  href: api/Celeste.Mod.TouchInputNodes.Button.html#Celeste_Mod_TouchInputNodes_Button_Check_
+  commentId: Overload:Celeste.Mod.TouchInputNodes.Button.Check
+  fullName: Celeste.Mod.TouchInputNodes.Button.Check
+  nameWithType: TouchInputNodes.Button.Check
+- uid: Celeste.Mod.TouchInputNodes.Button.Pressed
+  name: Pressed
+  href: api/Celeste.Mod.TouchInputNodes.Button.html#Celeste_Mod_TouchInputNodes_Button_Pressed
+  commentId: P:Celeste.Mod.TouchInputNodes.Button.Pressed
+  fullName: Celeste.Mod.TouchInputNodes.Button.Pressed
+  nameWithType: TouchInputNodes.Button.Pressed
+- uid: Celeste.Mod.TouchInputNodes.Button.Pressed*
+  name: Pressed
+  href: api/Celeste.Mod.TouchInputNodes.Button.html#Celeste_Mod_TouchInputNodes_Button_Pressed_
+  commentId: Overload:Celeste.Mod.TouchInputNodes.Button.Pressed
+  fullName: Celeste.Mod.TouchInputNodes.Button.Pressed
+  nameWithType: TouchInputNodes.Button.Pressed
+- uid: Celeste.Mod.TouchInputNodes.Button.Region
+  name: Region
+  href: api/Celeste.Mod.TouchInputNodes.Button.html#Celeste_Mod_TouchInputNodes_Button_Region
+  commentId: F:Celeste.Mod.TouchInputNodes.Button.Region
+  fullName: Celeste.Mod.TouchInputNodes.Button.Region
+  nameWithType: TouchInputNodes.Button.Region
+- uid: Celeste.Mod.TouchInputNodes.Button.Released
+  name: Released
+  href: api/Celeste.Mod.TouchInputNodes.Button.html#Celeste_Mod_TouchInputNodes_Button_Released
+  commentId: P:Celeste.Mod.TouchInputNodes.Button.Released
+  fullName: Celeste.Mod.TouchInputNodes.Button.Released
+  nameWithType: TouchInputNodes.Button.Released
+- uid: Celeste.Mod.TouchInputNodes.Button.Released*
+  name: Released
+  href: api/Celeste.Mod.TouchInputNodes.Button.html#Celeste_Mod_TouchInputNodes_Button_Released_
+  commentId: Overload:Celeste.Mod.TouchInputNodes.Button.Released
+  fullName: Celeste.Mod.TouchInputNodes.Button.Released
+  nameWithType: TouchInputNodes.Button.Released
+- uid: Celeste.Mod.TouchRegion
+  name: TouchRegion
+  href: api/Celeste.Mod.TouchRegion.html
+  commentId: T:Celeste.Mod.TouchRegion
+  fullName: Celeste.Mod.TouchRegion
+  nameWithType: TouchRegion
+- uid: Celeste.Mod.TouchRegion.#ctor
+  name: TouchRegion()
+  href: api/Celeste.Mod.TouchRegion.html#Celeste_Mod_TouchRegion__ctor
+  commentId: M:Celeste.Mod.TouchRegion.#ctor
+  fullName: Celeste.Mod.TouchRegion.TouchRegion()
+  nameWithType: TouchRegion.TouchRegion()
+- uid: Celeste.Mod.TouchRegion.#ctor*
+  name: TouchRegion
+  href: api/Celeste.Mod.TouchRegion.html#Celeste_Mod_TouchRegion__ctor_
+  commentId: Overload:Celeste.Mod.TouchRegion.#ctor
+  fullName: Celeste.Mod.TouchRegion.TouchRegion
+  nameWithType: TouchRegion.TouchRegion
+- uid: Celeste.Mod.TouchRegion.Button
+  name: Button
+  href: api/Celeste.Mod.TouchRegion.html#Celeste_Mod_TouchRegion_Button
+  commentId: P:Celeste.Mod.TouchRegion.Button
+  fullName: Celeste.Mod.TouchRegion.Button
+  nameWithType: TouchRegion.Button
+- uid: Celeste.Mod.TouchRegion.Button*
+  name: Button
+  href: api/Celeste.Mod.TouchRegion.html#Celeste_Mod_TouchRegion_Button_
+  commentId: Overload:Celeste.Mod.TouchRegion.Button
+  fullName: Celeste.Mod.TouchRegion.Button
+  nameWithType: TouchRegion.Button
+- uid: Celeste.Mod.TouchRegion.ColorDown
+  name: ColorDown
+  href: api/Celeste.Mod.TouchRegion.html#Celeste_Mod_TouchRegion_ColorDown
+  commentId: F:Celeste.Mod.TouchRegion.ColorDown
+  fullName: Celeste.Mod.TouchRegion.ColorDown
+  nameWithType: TouchRegion.ColorDown
+- uid: Celeste.Mod.TouchRegion.ColorUp
+  name: ColorUp
+  href: api/Celeste.Mod.TouchRegion.html#Celeste_Mod_TouchRegion_ColorUp
+  commentId: F:Celeste.Mod.TouchRegion.ColorUp
+  fullName: Celeste.Mod.TouchRegion.ColorUp
+  nameWithType: TouchRegion.ColorUp
+- uid: Celeste.Mod.TouchRegion.Condition
+  name: Condition
+  href: api/Celeste.Mod.TouchRegion.html#Celeste_Mod_TouchRegion_Condition
+  commentId: F:Celeste.Mod.TouchRegion.Condition
+  fullName: Celeste.Mod.TouchRegion.Condition
+  nameWithType: TouchRegion.Condition
+- uid: Celeste.Mod.TouchRegion.Draw
+  name: Draw()
+  href: api/Celeste.Mod.TouchRegion.html#Celeste_Mod_TouchRegion_Draw
+  commentId: M:Celeste.Mod.TouchRegion.Draw
+  fullName: Celeste.Mod.TouchRegion.Draw()
+  nameWithType: TouchRegion.Draw()
+- uid: Celeste.Mod.TouchRegion.Draw*
+  name: Draw
+  href: api/Celeste.Mod.TouchRegion.html#Celeste_Mod_TouchRegion_Draw_
+  commentId: Overload:Celeste.Mod.TouchRegion.Draw
+  fullName: Celeste.Mod.TouchRegion.Draw
+  nameWithType: TouchRegion.Draw
+- uid: Celeste.Mod.TouchRegion.Icon
+  name: Icon
+  href: api/Celeste.Mod.TouchRegion.html#Celeste_Mod_TouchRegion_Icon
+  commentId: F:Celeste.Mod.TouchRegion.Icon
+  fullName: Celeste.Mod.TouchRegion.Icon
+  nameWithType: TouchRegion.Icon
+- uid: Celeste.Mod.TouchRegion.OnTouch
+  name: OnTouch
+  href: api/Celeste.Mod.TouchRegion.html#Celeste_Mod_TouchRegion_OnTouch
+  commentId: E:Celeste.Mod.TouchRegion.OnTouch
+  fullName: Celeste.Mod.TouchRegion.OnTouch
+  nameWithType: TouchRegion.OnTouch
+- uid: Celeste.Mod.TouchRegion.TouchRegionCondition
+  name: TouchRegion.TouchRegionCondition
+  href: api/Celeste.Mod.TouchRegion.TouchRegionCondition.html
+  commentId: T:Celeste.Mod.TouchRegion.TouchRegionCondition
+  fullName: Celeste.Mod.TouchRegion.TouchRegionCondition
+  nameWithType: TouchRegion.TouchRegionCondition
+- uid: Celeste.Mod.TouchRegion.TouchRegionCondition.#ctor(System.Object,System.IntPtr)
+  name: TouchRegionCondition(Object, IntPtr)
+  href: api/Celeste.Mod.TouchRegion.TouchRegionCondition.html#Celeste_Mod_TouchRegion_TouchRegionCondition__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.TouchRegion.TouchRegionCondition.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.TouchRegion.TouchRegionCondition.TouchRegionCondition(System.Object, System.IntPtr)
+  nameWithType: TouchRegion.TouchRegionCondition.TouchRegionCondition(Object, IntPtr)
+- uid: Celeste.Mod.TouchRegion.TouchRegionCondition.#ctor*
+  name: TouchRegionCondition
+  href: api/Celeste.Mod.TouchRegion.TouchRegionCondition.html#Celeste_Mod_TouchRegion_TouchRegionCondition__ctor_
+  commentId: Overload:Celeste.Mod.TouchRegion.TouchRegionCondition.#ctor
+  fullName: Celeste.Mod.TouchRegion.TouchRegionCondition.TouchRegionCondition
+  nameWithType: TouchRegion.TouchRegionCondition.TouchRegionCondition
+- uid: Celeste.Mod.TouchRegion.TouchRegionCondition.BeginInvoke(Celeste.Mod.TouchRegion,System.AsyncCallback,System.Object)
+  name: BeginInvoke(TouchRegion, AsyncCallback, Object)
+  href: api/Celeste.Mod.TouchRegion.TouchRegionCondition.html#Celeste_Mod_TouchRegion_TouchRegionCondition_BeginInvoke_Celeste_Mod_TouchRegion_System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.TouchRegion.TouchRegionCondition.BeginInvoke(Celeste.Mod.TouchRegion,System.AsyncCallback,System.Object)
+  fullName: Celeste.Mod.TouchRegion.TouchRegionCondition.BeginInvoke(Celeste.Mod.TouchRegion, System.AsyncCallback, System.Object)
+  nameWithType: TouchRegion.TouchRegionCondition.BeginInvoke(TouchRegion, AsyncCallback, Object)
+- uid: Celeste.Mod.TouchRegion.TouchRegionCondition.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.TouchRegion.TouchRegionCondition.html#Celeste_Mod_TouchRegion_TouchRegionCondition_BeginInvoke_
+  commentId: Overload:Celeste.Mod.TouchRegion.TouchRegionCondition.BeginInvoke
+  fullName: Celeste.Mod.TouchRegion.TouchRegionCondition.BeginInvoke
+  nameWithType: TouchRegion.TouchRegionCondition.BeginInvoke
+- uid: Celeste.Mod.TouchRegion.TouchRegionCondition.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Celeste.Mod.TouchRegion.TouchRegionCondition.html#Celeste_Mod_TouchRegion_TouchRegionCondition_EndInvoke_System_IAsyncResult_
+  commentId: M:Celeste.Mod.TouchRegion.TouchRegionCondition.EndInvoke(System.IAsyncResult)
+  fullName: Celeste.Mod.TouchRegion.TouchRegionCondition.EndInvoke(System.IAsyncResult)
+  nameWithType: TouchRegion.TouchRegionCondition.EndInvoke(IAsyncResult)
+- uid: Celeste.Mod.TouchRegion.TouchRegionCondition.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.TouchRegion.TouchRegionCondition.html#Celeste_Mod_TouchRegion_TouchRegionCondition_EndInvoke_
+  commentId: Overload:Celeste.Mod.TouchRegion.TouchRegionCondition.EndInvoke
+  fullName: Celeste.Mod.TouchRegion.TouchRegionCondition.EndInvoke
+  nameWithType: TouchRegion.TouchRegionCondition.EndInvoke
+- uid: Celeste.Mod.TouchRegion.TouchRegionCondition.Invoke(Celeste.Mod.TouchRegion)
+  name: Invoke(TouchRegion)
+  href: api/Celeste.Mod.TouchRegion.TouchRegionCondition.html#Celeste_Mod_TouchRegion_TouchRegionCondition_Invoke_Celeste_Mod_TouchRegion_
+  commentId: M:Celeste.Mod.TouchRegion.TouchRegionCondition.Invoke(Celeste.Mod.TouchRegion)
+  fullName: Celeste.Mod.TouchRegion.TouchRegionCondition.Invoke(Celeste.Mod.TouchRegion)
+  nameWithType: TouchRegion.TouchRegionCondition.Invoke(TouchRegion)
+- uid: Celeste.Mod.TouchRegion.TouchRegionCondition.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.TouchRegion.TouchRegionCondition.html#Celeste_Mod_TouchRegion_TouchRegionCondition_Invoke_
+  commentId: Overload:Celeste.Mod.TouchRegion.TouchRegionCondition.Invoke
+  fullName: Celeste.Mod.TouchRegion.TouchRegionCondition.Invoke
+  nameWithType: TouchRegion.TouchRegionCondition.Invoke
+- uid: Celeste.Mod.TouchRegion.TouchRegionEventHandler
+  name: TouchRegion.TouchRegionEventHandler
+  href: api/Celeste.Mod.TouchRegion.TouchRegionEventHandler.html
+  commentId: T:Celeste.Mod.TouchRegion.TouchRegionEventHandler
+  fullName: Celeste.Mod.TouchRegion.TouchRegionEventHandler
+  nameWithType: TouchRegion.TouchRegionEventHandler
+- uid: Celeste.Mod.TouchRegion.TouchRegionEventHandler.#ctor(System.Object,System.IntPtr)
+  name: TouchRegionEventHandler(Object, IntPtr)
+  href: api/Celeste.Mod.TouchRegion.TouchRegionEventHandler.html#Celeste_Mod_TouchRegion_TouchRegionEventHandler__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.TouchRegion.TouchRegionEventHandler.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.TouchRegion.TouchRegionEventHandler.TouchRegionEventHandler(System.Object, System.IntPtr)
+  nameWithType: TouchRegion.TouchRegionEventHandler.TouchRegionEventHandler(Object, IntPtr)
+- uid: Celeste.Mod.TouchRegion.TouchRegionEventHandler.#ctor*
+  name: TouchRegionEventHandler
+  href: api/Celeste.Mod.TouchRegion.TouchRegionEventHandler.html#Celeste_Mod_TouchRegion_TouchRegionEventHandler__ctor_
+  commentId: Overload:Celeste.Mod.TouchRegion.TouchRegionEventHandler.#ctor
+  fullName: Celeste.Mod.TouchRegion.TouchRegionEventHandler.TouchRegionEventHandler
+  nameWithType: TouchRegion.TouchRegionEventHandler.TouchRegionEventHandler
+- uid: Celeste.Mod.TouchRegion.TouchRegionEventHandler.BeginInvoke(Celeste.Mod.TouchRegion,Microsoft.Xna.Framework.Input.Touch.TouchLocation,System.AsyncCallback,System.Object)
+  name: BeginInvoke(TouchRegion, TouchLocation, AsyncCallback, Object)
+  href: api/Celeste.Mod.TouchRegion.TouchRegionEventHandler.html#Celeste_Mod_TouchRegion_TouchRegionEventHandler_BeginInvoke_Celeste_Mod_TouchRegion_Microsoft_Xna_Framework_Input_Touch_TouchLocation_System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.TouchRegion.TouchRegionEventHandler.BeginInvoke(Celeste.Mod.TouchRegion,Microsoft.Xna.Framework.Input.Touch.TouchLocation,System.AsyncCallback,System.Object)
+  fullName: Celeste.Mod.TouchRegion.TouchRegionEventHandler.BeginInvoke(Celeste.Mod.TouchRegion, Microsoft.Xna.Framework.Input.Touch.TouchLocation, System.AsyncCallback, System.Object)
+  nameWithType: TouchRegion.TouchRegionEventHandler.BeginInvoke(TouchRegion, TouchLocation, AsyncCallback, Object)
+- uid: Celeste.Mod.TouchRegion.TouchRegionEventHandler.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.TouchRegion.TouchRegionEventHandler.html#Celeste_Mod_TouchRegion_TouchRegionEventHandler_BeginInvoke_
+  commentId: Overload:Celeste.Mod.TouchRegion.TouchRegionEventHandler.BeginInvoke
+  fullName: Celeste.Mod.TouchRegion.TouchRegionEventHandler.BeginInvoke
+  nameWithType: TouchRegion.TouchRegionEventHandler.BeginInvoke
+- uid: Celeste.Mod.TouchRegion.TouchRegionEventHandler.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Celeste.Mod.TouchRegion.TouchRegionEventHandler.html#Celeste_Mod_TouchRegion_TouchRegionEventHandler_EndInvoke_System_IAsyncResult_
+  commentId: M:Celeste.Mod.TouchRegion.TouchRegionEventHandler.EndInvoke(System.IAsyncResult)
+  fullName: Celeste.Mod.TouchRegion.TouchRegionEventHandler.EndInvoke(System.IAsyncResult)
+  nameWithType: TouchRegion.TouchRegionEventHandler.EndInvoke(IAsyncResult)
+- uid: Celeste.Mod.TouchRegion.TouchRegionEventHandler.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.TouchRegion.TouchRegionEventHandler.html#Celeste_Mod_TouchRegion_TouchRegionEventHandler_EndInvoke_
+  commentId: Overload:Celeste.Mod.TouchRegion.TouchRegionEventHandler.EndInvoke
+  fullName: Celeste.Mod.TouchRegion.TouchRegionEventHandler.EndInvoke
+  nameWithType: TouchRegion.TouchRegionEventHandler.EndInvoke
+- uid: Celeste.Mod.TouchRegion.TouchRegionEventHandler.Invoke(Celeste.Mod.TouchRegion,Microsoft.Xna.Framework.Input.Touch.TouchLocation)
+  name: Invoke(TouchRegion, TouchLocation)
+  href: api/Celeste.Mod.TouchRegion.TouchRegionEventHandler.html#Celeste_Mod_TouchRegion_TouchRegionEventHandler_Invoke_Celeste_Mod_TouchRegion_Microsoft_Xna_Framework_Input_Touch_TouchLocation_
+  commentId: M:Celeste.Mod.TouchRegion.TouchRegionEventHandler.Invoke(Celeste.Mod.TouchRegion,Microsoft.Xna.Framework.Input.Touch.TouchLocation)
+  fullName: Celeste.Mod.TouchRegion.TouchRegionEventHandler.Invoke(Celeste.Mod.TouchRegion, Microsoft.Xna.Framework.Input.Touch.TouchLocation)
+  nameWithType: TouchRegion.TouchRegionEventHandler.Invoke(TouchRegion, TouchLocation)
+- uid: Celeste.Mod.TouchRegion.TouchRegionEventHandler.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.TouchRegion.TouchRegionEventHandler.html#Celeste_Mod_TouchRegion_TouchRegionEventHandler_Invoke_
+  commentId: Overload:Celeste.Mod.TouchRegion.TouchRegionEventHandler.Invoke
+  fullName: Celeste.Mod.TouchRegion.TouchRegionEventHandler.Invoke
+  nameWithType: TouchRegion.TouchRegionEventHandler.Invoke
+- uid: Celeste.Mod.TouchRegion.Update(Microsoft.Xna.Framework.Input.Touch.TouchCollection,Microsoft.Xna.Framework.Input.Touch.TouchLocation)
+  name: Update(TouchCollection, TouchLocation)
+  href: api/Celeste.Mod.TouchRegion.html#Celeste_Mod_TouchRegion_Update_Microsoft_Xna_Framework_Input_Touch_TouchCollection_Microsoft_Xna_Framework_Input_Touch_TouchLocation_
+  commentId: M:Celeste.Mod.TouchRegion.Update(Microsoft.Xna.Framework.Input.Touch.TouchCollection,Microsoft.Xna.Framework.Input.Touch.TouchLocation)
+  fullName: Celeste.Mod.TouchRegion.Update(Microsoft.Xna.Framework.Input.Touch.TouchCollection, Microsoft.Xna.Framework.Input.Touch.TouchLocation)
+  nameWithType: TouchRegion.Update(TouchCollection, TouchLocation)
+- uid: Celeste.Mod.TouchRegion.Update*
+  name: Update
+  href: api/Celeste.Mod.TouchRegion.html#Celeste_Mod_TouchRegion_Update_
+  commentId: Overload:Celeste.Mod.TouchRegion.Update
+  fullName: Celeste.Mod.TouchRegion.Update
+  nameWithType: TouchRegion.Update
 - uid: Celeste.Mod.TypeGuesser
   name: TypeGuesser
   href: api/Celeste.Mod.TypeGuesser.html
@@ -7084,6 +7666,132 @@ references:
   commentId: Overload:Celeste.Mod.UI.TextMenuExt.DrawIcon
   fullName: Celeste.Mod.UI.TextMenuExt.DrawIcon
   nameWithType: TextMenuExt.DrawIcon
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage
+  name: TextMenuExt.HeaderImage
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html
+  commentId: T:Celeste.Mod.UI.TextMenuExt.HeaderImage
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage
+  nameWithType: TextMenuExt.HeaderImage
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.#ctor(System.String)
+  name: HeaderImage(String)
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage__ctor_System_String_
+  commentId: M:Celeste.Mod.UI.TextMenuExt.HeaderImage.#ctor(System.String)
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.HeaderImage(System.String)
+  nameWithType: TextMenuExt.HeaderImage.HeaderImage(String)
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.#ctor*
+  name: HeaderImage
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage__ctor_
+  commentId: Overload:Celeste.Mod.UI.TextMenuExt.HeaderImage.#ctor
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.HeaderImage
+  nameWithType: TextMenuExt.HeaderImage.HeaderImage
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.Alpha
+  name: Alpha
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_Alpha
+  commentId: P:Celeste.Mod.UI.TextMenuExt.HeaderImage.Alpha
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.Alpha
+  nameWithType: TextMenuExt.HeaderImage.Alpha
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.Alpha*
+  name: Alpha
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_Alpha_
+  commentId: Overload:Celeste.Mod.UI.TextMenuExt.HeaderImage.Alpha
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.Alpha
+  nameWithType: TextMenuExt.HeaderImage.Alpha
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.Height
+  name: Height()
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_Height
+  commentId: M:Celeste.Mod.UI.TextMenuExt.HeaderImage.Height
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.Height()
+  nameWithType: TextMenuExt.HeaderImage.Height()
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.Height*
+  name: Height
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_Height_
+  commentId: Overload:Celeste.Mod.UI.TextMenuExt.HeaderImage.Height
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.Height
+  nameWithType: TextMenuExt.HeaderImage.Height
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.Image
+  name: Image
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_Image
+  commentId: P:Celeste.Mod.UI.TextMenuExt.HeaderImage.Image
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.Image
+  nameWithType: TextMenuExt.HeaderImage.Image
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.Image*
+  name: Image
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_Image_
+  commentId: Overload:Celeste.Mod.UI.TextMenuExt.HeaderImage.Image
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.Image
+  nameWithType: TextMenuExt.HeaderImage.Image
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageColor
+  name: ImageColor
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_ImageColor
+  commentId: P:Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageColor
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageColor
+  nameWithType: TextMenuExt.HeaderImage.ImageColor
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageColor*
+  name: ImageColor
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_ImageColor_
+  commentId: Overload:Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageColor
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageColor
+  nameWithType: TextMenuExt.HeaderImage.ImageColor
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageOutline
+  name: ImageOutline
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_ImageOutline
+  commentId: P:Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageOutline
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageOutline
+  nameWithType: TextMenuExt.HeaderImage.ImageOutline
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageOutline*
+  name: ImageOutline
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_ImageOutline_
+  commentId: Overload:Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageOutline
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageOutline
+  nameWithType: TextMenuExt.HeaderImage.ImageOutline
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageScale
+  name: ImageScale
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_ImageScale
+  commentId: P:Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageScale
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageScale
+  nameWithType: TextMenuExt.HeaderImage.ImageScale
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageScale*
+  name: ImageScale
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_ImageScale_
+  commentId: Overload:Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageScale
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.ImageScale
+  nameWithType: TextMenuExt.HeaderImage.ImageScale
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.LeftWidth
+  name: LeftWidth()
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_LeftWidth
+  commentId: M:Celeste.Mod.UI.TextMenuExt.HeaderImage.LeftWidth
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.LeftWidth()
+  nameWithType: TextMenuExt.HeaderImage.LeftWidth()
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.LeftWidth*
+  name: LeftWidth
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_LeftWidth_
+  commentId: Overload:Celeste.Mod.UI.TextMenuExt.HeaderImage.LeftWidth
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.LeftWidth
+  nameWithType: TextMenuExt.HeaderImage.LeftWidth
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.Offset
+  name: Offset
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_Offset
+  commentId: P:Celeste.Mod.UI.TextMenuExt.HeaderImage.Offset
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.Offset
+  nameWithType: TextMenuExt.HeaderImage.Offset
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.Offset*
+  name: Offset
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_Offset_
+  commentId: Overload:Celeste.Mod.UI.TextMenuExt.HeaderImage.Offset
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.Offset
+  nameWithType: TextMenuExt.HeaderImage.Offset
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.Render(Microsoft.Xna.Framework.Vector2,System.Boolean)
+  name: Render(Vector2, Boolean)
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_Render_Microsoft_Xna_Framework_Vector2_System_Boolean_
+  commentId: M:Celeste.Mod.UI.TextMenuExt.HeaderImage.Render(Microsoft.Xna.Framework.Vector2,System.Boolean)
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.Render(Microsoft.Xna.Framework.Vector2, System.Boolean)
+  nameWithType: TextMenuExt.HeaderImage.Render(Vector2, Boolean)
+- uid: Celeste.Mod.UI.TextMenuExt.HeaderImage.Render*
+  name: Render
+  href: api/Celeste.Mod.UI.TextMenuExt.HeaderImage.html#Celeste_Mod_UI_TextMenuExt_HeaderImage_Render_
+  commentId: Overload:Celeste.Mod.UI.TextMenuExt.HeaderImage.Render
+  fullName: Celeste.Mod.UI.TextMenuExt.HeaderImage.Render
+  nameWithType: TextMenuExt.HeaderImage.Render
 - uid: Celeste.Mod.UI.TextMenuExt.IItemExt
   name: TextMenuExt.IItemExt
   href: api/Celeste.Mod.UI.TextMenuExt.IItemExt.html
@@ -7579,6 +8287,18 @@ references:
   commentId: Overload:Monocle.AtlasExt.Ingest
   fullName: Monocle.AtlasExt.Ingest
   nameWithType: AtlasExt.Ingest
+- uid: Monocle.AtlasExt.VTextureToMTextureMap
+  name: VTextureToMTextureMap
+  href: api/Monocle.AtlasExt.html#Monocle_AtlasExt_VTextureToMTextureMap
+  commentId: P:Monocle.AtlasExt.VTextureToMTextureMap
+  fullName: Monocle.AtlasExt.VTextureToMTextureMap
+  nameWithType: AtlasExt.VTextureToMTextureMap
+- uid: Monocle.AtlasExt.VTextureToMTextureMap*
+  name: VTextureToMTextureMap
+  href: api/Monocle.AtlasExt.html#Monocle_AtlasExt_VTextureToMTextureMap_
+  commentId: Overload:Monocle.AtlasExt.VTextureToMTextureMap
+  fullName: Monocle.AtlasExt.VTextureToMTextureMap
+  nameWithType: AtlasExt.VTextureToMTextureMap
 - uid: Monocle.CoroutineExt
   name: CoroutineExt
   href: api/Monocle.CoroutineExt.html
@@ -7783,12 +8503,54 @@ references:
   commentId: Overload:Monocle.SpriteBankExt.GetXMLPath
   fullName: Monocle.SpriteBankExt.GetXMLPath
   nameWithType: SpriteBankExt.GetXMLPath
+- uid: Monocle.VirtualAssetExt
+  name: VirtualAssetExt
+  href: api/Monocle.VirtualAssetExt.html
+  commentId: T:Monocle.VirtualAssetExt
+  fullName: Monocle.VirtualAssetExt
+  nameWithType: VirtualAssetExt
+- uid: Monocle.VirtualAssetExt.Reload(Monocle.VirtualAsset)
+  name: Reload(VirtualAsset)
+  href: api/Monocle.VirtualAssetExt.html#Monocle_VirtualAssetExt_Reload_Monocle_VirtualAsset_
+  commentId: M:Monocle.VirtualAssetExt.Reload(Monocle.VirtualAsset)
+  fullName: Monocle.VirtualAssetExt.Reload(Monocle.VirtualAsset)
+  nameWithType: VirtualAssetExt.Reload(VirtualAsset)
+- uid: Monocle.VirtualAssetExt.Reload*
+  name: Reload
+  href: api/Monocle.VirtualAssetExt.html#Monocle_VirtualAssetExt_Reload_
+  commentId: Overload:Monocle.VirtualAssetExt.Reload
+  fullName: Monocle.VirtualAssetExt.Reload
+  nameWithType: VirtualAssetExt.Reload
+- uid: Monocle.VirtualAssetExt.Unload(Monocle.VirtualAsset)
+  name: Unload(VirtualAsset)
+  href: api/Monocle.VirtualAssetExt.html#Monocle_VirtualAssetExt_Unload_Monocle_VirtualAsset_
+  commentId: M:Monocle.VirtualAssetExt.Unload(Monocle.VirtualAsset)
+  fullName: Monocle.VirtualAssetExt.Unload(Monocle.VirtualAsset)
+  nameWithType: VirtualAssetExt.Unload(VirtualAsset)
+- uid: Monocle.VirtualAssetExt.Unload*
+  name: Unload
+  href: api/Monocle.VirtualAssetExt.html#Monocle_VirtualAssetExt_Unload_
+  commentId: Overload:Monocle.VirtualAssetExt.Unload
+  fullName: Monocle.VirtualAssetExt.Unload
+  nameWithType: VirtualAssetExt.Unload
 - uid: Monocle.VirtualContentExt
   name: VirtualContentExt
   href: api/Monocle.VirtualContentExt.html
   commentId: T:Monocle.VirtualContentExt
   fullName: Monocle.VirtualContentExt
   nameWithType: VirtualContentExt
+- uid: Monocle.VirtualContentExt.Assets
+  name: Assets
+  href: api/Monocle.VirtualContentExt.html#Monocle_VirtualContentExt_Assets
+  commentId: P:Monocle.VirtualContentExt.Assets
+  fullName: Monocle.VirtualContentExt.Assets
+  nameWithType: VirtualContentExt.Assets
+- uid: Monocle.VirtualContentExt.Assets*
+  name: Assets
+  href: api/Monocle.VirtualContentExt.html#Monocle_VirtualContentExt_Assets_
+  commentId: Overload:Monocle.VirtualContentExt.Assets
+  fullName: Monocle.VirtualContentExt.Assets
+  nameWithType: VirtualContentExt.Assets
 - uid: Monocle.VirtualContentExt.CreateTexture(Celeste.Mod.ModAsset)
   name: CreateTexture(ModAsset)
   href: api/Monocle.VirtualContentExt.html#Monocle_VirtualContentExt_CreateTexture_Celeste_Mod_ModAsset_
@@ -7837,6 +8599,18 @@ references:
   commentId: Overload:Monocle.VirtualContentExt.Unload
   fullName: Monocle.VirtualContentExt.Unload
   nameWithType: VirtualContentExt.Unload
+- uid: Monocle.VirtualContentExt.UnloadOverworld
+  name: UnloadOverworld()
+  href: api/Monocle.VirtualContentExt.html#Monocle_VirtualContentExt_UnloadOverworld
+  commentId: M:Monocle.VirtualContentExt.UnloadOverworld
+  fullName: Monocle.VirtualContentExt.UnloadOverworld()
+  nameWithType: VirtualContentExt.UnloadOverworld()
+- uid: Monocle.VirtualContentExt.UnloadOverworld*
+  name: UnloadOverworld
+  href: api/Monocle.VirtualContentExt.html#Monocle_VirtualContentExt_UnloadOverworld_
+  commentId: Overload:Monocle.VirtualContentExt.UnloadOverworld
+  fullName: Monocle.VirtualContentExt.UnloadOverworld
+  nameWithType: VirtualContentExt.UnloadOverworld
 - uid: Monocle.VirtualTextureExt
   name: VirtualTextureExt
   href: api/Monocle.VirtualTextureExt.html

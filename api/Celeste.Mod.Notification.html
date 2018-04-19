@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EverestModuleMetadata
+    <title>Class Notification
    | Everest </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EverestModuleMetadata
+    <meta name="title" content="Class Notification
    | Everest ">
     <meta name="generator" content="docfx 2.31.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
@@ -22,7 +22,7 @@
     <meta property="docfx:rel" content="../">
     <meta property="docfx:newtab" content="true">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Class EverestModuleMetadata
+    <meta property="og:title" content="Class Notification
   ">
     <meta property="og:site_name" content="Everest"><meta property="og:description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <meta name="author" content="Everest Team">
@@ -85,21 +85,47 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Celeste.Mod.EverestModuleMetadata">
+            <article class="content wrap" id="_content" data-uid="Celeste.Mod.Notification">
   
   
-  <h1 id="Celeste_Mod_EverestModuleMetadata" data-uid="Celeste.Mod.EverestModuleMetadata" class="text-break">Class EverestModuleMetadata
+  <h1 id="Celeste_Mod_Notification" data-uid="Celeste.Mod.Notification" class="text-break">Class Notification
   </h1>
-  <div class="markdown level0 summary"><p>Any module metadata, usually mirroring the data in your metadata.yaml</p>
+  <div class="markdown level0 summary"><p>The class for basic notifications. If you want to render fully custom notifications, override ANotification instead.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">EverestModuleMetadata</span></div>
+    <div class="level1"><a class="xref" href="Celeste.Mod.ANotification.html">ANotification</a></div>
+    <div class="level2"><span class="xref">Notification</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Size">ANotification.Size</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Duration">ANotification.Duration</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Position">ANotification.Position</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Time">ANotification.Time</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Dispose_System_Boolean_">ANotification.Dispose(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Dispose">ANotification.Dispose()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -121,245 +147,154 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Celeste.Mod.html">Celeste.Mod</a></h6>
   <h6><strong>Assembly</strong>: Celeste.Mod.mm.dll</h6>
-  <h5 id="Celeste_Mod_EverestModuleMetadata_syntax">Syntax</h5>
+  <h5 id="Celeste_Mod_Notification_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EverestModuleMetadata</code></pre>
+    <pre><code class="lang-csharp hljs">public class Notification : ANotification, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Celeste_Mod_EverestModuleMetadata__ctor_" data-uid="Celeste.Mod.EverestModuleMetadata.#ctor*"></a>
-  <h4 id="Celeste_Mod_EverestModuleMetadata__ctor" data-uid="Celeste.Mod.EverestModuleMetadata.#ctor">EverestModuleMetadata()</h4>
+  <a id="Celeste_Mod_Notification__ctor_" data-uid="Celeste.Mod.Notification.#ctor*"></a>
+  <h4 id="Celeste_Mod_Notification__ctor" data-uid="Celeste.Mod.Notification.#ctor">Notification()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EverestModuleMetadata()</code></pre>
+    <pre><code class="lang-csharp hljs">public Notification()</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="Celeste_Mod_EverestModuleMetadata_Dependencies_" data-uid="Celeste.Mod.EverestModuleMetadata.Dependencies*"></a>
-  <h4 id="Celeste_Mod_EverestModuleMetadata_Dependencies" data-uid="Celeste.Mod.EverestModuleMetadata.Dependencies">Dependencies</h4>
-  <div class="markdown level1 summary"><p>The dependencies of the mod.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual List&lt;EverestModuleMetadata&gt; Dependencies { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Celeste.Mod.EverestModuleMetadata.html">EverestModuleMetadata</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_EverestModuleMetadata_DLL_" data-uid="Celeste.Mod.EverestModuleMetadata.DLL*"></a>
-  <h4 id="Celeste_Mod_EverestModuleMetadata_DLL" data-uid="Celeste.Mod.EverestModuleMetadata.DLL">DLL</h4>
-  <div class="markdown level1 summary"><p>The path of the mod .dll inside the ZIP or the absolute DLL path if in a directory.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string DLL { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_EverestModuleMetadata_Icon_" data-uid="Celeste.Mod.EverestModuleMetadata.Icon*"></a>
-  <h4 id="Celeste_Mod_EverestModuleMetadata_Icon" data-uid="Celeste.Mod.EverestModuleMetadata.Icon">Icon</h4>
-  <div class="markdown level1 summary"><p>The icon of the mod to be used in the mod menu.
-Everest loads icon.png by default, but this can also be set by the mod at runtime.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual Texture2D Icon { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Microsoft.Xna.Framework.Graphics.Texture2D</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_EverestModuleMetadata_Name_" data-uid="Celeste.Mod.EverestModuleMetadata.Name*"></a>
-  <h4 id="Celeste_Mod_EverestModuleMetadata_Name" data-uid="Celeste.Mod.EverestModuleMetadata.Name">Name</h4>
-  <div class="markdown level1 summary"><p>The name of the mod.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string Name { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_EverestModuleMetadata_PathArchive_" data-uid="Celeste.Mod.EverestModuleMetadata.PathArchive*"></a>
-  <h4 id="Celeste_Mod_EverestModuleMetadata_PathArchive" data-uid="Celeste.Mod.EverestModuleMetadata.PathArchive">PathArchive</h4>
-  <div class="markdown level1 summary"><p>The path to the ZIP of the mod. In case of unzipped mods, an empty string. Set at runtime.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string PathArchive { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_EverestModuleMetadata_PathDirectory_" data-uid="Celeste.Mod.EverestModuleMetadata.PathDirectory*"></a>
-  <h4 id="Celeste_Mod_EverestModuleMetadata_PathDirectory" data-uid="Celeste.Mod.EverestModuleMetadata.PathDirectory">PathDirectory</h4>
-  <div class="markdown level1 summary"><p>The path to the directory of the mod. In case of .zips, an empty string. Set at runtime.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string PathDirectory { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_EverestModuleMetadata_Prelinked_" data-uid="Celeste.Mod.EverestModuleMetadata.Prelinked*"></a>
-  <h4 id="Celeste_Mod_EverestModuleMetadata_Prelinked" data-uid="Celeste.Mod.EverestModuleMetadata.Prelinked">Prelinked</h4>
-  <div class="markdown level1 summary"><p>Whether the mod has been prelinked or not.
-If you don&apos;t know what prelinked mods are, don&apos;t touch this field.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual bool Prelinked { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_EverestModuleMetadata_Version_" data-uid="Celeste.Mod.EverestModuleMetadata.Version*"></a>
-  <h4 id="Celeste_Mod_EverestModuleMetadata_Version" data-uid="Celeste.Mod.EverestModuleMetadata.Version">Version</h4>
-  <div class="markdown level1 summary"><p>The mod version.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual Version Version { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Version</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_EverestModuleMetadata_VersionString_" data-uid="Celeste.Mod.EverestModuleMetadata.VersionString*"></a>
-  <h4 id="Celeste_Mod_EverestModuleMetadata_VersionString" data-uid="Celeste.Mod.EverestModuleMetadata.VersionString">VersionString</h4>
+  <h4 id="Celeste_Mod_Notification_Background" data-uid="Celeste.Mod.Notification.Background">Background</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string VersionString { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public MTexture Background</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Monocle.MTexture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_Mod_Notification_ColorBackground" data-uid="Celeste.Mod.Notification.ColorBackground">ColorBackground</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color ColorBackground</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Xna.Framework.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_Mod_Notification_ColorForeground" data-uid="Celeste.Mod.Notification.ColorForeground">ColorForeground</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color ColorForeground</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Xna.Framework.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_Mod_Notification_Description" data-uid="Celeste.Mod.Notification.Description">Description</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Description</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_Mod_Notification_Icon" data-uid="Celeste.Mod.Notification.Icon">Icon</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MTexture Icon</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Monocle.MTexture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_Mod_Notification_Title" data-uid="Celeste.Mod.Notification.Title">Title</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Title</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -378,42 +313,32 @@ If you don&apos;t know what prelinked mods are, don&apos;t touch this field.</p>
   </h3>
   
   
-  <a id="Celeste_Mod_EverestModuleMetadata_PostParse_" data-uid="Celeste.Mod.EverestModuleMetadata.PostParse*"></a>
-  <h4 id="Celeste_Mod_EverestModuleMetadata_PostParse" data-uid="Celeste.Mod.EverestModuleMetadata.PostParse">PostParse()</h4>
-  <div class="markdown level1 summary"><p>Perform a few basic post-parsing operations. For example, make the DLL path absolute if the mod is in a directory.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PostParse()</code></pre>
-  </div>
-  
-  
-  <a id="Celeste_Mod_EverestModuleMetadata_ToString_" data-uid="Celeste.Mod.EverestModuleMetadata.ToString*"></a>
-  <h4 id="Celeste_Mod_EverestModuleMetadata_ToString" data-uid="Celeste.Mod.EverestModuleMetadata.ToString">ToString()</h4>
+  <a id="Celeste_Mod_Notification_Draw_" data-uid="Celeste.Mod.Notification.Draw*"></a>
+  <h4 id="Celeste_Mod_Notification_Draw" data-uid="Celeste.Mod.Notification.Draw">Draw()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Draw()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.ToString()</span></div>
+  <div><a class="xref" href="Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Draw">ANotification.Draw()</a></div>
+  
+  
+  <a id="Celeste_Mod_Notification_Update_" data-uid="Celeste.Mod.Notification.Update*"></a>
+  <h4 id="Celeste_Mod_Notification_Update" data-uid="Celeste.Mod.Notification.Update">Update()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Update()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Update">ANotification.Update()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
 </article>
           </div>
           

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class VirtualContentExt
+    <title>Class ANotification
    | Everest </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class VirtualContentExt
+    <meta name="title" content="Class ANotification
    | Everest ">
     <meta name="generator" content="docfx 2.31.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
@@ -22,7 +22,7 @@
     <meta property="docfx:rel" content="../">
     <meta property="docfx:newtab" content="true">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Class VirtualContentExt
+    <meta property="og:title" content="Class ANotification
   ">
     <meta property="og:site_name" content="Everest"><meta property="og:description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <meta name="author" content="Everest Team">
@@ -85,17 +85,23 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Monocle.VirtualContentExt">
+            <article class="content wrap" id="_content" data-uid="Celeste.Mod.ANotification">
   
   
-  <h1 id="Monocle_VirtualContentExt" data-uid="Monocle.VirtualContentExt" class="text-break">Class VirtualContentExt
+  <h1 id="Celeste_Mod_ANotification" data-uid="Celeste.Mod.ANotification" class="text-break">Class ANotification
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>The base class for all Everest notifications.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">VirtualContentExt</span></div>
+    <div class="level1"><span class="xref">ANotification</span></div>
+      <div class="level2"><a class="xref" href="Celeste.Mod.Notification.html">Notification</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -121,26 +127,37 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Monocle.html">Monocle</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Celeste.Mod.html">Celeste.Mod</a></h6>
   <h6><strong>Assembly</strong>: Celeste.Mod.mm.dll</h6>
-  <h5 id="Monocle_VirtualContentExt_syntax">Syntax</h5>
+  <h5 id="Celeste_Mod_ANotification_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class VirtualContentExt</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ANotification : IDisposable</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Monocle_VirtualContentExt_Assets_" data-uid="Monocle.VirtualContentExt.Assets*"></a>
-  <h4 id="Monocle_VirtualContentExt_Assets" data-uid="Monocle.VirtualContentExt.Assets">Assets</h4>
-  <div class="markdown level1 summary"><p>The list of all managed VirtualAssets.</p>
+  <a id="Celeste_Mod_ANotification__ctor_" data-uid="Celeste.Mod.ANotification.#ctor*"></a>
+  <h4 id="Celeste_Mod_ANotification__ctor" data-uid="Celeste.Mod.ANotification.#ctor">ANotification()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ANotification()</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Celeste_Mod_ANotification_Duration" data-uid="Celeste.Mod.ANotification.Duration">Duration</h4>
+  <div class="markdown level1 summary"><p>For how long should the notification be visible?</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;VirtualAsset&gt; Assets { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float Duration</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -150,7 +167,82 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Monocle.VirtualAsset</span>&gt;</td>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_Mod_ANotification_Position" data-uid="Celeste.Mod.ANotification.Position">Position</h4>
+  <div class="markdown level1 summary"><p>Position of the notification when drawing. Updated by the Everest NotificationManager.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 Position</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Xna.Framework.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_Mod_ANotification_Size" data-uid="Celeste.Mod.ANotification.Size">Size</h4>
+  <div class="markdown level1 summary"><p>Size of your notification in UI-space (1920x1080). Affects and affected by position of other notifications.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 Size</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Xna.Framework.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_Mod_ANotification_Time" data-uid="Celeste.Mod.ANotification.Time">Time</h4>
+  <div class="markdown level1 summary"><p>Time in seconds since the creation of the notification. Updated by the Everest NotificationManager.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Time</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -159,14 +251,23 @@
   </h3>
   
   
-  <a id="Monocle_VirtualContentExt_CreateTexture_" data-uid="Monocle.VirtualContentExt.CreateTexture*"></a>
-  <h4 id="Monocle_VirtualContentExt_CreateTexture_Celeste_Mod_ModAsset_" data-uid="Monocle.VirtualContentExt.CreateTexture(Celeste.Mod.ModAsset)">CreateTexture(ModAsset)</h4>
-  <div class="markdown level1 summary"><p>Create a new VirtualTexture based on the passed mod asset.</p>
-</div>
+  <a id="Celeste_Mod_ANotification_Dispose_" data-uid="Celeste.Mod.ANotification.Dispose*"></a>
+  <h4 id="Celeste_Mod_ANotification_Dispose" data-uid="Celeste.Mod.ANotification.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static VirtualTexture CreateTexture(ModAsset metadata)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  
+  
+  <a id="Celeste_Mod_ANotification_Dispose_" data-uid="Celeste.Mod.ANotification.Dispose*"></a>
+  <h4 id="Celeste_Mod_ANotification_Dispose_System_Boolean_" data-uid="Celeste.Mod.ANotification.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -179,70 +280,35 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Celeste.Mod.ModAsset.html">ModAsset</a></td>
-        <td><span class="parametername">metadata</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Monocle.VirtualTexture</span></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Monocle_VirtualContentExt_ForceReload_" data-uid="Monocle.VirtualContentExt.ForceReload*"></a>
-  <h4 id="Monocle_VirtualContentExt_ForceReload" data-uid="Monocle.VirtualContentExt.ForceReload">ForceReload()</h4>
-  <div class="markdown level1 summary"><p>Forcibly unload and reload all content.</p>
-</div>
+  <a id="Celeste_Mod_ANotification_Draw_" data-uid="Celeste.Mod.ANotification.Draw*"></a>
+  <h4 id="Celeste_Mod_ANotification_Draw" data-uid="Celeste.Mod.ANotification.Draw">Draw()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ForceReload()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void Draw()</code></pre>
   </div>
   
   
-  <a id="Monocle_VirtualContentExt_Reload_" data-uid="Monocle.VirtualContentExt.Reload*"></a>
-  <h4 id="Monocle_VirtualContentExt_Reload" data-uid="Monocle.VirtualContentExt.Reload">Reload()</h4>
-  <div class="markdown level1 summary"><p>Reload all content.</p>
-</div>
+  <a id="Celeste_Mod_ANotification_Update_" data-uid="Celeste.Mod.ANotification.Update*"></a>
+  <h4 id="Celeste_Mod_ANotification_Update" data-uid="Celeste.Mod.ANotification.Update">Update()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Reload()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract void Update()</code></pre>
   </div>
-  
-  
-  <a id="Monocle_VirtualContentExt_Unload_" data-uid="Monocle.VirtualContentExt.Unload*"></a>
-  <h4 id="Monocle_VirtualContentExt_Unload" data-uid="Monocle.VirtualContentExt.Unload">Unload()</h4>
-  <div class="markdown level1 summary"><p>Unload all content.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Unload()</code></pre>
-  </div>
-  
-  
-  <a id="Monocle_VirtualContentExt_UnloadOverworld_" data-uid="Monocle.VirtualContentExt.UnloadOverworld*"></a>
-  <h4 id="Monocle_VirtualContentExt_UnloadOverworld" data-uid="Monocle.VirtualContentExt.UnloadOverworld">UnloadOverworld()</h4>
-  <div class="markdown level1 summary"><p>Unload all overworld-related content.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UnloadOverworld()</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
   </div>
 </article>
           </div>
