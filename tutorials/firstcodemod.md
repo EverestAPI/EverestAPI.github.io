@@ -262,7 +262,7 @@ namespace Celeste.Mod.Example {
 ## Hooking Methods
 You should only care about the following two ways to hook methods:
 
-- **Everest.Events:** This is a very restricted event listening method built in to Everest, and is only used when Everest needs to do work behind the scenes for you. You can't control when the original method runs.
+- **Everest.Events:** This is a very restricted event listening method built into Everest, and is only used when Everest needs to do work behind the scenes for you. You can't control when the original method runs.
 - **MMHOOK_Celeste.dll:** This auto-generated file allows you to hook to all Celeste methods as if they were events. You are responsible to run the original method. Also, **you need to install Everest on the OpenGL / FNA version of the game to auto-generate a working .dll**, otherwise you'll need the Windows-only and obsolete XNA Framework to even compile your mod. [Take a look at an example in GhostNet here.](https://github.com/EverestAPI/GhostMod/blob/75bfd526210d151b20ec417757e4cbe4436de16c/GhostNetMod/GhostNetHooks.cs#L18)
 
 If you're interested in runtime lower-level detouring, take a look at [HookedMethod.Hook](https://github.com/EverestAPI/HookedMethod/blob/master/Examples/Program.cs). If you're interested in the lowest level of detouring, take a look at [MonoMod.RuntimeDetour](https://github.com/0x0ade/MonoMod/tree/master/MonoMod.RuntimeDetour), which also powers `MMHOOK_Celeste.dll`.
