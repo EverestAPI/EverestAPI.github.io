@@ -58,6 +58,10 @@ Mods can contain custom content, both overrides / replacements (when supported) 
     - Multiple mods are allowed to occupy the same path. F.e. two mods can contain their own `Dialog/English.txt` files.
     - Replacing existing texts not supported.
     - `Dialog/English.txt` is always used when a dialog key cannot be found in another language.
+- `Audio/*.bank` + `Audio/*.guids.txt`: Add new FMOD audio banks containing custom / replacement events.
+    - Works with new banks created in the [Celeste FMOD project](https://www.fmod.com/download#demos)
+    - Requires manually exported `GUIDs.txt`, renamed to `your bank name.guids.txt`
+    - To replace the game's events, assign any modified events to your new mod bank. Please avoid overriding the game's original banks.
 
 **With a few exceptions, each file path can only be occupied by one file.**
 - If mod #1 contains `Graphics/Atlases/Gui/title.png` and `Graphics/Atlases/Gui/title.meta.yaml`, it overrides the texture shipped with Celeste.

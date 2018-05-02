@@ -47,7 +47,11 @@ Now that you've created a new, empty project, it's time to add the Everest API.
 ### Adding Everest files
 
 If your new project is a git repository, add Everest as a submodule.  
-CLI command: `git submodule add https://github.com/EverestAPI/Everest.git`
+CLI command:
+
+```
+git submodule add https://github.com/EverestAPI/Everest.git
+```
 
 Otherwise, download the Everest source code .zip ([master](https://github.com/EverestAPI/Everest/archive/master.zip), [stable](https://github.com/EverestAPI/Everest/archive/stable.zip)) and place it as `Everest` in your project directory.
 
@@ -256,9 +260,10 @@ namespace Celeste.Mod.Example {
 ```
 
 ## Hooking Methods
-There are currently 3 ways to hook methods. These are:
+You should only care about the following two ways to hook methods:
 
-- **RuntimeDetour:** This is currently used by [RainbowMod](https://github.com/EverestAPI/RainbowMod) and [MadelineEnergySelector](https://github.com/EverestAPI/MadelineEnergySelector), and will be deprecated for end-user mods once HookedMethod has a stable version.
-- **HookedMethod.Hook:** This is the replacement for RuntimeDetour, intended to be more user-friendly and have more features. Currently, it has nothing except a slightly simpler interface, and a backbone to easily allow adding IL-manipulation and complex non-detour functionality. RainbowMod will most likely be ported to HookedMethod.Hook in the near future. This is currently recommended for new mods that do not require a stable development interface. Documentation is available in [`Examples/Examples.cs`](https://github.com/EverestAPI/HookedMethod/blob/master/Examples/Program.cs) in the HookedMethod repo.
-- **Everest.Events:** This is a very restricted hooking method built in to Everest, and is used by [GhostMod](https://github.com/EverestAPI/GhostMod).
-    - There's an early WIP to replace this with a feature of HookedMethod, HookedMethod.EventHook. MadelineEnergySelector may be ported to use this instead of RuntimeDetour.
+- **Everest.Events:** This is a very restricted event listening method built in to Everest, and is only used when Everest needs to do work behind the scenes for you. You can't control when the original method runs.
+- **MMHOOK_Celeste.dll:** This auto-generated file allows you to hook to all Celeste methods as if they were events. You are responsible to run the original method. Also, **you need to install Everest on the OpenGL / FNA version of the game to auto-generate a working .dll**, otherwise you'll need the Windows-only and obsolete XNA Framework to even compile your mod. [Take a look at an example in GhostNet here.](https://github.com/EverestAPI/GhostMod/blob/75bfd526210d151b20ec417757e4cbe4436de16c/GhostNetMod/GhostNetHooks.cs#L18)
+
+If you're interested in runtime lower-level detouring, take a look at [HookedMethod.Hook](https://github.com/EverestAPI/HookedMethod/blob/master/Examples/Program.cs). If you're interested in the lowest level of detouring, take a look at [MonoMod.RuntimeDetour](https://github.com/0x0ade/MonoMod/tree/master/MonoMod.RuntimeDetour), which also powers `MMHOOK_Celeste.dll`.
+
