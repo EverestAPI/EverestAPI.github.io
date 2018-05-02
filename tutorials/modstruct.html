@@ -142,6 +142,12 @@
 <li><code>Dialog/English.txt</code> is always used when a dialog key cannot be found in another language.</li>
 </ul>
 </li>
+<li><code>Audio/*.bank</code> + <code>Audio/*.guids.txt</code>: Add new FMOD audio banks containing custom / replacement events.<ul>
+<li>Works with new banks created in the <a href="https://www.fmod.com/download#demos">Celeste FMOD project</a></li>
+<li>Requires manually exported <code>GUIDs.txt</code>, renamed to <code>your bank name.guids.txt</code></li>
+<li>To replace the game&#39;s events, assign any modified events to your new mod bank. Please avoid overriding the game&#39;s original banks.</li>
+</ul>
+</li>
 </ul>
 <p><strong>With a few exceptions, each file path can only be occupied by one file.</strong></p>
 <ul>

@@ -211,6 +211,84 @@ references:
   commentId: Overload:Celeste.AreaStatsExt.ToKey
   fullName: Celeste.AreaStatsExt.ToKey
   nameWithType: AreaStatsExt.ToKey
+- uid: Celeste.AudioExt
+  name: AudioExt
+  href: api/Celeste.AudioExt.html
+  commentId: T:Celeste.AudioExt
+  fullName: Celeste.AudioExt
+  nameWithType: AudioExt
+- uid: Celeste.AudioExt.Banks
+  name: Banks
+  href: api/Celeste.AudioExt.html#Celeste_AudioExt_Banks
+  commentId: P:Celeste.AudioExt.Banks
+  fullName: Celeste.AudioExt.Banks
+  nameWithType: AudioExt.Banks
+- uid: Celeste.AudioExt.Banks*
+  name: Banks
+  href: api/Celeste.AudioExt.html#Celeste_AudioExt_Banks_
+  commentId: Overload:Celeste.AudioExt.Banks
+  fullName: Celeste.AudioExt.Banks
+  nameWithType: AudioExt.Banks
+- uid: Celeste.AudioExt.cachedPaths
+  name: cachedPaths
+  href: api/Celeste.AudioExt.html#Celeste_AudioExt_cachedPaths
+  commentId: P:Celeste.AudioExt.cachedPaths
+  fullName: Celeste.AudioExt.cachedPaths
+  nameWithType: AudioExt.cachedPaths
+- uid: Celeste.AudioExt.cachedPaths*
+  name: cachedPaths
+  href: api/Celeste.AudioExt.html#Celeste_AudioExt_cachedPaths_
+  commentId: Overload:Celeste.AudioExt.cachedPaths
+  fullName: Celeste.AudioExt.cachedPaths
+  nameWithType: AudioExt.cachedPaths
+- uid: Celeste.AudioExt.CheckFMOD(FMOD.RESULT)
+  name: CheckFMOD(RESULT)
+  href: api/Celeste.AudioExt.html#Celeste_AudioExt_CheckFMOD_FMOD_RESULT_
+  commentId: M:Celeste.AudioExt.CheckFMOD(FMOD.RESULT)
+  fullName: Celeste.AudioExt.CheckFMOD(FMOD.RESULT)
+  nameWithType: AudioExt.CheckFMOD(RESULT)
+- uid: Celeste.AudioExt.CheckFMOD*
+  name: CheckFMOD
+  href: api/Celeste.AudioExt.html#Celeste_AudioExt_CheckFMOD_
+  commentId: Overload:Celeste.AudioExt.CheckFMOD
+  fullName: Celeste.AudioExt.CheckFMOD
+  nameWithType: AudioExt.CheckFMOD
+- uid: Celeste.AudioExt.IngestBank(Celeste.Mod.ModAsset)
+  name: IngestBank(ModAsset)
+  href: api/Celeste.AudioExt.html#Celeste_AudioExt_IngestBank_Celeste_Mod_ModAsset_
+  commentId: M:Celeste.AudioExt.IngestBank(Celeste.Mod.ModAsset)
+  fullName: Celeste.AudioExt.IngestBank(Celeste.Mod.ModAsset)
+  nameWithType: AudioExt.IngestBank(ModAsset)
+- uid: Celeste.AudioExt.IngestBank*
+  name: IngestBank
+  href: api/Celeste.AudioExt.html#Celeste_AudioExt_IngestBank_
+  commentId: Overload:Celeste.AudioExt.IngestBank
+  fullName: Celeste.AudioExt.IngestBank
+  nameWithType: AudioExt.IngestBank
+- uid: Celeste.AudioExt.IngestGUIDs(Celeste.Mod.ModAsset)
+  name: IngestGUIDs(ModAsset)
+  href: api/Celeste.AudioExt.html#Celeste_AudioExt_IngestGUIDs_Celeste_Mod_ModAsset_
+  commentId: M:Celeste.AudioExt.IngestGUIDs(Celeste.Mod.ModAsset)
+  fullName: Celeste.AudioExt.IngestGUIDs(Celeste.Mod.ModAsset)
+  nameWithType: AudioExt.IngestGUIDs(ModAsset)
+- uid: Celeste.AudioExt.IngestGUIDs*
+  name: IngestGUIDs
+  href: api/Celeste.AudioExt.html#Celeste_AudioExt_IngestGUIDs_
+  commentId: Overload:Celeste.AudioExt.IngestGUIDs
+  fullName: Celeste.AudioExt.IngestGUIDs
+  nameWithType: AudioExt.IngestGUIDs
+- uid: Celeste.AudioExt.System
+  name: System
+  href: api/Celeste.AudioExt.html#Celeste_AudioExt_System
+  commentId: P:Celeste.AudioExt.System
+  fullName: Celeste.AudioExt.System
+  nameWithType: AudioExt.System
+- uid: Celeste.AudioExt.System*
+  name: System
+  href: api/Celeste.AudioExt.html#Celeste_AudioExt_System_
+  commentId: Overload:Celeste.AudioExt.System
+  fullName: Celeste.AudioExt.System
+  nameWithType: AudioExt.System
 - uid: Celeste.AutotilerExt
   name: AutotilerExt
   href: api/Celeste.AutotilerExt.html
@@ -589,6 +667,12 @@ references:
   commentId: T:Celeste.Mod.AssetTypeAssembly
   fullName: Celeste.Mod.AssetTypeAssembly
   nameWithType: AssetTypeAssembly
+- uid: Celeste.Mod.AssetTypeBank
+  name: AssetTypeBank
+  href: api/Celeste.Mod.AssetTypeBank.html
+  commentId: T:Celeste.Mod.AssetTypeBank
+  fullName: Celeste.Mod.AssetTypeBank
+  nameWithType: AssetTypeBank
 - uid: Celeste.Mod.AssetTypeDialog
   name: AssetTypeDialog
   href: api/Celeste.Mod.AssetTypeDialog.html
@@ -601,6 +685,12 @@ references:
   commentId: T:Celeste.Mod.AssetTypeDirectory
   fullName: Celeste.Mod.AssetTypeDirectory
   nameWithType: AssetTypeDirectory
+- uid: Celeste.Mod.AssetTypeGUIDs
+  name: AssetTypeGUIDs
+  href: api/Celeste.Mod.AssetTypeGUIDs.html
+  commentId: T:Celeste.Mod.AssetTypeGUIDs
+  fullName: Celeste.Mod.AssetTypeGUIDs
+  nameWithType: AssetTypeGUIDs
 - uid: Celeste.Mod.AssetTypeMap
   name: AssetTypeMap
   href: api/Celeste.Mod.AssetTypeMap.html
@@ -1042,6 +1132,30 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CreateInputGuiEntry
   fullName: Celeste.Mod.Core.CoreModuleSettings.CreateInputGuiEntry
   nameWithType: CoreModuleSettings.CreateInputGuiEntry
+- uid: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugMode(Celeste.TextMenu,System.Boolean)
+  name: CreateLaunchInDebugMode(TextMenu, Boolean)
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateLaunchInDebugMode_Celeste_TextMenu_System_Boolean_
+  commentId: M:Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugMode(Celeste.TextMenu,System.Boolean)
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugMode(Celeste.TextMenu, System.Boolean)
+  nameWithType: CoreModuleSettings.CreateLaunchInDebugMode(TextMenu, Boolean)
+- uid: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugMode*
+  name: CreateLaunchInDebugMode
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateLaunchInDebugMode_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugMode
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugMode
+  nameWithType: CoreModuleSettings.CreateLaunchInDebugMode
+- uid: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdate(Celeste.TextMenu,System.Boolean)
+  name: CreateLaunchWithFMODLiveUpdate(TextMenu, Boolean)
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateLaunchWithFMODLiveUpdate_Celeste_TextMenu_System_Boolean_
+  commentId: M:Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdate(Celeste.TextMenu,System.Boolean)
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdate(Celeste.TextMenu, System.Boolean)
+  nameWithType: CoreModuleSettings.CreateLaunchWithFMODLiveUpdate(TextMenu, Boolean)
+- uid: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdate*
+  name: CreateLaunchWithFMODLiveUpdate
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateLaunchWithFMODLiveUpdate_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdate
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdate
+  nameWithType: CoreModuleSettings.CreateLaunchWithFMODLiveUpdate
 - uid: Celeste.Mod.Core.CoreModuleSettings.InputGui
   name: InputGui
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_InputGui
@@ -1066,6 +1180,18 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.LaunchInDebugMode
   fullName: Celeste.Mod.Core.CoreModuleSettings.LaunchInDebugMode
   nameWithType: CoreModuleSettings.LaunchInDebugMode
+- uid: Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdate
+  name: LaunchWithFMODLiveUpdate
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_LaunchWithFMODLiveUpdate
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdate
+  fullName: Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdate
+  nameWithType: CoreModuleSettings.LaunchWithFMODLiveUpdate
+- uid: Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdate*
+  name: LaunchWithFMODLiveUpdate
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_LaunchWithFMODLiveUpdate_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdate
+  fullName: Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdate
+  nameWithType: CoreModuleSettings.LaunchWithFMODLiveUpdate
 - uid: Celeste.Mod.Core.CoreModuleSettings.LaunchWithoutIntro
   name: LaunchWithoutIntro
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_LaunchWithoutIntro
@@ -1426,6 +1552,15 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Content.Get
   fullName: Celeste.Mod.Everest.Content.Get
   nameWithType: Everest.Content.Get
+- uid: Celeste.Mod.Everest.Content.Get``1(System.String,System.Boolean)
+  name: Get<T>(String, Boolean)
+  href: api/Celeste.Mod.Everest.Content.html#Celeste_Mod_Everest_Content_Get__1_System_String_System_Boolean_
+  commentId: M:Celeste.Mod.Everest.Content.Get``1(System.String,System.Boolean)
+  name.vb: Get(Of T)(String, Boolean)
+  fullName: Celeste.Mod.Everest.Content.Get<T>(System.String, System.Boolean)
+  fullName.vb: Celeste.Mod.Everest.Content.Get(Of T)(System.String, System.Boolean)
+  nameWithType: Everest.Content.Get<T>(String, Boolean)
+  nameWithType.vb: Everest.Content.Get(Of T)(String, Boolean)
 - uid: Celeste.Mod.Everest.Content.GetDialogs(System.String)
   name: GetDialogs(String)
   href: api/Celeste.Mod.Everest.Content.html#Celeste_Mod_Everest_Content_GetDialogs_System_String_
@@ -1453,6 +1588,12 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Content.GuessType
   fullName: Celeste.Mod.Everest.Content.GuessType
   nameWithType: Everest.Content.GuessType
+- uid: Celeste.Mod.Everest.Content.ListBanks
+  name: ListBanks
+  href: api/Celeste.Mod.Everest.Content.html#Celeste_Mod_Everest_Content_ListBanks
+  commentId: F:Celeste.Mod.Everest.Content.ListBanks
+  fullName: Celeste.Mod.Everest.Content.ListBanks
+  nameWithType: Everest.Content.ListBanks
 - uid: Celeste.Mod.Everest.Content.ListMaps
   name: ListMaps
   href: api/Celeste.Mod.Everest.Content.html#Celeste_Mod_Everest_Content_ListMaps
@@ -1582,6 +1723,15 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Content.TryGet
   fullName: Celeste.Mod.Everest.Content.TryGet
   nameWithType: Everest.Content.TryGet
+- uid: Celeste.Mod.Everest.Content.TryGet``1(System.String,Celeste.Mod.ModAsset@,System.Boolean)
+  name: TryGet<T>(String, out ModAsset, Boolean)
+  href: api/Celeste.Mod.Everest.Content.html#Celeste_Mod_Everest_Content_TryGet__1_System_String_Celeste_Mod_ModAsset__System_Boolean_
+  commentId: M:Celeste.Mod.Everest.Content.TryGet``1(System.String,Celeste.Mod.ModAsset@,System.Boolean)
+  name.vb: TryGet(Of T)(String, ByRef ModAsset, Boolean)
+  fullName: Celeste.Mod.Everest.Content.TryGet<T>(System.String, out Celeste.Mod.ModAsset, System.Boolean)
+  fullName.vb: Celeste.Mod.Everest.Content.TryGet(Of T)(System.String, ByRef Celeste.Mod.ModAsset, System.Boolean)
+  nameWithType: Everest.Content.TryGet<T>(String, out ModAsset, Boolean)
+  nameWithType.vb: Everest.Content.TryGet(Of T)(String, ByRef ModAsset, Boolean)
 - uid: Celeste.Mod.Everest.Content.TryGetDialogs(System.String,System.Collections.Generic.List{Celeste.Mod.ModAsset}@)
   name: TryGetDialogs(String, out List<ModAsset>)
   href: api/Celeste.Mod.Everest.Content.html#Celeste_Mod_Everest_Content_TryGetDialogs_System_String_System_Collections_Generic_List_Celeste_Mod_ModAsset___
@@ -1603,36 +1753,6 @@ references:
   commentId: T:Celeste.Mod.Everest.Events
   fullName: Celeste.Mod.Everest.Events
   nameWithType: Everest.Events
-- uid: Celeste.Mod.Everest.Events.AreaData
-  name: Everest.Events.AreaData
-  href: api/Celeste.Mod.Everest.Events.AreaData.html
-  commentId: T:Celeste.Mod.Everest.Events.AreaData
-  fullName: Celeste.Mod.Everest.Events.AreaData
-  nameWithType: Everest.Events.AreaData
-- uid: Celeste.Mod.Everest.Events.AreaData.OnLoad
-  name: OnLoad
-  href: api/Celeste.Mod.Everest.Events.AreaData.html#Celeste_Mod_Everest_Events_AreaData_OnLoad
-  commentId: E:Celeste.Mod.Everest.Events.AreaData.OnLoad
-  fullName: Celeste.Mod.Everest.Events.AreaData.OnLoad
-  nameWithType: Everest.Events.AreaData.OnLoad
-- uid: Celeste.Mod.Everest.Events.AreaData.OnReloadMountainViews
-  name: OnReloadMountainViews
-  href: api/Celeste.Mod.Everest.Events.AreaData.html#Celeste_Mod_Everest_Events_AreaData_OnReloadMountainViews
-  commentId: E:Celeste.Mod.Everest.Events.AreaData.OnReloadMountainViews
-  fullName: Celeste.Mod.Everest.Events.AreaData.OnReloadMountainViews
-  nameWithType: Everest.Events.AreaData.OnReloadMountainViews
-- uid: Celeste.Mod.Everest.Events.Atlas
-  name: Everest.Events.Atlas
-  href: api/Celeste.Mod.Everest.Events.Atlas.html
-  commentId: T:Celeste.Mod.Everest.Events.Atlas
-  fullName: Celeste.Mod.Everest.Events.Atlas
-  nameWithType: Everest.Events.Atlas
-- uid: Celeste.Mod.Everest.Events.Atlas.OnLoad
-  name: OnLoad
-  href: api/Celeste.Mod.Everest.Events.Atlas.html#Celeste_Mod_Everest_Events_Atlas_OnLoad
-  commentId: E:Celeste.Mod.Everest.Events.Atlas.OnLoad
-  fullName: Celeste.Mod.Everest.Events.Atlas.OnLoad
-  nameWithType: Everest.Events.Atlas.OnLoad
 - uid: Celeste.Mod.Everest.Events.Celeste
   name: Everest.Events.Celeste
   href: api/Celeste.Mod.Everest.Events.Celeste.html
@@ -1651,114 +1771,6 @@ references:
   commentId: E:Celeste.Mod.Everest.Events.Celeste.OnShutdown
   fullName: Celeste.Mod.Everest.Events.Celeste.OnShutdown
   nameWithType: Everest.Events.Celeste.OnShutdown
-- uid: Celeste.Mod.Everest.Events.Dialog
-  name: Everest.Events.Dialog
-  href: api/Celeste.Mod.Everest.Events.Dialog.html
-  commentId: T:Celeste.Mod.Everest.Events.Dialog
-  fullName: Celeste.Mod.Everest.Events.Dialog
-  nameWithType: Everest.Events.Dialog
-- uid: Celeste.Mod.Everest.Events.Dialog.OnInitLanguages
-  name: OnInitLanguages
-  href: api/Celeste.Mod.Everest.Events.Dialog.html#Celeste_Mod_Everest_Events_Dialog_OnInitLanguages
-  commentId: E:Celeste.Mod.Everest.Events.Dialog.OnInitLanguages
-  fullName: Celeste.Mod.Everest.Events.Dialog.OnInitLanguages
-  nameWithType: Everest.Events.Dialog.OnInitLanguages
-- uid: Celeste.Mod.Everest.Events.GFX
-  name: Everest.Events.GFX
-  href: api/Celeste.Mod.Everest.Events.GFX.html
-  commentId: T:Celeste.Mod.Everest.Events.GFX
-  fullName: Celeste.Mod.Everest.Events.GFX
-  nameWithType: Everest.Events.GFX
-- uid: Celeste.Mod.Everest.Events.GFX.OnLoadData
-  name: OnLoadData
-  href: api/Celeste.Mod.Everest.Events.GFX.html#Celeste_Mod_Everest_Events_GFX_OnLoadData
-  commentId: E:Celeste.Mod.Everest.Events.GFX.OnLoadData
-  fullName: Celeste.Mod.Everest.Events.GFX.OnLoadData
-  nameWithType: Everest.Events.GFX.OnLoadData
-- uid: Celeste.Mod.Everest.Events.GFX.OnLoadEffects
-  name: OnLoadEffects
-  href: api/Celeste.Mod.Everest.Events.GFX.html#Celeste_Mod_Everest_Events_GFX_OnLoadEffects
-  commentId: E:Celeste.Mod.Everest.Events.GFX.OnLoadEffects
-  fullName: Celeste.Mod.Everest.Events.GFX.OnLoadEffects
-  nameWithType: Everest.Events.GFX.OnLoadEffects
-- uid: Celeste.Mod.Everest.Events.GFX.OnLoadGame
-  name: OnLoadGame
-  href: api/Celeste.Mod.Everest.Events.GFX.html#Celeste_Mod_Everest_Events_GFX_OnLoadGame
-  commentId: E:Celeste.Mod.Everest.Events.GFX.OnLoadGame
-  fullName: Celeste.Mod.Everest.Events.GFX.OnLoadGame
-  nameWithType: Everest.Events.GFX.OnLoadGame
-- uid: Celeste.Mod.Everest.Events.GFX.OnLoadGui
-  name: OnLoadGui
-  href: api/Celeste.Mod.Everest.Events.GFX.html#Celeste_Mod_Everest_Events_GFX_OnLoadGui
-  commentId: E:Celeste.Mod.Everest.Events.GFX.OnLoadGui
-  fullName: Celeste.Mod.Everest.Events.GFX.OnLoadGui
-  nameWithType: Everest.Events.GFX.OnLoadGui
-- uid: Celeste.Mod.Everest.Events.GFX.OnLoadMountain
-  name: OnLoadMountain
-  href: api/Celeste.Mod.Everest.Events.GFX.html#Celeste_Mod_Everest_Events_GFX_OnLoadMountain
-  commentId: E:Celeste.Mod.Everest.Events.GFX.OnLoadMountain
-  fullName: Celeste.Mod.Everest.Events.GFX.OnLoadMountain
-  nameWithType: Everest.Events.GFX.OnLoadMountain
-- uid: Celeste.Mod.Everest.Events.GFX.OnLoadOther
-  name: OnLoadOther
-  href: api/Celeste.Mod.Everest.Events.GFX.html#Celeste_Mod_Everest_Events_GFX_OnLoadOther
-  commentId: E:Celeste.Mod.Everest.Events.GFX.OnLoadOther
-  fullName: Celeste.Mod.Everest.Events.GFX.OnLoadOther
-  nameWithType: Everest.Events.GFX.OnLoadOther
-- uid: Celeste.Mod.Everest.Events.GFX.OnLoadOverworld
-  name: OnLoadOverworld
-  href: api/Celeste.Mod.Everest.Events.GFX.html#Celeste_Mod_Everest_Events_GFX_OnLoadOverworld
-  commentId: E:Celeste.Mod.Everest.Events.GFX.OnLoadOverworld
-  fullName: Celeste.Mod.Everest.Events.GFX.OnLoadOverworld
-  nameWithType: Everest.Events.GFX.OnLoadOverworld
-- uid: Celeste.Mod.Everest.Events.GFX.OnLoadPortraits
-  name: OnLoadPortraits
-  href: api/Celeste.Mod.Everest.Events.GFX.html#Celeste_Mod_Everest_Events_GFX_OnLoadPortraits
-  commentId: E:Celeste.Mod.Everest.Events.GFX.OnLoadPortraits
-  fullName: Celeste.Mod.Everest.Events.GFX.OnLoadPortraits
-  nameWithType: Everest.Events.GFX.OnLoadPortraits
-- uid: Celeste.Mod.Everest.Events.GFX.OnUnloadData
-  name: OnUnloadData
-  href: api/Celeste.Mod.Everest.Events.GFX.html#Celeste_Mod_Everest_Events_GFX_OnUnloadData
-  commentId: E:Celeste.Mod.Everest.Events.GFX.OnUnloadData
-  fullName: Celeste.Mod.Everest.Events.GFX.OnUnloadData
-  nameWithType: Everest.Events.GFX.OnUnloadData
-- uid: Celeste.Mod.Everest.Events.GFX.OnUnloadGame
-  name: OnUnloadGame
-  href: api/Celeste.Mod.Everest.Events.GFX.html#Celeste_Mod_Everest_Events_GFX_OnUnloadGame
-  commentId: E:Celeste.Mod.Everest.Events.GFX.OnUnloadGame
-  fullName: Celeste.Mod.Everest.Events.GFX.OnUnloadGame
-  nameWithType: Everest.Events.GFX.OnUnloadGame
-- uid: Celeste.Mod.Everest.Events.GFX.OnUnloadGui
-  name: OnUnloadGui
-  href: api/Celeste.Mod.Everest.Events.GFX.html#Celeste_Mod_Everest_Events_GFX_OnUnloadGui
-  commentId: E:Celeste.Mod.Everest.Events.GFX.OnUnloadGui
-  fullName: Celeste.Mod.Everest.Events.GFX.OnUnloadGui
-  nameWithType: Everest.Events.GFX.OnUnloadGui
-- uid: Celeste.Mod.Everest.Events.GFX.OnUnloadMountain
-  name: OnUnloadMountain
-  href: api/Celeste.Mod.Everest.Events.GFX.html#Celeste_Mod_Everest_Events_GFX_OnUnloadMountain
-  commentId: E:Celeste.Mod.Everest.Events.GFX.OnUnloadMountain
-  fullName: Celeste.Mod.Everest.Events.GFX.OnUnloadMountain
-  nameWithType: Everest.Events.GFX.OnUnloadMountain
-- uid: Celeste.Mod.Everest.Events.GFX.OnUnloadOther
-  name: OnUnloadOther
-  href: api/Celeste.Mod.Everest.Events.GFX.html#Celeste_Mod_Everest_Events_GFX_OnUnloadOther
-  commentId: E:Celeste.Mod.Everest.Events.GFX.OnUnloadOther
-  fullName: Celeste.Mod.Everest.Events.GFX.OnUnloadOther
-  nameWithType: Everest.Events.GFX.OnUnloadOther
-- uid: Celeste.Mod.Everest.Events.GFX.OnUnloadOverworld
-  name: OnUnloadOverworld
-  href: api/Celeste.Mod.Everest.Events.GFX.html#Celeste_Mod_Everest_Events_GFX_OnUnloadOverworld
-  commentId: E:Celeste.Mod.Everest.Events.GFX.OnUnloadOverworld
-  fullName: Celeste.Mod.Everest.Events.GFX.OnUnloadOverworld
-  nameWithType: Everest.Events.GFX.OnUnloadOverworld
-- uid: Celeste.Mod.Everest.Events.GFX.OnUnloadPortraits
-  name: OnUnloadPortraits
-  href: api/Celeste.Mod.Everest.Events.GFX.html#Celeste_Mod_Everest_Events_GFX_OnUnloadPortraits
-  commentId: E:Celeste.Mod.Everest.Events.GFX.OnUnloadPortraits
-  fullName: Celeste.Mod.Everest.Events.GFX.OnUnloadPortraits
-  nameWithType: Everest.Events.GFX.OnUnloadPortraits
 - uid: Celeste.Mod.Everest.Events.Input
   name: Everest.Events.Input
   href: api/Celeste.Mod.Everest.Events.Input.html
@@ -1777,6 +1789,72 @@ references:
   commentId: E:Celeste.Mod.Everest.Events.Input.OnInitialize
   fullName: Celeste.Mod.Everest.Events.Input.OnInitialize
   nameWithType: Everest.Events.Input.OnInitialize
+- uid: Celeste.Mod.Everest.Events.Journal
+  name: Everest.Events.Journal
+  href: api/Celeste.Mod.Everest.Events.Journal.html
+  commentId: T:Celeste.Mod.Everest.Events.Journal
+  fullName: Celeste.Mod.Everest.Events.Journal
+  nameWithType: Everest.Events.Journal
+- uid: Celeste.Mod.Everest.Events.Journal.EnterHandler
+  name: Everest.Events.Journal.EnterHandler
+  href: api/Celeste.Mod.Everest.Events.Journal.EnterHandler.html
+  commentId: T:Celeste.Mod.Everest.Events.Journal.EnterHandler
+  fullName: Celeste.Mod.Everest.Events.Journal.EnterHandler
+  nameWithType: Everest.Events.Journal.EnterHandler
+- uid: Celeste.Mod.Everest.Events.Journal.EnterHandler.#ctor(System.Object,System.IntPtr)
+  name: EnterHandler(Object, IntPtr)
+  href: api/Celeste.Mod.Everest.Events.Journal.EnterHandler.html#Celeste_Mod_Everest_Events_Journal_EnterHandler__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Everest.Events.Journal.EnterHandler.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Everest.Events.Journal.EnterHandler.EnterHandler(System.Object, System.IntPtr)
+  nameWithType: Everest.Events.Journal.EnterHandler.EnterHandler(Object, IntPtr)
+- uid: Celeste.Mod.Everest.Events.Journal.EnterHandler.#ctor*
+  name: EnterHandler
+  href: api/Celeste.Mod.Everest.Events.Journal.EnterHandler.html#Celeste_Mod_Everest_Events_Journal_EnterHandler__ctor_
+  commentId: Overload:Celeste.Mod.Everest.Events.Journal.EnterHandler.#ctor
+  fullName: Celeste.Mod.Everest.Events.Journal.EnterHandler.EnterHandler
+  nameWithType: Everest.Events.Journal.EnterHandler.EnterHandler
+- uid: Celeste.Mod.Everest.Events.Journal.EnterHandler.BeginInvoke(Celeste.OuiJournal,Celeste.Oui,System.AsyncCallback,System.Object)
+  name: BeginInvoke(OuiJournal, Oui, AsyncCallback, Object)
+  href: api/Celeste.Mod.Everest.Events.Journal.EnterHandler.html#Celeste_Mod_Everest_Events_Journal_EnterHandler_BeginInvoke_Celeste_OuiJournal_Celeste_Oui_System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Everest.Events.Journal.EnterHandler.BeginInvoke(Celeste.OuiJournal,Celeste.Oui,System.AsyncCallback,System.Object)
+  fullName: Celeste.Mod.Everest.Events.Journal.EnterHandler.BeginInvoke(Celeste.OuiJournal, Celeste.Oui, System.AsyncCallback, System.Object)
+  nameWithType: Everest.Events.Journal.EnterHandler.BeginInvoke(OuiJournal, Oui, AsyncCallback, Object)
+- uid: Celeste.Mod.Everest.Events.Journal.EnterHandler.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Everest.Events.Journal.EnterHandler.html#Celeste_Mod_Everest_Events_Journal_EnterHandler_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Everest.Events.Journal.EnterHandler.BeginInvoke
+  fullName: Celeste.Mod.Everest.Events.Journal.EnterHandler.BeginInvoke
+  nameWithType: Everest.Events.Journal.EnterHandler.BeginInvoke
+- uid: Celeste.Mod.Everest.Events.Journal.EnterHandler.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Celeste.Mod.Everest.Events.Journal.EnterHandler.html#Celeste_Mod_Everest_Events_Journal_EnterHandler_EndInvoke_System_IAsyncResult_
+  commentId: M:Celeste.Mod.Everest.Events.Journal.EnterHandler.EndInvoke(System.IAsyncResult)
+  fullName: Celeste.Mod.Everest.Events.Journal.EnterHandler.EndInvoke(System.IAsyncResult)
+  nameWithType: Everest.Events.Journal.EnterHandler.EndInvoke(IAsyncResult)
+- uid: Celeste.Mod.Everest.Events.Journal.EnterHandler.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Everest.Events.Journal.EnterHandler.html#Celeste_Mod_Everest_Events_Journal_EnterHandler_EndInvoke_
+  commentId: Overload:Celeste.Mod.Everest.Events.Journal.EnterHandler.EndInvoke
+  fullName: Celeste.Mod.Everest.Events.Journal.EnterHandler.EndInvoke
+  nameWithType: Everest.Events.Journal.EnterHandler.EndInvoke
+- uid: Celeste.Mod.Everest.Events.Journal.EnterHandler.Invoke(Celeste.OuiJournal,Celeste.Oui)
+  name: Invoke(OuiJournal, Oui)
+  href: api/Celeste.Mod.Everest.Events.Journal.EnterHandler.html#Celeste_Mod_Everest_Events_Journal_EnterHandler_Invoke_Celeste_OuiJournal_Celeste_Oui_
+  commentId: M:Celeste.Mod.Everest.Events.Journal.EnterHandler.Invoke(Celeste.OuiJournal,Celeste.Oui)
+  fullName: Celeste.Mod.Everest.Events.Journal.EnterHandler.Invoke(Celeste.OuiJournal, Celeste.Oui)
+  nameWithType: Everest.Events.Journal.EnterHandler.Invoke(OuiJournal, Oui)
+- uid: Celeste.Mod.Everest.Events.Journal.EnterHandler.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Everest.Events.Journal.EnterHandler.html#Celeste_Mod_Everest_Events_Journal_EnterHandler_Invoke_
+  commentId: Overload:Celeste.Mod.Everest.Events.Journal.EnterHandler.Invoke
+  fullName: Celeste.Mod.Everest.Events.Journal.EnterHandler.Invoke
+  nameWithType: Everest.Events.Journal.EnterHandler.Invoke
+- uid: Celeste.Mod.Everest.Events.Journal.OnEnter
+  name: OnEnter
+  href: api/Celeste.Mod.Everest.Events.Journal.html#Celeste_Mod_Everest_Events_Journal_OnEnter
+  commentId: E:Celeste.Mod.Everest.Events.Journal.OnEnter
+  fullName: Celeste.Mod.Everest.Events.Journal.OnEnter
+  nameWithType: Everest.Events.Journal.OnEnter
 - uid: Celeste.Mod.Everest.Events.Level
   name: Everest.Events.Level
   href: api/Celeste.Mod.Everest.Events.Level.html
@@ -2263,6 +2341,78 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Events.Level.TransitionToHandler.Invoke
   fullName: Celeste.Mod.Everest.Events.Level.TransitionToHandler.Invoke
   nameWithType: Everest.Events.Level.TransitionToHandler.Invoke
+- uid: Celeste.Mod.Everest.Events.MainMenu
+  name: Everest.Events.MainMenu
+  href: api/Celeste.Mod.Everest.Events.MainMenu.html
+  commentId: T:Celeste.Mod.Everest.Events.MainMenu
+  fullName: Celeste.Mod.Everest.Events.MainMenu
+  nameWithType: Everest.Events.MainMenu
+- uid: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler
+  name: Everest.Events.MainMenu.CreateButtonsHandler
+  href: api/Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.html
+  commentId: T:Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler
+  fullName: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler
+  nameWithType: Everest.Events.MainMenu.CreateButtonsHandler
+- uid: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.#ctor(System.Object,System.IntPtr)
+  name: CreateButtonsHandler(Object, IntPtr)
+  href: api/Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_MainMenu_CreateButtonsHandler__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.CreateButtonsHandler(System.Object, System.IntPtr)
+  nameWithType: Everest.Events.MainMenu.CreateButtonsHandler.CreateButtonsHandler(Object, IntPtr)
+- uid: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.#ctor*
+  name: CreateButtonsHandler
+  href: api/Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_MainMenu_CreateButtonsHandler__ctor_
+  commentId: Overload:Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.#ctor
+  fullName: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.CreateButtonsHandler
+  nameWithType: Everest.Events.MainMenu.CreateButtonsHandler.CreateButtonsHandler
+- uid: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.BeginInvoke(Celeste.OuiMainMenu,System.Collections.Generic.List{Celeste.MenuButton},System.AsyncCallback,System.Object)
+  name: BeginInvoke(OuiMainMenu, List<MenuButton>, AsyncCallback, Object)
+  href: api/Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_MainMenu_CreateButtonsHandler_BeginInvoke_Celeste_OuiMainMenu_System_Collections_Generic_List_Celeste_MenuButton__System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.BeginInvoke(Celeste.OuiMainMenu,System.Collections.Generic.List{Celeste.MenuButton},System.AsyncCallback,System.Object)
+  name.vb: BeginInvoke(OuiMainMenu, List(Of MenuButton), AsyncCallback, Object)
+  fullName: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.BeginInvoke(Celeste.OuiMainMenu, System.Collections.Generic.List<Celeste.MenuButton>, System.AsyncCallback, System.Object)
+  fullName.vb: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.BeginInvoke(Celeste.OuiMainMenu, System.Collections.Generic.List(Of Celeste.MenuButton), System.AsyncCallback, System.Object)
+  nameWithType: Everest.Events.MainMenu.CreateButtonsHandler.BeginInvoke(OuiMainMenu, List<MenuButton>, AsyncCallback, Object)
+  nameWithType.vb: Everest.Events.MainMenu.CreateButtonsHandler.BeginInvoke(OuiMainMenu, List(Of MenuButton), AsyncCallback, Object)
+- uid: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_MainMenu_CreateButtonsHandler_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.BeginInvoke
+  fullName: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.BeginInvoke
+  nameWithType: Everest.Events.MainMenu.CreateButtonsHandler.BeginInvoke
+- uid: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_MainMenu_CreateButtonsHandler_EndInvoke_System_IAsyncResult_
+  commentId: M:Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.EndInvoke(System.IAsyncResult)
+  fullName: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.EndInvoke(System.IAsyncResult)
+  nameWithType: Everest.Events.MainMenu.CreateButtonsHandler.EndInvoke(IAsyncResult)
+- uid: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_MainMenu_CreateButtonsHandler_EndInvoke_
+  commentId: Overload:Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.EndInvoke
+  fullName: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.EndInvoke
+  nameWithType: Everest.Events.MainMenu.CreateButtonsHandler.EndInvoke
+- uid: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.Invoke(Celeste.OuiMainMenu,System.Collections.Generic.List{Celeste.MenuButton})
+  name: Invoke(OuiMainMenu, List<MenuButton>)
+  href: api/Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_MainMenu_CreateButtonsHandler_Invoke_Celeste_OuiMainMenu_System_Collections_Generic_List_Celeste_MenuButton__
+  commentId: M:Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.Invoke(Celeste.OuiMainMenu,System.Collections.Generic.List{Celeste.MenuButton})
+  name.vb: Invoke(OuiMainMenu, List(Of MenuButton))
+  fullName: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.Invoke(Celeste.OuiMainMenu, System.Collections.Generic.List<Celeste.MenuButton>)
+  fullName.vb: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.Invoke(Celeste.OuiMainMenu, System.Collections.Generic.List(Of Celeste.MenuButton))
+  nameWithType: Everest.Events.MainMenu.CreateButtonsHandler.Invoke(OuiMainMenu, List<MenuButton>)
+  nameWithType.vb: Everest.Events.MainMenu.CreateButtonsHandler.Invoke(OuiMainMenu, List(Of MenuButton))
+- uid: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_MainMenu_CreateButtonsHandler_Invoke_
+  commentId: Overload:Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.Invoke
+  fullName: Celeste.Mod.Everest.Events.MainMenu.CreateButtonsHandler.Invoke
+  nameWithType: Everest.Events.MainMenu.CreateButtonsHandler.Invoke
+- uid: Celeste.Mod.Everest.Events.MainMenu.OnCreateButtons
+  name: OnCreateButtons
+  href: api/Celeste.Mod.Everest.Events.MainMenu.html#Celeste_Mod_Everest_Events_MainMenu_OnCreateButtons
+  commentId: E:Celeste.Mod.Everest.Events.MainMenu.OnCreateButtons
+  fullName: Celeste.Mod.Everest.Events.MainMenu.OnCreateButtons
+  nameWithType: Everest.Events.MainMenu.OnCreateButtons
 - uid: Celeste.Mod.Everest.Events.OuiJournal
   name: Everest.Events.OuiJournal
   href: api/Celeste.Mod.Everest.Events.OuiJournal.html
@@ -2323,12 +2473,12 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Events.OuiJournal.EnterHandler.Invoke
   fullName: Celeste.Mod.Everest.Events.OuiJournal.EnterHandler.Invoke
   nameWithType: Everest.Events.OuiJournal.EnterHandler.Invoke
-- uid: Celeste.Mod.Everest.Events.OuiJournal.OnEnter
-  name: OnEnter
-  href: api/Celeste.Mod.Everest.Events.OuiJournal.html#Celeste_Mod_Everest_Events_OuiJournal_OnEnter
-  commentId: E:Celeste.Mod.Everest.Events.OuiJournal.OnEnter
-  fullName: Celeste.Mod.Everest.Events.OuiJournal.OnEnter
-  nameWithType: Everest.Events.OuiJournal.OnEnter
+- uid: Celeste.Mod.Everest.Events.OuiJournal.OnCreateButtons
+  name: OnCreateButtons
+  href: api/Celeste.Mod.Everest.Events.OuiJournal.html#Celeste_Mod_Everest_Events_OuiJournal_OnCreateButtons
+  commentId: E:Celeste.Mod.Everest.Events.OuiJournal.OnCreateButtons
+  fullName: Celeste.Mod.Everest.Events.OuiJournal.OnCreateButtons
+  nameWithType: Everest.Events.OuiJournal.OnCreateButtons
 - uid: Celeste.Mod.Everest.Events.OuiMainMenu
   name: Everest.Events.OuiMainMenu
   href: api/Celeste.Mod.Everest.Events.OuiMainMenu.html
@@ -7381,6 +7531,72 @@ references:
   commentId: Overload:Celeste.Mod.UI.OuiModOptionString.Value
   fullName: Celeste.Mod.UI.OuiModOptionString.Value
   nameWithType: OuiModOptionString.Value
+- uid: Celeste.Mod.UI.OuiSoundTest
+  name: OuiSoundTest
+  href: api/Celeste.Mod.UI.OuiSoundTest.html
+  commentId: T:Celeste.Mod.UI.OuiSoundTest
+  fullName: Celeste.Mod.UI.OuiSoundTest
+  nameWithType: OuiSoundTest
+- uid: Celeste.Mod.UI.OuiSoundTest.#ctor
+  name: OuiSoundTest()
+  href: api/Celeste.Mod.UI.OuiSoundTest.html#Celeste_Mod_UI_OuiSoundTest__ctor
+  commentId: M:Celeste.Mod.UI.OuiSoundTest.#ctor
+  fullName: Celeste.Mod.UI.OuiSoundTest.OuiSoundTest()
+  nameWithType: OuiSoundTest.OuiSoundTest()
+- uid: Celeste.Mod.UI.OuiSoundTest.#ctor*
+  name: OuiSoundTest
+  href: api/Celeste.Mod.UI.OuiSoundTest.html#Celeste_Mod_UI_OuiSoundTest__ctor_
+  commentId: Overload:Celeste.Mod.UI.OuiSoundTest.#ctor
+  fullName: Celeste.Mod.UI.OuiSoundTest.OuiSoundTest
+  nameWithType: OuiSoundTest.OuiSoundTest
+- uid: Celeste.Mod.UI.OuiSoundTest.Enter(Celeste.Oui)
+  name: Enter(Oui)
+  href: api/Celeste.Mod.UI.OuiSoundTest.html#Celeste_Mod_UI_OuiSoundTest_Enter_Celeste_Oui_
+  commentId: M:Celeste.Mod.UI.OuiSoundTest.Enter(Celeste.Oui)
+  fullName: Celeste.Mod.UI.OuiSoundTest.Enter(Celeste.Oui)
+  nameWithType: OuiSoundTest.Enter(Oui)
+- uid: Celeste.Mod.UI.OuiSoundTest.Enter*
+  name: Enter
+  href: api/Celeste.Mod.UI.OuiSoundTest.html#Celeste_Mod_UI_OuiSoundTest_Enter_
+  commentId: Overload:Celeste.Mod.UI.OuiSoundTest.Enter
+  fullName: Celeste.Mod.UI.OuiSoundTest.Enter
+  nameWithType: OuiSoundTest.Enter
+- uid: Celeste.Mod.UI.OuiSoundTest.Leave(Celeste.Oui)
+  name: Leave(Oui)
+  href: api/Celeste.Mod.UI.OuiSoundTest.html#Celeste_Mod_UI_OuiSoundTest_Leave_Celeste_Oui_
+  commentId: M:Celeste.Mod.UI.OuiSoundTest.Leave(Celeste.Oui)
+  fullName: Celeste.Mod.UI.OuiSoundTest.Leave(Celeste.Oui)
+  nameWithType: OuiSoundTest.Leave(Oui)
+- uid: Celeste.Mod.UI.OuiSoundTest.Leave*
+  name: Leave
+  href: api/Celeste.Mod.UI.OuiSoundTest.html#Celeste_Mod_UI_OuiSoundTest_Leave_
+  commentId: Overload:Celeste.Mod.UI.OuiSoundTest.Leave
+  fullName: Celeste.Mod.UI.OuiSoundTest.Leave
+  nameWithType: OuiSoundTest.Leave
+- uid: Celeste.Mod.UI.OuiSoundTest.Render
+  name: Render()
+  href: api/Celeste.Mod.UI.OuiSoundTest.html#Celeste_Mod_UI_OuiSoundTest_Render
+  commentId: M:Celeste.Mod.UI.OuiSoundTest.Render
+  fullName: Celeste.Mod.UI.OuiSoundTest.Render()
+  nameWithType: OuiSoundTest.Render()
+- uid: Celeste.Mod.UI.OuiSoundTest.Render*
+  name: Render
+  href: api/Celeste.Mod.UI.OuiSoundTest.html#Celeste_Mod_UI_OuiSoundTest_Render_
+  commentId: Overload:Celeste.Mod.UI.OuiSoundTest.Render
+  fullName: Celeste.Mod.UI.OuiSoundTest.Render
+  nameWithType: OuiSoundTest.Render
+- uid: Celeste.Mod.UI.OuiSoundTest.Update
+  name: Update()
+  href: api/Celeste.Mod.UI.OuiSoundTest.html#Celeste_Mod_UI_OuiSoundTest_Update
+  commentId: M:Celeste.Mod.UI.OuiSoundTest.Update
+  fullName: Celeste.Mod.UI.OuiSoundTest.Update()
+  nameWithType: OuiSoundTest.Update()
+- uid: Celeste.Mod.UI.OuiSoundTest.Update*
+  name: Update
+  href: api/Celeste.Mod.UI.OuiSoundTest.html#Celeste_Mod_UI_OuiSoundTest_Update_
+  commentId: Overload:Celeste.Mod.UI.OuiSoundTest.Update
+  fullName: Celeste.Mod.UI.OuiSoundTest.Update
+  nameWithType: OuiSoundTest.Update
 - uid: Celeste.Mod.UI.OuiVersionList
   name: OuiVersionList
   href: api/Celeste.Mod.UI.OuiVersionList.html
@@ -7984,6 +8200,24 @@ references:
   commentId: Overload:Celeste.OuiChapterSelectIconExt.IsHidden
   fullName: Celeste.OuiChapterSelectIconExt.IsHidden
   nameWithType: OuiChapterSelectIconExt.IsHidden
+- uid: Celeste.OuiMainMenuExt
+  name: OuiMainMenuExt
+  href: api/Celeste.OuiMainMenuExt.html
+  commentId: T:Celeste.OuiMainMenuExt
+  fullName: Celeste.OuiMainMenuExt
+  nameWithType: OuiMainMenuExt
+- uid: Celeste.OuiMainMenuExt.GetButtons(Celeste.OuiMainMenu)
+  name: GetButtons(OuiMainMenu)
+  href: api/Celeste.OuiMainMenuExt.html#Celeste_OuiMainMenuExt_GetButtons_Celeste_OuiMainMenu_
+  commentId: M:Celeste.OuiMainMenuExt.GetButtons(Celeste.OuiMainMenu)
+  fullName: Celeste.OuiMainMenuExt.GetButtons(Celeste.OuiMainMenu)
+  nameWithType: OuiMainMenuExt.GetButtons(OuiMainMenu)
+- uid: Celeste.OuiMainMenuExt.GetButtons*
+  name: GetButtons
+  href: api/Celeste.OuiMainMenuExt.html#Celeste_OuiMainMenuExt_GetButtons_
+  commentId: Overload:Celeste.OuiMainMenuExt.GetButtons
+  fullName: Celeste.OuiMainMenuExt.GetButtons
+  nameWithType: OuiMainMenuExt.GetButtons
 - uid: Celeste.PlayerExt
   name: PlayerExt
   href: api/Celeste.PlayerExt.html
