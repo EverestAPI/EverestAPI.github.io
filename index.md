@@ -29,10 +29,8 @@ If you've got any issues with Everest, we're in the #game_modding channel of thi
 - For developers: If you want to build your own version of Everest, go to [Building Everest](#building-everest).
 - If you've **previously installed Everest and updated Celeste** or switched betas / branches, delete the `orig` directory where Celeste is installed.
     - macOS: Open the Celeste app in Finder, then naviagte to `Contents`, then `MacOS`.
-- [**Download the latest `Everest.zip` on Nexus Mods**](https://www.nexusmods.com/celeste/mods/1?tab=files)
-    - If you want to use Everest without any issues, use the [latest stable version on Nexus Mods](https://www.nexusmods.com/celeste/mods/1?tab=files).
-    - If you want to help testing the newest updates _and are okay with bugs_, download the latest [`build-XYZ.zip` Travis devbuild](https://ams3.digitaloceanspaces.com/lollyde/index.html).
-- Extract `Everest.zip` to where Celeste is installed. `Celeste.Mod.mm.dll` should be right next to `Celeste.exe`
+- [Download the latest `build-*-stable.zip` autobuild](https://ams3.digitaloceanspaces.com/lollyde/index.html)
+- Extract the `.zip` to where Celeste is installed. `Celeste.Mod.mm.dll` should be right next to `Celeste.exe`
     - macOS: Open the Celeste app in Finder, then naviagte to `Contents`, then `MacOS`.
 - Run `MiniInstaller.exe`
     - Linux / macOS: [Install the mono runtime](https://www.mono-project.com/download/stable/), open a terminal window where Celeste is and run `mono MiniInstaller.exe`
