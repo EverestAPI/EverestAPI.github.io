@@ -146,18 +146,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Celeste.Mod.ANotification.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Celeste.Mod.ANotification.html",
-          "hash": "Z6nNrQ76CmRkhi4Dv6F73w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Celeste.Mod.ATouchRegion.yml",
       "output": {
         ".html": {
@@ -318,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Core.CoreModuleSettings.html",
-          "hash": "w+KUb+IrCY2zJTMYUM0FNw=="
+          "hash": "hYodLftljGW2COfXYvjf6Q=="
         }
       },
       "is_incremental": false,
@@ -331,6 +319,18 @@
         ".html": {
           "relative_path": "api/Celeste.Mod.Core.html",
           "hash": "oeEUZcm80kaHsqwGOn1Ftw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Emoji.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Emoji.html",
+          "hash": "Bdv5c3fp2LtctWNEOnlOvQ=="
         }
       },
       "is_incremental": false,
@@ -403,6 +403,18 @@
         ".html": {
           "relative_path": "api/Celeste.Mod.Everest.Content.html",
           "hash": "ecHZzUNVFVN2+/Bbcs2HyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.Discord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.Discord.html",
+          "hash": "yfwvvu0fHPLyHazkdr+YpA=="
         }
       },
       "is_incremental": false,
@@ -794,6 +806,222 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.html",
+          "hash": "vM3ad/VomHySyn6aVCMWGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.DiscordUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.DiscordUser.html",
+          "hash": "rQvmWidTupIziKmVyWznfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.html",
+          "hash": "7KF2jlbxMiMPWX4svAt5dQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.html",
+          "hash": "XzOsB7c/DOyX+/q6vaE3pA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.html",
+          "hash": "8I92XRmdpvmkl/WI+YVl+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.html",
+          "hash": "KdW8BuQWJN7lMdNkSJpSTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.html",
+          "hash": "bLfbJjTrQtwivkERSxYCWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.html",
+          "hash": "fme8EQIJ9DXvJ7Km9UoFTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.html",
+          "hash": "4POKIkvJnWhrj8esMUa1ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.EventHandlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.EventHandlers.html",
+          "hash": "NfHXUAVk8PkbICGy+tKoig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.JoinCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.JoinCallback.html",
+          "hash": "2OqcPx7glsC3KixE5N2jzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.html",
+          "hash": "XOYM8Ct2Ypjn04+0lAPXdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.Reply.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.Reply.html",
+          "hash": "oqk4as6n/dIBkCxmsIeqKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.RequestCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.RequestCallback.html",
+          "hash": "FS1M7RpnEixcmrcOvOHl3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html",
+          "hash": "x4pxTbztbBtusZZF1CO4MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html",
+          "hash": "+TMR+tTaG2S+eMSFWvqCqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.html",
+          "hash": "1JDg/UnKIQkBT+qV28kzDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Helpers.DiscordRpc.html",
+          "hash": "6kMp7gF0un8cxky/f9LS5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Celeste.Mod.Helpers.FakeAssembly.yml",
       "output": {
         ".html": {
@@ -846,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Helpers.html",
-          "hash": "hz029mU1mQClMWCe3FSTmA=="
+          "hash": "iCGP0Os8STIrlyroPiwB9Q=="
         }
       },
       "is_incremental": false,
@@ -1082,30 +1310,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Celeste.Mod.Notification.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Celeste.Mod.Notification.html",
-          "hash": "iFYfJbktOL5waCnQuCOv1w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Celeste.Mod.NotificationManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Celeste.Mod.NotificationManager.html",
-          "hash": "rXCGe6aBrGsybWtsHuZftA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Celeste.Mod.RelinkerSymbolReaderProvider.yml",
       "output": {
         ".html": {
@@ -1326,7 +1530,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.UI.OuiModOptionString.html",
-          "hash": "FylzM6gqQ2PdsmasNWqzdw=="
+          "hash": "z8gHZfRXtEdS3VU/OhNiBQ=="
         }
       },
       "is_incremental": false,
@@ -1470,7 +1674,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.html",
-          "hash": "LIQapuk714PjMQMCroO05Q=="
+          "hash": "dXOsIRP2tb9r1dSFcK4O2g=="
         }
       },
       "is_incremental": false,
@@ -1722,7 +1926,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "8tLiRuKuYFwsWLdJYHQnyw=="
+          "hash": "wCHYXg2WckNEBLjlV/nDDg=="
         }
       },
       "is_incremental": false,
@@ -1893,7 +2097,7 @@
       "output": {
         ".html": {
           "relative_path": "tutorials/firstcodemod.html",
-          "hash": "SeyBzNEGd/pzuWaHZyURYA=="
+          "hash": "N3SWqg4azFktHW1G3/Dwkw=="
         }
       },
       "is_incremental": false,
@@ -1943,17 +2147,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "TocDocumentProcessor": {

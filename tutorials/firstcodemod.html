@@ -92,10 +92,12 @@
 <p>
 <li>Everest: <a href="/">Website</a></li>
 <li>Visual Studio 2015 or newer. MonoDevelop instructions are different.</li>
-<li>NuGet, both for CLI and VS: <a href="https://www.nuget.org/downloads">Downloads</a>
+<li>NuGet, either for your IDE, or CLI.
     <ul>
-        <li>Mono already ships with the <code>nuget</code> command-line command.</li>
-        <li>Make sure that <code>nuget.exe</code> is in a directory on your PATH. If you&#39;re on Windows and lazy, drop it in System32 <strong>at your own risk.</strong></li>
+        <li>Visual Studio 2017: Included</li>
+        <li>Visual Studio 2015: <a href="https://dist.nuget.org/visualstudio-2015-vsix/latest/NuGet.Tools.vsix">Download NuGet.Tools.vsix</a></li>
+        <li>Linux / macOS: CLI version included with Mono.</li>
+        <li>Windows: <a href="https://dist.nuget.org/win-x86-commandline/latest/nuget.exe">Download nuget.exe</a></li>
     </ul>
 </li>
 <li><em>Optional:</em> git, either <a href="https://git-scm.com/downloads">CLI</a> or GUI client (f.e. <a href="https://desktop.github.com/">GitHub Desktop</a>)</li>
@@ -118,12 +120,10 @@
 <h2 id="adding-everest-and-celeste">Adding Everest and Celeste</h2>
 <p>Now that you&#39;ve created a new, empty project, it&#39;s time to add the Everest API.</p>
 <h3 id="adding-everest-files">Adding Everest files</h3>
-<p>If your new project is a git repository, add Everest as a submodule.<br>CLI command:</p>
+<p>If your new project is a git repository, add Everest as a submodule.</p>
 <pre><code>git submodule add https://github.com/EverestAPI/Everest.git
 </code></pre><p>Otherwise, download the Everest source code .zip (<a href="https://github.com/EverestAPI/Everest/archive/master.zip">master</a>, <a href="https://github.com/EverestAPI/Everest/archive/stable.zip">stable</a>) and place it as <code>Everest</code> in your project directory.</p>
-<p>After adding Everest, open a terminal (cmd, bash) in the Everest directory and execute the following command:</p>
-<pre><code>nuget restore Everest.sln
-</code></pre><p>The file layout should look similar to this:</p>
+<p>The file layout should look similar to this:</p>
 <p><img src="/images/firstcodemod/2-everestdir.png" alt="2-everestdir"></p>
 <h3 id="adding-everest-project">Adding Everest project</h3>
 <p>In Visual Studio, right-click the <em>solution</em> and add the existing Everest project.</p>
@@ -132,6 +132,8 @@
 <p>Afterwards, right-click on Celeste.Mod.mm and build it.</p>
 <p>Everest (Celeste.Mod.mm) should now exist as a project in your solution like this:</p>
 <p><img src="/images/firstcodemod/4-addedeverestproj.png" alt="4-addedeverestproj"></p>
+<div class="NOTE"><h5>Note</h5><p>If the compiler complains about the nuget packages not being found, right-click the references, select &quot;Manage NuGet packages...&quot; and restore them.</p>
+</div>
 <h3 id="adding-references">Adding References</h3>
 <p><strong>Everest comes with most of its dependencies in the <code>lib</code> and <code>lib-stripped</code> subdirectories.</strong></p>
 <ul>

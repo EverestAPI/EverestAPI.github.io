@@ -577,90 +577,6 @@ references:
   commentId: N:Celeste.Mod
   fullName: Celeste.Mod
   nameWithType: Celeste.Mod
-- uid: Celeste.Mod.ANotification
-  name: ANotification
-  href: api/Celeste.Mod.ANotification.html
-  commentId: T:Celeste.Mod.ANotification
-  fullName: Celeste.Mod.ANotification
-  nameWithType: ANotification
-- uid: Celeste.Mod.ANotification.#ctor
-  name: ANotification()
-  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification__ctor
-  commentId: M:Celeste.Mod.ANotification.#ctor
-  fullName: Celeste.Mod.ANotification.ANotification()
-  nameWithType: ANotification.ANotification()
-- uid: Celeste.Mod.ANotification.#ctor*
-  name: ANotification
-  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification__ctor_
-  commentId: Overload:Celeste.Mod.ANotification.#ctor
-  fullName: Celeste.Mod.ANotification.ANotification
-  nameWithType: ANotification.ANotification
-- uid: Celeste.Mod.ANotification.Dispose
-  name: Dispose()
-  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Dispose
-  commentId: M:Celeste.Mod.ANotification.Dispose
-  fullName: Celeste.Mod.ANotification.Dispose()
-  nameWithType: ANotification.Dispose()
-- uid: Celeste.Mod.ANotification.Dispose(System.Boolean)
-  name: Dispose(Boolean)
-  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Dispose_System_Boolean_
-  commentId: M:Celeste.Mod.ANotification.Dispose(System.Boolean)
-  fullName: Celeste.Mod.ANotification.Dispose(System.Boolean)
-  nameWithType: ANotification.Dispose(Boolean)
-- uid: Celeste.Mod.ANotification.Dispose*
-  name: Dispose
-  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Dispose_
-  commentId: Overload:Celeste.Mod.ANotification.Dispose
-  fullName: Celeste.Mod.ANotification.Dispose
-  nameWithType: ANotification.Dispose
-- uid: Celeste.Mod.ANotification.Draw
-  name: Draw()
-  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Draw
-  commentId: M:Celeste.Mod.ANotification.Draw
-  fullName: Celeste.Mod.ANotification.Draw()
-  nameWithType: ANotification.Draw()
-- uid: Celeste.Mod.ANotification.Draw*
-  name: Draw
-  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Draw_
-  commentId: Overload:Celeste.Mod.ANotification.Draw
-  fullName: Celeste.Mod.ANotification.Draw
-  nameWithType: ANotification.Draw
-- uid: Celeste.Mod.ANotification.Duration
-  name: Duration
-  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Duration
-  commentId: F:Celeste.Mod.ANotification.Duration
-  fullName: Celeste.Mod.ANotification.Duration
-  nameWithType: ANotification.Duration
-- uid: Celeste.Mod.ANotification.Position
-  name: Position
-  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Position
-  commentId: F:Celeste.Mod.ANotification.Position
-  fullName: Celeste.Mod.ANotification.Position
-  nameWithType: ANotification.Position
-- uid: Celeste.Mod.ANotification.Size
-  name: Size
-  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Size
-  commentId: F:Celeste.Mod.ANotification.Size
-  fullName: Celeste.Mod.ANotification.Size
-  nameWithType: ANotification.Size
-- uid: Celeste.Mod.ANotification.Time
-  name: Time
-  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Time
-  commentId: F:Celeste.Mod.ANotification.Time
-  fullName: Celeste.Mod.ANotification.Time
-  nameWithType: ANotification.Time
-- uid: Celeste.Mod.ANotification.Update
-  name: Update()
-  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Update
-  commentId: M:Celeste.Mod.ANotification.Update
-  fullName: Celeste.Mod.ANotification.Update()
-  nameWithType: ANotification.Update()
-- uid: Celeste.Mod.ANotification.Update*
-  name: Update
-  href: api/Celeste.Mod.ANotification.html#Celeste_Mod_ANotification_Update_
-  commentId: Overload:Celeste.Mod.ANotification.Update
-  fullName: Celeste.Mod.ANotification.Update
-  nameWithType: ANotification.Update
 - uid: Celeste.Mod.AssetTypeAssembly
   name: AssetTypeAssembly
   href: api/Celeste.Mod.AssetTypeAssembly.html
@@ -1156,6 +1072,30 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdate
   fullName: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdate
   nameWithType: CoreModuleSettings.CreateLaunchWithFMODLiveUpdate
+- uid: Celeste.Mod.Core.CoreModuleSettings.DiscordID
+  name: DiscordID
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DiscordID
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.DiscordID
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DiscordID
+  nameWithType: CoreModuleSettings.DiscordID
+- uid: Celeste.Mod.Core.CoreModuleSettings.DiscordID*
+  name: DiscordID
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DiscordID_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.DiscordID
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DiscordID
+  nameWithType: CoreModuleSettings.DiscordID
+- uid: Celeste.Mod.Core.CoreModuleSettings.DiscordLib
+  name: DiscordLib
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DiscordLib
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.DiscordLib
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DiscordLib
+  nameWithType: CoreModuleSettings.DiscordLib
+- uid: Celeste.Mod.Core.CoreModuleSettings.DiscordLib*
+  name: DiscordLib
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DiscordLib_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.DiscordLib
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DiscordLib
+  nameWithType: CoreModuleSettings.DiscordLib
 - uid: Celeste.Mod.Core.CoreModuleSettings.InputGui
   name: InputGui
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_InputGui
@@ -1240,6 +1180,123 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.NonThreadedGL
   fullName: Celeste.Mod.Core.CoreModuleSettings.NonThreadedGL
   nameWithType: CoreModuleSettings.NonThreadedGL
+- uid: Celeste.Mod.Emoji
+  name: Emoji
+  href: api/Celeste.Mod.Emoji.html
+  commentId: T:Celeste.Mod.Emoji
+  fullName: Celeste.Mod.Emoji
+  nameWithType: Emoji
+- uid: Celeste.Mod.Emoji.Apply(System.String)
+  name: Apply(String)
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_Apply_System_String_
+  commentId: M:Celeste.Mod.Emoji.Apply(System.String)
+  fullName: Celeste.Mod.Emoji.Apply(System.String)
+  nameWithType: Emoji.Apply(String)
+- uid: Celeste.Mod.Emoji.Apply*
+  name: Apply
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_Apply_
+  commentId: Overload:Celeste.Mod.Emoji.Apply
+  fullName: Celeste.Mod.Emoji.Apply
+  nameWithType: Emoji.Apply
+- uid: Celeste.Mod.Emoji.End
+  name: End
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_End
+  commentId: F:Celeste.Mod.Emoji.End
+  fullName: Celeste.Mod.Emoji.End
+  nameWithType: Emoji.End
+- uid: Celeste.Mod.Emoji.FakeXML
+  name: FakeXML
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_FakeXML
+  commentId: P:Celeste.Mod.Emoji.FakeXML
+  fullName: Celeste.Mod.Emoji.FakeXML
+  nameWithType: Emoji.FakeXML
+- uid: Celeste.Mod.Emoji.FakeXML*
+  name: FakeXML
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_FakeXML_
+  commentId: Overload:Celeste.Mod.Emoji.FakeXML
+  fullName: Celeste.Mod.Emoji.FakeXML
+  nameWithType: Emoji.FakeXML
+- uid: Celeste.Mod.Emoji.Get(System.String)
+  name: Get(String)
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_Get_System_String_
+  commentId: M:Celeste.Mod.Emoji.Get(System.String)
+  fullName: Celeste.Mod.Emoji.Get(System.String)
+  nameWithType: Emoji.Get(String)
+- uid: Celeste.Mod.Emoji.Get*
+  name: Get
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_Get_
+  commentId: Overload:Celeste.Mod.Emoji.Get
+  fullName: Celeste.Mod.Emoji.Get
+  nameWithType: Emoji.Get
+- uid: Celeste.Mod.Emoji.IsMonochrome(System.Char)
+  name: IsMonochrome(Char)
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_IsMonochrome_System_Char_
+  commentId: M:Celeste.Mod.Emoji.IsMonochrome(System.Char)
+  fullName: Celeste.Mod.Emoji.IsMonochrome(System.Char)
+  nameWithType: Emoji.IsMonochrome(Char)
+- uid: Celeste.Mod.Emoji.IsMonochrome*
+  name: IsMonochrome
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_IsMonochrome_
+  commentId: Overload:Celeste.Mod.Emoji.IsMonochrome
+  fullName: Celeste.Mod.Emoji.IsMonochrome
+  nameWithType: Emoji.IsMonochrome
+- uid: Celeste.Mod.Emoji.Last
+  name: Last
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_Last
+  commentId: P:Celeste.Mod.Emoji.Last
+  fullName: Celeste.Mod.Emoji.Last
+  nameWithType: Emoji.Last
+- uid: Celeste.Mod.Emoji.Last*
+  name: Last
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_Last_
+  commentId: Overload:Celeste.Mod.Emoji.Last
+  fullName: Celeste.Mod.Emoji.Last
+  nameWithType: Emoji.Last
+- uid: Celeste.Mod.Emoji.Register(System.String,Monocle.MTexture)
+  name: Register(String, MTexture)
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_Register_System_String_Monocle_MTexture_
+  commentId: M:Celeste.Mod.Emoji.Register(System.String,Monocle.MTexture)
+  fullName: Celeste.Mod.Emoji.Register(System.String, Monocle.MTexture)
+  nameWithType: Emoji.Register(String, MTexture)
+- uid: Celeste.Mod.Emoji.Register*
+  name: Register
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_Register_
+  commentId: Overload:Celeste.Mod.Emoji.Register
+  fullName: Celeste.Mod.Emoji.Register
+  nameWithType: Emoji.Register
+- uid: Celeste.Mod.Emoji.Registered
+  name: Registered
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_Registered
+  commentId: P:Celeste.Mod.Emoji.Registered
+  fullName: Celeste.Mod.Emoji.Registered
+  nameWithType: Emoji.Registered
+- uid: Celeste.Mod.Emoji.Registered*
+  name: Registered
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_Registered_
+  commentId: Overload:Celeste.Mod.Emoji.Registered
+  fullName: Celeste.Mod.Emoji.Registered
+  nameWithType: Emoji.Registered
+- uid: Celeste.Mod.Emoji.Start
+  name: Start
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_Start
+  commentId: F:Celeste.Mod.Emoji.Start
+  fullName: Celeste.Mod.Emoji.Start
+  nameWithType: Emoji.Start
+- uid: Celeste.Mod.Emoji.TryGet(System.String,System.Char@)
+  name: TryGet(String, out Char)
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_TryGet_System_String_System_Char__
+  commentId: M:Celeste.Mod.Emoji.TryGet(System.String,System.Char@)
+  name.vb: TryGet(String, ByRef Char)
+  fullName: Celeste.Mod.Emoji.TryGet(System.String, out System.Char)
+  fullName.vb: Celeste.Mod.Emoji.TryGet(System.String, ByRef System.Char)
+  nameWithType: Emoji.TryGet(String, out Char)
+  nameWithType.vb: Emoji.TryGet(String, ByRef Char)
+- uid: Celeste.Mod.Emoji.TryGet*
+  name: TryGet
+  href: api/Celeste.Mod.Emoji.html#Celeste_Mod_Emoji_TryGet_
+  commentId: Overload:Celeste.Mod.Emoji.TryGet
+  fullName: Celeste.Mod.Emoji.TryGet
+  nameWithType: Emoji.TryGet
 - uid: Celeste.Mod.Entities
   name: Celeste.Mod.Entities
   href: api/Celeste.Mod.Entities.html
@@ -1747,6 +1804,54 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Content.TryGetDialogs
   fullName: Celeste.Mod.Everest.Content.TryGetDialogs
   nameWithType: Everest.Content.TryGetDialogs
+- uid: Celeste.Mod.Everest.Discord
+  name: Everest.Discord
+  href: api/Celeste.Mod.Everest.Discord.html
+  commentId: T:Celeste.Mod.Everest.Discord
+  fullName: Celeste.Mod.Everest.Discord
+  nameWithType: Everest.Discord
+- uid: Celeste.Mod.Everest.Discord.DateTimeToDiscordTime(System.DateTime)
+  name: DateTimeToDiscordTime(DateTime)
+  href: api/Celeste.Mod.Everest.Discord.html#Celeste_Mod_Everest_Discord_DateTimeToDiscordTime_System_DateTime_
+  commentId: M:Celeste.Mod.Everest.Discord.DateTimeToDiscordTime(System.DateTime)
+  fullName: Celeste.Mod.Everest.Discord.DateTimeToDiscordTime(System.DateTime)
+  nameWithType: Everest.Discord.DateTimeToDiscordTime(DateTime)
+- uid: Celeste.Mod.Everest.Discord.DateTimeToDiscordTime*
+  name: DateTimeToDiscordTime
+  href: api/Celeste.Mod.Everest.Discord.html#Celeste_Mod_Everest_Discord_DateTimeToDiscordTime_
+  commentId: Overload:Celeste.Mod.Everest.Discord.DateTimeToDiscordTime
+  fullName: Celeste.Mod.Everest.Discord.DateTimeToDiscordTime
+  nameWithType: Everest.Discord.DateTimeToDiscordTime
+- uid: Celeste.Mod.Everest.Discord.DiscordPresence
+  name: DiscordPresence
+  href: api/Celeste.Mod.Everest.Discord.html#Celeste_Mod_Everest_Discord_DiscordPresence
+  commentId: F:Celeste.Mod.Everest.Discord.DiscordPresence
+  fullName: Celeste.Mod.Everest.Discord.DiscordPresence
+  nameWithType: Everest.Discord.DiscordPresence
+- uid: Celeste.Mod.Everest.Discord.Initialize
+  name: Initialize()
+  href: api/Celeste.Mod.Everest.Discord.html#Celeste_Mod_Everest_Discord_Initialize
+  commentId: M:Celeste.Mod.Everest.Discord.Initialize
+  fullName: Celeste.Mod.Everest.Discord.Initialize()
+  nameWithType: Everest.Discord.Initialize()
+- uid: Celeste.Mod.Everest.Discord.Initialize*
+  name: Initialize
+  href: api/Celeste.Mod.Everest.Discord.html#Celeste_Mod_Everest_Discord_Initialize_
+  commentId: Overload:Celeste.Mod.Everest.Discord.Initialize
+  fullName: Celeste.Mod.Everest.Discord.Initialize
+  nameWithType: Everest.Discord.Initialize
+- uid: Celeste.Mod.Everest.Discord.UpdateText(System.String,System.String,Celeste.Session)
+  name: UpdateText(String, String, Session)
+  href: api/Celeste.Mod.Everest.Discord.html#Celeste_Mod_Everest_Discord_UpdateText_System_String_System_String_Celeste_Session_
+  commentId: M:Celeste.Mod.Everest.Discord.UpdateText(System.String,System.String,Celeste.Session)
+  fullName: Celeste.Mod.Everest.Discord.UpdateText(System.String, System.String, Celeste.Session)
+  nameWithType: Everest.Discord.UpdateText(String, String, Session)
+- uid: Celeste.Mod.Everest.Discord.UpdateText*
+  name: UpdateText
+  href: api/Celeste.Mod.Everest.Discord.html#Celeste_Mod_Everest_Discord_UpdateText_
+  commentId: Overload:Celeste.Mod.Everest.Discord.UpdateText
+  fullName: Celeste.Mod.Everest.Discord.UpdateText
+  nameWithType: Everest.Discord.UpdateText
 - uid: Celeste.Mod.Everest.Events
   name: Everest.Events
   href: api/Celeste.Mod.Everest.Events.html
@@ -3838,6 +3943,1056 @@ references:
   commentId: N:Celeste.Mod.Helpers
   fullName: Celeste.Mod.Helpers
   nameWithType: Celeste.Mod.Helpers
+- uid: Celeste.Mod.Helpers.DiscordRpc
+  name: DiscordRpc
+  href: api/Celeste.Mod.Helpers.DiscordRpc.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc
+  fullName: Celeste.Mod.Helpers.DiscordRpc
+  nameWithType: DiscordRpc
+- uid: Celeste.Mod.Helpers.DiscordRpc.#ctor
+  name: DiscordRpc()
+  href: api/Celeste.Mod.Helpers.DiscordRpc.html#Celeste_Mod_Helpers_DiscordRpc__ctor
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DiscordRpc()
+  nameWithType: DiscordRpc.DiscordRpc()
+- uid: Celeste.Mod.Helpers.DiscordRpc.#ctor*
+  name: DiscordRpc
+  href: api/Celeste.Mod.Helpers.DiscordRpc.html#Celeste_Mod_Helpers_DiscordRpc__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DiscordRpc
+  nameWithType: DiscordRpc.DiscordRpc
+- uid: Celeste.Mod.Helpers.DiscordRpc.ClearPresence
+  name: ClearPresence
+  href: api/Celeste.Mod.Helpers.DiscordRpc.html#Celeste_Mod_Helpers_DiscordRpc_ClearPresence
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.ClearPresence
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ClearPresence
+  nameWithType: DiscordRpc.ClearPresence
+- uid: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback
+  name: DiscordRpc.DisconnectedCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback
+  nameWithType: DiscordRpc.DisconnectedCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.#ctor(System.Object,System.IntPtr)
+  name: DisconnectedCallback(Object, IntPtr)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.html#Celeste_Mod_Helpers_DiscordRpc_DisconnectedCallback__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.DisconnectedCallback(System.Object, System.IntPtr)
+  nameWithType: DiscordRpc.DisconnectedCallback.DisconnectedCallback(Object, IntPtr)
+- uid: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.#ctor*
+  name: DisconnectedCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.html#Celeste_Mod_Helpers_DiscordRpc_DisconnectedCallback__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.DisconnectedCallback
+  nameWithType: DiscordRpc.DisconnectedCallback.DisconnectedCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.BeginInvoke(System.Int32,System.String,System.AsyncCallback,System.Object)
+  name: BeginInvoke(Int32, String, AsyncCallback, Object)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.html#Celeste_Mod_Helpers_DiscordRpc_DisconnectedCallback_BeginInvoke_System_Int32_System_String_System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.BeginInvoke(System.Int32,System.String,System.AsyncCallback,System.Object)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.BeginInvoke(System.Int32, System.String, System.AsyncCallback, System.Object)
+  nameWithType: DiscordRpc.DisconnectedCallback.BeginInvoke(Int32, String, AsyncCallback, Object)
+- uid: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.html#Celeste_Mod_Helpers_DiscordRpc_DisconnectedCallback_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.BeginInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.BeginInvoke
+  nameWithType: DiscordRpc.DisconnectedCallback.BeginInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.html#Celeste_Mod_Helpers_DiscordRpc_DisconnectedCallback_EndInvoke_System_IAsyncResult_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.EndInvoke(System.IAsyncResult)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.EndInvoke(System.IAsyncResult)
+  nameWithType: DiscordRpc.DisconnectedCallback.EndInvoke(IAsyncResult)
+- uid: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.html#Celeste_Mod_Helpers_DiscordRpc_DisconnectedCallback_EndInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.EndInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.EndInvoke
+  nameWithType: DiscordRpc.DisconnectedCallback.EndInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.Invoke(System.Int32,System.String)
+  name: Invoke(Int32, String)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.html#Celeste_Mod_Helpers_DiscordRpc_DisconnectedCallback_Invoke_System_Int32_System_String_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.Invoke(System.Int32,System.String)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.Invoke(System.Int32, System.String)
+  nameWithType: DiscordRpc.DisconnectedCallback.Invoke(Int32, String)
+- uid: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.html#Celeste_Mod_Helpers_DiscordRpc_DisconnectedCallback_Invoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.Invoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DisconnectedCallback.Invoke
+  nameWithType: DiscordRpc.DisconnectedCallback.Invoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence
+  name: DiscordRpc.Discord_ClearPresence
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence
+  nameWithType: DiscordRpc.Discord_ClearPresence
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.#ctor(System.Object,System.IntPtr)
+  name: Discord_ClearPresence(Object, IntPtr)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.html#Celeste_Mod_Helpers_DiscordRpc_Discord_ClearPresence__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.Discord_ClearPresence(System.Object, System.IntPtr)
+  nameWithType: DiscordRpc.Discord_ClearPresence.Discord_ClearPresence(Object, IntPtr)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.#ctor*
+  name: Discord_ClearPresence
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.html#Celeste_Mod_Helpers_DiscordRpc_Discord_ClearPresence__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.Discord_ClearPresence
+  nameWithType: DiscordRpc.Discord_ClearPresence.Discord_ClearPresence
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.BeginInvoke(System.AsyncCallback,System.Object)
+  name: BeginInvoke(AsyncCallback, Object)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.html#Celeste_Mod_Helpers_DiscordRpc_Discord_ClearPresence_BeginInvoke_System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.BeginInvoke(System.AsyncCallback,System.Object)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.BeginInvoke(System.AsyncCallback, System.Object)
+  nameWithType: DiscordRpc.Discord_ClearPresence.BeginInvoke(AsyncCallback, Object)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.html#Celeste_Mod_Helpers_DiscordRpc_Discord_ClearPresence_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.BeginInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.BeginInvoke
+  nameWithType: DiscordRpc.Discord_ClearPresence.BeginInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.html#Celeste_Mod_Helpers_DiscordRpc_Discord_ClearPresence_EndInvoke_System_IAsyncResult_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.EndInvoke(System.IAsyncResult)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.EndInvoke(System.IAsyncResult)
+  nameWithType: DiscordRpc.Discord_ClearPresence.EndInvoke(IAsyncResult)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.html#Celeste_Mod_Helpers_DiscordRpc_Discord_ClearPresence_EndInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.EndInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.EndInvoke
+  nameWithType: DiscordRpc.Discord_ClearPresence.EndInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.Invoke
+  name: Invoke()
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.html#Celeste_Mod_Helpers_DiscordRpc_Discord_ClearPresence_Invoke
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.Invoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.Invoke()
+  nameWithType: DiscordRpc.Discord_ClearPresence.Invoke()
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.html#Celeste_Mod_Helpers_DiscordRpc_Discord_ClearPresence_Invoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.Invoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_ClearPresence.Invoke
+  nameWithType: DiscordRpc.Discord_ClearPresence.Invoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize
+  name: DiscordRpc.Discord_Initialize
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize
+  nameWithType: DiscordRpc.Discord_Initialize
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.#ctor(System.Object,System.IntPtr)
+  name: Discord_Initialize(Object, IntPtr)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Initialize__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.Discord_Initialize(System.Object, System.IntPtr)
+  nameWithType: DiscordRpc.Discord_Initialize.Discord_Initialize(Object, IntPtr)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.#ctor*
+  name: Discord_Initialize
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Initialize__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.Discord_Initialize
+  nameWithType: DiscordRpc.Discord_Initialize.Discord_Initialize
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.BeginInvoke(System.String,Celeste.Mod.Helpers.DiscordRpc.EventHandlers@,System.Boolean,System.String,System.AsyncCallback,System.Object)
+  name: BeginInvoke(String, ref DiscordRpc.EventHandlers, Boolean, String, AsyncCallback, Object)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Initialize_BeginInvoke_System_String_Celeste_Mod_Helpers_DiscordRpc_EventHandlers__System_Boolean_System_String_System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.BeginInvoke(System.String,Celeste.Mod.Helpers.DiscordRpc.EventHandlers@,System.Boolean,System.String,System.AsyncCallback,System.Object)
+  name.vb: BeginInvoke(String, ByRef DiscordRpc.EventHandlers, Boolean, String, AsyncCallback, Object)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.BeginInvoke(System.String, ref Celeste.Mod.Helpers.DiscordRpc.EventHandlers, System.Boolean, System.String, System.AsyncCallback, System.Object)
+  fullName.vb: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.BeginInvoke(System.String, ByRef Celeste.Mod.Helpers.DiscordRpc.EventHandlers, System.Boolean, System.String, System.AsyncCallback, System.Object)
+  nameWithType: DiscordRpc.Discord_Initialize.BeginInvoke(String, ref DiscordRpc.EventHandlers, Boolean, String, AsyncCallback, Object)
+  nameWithType.vb: DiscordRpc.Discord_Initialize.BeginInvoke(String, ByRef DiscordRpc.EventHandlers, Boolean, String, AsyncCallback, Object)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Initialize_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.BeginInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.BeginInvoke
+  nameWithType: DiscordRpc.Discord_Initialize.BeginInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.EndInvoke(Celeste.Mod.Helpers.DiscordRpc.EventHandlers@,System.IAsyncResult)
+  name: EndInvoke(ref DiscordRpc.EventHandlers, IAsyncResult)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Initialize_EndInvoke_Celeste_Mod_Helpers_DiscordRpc_EventHandlers__System_IAsyncResult_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.EndInvoke(Celeste.Mod.Helpers.DiscordRpc.EventHandlers@,System.IAsyncResult)
+  name.vb: EndInvoke(ByRef DiscordRpc.EventHandlers, IAsyncResult)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.EndInvoke(ref Celeste.Mod.Helpers.DiscordRpc.EventHandlers, System.IAsyncResult)
+  fullName.vb: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.EndInvoke(ByRef Celeste.Mod.Helpers.DiscordRpc.EventHandlers, System.IAsyncResult)
+  nameWithType: DiscordRpc.Discord_Initialize.EndInvoke(ref DiscordRpc.EventHandlers, IAsyncResult)
+  nameWithType.vb: DiscordRpc.Discord_Initialize.EndInvoke(ByRef DiscordRpc.EventHandlers, IAsyncResult)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Initialize_EndInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.EndInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.EndInvoke
+  nameWithType: DiscordRpc.Discord_Initialize.EndInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.Invoke(System.String,Celeste.Mod.Helpers.DiscordRpc.EventHandlers@,System.Boolean,System.String)
+  name: Invoke(String, ref DiscordRpc.EventHandlers, Boolean, String)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Initialize_Invoke_System_String_Celeste_Mod_Helpers_DiscordRpc_EventHandlers__System_Boolean_System_String_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.Invoke(System.String,Celeste.Mod.Helpers.DiscordRpc.EventHandlers@,System.Boolean,System.String)
+  name.vb: Invoke(String, ByRef DiscordRpc.EventHandlers, Boolean, String)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.Invoke(System.String, ref Celeste.Mod.Helpers.DiscordRpc.EventHandlers, System.Boolean, System.String)
+  fullName.vb: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.Invoke(System.String, ByRef Celeste.Mod.Helpers.DiscordRpc.EventHandlers, System.Boolean, System.String)
+  nameWithType: DiscordRpc.Discord_Initialize.Invoke(String, ref DiscordRpc.EventHandlers, Boolean, String)
+  nameWithType.vb: DiscordRpc.Discord_Initialize.Invoke(String, ByRef DiscordRpc.EventHandlers, Boolean, String)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Initialize_Invoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.Invoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Initialize.Invoke
+  nameWithType: DiscordRpc.Discord_Initialize.Invoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond
+  name: DiscordRpc.Discord_Respond
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.Discord_Respond
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond
+  nameWithType: DiscordRpc.Discord_Respond
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.#ctor(System.Object,System.IntPtr)
+  name: Discord_Respond(Object, IntPtr)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Respond__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.Discord_Respond(System.Object, System.IntPtr)
+  nameWithType: DiscordRpc.Discord_Respond.Discord_Respond(Object, IntPtr)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.#ctor*
+  name: Discord_Respond
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Respond__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.Discord_Respond
+  nameWithType: DiscordRpc.Discord_Respond.Discord_Respond
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.BeginInvoke(System.String,Celeste.Mod.Helpers.DiscordRpc.Reply,System.AsyncCallback,System.Object)
+  name: BeginInvoke(String, DiscordRpc.Reply, AsyncCallback, Object)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Respond_BeginInvoke_System_String_Celeste_Mod_Helpers_DiscordRpc_Reply_System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.BeginInvoke(System.String,Celeste.Mod.Helpers.DiscordRpc.Reply,System.AsyncCallback,System.Object)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.BeginInvoke(System.String, Celeste.Mod.Helpers.DiscordRpc.Reply, System.AsyncCallback, System.Object)
+  nameWithType: DiscordRpc.Discord_Respond.BeginInvoke(String, DiscordRpc.Reply, AsyncCallback, Object)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Respond_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.BeginInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.BeginInvoke
+  nameWithType: DiscordRpc.Discord_Respond.BeginInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Respond_EndInvoke_System_IAsyncResult_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.EndInvoke(System.IAsyncResult)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.EndInvoke(System.IAsyncResult)
+  nameWithType: DiscordRpc.Discord_Respond.EndInvoke(IAsyncResult)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Respond_EndInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.EndInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.EndInvoke
+  nameWithType: DiscordRpc.Discord_Respond.EndInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.Invoke(System.String,Celeste.Mod.Helpers.DiscordRpc.Reply)
+  name: Invoke(String, DiscordRpc.Reply)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Respond_Invoke_System_String_Celeste_Mod_Helpers_DiscordRpc_Reply_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.Invoke(System.String,Celeste.Mod.Helpers.DiscordRpc.Reply)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.Invoke(System.String, Celeste.Mod.Helpers.DiscordRpc.Reply)
+  nameWithType: DiscordRpc.Discord_Respond.Invoke(String, DiscordRpc.Reply)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Respond_Invoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.Invoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Respond.Invoke
+  nameWithType: DiscordRpc.Discord_Respond.Invoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks
+  name: DiscordRpc.Discord_RunCallbacks
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks
+  nameWithType: DiscordRpc.Discord_RunCallbacks
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.#ctor(System.Object,System.IntPtr)
+  name: Discord_RunCallbacks(Object, IntPtr)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.html#Celeste_Mod_Helpers_DiscordRpc_Discord_RunCallbacks__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.Discord_RunCallbacks(System.Object, System.IntPtr)
+  nameWithType: DiscordRpc.Discord_RunCallbacks.Discord_RunCallbacks(Object, IntPtr)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.#ctor*
+  name: Discord_RunCallbacks
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.html#Celeste_Mod_Helpers_DiscordRpc_Discord_RunCallbacks__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.Discord_RunCallbacks
+  nameWithType: DiscordRpc.Discord_RunCallbacks.Discord_RunCallbacks
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.BeginInvoke(System.AsyncCallback,System.Object)
+  name: BeginInvoke(AsyncCallback, Object)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.html#Celeste_Mod_Helpers_DiscordRpc_Discord_RunCallbacks_BeginInvoke_System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.BeginInvoke(System.AsyncCallback,System.Object)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.BeginInvoke(System.AsyncCallback, System.Object)
+  nameWithType: DiscordRpc.Discord_RunCallbacks.BeginInvoke(AsyncCallback, Object)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.html#Celeste_Mod_Helpers_DiscordRpc_Discord_RunCallbacks_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.BeginInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.BeginInvoke
+  nameWithType: DiscordRpc.Discord_RunCallbacks.BeginInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.html#Celeste_Mod_Helpers_DiscordRpc_Discord_RunCallbacks_EndInvoke_System_IAsyncResult_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.EndInvoke(System.IAsyncResult)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.EndInvoke(System.IAsyncResult)
+  nameWithType: DiscordRpc.Discord_RunCallbacks.EndInvoke(IAsyncResult)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.html#Celeste_Mod_Helpers_DiscordRpc_Discord_RunCallbacks_EndInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.EndInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.EndInvoke
+  nameWithType: DiscordRpc.Discord_RunCallbacks.EndInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.Invoke
+  name: Invoke()
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.html#Celeste_Mod_Helpers_DiscordRpc_Discord_RunCallbacks_Invoke
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.Invoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.Invoke()
+  nameWithType: DiscordRpc.Discord_RunCallbacks.Invoke()
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.html#Celeste_Mod_Helpers_DiscordRpc_Discord_RunCallbacks_Invoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.Invoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_RunCallbacks.Invoke
+  nameWithType: DiscordRpc.Discord_RunCallbacks.Invoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown
+  name: DiscordRpc.Discord_Shutdown
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown
+  nameWithType: DiscordRpc.Discord_Shutdown
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.#ctor(System.Object,System.IntPtr)
+  name: Discord_Shutdown(Object, IntPtr)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Shutdown__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.Discord_Shutdown(System.Object, System.IntPtr)
+  nameWithType: DiscordRpc.Discord_Shutdown.Discord_Shutdown(Object, IntPtr)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.#ctor*
+  name: Discord_Shutdown
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Shutdown__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.Discord_Shutdown
+  nameWithType: DiscordRpc.Discord_Shutdown.Discord_Shutdown
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.BeginInvoke(System.AsyncCallback,System.Object)
+  name: BeginInvoke(AsyncCallback, Object)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Shutdown_BeginInvoke_System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.BeginInvoke(System.AsyncCallback,System.Object)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.BeginInvoke(System.AsyncCallback, System.Object)
+  nameWithType: DiscordRpc.Discord_Shutdown.BeginInvoke(AsyncCallback, Object)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Shutdown_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.BeginInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.BeginInvoke
+  nameWithType: DiscordRpc.Discord_Shutdown.BeginInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Shutdown_EndInvoke_System_IAsyncResult_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.EndInvoke(System.IAsyncResult)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.EndInvoke(System.IAsyncResult)
+  nameWithType: DiscordRpc.Discord_Shutdown.EndInvoke(IAsyncResult)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Shutdown_EndInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.EndInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.EndInvoke
+  nameWithType: DiscordRpc.Discord_Shutdown.EndInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.Invoke
+  name: Invoke()
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Shutdown_Invoke
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.Invoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.Invoke()
+  nameWithType: DiscordRpc.Discord_Shutdown.Invoke()
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.html#Celeste_Mod_Helpers_DiscordRpc_Discord_Shutdown_Invoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.Invoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_Shutdown.Invoke
+  nameWithType: DiscordRpc.Discord_Shutdown.Invoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers
+  name: DiscordRpc.Discord_UpdateHandlers
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers
+  nameWithType: DiscordRpc.Discord_UpdateHandlers
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.#ctor(System.Object,System.IntPtr)
+  name: Discord_UpdateHandlers(Object, IntPtr)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.html#Celeste_Mod_Helpers_DiscordRpc_Discord_UpdateHandlers__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.Discord_UpdateHandlers(System.Object, System.IntPtr)
+  nameWithType: DiscordRpc.Discord_UpdateHandlers.Discord_UpdateHandlers(Object, IntPtr)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.#ctor*
+  name: Discord_UpdateHandlers
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.html#Celeste_Mod_Helpers_DiscordRpc_Discord_UpdateHandlers__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.Discord_UpdateHandlers
+  nameWithType: DiscordRpc.Discord_UpdateHandlers.Discord_UpdateHandlers
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.BeginInvoke(Celeste.Mod.Helpers.DiscordRpc.EventHandlers@,System.AsyncCallback,System.Object)
+  name: BeginInvoke(ref DiscordRpc.EventHandlers, AsyncCallback, Object)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.html#Celeste_Mod_Helpers_DiscordRpc_Discord_UpdateHandlers_BeginInvoke_Celeste_Mod_Helpers_DiscordRpc_EventHandlers__System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.BeginInvoke(Celeste.Mod.Helpers.DiscordRpc.EventHandlers@,System.AsyncCallback,System.Object)
+  name.vb: BeginInvoke(ByRef DiscordRpc.EventHandlers, AsyncCallback, Object)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.BeginInvoke(ref Celeste.Mod.Helpers.DiscordRpc.EventHandlers, System.AsyncCallback, System.Object)
+  fullName.vb: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.BeginInvoke(ByRef Celeste.Mod.Helpers.DiscordRpc.EventHandlers, System.AsyncCallback, System.Object)
+  nameWithType: DiscordRpc.Discord_UpdateHandlers.BeginInvoke(ref DiscordRpc.EventHandlers, AsyncCallback, Object)
+  nameWithType.vb: DiscordRpc.Discord_UpdateHandlers.BeginInvoke(ByRef DiscordRpc.EventHandlers, AsyncCallback, Object)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.html#Celeste_Mod_Helpers_DiscordRpc_Discord_UpdateHandlers_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.BeginInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.BeginInvoke
+  nameWithType: DiscordRpc.Discord_UpdateHandlers.BeginInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.EndInvoke(Celeste.Mod.Helpers.DiscordRpc.EventHandlers@,System.IAsyncResult)
+  name: EndInvoke(ref DiscordRpc.EventHandlers, IAsyncResult)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.html#Celeste_Mod_Helpers_DiscordRpc_Discord_UpdateHandlers_EndInvoke_Celeste_Mod_Helpers_DiscordRpc_EventHandlers__System_IAsyncResult_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.EndInvoke(Celeste.Mod.Helpers.DiscordRpc.EventHandlers@,System.IAsyncResult)
+  name.vb: EndInvoke(ByRef DiscordRpc.EventHandlers, IAsyncResult)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.EndInvoke(ref Celeste.Mod.Helpers.DiscordRpc.EventHandlers, System.IAsyncResult)
+  fullName.vb: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.EndInvoke(ByRef Celeste.Mod.Helpers.DiscordRpc.EventHandlers, System.IAsyncResult)
+  nameWithType: DiscordRpc.Discord_UpdateHandlers.EndInvoke(ref DiscordRpc.EventHandlers, IAsyncResult)
+  nameWithType.vb: DiscordRpc.Discord_UpdateHandlers.EndInvoke(ByRef DiscordRpc.EventHandlers, IAsyncResult)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.html#Celeste_Mod_Helpers_DiscordRpc_Discord_UpdateHandlers_EndInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.EndInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.EndInvoke
+  nameWithType: DiscordRpc.Discord_UpdateHandlers.EndInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.Invoke(Celeste.Mod.Helpers.DiscordRpc.EventHandlers@)
+  name: Invoke(ref DiscordRpc.EventHandlers)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.html#Celeste_Mod_Helpers_DiscordRpc_Discord_UpdateHandlers_Invoke_Celeste_Mod_Helpers_DiscordRpc_EventHandlers__
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.Invoke(Celeste.Mod.Helpers.DiscordRpc.EventHandlers@)
+  name.vb: Invoke(ByRef DiscordRpc.EventHandlers)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.Invoke(ref Celeste.Mod.Helpers.DiscordRpc.EventHandlers)
+  fullName.vb: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.Invoke(ByRef Celeste.Mod.Helpers.DiscordRpc.EventHandlers)
+  nameWithType: DiscordRpc.Discord_UpdateHandlers.Invoke(ref DiscordRpc.EventHandlers)
+  nameWithType.vb: DiscordRpc.Discord_UpdateHandlers.Invoke(ByRef DiscordRpc.EventHandlers)
+- uid: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.html#Celeste_Mod_Helpers_DiscordRpc_Discord_UpdateHandlers_Invoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.Invoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Discord_UpdateHandlers.Invoke
+  nameWithType: DiscordRpc.Discord_UpdateHandlers.Invoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.DiscordUser
+  name: DiscordRpc.DiscordUser
+  href: api/Celeste.Mod.Helpers.DiscordRpc.DiscordUser.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.DiscordUser
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DiscordUser
+  nameWithType: DiscordRpc.DiscordUser
+- uid: Celeste.Mod.Helpers.DiscordRpc.DiscordUser.avatar
+  name: avatar
+  href: api/Celeste.Mod.Helpers.DiscordRpc.DiscordUser.html#Celeste_Mod_Helpers_DiscordRpc_DiscordUser_avatar
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.DiscordUser.avatar
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DiscordUser.avatar
+  nameWithType: DiscordRpc.DiscordUser.avatar
+- uid: Celeste.Mod.Helpers.DiscordRpc.DiscordUser.discriminator
+  name: discriminator
+  href: api/Celeste.Mod.Helpers.DiscordRpc.DiscordUser.html#Celeste_Mod_Helpers_DiscordRpc_DiscordUser_discriminator
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.DiscordUser.discriminator
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DiscordUser.discriminator
+  nameWithType: DiscordRpc.DiscordUser.discriminator
+- uid: Celeste.Mod.Helpers.DiscordRpc.DiscordUser.userId
+  name: userId
+  href: api/Celeste.Mod.Helpers.DiscordRpc.DiscordUser.html#Celeste_Mod_Helpers_DiscordRpc_DiscordUser_userId
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.DiscordUser.userId
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DiscordUser.userId
+  nameWithType: DiscordRpc.DiscordUser.userId
+- uid: Celeste.Mod.Helpers.DiscordRpc.DiscordUser.username
+  name: username
+  href: api/Celeste.Mod.Helpers.DiscordRpc.DiscordUser.html#Celeste_Mod_Helpers_DiscordRpc_DiscordUser_username
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.DiscordUser.username
+  fullName: Celeste.Mod.Helpers.DiscordRpc.DiscordUser.username
+  nameWithType: DiscordRpc.DiscordUser.username
+- uid: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback
+  name: DiscordRpc.ErrorCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.ErrorCallback
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback
+  nameWithType: DiscordRpc.ErrorCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.#ctor(System.Object,System.IntPtr)
+  name: ErrorCallback(Object, IntPtr)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.html#Celeste_Mod_Helpers_DiscordRpc_ErrorCallback__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.ErrorCallback(System.Object, System.IntPtr)
+  nameWithType: DiscordRpc.ErrorCallback.ErrorCallback(Object, IntPtr)
+- uid: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.#ctor*
+  name: ErrorCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.html#Celeste_Mod_Helpers_DiscordRpc_ErrorCallback__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.ErrorCallback
+  nameWithType: DiscordRpc.ErrorCallback.ErrorCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.BeginInvoke(System.Int32,System.String,System.AsyncCallback,System.Object)
+  name: BeginInvoke(Int32, String, AsyncCallback, Object)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.html#Celeste_Mod_Helpers_DiscordRpc_ErrorCallback_BeginInvoke_System_Int32_System_String_System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.BeginInvoke(System.Int32,System.String,System.AsyncCallback,System.Object)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.BeginInvoke(System.Int32, System.String, System.AsyncCallback, System.Object)
+  nameWithType: DiscordRpc.ErrorCallback.BeginInvoke(Int32, String, AsyncCallback, Object)
+- uid: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.html#Celeste_Mod_Helpers_DiscordRpc_ErrorCallback_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.BeginInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.BeginInvoke
+  nameWithType: DiscordRpc.ErrorCallback.BeginInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.html#Celeste_Mod_Helpers_DiscordRpc_ErrorCallback_EndInvoke_System_IAsyncResult_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.EndInvoke(System.IAsyncResult)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.EndInvoke(System.IAsyncResult)
+  nameWithType: DiscordRpc.ErrorCallback.EndInvoke(IAsyncResult)
+- uid: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.html#Celeste_Mod_Helpers_DiscordRpc_ErrorCallback_EndInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.EndInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.EndInvoke
+  nameWithType: DiscordRpc.ErrorCallback.EndInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.Invoke(System.Int32,System.String)
+  name: Invoke(Int32, String)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.html#Celeste_Mod_Helpers_DiscordRpc_ErrorCallback_Invoke_System_Int32_System_String_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.Invoke(System.Int32,System.String)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.Invoke(System.Int32, System.String)
+  nameWithType: DiscordRpc.ErrorCallback.Invoke(Int32, String)
+- uid: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.html#Celeste_Mod_Helpers_DiscordRpc_ErrorCallback_Invoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.Invoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ErrorCallback.Invoke
+  nameWithType: DiscordRpc.ErrorCallback.Invoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.EventHandlers
+  name: DiscordRpc.EventHandlers
+  href: api/Celeste.Mod.Helpers.DiscordRpc.EventHandlers.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.EventHandlers
+  fullName: Celeste.Mod.Helpers.DiscordRpc.EventHandlers
+  nameWithType: DiscordRpc.EventHandlers
+- uid: Celeste.Mod.Helpers.DiscordRpc.EventHandlers.disconnectedCallback
+  name: disconnectedCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.EventHandlers.html#Celeste_Mod_Helpers_DiscordRpc_EventHandlers_disconnectedCallback
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.EventHandlers.disconnectedCallback
+  fullName: Celeste.Mod.Helpers.DiscordRpc.EventHandlers.disconnectedCallback
+  nameWithType: DiscordRpc.EventHandlers.disconnectedCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.EventHandlers.errorCallback
+  name: errorCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.EventHandlers.html#Celeste_Mod_Helpers_DiscordRpc_EventHandlers_errorCallback
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.EventHandlers.errorCallback
+  fullName: Celeste.Mod.Helpers.DiscordRpc.EventHandlers.errorCallback
+  nameWithType: DiscordRpc.EventHandlers.errorCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.EventHandlers.joinCallback
+  name: joinCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.EventHandlers.html#Celeste_Mod_Helpers_DiscordRpc_EventHandlers_joinCallback
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.EventHandlers.joinCallback
+  fullName: Celeste.Mod.Helpers.DiscordRpc.EventHandlers.joinCallback
+  nameWithType: DiscordRpc.EventHandlers.joinCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.EventHandlers.readyCallback
+  name: readyCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.EventHandlers.html#Celeste_Mod_Helpers_DiscordRpc_EventHandlers_readyCallback
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.EventHandlers.readyCallback
+  fullName: Celeste.Mod.Helpers.DiscordRpc.EventHandlers.readyCallback
+  nameWithType: DiscordRpc.EventHandlers.readyCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.EventHandlers.requestCallback
+  name: requestCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.EventHandlers.html#Celeste_Mod_Helpers_DiscordRpc_EventHandlers_requestCallback
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.EventHandlers.requestCallback
+  fullName: Celeste.Mod.Helpers.DiscordRpc.EventHandlers.requestCallback
+  nameWithType: DiscordRpc.EventHandlers.requestCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.EventHandlers.spectateCallback
+  name: spectateCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.EventHandlers.html#Celeste_Mod_Helpers_DiscordRpc_EventHandlers_spectateCallback
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.EventHandlers.spectateCallback
+  fullName: Celeste.Mod.Helpers.DiscordRpc.EventHandlers.spectateCallback
+  nameWithType: DiscordRpc.EventHandlers.spectateCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.Initialize
+  name: Initialize
+  href: api/Celeste.Mod.Helpers.DiscordRpc.html#Celeste_Mod_Helpers_DiscordRpc_Initialize
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.Initialize
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Initialize
+  nameWithType: DiscordRpc.Initialize
+- uid: Celeste.Mod.Helpers.DiscordRpc.JoinCallback
+  name: DiscordRpc.JoinCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.JoinCallback.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.JoinCallback
+  fullName: Celeste.Mod.Helpers.DiscordRpc.JoinCallback
+  nameWithType: DiscordRpc.JoinCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.#ctor(System.Object,System.IntPtr)
+  name: JoinCallback(Object, IntPtr)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.JoinCallback.html#Celeste_Mod_Helpers_DiscordRpc_JoinCallback__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.JoinCallback.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.JoinCallback(System.Object, System.IntPtr)
+  nameWithType: DiscordRpc.JoinCallback.JoinCallback(Object, IntPtr)
+- uid: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.#ctor*
+  name: JoinCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.JoinCallback.html#Celeste_Mod_Helpers_DiscordRpc_JoinCallback__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.JoinCallback.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.JoinCallback
+  nameWithType: DiscordRpc.JoinCallback.JoinCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.BeginInvoke(System.String,System.AsyncCallback,System.Object)
+  name: BeginInvoke(String, AsyncCallback, Object)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.JoinCallback.html#Celeste_Mod_Helpers_DiscordRpc_JoinCallback_BeginInvoke_System_String_System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.JoinCallback.BeginInvoke(System.String,System.AsyncCallback,System.Object)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.BeginInvoke(System.String, System.AsyncCallback, System.Object)
+  nameWithType: DiscordRpc.JoinCallback.BeginInvoke(String, AsyncCallback, Object)
+- uid: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.JoinCallback.html#Celeste_Mod_Helpers_DiscordRpc_JoinCallback_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.JoinCallback.BeginInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.BeginInvoke
+  nameWithType: DiscordRpc.JoinCallback.BeginInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.JoinCallback.html#Celeste_Mod_Helpers_DiscordRpc_JoinCallback_EndInvoke_System_IAsyncResult_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.JoinCallback.EndInvoke(System.IAsyncResult)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.EndInvoke(System.IAsyncResult)
+  nameWithType: DiscordRpc.JoinCallback.EndInvoke(IAsyncResult)
+- uid: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.JoinCallback.html#Celeste_Mod_Helpers_DiscordRpc_JoinCallback_EndInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.JoinCallback.EndInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.EndInvoke
+  nameWithType: DiscordRpc.JoinCallback.EndInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.Invoke(System.String)
+  name: Invoke(String)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.JoinCallback.html#Celeste_Mod_Helpers_DiscordRpc_JoinCallback_Invoke_System_String_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.JoinCallback.Invoke(System.String)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.Invoke(System.String)
+  nameWithType: DiscordRpc.JoinCallback.Invoke(String)
+- uid: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.JoinCallback.html#Celeste_Mod_Helpers_DiscordRpc_JoinCallback_Invoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.JoinCallback.Invoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.JoinCallback.Invoke
+  nameWithType: DiscordRpc.JoinCallback.Invoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback
+  name: DiscordRpc.ReadyCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.ReadyCallback
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback
+  nameWithType: DiscordRpc.ReadyCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.#ctor(System.Object,System.IntPtr)
+  name: ReadyCallback(Object, IntPtr)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.html#Celeste_Mod_Helpers_DiscordRpc_ReadyCallback__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.ReadyCallback(System.Object, System.IntPtr)
+  nameWithType: DiscordRpc.ReadyCallback.ReadyCallback(Object, IntPtr)
+- uid: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.#ctor*
+  name: ReadyCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.html#Celeste_Mod_Helpers_DiscordRpc_ReadyCallback__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.ReadyCallback
+  nameWithType: DiscordRpc.ReadyCallback.ReadyCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.BeginInvoke(Celeste.Mod.Helpers.DiscordRpc.DiscordUser@,System.AsyncCallback,System.Object)
+  name: BeginInvoke(ref DiscordRpc.DiscordUser, AsyncCallback, Object)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.html#Celeste_Mod_Helpers_DiscordRpc_ReadyCallback_BeginInvoke_Celeste_Mod_Helpers_DiscordRpc_DiscordUser__System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.BeginInvoke(Celeste.Mod.Helpers.DiscordRpc.DiscordUser@,System.AsyncCallback,System.Object)
+  name.vb: BeginInvoke(ByRef DiscordRpc.DiscordUser, AsyncCallback, Object)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.BeginInvoke(ref Celeste.Mod.Helpers.DiscordRpc.DiscordUser, System.AsyncCallback, System.Object)
+  fullName.vb: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.BeginInvoke(ByRef Celeste.Mod.Helpers.DiscordRpc.DiscordUser, System.AsyncCallback, System.Object)
+  nameWithType: DiscordRpc.ReadyCallback.BeginInvoke(ref DiscordRpc.DiscordUser, AsyncCallback, Object)
+  nameWithType.vb: DiscordRpc.ReadyCallback.BeginInvoke(ByRef DiscordRpc.DiscordUser, AsyncCallback, Object)
+- uid: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.html#Celeste_Mod_Helpers_DiscordRpc_ReadyCallback_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.BeginInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.BeginInvoke
+  nameWithType: DiscordRpc.ReadyCallback.BeginInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.EndInvoke(Celeste.Mod.Helpers.DiscordRpc.DiscordUser@,System.IAsyncResult)
+  name: EndInvoke(ref DiscordRpc.DiscordUser, IAsyncResult)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.html#Celeste_Mod_Helpers_DiscordRpc_ReadyCallback_EndInvoke_Celeste_Mod_Helpers_DiscordRpc_DiscordUser__System_IAsyncResult_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.EndInvoke(Celeste.Mod.Helpers.DiscordRpc.DiscordUser@,System.IAsyncResult)
+  name.vb: EndInvoke(ByRef DiscordRpc.DiscordUser, IAsyncResult)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.EndInvoke(ref Celeste.Mod.Helpers.DiscordRpc.DiscordUser, System.IAsyncResult)
+  fullName.vb: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.EndInvoke(ByRef Celeste.Mod.Helpers.DiscordRpc.DiscordUser, System.IAsyncResult)
+  nameWithType: DiscordRpc.ReadyCallback.EndInvoke(ref DiscordRpc.DiscordUser, IAsyncResult)
+  nameWithType.vb: DiscordRpc.ReadyCallback.EndInvoke(ByRef DiscordRpc.DiscordUser, IAsyncResult)
+- uid: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.html#Celeste_Mod_Helpers_DiscordRpc_ReadyCallback_EndInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.EndInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.EndInvoke
+  nameWithType: DiscordRpc.ReadyCallback.EndInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.Invoke(Celeste.Mod.Helpers.DiscordRpc.DiscordUser@)
+  name: Invoke(ref DiscordRpc.DiscordUser)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.html#Celeste_Mod_Helpers_DiscordRpc_ReadyCallback_Invoke_Celeste_Mod_Helpers_DiscordRpc_DiscordUser__
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.Invoke(Celeste.Mod.Helpers.DiscordRpc.DiscordUser@)
+  name.vb: Invoke(ByRef DiscordRpc.DiscordUser)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.Invoke(ref Celeste.Mod.Helpers.DiscordRpc.DiscordUser)
+  fullName.vb: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.Invoke(ByRef Celeste.Mod.Helpers.DiscordRpc.DiscordUser)
+  nameWithType: DiscordRpc.ReadyCallback.Invoke(ref DiscordRpc.DiscordUser)
+  nameWithType.vb: DiscordRpc.ReadyCallback.Invoke(ByRef DiscordRpc.DiscordUser)
+- uid: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.html#Celeste_Mod_Helpers_DiscordRpc_ReadyCallback_Invoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.Invoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.ReadyCallback.Invoke
+  nameWithType: DiscordRpc.ReadyCallback.Invoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Reply
+  name: DiscordRpc.Reply
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Reply.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.Reply
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Reply
+  nameWithType: DiscordRpc.Reply
+- uid: Celeste.Mod.Helpers.DiscordRpc.Reply.Ignore
+  name: Ignore
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Reply.html#Celeste_Mod_Helpers_DiscordRpc_Reply_Ignore
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.Reply.Ignore
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Reply.Ignore
+  nameWithType: DiscordRpc.Reply.Ignore
+- uid: Celeste.Mod.Helpers.DiscordRpc.Reply.No
+  name: No
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Reply.html#Celeste_Mod_Helpers_DiscordRpc_Reply_No
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.Reply.No
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Reply.No
+  nameWithType: DiscordRpc.Reply.No
+- uid: Celeste.Mod.Helpers.DiscordRpc.Reply.Yes
+  name: Yes
+  href: api/Celeste.Mod.Helpers.DiscordRpc.Reply.html#Celeste_Mod_Helpers_DiscordRpc_Reply_Yes
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.Reply.Yes
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Reply.Yes
+  nameWithType: DiscordRpc.Reply.Yes
+- uid: Celeste.Mod.Helpers.DiscordRpc.RequestCallback
+  name: DiscordRpc.RequestCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RequestCallback.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.RequestCallback
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RequestCallback
+  nameWithType: DiscordRpc.RequestCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.#ctor(System.Object,System.IntPtr)
+  name: RequestCallback(Object, IntPtr)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RequestCallback.html#Celeste_Mod_Helpers_DiscordRpc_RequestCallback__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.RequestCallback.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.RequestCallback(System.Object, System.IntPtr)
+  nameWithType: DiscordRpc.RequestCallback.RequestCallback(Object, IntPtr)
+- uid: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.#ctor*
+  name: RequestCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RequestCallback.html#Celeste_Mod_Helpers_DiscordRpc_RequestCallback__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.RequestCallback.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.RequestCallback
+  nameWithType: DiscordRpc.RequestCallback.RequestCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.BeginInvoke(Celeste.Mod.Helpers.DiscordRpc.DiscordUser@,System.AsyncCallback,System.Object)
+  name: BeginInvoke(ref DiscordRpc.DiscordUser, AsyncCallback, Object)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RequestCallback.html#Celeste_Mod_Helpers_DiscordRpc_RequestCallback_BeginInvoke_Celeste_Mod_Helpers_DiscordRpc_DiscordUser__System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.RequestCallback.BeginInvoke(Celeste.Mod.Helpers.DiscordRpc.DiscordUser@,System.AsyncCallback,System.Object)
+  name.vb: BeginInvoke(ByRef DiscordRpc.DiscordUser, AsyncCallback, Object)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.BeginInvoke(ref Celeste.Mod.Helpers.DiscordRpc.DiscordUser, System.AsyncCallback, System.Object)
+  fullName.vb: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.BeginInvoke(ByRef Celeste.Mod.Helpers.DiscordRpc.DiscordUser, System.AsyncCallback, System.Object)
+  nameWithType: DiscordRpc.RequestCallback.BeginInvoke(ref DiscordRpc.DiscordUser, AsyncCallback, Object)
+  nameWithType.vb: DiscordRpc.RequestCallback.BeginInvoke(ByRef DiscordRpc.DiscordUser, AsyncCallback, Object)
+- uid: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RequestCallback.html#Celeste_Mod_Helpers_DiscordRpc_RequestCallback_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.RequestCallback.BeginInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.BeginInvoke
+  nameWithType: DiscordRpc.RequestCallback.BeginInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.EndInvoke(Celeste.Mod.Helpers.DiscordRpc.DiscordUser@,System.IAsyncResult)
+  name: EndInvoke(ref DiscordRpc.DiscordUser, IAsyncResult)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RequestCallback.html#Celeste_Mod_Helpers_DiscordRpc_RequestCallback_EndInvoke_Celeste_Mod_Helpers_DiscordRpc_DiscordUser__System_IAsyncResult_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.RequestCallback.EndInvoke(Celeste.Mod.Helpers.DiscordRpc.DiscordUser@,System.IAsyncResult)
+  name.vb: EndInvoke(ByRef DiscordRpc.DiscordUser, IAsyncResult)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.EndInvoke(ref Celeste.Mod.Helpers.DiscordRpc.DiscordUser, System.IAsyncResult)
+  fullName.vb: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.EndInvoke(ByRef Celeste.Mod.Helpers.DiscordRpc.DiscordUser, System.IAsyncResult)
+  nameWithType: DiscordRpc.RequestCallback.EndInvoke(ref DiscordRpc.DiscordUser, IAsyncResult)
+  nameWithType.vb: DiscordRpc.RequestCallback.EndInvoke(ByRef DiscordRpc.DiscordUser, IAsyncResult)
+- uid: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RequestCallback.html#Celeste_Mod_Helpers_DiscordRpc_RequestCallback_EndInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.RequestCallback.EndInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.EndInvoke
+  nameWithType: DiscordRpc.RequestCallback.EndInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.Invoke(Celeste.Mod.Helpers.DiscordRpc.DiscordUser@)
+  name: Invoke(ref DiscordRpc.DiscordUser)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RequestCallback.html#Celeste_Mod_Helpers_DiscordRpc_RequestCallback_Invoke_Celeste_Mod_Helpers_DiscordRpc_DiscordUser__
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.RequestCallback.Invoke(Celeste.Mod.Helpers.DiscordRpc.DiscordUser@)
+  name.vb: Invoke(ByRef DiscordRpc.DiscordUser)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.Invoke(ref Celeste.Mod.Helpers.DiscordRpc.DiscordUser)
+  fullName.vb: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.Invoke(ByRef Celeste.Mod.Helpers.DiscordRpc.DiscordUser)
+  nameWithType: DiscordRpc.RequestCallback.Invoke(ref DiscordRpc.DiscordUser)
+  nameWithType.vb: DiscordRpc.RequestCallback.Invoke(ByRef DiscordRpc.DiscordUser)
+- uid: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RequestCallback.html#Celeste_Mod_Helpers_DiscordRpc_RequestCallback_Invoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.RequestCallback.Invoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RequestCallback.Invoke
+  nameWithType: DiscordRpc.RequestCallback.Invoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.Respond
+  name: Respond
+  href: api/Celeste.Mod.Helpers.DiscordRpc.html#Celeste_Mod_Helpers_DiscordRpc_Respond
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.Respond
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Respond
+  nameWithType: DiscordRpc.Respond
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence
+  name: DiscordRpc.RichPresence
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.RichPresence
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence
+  nameWithType: DiscordRpc.RichPresence
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.#ctor
+  name: RichPresence()
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence__ctor
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.RichPresence.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.RichPresence()
+  nameWithType: DiscordRpc.RichPresence.RichPresence()
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.#ctor*
+  name: RichPresence
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.RichPresence.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.RichPresence
+  nameWithType: DiscordRpc.RichPresence.RichPresence
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.details
+  name: details
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence_details
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresence.details
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.details
+  nameWithType: DiscordRpc.RichPresence.details
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.endTimestamp
+  name: endTimestamp
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence_endTimestamp
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresence.endTimestamp
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.endTimestamp
+  nameWithType: DiscordRpc.RichPresence.endTimestamp
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.instance
+  name: instance
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence_instance
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresence.instance
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.instance
+  nameWithType: DiscordRpc.RichPresence.instance
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.joinSecret
+  name: joinSecret
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence_joinSecret
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresence.joinSecret
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.joinSecret
+  nameWithType: DiscordRpc.RichPresence.joinSecret
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.largeImageKey
+  name: largeImageKey
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence_largeImageKey
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresence.largeImageKey
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.largeImageKey
+  nameWithType: DiscordRpc.RichPresence.largeImageKey
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.largeImageText
+  name: largeImageText
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence_largeImageText
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresence.largeImageText
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.largeImageText
+  nameWithType: DiscordRpc.RichPresence.largeImageText
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.matchSecret
+  name: matchSecret
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence_matchSecret
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresence.matchSecret
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.matchSecret
+  nameWithType: DiscordRpc.RichPresence.matchSecret
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.partyId
+  name: partyId
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence_partyId
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresence.partyId
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.partyId
+  nameWithType: DiscordRpc.RichPresence.partyId
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.partyMax
+  name: partyMax
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence_partyMax
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresence.partyMax
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.partyMax
+  nameWithType: DiscordRpc.RichPresence.partyMax
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.partySize
+  name: partySize
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence_partySize
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresence.partySize
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.partySize
+  nameWithType: DiscordRpc.RichPresence.partySize
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.smallImageKey
+  name: smallImageKey
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence_smallImageKey
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresence.smallImageKey
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.smallImageKey
+  nameWithType: DiscordRpc.RichPresence.smallImageKey
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.smallImageText
+  name: smallImageText
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence_smallImageText
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresence.smallImageText
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.smallImageText
+  nameWithType: DiscordRpc.RichPresence.smallImageText
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.spectateSecret
+  name: spectateSecret
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence_spectateSecret
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresence.spectateSecret
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.spectateSecret
+  nameWithType: DiscordRpc.RichPresence.spectateSecret
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.startTimestamp
+  name: startTimestamp
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence_startTimestamp
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresence.startTimestamp
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.startTimestamp
+  nameWithType: DiscordRpc.RichPresence.startTimestamp
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresence.state
+  name: state
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresence.html#Celeste_Mod_Helpers_DiscordRpc_RichPresence_state
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresence.state
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresence.state
+  nameWithType: DiscordRpc.RichPresence.state
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct
+  name: DiscordRpc.RichPresenceStruct
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct
+  nameWithType: DiscordRpc.RichPresenceStruct
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.details
+  name: details
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html#Celeste_Mod_Helpers_DiscordRpc_RichPresenceStruct_details
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.details
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.details
+  nameWithType: DiscordRpc.RichPresenceStruct.details
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.endTimestamp
+  name: endTimestamp
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html#Celeste_Mod_Helpers_DiscordRpc_RichPresenceStruct_endTimestamp
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.endTimestamp
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.endTimestamp
+  nameWithType: DiscordRpc.RichPresenceStruct.endTimestamp
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.instance
+  name: instance
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html#Celeste_Mod_Helpers_DiscordRpc_RichPresenceStruct_instance
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.instance
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.instance
+  nameWithType: DiscordRpc.RichPresenceStruct.instance
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.joinSecret
+  name: joinSecret
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html#Celeste_Mod_Helpers_DiscordRpc_RichPresenceStruct_joinSecret
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.joinSecret
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.joinSecret
+  nameWithType: DiscordRpc.RichPresenceStruct.joinSecret
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.largeImageKey
+  name: largeImageKey
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html#Celeste_Mod_Helpers_DiscordRpc_RichPresenceStruct_largeImageKey
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.largeImageKey
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.largeImageKey
+  nameWithType: DiscordRpc.RichPresenceStruct.largeImageKey
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.largeImageText
+  name: largeImageText
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html#Celeste_Mod_Helpers_DiscordRpc_RichPresenceStruct_largeImageText
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.largeImageText
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.largeImageText
+  nameWithType: DiscordRpc.RichPresenceStruct.largeImageText
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.matchSecret
+  name: matchSecret
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html#Celeste_Mod_Helpers_DiscordRpc_RichPresenceStruct_matchSecret
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.matchSecret
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.matchSecret
+  nameWithType: DiscordRpc.RichPresenceStruct.matchSecret
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.partyId
+  name: partyId
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html#Celeste_Mod_Helpers_DiscordRpc_RichPresenceStruct_partyId
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.partyId
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.partyId
+  nameWithType: DiscordRpc.RichPresenceStruct.partyId
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.partyMax
+  name: partyMax
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html#Celeste_Mod_Helpers_DiscordRpc_RichPresenceStruct_partyMax
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.partyMax
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.partyMax
+  nameWithType: DiscordRpc.RichPresenceStruct.partyMax
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.partySize
+  name: partySize
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html#Celeste_Mod_Helpers_DiscordRpc_RichPresenceStruct_partySize
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.partySize
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.partySize
+  nameWithType: DiscordRpc.RichPresenceStruct.partySize
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.smallImageKey
+  name: smallImageKey
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html#Celeste_Mod_Helpers_DiscordRpc_RichPresenceStruct_smallImageKey
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.smallImageKey
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.smallImageKey
+  nameWithType: DiscordRpc.RichPresenceStruct.smallImageKey
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.smallImageText
+  name: smallImageText
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html#Celeste_Mod_Helpers_DiscordRpc_RichPresenceStruct_smallImageText
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.smallImageText
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.smallImageText
+  nameWithType: DiscordRpc.RichPresenceStruct.smallImageText
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.spectateSecret
+  name: spectateSecret
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html#Celeste_Mod_Helpers_DiscordRpc_RichPresenceStruct_spectateSecret
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.spectateSecret
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.spectateSecret
+  nameWithType: DiscordRpc.RichPresenceStruct.spectateSecret
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.startTimestamp
+  name: startTimestamp
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html#Celeste_Mod_Helpers_DiscordRpc_RichPresenceStruct_startTimestamp
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.startTimestamp
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.startTimestamp
+  nameWithType: DiscordRpc.RichPresenceStruct.startTimestamp
+- uid: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.state
+  name: state
+  href: api/Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.html#Celeste_Mod_Helpers_DiscordRpc_RichPresenceStruct_state
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.state
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RichPresenceStruct.state
+  nameWithType: DiscordRpc.RichPresenceStruct.state
+- uid: Celeste.Mod.Helpers.DiscordRpc.RunCallbacks
+  name: RunCallbacks
+  href: api/Celeste.Mod.Helpers.DiscordRpc.html#Celeste_Mod_Helpers_DiscordRpc_RunCallbacks
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.RunCallbacks
+  fullName: Celeste.Mod.Helpers.DiscordRpc.RunCallbacks
+  nameWithType: DiscordRpc.RunCallbacks
+- uid: Celeste.Mod.Helpers.DiscordRpc.Shutdown
+  name: Shutdown
+  href: api/Celeste.Mod.Helpers.DiscordRpc.html#Celeste_Mod_Helpers_DiscordRpc_Shutdown
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.Shutdown
+  fullName: Celeste.Mod.Helpers.DiscordRpc.Shutdown
+  nameWithType: DiscordRpc.Shutdown
+- uid: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback
+  name: DiscordRpc.SpectateCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.html
+  commentId: T:Celeste.Mod.Helpers.DiscordRpc.SpectateCallback
+  fullName: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback
+  nameWithType: DiscordRpc.SpectateCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.#ctor(System.Object,System.IntPtr)
+  name: SpectateCallback(Object, IntPtr)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.html#Celeste_Mod_Helpers_DiscordRpc_SpectateCallback__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.SpectateCallback(System.Object, System.IntPtr)
+  nameWithType: DiscordRpc.SpectateCallback.SpectateCallback(Object, IntPtr)
+- uid: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.#ctor*
+  name: SpectateCallback
+  href: api/Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.html#Celeste_Mod_Helpers_DiscordRpc_SpectateCallback__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.#ctor
+  fullName: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.SpectateCallback
+  nameWithType: DiscordRpc.SpectateCallback.SpectateCallback
+- uid: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.BeginInvoke(System.String,System.AsyncCallback,System.Object)
+  name: BeginInvoke(String, AsyncCallback, Object)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.html#Celeste_Mod_Helpers_DiscordRpc_SpectateCallback_BeginInvoke_System_String_System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.BeginInvoke(System.String,System.AsyncCallback,System.Object)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.BeginInvoke(System.String, System.AsyncCallback, System.Object)
+  nameWithType: DiscordRpc.SpectateCallback.BeginInvoke(String, AsyncCallback, Object)
+- uid: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.html#Celeste_Mod_Helpers_DiscordRpc_SpectateCallback_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.BeginInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.BeginInvoke
+  nameWithType: DiscordRpc.SpectateCallback.BeginInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.html#Celeste_Mod_Helpers_DiscordRpc_SpectateCallback_EndInvoke_System_IAsyncResult_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.EndInvoke(System.IAsyncResult)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.EndInvoke(System.IAsyncResult)
+  nameWithType: DiscordRpc.SpectateCallback.EndInvoke(IAsyncResult)
+- uid: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.html#Celeste_Mod_Helpers_DiscordRpc_SpectateCallback_EndInvoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.EndInvoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.EndInvoke
+  nameWithType: DiscordRpc.SpectateCallback.EndInvoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.Invoke(System.String)
+  name: Invoke(String)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.html#Celeste_Mod_Helpers_DiscordRpc_SpectateCallback_Invoke_System_String_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.Invoke(System.String)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.Invoke(System.String)
+  nameWithType: DiscordRpc.SpectateCallback.Invoke(String)
+- uid: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.html#Celeste_Mod_Helpers_DiscordRpc_SpectateCallback_Invoke_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.Invoke
+  fullName: Celeste.Mod.Helpers.DiscordRpc.SpectateCallback.Invoke
+  nameWithType: DiscordRpc.SpectateCallback.Invoke
+- uid: Celeste.Mod.Helpers.DiscordRpc.UpdateHandlers
+  name: UpdateHandlers
+  href: api/Celeste.Mod.Helpers.DiscordRpc.html#Celeste_Mod_Helpers_DiscordRpc_UpdateHandlers
+  commentId: F:Celeste.Mod.Helpers.DiscordRpc.UpdateHandlers
+  fullName: Celeste.Mod.Helpers.DiscordRpc.UpdateHandlers
+  nameWithType: DiscordRpc.UpdateHandlers
+- uid: Celeste.Mod.Helpers.DiscordRpc.UpdatePresence(Celeste.Mod.Helpers.DiscordRpc.RichPresence)
+  name: UpdatePresence(DiscordRpc.RichPresence)
+  href: api/Celeste.Mod.Helpers.DiscordRpc.html#Celeste_Mod_Helpers_DiscordRpc_UpdatePresence_Celeste_Mod_Helpers_DiscordRpc_RichPresence_
+  commentId: M:Celeste.Mod.Helpers.DiscordRpc.UpdatePresence(Celeste.Mod.Helpers.DiscordRpc.RichPresence)
+  fullName: Celeste.Mod.Helpers.DiscordRpc.UpdatePresence(Celeste.Mod.Helpers.DiscordRpc.RichPresence)
+  nameWithType: DiscordRpc.UpdatePresence(DiscordRpc.RichPresence)
+- uid: Celeste.Mod.Helpers.DiscordRpc.UpdatePresence*
+  name: UpdatePresence
+  href: api/Celeste.Mod.Helpers.DiscordRpc.html#Celeste_Mod_Helpers_DiscordRpc_UpdatePresence_
+  commentId: Overload:Celeste.Mod.Helpers.DiscordRpc.UpdatePresence
+  fullName: Celeste.Mod.Helpers.DiscordRpc.UpdatePresence
+  nameWithType: DiscordRpc.UpdatePresence
 - uid: Celeste.Mod.Helpers.FakeAssembly
   name: FakeAssembly
   href: api/Celeste.Mod.Helpers.FakeAssembly.html
@@ -6241,138 +7396,6 @@ references:
   commentId: F:Celeste.Mod.MTextureOverride.Width
   fullName: Celeste.Mod.MTextureOverride.Width
   nameWithType: MTextureOverride.Width
-- uid: Celeste.Mod.Notification
-  name: Notification
-  href: api/Celeste.Mod.Notification.html
-  commentId: T:Celeste.Mod.Notification
-  fullName: Celeste.Mod.Notification
-  nameWithType: Notification
-- uid: Celeste.Mod.Notification.#ctor
-  name: Notification()
-  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification__ctor
-  commentId: M:Celeste.Mod.Notification.#ctor
-  fullName: Celeste.Mod.Notification.Notification()
-  nameWithType: Notification.Notification()
-- uid: Celeste.Mod.Notification.#ctor*
-  name: Notification
-  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification__ctor_
-  commentId: Overload:Celeste.Mod.Notification.#ctor
-  fullName: Celeste.Mod.Notification.Notification
-  nameWithType: Notification.Notification
-- uid: Celeste.Mod.Notification.Background
-  name: Background
-  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Background
-  commentId: F:Celeste.Mod.Notification.Background
-  fullName: Celeste.Mod.Notification.Background
-  nameWithType: Notification.Background
-- uid: Celeste.Mod.Notification.ColorBackground
-  name: ColorBackground
-  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_ColorBackground
-  commentId: F:Celeste.Mod.Notification.ColorBackground
-  fullName: Celeste.Mod.Notification.ColorBackground
-  nameWithType: Notification.ColorBackground
-- uid: Celeste.Mod.Notification.ColorForeground
-  name: ColorForeground
-  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_ColorForeground
-  commentId: F:Celeste.Mod.Notification.ColorForeground
-  fullName: Celeste.Mod.Notification.ColorForeground
-  nameWithType: Notification.ColorForeground
-- uid: Celeste.Mod.Notification.Description
-  name: Description
-  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Description
-  commentId: F:Celeste.Mod.Notification.Description
-  fullName: Celeste.Mod.Notification.Description
-  nameWithType: Notification.Description
-- uid: Celeste.Mod.Notification.Draw
-  name: Draw()
-  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Draw
-  commentId: M:Celeste.Mod.Notification.Draw
-  fullName: Celeste.Mod.Notification.Draw()
-  nameWithType: Notification.Draw()
-- uid: Celeste.Mod.Notification.Draw*
-  name: Draw
-  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Draw_
-  commentId: Overload:Celeste.Mod.Notification.Draw
-  fullName: Celeste.Mod.Notification.Draw
-  nameWithType: Notification.Draw
-- uid: Celeste.Mod.Notification.Icon
-  name: Icon
-  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Icon
-  commentId: F:Celeste.Mod.Notification.Icon
-  fullName: Celeste.Mod.Notification.Icon
-  nameWithType: Notification.Icon
-- uid: Celeste.Mod.Notification.Title
-  name: Title
-  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Title
-  commentId: F:Celeste.Mod.Notification.Title
-  fullName: Celeste.Mod.Notification.Title
-  nameWithType: Notification.Title
-- uid: Celeste.Mod.Notification.Update
-  name: Update()
-  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Update
-  commentId: M:Celeste.Mod.Notification.Update
-  fullName: Celeste.Mod.Notification.Update()
-  nameWithType: Notification.Update()
-- uid: Celeste.Mod.Notification.Update*
-  name: Update
-  href: api/Celeste.Mod.Notification.html#Celeste_Mod_Notification_Update_
-  commentId: Overload:Celeste.Mod.Notification.Update
-  fullName: Celeste.Mod.Notification.Update
-  nameWithType: Notification.Update
-- uid: Celeste.Mod.NotificationManager
-  name: NotificationManager
-  href: api/Celeste.Mod.NotificationManager.html
-  commentId: T:Celeste.Mod.NotificationManager
-  fullName: Celeste.Mod.NotificationManager
-  nameWithType: NotificationManager
-- uid: Celeste.Mod.NotificationManager.#ctor(Microsoft.Xna.Framework.Game)
-  name: NotificationManager(Game)
-  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager__ctor_Microsoft_Xna_Framework_Game_
-  commentId: M:Celeste.Mod.NotificationManager.#ctor(Microsoft.Xna.Framework.Game)
-  fullName: Celeste.Mod.NotificationManager.NotificationManager(Microsoft.Xna.Framework.Game)
-  nameWithType: NotificationManager.NotificationManager(Game)
-- uid: Celeste.Mod.NotificationManager.#ctor*
-  name: NotificationManager
-  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager__ctor_
-  commentId: Overload:Celeste.Mod.NotificationManager.#ctor
-  fullName: Celeste.Mod.NotificationManager.NotificationManager
-  nameWithType: NotificationManager.NotificationManager
-- uid: Celeste.Mod.NotificationManager.Draw(Microsoft.Xna.Framework.GameTime)
-  name: Draw(GameTime)
-  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager_Draw_Microsoft_Xna_Framework_GameTime_
-  commentId: M:Celeste.Mod.NotificationManager.Draw(Microsoft.Xna.Framework.GameTime)
-  fullName: Celeste.Mod.NotificationManager.Draw(Microsoft.Xna.Framework.GameTime)
-  nameWithType: NotificationManager.Draw(GameTime)
-- uid: Celeste.Mod.NotificationManager.Draw*
-  name: Draw
-  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager_Draw_
-  commentId: Overload:Celeste.Mod.NotificationManager.Draw
-  fullName: Celeste.Mod.NotificationManager.Draw
-  nameWithType: NotificationManager.Draw
-- uid: Celeste.Mod.NotificationManager.Instance
-  name: Instance
-  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager_Instance
-  commentId: F:Celeste.Mod.NotificationManager.Instance
-  fullName: Celeste.Mod.NotificationManager.Instance
-  nameWithType: NotificationManager.Instance
-- uid: Celeste.Mod.NotificationManager.Notifications
-  name: Notifications
-  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager_Notifications
-  commentId: F:Celeste.Mod.NotificationManager.Notifications
-  fullName: Celeste.Mod.NotificationManager.Notifications
-  nameWithType: NotificationManager.Notifications
-- uid: Celeste.Mod.NotificationManager.Update(Microsoft.Xna.Framework.GameTime)
-  name: Update(GameTime)
-  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager_Update_Microsoft_Xna_Framework_GameTime_
-  commentId: M:Celeste.Mod.NotificationManager.Update(Microsoft.Xna.Framework.GameTime)
-  fullName: Celeste.Mod.NotificationManager.Update(Microsoft.Xna.Framework.GameTime)
-  nameWithType: NotificationManager.Update(GameTime)
-- uid: Celeste.Mod.NotificationManager.Update*
-  name: Update
-  href: api/Celeste.Mod.NotificationManager.html#Celeste_Mod_NotificationManager_Update_
-  commentId: Overload:Celeste.Mod.NotificationManager.Update
-  fullName: Celeste.Mod.NotificationManager.Update
-  nameWithType: NotificationManager.Update
 - uid: Celeste.Mod.RelinkerSymbolReaderProvider
   name: RelinkerSymbolReaderProvider
   href: api/Celeste.Mod.RelinkerSymbolReaderProvider.html
@@ -7483,6 +8506,18 @@ references:
   commentId: F:Celeste.Mod.UI.OuiModOptionString.MaxValueLength
   fullName: Celeste.Mod.UI.OuiModOptionString.MaxValueLength
   nameWithType: OuiModOptionString.MaxValueLength
+- uid: Celeste.Mod.UI.OuiModOptionString.OnTextInput(System.Char)
+  name: OnTextInput(Char)
+  href: api/Celeste.Mod.UI.OuiModOptionString.html#Celeste_Mod_UI_OuiModOptionString_OnTextInput_System_Char_
+  commentId: M:Celeste.Mod.UI.OuiModOptionString.OnTextInput(System.Char)
+  fullName: Celeste.Mod.UI.OuiModOptionString.OnTextInput(System.Char)
+  nameWithType: OuiModOptionString.OnTextInput(Char)
+- uid: Celeste.Mod.UI.OuiModOptionString.OnTextInput*
+  name: OnTextInput
+  href: api/Celeste.Mod.UI.OuiModOptionString.html#Celeste_Mod_UI_OuiModOptionString_OnTextInput_
+  commentId: Overload:Celeste.Mod.UI.OuiModOptionString.OnTextInput
+  fullName: Celeste.Mod.UI.OuiModOptionString.OnTextInput
+  nameWithType: OuiModOptionString.OnTextInput
 - uid: Celeste.Mod.UI.OuiModOptionString.OnValueChange
   name: OnValueChange
   href: api/Celeste.Mod.UI.OuiModOptionString.html#Celeste_Mod_UI_OuiModOptionString_OnValueChange
