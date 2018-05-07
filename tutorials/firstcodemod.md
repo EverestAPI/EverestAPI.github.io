@@ -13,10 +13,12 @@ _description: "What project template do I use? How do I make my options show up?
 <p>
 <li>Everest: [Website](/)</li>
 <li>Visual Studio 2015 or newer. MonoDevelop instructions are different.</li>
-<li>NuGet, both for CLI and VS: [Downloads](https://www.nuget.org/downloads)
+<li>NuGet, either for your IDE, or CLI.
     <ul>
-        <li>Mono already ships with the `nuget` command-line command.</li>
-        <li>Make sure that `nuget.exe` is in a directory on your PATH. If you're on Windows and lazy, drop it in System32 **at your own risk.**</li>
+        <li>Visual Studio 2017: Included</li>
+        <li>Visual Studio 2015: [Download NuGet.Tools.vsix](https://dist.nuget.org/visualstudio-2015-vsix/latest/NuGet.Tools.vsix)</li>
+        <li>Linux / macOS: CLI version included with Mono.</li>
+        <li>Windows: [Download nuget.exe](https://dist.nuget.org/win-x86-commandline/latest/nuget.exe)</li>
     </ul>
 </li>
 <li>_Optional:_ git, either [CLI](https://git-scm.com/downloads) or GUI client (f.e. [GitHub Desktop](https://desktop.github.com/))</li>
@@ -46,20 +48,13 @@ Now that you've created a new, empty project, it's time to add the Everest API.
 
 ### Adding Everest files
 
-If your new project is a git repository, add Everest as a submodule.  
-CLI command:
+If your new project is a git repository, add Everest as a submodule.
 
 ```
 git submodule add https://github.com/EverestAPI/Everest.git
 ```
 
 Otherwise, download the Everest source code .zip ([master](https://github.com/EverestAPI/Everest/archive/master.zip), [stable](https://github.com/EverestAPI/Everest/archive/stable.zip)) and place it as `Everest` in your project directory.
-
-After adding Everest, open a terminal (cmd, bash) in the Everest directory and execute the following command:
-
-```
-nuget restore Everest.sln
-```
 
 The file layout should look similar to this:
 
@@ -78,6 +73,9 @@ Afterwards, right-click on Celeste.Mod.mm and build it.
 Everest (Celeste.Mod.mm) should now exist as a project in your solution like this:
 
 ![4-addedeverestproj](/images/firstcodemod/4-addedeverestproj.png)
+
+> [!NOTE]
+> If the compiler complains about the nuget packages not being found, right-click the references, select "Manage NuGet packages..." and restore them.
 
 ### Adding References
 
