@@ -130,9 +130,9 @@ Adding a dependency to a mod with version `0.0.*` ignores the above checks at yo
 
 ```
 
-- The mod will load with Everest `2.1+.*`, meaning `2.1.*`, `2.2.*`, `2.3.*`, ...
-- The mod won't load with Everest `2.0.*` as the MINOR version is too old. The mod depends on a newer API.
-- The mod won't load with Everest `1.*.*`, `3.*.*`, `4.*.*` or similar. The API has changed in a way that could break the mod.
+- The mod will load with Everest `1.0+.*`, meaning `1.0.*`, `1.1.*`, `1.2.*`, ...
+- The mod won't load with Everest older than `1.0.0`.
+- The mod won't load with Everest `2.*.*`, `3.*.*`, `4.*.*` or similar. The API has changed in a way that could break the mod.
 
 ### Level Mod
 
