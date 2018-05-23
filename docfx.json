@@ -38,6 +38,7 @@
         "files": [
           "images/**",
           "fonts/**",
+          "downloads/**",
           "logo*",
           "favicon*"
         ]
