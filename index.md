@@ -19,7 +19,7 @@ If you've got any issues with Everest, we're in the #game_modding channel of thi
 ## Installing Everest
 
 ### Windows auto-installer
-- [**Download the latest installer `.exe` on GameBanana**](https://gamebanana.com/tools/6449#ItemProfileModule) and run it.
+- [**Download the latest installer `.exe`**](https://github.com/EverestAPI/Everest.Installer/releases) and run it.
 - If Windows SmartScreen blocks it, tell it to run anyway.
 - Steam: The installer should find your game automatically.
 - itch.io: Select Celeste.exe in the installer.
