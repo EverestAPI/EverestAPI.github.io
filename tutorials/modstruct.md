@@ -37,6 +37,8 @@ A mod `.zip` shouldn't contain the content in a subdirectory. All of its content
 
 Mods can contain custom content, both overrides / replacements (when supported) and new content. The content paths match the originals as close as possible.
 
+Mods must contain a [`everest.yaml` metadata file.](#metadata)
+
 **The following content mappings are supported out of the box:**
 - `Graphics/Atlases/*.png`: Replace or add textures.
     - Supports `.meta` definition files.
@@ -135,7 +137,7 @@ Adding a dependency to a mod with version `0.0.*` ignores the above checks at yo
 ### Level Mod
 
 **File list:**
-- `everest.yaml`: Empty metadata file for GameBanana.
+- `everest.yaml`
 - `Dialog/English.txt`: LevelSet and chapter names.
 - `Maps/Cruor-Secret.bin`: A-side map binary.
 - `Maps/Cruor-Secret.meta.yaml`: Chapter metadata. Always the `.meta` of the A-side binary.
