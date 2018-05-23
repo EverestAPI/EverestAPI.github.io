@@ -163,7 +163,8 @@
 &lt;/EmbeddedResource&gt;
 </code></pre><p>Additionally, for embedded resources, the C# compiler requires filepaths with <code>\</code> as the directory separator, but the content is accessed with <code>/</code> as the directory separator. <strong>Everest replaces all <code>\</code> symbols with <code>/</code> symbols in embedded resource paths at runtime.</strong></p>
 <h2 id="metadata">Metadata</h2>
-<p>The <code>metadata.yaml</code> file in your mod defines its name (ID), version, (optional) DLL path and any dependencies.</p>
+<p>The <code>everest.yaml</code> file in your mod contains a list of all &quot;module&quot; names (ID), version, (optional) DLL paths and any dependencies.</p>
+<p>If you&#39;ve got no mod DLLs, leave that field out. If you&#39;ve got multiple modules in separate DLLs, list them separately.</p>
 <p><strong>The version should match the <a href="https://semver.org/">semver (semantic versioning) format</a>:</strong></p>
 <ul>
 <li>The MAJOR version must match to prevent breakages caused by API changes (f.e. API removals).</li>
@@ -175,20 +176,30 @@
 <h3 id="code-mod">Code Mod</h3>
 <p><strong>File list:</strong></p>
 <ul>
-<li><code>metadata.yaml</code></li>
+<li><code>everest.yaml</code></li>
 <li><code>GhostMod.dll</code></li>
+<li><code>GhostNetMod.dll</code></li>
 </ul>
 <p><strong>Embedded resources:</strong></p>
 <ul>
 <li><code>Content\Dialog\English.txt</code>: Mod option texts.</li>
 </ul>
 <p><strong>Metadata:</strong></p>
-<pre><code class="lang-yaml">Name: GhostMod
-Version: 1.0.0
-DLL: GhostMod.dll
-Dependencies:
-  - Name: Everest
-    Version: 2.1.0
+<pre><code class="lang-yaml">- Name: GhostMod
+  Version: 1.2.1
+  DLL: GhostMod.dll
+  Dependencies:
+    - Name: Everest
+      Version: 1.0.0
+
+- Name: GhostNetMod
+  Version: 1.3.4
+  DLL: GhostNetMod.dll
+  Dependencies:
+    - Name: Everest
+      Version: 1.0.0
+    - Name: GhostMod
+      Version: 1.2.1
 </code></pre><ul>
 <li>The mod will load with Everest <code>2.1+.*</code>, meaning <code>2.1.*</code>, <code>2.2.*</code>, <code>2.3.*</code>, ...</li>
 <li>The mod won&#39;t load with Everest <code>2.0.*</code> as the MINOR version is too old. The mod depends on a newer API.</li>
@@ -197,6 +208,7 @@ Dependencies:
 <h3 id="level-mod">Level Mod</h3>
 <p><strong>File list:</strong></p>
 <ul>
+<li><code>everest.yaml</code>: Empty metadata file for GameBanana.</li>
 <li><code>Dialog/English.txt</code>: LevelSet and chapter names.</li>
 <li><code>Maps/Cruor-Secret.bin</code>: A-side map binary.</li>
 <li><code>Maps/Cruor-Secret.meta.yaml</code>: Chapter metadata. Always the <code>.meta</code> of the A-side binary.</li>

@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Core.CoreModuleSettings.html",
-          "hash": "hYodLftljGW2COfXYvjf6Q=="
+          "hash": "DbF4oF+mYqZ0jDL9QIDi5g=="
         }
       },
       "is_incremental": false,
@@ -403,6 +403,18 @@
         ".html": {
           "relative_path": "api/Celeste.Mod.Everest.Content.html",
           "hash": "ecHZzUNVFVN2+/Bbcs2HyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Everest.DebugRC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Everest.DebugRC.html",
+          "hash": "eNpg5UtvjltyLvkRNNwPGg=="
         }
       },
       "is_incremental": false,
@@ -762,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.EverestModuleMetadata.html",
-          "hash": "g59R2ascl81wK9ybO2tgQg=="
+          "hash": "PBpnE/OFkvJUq7qWNHEsaQ=="
         }
       },
       "is_incremental": false,
@@ -1310,6 +1322,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.RCEndPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.RCEndPoint.html",
+          "hash": "JLGrjSvGGobR2fPAcpU7CQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Celeste.Mod.RelinkerSymbolReaderProvider.yml",
       "output": {
         ".html": {
@@ -1674,7 +1698,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.html",
-          "hash": "dXOsIRP2tb9r1dSFcK4O2g=="
+          "hash": "IU9ABsyMqTFZFShqNnEWBw=="
         }
       },
       "is_incremental": false,
@@ -1926,7 +1950,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "wCHYXg2WckNEBLjlV/nDDg=="
+          "hash": "gi5K/S+w5jD6F7rgzi1BfA=="
         }
       },
       "is_incremental": false,
@@ -2051,7 +2075,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "3CLnLKzJJR96XG+pU0YoCA=="
+          "hash": "cmvq+GrtLu49Tm0h/3CctQ=="
         }
       },
       "is_incremental": false,
@@ -2085,7 +2109,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "f/yiXgs6FfyObWx5ZpPx5w=="
+          "hash": "J38C0VqDpxpo/p/4f44SiQ=="
         }
       },
       "is_incremental": false,
@@ -2121,7 +2145,7 @@
       "output": {
         ".html": {
           "relative_path": "tutorials/modstruct.html",
-          "hash": "h80XU76LQ1utJYBGgpcLHg=="
+          "hash": "iVYh/2eNH0P0l/c9rEvUSQ=="
         }
       },
       "is_incremental": false,
@@ -2147,6 +2171,11 @@
         "incrementalPhase": "build"
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
@@ -2158,11 +2187,6 @@
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }

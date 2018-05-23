@@ -1048,30 +1048,42 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CreateInputGuiEntry
   fullName: Celeste.Mod.Core.CoreModuleSettings.CreateInputGuiEntry
   nameWithType: CoreModuleSettings.CreateInputGuiEntry
-- uid: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugMode(Celeste.TextMenu,System.Boolean)
-  name: CreateLaunchInDebugMode(TextMenu, Boolean)
-  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateLaunchInDebugMode_Celeste_TextMenu_System_Boolean_
-  commentId: M:Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugMode(Celeste.TextMenu,System.Boolean)
-  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugMode(Celeste.TextMenu, System.Boolean)
-  nameWithType: CoreModuleSettings.CreateLaunchInDebugMode(TextMenu, Boolean)
-- uid: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugMode*
-  name: CreateLaunchInDebugMode
-  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateLaunchInDebugMode_
-  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugMode
-  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugMode
-  nameWithType: CoreModuleSettings.CreateLaunchInDebugMode
-- uid: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdate(Celeste.TextMenu,System.Boolean)
-  name: CreateLaunchWithFMODLiveUpdate(TextMenu, Boolean)
-  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateLaunchWithFMODLiveUpdate_Celeste_TextMenu_System_Boolean_
-  commentId: M:Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdate(Celeste.TextMenu,System.Boolean)
-  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdate(Celeste.TextMenu, System.Boolean)
-  nameWithType: CoreModuleSettings.CreateLaunchWithFMODLiveUpdate(TextMenu, Boolean)
-- uid: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdate*
-  name: CreateLaunchWithFMODLiveUpdate
-  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateLaunchWithFMODLiveUpdate_
-  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdate
-  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdate
-  nameWithType: CoreModuleSettings.CreateLaunchWithFMODLiveUpdate
+- uid: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugModeEntry(Celeste.TextMenu,System.Boolean)
+  name: CreateLaunchInDebugModeEntry(TextMenu, Boolean)
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateLaunchInDebugModeEntry_Celeste_TextMenu_System_Boolean_
+  commentId: M:Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugModeEntry(Celeste.TextMenu,System.Boolean)
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugModeEntry(Celeste.TextMenu, System.Boolean)
+  nameWithType: CoreModuleSettings.CreateLaunchInDebugModeEntry(TextMenu, Boolean)
+- uid: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugModeEntry*
+  name: CreateLaunchInDebugModeEntry
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateLaunchInDebugModeEntry_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugModeEntry
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugModeEntry
+  nameWithType: CoreModuleSettings.CreateLaunchInDebugModeEntry
+- uid: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdateEntry(Celeste.TextMenu,System.Boolean)
+  name: CreateLaunchWithFMODLiveUpdateEntry(TextMenu, Boolean)
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateLaunchWithFMODLiveUpdateEntry_Celeste_TextMenu_System_Boolean_
+  commentId: M:Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdateEntry(Celeste.TextMenu,System.Boolean)
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdateEntry(Celeste.TextMenu, System.Boolean)
+  nameWithType: CoreModuleSettings.CreateLaunchWithFMODLiveUpdateEntry(TextMenu, Boolean)
+- uid: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdateEntry*
+  name: CreateLaunchWithFMODLiveUpdateEntry
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateLaunchWithFMODLiveUpdateEntry_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdateEntry
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdateEntry
+  nameWithType: CoreModuleSettings.CreateLaunchWithFMODLiveUpdateEntry
+- uid: Celeste.Mod.Core.CoreModuleSettings.DebugRCPort
+  name: DebugRCPort
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DebugRCPort
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.DebugRCPort
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DebugRCPort
+  nameWithType: CoreModuleSettings.DebugRCPort
+- uid: Celeste.Mod.Core.CoreModuleSettings.DebugRCPort*
+  name: DebugRCPort
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DebugRCPort_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.DebugRCPort
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DebugRCPort
+  nameWithType: CoreModuleSettings.DebugRCPort
 - uid: Celeste.Mod.Core.CoreModuleSettings.DiscordID
   name: DiscordID
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DiscordID
@@ -1096,6 +1108,42 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.DiscordLib
   fullName: Celeste.Mod.Core.CoreModuleSettings.DiscordLib
   nameWithType: CoreModuleSettings.DiscordLib
+- uid: Celeste.Mod.Core.CoreModuleSettings.DiscordSubtextInGame
+  name: DiscordSubtextInGame
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DiscordSubtextInGame
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.DiscordSubtextInGame
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DiscordSubtextInGame
+  nameWithType: CoreModuleSettings.DiscordSubtextInGame
+- uid: Celeste.Mod.Core.CoreModuleSettings.DiscordSubtextInGame*
+  name: DiscordSubtextInGame
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DiscordSubtextInGame_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.DiscordSubtextInGame
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DiscordSubtextInGame
+  nameWithType: CoreModuleSettings.DiscordSubtextInGame
+- uid: Celeste.Mod.Core.CoreModuleSettings.DiscordTextInGame
+  name: DiscordTextInGame
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DiscordTextInGame
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.DiscordTextInGame
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DiscordTextInGame
+  nameWithType: CoreModuleSettings.DiscordTextInGame
+- uid: Celeste.Mod.Core.CoreModuleSettings.DiscordTextInGame*
+  name: DiscordTextInGame
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DiscordTextInGame_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.DiscordTextInGame
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DiscordTextInGame
+  nameWithType: CoreModuleSettings.DiscordTextInGame
+- uid: Celeste.Mod.Core.CoreModuleSettings.DiscordTextInMenu
+  name: DiscordTextInMenu
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DiscordTextInMenu
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.DiscordTextInMenu
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DiscordTextInMenu
+  nameWithType: CoreModuleSettings.DiscordTextInMenu
+- uid: Celeste.Mod.Core.CoreModuleSettings.DiscordTextInMenu*
+  name: DiscordTextInMenu
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DiscordTextInMenu_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.DiscordTextInMenu
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DiscordTextInMenu
+  nameWithType: CoreModuleSettings.DiscordTextInMenu
 - uid: Celeste.Mod.Core.CoreModuleSettings.InputGui
   name: InputGui
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_InputGui
@@ -1804,6 +1852,78 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Content.TryGetDialogs
   fullName: Celeste.Mod.Everest.Content.TryGetDialogs
   nameWithType: Everest.Content.TryGetDialogs
+- uid: Celeste.Mod.Everest.DebugRC
+  name: Everest.DebugRC
+  href: api/Celeste.Mod.Everest.DebugRC.html
+  commentId: T:Celeste.Mod.Everest.DebugRC
+  fullName: Celeste.Mod.Everest.DebugRC
+  nameWithType: Everest.DebugRC
+- uid: Celeste.Mod.Everest.DebugRC.EndPoints
+  name: EndPoints
+  href: api/Celeste.Mod.Everest.DebugRC.html#Celeste_Mod_Everest_DebugRC_EndPoints
+  commentId: F:Celeste.Mod.Everest.DebugRC.EndPoints
+  fullName: Celeste.Mod.Everest.DebugRC.EndPoints
+  nameWithType: Everest.DebugRC.EndPoints
+- uid: Celeste.Mod.Everest.DebugRC.Initialize
+  name: Initialize()
+  href: api/Celeste.Mod.Everest.DebugRC.html#Celeste_Mod_Everest_DebugRC_Initialize
+  commentId: M:Celeste.Mod.Everest.DebugRC.Initialize
+  fullName: Celeste.Mod.Everest.DebugRC.Initialize()
+  nameWithType: Everest.DebugRC.Initialize()
+- uid: Celeste.Mod.Everest.DebugRC.Initialize*
+  name: Initialize
+  href: api/Celeste.Mod.Everest.DebugRC.html#Celeste_Mod_Everest_DebugRC_Initialize_
+  commentId: Overload:Celeste.Mod.Everest.DebugRC.Initialize
+  fullName: Celeste.Mod.Everest.DebugRC.Initialize
+  nameWithType: Everest.DebugRC.Initialize
+- uid: Celeste.Mod.Everest.DebugRC.ParseQueryString(System.String)
+  name: ParseQueryString(String)
+  href: api/Celeste.Mod.Everest.DebugRC.html#Celeste_Mod_Everest_DebugRC_ParseQueryString_System_String_
+  commentId: M:Celeste.Mod.Everest.DebugRC.ParseQueryString(System.String)
+  fullName: Celeste.Mod.Everest.DebugRC.ParseQueryString(System.String)
+  nameWithType: Everest.DebugRC.ParseQueryString(String)
+- uid: Celeste.Mod.Everest.DebugRC.ParseQueryString*
+  name: ParseQueryString
+  href: api/Celeste.Mod.Everest.DebugRC.html#Celeste_Mod_Everest_DebugRC_ParseQueryString_
+  commentId: Overload:Celeste.Mod.Everest.DebugRC.ParseQueryString
+  fullName: Celeste.Mod.Everest.DebugRC.ParseQueryString
+  nameWithType: Everest.DebugRC.ParseQueryString
+- uid: Celeste.Mod.Everest.DebugRC.Write(System.Net.HttpListenerContext,System.String)
+  name: Write(HttpListenerContext, String)
+  href: api/Celeste.Mod.Everest.DebugRC.html#Celeste_Mod_Everest_DebugRC_Write_System_Net_HttpListenerContext_System_String_
+  commentId: M:Celeste.Mod.Everest.DebugRC.Write(System.Net.HttpListenerContext,System.String)
+  fullName: Celeste.Mod.Everest.DebugRC.Write(System.Net.HttpListenerContext, System.String)
+  nameWithType: Everest.DebugRC.Write(HttpListenerContext, String)
+- uid: Celeste.Mod.Everest.DebugRC.Write*
+  name: Write
+  href: api/Celeste.Mod.Everest.DebugRC.html#Celeste_Mod_Everest_DebugRC_Write_
+  commentId: Overload:Celeste.Mod.Everest.DebugRC.Write
+  fullName: Celeste.Mod.Everest.DebugRC.Write
+  nameWithType: Everest.DebugRC.Write
+- uid: Celeste.Mod.Everest.DebugRC.WriteHTMLEnd(System.Net.HttpListenerContext,System.Text.StringBuilder)
+  name: WriteHTMLEnd(HttpListenerContext, StringBuilder)
+  href: api/Celeste.Mod.Everest.DebugRC.html#Celeste_Mod_Everest_DebugRC_WriteHTMLEnd_System_Net_HttpListenerContext_System_Text_StringBuilder_
+  commentId: M:Celeste.Mod.Everest.DebugRC.WriteHTMLEnd(System.Net.HttpListenerContext,System.Text.StringBuilder)
+  fullName: Celeste.Mod.Everest.DebugRC.WriteHTMLEnd(System.Net.HttpListenerContext, System.Text.StringBuilder)
+  nameWithType: Everest.DebugRC.WriteHTMLEnd(HttpListenerContext, StringBuilder)
+- uid: Celeste.Mod.Everest.DebugRC.WriteHTMLEnd*
+  name: WriteHTMLEnd
+  href: api/Celeste.Mod.Everest.DebugRC.html#Celeste_Mod_Everest_DebugRC_WriteHTMLEnd_
+  commentId: Overload:Celeste.Mod.Everest.DebugRC.WriteHTMLEnd
+  fullName: Celeste.Mod.Everest.DebugRC.WriteHTMLEnd
+  nameWithType: Everest.DebugRC.WriteHTMLEnd
+- uid: Celeste.Mod.Everest.DebugRC.WriteHTMLStart(System.Net.HttpListenerContext,System.Text.StringBuilder)
+  name: WriteHTMLStart(HttpListenerContext, StringBuilder)
+  href: api/Celeste.Mod.Everest.DebugRC.html#Celeste_Mod_Everest_DebugRC_WriteHTMLStart_System_Net_HttpListenerContext_System_Text_StringBuilder_
+  commentId: M:Celeste.Mod.Everest.DebugRC.WriteHTMLStart(System.Net.HttpListenerContext,System.Text.StringBuilder)
+  fullName: Celeste.Mod.Everest.DebugRC.WriteHTMLStart(System.Net.HttpListenerContext, System.Text.StringBuilder)
+  nameWithType: Everest.DebugRC.WriteHTMLStart(HttpListenerContext, StringBuilder)
+- uid: Celeste.Mod.Everest.DebugRC.WriteHTMLStart*
+  name: WriteHTMLStart
+  href: api/Celeste.Mod.Everest.DebugRC.html#Celeste_Mod_Everest_DebugRC_WriteHTMLStart_
+  commentId: Overload:Celeste.Mod.Everest.DebugRC.WriteHTMLStart
+  fullName: Celeste.Mod.Everest.DebugRC.WriteHTMLStart
+  nameWithType: Everest.DebugRC.WriteHTMLStart
 - uid: Celeste.Mod.Everest.Discord
   name: Everest.Discord
   href: api/Celeste.Mod.Everest.Discord.html
@@ -3511,6 +3631,12 @@ references:
   commentId: Overload:Celeste.Mod.EverestModuleMetadata.#ctor
   fullName: Celeste.Mod.EverestModuleMetadata.EverestModuleMetadata
   nameWithType: EverestModuleMetadata.EverestModuleMetadata
+- uid: Celeste.Mod.EverestModuleMetadata._VersionString
+  name: _VersionString
+  href: api/Celeste.Mod.EverestModuleMetadata.html#Celeste_Mod_EverestModuleMetadata__VersionString
+  commentId: F:Celeste.Mod.EverestModuleMetadata._VersionString
+  fullName: Celeste.Mod.EverestModuleMetadata._VersionString
+  nameWithType: EverestModuleMetadata._VersionString
 - uid: Celeste.Mod.EverestModuleMetadata.Dependencies
   name: Dependencies
   href: api/Celeste.Mod.EverestModuleMetadata.html#Celeste_Mod_EverestModuleMetadata_Dependencies
@@ -7396,6 +7522,60 @@ references:
   commentId: F:Celeste.Mod.MTextureOverride.Width
   fullName: Celeste.Mod.MTextureOverride.Width
   nameWithType: MTextureOverride.Width
+- uid: Celeste.Mod.RCEndPoint
+  name: RCEndPoint
+  href: api/Celeste.Mod.RCEndPoint.html
+  commentId: T:Celeste.Mod.RCEndPoint
+  fullName: Celeste.Mod.RCEndPoint
+  nameWithType: RCEndPoint
+- uid: Celeste.Mod.RCEndPoint.#ctor
+  name: RCEndPoint()
+  href: api/Celeste.Mod.RCEndPoint.html#Celeste_Mod_RCEndPoint__ctor
+  commentId: M:Celeste.Mod.RCEndPoint.#ctor
+  fullName: Celeste.Mod.RCEndPoint.RCEndPoint()
+  nameWithType: RCEndPoint.RCEndPoint()
+- uid: Celeste.Mod.RCEndPoint.#ctor*
+  name: RCEndPoint
+  href: api/Celeste.Mod.RCEndPoint.html#Celeste_Mod_RCEndPoint__ctor_
+  commentId: Overload:Celeste.Mod.RCEndPoint.#ctor
+  fullName: Celeste.Mod.RCEndPoint.RCEndPoint
+  nameWithType: RCEndPoint.RCEndPoint
+- uid: Celeste.Mod.RCEndPoint.Handle
+  name: Handle
+  href: api/Celeste.Mod.RCEndPoint.html#Celeste_Mod_RCEndPoint_Handle
+  commentId: F:Celeste.Mod.RCEndPoint.Handle
+  fullName: Celeste.Mod.RCEndPoint.Handle
+  nameWithType: RCEndPoint.Handle
+- uid: Celeste.Mod.RCEndPoint.InfoHTML
+  name: InfoHTML
+  href: api/Celeste.Mod.RCEndPoint.html#Celeste_Mod_RCEndPoint_InfoHTML
+  commentId: F:Celeste.Mod.RCEndPoint.InfoHTML
+  fullName: Celeste.Mod.RCEndPoint.InfoHTML
+  nameWithType: RCEndPoint.InfoHTML
+- uid: Celeste.Mod.RCEndPoint.Name
+  name: Name
+  href: api/Celeste.Mod.RCEndPoint.html#Celeste_Mod_RCEndPoint_Name
+  commentId: F:Celeste.Mod.RCEndPoint.Name
+  fullName: Celeste.Mod.RCEndPoint.Name
+  nameWithType: RCEndPoint.Name
+- uid: Celeste.Mod.RCEndPoint.Path
+  name: Path
+  href: api/Celeste.Mod.RCEndPoint.html#Celeste_Mod_RCEndPoint_Path
+  commentId: F:Celeste.Mod.RCEndPoint.Path
+  fullName: Celeste.Mod.RCEndPoint.Path
+  nameWithType: RCEndPoint.Path
+- uid: Celeste.Mod.RCEndPoint.PathExample
+  name: PathExample
+  href: api/Celeste.Mod.RCEndPoint.html#Celeste_Mod_RCEndPoint_PathExample
+  commentId: F:Celeste.Mod.RCEndPoint.PathExample
+  fullName: Celeste.Mod.RCEndPoint.PathExample
+  nameWithType: RCEndPoint.PathExample
+- uid: Celeste.Mod.RCEndPoint.PathHelp
+  name: PathHelp
+  href: api/Celeste.Mod.RCEndPoint.html#Celeste_Mod_RCEndPoint_PathHelp
+  commentId: F:Celeste.Mod.RCEndPoint.PathHelp
+  fullName: Celeste.Mod.RCEndPoint.PathHelp
+  nameWithType: RCEndPoint.PathHelp
 - uid: Celeste.Mod.RelinkerSymbolReaderProvider
   name: RelinkerSymbolReaderProvider
   href: api/Celeste.Mod.RelinkerSymbolReaderProvider.html
