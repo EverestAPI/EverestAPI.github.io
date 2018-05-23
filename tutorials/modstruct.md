@@ -85,7 +85,9 @@ Additionally, for embedded resources, the C# compiler requires filepaths with `\
 
 ## Metadata
 
-The `metadata.yaml` file in your mod defines its name (ID), version, (optional) DLL path and any dependencies.
+The `everest.yaml` file in your mod contains a list of all "module" names (ID), version, (optional) DLL paths and any dependencies.
+
+If you've got no mod DLLs, leave that field out. If you've got multiple modules in separate DLLs, list them separately.
 
 **The version should match the [semver (semantic versioning) format](https://semver.org/):**
 - The MAJOR version must match to prevent breakages caused by API changes (f.e. API removals).
@@ -99,20 +101,31 @@ Adding a dependency to a mod with version `0.0.*` ignores the above checks at yo
 ### Code Mod
 
 **File list:**
-- `metadata.yaml`
+- `everest.yaml`
 - `GhostMod.dll`
+- `GhostNetMod.dll`
 
 **Embedded resources:**
 - `Content\Dialog\English.txt`: Mod option texts.
 
 **Metadata:**
 ```yaml
-Name: GhostMod
-Version: 1.0.0
-DLL: GhostMod.dll
-Dependencies:
-  - Name: Everest
-    Version: 2.1.0
+- Name: GhostMod
+  Version: 1.2.1
+  DLL: GhostMod.dll
+  Dependencies:
+    - Name: Everest
+      Version: 1.0.0
+
+- Name: GhostNetMod
+  Version: 1.3.4
+  DLL: GhostNetMod.dll
+  Dependencies:
+    - Name: Everest
+      Version: 1.0.0
+    - Name: GhostMod
+      Version: 1.2.1
+
 ```
 
 - The mod will load with Everest `2.1+.*`, meaning `2.1.*`, `2.2.*`, `2.3.*`, ...
@@ -122,6 +135,7 @@ Dependencies:
 ### Level Mod
 
 **File list:**
+- `everest.yaml`: Empty metadata file for GameBanana.
 - `Dialog/English.txt`: LevelSet and chapter names.
 - `Maps/Cruor-Secret.bin`: A-side map binary.
 - `Maps/Cruor-Secret.meta.yaml`: Chapter metadata. Always the `.meta` of the A-side binary.
