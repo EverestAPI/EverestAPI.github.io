@@ -137,14 +137,16 @@
 <h3 id="adding-references">Adding References</h3>
 <p><strong>Everest comes with most of its dependencies in the <code>lib</code> and <code>lib-stripped</code> subdirectories.</strong></p>
 <ul>
-<li><code>lib</code> contains <code>.dlls</code> (and <code>MonoMod.exe</code>) ready to be used by your mod as-is.</li>
+<li><code>lib</code> contains all libraries ready to be used by your mod as-is.</li>
 <li><code>lib-stripped</code> contains copies of a select few game binaries, stripped with <code>mono-cil-strip</code>. They don&#39;t contain any executable code and only contain the definitions for you to compile against.</li>
 </ul>
 <div class="NOTE"><h5>Note</h5><p>Everest mods are built with the <a href="https://fna-xna.github.io/">FNA branch of Celeste</a> to make use of its <a href="https://github.com/FNA-XNA/FNA/wiki/5:-FNA-Extensions">API extensions</a> and for cross-platform compatibility. <strong>Everest will relink your mod from FNA to XNA at runtime.</strong></p>
 </div>
 <p>Right-click your project&#39;s &quot;References&quot; and select &quot;Add Reference...&quot;, then set up the references so that they look like in the following screenshot:</p>
 <p><img src="/images/firstcodemod/5-addedeverestrefs.png" alt="5-addedeverestrefs"></p>
-<div class="IMPORTANT"><h5>Important</h5><p>Make sure to go into the properties of each included reference and set &quot;Copy Local&quot; to &quot;False&quot;, otherwise Visual Studio will include outdated / conflicting copies in your mod.</p>
+<div class="NOTE"><h5>Note</h5><p><code>MMHOOK_Celeste.dll</code> is automatically generated when you install Everest. Copy it from your Celeste directory to your project directory and add it as a reference.</p>
+</div>
+<div class="IMPORTANT"><h5>Important</h5><p>Make sure to go into the properties of each included reference and set &quot;Copy Local&quot; to &quot;False&quot;, otherwise Visual Studio will include outdated / conflicting copies in your mod. </p>
 </div>
 <div class="IMPORTANT"><h5>Important</h5><p>If you want to maintain cross-platform compatibility, make sure to remove any .NET Framework references not on this list.</p>
 <ul>
@@ -159,16 +161,6 @@
 <li>System.Xml.Linq</li>
 </ul>
 <p>This means: Microsoft.CSharp, System.Windows.Anything, System.IO.Compression and other libraries are not available on Linux / macOS.<br>For an up-to-date list, check the <a href="https://github.com/flibitijibibo/MonoKickstart/tree/master/precompiled">list of precompiled MonoKickstart libraries</a>, as Celeste uses them for Linux / macOS.</p>
-</div>
-<h2 id="recommended-nuget-packages">Recommended NuGet packages</h2>
-<p><strong>We&#39;re recommending you to install the following NuGet packages:</strong></p>
-<ul>
-<li><code>Microsoft.Net.Compilers</code> - Maintain build compatibility on systems with older C# compilers installed. <strong>Latest version recommended</strong></li>
-<li><code>System.ValueTuple</code> - Used by HookedMethod.</li>
-<li><code>Mono.Cecil</code> - Used by HookedMethod and MonoMod. IL manipulation library. <strong>0.10.0 or newer required</strong></li>
-<li><code>HookedMethod</code> - Hook methods with ease at runtime. <strong>0.3.1 or newer required</strong></li>
-</ul>
-<div class="IMPORTANT"><h5>Important</h5><p>Make sure to go into the properties of the Mono.Cecil and HookedMethod references and set &quot;Copy Local&quot; to &quot;False&quot;, otherwise Visual Studio will include outdated / conflicting copies in your mod.</p>
 </div>
 <h2 id="module-class">Module class</h2>
 <p>Your module class should look similar to the example.</p>
@@ -297,7 +289,7 @@ namespace Celeste.Mod.Example {
 <li><strong>Everest.Events:</strong> This is a very restricted event listening method built into Everest, and is only used when Everest needs to do work behind the scenes for you. You can&#39;t control when the original method runs.</li>
 <li><strong>MMHOOK_Celeste.dll:</strong> This auto-generated file allows you to hook to all Celeste methods as if they were events. You are responsible to run the original method. Also, <strong>you need to install Everest on the OpenGL / FNA version of the game to auto-generate a working .dll</strong>, otherwise you&#39;ll need the Windows-only and obsolete XNA Framework to even compile your mod. <a href="https://github.com/EverestAPI/GhostMod/blob/75bfd526210d151b20ec417757e4cbe4436de16c/GhostNetMod/GhostNetHooks.cs#L18">Take a look at an example in GhostNet here.</a></li>
 </ul>
-<p>If you&#39;re interested in lower-level runtime detouring, take a look at <a href="https://github.com/EverestAPI/HookedMethod/blob/master/Examples/Program.cs">HookedMethod.Hook</a>. If you&#39;re interested in the lowest level of detouring, take a look at <a href="https://github.com/0x0ade/MonoMod/tree/master/MonoMod.RuntimeDetour">MonoMod.RuntimeDetour</a>, which also powers <code>MMHOOK_Celeste.dll</code>.</p>
+<p>If you&#39;re interested in lower-level runtime detouring, take a look at <a href="https://github.com/EverestAPI/HookedMethod/blob/master/Examples/Program.cs">HookedMethod.Hook</a>, available via NuGet. Make sure to set it and its dependencies&#39; &quot;Copy Local&quot; property to &quot;False&quot;, as Everest provides them for you.<br>If you&#39;re interested in the lowest level of detouring, take a look at <a href="https://github.com/0x0ade/MonoMod/tree/master/MonoMod.RuntimeDetour">MonoMod.RuntimeDetour</a>, which also powers <code>MMHOOK_Celeste.dll</code>.</p>
 </article>
           </div>
           
