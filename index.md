@@ -46,6 +46,7 @@ If you've got any issues with Everest, we're in the #game_modding channel of thi
 - If you've **previously installed Everest and updated Celeste** or switched betas / branches, delete the `orig` directory where Celeste is installed.
     - macOS: Open the Celeste app in Finder, then naviagte to `Contents`, then `MacOS`.
 - Clone the [Everest repo](github.com/EverestAPI/Everest), either in your IDE, via the CLI, or by downloading the .zip from GitHub.
+- Restore Nuget packages either via your IDE or the command line.
 
 ### Windows
 - Open the .sln in the repo with Visual Studio
