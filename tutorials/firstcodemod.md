@@ -113,7 +113,7 @@ Right-click your project's "References" and select "Add Reference...", then set 
 **We're recommending you to install the following NuGet packages:**
 - `Microsoft.Net.Compilers` - Maintain build compatibility on systems with older C# compilers installed. **Latest version recommended**
 - `System.ValueTuple` - Used by HookedMethod.
-- `Mono.Cecil` - Used by HookedMethod and MonoMod. IL manipulation library. **0.10.0 or newer required**
+- `Mono.Cecil` - Used by HookedMethod and MonoMod (**and is thus required to make changes to the game's code**). IL manipulation library. **0.10.0 or newer required**
 - `HookedMethod` - Hook methods with ease at runtime. **0.3.1 or newer required**
 
 > [!IMPORTANT]
