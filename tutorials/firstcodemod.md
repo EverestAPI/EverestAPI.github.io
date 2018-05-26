@@ -80,7 +80,7 @@ Everest (Celeste.Mod.mm) should now exist as a project in your solution like thi
 ### Adding References
 
 **Everest comes with most of its dependencies in the `lib` and `lib-stripped` subdirectories.**
-- `lib` contains `.dlls` (and `MonoMod.exe`) ready to be used by your mod as-is.
+- `lib` contains all libraries ready to be used by your mod as-is.
 - `lib-stripped` contains copies of a select few game binaries, stripped with `mono-cil-strip`. They don't contain any executable code and only contain the definitions for you to compile against.
 
 > [!NOTE]
@@ -90,8 +90,11 @@ Right-click your project's "References" and select "Add Reference...", then set 
 
 ![5-addedeverestrefs](/images/firstcodemod/5-addedeverestrefs.png)
 
+> [!NOTE]
+> `MMHOOK_Celeste.dll` is automatically generated when you install Everest. Copy it from your Celeste directory to your project directory and add it as a reference.
+
 > [!IMPORTANT]
-> Make sure to go into the properties of each included reference and set "Copy Local" to "False", otherwise Visual Studio will include outdated / conflicting copies in your mod.
+> Make sure to go into the properties of each included reference and set "Copy Local" to "False", otherwise Visual Studio will include outdated / conflicting copies in your mod. 
 
 > [!IMPORTANT]
 > If you want to maintain cross-platform compatibility, make sure to remove any .NET Framework references not on this list.
@@ -107,17 +110,6 @@ Right-click your project's "References" and select "Add Reference...", then set 
 >
 > This means: Microsoft.CSharp, System.Windows.Anything, System.IO.Compression and other libraries are not available on Linux / macOS.  
 > For an up-to-date list, check the [list of precompiled MonoKickstart libraries](https://github.com/flibitijibibo/MonoKickstart/tree/master/precompiled), as Celeste uses them for Linux / macOS.
-
-## Recommended NuGet packages
-
-**We're recommending you to install the following NuGet packages:**
-- `Microsoft.Net.Compilers` - Maintain build compatibility on systems with older C# compilers installed. **Latest version recommended**
-- `System.ValueTuple` - Used by HookedMethod.
-- `Mono.Cecil` - Used by HookedMethod and MonoMod (**and is thus required to make changes to the game's code**). IL manipulation library. **0.10.0 or newer required**
-- `HookedMethod` - Hook methods with ease at runtime. **0.3.1 or newer required**
-
-> [!IMPORTANT]
-> Make sure to go into the properties of the Mono.Cecil and HookedMethod references and set "Copy Local" to "False", otherwise Visual Studio will include outdated / conflicting copies in your mod.
 
 ## Module class
 
@@ -263,5 +255,6 @@ You should only care about the following two ways to hook methods:
 - **Everest.Events:** This is a very restricted event listening method built into Everest, and is only used when Everest needs to do work behind the scenes for you. You can't control when the original method runs.
 - **MMHOOK_Celeste.dll:** This auto-generated file allows you to hook to all Celeste methods as if they were events. You are responsible to run the original method. Also, **you need to install Everest on the OpenGL / FNA version of the game to auto-generate a working .dll**, otherwise you'll need the Windows-only and obsolete XNA Framework to even compile your mod. [Take a look at an example in GhostNet here.](https://github.com/EverestAPI/GhostMod/blob/75bfd526210d151b20ec417757e4cbe4436de16c/GhostNetMod/GhostNetHooks.cs#L18)
 
-If you're interested in lower-level runtime detouring, take a look at [HookedMethod.Hook](https://github.com/EverestAPI/HookedMethod/blob/master/Examples/Program.cs). If you're interested in the lowest level of detouring, take a look at [MonoMod.RuntimeDetour](https://github.com/0x0ade/MonoMod/tree/master/MonoMod.RuntimeDetour), which also powers `MMHOOK_Celeste.dll`.
+If you're interested in lower-level runtime detouring, take a look at [HookedMethod.Hook](https://github.com/EverestAPI/HookedMethod/blob/master/Examples/Program.cs), available via NuGet. Make sure to set it and its dependencies' "Copy Local" property to "False", as Everest provides them for you.  
+If you're interested in the lowest level of detouring, take a look at [MonoMod.RuntimeDetour](https://github.com/0x0ade/MonoMod/tree/master/MonoMod.RuntimeDetour), which also powers `MMHOOK_Celeste.dll`.
 
