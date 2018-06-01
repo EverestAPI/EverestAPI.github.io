@@ -1182,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Meta.MapMeta.html",
-          "hash": "zqmTIbr8zda92qCNs/1oig=="
+          "hash": "5pfd9nGgJjDylY1ql8hq+A=="
         }
       },
       "is_incremental": false,
@@ -1206,7 +1206,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Meta.MapMetaCheckpointData.html",
-          "hash": "1KgrTmI1PX8tYXP/1fdK+g=="
+          "hash": "+R1z7Vfif5I+ntgdIemsIw=="
         }
       },
       "is_incremental": false,
@@ -1514,6 +1514,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.html",
+          "hash": "Z0hwRfzT7eEW/CRoAalIGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Celeste.Mod.UI.OuiHelper_Shutdown.yml",
       "output": {
         ".html": {
@@ -1674,7 +1686,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.UI.html",
-          "hash": "J14vduNUpidhDfA16pVxiA=="
+          "hash": "vS32ru9h04bKnk31K0r+tw=="
         }
       },
       "is_incremental": false,
@@ -1950,7 +1962,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "gi5K/S+w5jD6F7rgzi1BfA=="
+          "hash": "4PpH8rIoZnbvHZbpviFL2Q=="
         }
       },
       "is_incremental": false,
@@ -2075,7 +2087,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "aimTsSpDiwFVHL0Di+Lqpg=="
+          "hash": "yaAA/t6wWKrRTlQ+XeZxPA=="
         }
       },
       "is_incremental": false,
@@ -2171,6 +2183,11 @@
         "incrementalPhase": "build"
       },
       "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -2182,11 +2199,6 @@
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
-          "incrementalPhase": "build"
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }

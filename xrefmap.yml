@@ -6118,12 +6118,30 @@ references:
   commentId: M:Celeste.Mod.Meta.MapMeta.#ctor
   fullName: Celeste.Mod.Meta.MapMeta.MapMeta()
   nameWithType: MapMeta.MapMeta()
+- uid: Celeste.Mod.Meta.MapMeta.#ctor(Celeste.BinaryPacker.Element)
+  name: MapMeta(BinaryPacker.Element)
+  href: api/Celeste.Mod.Meta.MapMeta.html#Celeste_Mod_Meta_MapMeta__ctor_Celeste_BinaryPacker_Element_
+  commentId: M:Celeste.Mod.Meta.MapMeta.#ctor(Celeste.BinaryPacker.Element)
+  fullName: Celeste.Mod.Meta.MapMeta.MapMeta(Celeste.BinaryPacker.Element)
+  nameWithType: MapMeta.MapMeta(BinaryPacker.Element)
 - uid: Celeste.Mod.Meta.MapMeta.#ctor*
   name: MapMeta
   href: api/Celeste.Mod.Meta.MapMeta.html#Celeste_Mod_Meta_MapMeta__ctor_
   commentId: Overload:Celeste.Mod.Meta.MapMeta.#ctor
   fullName: Celeste.Mod.Meta.MapMeta.MapMeta
   nameWithType: MapMeta.MapMeta
+- uid: Celeste.Mod.Meta.MapMeta.ApplyTo(Celeste.AreaData)
+  name: ApplyTo(AreaData)
+  href: api/Celeste.Mod.Meta.MapMeta.html#Celeste_Mod_Meta_MapMeta_ApplyTo_Celeste_AreaData_
+  commentId: M:Celeste.Mod.Meta.MapMeta.ApplyTo(Celeste.AreaData)
+  fullName: Celeste.Mod.Meta.MapMeta.ApplyTo(Celeste.AreaData)
+  nameWithType: MapMeta.ApplyTo(AreaData)
+- uid: Celeste.Mod.Meta.MapMeta.ApplyTo*
+  name: ApplyTo
+  href: api/Celeste.Mod.Meta.MapMeta.html#Celeste_Mod_Meta_MapMeta_ApplyTo_
+  commentId: Overload:Celeste.Mod.Meta.MapMeta.ApplyTo
+  fullName: Celeste.Mod.Meta.MapMeta.ApplyTo
+  nameWithType: MapMeta.ApplyTo
 - uid: Celeste.Mod.Meta.MapMeta.BloomBase
   name: BloomBase
   href: api/Celeste.Mod.Meta.MapMeta.html#Celeste_Mod_Meta_MapMeta_BloomBase
@@ -6244,6 +6262,18 @@ references:
   commentId: Overload:Celeste.Mod.Meta.MapMeta.Convert
   fullName: Celeste.Mod.Meta.MapMeta.Convert
   nameWithType: MapMeta.Convert
+- uid: Celeste.Mod.Meta.MapMeta.CoreMode
+  name: CoreMode
+  href: api/Celeste.Mod.Meta.MapMeta.html#Celeste_Mod_Meta_MapMeta_CoreMode
+  commentId: P:Celeste.Mod.Meta.MapMeta.CoreMode
+  fullName: Celeste.Mod.Meta.MapMeta.CoreMode
+  nameWithType: MapMeta.CoreMode
+- uid: Celeste.Mod.Meta.MapMeta.CoreMode*
+  name: CoreMode
+  href: api/Celeste.Mod.Meta.MapMeta.html#Celeste_Mod_Meta_MapMeta_CoreMode_
+  commentId: Overload:Celeste.Mod.Meta.MapMeta.CoreMode
+  fullName: Celeste.Mod.Meta.MapMeta.CoreMode
+  nameWithType: MapMeta.CoreMode
 - uid: Celeste.Mod.Meta.MapMeta.DarknessAlpha
   name: DarknessAlpha
   href: api/Celeste.Mod.Meta.MapMeta.html#Celeste_Mod_Meta_MapMeta_DarknessAlpha
@@ -6364,6 +6394,18 @@ references:
   commentId: Overload:Celeste.Mod.Meta.MapMeta.Name
   fullName: Celeste.Mod.Meta.MapMeta.Name
   nameWithType: MapMeta.Name
+- uid: Celeste.Mod.Meta.MapMeta.Parse(Celeste.BinaryPacker.Element)
+  name: Parse(BinaryPacker.Element)
+  href: api/Celeste.Mod.Meta.MapMeta.html#Celeste_Mod_Meta_MapMeta_Parse_Celeste_BinaryPacker_Element_
+  commentId: M:Celeste.Mod.Meta.MapMeta.Parse(Celeste.BinaryPacker.Element)
+  fullName: Celeste.Mod.Meta.MapMeta.Parse(Celeste.BinaryPacker.Element)
+  nameWithType: MapMeta.Parse(BinaryPacker.Element)
+- uid: Celeste.Mod.Meta.MapMeta.Parse*
+  name: Parse
+  href: api/Celeste.Mod.Meta.MapMeta.html#Celeste_Mod_Meta_MapMeta_Parse_
+  commentId: Overload:Celeste.Mod.Meta.MapMeta.Parse
+  fullName: Celeste.Mod.Meta.MapMeta.Parse
+  nameWithType: MapMeta.Parse
 - uid: Celeste.Mod.Meta.MapMeta.SID
   name: SID
   href: api/Celeste.Mod.Meta.MapMeta.html#Celeste_Mod_Meta_MapMeta_SID
@@ -6592,18 +6634,6 @@ references:
   commentId: Overload:Celeste.Mod.Meta.MapMetaCheckpointData.Name
   fullName: Celeste.Mod.Meta.MapMetaCheckpointData.Name
   nameWithType: MapMetaCheckpointData.Name
-- uid: Celeste.Mod.Meta.MapMetaCheckpointData.Strawberries
-  name: Strawberries
-  href: api/Celeste.Mod.Meta.MapMetaCheckpointData.html#Celeste_Mod_Meta_MapMetaCheckpointData_Strawberries
-  commentId: P:Celeste.Mod.Meta.MapMetaCheckpointData.Strawberries
-  fullName: Celeste.Mod.Meta.MapMetaCheckpointData.Strawberries
-  nameWithType: MapMetaCheckpointData.Strawberries
-- uid: Celeste.Mod.Meta.MapMetaCheckpointData.Strawberries*
-  name: Strawberries
-  href: api/Celeste.Mod.Meta.MapMetaCheckpointData.html#Celeste_Mod_Meta_MapMetaCheckpointData_Strawberries_
-  commentId: Overload:Celeste.Mod.Meta.MapMetaCheckpointData.Strawberries
-  fullName: Celeste.Mod.Meta.MapMetaCheckpointData.Strawberries
-  nameWithType: MapMetaCheckpointData.Strawberries
 - uid: Celeste.Mod.Meta.MapMetaCompleteScreen
   name: MapMetaCompleteScreen
   href: api/Celeste.Mod.Meta.MapMetaCompleteScreen.html
@@ -8221,6 +8251,60 @@ references:
   commentId: Overload:Celeste.Mod.UI.OuiHelper_ChapterSelect_LevelSet.Leave
   fullName: Celeste.Mod.UI.OuiHelper_ChapterSelect_LevelSet.Leave
   nameWithType: OuiHelper_ChapterSelect_LevelSet.Leave
+- uid: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload
+  name: OuiHelper_ChapterSelect_Reload
+  href: api/Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.html
+  commentId: T:Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload
+  fullName: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload
+  nameWithType: OuiHelper_ChapterSelect_Reload
+- uid: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.#ctor
+  name: OuiHelper_ChapterSelect_Reload()
+  href: api/Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.html#Celeste_Mod_UI_OuiHelper_ChapterSelect_Reload__ctor
+  commentId: M:Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.#ctor
+  fullName: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.OuiHelper_ChapterSelect_Reload()
+  nameWithType: OuiHelper_ChapterSelect_Reload.OuiHelper_ChapterSelect_Reload()
+- uid: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.#ctor*
+  name: OuiHelper_ChapterSelect_Reload
+  href: api/Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.html#Celeste_Mod_UI_OuiHelper_ChapterSelect_Reload__ctor_
+  commentId: Overload:Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.#ctor
+  fullName: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.OuiHelper_ChapterSelect_Reload
+  nameWithType: OuiHelper_ChapterSelect_Reload.OuiHelper_ChapterSelect_Reload
+- uid: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Enter(Celeste.Oui)
+  name: Enter(Oui)
+  href: api/Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.html#Celeste_Mod_UI_OuiHelper_ChapterSelect_Reload_Enter_Celeste_Oui_
+  commentId: M:Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Enter(Celeste.Oui)
+  fullName: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Enter(Celeste.Oui)
+  nameWithType: OuiHelper_ChapterSelect_Reload.Enter(Oui)
+- uid: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Enter*
+  name: Enter
+  href: api/Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.html#Celeste_Mod_UI_OuiHelper_ChapterSelect_Reload_Enter_
+  commentId: Overload:Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Enter
+  fullName: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Enter
+  nameWithType: OuiHelper_ChapterSelect_Reload.Enter
+- uid: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Leave(Celeste.Oui)
+  name: Leave(Oui)
+  href: api/Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.html#Celeste_Mod_UI_OuiHelper_ChapterSelect_Reload_Leave_Celeste_Oui_
+  commentId: M:Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Leave(Celeste.Oui)
+  fullName: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Leave(Celeste.Oui)
+  nameWithType: OuiHelper_ChapterSelect_Reload.Leave(Oui)
+- uid: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Leave*
+  name: Leave
+  href: api/Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.html#Celeste_Mod_UI_OuiHelper_ChapterSelect_Reload_Leave_
+  commentId: Overload:Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Leave
+  fullName: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Leave
+  nameWithType: OuiHelper_ChapterSelect_Reload.Leave
+- uid: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Reload
+  name: Reload()
+  href: api/Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.html#Celeste_Mod_UI_OuiHelper_ChapterSelect_Reload_Reload
+  commentId: M:Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Reload
+  fullName: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Reload()
+  nameWithType: OuiHelper_ChapterSelect_Reload.Reload()
+- uid: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Reload*
+  name: Reload
+  href: api/Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.html#Celeste_Mod_UI_OuiHelper_ChapterSelect_Reload_Reload_
+  commentId: Overload:Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Reload
+  fullName: Celeste.Mod.UI.OuiHelper_ChapterSelect_Reload.Reload
+  nameWithType: OuiHelper_ChapterSelect_Reload.Reload
 - uid: Celeste.Mod.UI.OuiHelper_Shutdown
   name: OuiHelper_Shutdown
   href: api/Celeste.Mod.UI.OuiHelper_Shutdown.html
