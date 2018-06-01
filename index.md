@@ -19,19 +19,18 @@ If you've got any issues with Everest, we're in the #game_modding channel of thi
 ## Installing Everest
 
 ### Windows auto-installer
-- [**Download the latest installer `.exe`**](https://github.com/EverestAPI/Everest.Installer/releases) and run it.
+- [**Download the latest installer `.exe`**](https://gamebanana.com/tools/download/6449) and run it.
 - If Windows SmartScreen blocks it, tell it to run anyway.
 - Steam: The installer should find your game automatically.
 - itch.io: Select Celeste.exe in the installer.
 - Hit the huge install button.
 
 ### Windows / macOS / Linux / *BSD manual installation
-- For developers: If you want to build your own version of Everest, go to [Building Everest](#building-everest).
 - If you've **previously installed Everest and updated Celeste** or switched betas / branches, delete the `orig` directory where Celeste is installed.
-    - macOS: Open the Celeste app in Finder, then naviagte to `Contents`, then `MacOS`.
+    - macOS: Right-click and browse the Celeste app in Finder, then naviagte to `Contents`, then `MacOS`.
 - [Download the latest `build-*-stable.zip` autobuild](https://ams3.digitaloceanspaces.com/lollyde/index.html)
 - Extract the `.zip` to where Celeste is installed. `Celeste.Mod.mm.dll` should be right next to `Celeste.exe`
-    - macOS: Open the Celeste app in Finder, then naviagte to `Contents`, then `MacOS`.
+    - macOS: Right-click and browse the Celeste app in Finder, then naviagte to `Contents`, then `MacOS`.
 - Run `MiniInstaller.exe`
     - Linux / macOS: [Install the mono runtime](https://www.mono-project.com/download/stable/), open a terminal window where Celeste is and run `mono MiniInstaller.exe`
 
@@ -44,7 +43,7 @@ If you've got any issues with Everest, we're in the #game_modding channel of thi
 ## Building Everest
 - ***If you just want to install Everest, go to [Installing Everest](#installing-everest).***
 - If you've **previously installed Everest and updated Celeste** or switched betas / branches, delete the `orig` directory where Celeste is installed.
-    - macOS: Open the Celeste app in Finder, then naviagte to `Contents`, then `MacOS`.
+    - macOS: Right-click and browse the Celeste app in Finder, then naviagte to `Contents`, then `MacOS`.
 - Clone the [Everest repo](github.com/EverestAPI/Everest), either in your IDE, via the CLI, or by downloading the .zip from GitHub.
 - Restore Nuget packages either via your IDE or the command line.
 
