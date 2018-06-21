@@ -26,7 +26,7 @@ _description: "How should the files in your mod be structured? What formats are 
 
 A mod can't contain "submods", unless a code mod loads the "submods" dynamically.
 
-A mod `.zip` shouldn't contain the content in a subdirectory. All of its contents should be accessible on the top level (root) by just opening the `.zip` file.
+All files in a mod `.zip` must be on the top level (root) and visible when just opening the `.zip` file. `YourMod.zip` shouldn't contain another `YourMod` folder.
 
 > [!NOTE]
 > A code mod can dynamically load external mod content and mod assemblies.  

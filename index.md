@@ -37,11 +37,11 @@ In no specific order:
 - Cross-version and cross-platform compatibility
 - Easy mod support without messing with your original files
     - Code mods
-    - Audio replacements and additions
+    - Audio replacements and additions via custom FMOD banks
     - Graphic replacements and additions
     - Custom texts (f.e. map names, dialogues)
     - Custom maps
-    - Your own content via the highly flexible content API for code mods
+    - Your own content via the highly flexible mod content and hooking API
 - Easily change hidden options in-game (debug mode and FMOD sync)
 - Sound test
 - Quality of life improvements:
@@ -50,14 +50,16 @@ In no specific order:
     - Info about saved and lost progress when returning to map
 - Debug mode improvements:
     - F5 to reload the map .bin without loosing progress
-    - CTRL + F5 to quick-reload the entire game without loosing progress
-    - F6 to quickly enter the room debugger
+    - CTRL + F5 to quick-reload the entire game and all mods without loosing progress
+    - F6 to quickly open the leftover in-game map layout utility
     - `.` to open and `q<enter>` to close the command line on keyboards without tilde key
 - Features for custom maps:
     - Unhardcoded Badeline chasers with custom ending barrier
     - Custom core messages and memorials without replacing the original texts / sprites
     - Session flag triggers
     - Restore beta "trigger spikes"
+    - Unhardcoded dust entities for non-resort levels
+    - Unhardcoded crystal colors
     - Two new cassette blocks: emerald and marigold
     - Stationary fireballs without crashing the game
     - Fixed rotating blade starting angle calculation
@@ -70,7 +72,7 @@ In no specific order:
 - Find a mod you like on [GameBanana](https://gamebanana.com/games/6460)
 - Press the 1-click installation button.
     - If the 1-click installer doesn't work, put the mod `.zip` into the `Mods` directory where Celeste is.
-    - For prototyping, feel free to use a subdirectory instead of a `.zip`
+    - For prototyping, feel free to use a folder instead of a `.zip`
 - That's it. No need to extract anything.
 
 ## Compiling Everest yourself
