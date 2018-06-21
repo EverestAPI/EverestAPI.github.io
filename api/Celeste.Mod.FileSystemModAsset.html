@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MapMetaCompleteScreen
+    <title>Class FileSystemModAsset
    | Everest </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MapMetaCompleteScreen
+    <meta name="title" content="Class FileSystemModAsset
    | Everest ">
     <meta name="generator" content="docfx 2.31.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
@@ -22,7 +22,7 @@
     <meta property="docfx:rel" content="../">
     <meta property="docfx:newtab" content="true">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Class MapMetaCompleteScreen
+    <meta property="og:title" content="Class FileSystemModAsset
   ">
     <meta property="og:site_name" content="Everest"><meta property="og:description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <meta name="author" content="Everest Team">
@@ -85,20 +85,61 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen">
+            <article class="content wrap" id="_content" data-uid="Celeste.Mod.FileSystemModAsset">
   
   
-  <h1 id="Celeste_Mod_Meta_MapMetaCompleteScreen" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen" class="text-break">Class MapMetaCompleteScreen
+  <h1 id="Celeste_Mod_FileSystemModAsset" data-uid="Celeste.Mod.FileSystemModAsset" class="text-break">Class FileSystemModAsset
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">MapMetaCompleteScreen</span></div>
+    <div class="level1"><a class="xref" href="Celeste.Mod.ModAsset.html">ModAsset</a></div>
+    <div class="level2"><a class="xref" href="Celeste.Mod.ModAsset-1.html">ModAsset</a>&lt;<a class="xref" href="Celeste.Mod.FileSystemModContent.html">FileSystemModContent</a>&gt;</div>
+    <div class="level3"><span class="xref">FileSystemModAsset</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModAsset-1.html#Celeste_Mod_ModAsset_1_Source">ModAsset&lt;FileSystemModContent&gt;.Source</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_Type">ModAsset.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_Format">ModAsset.Format</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_PathVirtual">ModAsset.PathVirtual</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_Children">ModAsset.Children</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_SectionOffset">ModAsset.SectionOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_SectionLength">ModAsset.SectionLength</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_TryDeserialize__1___0__">ModAsset.TryDeserialize&lt;T&gt;(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_Deserialize__1">ModAsset.Deserialize&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_TryGetMeta__1___0__">ModAsset.TryGetMeta&lt;T&gt;(T)</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_GetMeta__1">ModAsset.GetMeta&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_Stream">ModAsset.Stream</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_Data">ModAsset.Data</a>
+    </div>
     <div>
       <span class="xref">System.Object.ToString()</span>
     </div>
@@ -121,37 +162,59 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Celeste.Mod.Meta.html">Celeste.Mod.Meta</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Celeste.Mod.html">Celeste.Mod</a></h6>
   <h6><strong>Assembly</strong>: Celeste.Mod.mm.dll</h6>
-  <h5 id="Celeste_Mod_Meta_MapMetaCompleteScreen_syntax">Syntax</h5>
+  <h5 id="Celeste_Mod_FileSystemModAsset_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MapMetaCompleteScreen</code></pre>
+    <pre><code class="lang-csharp hljs">public class FileSystemModAsset : ModAsset&lt;FileSystemModContent&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Celeste_Mod_Meta_MapMetaCompleteScreen__ctor_" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.#ctor*"></a>
-  <h4 id="Celeste_Mod_Meta_MapMetaCompleteScreen__ctor" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.#ctor">MapMetaCompleteScreen()</h4>
+  <a id="Celeste_Mod_FileSystemModAsset__ctor_" data-uid="Celeste.Mod.FileSystemModAsset.#ctor*"></a>
+  <h4 id="Celeste_Mod_FileSystemModAsset__ctor_Celeste_Mod_FileSystemModContent_System_String_" data-uid="Celeste.Mod.FileSystemModAsset.#ctor(Celeste.Mod.FileSystemModContent,System.String)">FileSystemModAsset(FileSystemModContent, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MapMetaCompleteScreen()</code></pre>
+    <pre><code class="lang-csharp hljs">public FileSystemModAsset(FileSystemModContent source, string path)</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.FileSystemModContent.html">FileSystemModContent</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="Celeste_Mod_Meta_MapMetaCompleteScreen_Atlas_" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.Atlas*"></a>
-  <h4 id="Celeste_Mod_Meta_MapMetaCompleteScreen_Atlas" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.Atlas">Atlas</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Celeste_Mod_FileSystemModAsset_Path" data-uid="Celeste.Mod.FileSystemModAsset.Path">Path</h4>
+  <div class="markdown level1 summary"><p>The path to the source file.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Atlas { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Path</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -166,181 +229,42 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <a id="Celeste_Mod_Meta_MapMetaCompleteScreen_Center_" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.Center*"></a>
-  <h4 id="Celeste_Mod_Meta_MapMetaCompleteScreen_Center" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.Center">Center</h4>
+  <a id="Celeste_Mod_FileSystemModAsset_Open_" data-uid="Celeste.Mod.FileSystemModAsset.Open*"></a>
+  <h4 id="Celeste_Mod_FileSystemModAsset_Open_System_IO_Stream__System_Boolean__" data-uid="Celeste.Mod.FileSystemModAsset.Open(System.IO.Stream@,System.Boolean@)">Open(out Stream, out Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector2 Center { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Open(out Stream stream, out bool isSection)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.Xna.Framework.Vector2</span></td>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isSection</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Celeste_Mod_Meta_MapMetaCompleteScreen_CenterArray_" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.CenterArray*"></a>
-  <h4 id="Celeste_Mod_Meta_MapMetaCompleteScreen_CenterArray" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.CenterArray">CenterArray</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float[] CenterArray { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Meta_MapMetaCompleteScreen_Layers_" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.Layers*"></a>
-  <h4 id="Celeste_Mod_Meta_MapMetaCompleteScreen_Layers" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.Layers">Layers</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MapMetaCompleteScreenLayer[] Layers { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Celeste.Mod.Meta.MapMetaCompleteScreenLayer.html">MapMetaCompleteScreenLayer</a>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Meta_MapMetaCompleteScreen_Offset_" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.Offset*"></a>
-  <h4 id="Celeste_Mod_Meta_MapMetaCompleteScreen_Offset" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.Offset">Offset</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector2 Offset { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Microsoft.Xna.Framework.Vector2</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Meta_MapMetaCompleteScreen_OffsetArray_" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.OffsetArray*"></a>
-  <h4 id="Celeste_Mod_Meta_MapMetaCompleteScreen_OffsetArray" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.OffsetArray">OffsetArray</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float[] OffsetArray { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Meta_MapMetaCompleteScreen_Start_" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.Start*"></a>
-  <h4 id="Celeste_Mod_Meta_MapMetaCompleteScreen_Start" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.Start">Start</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector2 Start { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Microsoft.Xna.Framework.Vector2</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Meta_MapMetaCompleteScreen_StartArray_" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.StartArray*"></a>
-  <h4 id="Celeste_Mod_Meta_MapMetaCompleteScreen_StartArray" data-uid="Celeste.Mod.Meta.MapMetaCompleteScreen.StartArray">StartArray</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float[] StartArray { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_Open_System_IO_Stream__System_Boolean__">ModAsset.Open(out Stream, out Boolean)</a></div>
 </article>
           </div>
           

@@ -215,49 +215,6 @@
   </table>
   
   
-  <a id="Celeste_AreaDataExt_GetCompleteScreenMeta_" data-uid="Celeste.AreaDataExt.GetCompleteScreenMeta*"></a>
-  <h4 id="Celeste_AreaDataExt_GetCompleteScreenMeta_Celeste_AreaData_" data-uid="Celeste.AreaDataExt.GetCompleteScreenMeta(Celeste.AreaData)">GetCompleteScreenMeta(AreaData)</h4>
-  <div class="markdown level1 summary"><p>Get the custom complete screen if it has been loaded from the .meta or set otherwise.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MapMetaCompleteScreen GetCompleteScreenMeta(this AreaData self)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Celeste.AreaData</span></td>
-        <td><span class="parametername">self</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Celeste.Mod.Meta.MapMetaCompleteScreen.html">MapMetaCompleteScreen</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Celeste_AreaDataExt_GetLevelSet_" data-uid="Celeste.AreaDataExt.GetLevelSet*"></a>
   <h4 id="Celeste_AreaDataExt_GetLevelSet_Celeste_AreaData_" data-uid="Celeste.AreaDataExt.GetLevelSet(Celeste.AreaData)">GetLevelSet(AreaData)</h4>
   <div class="markdown level1 summary"><p>Get the name of the level set this area belongs to.</p>
@@ -295,6 +252,49 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_AreaDataExt_GetMeta_" data-uid="Celeste.AreaDataExt.GetMeta*"></a>
+  <h4 id="Celeste_AreaDataExt_GetMeta_Celeste_AreaData_" data-uid="Celeste.AreaDataExt.GetMeta(Celeste.AreaData)">GetMeta(AreaData)</h4>
+  <div class="markdown level1 summary"><p>Get the custom metadata if it has been loaded from the .meta or set otherwise.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MapMeta GetMeta(this AreaData self)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.AreaData</span></td>
+        <td><span class="parametername">self</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.Meta.MapMeta.html">MapMeta</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -344,14 +344,14 @@
   </table>
   
   
-  <a id="Celeste_AreaDataExt_SetCompleteScreenMeta_" data-uid="Celeste.AreaDataExt.SetCompleteScreenMeta*"></a>
-  <h4 id="Celeste_AreaDataExt_SetCompleteScreenMeta_Celeste_AreaData_Celeste_Mod_Meta_MapMetaCompleteScreen_" data-uid="Celeste.AreaDataExt.SetCompleteScreenMeta(Celeste.AreaData,Celeste.Mod.Meta.MapMetaCompleteScreen)">SetCompleteScreenMeta(AreaData, MapMetaCompleteScreen)</h4>
-  <div class="markdown level1 summary"><p>Set the custom complete screen.</p>
+  <a id="Celeste_AreaDataExt_SetMeta_" data-uid="Celeste.AreaDataExt.SetMeta*"></a>
+  <h4 id="Celeste_AreaDataExt_SetMeta_Celeste_AreaData_Celeste_Mod_Meta_MapMeta_" data-uid="Celeste.AreaDataExt.SetMeta(Celeste.AreaData,Celeste.Mod.Meta.MapMeta)">SetMeta(AreaData, MapMeta)</h4>
+  <div class="markdown level1 summary"><p>Set the custom metadata.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AreaData SetCompleteScreenMeta(this AreaData self, MapMetaCompleteScreen value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static AreaData SetMeta(this AreaData self, MapMeta value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -369,7 +369,7 @@
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="Celeste.Mod.Meta.MapMetaCompleteScreen.html">MapMetaCompleteScreen</a></td>
+        <td><a class="xref" href="Celeste.Mod.Meta.MapMeta.html">MapMeta</a></td>
         <td><span class="parametername">value</span></td>
         <td></td>
       </tr>

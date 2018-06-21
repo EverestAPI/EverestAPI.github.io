@@ -96,6 +96,8 @@
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ModAsset</span></div>
+      <div class="level2"><a class="xref" href="Celeste.Mod.ModAsset-1.html">ModAsset&lt;T&gt;</a></div>
+      <div class="level2"><a class="xref" href="Celeste.Mod.ModAssetBranch.html">ModAssetBranch</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -125,29 +127,19 @@
   <h6><strong>Assembly</strong>: Celeste.Mod.mm.dll</h6>
   <h5 id="Celeste_Mod_ModAsset_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ModAsset</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ModAsset</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="Celeste_Mod_ModAsset__ctor_" data-uid="Celeste.Mod.ModAsset.#ctor*"></a>
-  <h4 id="Celeste_Mod_ModAsset__ctor" data-uid="Celeste.Mod.ModAsset.#ctor">ModAsset()</h4>
+  <h4 id="Celeste_Mod_ModAsset__ctor_Celeste_Mod_ModContent_" data-uid="Celeste.Mod.ModAsset.#ctor(Celeste.Mod.ModContent)">ModAsset(ModContent)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ModAsset()</code></pre>
-  </div>
-  
-  
-  <a id="Celeste_Mod_ModAsset__ctor_" data-uid="Celeste.Mod.ModAsset.#ctor*"></a>
-  <h4 id="Celeste_Mod_ModAsset__ctor_System_Reflection_Assembly_System_String_" data-uid="Celeste.Mod.ModAsset.#ctor(System.Reflection.Assembly,System.String)">ModAsset(Assembly, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ModAsset(Assembly assembly, string file)</code></pre>
+    <pre><code class="lang-csharp hljs">protected ModAsset(ModContent source)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -160,190 +152,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Reflection.Assembly</span></td>
-        <td><span class="parametername">assembly</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">file</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_ModAsset__ctor_" data-uid="Celeste.Mod.ModAsset.#ctor*"></a>
-  <h4 id="Celeste_Mod_ModAsset__ctor_System_String_" data-uid="Celeste.Mod.ModAsset.#ctor(System.String)">ModAsset(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ModAsset(string file)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">file</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_ModAsset__ctor_" data-uid="Celeste.Mod.ModAsset.#ctor*"></a>
-  <h4 id="Celeste_Mod_ModAsset__ctor_System_String_System_Int64_System_Int32_" data-uid="Celeste.Mod.ModAsset.#ctor(System.String,System.Int64,System.Int32)">ModAsset(String, Int64, Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ModAsset(string file, long offset, int length)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">file</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">offset</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">length</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_ModAsset__ctor_" data-uid="Celeste.Mod.ModAsset.#ctor*"></a>
-  <h4 id="Celeste_Mod_ModAsset__ctor_System_String_System_String_" data-uid="Celeste.Mod.ModAsset.#ctor(System.String,System.String)">ModAsset(String, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ModAsset(string zip, string file)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">zip</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">file</span></td>
+        <td><a class="xref" href="Celeste.Mod.ModContent.html">ModContent</a></td>
+        <td><span class="parametername">source</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="fields">Fields
   </h3>
-  
-  
-  <h4 id="Celeste_Mod_ModAsset_Assembly" data-uid="Celeste.Mod.ModAsset.Assembly">Assembly</h4>
-  <div class="markdown level1 summary"><p>The containing assembly.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Assembly Assembly</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Reflection.Assembly</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Celeste_Mod_ModAsset_AssetFormat" data-uid="Celeste.Mod.ModAsset.AssetFormat">AssetFormat</h4>
-  <div class="markdown level1 summary"><p>The original file extension.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string AssetFormat</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Celeste_Mod_ModAsset_AssetType" data-uid="Celeste.Mod.ModAsset.AssetType">AssetType</h4>
-  <div class="markdown level1 summary"><p>The type matching the mod asset.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Type AssetType</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Type</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <h4 id="Celeste_Mod_ModAsset_Children" data-uid="Celeste.Mod.ModAsset.Children">Children</h4>
@@ -371,13 +187,13 @@
   </table>
   
   
-  <h4 id="Celeste_Mod_ModAsset_PathArchive" data-uid="Celeste.Mod.ModAsset.PathArchive">PathArchive</h4>
-  <div class="markdown level1 summary"><p>The path to the source archive.</p>
+  <h4 id="Celeste_Mod_ModAsset_Format" data-uid="Celeste.Mod.ModAsset.Format">Format</h4>
+  <div class="markdown level1 summary"><p>The original file extension.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string PathArchive</code></pre>
+    <pre><code class="lang-csharp hljs">public string Format</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -396,38 +212,13 @@
   </table>
   
   
-  <h4 id="Celeste_Mod_ModAsset_PathMapped" data-uid="Celeste.Mod.ModAsset.PathMapped">PathMapped</h4>
-  <div class="markdown level1 summary"><p>The virtual path to the asset, matching the mapping path.</p>
+  <h4 id="Celeste_Mod_ModAsset_PathVirtual" data-uid="Celeste.Mod.ModAsset.PathVirtual">PathVirtual</h4>
+  <div class="markdown level1 summary"><p>The virtual / mapped asset path.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string PathMapped</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Celeste_Mod_ModAsset_PathSource" data-uid="Celeste.Mod.ModAsset.PathSource">PathSource</h4>
-  <div class="markdown level1 summary"><p>The path to the source file, or the path to the source entry in an container.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string PathSource</code></pre>
+    <pre><code class="lang-csharp hljs">public string PathVirtual</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -497,12 +288,12 @@
   
   
   <h4 id="Celeste_Mod_ModAsset_Source" data-uid="Celeste.Mod.ModAsset.Source">Source</h4>
-  <div class="markdown level1 summary"><p>The mod asset source.</p>
+  <div class="markdown level1 summary"><p>The mod asset&apos;s source.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ModAsset.SourceType Source</code></pre>
+    <pre><code class="lang-csharp hljs">public ModContent Source</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -514,7 +305,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Celeste.Mod.ModAsset.SourceType.html">ModAsset.SourceType</a></td>
+        <td><a class="xref" href="Celeste.Mod.ModContent.html">ModContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_Mod_ModAsset_Type" data-uid="Celeste.Mod.ModAsset.Type">Type</h4>
+  <div class="markdown level1 summary"><p>The type matching the mod asset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Type Type</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -525,12 +341,12 @@
   
   <a id="Celeste_Mod_ModAsset_Data_" data-uid="Celeste.Mod.ModAsset.Data*"></a>
   <h4 id="Celeste_Mod_ModAsset_Data" data-uid="Celeste.Mod.ModAsset.Data">Data</h4>
-  <div class="markdown level1 summary"><p>The asset contents.</p>
+  <div class="markdown level1 summary"><p>The contents of the asset.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public byte[] Data { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual byte[] Data { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -551,13 +367,12 @@
   
   <a id="Celeste_Mod_ModAsset_Stream_" data-uid="Celeste.Mod.ModAsset.Stream*"></a>
   <h4 id="Celeste_Mod_ModAsset_Stream" data-uid="Celeste.Mod.ModAsset.Stream">Stream</h4>
-  <div class="markdown level1 summary"><p>A stream to read the asset data from.
-If the asset is a section of a larger file, LimitedStream is used.</p>
+  <div class="markdown level1 summary"><p>A stream to read the asset data from.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Stream Stream { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual Stream Stream { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -658,6 +473,41 @@ If the asset is a section of a larger file, LimitedStream is used.</p>
       <tr>
         <td><span class="parametername">T</span></td>
         <td><p>The target meta type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_ModAsset_Open_" data-uid="Celeste.Mod.ModAsset.Open*"></a>
+  <h4 id="Celeste_Mod_ModAsset_Open_System_IO_Stream__System_Boolean__" data-uid="Celeste.Mod.ModAsset.Open(System.IO.Stream@,System.Boolean@)">Open(out Stream, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Open a stream to read the asset data from.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void Open(out Stream stream, out bool isSection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>The resulting stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isSection</span></td>
+        <td><p>Is the stream already a section (SectionOffset and SectionLength)?</p>
 </td>
       </tr>
     </tbody>

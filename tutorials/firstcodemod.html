@@ -92,63 +92,48 @@
 <p>
 <li>Everest: <a href="/">Website</a></li>
 <li>Visual Studio 2015 or newer. MonoDevelop instructions are different.</li>
-<li>NuGet, either for your IDE, or CLI.
-    <ul>
-        <li>Visual Studio 2017: Included</li>
-        <li>Visual Studio 2015: <a href="https://dist.nuget.org/visualstudio-2015-vsix/latest/NuGet.Tools.vsix">Download NuGet.Tools.vsix</a></li>
-        <li>Linux / macOS: CLI version included with Mono.</li>
-        <li>Windows: <a href="https://dist.nuget.org/win-x86-commandline/latest/nuget.exe">Download nuget.exe</a></li>
-    </ul>
-</li>
-<li><em>Optional:</em> git, either <a href="https://git-scm.com/downloads">CLI</a> or GUI client (f.e. <a href="https://desktop.github.com/">GitHub Desktop</a>)</li>
 </p>
 </div>
 
 <hr>
-<h2 id="project-setup">Project setup</h2>
 <p>Every Everest code mod starts out as a C# (.NET Framework) class library targeting the .NET Framework 4.5.2 (same as Celeste itself).</p>
+<h2 id="project-setup">Project setup</h2>
+<div class="NOTE"><h5>Note</h5><p>If you want a more traditional C# project setup, follow the <a href="https://github.com/EverestAPI/EverestAPI.github.io/blob/a789878761965db62c4f3c98f2bda58828e307a4/tutorials/firstcodemod.md#project-setup">old advanced project setup instructions</a>.</p>
+</div>
+<p>This setup doesn&#39;t require NuGet or git, but if you&#39;re a Windows user, you&#39;ll need to switch to the OpenGL branch. Linux and macOS users are already using FNA. <strong>Everest will relink your mod from FNA to XNA at runtime.</strong></p>
 <ul>
+<li>In Steam, right-click the game in your library, select &quot;Properties&quot; and select the <code>opengl</code> &quot;beta&quot;.</li>
+<li>In itch, &lt;insert itch instructions here&gt;</li>
+</ul>
+<p>After the update has finished, make sure to reinstall Everest.</p>
+<ul>
+<li>Open your C# IDE (f.e. Visual Studio 2015).</li>
 <li>Create a new project.</li>
 <li>In the top bar, select <code>.NET Framework 4.5.2</code></li>
 <li>In the left bar, select <code>Installed</code> &gt; <code>Visual C#</code></li>
 <li>Select the template <code>Class Library</code> or <code>Class Library (.NET Framework)</code> (<strong>not</strong> <code>Standard</code>, <code>Core</code>, <code>Portable</code>, <code>Universal Windows</code>, ...).</li>
-<li>Name your mod appropriately and create it in a new solution.</li>
-<li>Create a new directory for the solution.</li>
+<li>Create your mod in Celeste/Mods</li>
 </ul>
 <p>The dialog should look like this:</p>
 <p><img src="/images/firstcodemod/1-newproj.png" alt="1-newproj"></p>
-<h2 id="adding-everest-and-celeste">Adding Everest and Celeste</h2>
-<p>Now that you&#39;ve created a new, empty project, it&#39;s time to add the Everest API.</p>
-<h3 id="adding-everest-files">Adding Everest files</h3>
-<p>If your new project is a git repository, add Everest as a submodule.</p>
-<pre><code>git submodule add https://github.com/EverestAPI/Everest.git
-</code></pre><p>Otherwise, download the Everest source code .zip (<a href="https://github.com/EverestAPI/Everest/archive/master.zip">master</a>, <a href="https://github.com/EverestAPI/Everest/archive/stable.zip">stable</a>) and place it as <code>Everest</code> in your project directory.</p>
-<p>The file layout should look similar to this:</p>
-<p><img src="/images/firstcodemod/2-everestdir.png" alt="2-everestdir"></p>
-<h3 id="adding-everest-project">Adding Everest project</h3>
-<p>In Visual Studio, right-click the <em>solution</em> and add the existing Everest project.</p>
-<p><img src="/images/firstcodemod/3-addeverestproj.png" alt="3-addeverestproj"></p>
-<p>Navigate to where your project is, then into the Everest submodule, then Celeste.Mod.mm, then the matching <code>.csproj</code> project file.</p>
-<p>Afterwards, right-click on Celeste.Mod.mm and build it.</p>
-<p>Everest (Celeste.Mod.mm) should now exist as a project in your solution like this:</p>
-<p><img src="/images/firstcodemod/4-addedeverestproj.png" alt="4-addedeverestproj"></p>
-<div class="NOTE"><h5>Note</h5><p>If the compiler complains about the nuget packages not being found, right-click the references, select &quot;Manage NuGet packages...&quot; and restore them.</p>
-</div>
-<h3 id="adding-references">Adding References</h3>
-<p><strong>Everest comes with most of its dependencies in the <code>lib</code> and <code>lib-stripped</code> subdirectories.</strong></p>
 <ul>
-<li><code>lib</code> contains all libraries ready to be used by your mod as-is.</li>
-<li><code>lib-stripped</code> contains copies of a select few game binaries, stripped with <code>mono-cil-strip</code>. They don&#39;t contain any executable code and only contain the definitions for you to compile against.</li>
+<li>Create a new <code>everest.yaml</code> text file with the following content:</li>
 </ul>
-<div class="NOTE"><h5>Note</h5><p>Everest mods are built with the <a href="https://fna-xna.github.io/">FNA branch of Celeste</a> to make use of its <a href="https://github.com/FNA-XNA/FNA/wiki/5:-FNA-Extensions">API extensions</a> and for cross-platform compatibility. <strong>Everest will relink your mod from FNA to XNA at runtime.</strong></p>
+<pre><code class="lang-yaml">- Name: YourMod
+  Version: 1.0.0
+  DLL: Code/bin/Debug/YourMod.dll
+  Dependencies:
+    - Name: Everest
+      Version: 1.0.0
+</code></pre><div class="NOTE"><h5>Note</h5><p>For more info about the mod structure, the <code>everest.yaml</code> format, how to add extra content and on how to zip up your mod, <a href="/tutorials/modstruct.html">read the mod structure page</a>.</p>
 </div>
-<p>Right-click your project&#39;s &quot;References&quot; and select &quot;Add Reference...&quot;, then set up the references so that they look like in the following screenshot:</p>
-<p><img src="/images/firstcodemod/5-addedeverestrefs.png" alt="5-addedeverestrefs"></p>
-<div class="NOTE"><h5>Note</h5><p><code>MMHOOK_Celeste.dll</code> is automatically generated when you install Everest. Copy it from your Celeste directory to your project directory and add it as a reference.</p>
+<ul>
+<li>Right-click your project&#39;s &quot;References&quot; and select &quot;Add Reference...&quot;, then &quot;Browse...&quot; into your Celeste installation directory and setup your references like on the following screenshot:</li>
+</ul>
+<p><img src="/images/firstcodemod/2-refs.png" alt="2-refs"></p>
+<div class="IMPORTANT"><h5>Important</h5><p>Make sure to select all those references, right-click &gt; &quot;Properties&quot; and set &quot;Copy Local&quot; to &quot;False&quot;, or you will accidentally include copies of those files in your mod!</p>
 </div>
-<div class="IMPORTANT"><h5>Important</h5><p>Make sure to go into the properties of each included reference and set &quot;Copy Local&quot; to &quot;False&quot;, otherwise Visual Studio will include outdated / conflicting copies in your mod. </p>
-</div>
-<div class="IMPORTANT"><h5>Important</h5><p>If you want to maintain cross-platform compatibility, make sure to remove any .NET Framework references not on this list.</p>
+<div class="IMPORTANT"><h5>Important</h5><p>If you want to maintain cross-platform compatibility, make sure to only use .NET Framework system libraries from this list.</p>
 <ul>
 <li>System</li>
 <li>System.Configuration</li>
@@ -160,11 +145,11 @@
 <li>System.Xml</li>
 <li>System.Xml.Linq</li>
 </ul>
-<p>This means: Microsoft.CSharp, System.Windows.Anything, System.IO.Compression and other libraries are not available on Linux / macOS.<br>For an up-to-date list, check the <a href="https://github.com/flibitijibibo/MonoKickstart/tree/master/precompiled">list of precompiled MonoKickstart libraries</a>, as Celeste uses them for Linux / macOS.</p>
+<p>This means: Microsoft.CSharp, System.Windows.Anything, System.IO.Compression and other libraries must be removed from your references.<br>For an up-to-date list, check the <a href="https://github.com/flibitijibibo/MonoKickstart/tree/master/precompiled">list of precompiled MonoKickstart libraries</a>, as Celeste uses them for Linux / macOS.</p>
 </div>
 <h2 id="module-class">Module class</h2>
 <p>Your module class should look similar to the example.</p>
-<div class="NOTE"><h5>Note</h5><p>This example only shows a subset of Everest&#39;s capabilities.<br><a href="https://everestapi.github.io/api/Celeste.Mod.EverestModule.html"><strong>Read the full <code>EverestModule</code> documentation here.</strong></a></p>
+<div class="NOTE"><h5>Note</h5><p>This example only shows a subset of Everest&#39;s capabilities.<br><a href="/api/Celeste.Mod.EverestModule.html"><strong>Read the full <code>EverestModule</code> documentation here.</strong></a></p>
 </div>
 <pre><code class="lang-cs">// Example usings.
 using Celeste.Mod.UI;
@@ -220,7 +205,7 @@ namespace Celeste.Mod.Example {
 <p>Your settings class should look similar to the example.</p>
 <p>Save data classes are very similar, but inherit from <code>EverestModuleSaveData</code> and the <code>Setting*</code> attributes are ignored.</p>
 <div class="NOTE"><h5>Note</h5><p><strong>All entries must be properties</strong>, unless you&#39;re overriding <code>LoadSettings</code> and <code>SaveSettings</code> / <code>LoadSaveData</code> and <code>SaveSaveData</code> to bypass YamlDotNet&#39;s restrictions.</p>
-<p>This example only shows a subset of Everest&#39;s capabilities.<br><a href="https://everestapi.github.io/api/Celeste.Mod.EverestModuleSettings.html"><strong>Read the full <code>EverestModuleSettings</code> documentation here.</strong></a></p>
+<p>This example only shows a subset of Everest&#39;s capabilities.<br><a href="/api/Celeste.Mod.EverestModuleSettings.html"><strong>Read the full <code>EverestModuleSettings</code> documentation here.</strong></a></p>
 <p>For all settings attributes, search for <code>Celeste.Mod.Setting</code> in the Everest API.</p>
 </div>
 <pre><code class="lang-cs">// Example usings.
