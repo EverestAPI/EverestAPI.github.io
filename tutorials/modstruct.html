@@ -103,7 +103,7 @@
 <li>Mod subdirectories: Best used for prototyping mods on your own machine.</li>
 </ul>
 <p>A mod can&#39;t contain &quot;submods&quot;, unless a code mod loads the &quot;submods&quot; dynamically.</p>
-<p>A mod <code>.zip</code> shouldn&#39;t contain the content in a subdirectory. All of its contents should be accessible on the top level (root) by just opening the <code>.zip</code> file.</p>
+<p>All files in a mod <code>.zip</code> must be on the top level (root) and visible when just opening the <code>.zip</code> file. <code>YourMod.zip</code> shouldn&#39;t contain another <code>YourMod</code> folder.</p>
 <div class="NOTE"><h5>Note</h5><p>A code mod can dynamically load external mod content and mod assemblies.<br>Dynamically loaded mods aren&#39;t restricted by the above formats, but rather by how the &quot;supporting&quot; mod loads them.<br>The following file layout still applies to dynamically loaded mods.</p>
 </div>
 <h2 id="file-layout">File Layout</h2>
