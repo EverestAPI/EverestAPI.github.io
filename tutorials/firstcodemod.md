@@ -1,6 +1,6 @@
 ---
 title: "Your First Code Mod"
-_description: "What project template do I use? How do I make my options show up? This chapter lists some common code mod setup information."
+_description: "What project template do I use? How do I make my options show up? This page lists some common code mod setup information."
 ---
 
 # Your First Code Mod
