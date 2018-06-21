@@ -82,45 +82,86 @@
 
 
 <hr>
+<p style="float: right;"><a href="https://discord.gg/6qjaePQ"><img src="/images/invite.png" alt="Discord invite"></a></p>
+
 <p>Everest is an <a href="https://github.com/EverestAPI">open-source</a> mod loader and modding API, making texture replacements, custom level sets and endless code mods a reality.</p>
 <p><strong>Install Everest before installing other mods. For a list of mods, visit <a href="https://gamebanana.com/games/6460">GameBanana</a></strong></p>
 <p>If you&#39;ve got any issues with Everest, we&#39;re in the #game_modding channel of this Discord server to help you:</p>
-<p><a href="https://discord.gg/6qjaePQ"><img src="/images/invite.png" alt="Discord invite"></a></p>
 <h2 id="installing-everest">Installing Everest</h2>
 <h3 id="windows-auto-installer">Windows auto-installer</h3>
 <ul>
 <li><a href="https://gamebanana.com/tools/download/6449"><strong>Download the latest installer <code>.exe</code></strong></a> and run it.</li>
 <li>If Windows SmartScreen blocks it, tell it to run anyway.</li>
-<li>Steam: The installer should find your game automatically.</li>
-<li>itch.io: Select Celeste.exe in the installer.</li>
-<li>Hit the huge install button.</li>
+<li>Follow the steps in the installer.</li>
 </ul>
-<h3 id="windows--macos--linux--bsd-manual-installation">Windows / macOS / Linux / *BSD manual installation</h3>
+<h3 id="cross-platform-manual-installation">Cross-platform manual installation</h3>
 <ul>
-<li>If you&#39;ve <strong>previously installed Everest and updated Celeste</strong> or switched betas / branches, delete the <code>orig</code> directory where Celeste is installed.<ul>
-<li>macOS: Right-click and browse the Celeste app in Finder, then naviagte to <code>Contents</code>, then <code>MacOS</code>.</li>
-</ul>
-</li>
 <li><a href="https://ams3.digitaloceanspaces.com/lollyde/index.html">Download the latest <code>build-*-stable.zip</code> autobuild</a></li>
 <li>Extract the <code>.zip</code> to where Celeste is installed. <code>Celeste.Mod.mm.dll</code> should be right next to <code>Celeste.exe</code><ul>
 <li>macOS: Right-click and browse the Celeste app in Finder, then naviagte to <code>Contents</code>, then <code>MacOS</code>.</li>
 </ul>
 </li>
+<li>Delete the <code>orig</code> folder if it exists.</li>
 <li>Run <code>MiniInstaller.exe</code><ul>
 <li>Linux / macOS: <a href="https://www.mono-project.com/download/stable/">Install the mono runtime</a>, open a terminal window where Celeste is and run <code>mono MiniInstaller.exe</code></li>
 </ul>
 </li>
 </ul>
+<h2 id="features">Features</h2>
+<p>In no specific order:</p>
+<ul>
+<li>In-game Everest updater</li>
+<li>Cross-version and cross-platform compatibility</li>
+<li>Easy mod support without messing with your original files<ul>
+<li>Code mods</li>
+<li>Audio replacements and additions</li>
+<li>Graphic replacements and additions</li>
+<li>Custom texts (f.e. map names, dialogues)</li>
+<li>Custom maps</li>
+<li>Your own content via the highly flexible content API for code mods</li>
+</ul>
+</li>
+<li>Easily change hidden options in-game (debug mode and FMOD sync)</li>
+<li>Sound test</li>
+<li>Quality of life improvements:<ul>
+<li>Discord Rich Presence</li>
+<li>Keyboard input when renaming your savegame</li>
+<li>Info about saved and lost progress when returning to map</li>
+</ul>
+</li>
+<li>Debug mode improvements:<ul>
+<li>F5 to reload the map .bin without loosing progress</li>
+<li>CTRL + F5 to quick-reload the entire game without loosing progress</li>
+<li>F6 to quickly enter the room debugger</li>
+<li><code>.</code> to open and <code>q&lt;enter&gt;</code> to close the command line on keyboards without tilde key</li>
+</ul>
+</li>
+<li>Features for custom maps:<ul>
+<li>Unhardcoded Badeline chasers with custom ending barrier</li>
+<li>Custom core messages and memorials without replacing the original texts / sprites</li>
+<li>Session flag triggers</li>
+<li>Restore beta &quot;trigger spikes&quot;</li>
+<li>Two new cassette blocks: emerald and marigold</li>
+<li>Stationary fireballs without crashing the game</li>
+<li>Fixed rotating blade starting angle calculation</li>
+<li>Auto-fix and auto-fill, f.e. strawberry order, checkpoints in menu, fixed screen wrap in space rooms</li>
+<li>Map <code>.meta.yaml</code> for previously hardcoded properties, f.e. cassette song or default core mode</li>
+<li>Custom chapter complete screens</li>
+</ul>
+</li>
+<li>And many other smaller changes</li>
+</ul>
 <h2 id="installing-mods">Installing mods</h2>
 <ul>
-<li>Find a mod on <a href="https://gamebanana.com/games/6460">GameBanana</a></li>
-<li>Move the mod <code>.zip</code> into the <code>Mods</code> directory where Celeste is.<ul>
-<li>For prototyping: Feel free to use a subdirectory instead of a <code>.zip</code></li>
+<li>Find a mod you like on <a href="https://gamebanana.com/games/6460">GameBanana</a></li>
+<li>Press the 1-click installation button.<ul>
+<li>If the 1-click installer doesn&#39;t work, put the mod <code>.zip</code> into the <code>Mods</code> directory where Celeste is.</li>
+<li>For prototyping, feel free to use a subdirectory instead of a <code>.zip</code></li>
 </ul>
 </li>
 <li>That&#39;s it. No need to extract anything.</li>
 </ul>
-<h2 id="building-everest">Building Everest</h2>
+<h2 id="compiling-everest-yourself">Compiling Everest yourself</h2>
 <ul>
 <li><strong><em>If you just want to install Everest, go to <a href="#installing-everest">Installing Everest</a>.</em></strong></li>
 <li>If you&#39;ve <strong>previously installed Everest and updated Celeste</strong> or switched betas / branches, delete the <code>orig</code> directory where Celeste is installed.<ul>
