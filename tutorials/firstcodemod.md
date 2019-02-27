@@ -224,4 +224,5 @@ You should only care about the following two ways to hook methods:
 
 If you're interested in lower-level runtime detouring, take a look at [HookedMethod.Hook](https://github.com/EverestAPI/HookedMethod/blob/master/Examples/Program.cs), available via NuGet. Make sure to set it and its dependencies' "Copy Local" property to "False", as Everest provides them for you.  
 If you're interested in the lowest level of detouring, take a look at [MonoMod.RuntimeDetour](https://github.com/0x0ade/MonoMod/tree/master/MonoMod.RuntimeDetour), which also powers `MMHOOK_Celeste.dll`.
-
+If you're interested in browsing the Celeste source code in search of the right method to hook, [dnSpy] (https://github.com/0xd4d/dnSpy) can be used to decompile the exe for easy viewing.
+CelesteTAS-EverestInterop provides a good example of how to [hook into public methods] (https://github.com/EverestAPI/CelesteTAS-EverestInterop/blob/master/CelesteTAS-EverestInterop/CelesteTASModule.cs#L190), and how to [invoke private methods] (https://github.com/EverestAPI/CelesteTAS-EverestInterop/blob/master/CelesteTAS-EverestInterop/CelesteTASProxies.cs#L50).
