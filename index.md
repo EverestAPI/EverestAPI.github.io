@@ -24,8 +24,8 @@ If you've got any issues with Everest, we're in the #game_modding channel of thi
 - Follow the steps in the installer.
 
 ### Cross-platform manual installation
-- [Download the latest `build-*-stable.zip` autobuild](https://ams3.digitaloceanspaces.com/lollyde/index.html)
-- Extract the `.zip` to where Celeste is installed. `Celeste.Mod.mm.dll` should be right next to `Celeste.exe`
+- [Download the latest `build-*-stable.zip` autobuild](https://dev.azure.com/EverestAPI/Everest/_build/latest?definitionId=1&branchName=master)
+- Extract the `.zip`'s main folder to where Celeste is installed. `Celeste.Mod.mm.dll` should be right next to `Celeste.exe`
     - macOS: Right-click and browse the Celeste app in Finder, then naviagte to `Contents`, then `MacOS`.
 - Delete the `orig` folder if it exists.
 - Run `MiniInstaller.exe`
@@ -79,7 +79,7 @@ In no specific order:
 - ***If you just want to install Everest, go to [Installing Everest](#installing-everest).***
 - If you've **previously installed Everest and updated Celeste** or switched betas / branches, delete the `orig` directory where Celeste is installed.
     - macOS: Right-click and browse the Celeste app in Finder, then naviagte to `Contents`, then `MacOS`.
-- Clone the [Everest repo](github.com/EverestAPI/Everest), either in your IDE, via the CLI, or by downloading the .zip from GitHub.
+- Clone the [Everest repo](https://github.com/EverestAPI/Everest), either in your IDE, via the CLI, or by downloading the .zip from GitHub.
 - Restore Nuget packages either via your IDE or the command line.
 
 ### Windows
