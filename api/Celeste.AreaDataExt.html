@@ -301,6 +301,54 @@
   </table>
   
   
+  <a id="Celeste_AreaDataExt_GetModeMeta_" data-uid="Celeste.AreaDataExt.GetModeMeta*"></a>
+  <h4 id="Celeste_AreaDataExt_GetModeMeta_Celeste_AreaData_Celeste_AreaMode_" data-uid="Celeste.AreaDataExt.GetModeMeta(Celeste.AreaData,Celeste.AreaMode)">GetModeMeta(AreaData, AreaMode)</h4>
+  <div class="markdown level1 summary"><p>Get the custom metadata of the mode if OverrideASideMeta is enabled. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MapMeta GetModeMeta(this AreaData self, AreaMode value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.AreaData</span></td>
+        <td><span class="parametername">self</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Celeste.AreaMode</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.Meta.MapMeta.html">MapMeta</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Celeste_AreaDataExt_GetSID_" data-uid="Celeste.AreaDataExt.GetSID*"></a>
   <h4 id="Celeste_AreaDataExt_GetSID_Celeste_AreaData_" data-uid="Celeste.AreaDataExt.GetSID(Celeste.AreaData)">GetSID(AreaData)</h4>
   <div class="markdown level1 summary"><p>Get the SID (string ID) of the area.</p>
@@ -482,6 +530,54 @@
     <tbody>
       <tr>
         <td><span class="xref">Celeste.AreaKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_AreaDataExt_TryOverrideMeta_" data-uid="Celeste.AreaDataExt.TryOverrideMeta*"></a>
+  <h4 id="Celeste_AreaDataExt_TryOverrideMeta_Celeste_AreaData_Celeste_AreaMode_" data-uid="Celeste.AreaDataExt.TryOverrideMeta(Celeste.AreaData,Celeste.AreaMode)">TryOverrideMeta(AreaData, AreaMode)</h4>
+  <div class="markdown level1 summary"><p>Apply the metadata of the mode to the area if OverrideASideMeta is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryOverrideMeta(this AreaData self, AreaMode value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.AreaData</span></td>
+        <td><span class="parametername">self</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Celeste.AreaMode</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>

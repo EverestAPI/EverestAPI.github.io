@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Your First Code Mod | Everest </title>
+    <title> | Everest </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Your First Code Mod | Everest ">
+    <meta name="title" content=" | Everest ">
     <meta name="generator" content="docfx 2.31.0.0">
-    <meta name="description" content="What project template do I use? How do I make my options show up? This page lists some common code mod setup information.">
+    <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <link rel="shortcut icon" href="../favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
@@ -20,8 +20,8 @@
     <meta property="docfx:rel" content="../">
     <meta property="docfx:newtab" content="true">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Your First Code Mod">
-    <meta property="og:site_name" content="Everest"><meta property="og:description" content="What project template do I use? How do I make my options show up? This page lists some common code mod setup information.">
+    <meta property="og:title" content="">
+    <meta property="og:site_name" content="Everest"><meta property="og:description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <meta name="author" content="Everest Team">
     <meta property="og:locale" content="en_US">
     <link rel="canonical" href="https://everestapi.github.io/"><meta property="og:url" content="https://everestapi.github.io/">
@@ -83,198 +83,8 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="your-first-code-mod">Your First Code Mod</h1>
 
-<hr>
-<!-- TODO: Get > [!PREREQUISITES] working -->
-<div class="PREREQUISITES">
-<h5>PREREQUISITES</h5>
-<p>
-<li>Everest: <a href="/">Website</a></li>
-<li>Visual Studio 2015 or newer. MonoDevelop instructions are different.</li>
-</p>
-</div>
-
-<hr>
-<p>Every Everest code mod starts out as a C# (.NET Framework) class library targeting the .NET Framework 4.5.2 (same as Celeste itself).</p>
-<h2 id="project-setup">Project setup</h2>
-<div class="NOTE"><h5>Note</h5><p>If you want a more traditional C# project setup, follow the <a href="https://github.com/EverestAPI/EverestAPI.github.io/blob/a789878761965db62c4f3c98f2bda58828e307a4/tutorials/firstcodemod.md#project-setup">old advanced project setup instructions</a>.</p>
-</div>
-<p>This setup doesn&#39;t require NuGet or git, but if you&#39;re a Windows user, you&#39;ll need to switch to the OpenGL branch. Linux and macOS users are already using FNA. <strong>Everest will relink your mod from FNA to XNA at runtime.</strong></p>
-<ul>
-<li>In Steam, right-click the game in your library, select &quot;Properties&quot; and select the <code>opengl</code> &quot;beta&quot;.</li>
-<li>In itch, &lt;insert itch instructions here&gt;</li>
-</ul>
-<p>After the update has finished, make sure to reinstall Everest.</p>
-<ul>
-<li>Open your C# IDE (f.e. Visual Studio 2015).</li>
-<li>Create a new project.</li>
-<li>In the top bar, select <code>.NET Framework 4.5.2</code></li>
-<li>In the left bar, select <code>Installed</code> &gt; <code>Visual C#</code></li>
-<li>Select the template <code>Class Library</code> or <code>Class Library (.NET Framework)</code> (<strong>not</strong> <code>Standard</code>, <code>Core</code>, <code>Portable</code>, <code>Universal Windows</code>, ...).</li>
-<li>Create your mod in Celeste/Mods</li>
-</ul>
-<p>The dialog should look like this:</p>
-<p><img src="/images/firstcodemod/1-newproj.png" alt="1-newproj"></p>
-<ul>
-<li>Create a new <code>everest.yaml</code> text file with the following content:</li>
-</ul>
-<pre><code class="lang-yaml">- Name: YourMod
-  Version: 1.0.0
-  DLL: Code/bin/Debug/YourMod.dll
-  Dependencies:
-    - Name: Everest
-      Version: 1.0.0
-</code></pre><div class="NOTE"><h5>Note</h5><p>For more info about the mod structure, the <code>everest.yaml</code> format, how to add extra content and on how to zip up your mod, <a href="/tutorials/modstruct.html">read the mod structure page</a>.</p>
-</div>
-<ul>
-<li>Right-click your project&#39;s &quot;References&quot; and select &quot;Add Reference...&quot;, then &quot;Browse...&quot; into your Celeste installation directory and setup your references like on the following screenshot:</li>
-</ul>
-<p><img src="/images/firstcodemod/2-refs.png" alt="2-refs"></p>
-<div class="IMPORTANT"><h5>Important</h5><p>Make sure to select all those references, right-click &gt; &quot;Properties&quot; and set &quot;Copy Local&quot; to &quot;False&quot;, or you will accidentally include copies of those files in your mod!</p>
-</div>
-<div class="IMPORTANT"><h5>Important</h5><p>If you want to maintain cross-platform compatibility, make sure to only use .NET Framework system libraries from this list.</p>
-<ul>
-<li>System</li>
-<li>System.Configuration</li>
-<li>System.Core</li>
-<li>System.Data</li>
-<li>System.Drawing (available, but behaves unpredictably)</li>
-<li>System.Runtime.Serialization</li>
-<li>System.Security</li>
-<li>System.Xml</li>
-<li>System.Xml.Linq</li>
-</ul>
-<p>This means: Microsoft.CSharp, System.Windows.Anything, System.IO.Compression and other libraries must be removed from your references.<br>For an up-to-date list, check the <a href="https://github.com/flibitijibibo/MonoKickstart/tree/master/precompiled">list of precompiled MonoKickstart libraries</a>, as Celeste uses them for Linux / macOS.</p>
-</div>
-<h2 id="module-class">Module class</h2>
-<p>Your module class should look similar to the example.</p>
-<div class="NOTE"><h5>Note</h5><p>This example only shows a subset of Everest&#39;s capabilities.<br><a href="/api/Celeste.Mod.EverestModule.html"><strong>Read the full <code>EverestModule</code> documentation here.</strong></a></p>
-</div>
-<pre><code class="lang-cs">// Example usings.
-using Celeste.Mod.UI;
-using FMOD.Studio;
-using Microsoft.Xna.Framework;
-using Monocle;
-using Celeste;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Celeste.Mod.Example {
-    public class ExampleModule : EverestModule {
-
-        // Only one alive module instance can exist at any given time.
-        public static ExampleModule Instance;
-
-        public ExampleModule() {
-            Instance = this;
-        }
-
-        // If you don&#39;t need to store any settings, =&gt; null
-        public override Type SettingsType =&gt; typeof(ExampleSettings);
-        public static ExampleSettings Settings =&gt; (ExampleSettings) Instance._Settings;
-
-        // If you don&#39;t need to store any save data, =&gt; null
-        public override Type SaveDataType =&gt; typeof(ExampleSaveData);
-        public static ExampleSaveData SaveData =&gt; (ExampleSaveData) Instance._SaveData;
-
-        // Set up any hooks, event handlers and your mod in general here.
-        // Load runs before Celeste itself has initialized properly.
-        public override void Load() {
-        }
-
-        // Optional, initialize anything after Celeste has initialized itself properly.
-        public override void Initialize() {
-        }
-
-        // Optional, do anything requiring either the Celeste or mod content here.
-        public override void LoadContent() {
-        }
-
-        // Unload the entirety of your mod&#39;s content, remove any event listeners and undo all hooks.
-        public override void Unload() {
-        }
-
-    }
-}
-</code></pre><h2 id="settings--savedata-class">Settings / SaveData class</h2>
-<p>Your settings class should look similar to the example.</p>
-<p>Save data classes are very similar, but inherit from <code>EverestModuleSaveData</code> and the <code>Setting*</code> attributes are ignored.</p>
-<div class="NOTE"><h5>Note</h5><p><strong>All entries must be properties</strong>, unless you&#39;re overriding <code>LoadSettings</code> and <code>SaveSettings</code> / <code>LoadSaveData</code> and <code>SaveSaveData</code> to bypass YamlDotNet&#39;s restrictions.</p>
-<p>This example only shows a subset of Everest&#39;s capabilities.<br><a href="/api/Celeste.Mod.EverestModuleSettings.html"><strong>Read the full <code>EverestModuleSettings</code> documentation here.</strong></a></p>
-<p>For all settings attributes, search for <code>Celeste.Mod.Setting</code> in the Everest API.</p>
-</div>
-<pre><code class="lang-cs">// Example usings.
-using Celeste;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using YamlDotNet.Serialization;
-
-namespace Celeste.Mod.Example {
-    // If no SettingName is applied, it defaults to
-    // modoptions_[typename without settings]_title
-    // The value is then used to look up the UI text in the dialog files.
-    // If no dialog text can be found, Everest shows a prettified mod name instead.
-    [SettingName(&quot;modoptions_examplemodule_title&quot;)]
-    public class ExampleModuleSettings : EverestModuleSettings { 
-
-        // SettingName also works on props, defaulting to
-        // modoptions_[typename without settings]_[propname]
-
-        // Example ON / OFF property with a default value.
-        public bool ExampleSwitch { get; set; } = false;
-
-        [SettingIgnore] // Hide from the options menu, but still load / save it.
-        public string ExampleHidden { get; set; } = &quot;&quot;;
-
-        [SettingRange(0, 10)] // Allow choosing a value from 0 (inclusive) to 10 (inclusive).
-        public int ExampleSlider { get; set; } = 5;
-
-        [SettingRange(0, 10)]
-        [SettingInGame(false)] // Only show this in the main menu.
-        public int ExampleMainMenuSlider { get; set; } = 5;
-
-        [SettingRange(0, 10)]
-        [SettingInGame(true)] // Only show this in the in-game menu.
-        public int ExampleInGameSlider { get; set; } = 5;
-
-        [YamlIgnore] // Don&#39;t load / save it, but show it in the options menu.
-        [SettingNeedsRelaunch] // Tell the user to restart for changes to take effect.
-        public bool LaunchInDebugMode {
-            get {
-                return Settings.Instance.LaunchInDebugMode;
-            }
-            set {
-                Settings.Instance.LaunchInDebugMode = value;
-            }
-        }
-
-        public int SomethingWeird { get; set; } = 42;
-
-        // Custom entry creation methods are always called Create[propname]Entry
-        // and offer an alternative to overriding CreateModMenuSection in your module class.
-        public void CreateSomethingWeirdEntry(TextMenu menu, bool inGame) {
-            // Create your own menu entry here.
-            // Maybe you want to create a toggle for an int property?
-        }
-
-    }
-}
-</code></pre><h2 id="hooking-methods">Hooking Methods</h2>
-<p>You should only care about the following two ways to hook methods:</p>
-<ul>
-<li><strong>Everest.Events:</strong> This is a very restricted event listening method built into Everest, and is only used when Everest needs to do work behind the scenes for you. You can&#39;t control when the original method runs.</li>
-<li><strong>MMHOOK_Celeste.dll:</strong> This auto-generated file allows you to hook to all Celeste methods as if they were events. You are responsible to run the original method. Also, <strong>you need to install Everest on the OpenGL / FNA version of the game to auto-generate a working .dll</strong>, otherwise you&#39;ll need the Windows-only and obsolete XNA Framework to even compile your mod. <a href="https://github.com/EverestAPI/GhostMod/blob/75bfd526210d151b20ec417757e4cbe4436de16c/GhostNetMod/GhostNetHooks.cs#L18">Take a look at an example in GhostNet here.</a></li>
-</ul>
-<p>If you&#39;re interested in lower-level runtime detouring, take a look at <a href="https://github.com/EverestAPI/HookedMethod/blob/master/Examples/Program.cs">HookedMethod.Hook</a>, available via NuGet. Make sure to set it and its dependencies&#39; &quot;Copy Local&quot; property to &quot;False&quot;, as Everest provides them for you.<br>If you&#39;re interested in the lowest level of detouring, take a look at <a href="https://github.com/0x0ade/MonoMod/tree/master/MonoMod.RuntimeDetour">MonoMod.RuntimeDetour</a>, which also powers <code>MMHOOK_Celeste.dll</code>.</p>
+<p>This page has been moved to the wiki, or is still being moved there.<br><a href="https://github.com/EverestAPI/Resources/wiki">Go there.</a></p>
 </article>
           </div>
           

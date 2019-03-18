@@ -229,6 +229,31 @@
   </table>
   
   
+  <h4 id="Celeste_Mod_Everest_ChecksumHasher" data-uid="Celeste.Mod.Everest.ChecksumHasher">ChecksumHasher</h4>
+  <div class="markdown level1 summary"><p>The hasher used to determine the mod and installation hashes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly HashAlgorithm ChecksumHasher</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.Cryptography.HashAlgorithm</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Celeste_Mod_Everest_Version" data-uid="Celeste.Mod.Everest.Version">Version</h4>
   <div class="markdown level1 summary"><p>The currently installed Everest version.</p>
 </div>
@@ -382,6 +407,56 @@
   </table>
   
   
+  <a id="Celeste_Mod_Everest_InstallationHash_" data-uid="Celeste.Mod.Everest.InstallationHash*"></a>
+  <h4 id="Celeste_Mod_Everest_InstallationHash" data-uid="Celeste.Mod.Everest.InstallationHash">InstallationHash</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] InstallationHash { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Everest_InstallationHashShort_" data-uid="Celeste.Mod.Everest.InstallationHashShort*"></a>
+  <h4 id="Celeste_Mod_Everest_InstallationHashShort" data-uid="Celeste.Mod.Everest.InstallationHashShort">InstallationHashShort</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string InstallationHashShort { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Celeste_Mod_Everest_Modules_" data-uid="Celeste.Mod.Everest.Modules*"></a>
   <h4 id="Celeste_Mod_Everest_Modules" data-uid="Celeste.Mod.Everest.Modules">Modules</h4>
   <div class="markdown level1 summary"><p>A collection of all currently loaded EverestModules (mods).</p>
@@ -402,6 +477,32 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<a class="xref" href="Celeste.Mod.EverestModule.html">EverestModule</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Everest_PathEverest_" data-uid="Celeste.Mod.Everest.PathEverest*"></a>
+  <h4 id="Celeste_Mod_Everest_PathEverest" data-uid="Celeste.Mod.Everest.PathEverest">PathEverest</h4>
+  <div class="markdown level1 summary"><p>Path to Everest base location. Defaults to the game directory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string PathEverest { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -484,8 +585,124 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Celeste_Mod_Everest_XDGPaths_" data-uid="Celeste.Mod.Everest.XDGPaths*"></a>
+  <h4 id="Celeste_Mod_Everest_XDGPaths" data-uid="Celeste.Mod.Everest.XDGPaths">XDGPaths</h4>
+  <div class="markdown level1 summary"><p>Whether XDG paths should be used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool XDGPaths { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="Celeste_Mod_Everest_GetChecksum_" data-uid="Celeste.Mod.Everest.GetChecksum*"></a>
+  <h4 id="Celeste_Mod_Everest_GetChecksum_Celeste_Mod_EverestModuleMetadata_" data-uid="Celeste.Mod.Everest.GetChecksum(Celeste.Mod.EverestModuleMetadata)">GetChecksum(EverestModuleMetadata)</h4>
+  <div class="markdown level1 summary"><p>Get the checksum for a given mod. Might not be determined by the entire mod content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] GetChecksum(EverestModuleMetadata meta)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.EverestModuleMetadata.html">EverestModuleMetadata</a></td>
+        <td><span class="parametername">meta</span></td>
+        <td><p>The mod.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>A checksum.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Everest_GetChecksum_" data-uid="Celeste.Mod.Everest.GetChecksum*"></a>
+  <h4 id="Celeste_Mod_Everest_GetChecksum_System_String_" data-uid="Celeste.Mod.Everest.GetChecksum(System.String)">GetChecksum(String)</h4>
+  <div class="markdown level1 summary"><p>Get the checksum for a given file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] GetChecksum(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>The file path.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>A checksum.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Celeste_Mod_Everest_Invoke_" data-uid="Celeste.Mod.Everest.Invoke*"></a>
@@ -562,6 +779,16 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Celeste_Mod_Everest_QuickFullRestart_" data-uid="Celeste.Mod.Everest.QuickFullRestart*"></a>
+  <h4 id="Celeste_Mod_Everest_QuickFullRestart" data-uid="Celeste.Mod.Everest.QuickFullRestart">QuickFullRestart()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void QuickFullRestart()</code></pre>
+  </div>
   
   
   <a id="Celeste_Mod_Everest_Register_" data-uid="Celeste.Mod.Everest.Register*"></a>

@@ -139,6 +139,33 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public MapMetaModeProperties()</code></pre>
   </div>
+  
+  
+  <a id="Celeste_Mod_Meta_MapMetaModeProperties__ctor_" data-uid="Celeste.Mod.Meta.MapMetaModeProperties.#ctor*"></a>
+  <h4 id="Celeste_Mod_Meta_MapMetaModeProperties__ctor_Celeste_BinaryPacker_Element_" data-uid="Celeste.Mod.Meta.MapMetaModeProperties.#ctor(Celeste.BinaryPacker.Element)">MapMetaModeProperties(BinaryPacker.Element)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MapMetaModeProperties(BinaryPacker.Element meta)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.BinaryPacker.Element</span></td>
+        <td><span class="parametername">meta</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -224,7 +251,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IgnoreLevelAudioLayerData { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool? IgnoreLevelAudioLayerData { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -236,7 +263,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -318,6 +345,31 @@
   </table>
   
   
+  <a id="Celeste_Mod_Meta_MapMetaModeProperties_SeekerSlowdown_" data-uid="Celeste.Mod.Meta.MapMetaModeProperties.SeekerSlowdown*"></a>
+  <h4 id="Celeste_Mod_Meta_MapMetaModeProperties_SeekerSlowdown" data-uid="Celeste.Mod.Meta.MapMetaModeProperties.SeekerSlowdown">SeekerSlowdown</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? SeekerSlowdown { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Celeste_Mod_Meta_MapMetaModeProperties_StartLevel_" data-uid="Celeste.Mod.Meta.MapMetaModeProperties.StartLevel*"></a>
   <h4 id="Celeste_Mod_Meta_MapMetaModeProperties_StartLevel" data-uid="Celeste.Mod.Meta.MapMetaModeProperties.StartLevel">StartLevel</h4>
   <div class="markdown level1 summary"></div>
@@ -341,8 +393,65 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Celeste_Mod_Meta_MapMetaModeProperties_TheoInBubble_" data-uid="Celeste.Mod.Meta.MapMetaModeProperties.TheoInBubble*"></a>
+  <h4 id="Celeste_Mod_Meta_MapMetaModeProperties_TheoInBubble" data-uid="Celeste.Mod.Meta.MapMetaModeProperties.TheoInBubble">TheoInBubble</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? TheoInBubble { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="Celeste_Mod_Meta_MapMetaModeProperties_ApplyTo_" data-uid="Celeste.Mod.Meta.MapMetaModeProperties.ApplyTo*"></a>
+  <h4 id="Celeste_Mod_Meta_MapMetaModeProperties_ApplyTo_Celeste_AreaData_Celeste_AreaMode_" data-uid="Celeste.Mod.Meta.MapMetaModeProperties.ApplyTo(Celeste.AreaData,Celeste.AreaMode)">ApplyTo(AreaData, AreaMode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ApplyTo(AreaData area, AreaMode mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.AreaData</span></td>
+        <td><span class="parametername">area</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Celeste.AreaMode</span></td>
+        <td><span class="parametername">mode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Celeste_Mod_Meta_MapMetaModeProperties_Convert_" data-uid="Celeste.Mod.Meta.MapMetaModeProperties.Convert*"></a>
@@ -364,6 +473,33 @@
     <tbody>
       <tr>
         <td><span class="xref">Celeste.ModeProperties</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Meta_MapMetaModeProperties_Parse_" data-uid="Celeste.Mod.Meta.MapMetaModeProperties.Parse*"></a>
+  <h4 id="Celeste_Mod_Meta_MapMetaModeProperties_Parse_Celeste_BinaryPacker_Element_" data-uid="Celeste.Mod.Meta.MapMetaModeProperties.Parse(Celeste.BinaryPacker.Element)">Parse(BinaryPacker.Element)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Parse(BinaryPacker.Element meta)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.BinaryPacker.Element</span></td>
+        <td><span class="parametername">meta</span></td>
         <td></td>
       </tr>
     </tbody>
