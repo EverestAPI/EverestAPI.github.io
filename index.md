@@ -49,8 +49,8 @@ In no specific order:
     - Keyboard input when renaming your savegame
     - Info about saved and lost progress when returning to map
 - Debug mode improvements:
-    - F5 to reload the map .bin without loosing progress
-    - CTRL + F5 to quick-reload the entire game and all mods without loosing progress
+    - F5 to reload the map .bin without losing progress
+    - CTRL + F5 to quick-reload the entire game and all mods without losing progress
     - F6 to quickly open the leftover in-game map layout utility
     - `.` to open and `q<enter>` to close the command line on keyboards without tilde key
 - Features for custom maps:
