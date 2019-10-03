@@ -24,7 +24,7 @@ If you've got any issues with Everest, we're in the #game_modding channel of thi
 - Follow the steps in the installer.
 
 ### Cross-platform manual installation
-- [Download the latest `build-*-stable.zip` autobuild](https://dev.azure.com/EverestAPI/Everest/_build/latest?definitionId=1&branchName=master)
+- Download the latest autobuild ([latest version](https://dev.azure.com/EverestAPI/Everest/_build/latest?definitionId=3&branchName=master), [latest stable version](https://dev.azure.com/EverestAPI/Everest/_build/latest?definitionId=3&branchName=stable)). Click the "Artifacts" button on the top-right of the page, then "main" to download it.
 - Extract the `.zip`'s main folder to where Celeste is installed. `Celeste.Mod.mm.dll` should be right next to `Celeste.exe`
     - macOS: Right-click and browse the Celeste app in Finder, then naviagte to `Contents`, then `MacOS`.
 - Delete the `orig` folder if it exists.
@@ -49,8 +49,8 @@ In no specific order:
     - Keyboard input when renaming your savegame
     - Info about saved and lost progress when returning to map
 - Debug mode improvements:
-    - F5 to reload the map .bin without loosing progress
-    - CTRL + F5 to quick-reload the entire game and all mods without loosing progress
+    - F5 to reload the map .bin without losing progress
+    - CTRL + F5 to quick-reload the entire game and all mods without losing progress
     - F6 to quickly open the leftover in-game map layout utility
     - `.` to open and `q<enter>` to close the command line on keyboards without tilde key
 - Features for custom maps:
