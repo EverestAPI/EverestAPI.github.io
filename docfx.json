@@ -40,7 +40,8 @@
           "fonts/**",
           "downloads/**",
           "logo*",
-          "favicon*"
+          "favicon*",
+          "modupdater.txt"
         ]
       }
     ],
