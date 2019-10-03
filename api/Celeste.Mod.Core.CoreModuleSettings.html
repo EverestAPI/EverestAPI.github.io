@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class CoreModuleSettings
    | Everest ">
-    <meta name="generator" content="docfx 2.31.0.0">
+    <meta name="generator" content="docfx 2.44.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <link rel="shortcut icon" href="../favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -143,6 +143,31 @@ public class CoreModuleSettings : EverestModuleSettings</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="Celeste_Mod_Core_CoreModuleSettings_DebugMode_" data-uid="Celeste.Mod.Core.CoreModuleSettings.DebugMode*"></a>
+  <h4 id="Celeste_Mod_Core_CoreModuleSettings_DebugMode" data-uid="Celeste.Mod.Core.CoreModuleSettings.DebugMode">DebugMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DebugMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Celeste_Mod_Core_CoreModuleSettings_DebugRCPort_" data-uid="Celeste.Mod.Core.CoreModuleSettings.DebugRCPort*"></a>
@@ -354,33 +379,6 @@ public string DiscordTextInMenu { get; set; }</code></pre>
   </table>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings_LaunchInDebugMode_" data-uid="Celeste.Mod.Core.CoreModuleSettings.LaunchInDebugMode*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_LaunchInDebugMode" data-uid="Celeste.Mod.Core.CoreModuleSettings.LaunchInDebugMode">LaunchInDebugMode</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingNeedsRelaunch]
-[SettingInGame(false)]
-public bool LaunchInDebugMode { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Celeste_Mod_Core_CoreModuleSettings_LaunchWithFMODLiveUpdate_" data-uid="Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdate*"></a>
   <h4 id="Celeste_Mod_Core_CoreModuleSettings_LaunchWithFMODLiveUpdate" data-uid="Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdate">LaunchWithFMODLiveUpdate</h4>
   <div class="markdown level1 summary"></div>
@@ -443,6 +441,7 @@ public bool LaunchWithoutIntro { get; set; }</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[SettingNeedsRelaunch]
 [SettingInGame(false)]
+[SettingIgnore]
 public bool LazyLoading { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -462,16 +461,14 @@ public bool LazyLoading { get; set; }</code></pre>
   </table>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings_LQAtlas_" data-uid="Celeste.Mod.Core.CoreModuleSettings.LQAtlas*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_LQAtlas" data-uid="Celeste.Mod.Core.CoreModuleSettings.LQAtlas">LQAtlas</h4>
+  <a id="Celeste_Mod_Core_CoreModuleSettings_LazyLoading_Yes_I_Know_This_Can_Cause_Bugs_" data-uid="Celeste.Mod.Core.CoreModuleSettings.LazyLoading_Yes_I_Know_This_Can_Cause_Bugs*"></a>
+  <h4 id="Celeste_Mod_Core_CoreModuleSettings_LazyLoading_Yes_I_Know_This_Can_Cause_Bugs" data-uid="Celeste.Mod.Core.CoreModuleSettings.LazyLoading_Yes_I_Know_This_Can_Cause_Bugs">LazyLoading_Yes_I_Know_This_Can_Cause_Bugs</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingNeedsRelaunch]
-[SettingInGame(false)]
-[SettingIgnore]
-public bool LQAtlas { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[SettingIgnore]
+public bool LazyLoading_Yes_I_Know_This_Can_Cause_Bugs { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -607,70 +604,6 @@ public bool UnpackFMODBanks { get; set; }</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void CreateInputGuiEntry(TextMenu menu, bool inGame)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Celeste.TextMenu</span></td>
-        <td><span class="parametername">menu</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">inGame</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_CreateLaunchInDebugModeEntry_" data-uid="Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugModeEntry*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_CreateLaunchInDebugModeEntry_Celeste_TextMenu_System_Boolean_" data-uid="Celeste.Mod.Core.CoreModuleSettings.CreateLaunchInDebugModeEntry(Celeste.TextMenu,System.Boolean)">CreateLaunchInDebugModeEntry(TextMenu, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CreateLaunchInDebugModeEntry(TextMenu menu, bool inGame)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Celeste.TextMenu</span></td>
-        <td><span class="parametername">menu</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">inGame</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_CreateLaunchWithFMODLiveUpdateEntry_" data-uid="Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdateEntry*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_CreateLaunchWithFMODLiveUpdateEntry_Celeste_TextMenu_System_Boolean_" data-uid="Celeste.Mod.Core.CoreModuleSettings.CreateLaunchWithFMODLiveUpdateEntry(Celeste.TextMenu,System.Boolean)">CreateLaunchWithFMODLiveUpdateEntry(TextMenu, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CreateLaunchWithFMODLiveUpdateEntry(TextMenu menu, bool inGame)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

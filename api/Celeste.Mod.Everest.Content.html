@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Everest.Content
    | Everest ">
-    <meta name="generator" content="docfx 2.31.0.0">
+    <meta name="generator" content="docfx 2.44.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <link rel="shortcut icon" href="../favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -181,31 +181,6 @@
   </table>
   
   
-  <h4 id="Celeste_Mod_Everest_Content_MapDirs" data-uid="Celeste.Mod.Everest.Content.MapDirs">MapDirs</h4>
-  <div class="markdown level1 summary"><p>Mod content mapping, directories only. Use Everest.Content.Add, Get, and TryGet where applicable instead.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly Dictionary&lt;string, ModAsset&gt; MapDirs</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="Celeste.Mod.ModAsset.html">ModAsset</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <h4 id="Celeste_Mod_Everest_Content_Mods" data-uid="Celeste.Mod.Everest.Content.Mods">Mods</h4>
   <div class="markdown level1 summary"><p>List of all currently loaded content mods.</p>
 </div>
@@ -294,7 +269,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ModAsset Add(string path, ModAsset metadata)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Add(string path, ModAsset metadata)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -316,22 +291,6 @@
         <td><a class="xref" href="Celeste.Mod.ModAsset.html">ModAsset</a></td>
         <td><span class="parametername">metadata</span></td>
         <td><p>The matching mod asset meta object.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Celeste.Mod.ModAsset.html">ModAsset</a></td>
-        <td><p>The passed mod asset meta object.</p>
 </td>
       </tr>
     </tbody>
@@ -587,15 +546,15 @@
   </table>
   
   
-  <a id="Celeste_Mod_Everest_Content_Process_" data-uid="Celeste.Mod.Everest.Content.Process*"></a>
-  <h4 id="Celeste_Mod_Everest_Content_Process_System_Object_System_String_" data-uid="Celeste.Mod.Everest.Content.Process(System.Object,System.String)">Process(Object, String)</h4>
+  <a id="Celeste_Mod_Everest_Content_ProcessLoad_" data-uid="Celeste.Mod.Everest.Content.ProcessLoad*"></a>
+  <h4 id="Celeste_Mod_Everest_Content_ProcessLoad_System_Object_System_String_" data-uid="Celeste.Mod.Everest.Content.ProcessLoad(System.Object,System.String)">ProcessLoad(Object, String)</h4>
   <div class="markdown level1 summary"><p>Process an asset and register it for further reprocessing in the future.
 Apply any mod-related changes to the asset based on the existing mod asset meta map.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static object Process(object asset, string assetNameFull)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void ProcessLoad(object asset, string assetNameFull)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -621,19 +580,40 @@ Apply any mod-related changes to the asset based on the existing mod asset meta 
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  
+  
+  <a id="Celeste_Mod_Everest_Content_ProcessUpdate_" data-uid="Celeste.Mod.Everest.Content.ProcessUpdate*"></a>
+  <h4 id="Celeste_Mod_Everest_Content_ProcessUpdate_System_Object_Celeste_Mod_ModAsset_System_Boolean_" data-uid="Celeste.Mod.Everest.Content.ProcessUpdate(System.Object,Celeste.Mod.ModAsset,System.Boolean)">ProcessUpdate(Object, ModAsset, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ProcessUpdate(object asset, ModAsset mapping, bool load)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Object</span></td>
-        <td><p>The processed asset.</p>
-</td>
+        <td><span class="parametername">asset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.ModAsset.html">ModAsset</a></td>
+        <td><span class="parametername">mapping</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">load</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -646,18 +626,8 @@ Apply any mod-related changes to the asset based on the existing mod asset meta 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Recrawl()</code></pre>
-  </div>
-  
-  
-  <a id="Celeste_Mod_Everest_Content_Reprocess_" data-uid="Celeste.Mod.Everest.Content.Reprocess*"></a>
-  <h4 id="Celeste_Mod_Everest_Content_Reprocess" data-uid="Celeste.Mod.Everest.Content.Reprocess">Reprocess()</h4>
-  <div class="markdown level1 summary"><p>Reprocess all loaded / previously processed assets, re-applying any changes after a recrawl.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Reprocess()</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Mod content should no longer be recrawled manually.&quot;)]
+public static void Recrawl()</code></pre>
   </div>
   
   
@@ -788,6 +758,38 @@ Apply any mod-related changes to the asset based on the existing mod asset meta 
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Celeste_Mod_Everest_Content_Update_" data-uid="Celeste.Mod.Everest.Content.Update*"></a>
+  <h4 id="Celeste_Mod_Everest_Content_Update_Celeste_Mod_ModAsset_Celeste_Mod_ModAsset_" data-uid="Celeste.Mod.Everest.Content.Update(Celeste.Mod.ModAsset,Celeste.Mod.ModAsset)">Update(ModAsset, ModAsset)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Update(ModAsset prev, ModAsset next)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.ModAsset.html">ModAsset</a></td>
+        <td><span class="parametername">prev</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.ModAsset.html">ModAsset</a></td>
+        <td><span class="parametername">next</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="events">Events
   </h3>
   
@@ -817,13 +819,13 @@ Apply any mod-related changes to the asset based on the existing mod asset meta 
   </table>
   
   
-  <h4 id="Celeste_Mod_Everest_Content_OnProcess" data-uid="Celeste.Mod.Everest.Content.OnProcess">OnProcess</h4>
+  <h4 id="Celeste_Mod_Everest_Content_OnProcessLoad" data-uid="Celeste.Mod.Everest.Content.OnProcessLoad">OnProcessLoad</h4>
   <div class="markdown level1 summary"><p>Invoked when content is being processed (most likely on load), allowing you to manipulate it.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static event Func&lt;object, string, object&gt; OnProcess</code></pre>
+    <pre><code class="lang-csharp hljs">public static event Action&lt;object, string&gt; OnProcessLoad</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -835,7 +837,57 @@ Apply any mod-related changes to the asset based on the existing mod asset meta 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Object</span>, <span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Object</span>, <span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_Mod_Everest_Content_OnProcessUpdate" data-uid="Celeste.Mod.Everest.Content.OnProcessUpdate">OnProcessUpdate</h4>
+  <div class="markdown level1 summary"><p>Invoked when content is being processed (most likely on load or runtime update), allowing you to manipulate it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;object, ModAsset, bool&gt; OnProcessUpdate</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Object</span>, <a class="xref" href="Celeste.Mod.ModAsset.html">ModAsset</a>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_Mod_Everest_Content_OnUpdate" data-uid="Celeste.Mod.Everest.Content.OnUpdate">OnUpdate</h4>
+  <div class="markdown level1 summary"><p>Invoked when content is being updated, allowing you to handle it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;ModAsset, ModAsset&gt; OnUpdate</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Celeste.Mod.ModAsset.html">ModAsset</a>, <a class="xref" href="Celeste.Mod.ModAsset.html">ModAsset</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

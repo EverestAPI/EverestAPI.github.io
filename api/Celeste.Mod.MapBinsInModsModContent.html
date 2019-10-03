@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class MapBinsInModsModContent
    | Everest ">
-    <meta name="generator" content="docfx 2.31.0.0">
+    <meta name="generator" content="docfx 2.44.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <link rel="shortcut icon" href="../favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -98,6 +98,10 @@
     <div class="level1"><a class="xref" href="Celeste.Mod.ModContent.html">ModContent</a></div>
     <div class="level2"><span class="xref">MapBinsInModsModContent</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -113,7 +117,16 @@
       <a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_Add_System_String_Celeste_Mod_ModAsset_">ModContent.Add(String, ModAsset)</a>
     </div>
     <div>
-      <a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_DefaultName">ModContent.DefaultName</a>
+      <a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_Update_System_String_Celeste_Mod_ModAsset_">ModContent.Update(String, ModAsset)</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_Update_Celeste_Mod_ModAsset_Celeste_Mod_ModAsset_">ModContent.Update(ModAsset, ModAsset)</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_Dispose">ModContent.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_Dispose_System_Boolean_">ModContent.Dispose(Boolean)</a>
     </div>
     <div>
       <a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_Name">ModContent.Name</a>
@@ -144,7 +157,7 @@
   <h6><strong>Assembly</strong>: Celeste.Mod.mm.dll</h6>
   <h5 id="Celeste_Mod_MapBinsInModsModContent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MapBinsInModsModContent : ModContent</code></pre>
+    <pre><code class="lang-csharp hljs">public class MapBinsInModsModContent : ModContent, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -185,7 +198,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Path</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly string Path</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -202,6 +215,35 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Celeste_Mod_MapBinsInModsModContent_DefaultName_" data-uid="Celeste.Mod.MapBinsInModsModContent.DefaultName*"></a>
+  <h4 id="Celeste_Mod_MapBinsInModsModContent_DefaultName" data-uid="Celeste.Mod.MapBinsInModsModContent.DefaultName">DefaultName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string DefaultName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_DefaultName">ModContent.DefaultName</a></div>
   <h3 id="methods">Methods
   </h3>
   
@@ -216,6 +258,10 @@
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_Crawl">ModContent.Crawl()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
 </article>
           </div>
           

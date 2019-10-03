@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ZipModAsset
    | Everest ">
-    <meta name="generator" content="docfx 2.31.0.0">
+    <meta name="generator" content="docfx 2.44.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <link rel="shortcut icon" href="../favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -123,6 +123,9 @@
       <a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_SectionLength">ModAsset.SectionLength</a>
     </div>
     <div>
+      <a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_Targets">ModAsset.Targets</a>
+    </div>
+    <div>
       <a class="xref" href="Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_TryDeserialize__1___0__">ModAsset.TryDeserialize&lt;T&gt;(T)</a>
     </div>
     <div>
@@ -179,6 +182,38 @@
   
   
   <a id="Celeste_Mod_ZipModAsset__ctor_" data-uid="Celeste.Mod.ZipModAsset.#ctor*"></a>
+  <h4 id="Celeste_Mod_ZipModAsset__ctor_Celeste_Mod_ZipModContent_Ionic_Zip_ZipEntry_" data-uid="Celeste.Mod.ZipModAsset.#ctor(Celeste.Mod.ZipModContent,Ionic.Zip.ZipEntry)">ZipModAsset(ZipModContent, ZipEntry)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ZipModAsset(ZipModContent source, ZipEntry entry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.ZipModContent.html">ZipModContent</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Ionic.Zip.ZipEntry</span></td>
+        <td><span class="parametername">entry</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_ZipModAsset__ctor_" data-uid="Celeste.Mod.ZipModAsset.#ctor*"></a>
   <h4 id="Celeste_Mod_ZipModAsset__ctor_Celeste_Mod_ZipModContent_System_String_" data-uid="Celeste.Mod.ZipModAsset.#ctor(Celeste.Mod.ZipModContent,System.String)">ZipModAsset(ZipModContent, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -212,13 +247,38 @@
   </h3>
   
   
+  <h4 id="Celeste_Mod_ZipModAsset_Entry" data-uid="Celeste.Mod.ZipModAsset.Entry">Entry</h4>
+  <div class="markdown level1 summary"><p>The entry for the source file inside the archive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly ZipEntry Entry</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Ionic.Zip.ZipEntry</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Celeste_Mod_ZipModAsset_Path" data-uid="Celeste.Mod.ZipModAsset.Path">Path</h4>
   <div class="markdown level1 summary"><p>The path to the source file inside the archive.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Path</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly string Path</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

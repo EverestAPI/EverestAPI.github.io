@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ContentExtensions
    | Everest ">
-    <meta name="generator" content="docfx 2.31.0.0">
+    <meta name="generator" content="docfx 2.44.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <link rel="shortcut icon" href="../favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -131,6 +131,51 @@
   </h3>
   
   
+  <a id="Celeste_Mod_ContentExtensions_GetPaddedSubtextureCopy_" data-uid="Celeste.Mod.ContentExtensions.GetPaddedSubtextureCopy*"></a>
+  <h4 id="Celeste_Mod_ContentExtensions_GetPaddedSubtextureCopy_Monocle_MTexture_" data-uid="Celeste.Mod.ContentExtensions.GetPaddedSubtextureCopy(Monocle.MTexture)">GetPaddedSubtextureCopy(MTexture)</h4>
+  <div class="markdown level1 summary"><p>Create a new, standalone copy of the region accessed via the MTexture, with padding.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Texture2D GetPaddedSubtextureCopy(this MTexture input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Monocle.MTexture</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>The input texture.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Xna.Framework.Graphics.Texture2D</span></td>
+        <td><p>The output texture, matching the input MTexture&apos;s Width and Height, with padding.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Celeste_Mod_ContentExtensions_GetSubtextureCopy_" data-uid="Celeste.Mod.ContentExtensions.GetSubtextureCopy*"></a>
   <h4 id="Celeste_Mod_ContentExtensions_GetSubtextureCopy_Monocle_MTexture_" data-uid="Celeste.Mod.ContentExtensions.GetSubtextureCopy(Monocle.MTexture)">GetSubtextureCopy(MTexture)</h4>
   <div class="markdown level1 summary"><p>Create a new, standalone copy of the region accessed via the MTexture.</p>
@@ -216,6 +261,54 @@
         <td><span class="xref">System.Boolean</span></td>
         <td><p>True if the ClipRect is a subregion of the MTexture&apos;s VirtualTexture&apos;s Texture2D, false otherwise.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_ContentExtensions_LoadTextureLazyPremultiply_" data-uid="Celeste.Mod.ContentExtensions.LoadTextureLazyPremultiply*"></a>
+  <h4 id="Celeste_Mod_ContentExtensions_LoadTextureLazyPremultiply_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IO_Stream_" data-uid="Celeste.Mod.ContentExtensions.LoadTextureLazyPremultiply(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.IO.Stream)">LoadTextureLazyPremultiply(GraphicsDevice, Stream)</h4>
+  <div class="markdown level1 summary"><p>Load a texture and lazily late-premultiply it: Multiply the values of the R, G and B channels by the value of the A channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Texture2D LoadTextureLazyPremultiply(GraphicsDevice gd, Stream stream)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Xna.Framework.Graphics.GraphicsDevice</span></td>
+        <td><span class="parametername">gd</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Xna.Framework.Graphics.Texture2D</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

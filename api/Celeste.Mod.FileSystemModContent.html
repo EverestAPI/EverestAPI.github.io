@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class FileSystemModContent
    | Everest ">
-    <meta name="generator" content="docfx 2.31.0.0">
+    <meta name="generator" content="docfx 2.44.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <link rel="shortcut icon" href="../favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -98,6 +98,10 @@
     <div class="level1"><a class="xref" href="Celeste.Mod.ModContent.html">ModContent</a></div>
     <div class="level2"><span class="xref">FileSystemModContent</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -110,10 +114,7 @@
       <a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_Map">ModContent.Map</a>
     </div>
     <div>
-      <a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_Add_System_String_Celeste_Mod_ModAsset_">ModContent.Add(String, ModAsset)</a>
-    </div>
-    <div>
-      <a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_DefaultName">ModContent.DefaultName</a>
+      <a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_Dispose">ModContent.Dispose()</a>
     </div>
     <div>
       <a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_Name">ModContent.Name</a>
@@ -144,7 +145,7 @@
   <h6><strong>Assembly</strong>: Celeste.Mod.mm.dll</h6>
   <h5 id="Celeste_Mod_FileSystemModContent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FileSystemModContent : ModContent</code></pre>
+    <pre><code class="lang-csharp hljs">public class FileSystemModContent : ModContent, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -185,7 +186,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Path</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly string Path</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -202,8 +203,71 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Celeste_Mod_FileSystemModContent_DefaultName_" data-uid="Celeste.Mod.FileSystemModContent.DefaultName*"></a>
+  <h4 id="Celeste_Mod_FileSystemModContent_DefaultName" data-uid="Celeste.Mod.FileSystemModContent.DefaultName">DefaultName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string DefaultName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_DefaultName">ModContent.DefaultName</a></div>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="Celeste_Mod_FileSystemModContent_Add_" data-uid="Celeste.Mod.FileSystemModContent.Add*"></a>
+  <h4 id="Celeste_Mod_FileSystemModContent_Add_System_String_Celeste_Mod_ModAsset_" data-uid="Celeste.Mod.FileSystemModContent.Add(System.String,Celeste.Mod.ModAsset)">Add(String, ModAsset)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Add(string path, ModAsset asset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.ModAsset.html">ModAsset</a></td>
+        <td><span class="parametername">asset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_Add_System_String_Celeste_Mod_ModAsset_">ModContent.Add(String, ModAsset)</a></div>
   
   
   <a id="Celeste_Mod_FileSystemModContent_Crawl_" data-uid="Celeste.Mod.FileSystemModContent.Crawl*"></a>
@@ -219,12 +283,12 @@
   
   
   <a id="Celeste_Mod_FileSystemModContent_Crawl_" data-uid="Celeste.Mod.FileSystemModContent.Crawl*"></a>
-  <h4 id="Celeste_Mod_FileSystemModContent_Crawl_System_String_System_String_" data-uid="Celeste.Mod.FileSystemModContent.Crawl(System.String,System.String)">Crawl(String, String)</h4>
+  <h4 id="Celeste_Mod_FileSystemModContent_Crawl_System_String_System_String_System_Boolean_" data-uid="Celeste.Mod.FileSystemModContent.Crawl(System.String,System.String,System.Boolean)">Crawl(String, String, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void Crawl(string dir, string root = null)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void Crawl(string dir, string root, bool update)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -246,8 +310,114 @@
         <td><span class="parametername">root</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">update</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Celeste_Mod_FileSystemModContent_Dispose_" data-uid="Celeste.Mod.FileSystemModContent.Dispose*"></a>
+  <h4 id="Celeste_Mod_FileSystemModContent_Dispose_System_Boolean_" data-uid="Celeste.Mod.FileSystemModContent.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disposing</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_Dispose_System_Boolean_">ModContent.Dispose(Boolean)</a></div>
+  
+  
+  <a id="Celeste_Mod_FileSystemModContent_Update_" data-uid="Celeste.Mod.FileSystemModContent.Update*"></a>
+  <h4 id="Celeste_Mod_FileSystemModContent_Update_Celeste_Mod_ModAsset_Celeste_Mod_ModAsset_" data-uid="Celeste.Mod.FileSystemModContent.Update(Celeste.Mod.ModAsset,Celeste.Mod.ModAsset)">Update(ModAsset, ModAsset)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Update(ModAsset prev, ModAsset next)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.ModAsset.html">ModAsset</a></td>
+        <td><span class="parametername">prev</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.ModAsset.html">ModAsset</a></td>
+        <td><span class="parametername">next</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_Update_Celeste_Mod_ModAsset_Celeste_Mod_ModAsset_">ModContent.Update(ModAsset, ModAsset)</a></div>
+  
+  
+  <a id="Celeste_Mod_FileSystemModContent_Update_" data-uid="Celeste.Mod.FileSystemModContent.Update*"></a>
+  <h4 id="Celeste_Mod_FileSystemModContent_Update_System_String_Celeste_Mod_ModAsset_" data-uid="Celeste.Mod.FileSystemModContent.Update(System.String,Celeste.Mod.ModAsset)">Update(String, ModAsset)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Update(string path, ModAsset next)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.ModAsset.html">ModAsset</a></td>
+        <td><span class="parametername">next</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Celeste.Mod.ModContent.html#Celeste_Mod_ModContent_Update_System_String_Celeste_Mod_ModAsset_">ModContent.Update(String, ModAsset)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
 </article>
           </div>
           
