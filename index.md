@@ -23,6 +23,10 @@ If you've got any issues with Everest, we're in the #game_modding channel of thi
 - If Windows SmartScreen blocks it, tell it to run anyway.
 - Follow the steps in the installer.
 
+### Linux auto-installer (EverInst)
+- [**Download the latest installer AppImage**](https://gamebanana.com/tools/download/6630) and run it.
+- Follow the steps in the installer.
+
 ### Cross-platform manual installation
 - Download the latest autobuild ([latest version](https://dev.azure.com/EverestAPI/Everest/_build/latest?definitionId=3&branchName=master), [latest stable version](https://dev.azure.com/EverestAPI/Everest/_build/latest?definitionId=3&branchName=stable)). Click the "Artifacts" button on the top-right of the page, then "main" to download it.
 - Extract the `.zip`'s main folder to where Celeste is installed. `Celeste.Mod.mm.dll` should be right next to `Celeste.exe`
