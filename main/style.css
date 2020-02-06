@@ -121,7 +121,7 @@ a.button, a.button:visited {
     transition: background-color 0.2s, box-shadow 0.2s;
     color: rgba(255, 255, 255, 0.9);
     text-decoration-color: transparent;
-    box-shadow: 0px 1px 7px rgba(31, 5, 43, 0.3), 0px -1px 6px rgba(209, 185, 255, 0.05), 1px 2px 5px rgba(217, 186, 231, 0.02) inset;
+    box-shadow: 0px 1px 7px rgba(31, 5, 43, 0.3), -0.5px -1px 6px rgba(209, 185, 255, 0.1), -1px -2px 5px rgba(217, 186, 231, 0.02);
     background: rgb(41, 33, 43);
     border-radius: 3px;
     padding: 8px;
