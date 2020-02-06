@@ -220,6 +220,23 @@ a.button:hover, a.button:focus, a.button:active {
 }
 
 
+@media only screen and (max-width: 600px) {
+    #front { 
+        bottom: unset;  
+    }
+
+    #body {
+        margin-top: calc(30vh + 32px);
+    }
+
+    #toplist {
+        float: none;
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
+
+
 @keyframes bg-in {
     0% {
         opacity: 0.96;
