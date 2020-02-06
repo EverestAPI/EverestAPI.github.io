@@ -173,6 +173,33 @@ Define your custom property returning _SaveData typecasted as your custom save d
   </table>
   
   
+  <a id="Celeste_Mod_EverestModule__Session_" data-uid="Celeste.Mod.EverestModule._Session*"></a>
+  <h4 id="Celeste_Mod_EverestModule__Session" data-uid="Celeste.Mod.EverestModule._Session">_Session</h4>
+  <div class="markdown level1 summary"><p>Any save data stored for the current session.
+Define your custom property returning _Session typecasted as your custom session type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual EverestModuleSession _Session { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.EverestModuleSession.html">EverestModuleSession</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Celeste_Mod_EverestModule__Settings_" data-uid="Celeste.Mod.EverestModule._Settings*"></a>
   <h4 id="Celeste_Mod_EverestModule__Settings" data-uid="Celeste.Mod.EverestModule._Settings">_Settings</h4>
   <div class="markdown level1 summary"><p>Any settings stored across runs. Everest loads this before Load gets invoked.
@@ -255,6 +282,32 @@ Note that this doesn&apos;t affect mod loading.</p>
   </table>
   
   
+  <a id="Celeste_Mod_EverestModule_SessionType_" data-uid="Celeste.Mod.EverestModule.SessionType*"></a>
+  <h4 id="Celeste_Mod_EverestModule_SessionType" data-uid="Celeste.Mod.EverestModule.SessionType">SessionType</h4>
+  <div class="markdown level1 summary"><p>The type used for the session object. Used for serialization, among other things.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Type SessionType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Celeste_Mod_EverestModule_SettingsType_" data-uid="Celeste.Mod.EverestModule.SettingsType*"></a>
   <h4 id="Celeste_Mod_EverestModule_SettingsType" data-uid="Celeste.Mod.EverestModule.SettingsType">SettingsType</h4>
   <div class="markdown level1 summary"><p>The type used for the settings object. Used for serialization, among other things.</p>
@@ -262,7 +315,7 @@ Note that this doesn&apos;t affect mod loading.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract Type SettingsType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual Type SettingsType { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -320,6 +373,62 @@ The default implementation uses reflection to attempt creating a menu.</p>
         <td><span class="parametername">snapshot</span></td>
         <td><p>The Level.PauseSnapshot</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_EverestModule_DeleteSaveData_" data-uid="Celeste.Mod.EverestModule.DeleteSaveData*"></a>
+  <h4 id="Celeste_Mod_EverestModule_DeleteSaveData_System_Int32_" data-uid="Celeste.Mod.EverestModule.DeleteSaveData(System.Int32)">DeleteSaveData(Int32)</h4>
+  <div class="markdown level1 summary"><p>Delete the mod save data. Deletes the save data at {UserIO.GetSavePath(&quot;Saves&quot;)}/{SaveData.GetFilename(index)}-modsave-{Metadata.Name}.celeste by default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void DeleteSaveData(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_EverestModule_DeleteSession_" data-uid="Celeste.Mod.EverestModule.DeleteSession*"></a>
+  <h4 id="Celeste_Mod_EverestModule_DeleteSession_System_Int32_" data-uid="Celeste.Mod.EverestModule.DeleteSession(System.Int32)">DeleteSession(Int32)</h4>
+  <div class="markdown level1 summary"><p>Delete the mod session. Deletes the session at {UserIO.GetSavePath(&quot;Saves&quot;)}/{SaveData.GetFilename(index)}-modsession-{Metadata.Name}.celeste by default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void DeleteSession(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -392,7 +501,7 @@ public virtual void LoadContent()</code></pre>
   
   <a id="Celeste_Mod_EverestModule_LoadSaveData_" data-uid="Celeste.Mod.EverestModule.LoadSaveData*"></a>
   <h4 id="Celeste_Mod_EverestModule_LoadSaveData_System_Int32_" data-uid="Celeste.Mod.EverestModule.LoadSaveData(System.Int32)">LoadSaveData(Int32)</h4>
-  <div class="markdown level1 summary"><p>Load the mod save data. Loads the save data from {Everest.PathSettings}/Save{index}/{Metadata.Name}.yaml by default.</p>
+  <div class="markdown level1 summary"><p>Load the mod save data. Loads the save data from {UserIO.GetSavePath(&quot;Saves&quot;)}/{SaveData.GetFilename(index)}-modsave-{Metadata.Name}.celeste by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -418,9 +527,42 @@ public virtual void LoadContent()</code></pre>
   </table>
   
   
+  <a id="Celeste_Mod_EverestModule_LoadSession_" data-uid="Celeste.Mod.EverestModule.LoadSession*"></a>
+  <h4 id="Celeste_Mod_EverestModule_LoadSession_System_Int32_System_Boolean_" data-uid="Celeste.Mod.EverestModule.LoadSession(System.Int32,System.Boolean)">LoadSession(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Load the mod session. Loads the session from {UserIO.GetSavePath(&quot;Saves&quot;)}/{SaveData.GetFilename(index)}-modsession-{Metadata.Name}.celeste by default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void LoadSession(int index, bool forceNew)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">forceNew</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Celeste_Mod_EverestModule_LoadSettings_" data-uid="Celeste.Mod.EverestModule.LoadSettings*"></a>
   <h4 id="Celeste_Mod_EverestModule_LoadSettings" data-uid="Celeste.Mod.EverestModule.LoadSettings">LoadSettings()</h4>
-  <div class="markdown level1 summary"><p>Load the mod settings. Loads the settings from {Everest.PathSettings}/{Metadata.Name}.yaml by default.</p>
+  <div class="markdown level1 summary"><p>Load the mod settings. Loads the settings from {UserIO.GetSavePath(&quot;Saves&quot;)}/modsettings-{Metadata.Name}.celeste by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -480,9 +622,38 @@ public virtual void LoadContent()</code></pre>
   </table>
   
   
+  <a id="Celeste_Mod_EverestModule_PrepareMapDataProcessors_" data-uid="Celeste.Mod.EverestModule.PrepareMapDataProcessors*"></a>
+  <h4 id="Celeste_Mod_EverestModule_PrepareMapDataProcessors_Celeste_Mod_MapDataFixup_" data-uid="Celeste.Mod.EverestModule.PrepareMapDataProcessors(Celeste.Mod.MapDataFixup)">PrepareMapDataProcessors(MapDataFixup)</h4>
+  <div class="markdown level1 summary"><p>Create and add any map data processors to the given context, if any are needed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void PrepareMapDataProcessors(MapDataFixup context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.MapDataFixup.html">MapDataFixup</a></td>
+        <td><span class="parametername">context</span></td>
+        <td><p>The context to add the processors to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Celeste_Mod_EverestModule_SaveSaveData_" data-uid="Celeste.Mod.EverestModule.SaveSaveData*"></a>
   <h4 id="Celeste_Mod_EverestModule_SaveSaveData_System_Int32_" data-uid="Celeste.Mod.EverestModule.SaveSaveData(System.Int32)">SaveSaveData(Int32)</h4>
-  <div class="markdown level1 summary"><p>Save the mod save data. Saves the save data to {Everest.PathSettings}/Save{index}/{Metadata.Name}.yaml by default.</p>
+  <div class="markdown level1 summary"><p>Save the mod save data. Saves the save data to {UserIO.GetSavePath(&quot;Saves&quot;)}/{SaveData.GetFilename(index)}-modsave-{Metadata.Name}.celeste by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -508,9 +679,37 @@ public virtual void LoadContent()</code></pre>
   </table>
   
   
+  <a id="Celeste_Mod_EverestModule_SaveSession_" data-uid="Celeste.Mod.EverestModule.SaveSession*"></a>
+  <h4 id="Celeste_Mod_EverestModule_SaveSession_System_Int32_" data-uid="Celeste.Mod.EverestModule.SaveSession(System.Int32)">SaveSession(Int32)</h4>
+  <div class="markdown level1 summary"><p>Save the mod session. Saves the session to {UserIO.GetSavePath(&quot;Saves&quot;)}/{SaveData.GetFilename(index)}-modsession-{Metadata.Name}.celeste by default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SaveSession(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Celeste_Mod_EverestModule_SaveSettings_" data-uid="Celeste.Mod.EverestModule.SaveSettings*"></a>
   <h4 id="Celeste_Mod_EverestModule_SaveSettings" data-uid="Celeste.Mod.EverestModule.SaveSettings">SaveSettings()</h4>
-  <div class="markdown level1 summary"><p>Save the mod settings. Saves the settings to {Everest.PathSettings}/{Metadata.Name}.yaml by default.</p>
+  <div class="markdown level1 summary"><p>Save the mod settings. Saves the settings to {UserIO.GetSavePath(&quot;Saves&quot;)}/modsettings-{Metadata.Name}.yaml by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

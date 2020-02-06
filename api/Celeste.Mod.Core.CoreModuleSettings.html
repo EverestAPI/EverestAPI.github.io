@@ -145,6 +145,32 @@ public class CoreModuleSettings : EverestModuleSettings</code></pre>
   </h3>
   
   
+  <a id="Celeste_Mod_Core_CoreModuleSettings_AutoUpdateModsOnStartup_" data-uid="Celeste.Mod.Core.CoreModuleSettings.AutoUpdateModsOnStartup*"></a>
+  <h4 id="Celeste_Mod_Core_CoreModuleSettings_AutoUpdateModsOnStartup" data-uid="Celeste.Mod.Core.CoreModuleSettings.AutoUpdateModsOnStartup">AutoUpdateModsOnStartup</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SettingInGame(false)]
+public bool AutoUpdateModsOnStartup { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Celeste_Mod_Core_CoreModuleSettings_DebugMode_" data-uid="Celeste.Mod.Core.CoreModuleSettings.DebugMode*"></a>
   <h4 id="Celeste_Mod_Core_CoreModuleSettings_DebugMode" data-uid="Celeste.Mod.Core.CoreModuleSettings.DebugMode">DebugMode</h4>
   <div class="markdown level1 summary"></div>
@@ -487,6 +513,59 @@ public bool LazyLoading_Yes_I_Know_This_Can_Cause_Bugs { get; set; }</code></pre
   </table>
   
   
+  <a id="Celeste_Mod_Core_CoreModuleSettings_MainMenuMode_" data-uid="Celeste.Mod.Core.CoreModuleSettings.MainMenuMode*"></a>
+  <h4 id="Celeste_Mod_Core_CoreModuleSettings_MainMenuMode" data-uid="Celeste.Mod.Core.CoreModuleSettings.MainMenuMode">MainMenuMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MainMenuMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Core_CoreModuleSettings_MultithreadedGC_" data-uid="Celeste.Mod.Core.CoreModuleSettings.MultithreadedGC*"></a>
+  <h4 id="Celeste_Mod_Core_CoreModuleSettings_MultithreadedGC" data-uid="Celeste.Mod.Core.CoreModuleSettings.MultithreadedGC">MultithreadedGC</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SettingNeedsRelaunch]
+[SettingInGame(false)]
+[SettingIgnore]
+public bool? MultithreadedGC { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Celeste_Mod_Core_CoreModuleSettings_NonThreadedGL_" data-uid="Celeste.Mod.Core.CoreModuleSettings.NonThreadedGL*"></a>
   <h4 id="Celeste_Mod_Core_CoreModuleSettings_NonThreadedGL" data-uid="Celeste.Mod.Core.CoreModuleSettings.NonThreadedGL">NonThreadedGL</h4>
   <div class="markdown level1 summary"></div>
@@ -567,6 +646,34 @@ public bool ShowModOptionsInGame { get; set; }</code></pre>
   </table>
   
   
+  <a id="Celeste_Mod_Core_CoreModuleSettings_UnloadUnusedAudio_" data-uid="Celeste.Mod.Core.CoreModuleSettings.UnloadUnusedAudio*"></a>
+  <h4 id="Celeste_Mod_Core_CoreModuleSettings_UnloadUnusedAudio" data-uid="Celeste.Mod.Core.CoreModuleSettings.UnloadUnusedAudio">UnloadUnusedAudio</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SettingNeedsRelaunch]
+[SettingInGame(false)]
+[SettingIgnore]
+public bool UnloadUnusedAudio { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Celeste_Mod_Core_CoreModuleSettings_UnpackFMODBanks_" data-uid="Celeste.Mod.Core.CoreModuleSettings.UnpackFMODBanks*"></a>
   <h4 id="Celeste_Mod_Core_CoreModuleSettings_UnpackFMODBanks" data-uid="Celeste.Mod.Core.CoreModuleSettings.UnpackFMODBanks">UnpackFMODBanks</h4>
   <div class="markdown level1 summary"></div>
@@ -604,6 +711,38 @@ public bool UnpackFMODBanks { get; set; }</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void CreateInputGuiEntry(TextMenu menu, bool inGame)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.TextMenu</span></td>
+        <td><span class="parametername">menu</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inGame</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Core_CoreModuleSettings_CreateMainMenuModeEntry_" data-uid="Celeste.Mod.Core.CoreModuleSettings.CreateMainMenuModeEntry*"></a>
+  <h4 id="Celeste_Mod_Core_CoreModuleSettings_CreateMainMenuModeEntry_Celeste_TextMenu_System_Boolean_" data-uid="Celeste.Mod.Core.CoreModuleSettings.CreateMainMenuModeEntry(Celeste.TextMenu,System.Boolean)">CreateMainMenuModeEntry(TextMenu, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateMainMenuModeEntry(TextMenu menu, bool inGame)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

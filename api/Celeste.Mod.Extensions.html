@@ -1196,13 +1196,13 @@ The following characters get replaced with an underscore: /-+</p>
   
   
   <a id="Celeste_Mod_Extensions_NeedsRelaunch_" data-uid="Celeste.Mod.Extensions.NeedsRelaunch*"></a>
-  <h4 id="Celeste_Mod_Extensions_NeedsRelaunch_Celeste_TextMenu_Item_System_Boolean_" data-uid="Celeste.Mod.Extensions.NeedsRelaunch(Celeste.TextMenu.Item,System.Boolean)">NeedsRelaunch(TextMenu.Item, Boolean)</h4>
+  <h4 id="Celeste_Mod_Extensions_NeedsRelaunch_Celeste_TextMenu_Item_Celeste_TextMenu_System_Boolean_" data-uid="Celeste.Mod.Extensions.NeedsRelaunch(Celeste.TextMenu.Item,Celeste.TextMenu,System.Boolean)">NeedsRelaunch(TextMenu.Item, TextMenu, Boolean)</h4>
   <div class="markdown level1 summary"><p>Add an Enter and Leave handler, notifying the user that a relaunch is required to apply the changes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TextMenu.Item NeedsRelaunch(this TextMenu.Item option, bool needsRelaunch = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static TextMenu.Item NeedsRelaunch(this TextMenu.Item option, TextMenu containingMenu, bool needsRelaunch = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1218,6 +1218,12 @@ The following characters get replaced with an underscore: /-+</p>
         <td><span class="xref">Celeste.TextMenu.Item</span></td>
         <td><span class="parametername">option</span></td>
         <td><p>The input TextMenu.Item option.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Celeste.TextMenu</span></td>
+        <td><span class="parametername">containingMenu</span></td>
+        <td><p>The menu containing the TextMenu.Item option.</p>
 </td>
       </tr>
       <tr>

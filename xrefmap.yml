@@ -547,6 +547,30 @@ references:
   commentId: Overload:Celeste.LevelSetStats.MaxAssistArea
   fullName: Celeste.LevelSetStats.MaxAssistArea
   nameWithType: LevelSetStats.MaxAssistArea
+- uid: Celeste.LevelSetStats.MaxHeartGems
+  name: MaxHeartGems
+  href: api/Celeste.LevelSetStats.html#Celeste_LevelSetStats_MaxHeartGems
+  commentId: P:Celeste.LevelSetStats.MaxHeartGems
+  fullName: Celeste.LevelSetStats.MaxHeartGems
+  nameWithType: LevelSetStats.MaxHeartGems
+- uid: Celeste.LevelSetStats.MaxHeartGems*
+  name: MaxHeartGems
+  href: api/Celeste.LevelSetStats.html#Celeste_LevelSetStats_MaxHeartGems_
+  commentId: Overload:Celeste.LevelSetStats.MaxHeartGems
+  fullName: Celeste.LevelSetStats.MaxHeartGems
+  nameWithType: LevelSetStats.MaxHeartGems
+- uid: Celeste.LevelSetStats.MaxStrawberries
+  name: MaxStrawberries
+  href: api/Celeste.LevelSetStats.html#Celeste_LevelSetStats_MaxStrawberries
+  commentId: P:Celeste.LevelSetStats.MaxStrawberries
+  fullName: Celeste.LevelSetStats.MaxStrawberries
+  nameWithType: LevelSetStats.MaxStrawberries
+- uid: Celeste.LevelSetStats.MaxStrawberries*
+  name: MaxStrawberries
+  href: api/Celeste.LevelSetStats.html#Celeste_LevelSetStats_MaxStrawberries_
+  commentId: Overload:Celeste.LevelSetStats.MaxStrawberries
+  fullName: Celeste.LevelSetStats.MaxStrawberries
+  nameWithType: LevelSetStats.MaxStrawberries
 - uid: Celeste.LevelSetStats.Name
   name: Name
   href: api/Celeste.LevelSetStats.html#Celeste_LevelSetStats_Name
@@ -1168,6 +1192,108 @@ references:
   commentId: N:Celeste.Mod.Core
   fullName: Celeste.Mod.Core
   nameWithType: Celeste.Mod.Core
+- uid: Celeste.Mod.Core.CoreMapDataProcessor
+  name: CoreMapDataProcessor
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html
+  commentId: T:Celeste.Mod.Core.CoreMapDataProcessor
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor
+  nameWithType: CoreMapDataProcessor
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.#ctor
+  name: CoreMapDataProcessor()
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor__ctor
+  commentId: M:Celeste.Mod.Core.CoreMapDataProcessor.#ctor
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.CoreMapDataProcessor()
+  nameWithType: CoreMapDataProcessor.CoreMapDataProcessor()
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.#ctor*
+  name: CoreMapDataProcessor
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor__ctor_
+  commentId: Overload:Celeste.Mod.Core.CoreMapDataProcessor.#ctor
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.CoreMapDataProcessor
+  nameWithType: CoreMapDataProcessor.CoreMapDataProcessor
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.Checkpoint
+  name: Checkpoint
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor_Checkpoint
+  commentId: F:Celeste.Mod.Core.CoreMapDataProcessor.Checkpoint
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.Checkpoint
+  nameWithType: CoreMapDataProcessor.Checkpoint
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.CheckpointsAuto
+  name: CheckpointsAuto
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor_CheckpointsAuto
+  commentId: F:Celeste.Mod.Core.CoreMapDataProcessor.CheckpointsAuto
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.CheckpointsAuto
+  nameWithType: CoreMapDataProcessor.CheckpointsAuto
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.End
+  name: End()
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor_End
+  commentId: M:Celeste.Mod.Core.CoreMapDataProcessor.End
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.End()
+  nameWithType: CoreMapDataProcessor.End()
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.End*
+  name: End
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor_End_
+  commentId: Overload:Celeste.Mod.Core.CoreMapDataProcessor.End
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.End
+  nameWithType: CoreMapDataProcessor.End
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.Init
+  name: Init()
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor_Init
+  commentId: M:Celeste.Mod.Core.CoreMapDataProcessor.Init
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.Init()
+  nameWithType: CoreMapDataProcessor.Init()
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.Init*
+  name: Init
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor_Init_
+  commentId: Overload:Celeste.Mod.Core.CoreMapDataProcessor.Init
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.Init
+  nameWithType: CoreMapDataProcessor.Init
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.LevelName
+  name: LevelName
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor_LevelName
+  commentId: F:Celeste.Mod.Core.CoreMapDataProcessor.LevelName
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.LevelName
+  nameWithType: CoreMapDataProcessor.LevelName
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.LevelTags
+  name: LevelTags
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor_LevelTags
+  commentId: F:Celeste.Mod.Core.CoreMapDataProcessor.LevelTags
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.LevelTags
+  nameWithType: CoreMapDataProcessor.LevelTags
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.Reset
+  name: Reset()
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor_Reset
+  commentId: M:Celeste.Mod.Core.CoreMapDataProcessor.Reset
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.Reset()
+  nameWithType: CoreMapDataProcessor.Reset()
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.Reset*
+  name: Reset
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor_Reset_
+  commentId: Overload:Celeste.Mod.Core.CoreMapDataProcessor.Reset
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.Reset
+  nameWithType: CoreMapDataProcessor.Reset
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.Run(System.String,Celeste.BinaryPacker.Element)
+  name: Run(String, BinaryPacker.Element)
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor_Run_System_String_Celeste_BinaryPacker_Element_
+  commentId: M:Celeste.Mod.Core.CoreMapDataProcessor.Run(System.String,Celeste.BinaryPacker.Element)
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.Run(System.String, Celeste.BinaryPacker.Element)
+  nameWithType: CoreMapDataProcessor.Run(String, BinaryPacker.Element)
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.Run*
+  name: Run
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor_Run_
+  commentId: Overload:Celeste.Mod.Core.CoreMapDataProcessor.Run
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.Run
+  nameWithType: CoreMapDataProcessor.Run
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.Strawberry
+  name: Strawberry
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor_Strawberry
+  commentId: F:Celeste.Mod.Core.CoreMapDataProcessor.Strawberry
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.Strawberry
+  nameWithType: CoreMapDataProcessor.Strawberry
+- uid: Celeste.Mod.Core.CoreMapDataProcessor.StrawberryInCheckpoint
+  name: StrawberryInCheckpoint
+  href: api/Celeste.Mod.Core.CoreMapDataProcessor.html#Celeste_Mod_Core_CoreMapDataProcessor_StrawberryInCheckpoint
+  commentId: F:Celeste.Mod.Core.CoreMapDataProcessor.StrawberryInCheckpoint
+  fullName: Celeste.Mod.Core.CoreMapDataProcessor.StrawberryInCheckpoint
+  nameWithType: CoreMapDataProcessor.StrawberryInCheckpoint
 - uid: Celeste.Mod.Core.CoreModule
   name: CoreModule
   href: api/Celeste.Mod.Core.CoreModule.html
@@ -1279,6 +1405,18 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModule.LoadSettings
   fullName: Celeste.Mod.Core.CoreModule.LoadSettings
   nameWithType: CoreModule.LoadSettings
+- uid: Celeste.Mod.Core.CoreModule.PrepareMapDataProcessors(Celeste.Mod.MapDataFixup)
+  name: PrepareMapDataProcessors(MapDataFixup)
+  href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_PrepareMapDataProcessors_Celeste_Mod_MapDataFixup_
+  commentId: M:Celeste.Mod.Core.CoreModule.PrepareMapDataProcessors(Celeste.Mod.MapDataFixup)
+  fullName: Celeste.Mod.Core.CoreModule.PrepareMapDataProcessors(Celeste.Mod.MapDataFixup)
+  nameWithType: CoreModule.PrepareMapDataProcessors(MapDataFixup)
+- uid: Celeste.Mod.Core.CoreModule.PrepareMapDataProcessors*
+  name: PrepareMapDataProcessors
+  href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_PrepareMapDataProcessors_
+  commentId: Overload:Celeste.Mod.Core.CoreModule.PrepareMapDataProcessors
+  fullName: Celeste.Mod.Core.CoreModule.PrepareMapDataProcessors
+  nameWithType: CoreModule.PrepareMapDataProcessors
 - uid: Celeste.Mod.Core.CoreModule.SaveData
   name: SaveData
   href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_SaveData
@@ -1303,6 +1441,30 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModule.SaveDataType
   fullName: Celeste.Mod.Core.CoreModule.SaveDataType
   nameWithType: CoreModule.SaveDataType
+- uid: Celeste.Mod.Core.CoreModule.Session
+  name: Session
+  href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_Session
+  commentId: P:Celeste.Mod.Core.CoreModule.Session
+  fullName: Celeste.Mod.Core.CoreModule.Session
+  nameWithType: CoreModule.Session
+- uid: Celeste.Mod.Core.CoreModule.Session*
+  name: Session
+  href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_Session_
+  commentId: Overload:Celeste.Mod.Core.CoreModule.Session
+  fullName: Celeste.Mod.Core.CoreModule.Session
+  nameWithType: CoreModule.Session
+- uid: Celeste.Mod.Core.CoreModule.SessionType
+  name: SessionType
+  href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_SessionType
+  commentId: P:Celeste.Mod.Core.CoreModule.SessionType
+  fullName: Celeste.Mod.Core.CoreModule.SessionType
+  nameWithType: CoreModule.SessionType
+- uid: Celeste.Mod.Core.CoreModule.SessionType*
+  name: SessionType
+  href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_SessionType_
+  commentId: Overload:Celeste.Mod.Core.CoreModule.SessionType
+  fullName: Celeste.Mod.Core.CoreModule.SessionType
+  nameWithType: CoreModule.SessionType
 - uid: Celeste.Mod.Core.CoreModule.Settings
   name: Settings
   href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_Settings
@@ -1369,6 +1531,36 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSaveData.WhateverCount
   fullName: Celeste.Mod.Core.CoreModuleSaveData.WhateverCount
   nameWithType: CoreModuleSaveData.WhateverCount
+- uid: Celeste.Mod.Core.CoreModuleSession
+  name: CoreModuleSession
+  href: api/Celeste.Mod.Core.CoreModuleSession.html
+  commentId: T:Celeste.Mod.Core.CoreModuleSession
+  fullName: Celeste.Mod.Core.CoreModuleSession
+  nameWithType: CoreModuleSession
+- uid: Celeste.Mod.Core.CoreModuleSession.#ctor
+  name: CoreModuleSession()
+  href: api/Celeste.Mod.Core.CoreModuleSession.html#Celeste_Mod_Core_CoreModuleSession__ctor
+  commentId: M:Celeste.Mod.Core.CoreModuleSession.#ctor
+  fullName: Celeste.Mod.Core.CoreModuleSession.CoreModuleSession()
+  nameWithType: CoreModuleSession.CoreModuleSession()
+- uid: Celeste.Mod.Core.CoreModuleSession.#ctor*
+  name: CoreModuleSession
+  href: api/Celeste.Mod.Core.CoreModuleSession.html#Celeste_Mod_Core_CoreModuleSession__ctor_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSession.#ctor
+  fullName: Celeste.Mod.Core.CoreModuleSession.CoreModuleSession
+  nameWithType: CoreModuleSession.CoreModuleSession
+- uid: Celeste.Mod.Core.CoreModuleSession.WhateverElseCount
+  name: WhateverElseCount
+  href: api/Celeste.Mod.Core.CoreModuleSession.html#Celeste_Mod_Core_CoreModuleSession_WhateverElseCount
+  commentId: P:Celeste.Mod.Core.CoreModuleSession.WhateverElseCount
+  fullName: Celeste.Mod.Core.CoreModuleSession.WhateverElseCount
+  nameWithType: CoreModuleSession.WhateverElseCount
+- uid: Celeste.Mod.Core.CoreModuleSession.WhateverElseCount*
+  name: WhateverElseCount
+  href: api/Celeste.Mod.Core.CoreModuleSession.html#Celeste_Mod_Core_CoreModuleSession_WhateverElseCount_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSession.WhateverElseCount
+  fullName: Celeste.Mod.Core.CoreModuleSession.WhateverElseCount
+  nameWithType: CoreModuleSession.WhateverElseCount
 - uid: Celeste.Mod.Core.CoreModuleSettings
   name: CoreModuleSettings
   href: api/Celeste.Mod.Core.CoreModuleSettings.html
@@ -1387,6 +1579,18 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.#ctor
   fullName: Celeste.Mod.Core.CoreModuleSettings.CoreModuleSettings
   nameWithType: CoreModuleSettings.CoreModuleSettings
+- uid: Celeste.Mod.Core.CoreModuleSettings.AutoUpdateModsOnStartup
+  name: AutoUpdateModsOnStartup
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_AutoUpdateModsOnStartup
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.AutoUpdateModsOnStartup
+  fullName: Celeste.Mod.Core.CoreModuleSettings.AutoUpdateModsOnStartup
+  nameWithType: CoreModuleSettings.AutoUpdateModsOnStartup
+- uid: Celeste.Mod.Core.CoreModuleSettings.AutoUpdateModsOnStartup*
+  name: AutoUpdateModsOnStartup
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_AutoUpdateModsOnStartup_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.AutoUpdateModsOnStartup
+  fullName: Celeste.Mod.Core.CoreModuleSettings.AutoUpdateModsOnStartup
+  nameWithType: CoreModuleSettings.AutoUpdateModsOnStartup
 - uid: Celeste.Mod.Core.CoreModuleSettings.CreateInputGuiEntry(Celeste.TextMenu,System.Boolean)
   name: CreateInputGuiEntry(TextMenu, Boolean)
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateInputGuiEntry_Celeste_TextMenu_System_Boolean_
@@ -1399,6 +1603,18 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CreateInputGuiEntry
   fullName: Celeste.Mod.Core.CoreModuleSettings.CreateInputGuiEntry
   nameWithType: CoreModuleSettings.CreateInputGuiEntry
+- uid: Celeste.Mod.Core.CoreModuleSettings.CreateMainMenuModeEntry(Celeste.TextMenu,System.Boolean)
+  name: CreateMainMenuModeEntry(TextMenu, Boolean)
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateMainMenuModeEntry_Celeste_TextMenu_System_Boolean_
+  commentId: M:Celeste.Mod.Core.CoreModuleSettings.CreateMainMenuModeEntry(Celeste.TextMenu,System.Boolean)
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateMainMenuModeEntry(Celeste.TextMenu, System.Boolean)
+  nameWithType: CoreModuleSettings.CreateMainMenuModeEntry(TextMenu, Boolean)
+- uid: Celeste.Mod.Core.CoreModuleSettings.CreateMainMenuModeEntry*
+  name: CreateMainMenuModeEntry
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CreateMainMenuModeEntry_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CreateMainMenuModeEntry
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CreateMainMenuModeEntry
+  nameWithType: CoreModuleSettings.CreateMainMenuModeEntry
 - uid: Celeste.Mod.Core.CoreModuleSettings.DebugMode
   name: DebugMode
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DebugMode
@@ -1555,6 +1771,30 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.LazyLoading_Yes_I_Know_This_Can_Cause_Bugs
   fullName: Celeste.Mod.Core.CoreModuleSettings.LazyLoading_Yes_I_Know_This_Can_Cause_Bugs
   nameWithType: CoreModuleSettings.LazyLoading_Yes_I_Know_This_Can_Cause_Bugs
+- uid: Celeste.Mod.Core.CoreModuleSettings.MainMenuMode
+  name: MainMenuMode
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_MainMenuMode
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.MainMenuMode
+  fullName: Celeste.Mod.Core.CoreModuleSettings.MainMenuMode
+  nameWithType: CoreModuleSettings.MainMenuMode
+- uid: Celeste.Mod.Core.CoreModuleSettings.MainMenuMode*
+  name: MainMenuMode
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_MainMenuMode_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.MainMenuMode
+  fullName: Celeste.Mod.Core.CoreModuleSettings.MainMenuMode
+  nameWithType: CoreModuleSettings.MainMenuMode
+- uid: Celeste.Mod.Core.CoreModuleSettings.MultithreadedGC
+  name: MultithreadedGC
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_MultithreadedGC
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.MultithreadedGC
+  fullName: Celeste.Mod.Core.CoreModuleSettings.MultithreadedGC
+  nameWithType: CoreModuleSettings.MultithreadedGC
+- uid: Celeste.Mod.Core.CoreModuleSettings.MultithreadedGC*
+  name: MultithreadedGC
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_MultithreadedGC_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.MultithreadedGC
+  fullName: Celeste.Mod.Core.CoreModuleSettings.MultithreadedGC
+  nameWithType: CoreModuleSettings.MultithreadedGC
 - uid: Celeste.Mod.Core.CoreModuleSettings.NonThreadedGL
   name: NonThreadedGL
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_NonThreadedGL
@@ -1591,6 +1831,18 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.ShowModOptionsInGame
   fullName: Celeste.Mod.Core.CoreModuleSettings.ShowModOptionsInGame
   nameWithType: CoreModuleSettings.ShowModOptionsInGame
+- uid: Celeste.Mod.Core.CoreModuleSettings.UnloadUnusedAudio
+  name: UnloadUnusedAudio
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_UnloadUnusedAudio
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.UnloadUnusedAudio
+  fullName: Celeste.Mod.Core.CoreModuleSettings.UnloadUnusedAudio
+  nameWithType: CoreModuleSettings.UnloadUnusedAudio
+- uid: Celeste.Mod.Core.CoreModuleSettings.UnloadUnusedAudio*
+  name: UnloadUnusedAudio
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_UnloadUnusedAudio_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.UnloadUnusedAudio
+  fullName: Celeste.Mod.Core.CoreModuleSettings.UnloadUnusedAudio
+  nameWithType: CoreModuleSettings.UnloadUnusedAudio
 - uid: Celeste.Mod.Core.CoreModuleSettings.UnpackFMODBanks
   name: UnpackFMODBanks
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_UnpackFMODBanks
@@ -1972,6 +2224,33 @@ references:
   commentId: Overload:Celeste.Mod.Entities.CustomCoreMessage.Update
   fullName: Celeste.Mod.Entities.CustomCoreMessage.Update
   nameWithType: CustomCoreMessage.Update
+- uid: Celeste.Mod.Entities.CustomEntityAttribute
+  name: CustomEntityAttribute
+  href: api/Celeste.Mod.Entities.CustomEntityAttribute.html
+  commentId: T:Celeste.Mod.Entities.CustomEntityAttribute
+  fullName: Celeste.Mod.Entities.CustomEntityAttribute
+  nameWithType: CustomEntityAttribute
+- uid: Celeste.Mod.Entities.CustomEntityAttribute.#ctor(System.String[])
+  name: CustomEntityAttribute(String[])
+  href: api/Celeste.Mod.Entities.CustomEntityAttribute.html#Celeste_Mod_Entities_CustomEntityAttribute__ctor_System_String___
+  commentId: M:Celeste.Mod.Entities.CustomEntityAttribute.#ctor(System.String[])
+  name.vb: CustomEntityAttribute(String())
+  fullName: Celeste.Mod.Entities.CustomEntityAttribute.CustomEntityAttribute(System.String[])
+  fullName.vb: Celeste.Mod.Entities.CustomEntityAttribute.CustomEntityAttribute(System.String())
+  nameWithType: CustomEntityAttribute.CustomEntityAttribute(String[])
+  nameWithType.vb: CustomEntityAttribute.CustomEntityAttribute(String())
+- uid: Celeste.Mod.Entities.CustomEntityAttribute.#ctor*
+  name: CustomEntityAttribute
+  href: api/Celeste.Mod.Entities.CustomEntityAttribute.html#Celeste_Mod_Entities_CustomEntityAttribute__ctor_
+  commentId: Overload:Celeste.Mod.Entities.CustomEntityAttribute.#ctor
+  fullName: Celeste.Mod.Entities.CustomEntityAttribute.CustomEntityAttribute
+  nameWithType: CustomEntityAttribute.CustomEntityAttribute
+- uid: Celeste.Mod.Entities.CustomEntityAttribute.IDs
+  name: IDs
+  href: api/Celeste.Mod.Entities.CustomEntityAttribute.html#Celeste_Mod_Entities_CustomEntityAttribute_IDs
+  commentId: F:Celeste.Mod.Entities.CustomEntityAttribute.IDs
+  fullName: Celeste.Mod.Entities.CustomEntityAttribute.IDs
+  nameWithType: CustomEntityAttribute.IDs
 - uid: Celeste.Mod.Entities.CustomMemorial
   name: CustomMemorial
   href: api/Celeste.Mod.Entities.CustomMemorial.html
@@ -2338,6 +2617,66 @@ references:
   commentId: Overload:Celeste.Mod.Entities.LavaBlockerTrigger.OnStay
   fullName: Celeste.Mod.Entities.LavaBlockerTrigger.OnStay
   nameWithType: LavaBlockerTrigger.OnStay
+- uid: Celeste.Mod.Entities.MusicLayerTrigger
+  name: MusicLayerTrigger
+  href: api/Celeste.Mod.Entities.MusicLayerTrigger.html
+  commentId: T:Celeste.Mod.Entities.MusicLayerTrigger
+  fullName: Celeste.Mod.Entities.MusicLayerTrigger
+  nameWithType: MusicLayerTrigger
+- uid: Celeste.Mod.Entities.MusicLayerTrigger.#ctor(Celeste.EntityData,Microsoft.Xna.Framework.Vector2)
+  name: MusicLayerTrigger(EntityData, Vector2)
+  href: api/Celeste.Mod.Entities.MusicLayerTrigger.html#Celeste_Mod_Entities_MusicLayerTrigger__ctor_Celeste_EntityData_Microsoft_Xna_Framework_Vector2_
+  commentId: M:Celeste.Mod.Entities.MusicLayerTrigger.#ctor(Celeste.EntityData,Microsoft.Xna.Framework.Vector2)
+  fullName: Celeste.Mod.Entities.MusicLayerTrigger.MusicLayerTrigger(Celeste.EntityData, Microsoft.Xna.Framework.Vector2)
+  nameWithType: MusicLayerTrigger.MusicLayerTrigger(EntityData, Vector2)
+- uid: Celeste.Mod.Entities.MusicLayerTrigger.#ctor*
+  name: MusicLayerTrigger
+  href: api/Celeste.Mod.Entities.MusicLayerTrigger.html#Celeste_Mod_Entities_MusicLayerTrigger__ctor_
+  commentId: Overload:Celeste.Mod.Entities.MusicLayerTrigger.#ctor
+  fullName: Celeste.Mod.Entities.MusicLayerTrigger.MusicLayerTrigger
+  nameWithType: MusicLayerTrigger.MusicLayerTrigger
+- uid: Celeste.Mod.Entities.MusicLayerTrigger.OnEnter(Celeste.Player)
+  name: OnEnter(Player)
+  href: api/Celeste.Mod.Entities.MusicLayerTrigger.html#Celeste_Mod_Entities_MusicLayerTrigger_OnEnter_Celeste_Player_
+  commentId: M:Celeste.Mod.Entities.MusicLayerTrigger.OnEnter(Celeste.Player)
+  fullName: Celeste.Mod.Entities.MusicLayerTrigger.OnEnter(Celeste.Player)
+  nameWithType: MusicLayerTrigger.OnEnter(Player)
+- uid: Celeste.Mod.Entities.MusicLayerTrigger.OnEnter*
+  name: OnEnter
+  href: api/Celeste.Mod.Entities.MusicLayerTrigger.html#Celeste_Mod_Entities_MusicLayerTrigger_OnEnter_
+  commentId: Overload:Celeste.Mod.Entities.MusicLayerTrigger.OnEnter
+  fullName: Celeste.Mod.Entities.MusicLayerTrigger.OnEnter
+  nameWithType: MusicLayerTrigger.OnEnter
+- uid: Celeste.Mod.Entities.RegisterStrawberryAttribute
+  name: RegisterStrawberryAttribute
+  href: api/Celeste.Mod.Entities.RegisterStrawberryAttribute.html
+  commentId: T:Celeste.Mod.Entities.RegisterStrawberryAttribute
+  fullName: Celeste.Mod.Entities.RegisterStrawberryAttribute
+  nameWithType: RegisterStrawberryAttribute
+- uid: Celeste.Mod.Entities.RegisterStrawberryAttribute.#ctor(System.Boolean,System.Boolean)
+  name: RegisterStrawberryAttribute(Boolean, Boolean)
+  href: api/Celeste.Mod.Entities.RegisterStrawberryAttribute.html#Celeste_Mod_Entities_RegisterStrawberryAttribute__ctor_System_Boolean_System_Boolean_
+  commentId: M:Celeste.Mod.Entities.RegisterStrawberryAttribute.#ctor(System.Boolean,System.Boolean)
+  fullName: Celeste.Mod.Entities.RegisterStrawberryAttribute.RegisterStrawberryAttribute(System.Boolean, System.Boolean)
+  nameWithType: RegisterStrawberryAttribute.RegisterStrawberryAttribute(Boolean, Boolean)
+- uid: Celeste.Mod.Entities.RegisterStrawberryAttribute.#ctor*
+  name: RegisterStrawberryAttribute
+  href: api/Celeste.Mod.Entities.RegisterStrawberryAttribute.html#Celeste_Mod_Entities_RegisterStrawberryAttribute__ctor_
+  commentId: Overload:Celeste.Mod.Entities.RegisterStrawberryAttribute.#ctor
+  fullName: Celeste.Mod.Entities.RegisterStrawberryAttribute.RegisterStrawberryAttribute
+  nameWithType: RegisterStrawberryAttribute.RegisterStrawberryAttribute
+- uid: Celeste.Mod.Entities.RegisterStrawberryAttribute.blocksNormalCollection
+  name: blocksNormalCollection
+  href: api/Celeste.Mod.Entities.RegisterStrawberryAttribute.html#Celeste_Mod_Entities_RegisterStrawberryAttribute_blocksNormalCollection
+  commentId: F:Celeste.Mod.Entities.RegisterStrawberryAttribute.blocksNormalCollection
+  fullName: Celeste.Mod.Entities.RegisterStrawberryAttribute.blocksNormalCollection
+  nameWithType: RegisterStrawberryAttribute.blocksNormalCollection
+- uid: Celeste.Mod.Entities.RegisterStrawberryAttribute.isTracked
+  name: isTracked
+  href: api/Celeste.Mod.Entities.RegisterStrawberryAttribute.html#Celeste_Mod_Entities_RegisterStrawberryAttribute_isTracked
+  commentId: F:Celeste.Mod.Entities.RegisterStrawberryAttribute.isTracked
+  fullName: Celeste.Mod.Entities.RegisterStrawberryAttribute.isTracked
+  nameWithType: RegisterStrawberryAttribute.isTracked
 - uid: Celeste.Mod.Entities.SpaceControllerBlocker
   name: SpaceControllerBlocker
   href: api/Celeste.Mod.Entities.SpaceControllerBlocker.html
@@ -2368,6 +2707,78 @@ references:
   commentId: Overload:Celeste.Mod.Entities.SpaceControllerBlocker.Added
   fullName: Celeste.Mod.Entities.SpaceControllerBlocker.Added
   nameWithType: SpaceControllerBlocker.Added
+- uid: Celeste.Mod.Entities.StarClimbGraphicsController
+  name: StarClimbGraphicsController
+  href: api/Celeste.Mod.Entities.StarClimbGraphicsController.html
+  commentId: T:Celeste.Mod.Entities.StarClimbGraphicsController
+  fullName: Celeste.Mod.Entities.StarClimbGraphicsController
+  nameWithType: StarClimbGraphicsController
+- uid: Celeste.Mod.Entities.StarClimbGraphicsController.#ctor(Celeste.EntityData,Microsoft.Xna.Framework.Vector2)
+  name: StarClimbGraphicsController(EntityData, Vector2)
+  href: api/Celeste.Mod.Entities.StarClimbGraphicsController.html#Celeste_Mod_Entities_StarClimbGraphicsController__ctor_Celeste_EntityData_Microsoft_Xna_Framework_Vector2_
+  commentId: M:Celeste.Mod.Entities.StarClimbGraphicsController.#ctor(Celeste.EntityData,Microsoft.Xna.Framework.Vector2)
+  fullName: Celeste.Mod.Entities.StarClimbGraphicsController.StarClimbGraphicsController(Celeste.EntityData, Microsoft.Xna.Framework.Vector2)
+  nameWithType: StarClimbGraphicsController.StarClimbGraphicsController(EntityData, Vector2)
+- uid: Celeste.Mod.Entities.StarClimbGraphicsController.#ctor*
+  name: StarClimbGraphicsController
+  href: api/Celeste.Mod.Entities.StarClimbGraphicsController.html#Celeste_Mod_Entities_StarClimbGraphicsController__ctor_
+  commentId: Overload:Celeste.Mod.Entities.StarClimbGraphicsController.#ctor
+  fullName: Celeste.Mod.Entities.StarClimbGraphicsController.StarClimbGraphicsController
+  nameWithType: StarClimbGraphicsController.StarClimbGraphicsController
+- uid: Celeste.Mod.Entities.StarClimbGraphicsController.Added(Monocle.Scene)
+  name: Added(Scene)
+  href: api/Celeste.Mod.Entities.StarClimbGraphicsController.html#Celeste_Mod_Entities_StarClimbGraphicsController_Added_Monocle_Scene_
+  commentId: M:Celeste.Mod.Entities.StarClimbGraphicsController.Added(Monocle.Scene)
+  fullName: Celeste.Mod.Entities.StarClimbGraphicsController.Added(Monocle.Scene)
+  nameWithType: StarClimbGraphicsController.Added(Scene)
+- uid: Celeste.Mod.Entities.StarClimbGraphicsController.Added*
+  name: Added
+  href: api/Celeste.Mod.Entities.StarClimbGraphicsController.html#Celeste_Mod_Entities_StarClimbGraphicsController_Added_
+  commentId: Overload:Celeste.Mod.Entities.StarClimbGraphicsController.Added
+  fullName: Celeste.Mod.Entities.StarClimbGraphicsController.Added
+  nameWithType: StarClimbGraphicsController.Added
+- uid: Celeste.Mod.Entities.StarClimbGraphicsController.BlockFill
+  name: BlockFill
+  href: api/Celeste.Mod.Entities.StarClimbGraphicsController.html#Celeste_Mod_Entities_StarClimbGraphicsController_BlockFill
+  commentId: F:Celeste.Mod.Entities.StarClimbGraphicsController.BlockFill
+  fullName: Celeste.Mod.Entities.StarClimbGraphicsController.BlockFill
+  nameWithType: StarClimbGraphicsController.BlockFill
+- uid: Celeste.Mod.Entities.StarClimbGraphicsController.Removed(Monocle.Scene)
+  name: Removed(Scene)
+  href: api/Celeste.Mod.Entities.StarClimbGraphicsController.html#Celeste_Mod_Entities_StarClimbGraphicsController_Removed_Monocle_Scene_
+  commentId: M:Celeste.Mod.Entities.StarClimbGraphicsController.Removed(Monocle.Scene)
+  fullName: Celeste.Mod.Entities.StarClimbGraphicsController.Removed(Monocle.Scene)
+  nameWithType: StarClimbGraphicsController.Removed(Scene)
+- uid: Celeste.Mod.Entities.StarClimbGraphicsController.Removed*
+  name: Removed
+  href: api/Celeste.Mod.Entities.StarClimbGraphicsController.html#Celeste_Mod_Entities_StarClimbGraphicsController_Removed_
+  commentId: Overload:Celeste.Mod.Entities.StarClimbGraphicsController.Removed
+  fullName: Celeste.Mod.Entities.StarClimbGraphicsController.Removed
+  nameWithType: StarClimbGraphicsController.Removed
+- uid: Celeste.Mod.Entities.StarClimbGraphicsController.SceneEnd(Monocle.Scene)
+  name: SceneEnd(Scene)
+  href: api/Celeste.Mod.Entities.StarClimbGraphicsController.html#Celeste_Mod_Entities_StarClimbGraphicsController_SceneEnd_Monocle_Scene_
+  commentId: M:Celeste.Mod.Entities.StarClimbGraphicsController.SceneEnd(Monocle.Scene)
+  fullName: Celeste.Mod.Entities.StarClimbGraphicsController.SceneEnd(Monocle.Scene)
+  nameWithType: StarClimbGraphicsController.SceneEnd(Scene)
+- uid: Celeste.Mod.Entities.StarClimbGraphicsController.SceneEnd*
+  name: SceneEnd
+  href: api/Celeste.Mod.Entities.StarClimbGraphicsController.html#Celeste_Mod_Entities_StarClimbGraphicsController_SceneEnd_
+  commentId: Overload:Celeste.Mod.Entities.StarClimbGraphicsController.SceneEnd
+  fullName: Celeste.Mod.Entities.StarClimbGraphicsController.SceneEnd
+  nameWithType: StarClimbGraphicsController.SceneEnd
+- uid: Celeste.Mod.Entities.StarClimbGraphicsController.Update
+  name: Update()
+  href: api/Celeste.Mod.Entities.StarClimbGraphicsController.html#Celeste_Mod_Entities_StarClimbGraphicsController_Update
+  commentId: M:Celeste.Mod.Entities.StarClimbGraphicsController.Update
+  fullName: Celeste.Mod.Entities.StarClimbGraphicsController.Update()
+  nameWithType: StarClimbGraphicsController.Update()
+- uid: Celeste.Mod.Entities.StarClimbGraphicsController.Update*
+  name: Update
+  href: api/Celeste.Mod.Entities.StarClimbGraphicsController.html#Celeste_Mod_Entities_StarClimbGraphicsController_Update_
+  commentId: Overload:Celeste.Mod.Entities.StarClimbGraphicsController.Update
+  fullName: Celeste.Mod.Entities.StarClimbGraphicsController.Update
+  nameWithType: StarClimbGraphicsController.Update
 - uid: Celeste.Mod.Entities.TriggerSpikesOriginal
   name: TriggerSpikesOriginal
   href: api/Celeste.Mod.Entities.TriggerSpikesOriginal.html
@@ -2434,6 +2845,54 @@ references:
   commentId: F:Celeste.Mod.Entities.TriggerSpikesOriginal.Directions.Up
   fullName: Celeste.Mod.Entities.TriggerSpikesOriginal.Directions.Up
   nameWithType: TriggerSpikesOriginal.Directions.Up
+- uid: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadDown(Celeste.Level,Celeste.LevelData,Microsoft.Xna.Framework.Vector2,Celeste.EntityData)
+  name: LoadDown(Level, LevelData, Vector2, EntityData)
+  href: api/Celeste.Mod.Entities.TriggerSpikesOriginal.html#Celeste_Mod_Entities_TriggerSpikesOriginal_LoadDown_Celeste_Level_Celeste_LevelData_Microsoft_Xna_Framework_Vector2_Celeste_EntityData_
+  commentId: M:Celeste.Mod.Entities.TriggerSpikesOriginal.LoadDown(Celeste.Level,Celeste.LevelData,Microsoft.Xna.Framework.Vector2,Celeste.EntityData)
+  fullName: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadDown(Celeste.Level, Celeste.LevelData, Microsoft.Xna.Framework.Vector2, Celeste.EntityData)
+  nameWithType: TriggerSpikesOriginal.LoadDown(Level, LevelData, Vector2, EntityData)
+- uid: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadDown*
+  name: LoadDown
+  href: api/Celeste.Mod.Entities.TriggerSpikesOriginal.html#Celeste_Mod_Entities_TriggerSpikesOriginal_LoadDown_
+  commentId: Overload:Celeste.Mod.Entities.TriggerSpikesOriginal.LoadDown
+  fullName: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadDown
+  nameWithType: TriggerSpikesOriginal.LoadDown
+- uid: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadLeft(Celeste.Level,Celeste.LevelData,Microsoft.Xna.Framework.Vector2,Celeste.EntityData)
+  name: LoadLeft(Level, LevelData, Vector2, EntityData)
+  href: api/Celeste.Mod.Entities.TriggerSpikesOriginal.html#Celeste_Mod_Entities_TriggerSpikesOriginal_LoadLeft_Celeste_Level_Celeste_LevelData_Microsoft_Xna_Framework_Vector2_Celeste_EntityData_
+  commentId: M:Celeste.Mod.Entities.TriggerSpikesOriginal.LoadLeft(Celeste.Level,Celeste.LevelData,Microsoft.Xna.Framework.Vector2,Celeste.EntityData)
+  fullName: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadLeft(Celeste.Level, Celeste.LevelData, Microsoft.Xna.Framework.Vector2, Celeste.EntityData)
+  nameWithType: TriggerSpikesOriginal.LoadLeft(Level, LevelData, Vector2, EntityData)
+- uid: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadLeft*
+  name: LoadLeft
+  href: api/Celeste.Mod.Entities.TriggerSpikesOriginal.html#Celeste_Mod_Entities_TriggerSpikesOriginal_LoadLeft_
+  commentId: Overload:Celeste.Mod.Entities.TriggerSpikesOriginal.LoadLeft
+  fullName: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadLeft
+  nameWithType: TriggerSpikesOriginal.LoadLeft
+- uid: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadRight(Celeste.Level,Celeste.LevelData,Microsoft.Xna.Framework.Vector2,Celeste.EntityData)
+  name: LoadRight(Level, LevelData, Vector2, EntityData)
+  href: api/Celeste.Mod.Entities.TriggerSpikesOriginal.html#Celeste_Mod_Entities_TriggerSpikesOriginal_LoadRight_Celeste_Level_Celeste_LevelData_Microsoft_Xna_Framework_Vector2_Celeste_EntityData_
+  commentId: M:Celeste.Mod.Entities.TriggerSpikesOriginal.LoadRight(Celeste.Level,Celeste.LevelData,Microsoft.Xna.Framework.Vector2,Celeste.EntityData)
+  fullName: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadRight(Celeste.Level, Celeste.LevelData, Microsoft.Xna.Framework.Vector2, Celeste.EntityData)
+  nameWithType: TriggerSpikesOriginal.LoadRight(Level, LevelData, Vector2, EntityData)
+- uid: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadRight*
+  name: LoadRight
+  href: api/Celeste.Mod.Entities.TriggerSpikesOriginal.html#Celeste_Mod_Entities_TriggerSpikesOriginal_LoadRight_
+  commentId: Overload:Celeste.Mod.Entities.TriggerSpikesOriginal.LoadRight
+  fullName: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadRight
+  nameWithType: TriggerSpikesOriginal.LoadRight
+- uid: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadUp(Celeste.Level,Celeste.LevelData,Microsoft.Xna.Framework.Vector2,Celeste.EntityData)
+  name: LoadUp(Level, LevelData, Vector2, EntityData)
+  href: api/Celeste.Mod.Entities.TriggerSpikesOriginal.html#Celeste_Mod_Entities_TriggerSpikesOriginal_LoadUp_Celeste_Level_Celeste_LevelData_Microsoft_Xna_Framework_Vector2_Celeste_EntityData_
+  commentId: M:Celeste.Mod.Entities.TriggerSpikesOriginal.LoadUp(Celeste.Level,Celeste.LevelData,Microsoft.Xna.Framework.Vector2,Celeste.EntityData)
+  fullName: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadUp(Celeste.Level, Celeste.LevelData, Microsoft.Xna.Framework.Vector2, Celeste.EntityData)
+  nameWithType: TriggerSpikesOriginal.LoadUp(Level, LevelData, Vector2, EntityData)
+- uid: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadUp*
+  name: LoadUp
+  href: api/Celeste.Mod.Entities.TriggerSpikesOriginal.html#Celeste_Mod_Entities_TriggerSpikesOriginal_LoadUp_
+  commentId: Overload:Celeste.Mod.Entities.TriggerSpikesOriginal.LoadUp
+  fullName: Celeste.Mod.Entities.TriggerSpikesOriginal.LoadUp
+  nameWithType: TriggerSpikesOriginal.LoadUp
 - uid: Celeste.Mod.Entities.TriggerSpikesOriginal.Render
   name: Render()
   href: api/Celeste.Mod.Entities.TriggerSpikesOriginal.html#Celeste_Mod_Entities_TriggerSpikesOriginal_Render
@@ -3880,6 +4339,15 @@ references:
   commentId: M:Celeste.Mod.Everest.GetChecksum(Celeste.Mod.EverestModuleMetadata)
   fullName: Celeste.Mod.Everest.GetChecksum(Celeste.Mod.EverestModuleMetadata)
   nameWithType: Everest.GetChecksum(EverestModuleMetadata)
+- uid: Celeste.Mod.Everest.GetChecksum(System.IO.Stream@)
+  name: GetChecksum(ref Stream)
+  href: api/Celeste.Mod.Everest.html#Celeste_Mod_Everest_GetChecksum_System_IO_Stream__
+  commentId: M:Celeste.Mod.Everest.GetChecksum(System.IO.Stream@)
+  name.vb: GetChecksum(ByRef Stream)
+  fullName: Celeste.Mod.Everest.GetChecksum(ref System.IO.Stream)
+  fullName.vb: Celeste.Mod.Everest.GetChecksum(ByRef System.IO.Stream)
+  nameWithType: Everest.GetChecksum(ref Stream)
+  nameWithType.vb: Everest.GetChecksum(ByRef Stream)
 - uid: Celeste.Mod.Everest.GetChecksum(System.String)
   name: GetChecksum(String)
   href: api/Celeste.Mod.Everest.html#Celeste_Mod_Everest_GetChecksum_System_String_
@@ -3928,36 +4396,6 @@ references:
   commentId: Overload:Celeste.Mod.Everest.InvalidateInstallationHash
   fullName: Celeste.Mod.Everest.InvalidateInstallationHash
   nameWithType: Everest.InvalidateInstallationHash
-- uid: Celeste.Mod.Everest.Invoke(System.String,System.Object[])
-  name: Invoke(String, Object[])
-  href: api/Celeste.Mod.Everest.html#Celeste_Mod_Everest_Invoke_System_String_System_Object___
-  commentId: M:Celeste.Mod.Everest.Invoke(System.String,System.Object[])
-  name.vb: Invoke(String, Object())
-  fullName: Celeste.Mod.Everest.Invoke(System.String, System.Object[])
-  fullName.vb: Celeste.Mod.Everest.Invoke(System.String, System.Object())
-  nameWithType: Everest.Invoke(String, Object[])
-  nameWithType.vb: Everest.Invoke(String, Object())
-- uid: Celeste.Mod.Everest.Invoke*
-  name: Invoke
-  href: api/Celeste.Mod.Everest.html#Celeste_Mod_Everest_Invoke_
-  commentId: Overload:Celeste.Mod.Everest.Invoke
-  fullName: Celeste.Mod.Everest.Invoke
-  nameWithType: Everest.Invoke
-- uid: Celeste.Mod.Everest.InvokeTyped(System.String,System.Type[],System.Object[])
-  name: InvokeTyped(String, Type[], Object[])
-  href: api/Celeste.Mod.Everest.html#Celeste_Mod_Everest_InvokeTyped_System_String_System_Type___System_Object___
-  commentId: M:Celeste.Mod.Everest.InvokeTyped(System.String,System.Type[],System.Object[])
-  name.vb: InvokeTyped(String, Type(), Object())
-  fullName: Celeste.Mod.Everest.InvokeTyped(System.String, System.Type[], System.Object[])
-  fullName.vb: Celeste.Mod.Everest.InvokeTyped(System.String, System.Type(), System.Object())
-  nameWithType: Everest.InvokeTyped(String, Type[], Object[])
-  nameWithType.vb: Everest.InvokeTyped(String, Type(), Object())
-- uid: Celeste.Mod.Everest.InvokeTyped*
-  name: InvokeTyped
-  href: api/Celeste.Mod.Everest.html#Celeste_Mod_Everest_InvokeTyped_
-  commentId: Overload:Celeste.Mod.Everest.InvokeTyped
-  fullName: Celeste.Mod.Everest.InvokeTyped
-  nameWithType: Everest.InvokeTyped
 - uid: Celeste.Mod.Everest.Loader
   name: Everest.Loader
   href: api/Celeste.Mod.Everest.Loader.html
@@ -4108,6 +4546,18 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Loader.PathWhitelist
   fullName: Celeste.Mod.Everest.Loader.PathWhitelist
   nameWithType: Everest.Loader.PathWhitelist
+- uid: Celeste.Mod.Everest.Loader.VersionSatisfiesDependency(System.Version,System.Version)
+  name: VersionSatisfiesDependency(Version, Version)
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_VersionSatisfiesDependency_System_Version_System_Version_
+  commentId: M:Celeste.Mod.Everest.Loader.VersionSatisfiesDependency(System.Version,System.Version)
+  fullName: Celeste.Mod.Everest.Loader.VersionSatisfiesDependency(System.Version, System.Version)
+  nameWithType: Everest.Loader.VersionSatisfiesDependency(Version, Version)
+- uid: Celeste.Mod.Everest.Loader.VersionSatisfiesDependency*
+  name: VersionSatisfiesDependency
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_VersionSatisfiesDependency_
+  commentId: Overload:Celeste.Mod.Everest.Loader.VersionSatisfiesDependency
+  fullName: Celeste.Mod.Everest.Loader.VersionSatisfiesDependency
+  nameWithType: Everest.Loader.VersionSatisfiesDependency
 - uid: Celeste.Mod.Everest.Loader.Whitelist
   name: Whitelist
   href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_Whitelist
@@ -4324,12 +4774,6 @@ references:
   commentId: F:Celeste.Mod.Everest.LuaLoader.CachedType.Parent
   fullName: Celeste.Mod.Everest.LuaLoader.CachedType.Parent
   nameWithType: Everest.LuaLoader.CachedType.Parent
-- uid: Celeste.Mod.Everest.LuaLoader.CachedType.ProxyType
-  name: ProxyType
-  href: api/Celeste.Mod.Everest.LuaLoader.CachedType.html#Celeste_Mod_Everest_LuaLoader_CachedType_ProxyType
-  commentId: F:Celeste.Mod.Everest.LuaLoader.CachedType.ProxyType
-  fullName: Celeste.Mod.Everest.LuaLoader.CachedType.ProxyType
-  nameWithType: Everest.LuaLoader.CachedType.ProxyType
 - uid: Celeste.Mod.Everest.LuaLoader.CachedType.Type
   name: Type
   href: api/Celeste.Mod.Everest.LuaLoader.CachedType.html#Celeste_Mod_Everest_LuaLoader_CachedType_Type
@@ -6847,6 +7291,18 @@ references:
   commentId: Overload:Celeste.Mod.Everest.LuaLoader.IsDebug
   fullName: Celeste.Mod.Everest.LuaLoader.IsDebug
   nameWithType: Everest.LuaLoader.IsDebug
+- uid: Celeste.Mod.Everest.LuaLoader.Precache(System.Reflection.Assembly)
+  name: Precache(Assembly)
+  href: api/Celeste.Mod.Everest.LuaLoader.html#Celeste_Mod_Everest_LuaLoader_Precache_System_Reflection_Assembly_
+  commentId: M:Celeste.Mod.Everest.LuaLoader.Precache(System.Reflection.Assembly)
+  fullName: Celeste.Mod.Everest.LuaLoader.Precache(System.Reflection.Assembly)
+  nameWithType: Everest.LuaLoader.Precache(Assembly)
+- uid: Celeste.Mod.Everest.LuaLoader.Precache*
+  name: Precache
+  href: api/Celeste.Mod.Everest.LuaLoader.html#Celeste_Mod_Everest_LuaLoader_Precache_
+  commentId: Overload:Celeste.Mod.Everest.LuaLoader.Precache
+  fullName: Celeste.Mod.Everest.LuaLoader.Precache
+  nameWithType: Everest.LuaLoader.Precache
 - uid: Celeste.Mod.Everest.LuaLoader.Require(System.String)
   name: Require(String)
   href: api/Celeste.Mod.Everest.LuaLoader.html#Celeste_Mod_Everest_LuaLoader_Require_System_String_
@@ -7153,6 +7609,132 @@ references:
   commentId: Overload:Celeste.Mod.Everest.XDGPaths
   fullName: Celeste.Mod.Everest.XDGPaths
   nameWithType: Everest.XDGPaths
+- uid: Celeste.Mod.EverestMapDataProcessor
+  name: EverestMapDataProcessor
+  href: api/Celeste.Mod.EverestMapDataProcessor.html
+  commentId: T:Celeste.Mod.EverestMapDataProcessor
+  fullName: Celeste.Mod.EverestMapDataProcessor
+  nameWithType: EverestMapDataProcessor
+- uid: Celeste.Mod.EverestMapDataProcessor.#ctor
+  name: EverestMapDataProcessor()
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor__ctor
+  commentId: M:Celeste.Mod.EverestMapDataProcessor.#ctor
+  fullName: Celeste.Mod.EverestMapDataProcessor.EverestMapDataProcessor()
+  nameWithType: EverestMapDataProcessor.EverestMapDataProcessor()
+- uid: Celeste.Mod.EverestMapDataProcessor.#ctor*
+  name: EverestMapDataProcessor
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor__ctor_
+  commentId: Overload:Celeste.Mod.EverestMapDataProcessor.#ctor
+  fullName: Celeste.Mod.EverestMapDataProcessor.EverestMapDataProcessor
+  nameWithType: EverestMapDataProcessor.EverestMapDataProcessor
+- uid: Celeste.Mod.EverestMapDataProcessor.AreaData
+  name: AreaData
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_AreaData
+  commentId: P:Celeste.Mod.EverestMapDataProcessor.AreaData
+  fullName: Celeste.Mod.EverestMapDataProcessor.AreaData
+  nameWithType: EverestMapDataProcessor.AreaData
+- uid: Celeste.Mod.EverestMapDataProcessor.AreaData*
+  name: AreaData
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_AreaData_
+  commentId: Overload:Celeste.Mod.EverestMapDataProcessor.AreaData
+  fullName: Celeste.Mod.EverestMapDataProcessor.AreaData
+  nameWithType: EverestMapDataProcessor.AreaData
+- uid: Celeste.Mod.EverestMapDataProcessor.AreaKey
+  name: AreaKey
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_AreaKey
+  commentId: P:Celeste.Mod.EverestMapDataProcessor.AreaKey
+  fullName: Celeste.Mod.EverestMapDataProcessor.AreaKey
+  nameWithType: EverestMapDataProcessor.AreaKey
+- uid: Celeste.Mod.EverestMapDataProcessor.AreaKey*
+  name: AreaKey
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_AreaKey_
+  commentId: Overload:Celeste.Mod.EverestMapDataProcessor.AreaKey
+  fullName: Celeste.Mod.EverestMapDataProcessor.AreaKey
+  nameWithType: EverestMapDataProcessor.AreaKey
+- uid: Celeste.Mod.EverestMapDataProcessor.Context
+  name: Context
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_Context
+  commentId: P:Celeste.Mod.EverestMapDataProcessor.Context
+  fullName: Celeste.Mod.EverestMapDataProcessor.Context
+  nameWithType: EverestMapDataProcessor.Context
+- uid: Celeste.Mod.EverestMapDataProcessor.Context*
+  name: Context
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_Context_
+  commentId: Overload:Celeste.Mod.EverestMapDataProcessor.Context
+  fullName: Celeste.Mod.EverestMapDataProcessor.Context
+  nameWithType: EverestMapDataProcessor.Context
+- uid: Celeste.Mod.EverestMapDataProcessor.End
+  name: End()
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_End
+  commentId: M:Celeste.Mod.EverestMapDataProcessor.End
+  fullName: Celeste.Mod.EverestMapDataProcessor.End()
+  nameWithType: EverestMapDataProcessor.End()
+- uid: Celeste.Mod.EverestMapDataProcessor.End*
+  name: End
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_End_
+  commentId: Overload:Celeste.Mod.EverestMapDataProcessor.End
+  fullName: Celeste.Mod.EverestMapDataProcessor.End
+  nameWithType: EverestMapDataProcessor.End
+- uid: Celeste.Mod.EverestMapDataProcessor.Init
+  name: Init()
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_Init
+  commentId: M:Celeste.Mod.EverestMapDataProcessor.Init
+  fullName: Celeste.Mod.EverestMapDataProcessor.Init()
+  nameWithType: EverestMapDataProcessor.Init()
+- uid: Celeste.Mod.EverestMapDataProcessor.Init*
+  name: Init
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_Init_
+  commentId: Overload:Celeste.Mod.EverestMapDataProcessor.Init
+  fullName: Celeste.Mod.EverestMapDataProcessor.Init
+  nameWithType: EverestMapDataProcessor.Init
+- uid: Celeste.Mod.EverestMapDataProcessor.Mode
+  name: Mode
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_Mode
+  commentId: P:Celeste.Mod.EverestMapDataProcessor.Mode
+  fullName: Celeste.Mod.EverestMapDataProcessor.Mode
+  nameWithType: EverestMapDataProcessor.Mode
+- uid: Celeste.Mod.EverestMapDataProcessor.Mode*
+  name: Mode
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_Mode_
+  commentId: Overload:Celeste.Mod.EverestMapDataProcessor.Mode
+  fullName: Celeste.Mod.EverestMapDataProcessor.Mode
+  nameWithType: EverestMapDataProcessor.Mode
+- uid: Celeste.Mod.EverestMapDataProcessor.Reset
+  name: Reset()
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_Reset
+  commentId: M:Celeste.Mod.EverestMapDataProcessor.Reset
+  fullName: Celeste.Mod.EverestMapDataProcessor.Reset()
+  nameWithType: EverestMapDataProcessor.Reset()
+- uid: Celeste.Mod.EverestMapDataProcessor.Reset*
+  name: Reset
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_Reset_
+  commentId: Overload:Celeste.Mod.EverestMapDataProcessor.Reset
+  fullName: Celeste.Mod.EverestMapDataProcessor.Reset
+  nameWithType: EverestMapDataProcessor.Reset
+- uid: Celeste.Mod.EverestMapDataProcessor.Run(System.String,Celeste.BinaryPacker.Element)
+  name: Run(String, BinaryPacker.Element)
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_Run_System_String_Celeste_BinaryPacker_Element_
+  commentId: M:Celeste.Mod.EverestMapDataProcessor.Run(System.String,Celeste.BinaryPacker.Element)
+  fullName: Celeste.Mod.EverestMapDataProcessor.Run(System.String, Celeste.BinaryPacker.Element)
+  nameWithType: EverestMapDataProcessor.Run(String, BinaryPacker.Element)
+- uid: Celeste.Mod.EverestMapDataProcessor.Run*
+  name: Run
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_Run_
+  commentId: Overload:Celeste.Mod.EverestMapDataProcessor.Run
+  fullName: Celeste.Mod.EverestMapDataProcessor.Run
+  nameWithType: EverestMapDataProcessor.Run
+- uid: Celeste.Mod.EverestMapDataProcessor.Steps
+  name: Steps
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_Steps
+  commentId: P:Celeste.Mod.EverestMapDataProcessor.Steps
+  fullName: Celeste.Mod.EverestMapDataProcessor.Steps
+  nameWithType: EverestMapDataProcessor.Steps
+- uid: Celeste.Mod.EverestMapDataProcessor.Steps*
+  name: Steps
+  href: api/Celeste.Mod.EverestMapDataProcessor.html#Celeste_Mod_EverestMapDataProcessor_Steps_
+  commentId: Overload:Celeste.Mod.EverestMapDataProcessor.Steps
+  fullName: Celeste.Mod.EverestMapDataProcessor.Steps
+  nameWithType: EverestMapDataProcessor.Steps
 - uid: Celeste.Mod.EverestModule
   name: EverestModule
   href: api/Celeste.Mod.EverestModule.html
@@ -7183,6 +7765,18 @@ references:
   commentId: Overload:Celeste.Mod.EverestModule._SaveData
   fullName: Celeste.Mod.EverestModule._SaveData
   nameWithType: EverestModule._SaveData
+- uid: Celeste.Mod.EverestModule._Session
+  name: _Session
+  href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule__Session
+  commentId: P:Celeste.Mod.EverestModule._Session
+  fullName: Celeste.Mod.EverestModule._Session
+  nameWithType: EverestModule._Session
+- uid: Celeste.Mod.EverestModule._Session*
+  name: _Session
+  href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule__Session_
+  commentId: Overload:Celeste.Mod.EverestModule._Session
+  fullName: Celeste.Mod.EverestModule._Session
+  nameWithType: EverestModule._Session
 - uid: Celeste.Mod.EverestModule._Settings
   name: _Settings
   href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule__Settings
@@ -7207,6 +7801,30 @@ references:
   commentId: Overload:Celeste.Mod.EverestModule.CreateModMenuSection
   fullName: Celeste.Mod.EverestModule.CreateModMenuSection
   nameWithType: EverestModule.CreateModMenuSection
+- uid: Celeste.Mod.EverestModule.DeleteSaveData(System.Int32)
+  name: DeleteSaveData(Int32)
+  href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_DeleteSaveData_System_Int32_
+  commentId: M:Celeste.Mod.EverestModule.DeleteSaveData(System.Int32)
+  fullName: Celeste.Mod.EverestModule.DeleteSaveData(System.Int32)
+  nameWithType: EverestModule.DeleteSaveData(Int32)
+- uid: Celeste.Mod.EverestModule.DeleteSaveData*
+  name: DeleteSaveData
+  href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_DeleteSaveData_
+  commentId: Overload:Celeste.Mod.EverestModule.DeleteSaveData
+  fullName: Celeste.Mod.EverestModule.DeleteSaveData
+  nameWithType: EverestModule.DeleteSaveData
+- uid: Celeste.Mod.EverestModule.DeleteSession(System.Int32)
+  name: DeleteSession(Int32)
+  href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_DeleteSession_System_Int32_
+  commentId: M:Celeste.Mod.EverestModule.DeleteSession(System.Int32)
+  fullName: Celeste.Mod.EverestModule.DeleteSession(System.Int32)
+  nameWithType: EverestModule.DeleteSession(Int32)
+- uid: Celeste.Mod.EverestModule.DeleteSession*
+  name: DeleteSession
+  href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_DeleteSession_
+  commentId: Overload:Celeste.Mod.EverestModule.DeleteSession
+  fullName: Celeste.Mod.EverestModule.DeleteSession
+  nameWithType: EverestModule.DeleteSession
 - uid: Celeste.Mod.EverestModule.Initialize
   name: Initialize()
   href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_Initialize
@@ -7261,6 +7879,18 @@ references:
   commentId: Overload:Celeste.Mod.EverestModule.LoadSaveData
   fullName: Celeste.Mod.EverestModule.LoadSaveData
   nameWithType: EverestModule.LoadSaveData
+- uid: Celeste.Mod.EverestModule.LoadSession(System.Int32,System.Boolean)
+  name: LoadSession(Int32, Boolean)
+  href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_LoadSession_System_Int32_System_Boolean_
+  commentId: M:Celeste.Mod.EverestModule.LoadSession(System.Int32,System.Boolean)
+  fullName: Celeste.Mod.EverestModule.LoadSession(System.Int32, System.Boolean)
+  nameWithType: EverestModule.LoadSession(Int32, Boolean)
+- uid: Celeste.Mod.EverestModule.LoadSession*
+  name: LoadSession
+  href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_LoadSession_
+  commentId: Overload:Celeste.Mod.EverestModule.LoadSession
+  fullName: Celeste.Mod.EverestModule.LoadSession
+  nameWithType: EverestModule.LoadSession
 - uid: Celeste.Mod.EverestModule.LoadSettings
   name: LoadSettings()
   href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_LoadSettings
@@ -7300,6 +7930,18 @@ references:
   commentId: Overload:Celeste.Mod.EverestModule.ParseArg
   fullName: Celeste.Mod.EverestModule.ParseArg
   nameWithType: EverestModule.ParseArg
+- uid: Celeste.Mod.EverestModule.PrepareMapDataProcessors(Celeste.Mod.MapDataFixup)
+  name: PrepareMapDataProcessors(MapDataFixup)
+  href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_PrepareMapDataProcessors_Celeste_Mod_MapDataFixup_
+  commentId: M:Celeste.Mod.EverestModule.PrepareMapDataProcessors(Celeste.Mod.MapDataFixup)
+  fullName: Celeste.Mod.EverestModule.PrepareMapDataProcessors(Celeste.Mod.MapDataFixup)
+  nameWithType: EverestModule.PrepareMapDataProcessors(MapDataFixup)
+- uid: Celeste.Mod.EverestModule.PrepareMapDataProcessors*
+  name: PrepareMapDataProcessors
+  href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_PrepareMapDataProcessors_
+  commentId: Overload:Celeste.Mod.EverestModule.PrepareMapDataProcessors
+  fullName: Celeste.Mod.EverestModule.PrepareMapDataProcessors
+  nameWithType: EverestModule.PrepareMapDataProcessors
 - uid: Celeste.Mod.EverestModule.SaveDataType
   name: SaveDataType
   href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_SaveDataType
@@ -7324,6 +7966,18 @@ references:
   commentId: Overload:Celeste.Mod.EverestModule.SaveSaveData
   fullName: Celeste.Mod.EverestModule.SaveSaveData
   nameWithType: EverestModule.SaveSaveData
+- uid: Celeste.Mod.EverestModule.SaveSession(System.Int32)
+  name: SaveSession(Int32)
+  href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_SaveSession_System_Int32_
+  commentId: M:Celeste.Mod.EverestModule.SaveSession(System.Int32)
+  fullName: Celeste.Mod.EverestModule.SaveSession(System.Int32)
+  nameWithType: EverestModule.SaveSession(Int32)
+- uid: Celeste.Mod.EverestModule.SaveSession*
+  name: SaveSession
+  href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_SaveSession_
+  commentId: Overload:Celeste.Mod.EverestModule.SaveSession
+  fullName: Celeste.Mod.EverestModule.SaveSession
+  nameWithType: EverestModule.SaveSession
 - uid: Celeste.Mod.EverestModule.SaveSettings
   name: SaveSettings()
   href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_SaveSettings
@@ -7336,6 +7990,18 @@ references:
   commentId: Overload:Celeste.Mod.EverestModule.SaveSettings
   fullName: Celeste.Mod.EverestModule.SaveSettings
   nameWithType: EverestModule.SaveSettings
+- uid: Celeste.Mod.EverestModule.SessionType
+  name: SessionType
+  href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_SessionType
+  commentId: P:Celeste.Mod.EverestModule.SessionType
+  fullName: Celeste.Mod.EverestModule.SessionType
+  nameWithType: EverestModule.SessionType
+- uid: Celeste.Mod.EverestModule.SessionType*
+  name: SessionType
+  href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_SessionType_
+  commentId: Overload:Celeste.Mod.EverestModule.SessionType
+  fullName: Celeste.Mod.EverestModule.SessionType
+  nameWithType: EverestModule.SessionType
 - uid: Celeste.Mod.EverestModule.SettingsType
   name: SettingsType
   href: api/Celeste.Mod.EverestModule.html#Celeste_Mod_EverestModule_SettingsType
@@ -7402,6 +8068,48 @@ references:
   commentId: Overload:Celeste.Mod.EverestModuleBinarySaveData.Write
   fullName: Celeste.Mod.EverestModuleBinarySaveData.Write
   nameWithType: EverestModuleBinarySaveData.Write
+- uid: Celeste.Mod.EverestModuleBinarySession
+  name: EverestModuleBinarySession
+  href: api/Celeste.Mod.EverestModuleBinarySession.html
+  commentId: T:Celeste.Mod.EverestModuleBinarySession
+  fullName: Celeste.Mod.EverestModuleBinarySession
+  nameWithType: EverestModuleBinarySession
+- uid: Celeste.Mod.EverestModuleBinarySession.#ctor
+  name: EverestModuleBinarySession()
+  href: api/Celeste.Mod.EverestModuleBinarySession.html#Celeste_Mod_EverestModuleBinarySession__ctor
+  commentId: M:Celeste.Mod.EverestModuleBinarySession.#ctor
+  fullName: Celeste.Mod.EverestModuleBinarySession.EverestModuleBinarySession()
+  nameWithType: EverestModuleBinarySession.EverestModuleBinarySession()
+- uid: Celeste.Mod.EverestModuleBinarySession.#ctor*
+  name: EverestModuleBinarySession
+  href: api/Celeste.Mod.EverestModuleBinarySession.html#Celeste_Mod_EverestModuleBinarySession__ctor_
+  commentId: Overload:Celeste.Mod.EverestModuleBinarySession.#ctor
+  fullName: Celeste.Mod.EverestModuleBinarySession.EverestModuleBinarySession
+  nameWithType: EverestModuleBinarySession.EverestModuleBinarySession
+- uid: Celeste.Mod.EverestModuleBinarySession.Read(System.IO.BinaryReader)
+  name: Read(BinaryReader)
+  href: api/Celeste.Mod.EverestModuleBinarySession.html#Celeste_Mod_EverestModuleBinarySession_Read_System_IO_BinaryReader_
+  commentId: M:Celeste.Mod.EverestModuleBinarySession.Read(System.IO.BinaryReader)
+  fullName: Celeste.Mod.EverestModuleBinarySession.Read(System.IO.BinaryReader)
+  nameWithType: EverestModuleBinarySession.Read(BinaryReader)
+- uid: Celeste.Mod.EverestModuleBinarySession.Read*
+  name: Read
+  href: api/Celeste.Mod.EverestModuleBinarySession.html#Celeste_Mod_EverestModuleBinarySession_Read_
+  commentId: Overload:Celeste.Mod.EverestModuleBinarySession.Read
+  fullName: Celeste.Mod.EverestModuleBinarySession.Read
+  nameWithType: EverestModuleBinarySession.Read
+- uid: Celeste.Mod.EverestModuleBinarySession.Write(System.IO.BinaryWriter)
+  name: Write(BinaryWriter)
+  href: api/Celeste.Mod.EverestModuleBinarySession.html#Celeste_Mod_EverestModuleBinarySession_Write_System_IO_BinaryWriter_
+  commentId: M:Celeste.Mod.EverestModuleBinarySession.Write(System.IO.BinaryWriter)
+  fullName: Celeste.Mod.EverestModuleBinarySession.Write(System.IO.BinaryWriter)
+  nameWithType: EverestModuleBinarySession.Write(BinaryWriter)
+- uid: Celeste.Mod.EverestModuleBinarySession.Write*
+  name: Write
+  href: api/Celeste.Mod.EverestModuleBinarySession.html#Celeste_Mod_EverestModuleBinarySession_Write_
+  commentId: Overload:Celeste.Mod.EverestModuleBinarySession.Write
+  fullName: Celeste.Mod.EverestModuleBinarySession.Write
+  nameWithType: EverestModuleBinarySession.Write
 - uid: Celeste.Mod.EverestModuleBinarySettings
   name: EverestModuleBinarySettings
   href: api/Celeste.Mod.EverestModuleBinarySettings.html
@@ -7516,6 +8224,18 @@ references:
   commentId: Overload:Celeste.Mod.EverestModuleMetadata.Icon
   fullName: Celeste.Mod.EverestModuleMetadata.Icon
   nameWithType: EverestModuleMetadata.Icon
+- uid: Celeste.Mod.EverestModuleMetadata.Multimeta
+  name: Multimeta
+  href: api/Celeste.Mod.EverestModuleMetadata.html#Celeste_Mod_EverestModuleMetadata_Multimeta
+  commentId: P:Celeste.Mod.EverestModuleMetadata.Multimeta
+  fullName: Celeste.Mod.EverestModuleMetadata.Multimeta
+  nameWithType: EverestModuleMetadata.Multimeta
+- uid: Celeste.Mod.EverestModuleMetadata.Multimeta*
+  name: Multimeta
+  href: api/Celeste.Mod.EverestModuleMetadata.html#Celeste_Mod_EverestModuleMetadata_Multimeta_
+  commentId: Overload:Celeste.Mod.EverestModuleMetadata.Multimeta
+  fullName: Celeste.Mod.EverestModuleMetadata.Multimeta
+  nameWithType: EverestModuleMetadata.Multimeta
 - uid: Celeste.Mod.EverestModuleMetadata.Name
   name: Name
   href: api/Celeste.Mod.EverestModuleMetadata.html#Celeste_Mod_EverestModuleMetadata_Name
@@ -7564,18 +8284,6 @@ references:
   commentId: Overload:Celeste.Mod.EverestModuleMetadata.PostParse
   fullName: Celeste.Mod.EverestModuleMetadata.PostParse
   nameWithType: EverestModuleMetadata.PostParse
-- uid: Celeste.Mod.EverestModuleMetadata.Prelinked
-  name: Prelinked
-  href: api/Celeste.Mod.EverestModuleMetadata.html#Celeste_Mod_EverestModuleMetadata_Prelinked
-  commentId: P:Celeste.Mod.EverestModuleMetadata.Prelinked
-  fullName: Celeste.Mod.EverestModuleMetadata.Prelinked
-  nameWithType: EverestModuleMetadata.Prelinked
-- uid: Celeste.Mod.EverestModuleMetadata.Prelinked*
-  name: Prelinked
-  href: api/Celeste.Mod.EverestModuleMetadata.html#Celeste_Mod_EverestModuleMetadata_Prelinked_
-  commentId: Overload:Celeste.Mod.EverestModuleMetadata.Prelinked
-  fullName: Celeste.Mod.EverestModuleMetadata.Prelinked
-  nameWithType: EverestModuleMetadata.Prelinked
 - uid: Celeste.Mod.EverestModuleMetadata.ToString
   name: ToString()
   href: api/Celeste.Mod.EverestModuleMetadata.html#Celeste_Mod_EverestModuleMetadata_ToString
@@ -7642,6 +8350,36 @@ references:
   commentId: Overload:Celeste.Mod.EverestModuleSaveData.Index
   fullName: Celeste.Mod.EverestModuleSaveData.Index
   nameWithType: EverestModuleSaveData.Index
+- uid: Celeste.Mod.EverestModuleSession
+  name: EverestModuleSession
+  href: api/Celeste.Mod.EverestModuleSession.html
+  commentId: T:Celeste.Mod.EverestModuleSession
+  fullName: Celeste.Mod.EverestModuleSession
+  nameWithType: EverestModuleSession
+- uid: Celeste.Mod.EverestModuleSession.#ctor
+  name: EverestModuleSession()
+  href: api/Celeste.Mod.EverestModuleSession.html#Celeste_Mod_EverestModuleSession__ctor
+  commentId: M:Celeste.Mod.EverestModuleSession.#ctor
+  fullName: Celeste.Mod.EverestModuleSession.EverestModuleSession()
+  nameWithType: EverestModuleSession.EverestModuleSession()
+- uid: Celeste.Mod.EverestModuleSession.#ctor*
+  name: EverestModuleSession
+  href: api/Celeste.Mod.EverestModuleSession.html#Celeste_Mod_EverestModuleSession__ctor_
+  commentId: Overload:Celeste.Mod.EverestModuleSession.#ctor
+  fullName: Celeste.Mod.EverestModuleSession.EverestModuleSession
+  nameWithType: EverestModuleSession.EverestModuleSession
+- uid: Celeste.Mod.EverestModuleSession.Index
+  name: Index
+  href: api/Celeste.Mod.EverestModuleSession.html#Celeste_Mod_EverestModuleSession_Index
+  commentId: P:Celeste.Mod.EverestModuleSession.Index
+  fullName: Celeste.Mod.EverestModuleSession.Index
+  nameWithType: EverestModuleSession.Index
+- uid: Celeste.Mod.EverestModuleSession.Index*
+  name: Index
+  href: api/Celeste.Mod.EverestModuleSession.html#Celeste_Mod_EverestModuleSession_Index_
+  commentId: Overload:Celeste.Mod.EverestModuleSession.Index
+  fullName: Celeste.Mod.EverestModuleSession.Index
+  nameWithType: EverestModuleSession.Index
 - uid: Celeste.Mod.EverestModuleSettings
   name: EverestModuleSettings
   href: api/Celeste.Mod.EverestModuleSettings.html
@@ -7939,12 +8677,12 @@ references:
   commentId: Overload:Celeste.Mod.Extensions.IsUp
   fullName: Celeste.Mod.Extensions.IsUp
   nameWithType: Extensions.IsUp
-- uid: Celeste.Mod.Extensions.NeedsRelaunch(Celeste.TextMenu.Item,System.Boolean)
-  name: NeedsRelaunch(TextMenu.Item, Boolean)
-  href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_NeedsRelaunch_Celeste_TextMenu_Item_System_Boolean_
-  commentId: M:Celeste.Mod.Extensions.NeedsRelaunch(Celeste.TextMenu.Item,System.Boolean)
-  fullName: Celeste.Mod.Extensions.NeedsRelaunch(Celeste.TextMenu.Item, System.Boolean)
-  nameWithType: Extensions.NeedsRelaunch(TextMenu.Item, Boolean)
+- uid: Celeste.Mod.Extensions.NeedsRelaunch(Celeste.TextMenu.Item,Celeste.TextMenu,System.Boolean)
+  name: NeedsRelaunch(TextMenu.Item, TextMenu, Boolean)
+  href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_NeedsRelaunch_Celeste_TextMenu_Item_Celeste_TextMenu_System_Boolean_
+  commentId: M:Celeste.Mod.Extensions.NeedsRelaunch(Celeste.TextMenu.Item,Celeste.TextMenu,System.Boolean)
+  fullName: Celeste.Mod.Extensions.NeedsRelaunch(Celeste.TextMenu.Item, Celeste.TextMenu, System.Boolean)
+  nameWithType: Extensions.NeedsRelaunch(TextMenu.Item, TextMenu, Boolean)
 - uid: Celeste.Mod.Extensions.NeedsRelaunch*
   name: NeedsRelaunch
   href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_NeedsRelaunch_
@@ -10096,132 +10834,225 @@ references:
   commentId: Overload:Celeste.Mod.Helpers.LogWriter.WriteLine
   fullName: Celeste.Mod.Helpers.LogWriter.WriteLine
   nameWithType: LogWriter.WriteLine
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim
-  name: MonoModUpdateShim
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim.html
-  commentId: T:Celeste.Mod.Helpers.MonoModUpdateShim
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim
-  nameWithType: MonoModUpdateShim
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor
-  name: MonoModUpdateShim._ILCursor
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html
-  commentId: T:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor
-  nameWithType: MonoModUpdateShim._ILCursor
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.EmitDelegate(MonoMod.Cil.ILCursor,System.Action)
-  name: EmitDelegate(ILCursor, Action)
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_EmitDelegate_MonoMod_Cil_ILCursor_System_Action_
-  commentId: M:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.EmitDelegate(MonoMod.Cil.ILCursor,System.Action)
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.EmitDelegate(MonoMod.Cil.ILCursor, System.Action)
-  nameWithType: MonoModUpdateShim._ILCursor.EmitDelegate(ILCursor, Action)
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.EmitDelegate*
-  name: EmitDelegate
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_EmitDelegate_
-  commentId: Overload:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.EmitDelegate
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.EmitDelegate
-  nameWithType: MonoModUpdateShim._ILCursor.EmitDelegate
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GetIncomingLabels(MonoMod.Cil.ILCursor)
-  name: GetIncomingLabels(ILCursor)
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_GetIncomingLabels_MonoMod_Cil_ILCursor_
-  commentId: M:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GetIncomingLabels(MonoMod.Cil.ILCursor)
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GetIncomingLabels(MonoMod.Cil.ILCursor)
-  nameWithType: MonoModUpdateShim._ILCursor.GetIncomingLabels(ILCursor)
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GetIncomingLabels*
-  name: GetIncomingLabels
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_GetIncomingLabels_
-  commentId: Overload:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GetIncomingLabels
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GetIncomingLabels
-  nameWithType: MonoModUpdateShim._ILCursor.GetIncomingLabels
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoLabel(MonoMod.Cil.ILCursor,MonoMod.Cil.ILLabel)
-  name: GotoLabel(ILCursor, ILLabel)
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_GotoLabel_MonoMod_Cil_ILCursor_MonoMod_Cil_ILLabel_
-  commentId: M:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoLabel(MonoMod.Cil.ILCursor,MonoMod.Cil.ILLabel)
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoLabel(MonoMod.Cil.ILCursor, MonoMod.Cil.ILLabel)
-  nameWithType: MonoModUpdateShim._ILCursor.GotoLabel(ILCursor, ILLabel)
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoLabel*
-  name: GotoLabel
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_GotoLabel_
-  commentId: Overload:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoLabel
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoLabel
-  nameWithType: MonoModUpdateShim._ILCursor.GotoLabel
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoNext(MonoMod.Cil.ILCursor,System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])
-  name: GotoNext(ILCursor, Func<Instruction, Boolean>[])
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_GotoNext_MonoMod_Cil_ILCursor_System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____
-  commentId: M:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoNext(MonoMod.Cil.ILCursor,System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])
-  name.vb: GotoNext(ILCursor, Func(Of Instruction, Boolean)())
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoNext(MonoMod.Cil.ILCursor, System.Func<Mono.Cecil.Cil.Instruction, System.Boolean>[])
-  fullName.vb: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoNext(MonoMod.Cil.ILCursor, System.Func(Of Mono.Cecil.Cil.Instruction, System.Boolean)())
-  nameWithType: MonoModUpdateShim._ILCursor.GotoNext(ILCursor, Func<Instruction, Boolean>[])
-  nameWithType.vb: MonoModUpdateShim._ILCursor.GotoNext(ILCursor, Func(Of Instruction, Boolean)())
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoNext*
-  name: GotoNext
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_GotoNext_
-  commentId: Overload:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoNext
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoNext
-  nameWithType: MonoModUpdateShim._ILCursor.GotoNext
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoPrev(MonoMod.Cil.ILCursor,System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])
-  name: GotoPrev(ILCursor, Func<Instruction, Boolean>[])
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_GotoPrev_MonoMod_Cil_ILCursor_System_Func_Mono_Cecil_Cil_Instruction_System_Boolean____
-  commentId: M:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoPrev(MonoMod.Cil.ILCursor,System.Func{Mono.Cecil.Cil.Instruction,System.Boolean}[])
-  name.vb: GotoPrev(ILCursor, Func(Of Instruction, Boolean)())
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoPrev(MonoMod.Cil.ILCursor, System.Func<Mono.Cecil.Cil.Instruction, System.Boolean>[])
-  fullName.vb: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoPrev(MonoMod.Cil.ILCursor, System.Func(Of Mono.Cecil.Cil.Instruction, System.Boolean)())
-  nameWithType: MonoModUpdateShim._ILCursor.GotoPrev(ILCursor, Func<Instruction, Boolean>[])
-  nameWithType.vb: MonoModUpdateShim._ILCursor.GotoPrev(ILCursor, Func(Of Instruction, Boolean)())
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoPrev*
-  name: GotoPrev
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_GotoPrev_
-  commentId: Overload:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoPrev
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.GotoPrev
-  nameWithType: MonoModUpdateShim._ILCursor.GotoPrev
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.MoveAfterLabel(MonoMod.Cil.ILCursor)
-  name: MoveAfterLabel(ILCursor)
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_MoveAfterLabel_MonoMod_Cil_ILCursor_
-  commentId: M:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.MoveAfterLabel(MonoMod.Cil.ILCursor)
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.MoveAfterLabel(MonoMod.Cil.ILCursor)
-  nameWithType: MonoModUpdateShim._ILCursor.MoveAfterLabel(ILCursor)
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.MoveAfterLabel*
-  name: MoveAfterLabel
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_MoveAfterLabel_
-  commentId: Overload:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.MoveAfterLabel
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.MoveAfterLabel
-  nameWithType: MonoModUpdateShim._ILCursor.MoveAfterLabel
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.MoveBeforeLabel(MonoMod.Cil.ILCursor)
-  name: MoveBeforeLabel(ILCursor)
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_MoveBeforeLabel_MonoMod_Cil_ILCursor_
-  commentId: M:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.MoveBeforeLabel(MonoMod.Cil.ILCursor)
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.MoveBeforeLabel(MonoMod.Cil.ILCursor)
-  nameWithType: MonoModUpdateShim._ILCursor.MoveBeforeLabel(ILCursor)
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.MoveBeforeLabel*
-  name: MoveBeforeLabel
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_MoveBeforeLabel_
-  commentId: Overload:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.MoveBeforeLabel
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.MoveBeforeLabel
-  nameWithType: MonoModUpdateShim._ILCursor.MoveBeforeLabel
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.Remove(MonoMod.Cil.ILCursor)
-  name: Remove(ILCursor)
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_Remove_MonoMod_Cil_ILCursor_
-  commentId: M:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.Remove(MonoMod.Cil.ILCursor)
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.Remove(MonoMod.Cil.ILCursor)
-  nameWithType: MonoModUpdateShim._ILCursor.Remove(ILCursor)
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.Remove*
-  name: Remove
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.html#Celeste_Mod_Helpers_MonoModUpdateShim__ILCursor_Remove_
-  commentId: Overload:Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.Remove
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ILCursor.Remove
-  nameWithType: MonoModUpdateShim._ILCursor.Remove
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ReflectionHelper
-  name: MonoModUpdateShim._ReflectionHelper
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ReflectionHelper.html
-  commentId: T:Celeste.Mod.Helpers.MonoModUpdateShim._ReflectionHelper
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ReflectionHelper
-  nameWithType: MonoModUpdateShim._ReflectionHelper
-- uid: Celeste.Mod.Helpers.MonoModUpdateShim._ReflectionHelper.AssemblyCache
-  name: AssemblyCache
-  href: api/Celeste.Mod.Helpers.MonoModUpdateShim._ReflectionHelper.html#Celeste_Mod_Helpers_MonoModUpdateShim__ReflectionHelper_AssemblyCache
-  commentId: F:Celeste.Mod.Helpers.MonoModUpdateShim._ReflectionHelper.AssemblyCache
-  fullName: Celeste.Mod.Helpers.MonoModUpdateShim._ReflectionHelper.AssemblyCache
-  nameWithType: MonoModUpdateShim._ReflectionHelper.AssemblyCache
+- uid: Celeste.Mod.Helpers.ModUpdateInfo
+  name: ModUpdateInfo
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html
+  commentId: T:Celeste.Mod.Helpers.ModUpdateInfo
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo
+  nameWithType: ModUpdateInfo
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.#ctor
+  name: ModUpdateInfo()
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo__ctor
+  commentId: M:Celeste.Mod.Helpers.ModUpdateInfo.#ctor
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.ModUpdateInfo()
+  nameWithType: ModUpdateInfo.ModUpdateInfo()
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.#ctor*
+  name: ModUpdateInfo
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdateInfo.#ctor
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.ModUpdateInfo
+  nameWithType: ModUpdateInfo.ModUpdateInfo
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.GameBananaId
+  name: GameBananaId
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo_GameBananaId
+  commentId: P:Celeste.Mod.Helpers.ModUpdateInfo.GameBananaId
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.GameBananaId
+  nameWithType: ModUpdateInfo.GameBananaId
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.GameBananaId*
+  name: GameBananaId
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo_GameBananaId_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdateInfo.GameBananaId
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.GameBananaId
+  nameWithType: ModUpdateInfo.GameBananaId
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.GameBananaType
+  name: GameBananaType
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo_GameBananaType
+  commentId: P:Celeste.Mod.Helpers.ModUpdateInfo.GameBananaType
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.GameBananaType
+  nameWithType: ModUpdateInfo.GameBananaType
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.GameBananaType*
+  name: GameBananaType
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo_GameBananaType_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdateInfo.GameBananaType
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.GameBananaType
+  nameWithType: ModUpdateInfo.GameBananaType
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.LastUpdate
+  name: LastUpdate
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo_LastUpdate
+  commentId: P:Celeste.Mod.Helpers.ModUpdateInfo.LastUpdate
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.LastUpdate
+  nameWithType: ModUpdateInfo.LastUpdate
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.LastUpdate*
+  name: LastUpdate
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo_LastUpdate_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdateInfo.LastUpdate
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.LastUpdate
+  nameWithType: ModUpdateInfo.LastUpdate
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.Name
+  name: Name
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo_Name
+  commentId: P:Celeste.Mod.Helpers.ModUpdateInfo.Name
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.Name
+  nameWithType: ModUpdateInfo.Name
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.Name*
+  name: Name
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo_Name_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdateInfo.Name
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.Name
+  nameWithType: ModUpdateInfo.Name
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.URL
+  name: URL
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo_URL
+  commentId: P:Celeste.Mod.Helpers.ModUpdateInfo.URL
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.URL
+  nameWithType: ModUpdateInfo.URL
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.URL*
+  name: URL
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo_URL_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdateInfo.URL
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.URL
+  nameWithType: ModUpdateInfo.URL
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.Version
+  name: Version
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo_Version
+  commentId: P:Celeste.Mod.Helpers.ModUpdateInfo.Version
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.Version
+  nameWithType: ModUpdateInfo.Version
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.Version*
+  name: Version
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo_Version_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdateInfo.Version
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.Version
+  nameWithType: ModUpdateInfo.Version
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.xxHash
+  name: xxHash
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo_xxHash
+  commentId: P:Celeste.Mod.Helpers.ModUpdateInfo.xxHash
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.xxHash
+  nameWithType: ModUpdateInfo.xxHash
+- uid: Celeste.Mod.Helpers.ModUpdateInfo.xxHash*
+  name: xxHash
+  href: api/Celeste.Mod.Helpers.ModUpdateInfo.html#Celeste_Mod_Helpers_ModUpdateInfo_xxHash_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdateInfo.xxHash
+  fullName: Celeste.Mod.Helpers.ModUpdateInfo.xxHash
+  nameWithType: ModUpdateInfo.xxHash
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper
+  name: ModUpdaterHelper
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html
+  commentId: T:Celeste.Mod.Helpers.ModUpdaterHelper
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper
+  nameWithType: ModUpdaterHelper
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.#ctor
+  name: ModUpdaterHelper()
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper__ctor
+  commentId: M:Celeste.Mod.Helpers.ModUpdaterHelper.#ctor
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.ModUpdaterHelper()
+  nameWithType: ModUpdaterHelper.ModUpdaterHelper()
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.#ctor*
+  name: ModUpdaterHelper
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper__ctor_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdaterHelper.#ctor
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.ModUpdaterHelper
+  nameWithType: ModUpdaterHelper.ModUpdaterHelper
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.DownloadModUpdateList
+  name: DownloadModUpdateList()
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_DownloadModUpdateList
+  commentId: M:Celeste.Mod.Helpers.ModUpdaterHelper.DownloadModUpdateList
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.DownloadModUpdateList()
+  nameWithType: ModUpdaterHelper.DownloadModUpdateList()
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.DownloadModUpdateList*
+  name: DownloadModUpdateList
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_DownloadModUpdateList_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdaterHelper.DownloadModUpdateList
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.DownloadModUpdateList
+  nameWithType: ModUpdaterHelper.DownloadModUpdateList
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.GetAsyncLoadedModUpdates
+  name: GetAsyncLoadedModUpdates()
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_GetAsyncLoadedModUpdates
+  commentId: M:Celeste.Mod.Helpers.ModUpdaterHelper.GetAsyncLoadedModUpdates
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.GetAsyncLoadedModUpdates()
+  nameWithType: ModUpdaterHelper.GetAsyncLoadedModUpdates()
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.GetAsyncLoadedModUpdates*
+  name: GetAsyncLoadedModUpdates
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_GetAsyncLoadedModUpdates_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdaterHelper.GetAsyncLoadedModUpdates
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.GetAsyncLoadedModUpdates
+  nameWithType: ModUpdaterHelper.GetAsyncLoadedModUpdates
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.InstallModUpdate(Celeste.Mod.Helpers.ModUpdateInfo,Celeste.Mod.EverestModuleMetadata,System.String)
+  name: InstallModUpdate(ModUpdateInfo, EverestModuleMetadata, String)
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_InstallModUpdate_Celeste_Mod_Helpers_ModUpdateInfo_Celeste_Mod_EverestModuleMetadata_System_String_
+  commentId: M:Celeste.Mod.Helpers.ModUpdaterHelper.InstallModUpdate(Celeste.Mod.Helpers.ModUpdateInfo,Celeste.Mod.EverestModuleMetadata,System.String)
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.InstallModUpdate(Celeste.Mod.Helpers.ModUpdateInfo, Celeste.Mod.EverestModuleMetadata, System.String)
+  nameWithType: ModUpdaterHelper.InstallModUpdate(ModUpdateInfo, EverestModuleMetadata, String)
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.InstallModUpdate*
+  name: InstallModUpdate
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_InstallModUpdate_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdaterHelper.InstallModUpdate
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.InstallModUpdate
+  nameWithType: ModUpdaterHelper.InstallModUpdate
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.IsAsyncUpdateCheckingDone
+  name: IsAsyncUpdateCheckingDone()
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_IsAsyncUpdateCheckingDone
+  commentId: M:Celeste.Mod.Helpers.ModUpdaterHelper.IsAsyncUpdateCheckingDone
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.IsAsyncUpdateCheckingDone()
+  nameWithType: ModUpdaterHelper.IsAsyncUpdateCheckingDone()
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.IsAsyncUpdateCheckingDone*
+  name: IsAsyncUpdateCheckingDone
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_IsAsyncUpdateCheckingDone_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdaterHelper.IsAsyncUpdateCheckingDone
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.IsAsyncUpdateCheckingDone
+  nameWithType: ModUpdaterHelper.IsAsyncUpdateCheckingDone
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates(System.Collections.Generic.Dictionary{System.String,Celeste.Mod.Helpers.ModUpdateInfo})
+  name: ListAvailableUpdates(Dictionary<String, ModUpdateInfo>)
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_ListAvailableUpdates_System_Collections_Generic_Dictionary_System_String_Celeste_Mod_Helpers_ModUpdateInfo__
+  commentId: M:Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates(System.Collections.Generic.Dictionary{System.String,Celeste.Mod.Helpers.ModUpdateInfo})
+  name.vb: ListAvailableUpdates(Dictionary(Of String, ModUpdateInfo))
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates(System.Collections.Generic.Dictionary<System.String, Celeste.Mod.Helpers.ModUpdateInfo>)
+  fullName.vb: Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates(System.Collections.Generic.Dictionary(Of System.String, Celeste.Mod.Helpers.ModUpdateInfo))
+  nameWithType: ModUpdaterHelper.ListAvailableUpdates(Dictionary<String, ModUpdateInfo>)
+  nameWithType.vb: ModUpdaterHelper.ListAvailableUpdates(Dictionary(Of String, ModUpdateInfo))
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates*
+  name: ListAvailableUpdates
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_ListAvailableUpdates_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates
+  nameWithType: ModUpdaterHelper.ListAvailableUpdates
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates
+  name: RunAsyncCheckForModUpdates()
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_RunAsyncCheckForModUpdates
+  commentId: M:Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates()
+  nameWithType: ModUpdaterHelper.RunAsyncCheckForModUpdates()
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates*
+  name: RunAsyncCheckForModUpdates
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_RunAsyncCheckForModUpdates_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates
+  nameWithType: ModUpdaterHelper.RunAsyncCheckForModUpdates
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.TryDelete(System.String)
+  name: TryDelete(String)
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_TryDelete_System_String_
+  commentId: M:Celeste.Mod.Helpers.ModUpdaterHelper.TryDelete(System.String)
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.TryDelete(System.String)
+  nameWithType: ModUpdaterHelper.TryDelete(String)
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.TryDelete*
+  name: TryDelete
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_TryDelete_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdaterHelper.TryDelete
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.TryDelete
+  nameWithType: ModUpdaterHelper.TryDelete
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.VerifyChecksum(Celeste.Mod.Helpers.ModUpdateInfo,System.String)
+  name: VerifyChecksum(ModUpdateInfo, String)
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_VerifyChecksum_Celeste_Mod_Helpers_ModUpdateInfo_System_String_
+  commentId: M:Celeste.Mod.Helpers.ModUpdaterHelper.VerifyChecksum(Celeste.Mod.Helpers.ModUpdateInfo,System.String)
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.VerifyChecksum(Celeste.Mod.Helpers.ModUpdateInfo, System.String)
+  nameWithType: ModUpdaterHelper.VerifyChecksum(ModUpdateInfo, String)
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.VerifyChecksum*
+  name: VerifyChecksum
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_VerifyChecksum_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdaterHelper.VerifyChecksum
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.VerifyChecksum
+  nameWithType: ModUpdaterHelper.VerifyChecksum
 - uid: Celeste.Mod.Logger
   name: Logger
   href: api/Celeste.Mod.Logger.html
@@ -10294,6 +11125,66 @@ references:
   commentId: F:Celeste.Mod.LogLevel.Warn
   fullName: Celeste.Mod.LogLevel.Warn
   nameWithType: LogLevel.Warn
+- uid: Celeste.Mod.LuaCoroutine
+  name: LuaCoroutine
+  href: api/Celeste.Mod.LuaCoroutine.html
+  commentId: T:Celeste.Mod.LuaCoroutine
+  fullName: Celeste.Mod.LuaCoroutine
+  nameWithType: LuaCoroutine
+- uid: Celeste.Mod.LuaCoroutine.#ctor(NLua.LuaTable)
+  name: LuaCoroutine(LuaTable)
+  href: api/Celeste.Mod.LuaCoroutine.html#Celeste_Mod_LuaCoroutine__ctor_NLua_LuaTable_
+  commentId: M:Celeste.Mod.LuaCoroutine.#ctor(NLua.LuaTable)
+  fullName: Celeste.Mod.LuaCoroutine.LuaCoroutine(NLua.LuaTable)
+  nameWithType: LuaCoroutine.LuaCoroutine(LuaTable)
+- uid: Celeste.Mod.LuaCoroutine.#ctor*
+  name: LuaCoroutine
+  href: api/Celeste.Mod.LuaCoroutine.html#Celeste_Mod_LuaCoroutine__ctor_
+  commentId: Overload:Celeste.Mod.LuaCoroutine.#ctor
+  fullName: Celeste.Mod.LuaCoroutine.LuaCoroutine
+  nameWithType: LuaCoroutine.LuaCoroutine
+- uid: Celeste.Mod.LuaCoroutine.Current
+  name: Current
+  href: api/Celeste.Mod.LuaCoroutine.html#Celeste_Mod_LuaCoroutine_Current
+  commentId: P:Celeste.Mod.LuaCoroutine.Current
+  fullName: Celeste.Mod.LuaCoroutine.Current
+  nameWithType: LuaCoroutine.Current
+- uid: Celeste.Mod.LuaCoroutine.Current*
+  name: Current
+  href: api/Celeste.Mod.LuaCoroutine.html#Celeste_Mod_LuaCoroutine_Current_
+  commentId: Overload:Celeste.Mod.LuaCoroutine.Current
+  fullName: Celeste.Mod.LuaCoroutine.Current
+  nameWithType: LuaCoroutine.Current
+- uid: Celeste.Mod.LuaCoroutine.MoveNext
+  name: MoveNext()
+  href: api/Celeste.Mod.LuaCoroutine.html#Celeste_Mod_LuaCoroutine_MoveNext
+  commentId: M:Celeste.Mod.LuaCoroutine.MoveNext
+  fullName: Celeste.Mod.LuaCoroutine.MoveNext()
+  nameWithType: LuaCoroutine.MoveNext()
+- uid: Celeste.Mod.LuaCoroutine.MoveNext*
+  name: MoveNext
+  href: api/Celeste.Mod.LuaCoroutine.html#Celeste_Mod_LuaCoroutine_MoveNext_
+  commentId: Overload:Celeste.Mod.LuaCoroutine.MoveNext
+  fullName: Celeste.Mod.LuaCoroutine.MoveNext
+  nameWithType: LuaCoroutine.MoveNext
+- uid: Celeste.Mod.LuaCoroutine.Proxy
+  name: Proxy
+  href: api/Celeste.Mod.LuaCoroutine.html#Celeste_Mod_LuaCoroutine_Proxy
+  commentId: F:Celeste.Mod.LuaCoroutine.Proxy
+  fullName: Celeste.Mod.LuaCoroutine.Proxy
+  nameWithType: LuaCoroutine.Proxy
+- uid: Celeste.Mod.LuaCoroutine.Reset
+  name: Reset()
+  href: api/Celeste.Mod.LuaCoroutine.html#Celeste_Mod_LuaCoroutine_Reset
+  commentId: M:Celeste.Mod.LuaCoroutine.Reset
+  fullName: Celeste.Mod.LuaCoroutine.Reset()
+  nameWithType: LuaCoroutine.Reset()
+- uid: Celeste.Mod.LuaCoroutine.Reset*
+  name: Reset
+  href: api/Celeste.Mod.LuaCoroutine.html#Celeste_Mod_LuaCoroutine_Reset_
+  commentId: Overload:Celeste.Mod.LuaCoroutine.Reset
+  fullName: Celeste.Mod.LuaCoroutine.Reset
+  nameWithType: LuaCoroutine.Reset
 - uid: Celeste.Mod.LuaModule
   name: LuaModule
   href: api/Celeste.Mod.LuaModule.html
@@ -10348,6 +11239,18 @@ references:
   commentId: Overload:Celeste.Mod.LuaModule.SaveDataType
   fullName: Celeste.Mod.LuaModule.SaveDataType
   nameWithType: LuaModule.SaveDataType
+- uid: Celeste.Mod.LuaModule.SessionType
+  name: SessionType
+  href: api/Celeste.Mod.LuaModule.html#Celeste_Mod_LuaModule_SessionType
+  commentId: P:Celeste.Mod.LuaModule.SessionType
+  fullName: Celeste.Mod.LuaModule.SessionType
+  nameWithType: LuaModule.SessionType
+- uid: Celeste.Mod.LuaModule.SessionType*
+  name: SessionType
+  href: api/Celeste.Mod.LuaModule.html#Celeste_Mod_LuaModule_SessionType_
+  commentId: Overload:Celeste.Mod.LuaModule.SessionType
+  fullName: Celeste.Mod.LuaModule.SessionType
+  nameWithType: LuaModule.SessionType
 - uid: Celeste.Mod.LuaModule.SettingsType
   name: SettingsType
   href: api/Celeste.Mod.LuaModule.html#Celeste_Mod_LuaModule_SettingsType
@@ -10579,6 +11482,123 @@ references:
   commentId: F:Celeste.Mod.MapBinsInModsModContent.Path
   fullName: Celeste.Mod.MapBinsInModsModContent.Path
   nameWithType: MapBinsInModsModContent.Path
+- uid: Celeste.Mod.MapDataFixup
+  name: MapDataFixup
+  href: api/Celeste.Mod.MapDataFixup.html
+  commentId: T:Celeste.Mod.MapDataFixup
+  fullName: Celeste.Mod.MapDataFixup
+  nameWithType: MapDataFixup
+- uid: Celeste.Mod.MapDataFixup.#ctor(Celeste.MapData)
+  name: MapDataFixup(MapData)
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup__ctor_Celeste_MapData_
+  commentId: M:Celeste.Mod.MapDataFixup.#ctor(Celeste.MapData)
+  fullName: Celeste.Mod.MapDataFixup.MapDataFixup(Celeste.MapData)
+  nameWithType: MapDataFixup.MapDataFixup(MapData)
+- uid: Celeste.Mod.MapDataFixup.#ctor*
+  name: MapDataFixup
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup__ctor_
+  commentId: Overload:Celeste.Mod.MapDataFixup.#ctor
+  fullName: Celeste.Mod.MapDataFixup.MapDataFixup
+  nameWithType: MapDataFixup.MapDataFixup
+- uid: Celeste.Mod.MapDataFixup.Add*
+  name: Add
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup_Add_
+  commentId: Overload:Celeste.Mod.MapDataFixup.Add
+  fullName: Celeste.Mod.MapDataFixup.Add
+  nameWithType: MapDataFixup.Add
+- uid: Celeste.Mod.MapDataFixup.Add``1
+  name: Add<T>()
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup_Add__1
+  commentId: M:Celeste.Mod.MapDataFixup.Add``1
+  name.vb: Add(Of T)()
+  fullName: Celeste.Mod.MapDataFixup.Add<T>()
+  fullName.vb: Celeste.Mod.MapDataFixup.Add(Of T)()
+  nameWithType: MapDataFixup.Add<T>()
+  nameWithType.vb: MapDataFixup.Add(Of T)()
+- uid: Celeste.Mod.MapDataFixup.Add``1(``0)
+  name: Add<T>(T)
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup_Add__1___0_
+  commentId: M:Celeste.Mod.MapDataFixup.Add``1(``0)
+  name.vb: Add(Of T)(T)
+  fullName: Celeste.Mod.MapDataFixup.Add<T>(T)
+  fullName.vb: Celeste.Mod.MapDataFixup.Add(Of T)(T)
+  nameWithType: MapDataFixup.Add<T>(T)
+  nameWithType.vb: MapDataFixup.Add(Of T)(T)
+- uid: Celeste.Mod.MapDataFixup.AreaData
+  name: AreaData
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup_AreaData
+  commentId: F:Celeste.Mod.MapDataFixup.AreaData
+  fullName: Celeste.Mod.MapDataFixup.AreaData
+  nameWithType: MapDataFixup.AreaData
+- uid: Celeste.Mod.MapDataFixup.AreaKey
+  name: AreaKey
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup_AreaKey
+  commentId: F:Celeste.Mod.MapDataFixup.AreaKey
+  fullName: Celeste.Mod.MapDataFixup.AreaKey
+  nameWithType: MapDataFixup.AreaKey
+- uid: Celeste.Mod.MapDataFixup.Get*
+  name: Get
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup_Get_
+  commentId: Overload:Celeste.Mod.MapDataFixup.Get
+  fullName: Celeste.Mod.MapDataFixup.Get
+  nameWithType: MapDataFixup.Get
+- uid: Celeste.Mod.MapDataFixup.Get``1
+  name: Get<T>()
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup_Get__1
+  commentId: M:Celeste.Mod.MapDataFixup.Get``1
+  name.vb: Get(Of T)()
+  fullName: Celeste.Mod.MapDataFixup.Get<T>()
+  fullName.vb: Celeste.Mod.MapDataFixup.Get(Of T)()
+  nameWithType: MapDataFixup.Get<T>()
+  nameWithType.vb: MapDataFixup.Get(Of T)()
+- uid: Celeste.Mod.MapDataFixup.MapData
+  name: MapData
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup_MapData
+  commentId: F:Celeste.Mod.MapDataFixup.MapData
+  fullName: Celeste.Mod.MapDataFixup.MapData
+  nameWithType: MapDataFixup.MapData
+- uid: Celeste.Mod.MapDataFixup.Mode
+  name: Mode
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup_Mode
+  commentId: F:Celeste.Mod.MapDataFixup.Mode
+  fullName: Celeste.Mod.MapDataFixup.Mode
+  nameWithType: MapDataFixup.Mode
+- uid: Celeste.Mod.MapDataFixup.Process(Celeste.BinaryPacker.Element)
+  name: Process(BinaryPacker.Element)
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup_Process_Celeste_BinaryPacker_Element_
+  commentId: M:Celeste.Mod.MapDataFixup.Process(Celeste.BinaryPacker.Element)
+  fullName: Celeste.Mod.MapDataFixup.Process(Celeste.BinaryPacker.Element)
+  nameWithType: MapDataFixup.Process(BinaryPacker.Element)
+- uid: Celeste.Mod.MapDataFixup.Process*
+  name: Process
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup_Process_
+  commentId: Overload:Celeste.Mod.MapDataFixup.Process
+  fullName: Celeste.Mod.MapDataFixup.Process
+  nameWithType: MapDataFixup.Process
+- uid: Celeste.Mod.MapDataFixup.Processors
+  name: Processors
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup_Processors
+  commentId: F:Celeste.Mod.MapDataFixup.Processors
+  fullName: Celeste.Mod.MapDataFixup.Processors
+  nameWithType: MapDataFixup.Processors
+- uid: Celeste.Mod.MapDataFixup.Root
+  name: Root
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup_Root
+  commentId: F:Celeste.Mod.MapDataFixup.Root
+  fullName: Celeste.Mod.MapDataFixup.Root
+  nameWithType: MapDataFixup.Root
+- uid: Celeste.Mod.MapDataFixup.Run(System.String,Celeste.BinaryPacker.Element)
+  name: Run(String, BinaryPacker.Element)
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup_Run_System_String_Celeste_BinaryPacker_Element_
+  commentId: M:Celeste.Mod.MapDataFixup.Run(System.String,Celeste.BinaryPacker.Element)
+  fullName: Celeste.Mod.MapDataFixup.Run(System.String, Celeste.BinaryPacker.Element)
+  nameWithType: MapDataFixup.Run(String, BinaryPacker.Element)
+- uid: Celeste.Mod.MapDataFixup.Run*
+  name: Run
+  href: api/Celeste.Mod.MapDataFixup.html#Celeste_Mod_MapDataFixup_Run_
+  commentId: Overload:Celeste.Mod.MapDataFixup.Run
+  fullName: Celeste.Mod.MapDataFixup.Run
+  nameWithType: MapDataFixup.Run
 - uid: Celeste.Mod.MaybeAwaitable`1
   name: MaybeAwaitable<T>
   href: api/Celeste.Mod.MaybeAwaitable-1.html
@@ -11138,6 +12158,18 @@ references:
   commentId: Overload:Celeste.Mod.Meta.MapMeta.OverrideASideMeta
   fullName: Celeste.Mod.Meta.MapMeta.OverrideASideMeta
   nameWithType: MapMeta.OverrideASideMeta
+- uid: Celeste.Mod.Meta.MapMeta.Parent
+  name: Parent
+  href: api/Celeste.Mod.Meta.MapMeta.html#Celeste_Mod_Meta_MapMeta_Parent
+  commentId: P:Celeste.Mod.Meta.MapMeta.Parent
+  fullName: Celeste.Mod.Meta.MapMeta.Parent
+  nameWithType: MapMeta.Parent
+- uid: Celeste.Mod.Meta.MapMeta.Parent*
+  name: Parent
+  href: api/Celeste.Mod.Meta.MapMeta.html#Celeste_Mod_Meta_MapMeta_Parent_
+  commentId: Overload:Celeste.Mod.Meta.MapMeta.Parent
+  fullName: Celeste.Mod.Meta.MapMeta.Parent
+  nameWithType: MapMeta.Parent
 - uid: Celeste.Mod.Meta.MapMeta.Parse(Celeste.BinaryPacker.Element)
   name: Parse(BinaryPacker.Element)
   href: api/Celeste.Mod.Meta.MapMeta.html#Celeste_Mod_Meta_MapMeta_Parse_Celeste_BinaryPacker_Element_
@@ -11378,6 +12410,18 @@ references:
   commentId: Overload:Celeste.Mod.Meta.MapMetaCassetteModifier.LeadBeats
   fullName: Celeste.Mod.Meta.MapMetaCassetteModifier.LeadBeats
   nameWithType: MapMetaCassetteModifier.LeadBeats
+- uid: Celeste.Mod.Meta.MapMetaCassetteModifier.OldBehavior
+  name: OldBehavior
+  href: api/Celeste.Mod.Meta.MapMetaCassetteModifier.html#Celeste_Mod_Meta_MapMetaCassetteModifier_OldBehavior
+  commentId: P:Celeste.Mod.Meta.MapMetaCassetteModifier.OldBehavior
+  fullName: Celeste.Mod.Meta.MapMetaCassetteModifier.OldBehavior
+  nameWithType: MapMetaCassetteModifier.OldBehavior
+- uid: Celeste.Mod.Meta.MapMetaCassetteModifier.OldBehavior*
+  name: OldBehavior
+  href: api/Celeste.Mod.Meta.MapMetaCassetteModifier.html#Celeste_Mod_Meta_MapMetaCassetteModifier_OldBehavior_
+  commentId: Overload:Celeste.Mod.Meta.MapMetaCassetteModifier.OldBehavior
+  fullName: Celeste.Mod.Meta.MapMetaCassetteModifier.OldBehavior
+  nameWithType: MapMetaCassetteModifier.OldBehavior
 - uid: Celeste.Mod.Meta.MapMetaCassetteModifier.Parse(Celeste.BinaryPacker.Element)
   name: Parse(BinaryPacker.Element)
   href: api/Celeste.Mod.Meta.MapMetaCassetteModifier.html#Celeste_Mod_Meta_MapMetaCassetteModifier_Parse_Celeste_BinaryPacker_Element_
@@ -12020,6 +13064,30 @@ references:
   commentId: Overload:Celeste.Mod.Meta.MapMetaMountain.Idle
   fullName: Celeste.Mod.Meta.MapMetaMountain.Idle
   nameWithType: MapMetaMountain.Idle
+- uid: Celeste.Mod.Meta.MapMetaMountain.MountainModelDirectory
+  name: MountainModelDirectory
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_MountainModelDirectory
+  commentId: P:Celeste.Mod.Meta.MapMetaMountain.MountainModelDirectory
+  fullName: Celeste.Mod.Meta.MapMetaMountain.MountainModelDirectory
+  nameWithType: MapMetaMountain.MountainModelDirectory
+- uid: Celeste.Mod.Meta.MapMetaMountain.MountainModelDirectory*
+  name: MountainModelDirectory
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_MountainModelDirectory_
+  commentId: Overload:Celeste.Mod.Meta.MapMetaMountain.MountainModelDirectory
+  fullName: Celeste.Mod.Meta.MapMetaMountain.MountainModelDirectory
+  nameWithType: MapMetaMountain.MountainModelDirectory
+- uid: Celeste.Mod.Meta.MapMetaMountain.MountainTextureDirectory
+  name: MountainTextureDirectory
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_MountainTextureDirectory
+  commentId: P:Celeste.Mod.Meta.MapMetaMountain.MountainTextureDirectory
+  fullName: Celeste.Mod.Meta.MapMetaMountain.MountainTextureDirectory
+  nameWithType: MapMetaMountain.MountainTextureDirectory
+- uid: Celeste.Mod.Meta.MapMetaMountain.MountainTextureDirectory*
+  name: MountainTextureDirectory
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_MountainTextureDirectory_
+  commentId: Overload:Celeste.Mod.Meta.MapMetaMountain.MountainTextureDirectory
+  fullName: Celeste.Mod.Meta.MapMetaMountain.MountainTextureDirectory
+  nameWithType: MapMetaMountain.MountainTextureDirectory
 - uid: Celeste.Mod.Meta.MapMetaMountain.Rotate
   name: Rotate
   href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_Rotate
@@ -12044,6 +13112,18 @@ references:
   commentId: Overload:Celeste.Mod.Meta.MapMetaMountain.Select
   fullName: Celeste.Mod.Meta.MapMetaMountain.Select
   nameWithType: MapMetaMountain.Select
+- uid: Celeste.Mod.Meta.MapMetaMountain.ShowCore
+  name: ShowCore
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_ShowCore
+  commentId: P:Celeste.Mod.Meta.MapMetaMountain.ShowCore
+  fullName: Celeste.Mod.Meta.MapMetaMountain.ShowCore
+  nameWithType: MapMetaMountain.ShowCore
+- uid: Celeste.Mod.Meta.MapMetaMountain.ShowCore*
+  name: ShowCore
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_ShowCore_
+  commentId: Overload:Celeste.Mod.Meta.MapMetaMountain.ShowCore
+  fullName: Celeste.Mod.Meta.MapMetaMountain.ShowCore
+  nameWithType: MapMetaMountain.ShowCore
 - uid: Celeste.Mod.Meta.MapMetaMountain.State
   name: State
   href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_State
@@ -12335,18 +13415,6 @@ references:
   commentId: F:Celeste.Mod.ModAsset.PathVirtual
   fullName: Celeste.Mod.ModAsset.PathVirtual
   nameWithType: ModAsset.PathVirtual
-- uid: Celeste.Mod.ModAsset.SectionLength
-  name: SectionLength
-  href: api/Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_SectionLength
-  commentId: F:Celeste.Mod.ModAsset.SectionLength
-  fullName: Celeste.Mod.ModAsset.SectionLength
-  nameWithType: ModAsset.SectionLength
-- uid: Celeste.Mod.ModAsset.SectionOffset
-  name: SectionOffset
-  href: api/Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_SectionOffset
-  commentId: F:Celeste.Mod.ModAsset.SectionOffset
-  fullName: Celeste.Mod.ModAsset.SectionOffset
-  nameWithType: ModAsset.SectionOffset
 - uid: Celeste.Mod.ModAsset.Source
   name: Source
   href: api/Celeste.Mod.ModAsset.html#Celeste_Mod_ModAsset_Source
@@ -12913,6 +13981,30 @@ references:
   commentId: F:Celeste.Mod.SettingInGameAttribute.InGame
   fullName: Celeste.Mod.SettingInGameAttribute.InGame
   nameWithType: SettingInGameAttribute.InGame
+- uid: Celeste.Mod.SettingMaxLengthAttribute
+  name: SettingMaxLengthAttribute
+  href: api/Celeste.Mod.SettingMaxLengthAttribute.html
+  commentId: T:Celeste.Mod.SettingMaxLengthAttribute
+  fullName: Celeste.Mod.SettingMaxLengthAttribute
+  nameWithType: SettingMaxLengthAttribute
+- uid: Celeste.Mod.SettingMaxLengthAttribute.#ctor(System.Int32)
+  name: SettingMaxLengthAttribute(Int32)
+  href: api/Celeste.Mod.SettingMaxLengthAttribute.html#Celeste_Mod_SettingMaxLengthAttribute__ctor_System_Int32_
+  commentId: M:Celeste.Mod.SettingMaxLengthAttribute.#ctor(System.Int32)
+  fullName: Celeste.Mod.SettingMaxLengthAttribute.SettingMaxLengthAttribute(System.Int32)
+  nameWithType: SettingMaxLengthAttribute.SettingMaxLengthAttribute(Int32)
+- uid: Celeste.Mod.SettingMaxLengthAttribute.#ctor*
+  name: SettingMaxLengthAttribute
+  href: api/Celeste.Mod.SettingMaxLengthAttribute.html#Celeste_Mod_SettingMaxLengthAttribute__ctor_
+  commentId: Overload:Celeste.Mod.SettingMaxLengthAttribute.#ctor
+  fullName: Celeste.Mod.SettingMaxLengthAttribute.SettingMaxLengthAttribute
+  nameWithType: SettingMaxLengthAttribute.SettingMaxLengthAttribute
+- uid: Celeste.Mod.SettingMaxLengthAttribute.Max
+  name: Max
+  href: api/Celeste.Mod.SettingMaxLengthAttribute.html#Celeste_Mod_SettingMaxLengthAttribute_Max
+  commentId: F:Celeste.Mod.SettingMaxLengthAttribute.Max
+  fullName: Celeste.Mod.SettingMaxLengthAttribute.Max
+  nameWithType: SettingMaxLengthAttribute.Max
 - uid: Celeste.Mod.SettingNameAttribute
   name: SettingNameAttribute
   href: api/Celeste.Mod.SettingNameAttribute.html
@@ -12985,6 +14077,144 @@ references:
   commentId: F:Celeste.Mod.SettingRangeAttribute.Min
   fullName: Celeste.Mod.SettingRangeAttribute.Min
   nameWithType: SettingRangeAttribute.Min
+- uid: Celeste.Mod.StrawberryRegistry
+  name: StrawberryRegistry
+  href: api/Celeste.Mod.StrawberryRegistry.html
+  commentId: T:Celeste.Mod.StrawberryRegistry
+  fullName: Celeste.Mod.StrawberryRegistry
+  nameWithType: StrawberryRegistry
+- uid: Celeste.Mod.StrawberryRegistry.GetBerryNames
+  name: GetBerryNames()
+  href: api/Celeste.Mod.StrawberryRegistry.html#Celeste_Mod_StrawberryRegistry_GetBerryNames
+  commentId: M:Celeste.Mod.StrawberryRegistry.GetBerryNames
+  fullName: Celeste.Mod.StrawberryRegistry.GetBerryNames()
+  nameWithType: StrawberryRegistry.GetBerryNames()
+- uid: Celeste.Mod.StrawberryRegistry.GetBerryNames*
+  name: GetBerryNames
+  href: api/Celeste.Mod.StrawberryRegistry.html#Celeste_Mod_StrawberryRegistry_GetBerryNames_
+  commentId: Overload:Celeste.Mod.StrawberryRegistry.GetBerryNames
+  fullName: Celeste.Mod.StrawberryRegistry.GetBerryNames
+  nameWithType: StrawberryRegistry.GetBerryNames
+- uid: Celeste.Mod.StrawberryRegistry.GetBerryTypes
+  name: GetBerryTypes()
+  href: api/Celeste.Mod.StrawberryRegistry.html#Celeste_Mod_StrawberryRegistry_GetBerryTypes
+  commentId: M:Celeste.Mod.StrawberryRegistry.GetBerryTypes
+  fullName: Celeste.Mod.StrawberryRegistry.GetBerryTypes()
+  nameWithType: StrawberryRegistry.GetBerryTypes()
+- uid: Celeste.Mod.StrawberryRegistry.GetBerryTypes*
+  name: GetBerryTypes
+  href: api/Celeste.Mod.StrawberryRegistry.html#Celeste_Mod_StrawberryRegistry_GetBerryTypes_
+  commentId: Overload:Celeste.Mod.StrawberryRegistry.GetBerryTypes
+  fullName: Celeste.Mod.StrawberryRegistry.GetBerryTypes
+  nameWithType: StrawberryRegistry.GetBerryTypes
+- uid: Celeste.Mod.StrawberryRegistry.GetRegisteredBerries
+  name: GetRegisteredBerries()
+  href: api/Celeste.Mod.StrawberryRegistry.html#Celeste_Mod_StrawberryRegistry_GetRegisteredBerries
+  commentId: M:Celeste.Mod.StrawberryRegistry.GetRegisteredBerries
+  fullName: Celeste.Mod.StrawberryRegistry.GetRegisteredBerries()
+  nameWithType: StrawberryRegistry.GetRegisteredBerries()
+- uid: Celeste.Mod.StrawberryRegistry.GetRegisteredBerries*
+  name: GetRegisteredBerries
+  href: api/Celeste.Mod.StrawberryRegistry.html#Celeste_Mod_StrawberryRegistry_GetRegisteredBerries_
+  commentId: Overload:Celeste.Mod.StrawberryRegistry.GetRegisteredBerries
+  fullName: Celeste.Mod.StrawberryRegistry.GetRegisteredBerries
+  nameWithType: StrawberryRegistry.GetRegisteredBerries
+- uid: Celeste.Mod.StrawberryRegistry.GetTrackableBerries
+  name: GetTrackableBerries()
+  href: api/Celeste.Mod.StrawberryRegistry.html#Celeste_Mod_StrawberryRegistry_GetTrackableBerries
+  commentId: M:Celeste.Mod.StrawberryRegistry.GetTrackableBerries
+  fullName: Celeste.Mod.StrawberryRegistry.GetTrackableBerries()
+  nameWithType: StrawberryRegistry.GetTrackableBerries()
+- uid: Celeste.Mod.StrawberryRegistry.GetTrackableBerries*
+  name: GetTrackableBerries
+  href: api/Celeste.Mod.StrawberryRegistry.html#Celeste_Mod_StrawberryRegistry_GetTrackableBerries_
+  commentId: Overload:Celeste.Mod.StrawberryRegistry.GetTrackableBerries
+  fullName: Celeste.Mod.StrawberryRegistry.GetTrackableBerries
+  nameWithType: StrawberryRegistry.GetTrackableBerries
+- uid: Celeste.Mod.StrawberryRegistry.IsFirstStrawberry(Monocle.Entity)
+  name: IsFirstStrawberry(Entity)
+  href: api/Celeste.Mod.StrawberryRegistry.html#Celeste_Mod_StrawberryRegistry_IsFirstStrawberry_Monocle_Entity_
+  commentId: M:Celeste.Mod.StrawberryRegistry.IsFirstStrawberry(Monocle.Entity)
+  fullName: Celeste.Mod.StrawberryRegistry.IsFirstStrawberry(Monocle.Entity)
+  nameWithType: StrawberryRegistry.IsFirstStrawberry(Entity)
+- uid: Celeste.Mod.StrawberryRegistry.IsFirstStrawberry*
+  name: IsFirstStrawberry
+  href: api/Celeste.Mod.StrawberryRegistry.html#Celeste_Mod_StrawberryRegistry_IsFirstStrawberry_
+  commentId: Overload:Celeste.Mod.StrawberryRegistry.IsFirstStrawberry
+  fullName: Celeste.Mod.StrawberryRegistry.IsFirstStrawberry
+  nameWithType: StrawberryRegistry.IsFirstStrawberry
+- uid: Celeste.Mod.StrawberryRegistry.Register(System.Type,System.Boolean,System.Boolean)
+  name: Register(Type, Boolean, Boolean)
+  href: api/Celeste.Mod.StrawberryRegistry.html#Celeste_Mod_StrawberryRegistry_Register_System_Type_System_Boolean_System_Boolean_
+  commentId: M:Celeste.Mod.StrawberryRegistry.Register(System.Type,System.Boolean,System.Boolean)
+  fullName: Celeste.Mod.StrawberryRegistry.Register(System.Type, System.Boolean, System.Boolean)
+  nameWithType: StrawberryRegistry.Register(Type, Boolean, Boolean)
+- uid: Celeste.Mod.StrawberryRegistry.Register(System.Type,System.String,System.Boolean,System.Boolean)
+  name: Register(Type, String, Boolean, Boolean)
+  href: api/Celeste.Mod.StrawberryRegistry.html#Celeste_Mod_StrawberryRegistry_Register_System_Type_System_String_System_Boolean_System_Boolean_
+  commentId: M:Celeste.Mod.StrawberryRegistry.Register(System.Type,System.String,System.Boolean,System.Boolean)
+  fullName: Celeste.Mod.StrawberryRegistry.Register(System.Type, System.String, System.Boolean, System.Boolean)
+  nameWithType: StrawberryRegistry.Register(Type, String, Boolean, Boolean)
+- uid: Celeste.Mod.StrawberryRegistry.Register*
+  name: Register
+  href: api/Celeste.Mod.StrawberryRegistry.html#Celeste_Mod_StrawberryRegistry_Register_
+  commentId: Overload:Celeste.Mod.StrawberryRegistry.Register
+  fullName: Celeste.Mod.StrawberryRegistry.Register
+  nameWithType: StrawberryRegistry.Register
+- uid: Celeste.Mod.StrawberryRegistry.RegisteredBerry
+  name: StrawberryRegistry.RegisteredBerry
+  href: api/Celeste.Mod.StrawberryRegistry.RegisteredBerry.html
+  commentId: T:Celeste.Mod.StrawberryRegistry.RegisteredBerry
+  fullName: Celeste.Mod.StrawberryRegistry.RegisteredBerry
+  nameWithType: StrawberryRegistry.RegisteredBerry
+- uid: Celeste.Mod.StrawberryRegistry.RegisteredBerry.#ctor(System.Type,System.String,System.Boolean,System.Boolean)
+  name: RegisteredBerry(Type, String, Boolean, Boolean)
+  href: api/Celeste.Mod.StrawberryRegistry.RegisteredBerry.html#Celeste_Mod_StrawberryRegistry_RegisteredBerry__ctor_System_Type_System_String_System_Boolean_System_Boolean_
+  commentId: M:Celeste.Mod.StrawberryRegistry.RegisteredBerry.#ctor(System.Type,System.String,System.Boolean,System.Boolean)
+  fullName: Celeste.Mod.StrawberryRegistry.RegisteredBerry.RegisteredBerry(System.Type, System.String, System.Boolean, System.Boolean)
+  nameWithType: StrawberryRegistry.RegisteredBerry.RegisteredBerry(Type, String, Boolean, Boolean)
+- uid: Celeste.Mod.StrawberryRegistry.RegisteredBerry.#ctor*
+  name: RegisteredBerry
+  href: api/Celeste.Mod.StrawberryRegistry.RegisteredBerry.html#Celeste_Mod_StrawberryRegistry_RegisteredBerry__ctor_
+  commentId: Overload:Celeste.Mod.StrawberryRegistry.RegisteredBerry.#ctor
+  fullName: Celeste.Mod.StrawberryRegistry.RegisteredBerry.RegisteredBerry
+  nameWithType: StrawberryRegistry.RegisteredBerry.RegisteredBerry
+- uid: Celeste.Mod.StrawberryRegistry.RegisteredBerry.berryClass
+  name: berryClass
+  href: api/Celeste.Mod.StrawberryRegistry.RegisteredBerry.html#Celeste_Mod_StrawberryRegistry_RegisteredBerry_berryClass
+  commentId: F:Celeste.Mod.StrawberryRegistry.RegisteredBerry.berryClass
+  fullName: Celeste.Mod.StrawberryRegistry.RegisteredBerry.berryClass
+  nameWithType: StrawberryRegistry.RegisteredBerry.berryClass
+- uid: Celeste.Mod.StrawberryRegistry.RegisteredBerry.blocksNormalCollection
+  name: blocksNormalCollection
+  href: api/Celeste.Mod.StrawberryRegistry.RegisteredBerry.html#Celeste_Mod_StrawberryRegistry_RegisteredBerry_blocksNormalCollection
+  commentId: F:Celeste.Mod.StrawberryRegistry.RegisteredBerry.blocksNormalCollection
+  fullName: Celeste.Mod.StrawberryRegistry.RegisteredBerry.blocksNormalCollection
+  nameWithType: StrawberryRegistry.RegisteredBerry.blocksNormalCollection
+- uid: Celeste.Mod.StrawberryRegistry.RegisteredBerry.entityName
+  name: entityName
+  href: api/Celeste.Mod.StrawberryRegistry.RegisteredBerry.html#Celeste_Mod_StrawberryRegistry_RegisteredBerry_entityName
+  commentId: F:Celeste.Mod.StrawberryRegistry.RegisteredBerry.entityName
+  fullName: Celeste.Mod.StrawberryRegistry.RegisteredBerry.entityName
+  nameWithType: StrawberryRegistry.RegisteredBerry.entityName
+- uid: Celeste.Mod.StrawberryRegistry.RegisteredBerry.isTracked
+  name: isTracked
+  href: api/Celeste.Mod.StrawberryRegistry.RegisteredBerry.html#Celeste_Mod_StrawberryRegistry_RegisteredBerry_isTracked
+  commentId: F:Celeste.Mod.StrawberryRegistry.RegisteredBerry.isTracked
+  fullName: Celeste.Mod.StrawberryRegistry.RegisteredBerry.isTracked
+  nameWithType: StrawberryRegistry.RegisteredBerry.isTracked
+- uid: Celeste.Mod.StrawberryRegistry.TrackableContains(System.String)
+  name: TrackableContains(String)
+  href: api/Celeste.Mod.StrawberryRegistry.html#Celeste_Mod_StrawberryRegistry_TrackableContains_System_String_
+  commentId: M:Celeste.Mod.StrawberryRegistry.TrackableContains(System.String)
+  fullName: Celeste.Mod.StrawberryRegistry.TrackableContains(System.String)
+  nameWithType: StrawberryRegistry.TrackableContains(String)
+- uid: Celeste.Mod.StrawberryRegistry.TrackableContains*
+  name: TrackableContains
+  href: api/Celeste.Mod.StrawberryRegistry.html#Celeste_Mod_StrawberryRegistry_TrackableContains_
+  commentId: Overload:Celeste.Mod.StrawberryRegistry.TrackableContains
+  fullName: Celeste.Mod.StrawberryRegistry.TrackableContains
+  nameWithType: StrawberryRegistry.TrackableContains
 - uid: Celeste.Mod.TextInput
   name: TextInput
   href: api/Celeste.Mod.TextInput.html
@@ -13414,6 +14644,60 @@ references:
   commentId: N:Celeste.Mod.UI
   fullName: Celeste.Mod.UI
   nameWithType: Celeste.Mod.UI
+- uid: Celeste.Mod.UI.AutoModUpdater
+  name: AutoModUpdater
+  href: api/Celeste.Mod.UI.AutoModUpdater.html
+  commentId: T:Celeste.Mod.UI.AutoModUpdater
+  fullName: Celeste.Mod.UI.AutoModUpdater
+  nameWithType: AutoModUpdater
+- uid: Celeste.Mod.UI.AutoModUpdater.#ctor(Celeste.HiresSnow)
+  name: AutoModUpdater(HiresSnow)
+  href: api/Celeste.Mod.UI.AutoModUpdater.html#Celeste_Mod_UI_AutoModUpdater__ctor_Celeste_HiresSnow_
+  commentId: M:Celeste.Mod.UI.AutoModUpdater.#ctor(Celeste.HiresSnow)
+  fullName: Celeste.Mod.UI.AutoModUpdater.AutoModUpdater(Celeste.HiresSnow)
+  nameWithType: AutoModUpdater.AutoModUpdater(HiresSnow)
+- uid: Celeste.Mod.UI.AutoModUpdater.#ctor*
+  name: AutoModUpdater
+  href: api/Celeste.Mod.UI.AutoModUpdater.html#Celeste_Mod_UI_AutoModUpdater__ctor_
+  commentId: Overload:Celeste.Mod.UI.AutoModUpdater.#ctor
+  fullName: Celeste.Mod.UI.AutoModUpdater.AutoModUpdater
+  nameWithType: AutoModUpdater.AutoModUpdater
+- uid: Celeste.Mod.UI.AutoModUpdater.Begin
+  name: Begin()
+  href: api/Celeste.Mod.UI.AutoModUpdater.html#Celeste_Mod_UI_AutoModUpdater_Begin
+  commentId: M:Celeste.Mod.UI.AutoModUpdater.Begin
+  fullName: Celeste.Mod.UI.AutoModUpdater.Begin()
+  nameWithType: AutoModUpdater.Begin()
+- uid: Celeste.Mod.UI.AutoModUpdater.Begin*
+  name: Begin
+  href: api/Celeste.Mod.UI.AutoModUpdater.html#Celeste_Mod_UI_AutoModUpdater_Begin_
+  commentId: Overload:Celeste.Mod.UI.AutoModUpdater.Begin
+  fullName: Celeste.Mod.UI.AutoModUpdater.Begin
+  nameWithType: AutoModUpdater.Begin
+- uid: Celeste.Mod.UI.AutoModUpdater.Render
+  name: Render()
+  href: api/Celeste.Mod.UI.AutoModUpdater.html#Celeste_Mod_UI_AutoModUpdater_Render
+  commentId: M:Celeste.Mod.UI.AutoModUpdater.Render
+  fullName: Celeste.Mod.UI.AutoModUpdater.Render()
+  nameWithType: AutoModUpdater.Render()
+- uid: Celeste.Mod.UI.AutoModUpdater.Render*
+  name: Render
+  href: api/Celeste.Mod.UI.AutoModUpdater.html#Celeste_Mod_UI_AutoModUpdater_Render_
+  commentId: Overload:Celeste.Mod.UI.AutoModUpdater.Render
+  fullName: Celeste.Mod.UI.AutoModUpdater.Render
+  nameWithType: AutoModUpdater.Render
+- uid: Celeste.Mod.UI.AutoModUpdater.Update
+  name: Update()
+  href: api/Celeste.Mod.UI.AutoModUpdater.html#Celeste_Mod_UI_AutoModUpdater_Update
+  commentId: M:Celeste.Mod.UI.AutoModUpdater.Update
+  fullName: Celeste.Mod.UI.AutoModUpdater.Update()
+  nameWithType: AutoModUpdater.Update()
+- uid: Celeste.Mod.UI.AutoModUpdater.Update*
+  name: Update
+  href: api/Celeste.Mod.UI.AutoModUpdater.html#Celeste_Mod_UI_AutoModUpdater_Update_
+  commentId: Overload:Celeste.Mod.UI.AutoModUpdater.Update
+  fullName: Celeste.Mod.UI.AutoModUpdater.Update
+  nameWithType: AutoModUpdater.Update
 - uid: Celeste.Mod.UI.OuiHelper_ChapterSelect_LevelSet
   name: OuiHelper_ChapterSelect_LevelSet
   href: api/Celeste.Mod.UI.OuiHelper_ChapterSelect_LevelSet.html
@@ -13888,6 +15172,12 @@ references:
   commentId: F:Celeste.Mod.UI.OuiModOptions.Instance
   fullName: Celeste.Mod.UI.OuiModOptions.Instance
   nameWithType: OuiModOptions.Instance
+- uid: Celeste.Mod.UI.OuiModOptions.ISubmenu
+  name: OuiModOptions.ISubmenu
+  href: api/Celeste.Mod.UI.OuiModOptions.ISubmenu.html
+  commentId: T:Celeste.Mod.UI.OuiModOptions.ISubmenu
+  fullName: Celeste.Mod.UI.OuiModOptions.ISubmenu
+  nameWithType: OuiModOptions.ISubmenu
 - uid: Celeste.Mod.UI.OuiModOptions.Leave(Celeste.Oui)
   name: Leave(Oui)
   href: api/Celeste.Mod.UI.OuiModOptions.html#Celeste_Mod_UI_OuiModOptions_Leave_Celeste_Oui_
@@ -14287,6 +15577,30 @@ references:
   commentId: Overload:Celeste.Mod.UI.SubHudRenderer.RenderContent
   fullName: Celeste.Mod.UI.SubHudRenderer.RenderContent
   nameWithType: SubHudRenderer.RenderContent
+- uid: Celeste.Mod.XNAFNAShims
+  name: XNAFNAShims
+  href: api/Celeste.Mod.XNAFNAShims.html
+  commentId: T:Celeste.Mod.XNAFNAShims
+  fullName: Celeste.Mod.XNAFNAShims
+  nameWithType: XNAFNAShims
+- uid: Celeste.Mod.XNAFNAShims.NewColor(Microsoft.Xna.Framework.Color,System.Int32)
+  name: NewColor(Color, Int32)
+  href: api/Celeste.Mod.XNAFNAShims.html#Celeste_Mod_XNAFNAShims_NewColor_Microsoft_Xna_Framework_Color_System_Int32_
+  commentId: M:Celeste.Mod.XNAFNAShims.NewColor(Microsoft.Xna.Framework.Color,System.Int32)
+  fullName: Celeste.Mod.XNAFNAShims.NewColor(Microsoft.Xna.Framework.Color, System.Int32)
+  nameWithType: XNAFNAShims.NewColor(Color, Int32)
+- uid: Celeste.Mod.XNAFNAShims.NewColor(Microsoft.Xna.Framework.Color,System.Single)
+  name: NewColor(Color, Single)
+  href: api/Celeste.Mod.XNAFNAShims.html#Celeste_Mod_XNAFNAShims_NewColor_Microsoft_Xna_Framework_Color_System_Single_
+  commentId: M:Celeste.Mod.XNAFNAShims.NewColor(Microsoft.Xna.Framework.Color,System.Single)
+  fullName: Celeste.Mod.XNAFNAShims.NewColor(Microsoft.Xna.Framework.Color, System.Single)
+  nameWithType: XNAFNAShims.NewColor(Color, Single)
+- uid: Celeste.Mod.XNAFNAShims.NewColor*
+  name: NewColor
+  href: api/Celeste.Mod.XNAFNAShims.html#Celeste_Mod_XNAFNAShims_NewColor_
+  commentId: Overload:Celeste.Mod.XNAFNAShims.NewColor
+  fullName: Celeste.Mod.XNAFNAShims.NewColor
+  nameWithType: XNAFNAShims.NewColor
 - uid: Celeste.Mod.YamlHelper
   name: YamlHelper
   href: api/Celeste.Mod.YamlHelper.html
@@ -14299,6 +15613,18 @@ references:
   commentId: F:Celeste.Mod.YamlHelper.Deserializer
   fullName: Celeste.Mod.YamlHelper.Deserializer
   nameWithType: YamlHelper.Deserializer
+- uid: Celeste.Mod.YamlHelper.DeserializerUsing(System.Object)
+  name: DeserializerUsing(Object)
+  href: api/Celeste.Mod.YamlHelper.html#Celeste_Mod_YamlHelper_DeserializerUsing_System_Object_
+  commentId: M:Celeste.Mod.YamlHelper.DeserializerUsing(System.Object)
+  fullName: Celeste.Mod.YamlHelper.DeserializerUsing(System.Object)
+  nameWithType: YamlHelper.DeserializerUsing(Object)
+- uid: Celeste.Mod.YamlHelper.DeserializerUsing*
+  name: DeserializerUsing
+  href: api/Celeste.Mod.YamlHelper.html#Celeste_Mod_YamlHelper_DeserializerUsing_
+  commentId: Overload:Celeste.Mod.YamlHelper.DeserializerUsing
+  fullName: Celeste.Mod.YamlHelper.DeserializerUsing
+  nameWithType: YamlHelper.DeserializerUsing
 - uid: Celeste.Mod.YamlHelper.Serializer
   name: Serializer
   href: api/Celeste.Mod.YamlHelper.html#Celeste_Mod_YamlHelper_Serializer
@@ -14452,6 +15778,150 @@ references:
   commentId: Overload:Celeste.ModePropertiesExt.SetMapMeta
   fullName: Celeste.ModePropertiesExt.SetMapMeta
   nameWithType: ModePropertiesExt.SetMapMeta
+- uid: Celeste.MountainResources
+  name: MountainResources
+  href: api/Celeste.MountainResources.html
+  commentId: T:Celeste.MountainResources
+  fullName: Celeste.MountainResources
+  nameWithType: MountainResources
+- uid: Celeste.MountainResources.#ctor
+  name: MountainResources()
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources__ctor
+  commentId: M:Celeste.MountainResources.#ctor
+  fullName: Celeste.MountainResources.MountainResources()
+  nameWithType: MountainResources.MountainResources()
+- uid: Celeste.MountainResources.#ctor*
+  name: MountainResources
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources__ctor_
+  commentId: Overload:Celeste.MountainResources.#ctor
+  fullName: Celeste.MountainResources.MountainResources
+  nameWithType: MountainResources.MountainResources
+- uid: Celeste.MountainResources.MountainBuildings
+  name: MountainBuildings
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainBuildings
+  commentId: F:Celeste.MountainResources.MountainBuildings
+  fullName: Celeste.MountainResources.MountainBuildings
+  nameWithType: MountainResources.MountainBuildings
+- uid: Celeste.MountainResources.MountainBuildingTextures
+  name: MountainBuildingTextures
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainBuildingTextures
+  commentId: F:Celeste.MountainResources.MountainBuildingTextures
+  fullName: Celeste.MountainResources.MountainBuildingTextures
+  nameWithType: MountainResources.MountainBuildingTextures
+- uid: Celeste.MountainResources.MountainCoreWall
+  name: MountainCoreWall
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainCoreWall
+  commentId: F:Celeste.MountainResources.MountainCoreWall
+  fullName: Celeste.MountainResources.MountainCoreWall
+  nameWithType: MountainResources.MountainCoreWall
+- uid: Celeste.MountainResources.MountainFogTexture
+  name: MountainFogTexture
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainFogTexture
+  commentId: F:Celeste.MountainResources.MountainFogTexture
+  fullName: Celeste.MountainResources.MountainFogTexture
+  nameWithType: MountainResources.MountainFogTexture
+- uid: Celeste.MountainResources.MountainSkyboxTextures
+  name: MountainSkyboxTextures
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainSkyboxTextures
+  commentId: F:Celeste.MountainResources.MountainSkyboxTextures
+  fullName: Celeste.MountainResources.MountainSkyboxTextures
+  nameWithType: MountainResources.MountainSkyboxTextures
+- uid: Celeste.MountainResources.MountainStates
+  name: MountainStates
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainStates
+  commentId: F:Celeste.MountainResources.MountainStates
+  fullName: Celeste.MountainResources.MountainStates
+  nameWithType: MountainResources.MountainStates
+- uid: Celeste.MountainResources.MountainTerrain
+  name: MountainTerrain
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainTerrain
+  commentId: F:Celeste.MountainResources.MountainTerrain
+  fullName: Celeste.MountainResources.MountainTerrain
+  nameWithType: MountainResources.MountainTerrain
+- uid: Celeste.MountainResources.MountainTerrainTextures
+  name: MountainTerrainTextures
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainTerrainTextures
+  commentId: F:Celeste.MountainResources.MountainTerrainTextures
+  fullName: Celeste.MountainResources.MountainTerrainTextures
+  nameWithType: MountainResources.MountainTerrainTextures
+- uid: Celeste.MTNExt
+  name: MTNExt
+  href: api/Celeste.MTNExt.html
+  commentId: T:Celeste.MTNExt
+  fullName: Celeste.MTNExt
+  nameWithType: MTNExt
+- uid: Celeste.MTNExt.LoadMod
+  name: LoadMod()
+  href: api/Celeste.MTNExt.html#Celeste_MTNExt_LoadMod
+  commentId: M:Celeste.MTNExt.LoadMod
+  fullName: Celeste.MTNExt.LoadMod()
+  nameWithType: MTNExt.LoadMod()
+- uid: Celeste.MTNExt.LoadMod*
+  name: LoadMod
+  href: api/Celeste.MTNExt.html#Celeste_MTNExt_LoadMod_
+  commentId: Overload:Celeste.MTNExt.LoadMod
+  fullName: Celeste.MTNExt.LoadMod
+  nameWithType: MTNExt.LoadMod
+- uid: Celeste.MTNExt.LoadModData
+  name: LoadModData()
+  href: api/Celeste.MTNExt.html#Celeste_MTNExt_LoadModData
+  commentId: M:Celeste.MTNExt.LoadModData
+  fullName: Celeste.MTNExt.LoadModData()
+  nameWithType: MTNExt.LoadModData()
+- uid: Celeste.MTNExt.LoadModData*
+  name: LoadModData
+  href: api/Celeste.MTNExt.html#Celeste_MTNExt_LoadModData_
+  commentId: Overload:Celeste.MTNExt.LoadModData
+  fullName: Celeste.MTNExt.LoadModData
+  nameWithType: MTNExt.LoadModData
+- uid: Celeste.MTNExt.ModsDataLoaded
+  name: ModsDataLoaded
+  href: api/Celeste.MTNExt.html#Celeste_MTNExt_ModsDataLoaded
+  commentId: P:Celeste.MTNExt.ModsDataLoaded
+  fullName: Celeste.MTNExt.ModsDataLoaded
+  nameWithType: MTNExt.ModsDataLoaded
+- uid: Celeste.MTNExt.ModsDataLoaded*
+  name: ModsDataLoaded
+  href: api/Celeste.MTNExt.html#Celeste_MTNExt_ModsDataLoaded_
+  commentId: Overload:Celeste.MTNExt.ModsDataLoaded
+  fullName: Celeste.MTNExt.ModsDataLoaded
+  nameWithType: MTNExt.ModsDataLoaded
+- uid: Celeste.MTNExt.ModsLoaded
+  name: ModsLoaded
+  href: api/Celeste.MTNExt.html#Celeste_MTNExt_ModsLoaded
+  commentId: P:Celeste.MTNExt.ModsLoaded
+  fullName: Celeste.MTNExt.ModsLoaded
+  nameWithType: MTNExt.ModsLoaded
+- uid: Celeste.MTNExt.ModsLoaded*
+  name: ModsLoaded
+  href: api/Celeste.MTNExt.html#Celeste_MTNExt_ModsLoaded_
+  commentId: Overload:Celeste.MTNExt.ModsLoaded
+  fullName: Celeste.MTNExt.ModsLoaded
+  nameWithType: MTNExt.ModsLoaded
+- uid: Celeste.MTNExt.MountainMappings
+  name: MountainMappings
+  href: api/Celeste.MTNExt.html#Celeste_MTNExt_MountainMappings
+  commentId: F:Celeste.MTNExt.MountainMappings
+  fullName: Celeste.MTNExt.MountainMappings
+  nameWithType: MTNExt.MountainMappings
+- uid: Celeste.ObjModelExt
+  name: ObjModelExt
+  href: api/Celeste.ObjModelExt.html
+  commentId: T:Celeste.ObjModelExt
+  fullName: Celeste.ObjModelExt
+  nameWithType: ObjModelExt
+- uid: Celeste.ObjModelExt.CreateFromStream(System.IO.Stream,System.String)
+  name: CreateFromStream(Stream, String)
+  href: api/Celeste.ObjModelExt.html#Celeste_ObjModelExt_CreateFromStream_System_IO_Stream_System_String_
+  commentId: M:Celeste.ObjModelExt.CreateFromStream(System.IO.Stream,System.String)
+  fullName: Celeste.ObjModelExt.CreateFromStream(System.IO.Stream, System.String)
+  nameWithType: ObjModelExt.CreateFromStream(Stream, String)
+- uid: Celeste.ObjModelExt.CreateFromStream*
+  name: CreateFromStream
+  href: api/Celeste.ObjModelExt.html#Celeste_ObjModelExt_CreateFromStream_
+  commentId: Overload:Celeste.ObjModelExt.CreateFromStream
+  fullName: Celeste.ObjModelExt.CreateFromStream
+  nameWithType: ObjModelExt.CreateFromStream
 - uid: Celeste.OuiChapterSelectIconExt
   name: OuiChapterSelectIconExt
   href: api/Celeste.OuiChapterSelectIconExt.html
@@ -14938,6 +16408,60 @@ references:
   commentId: Overload:Celeste.TextMenuExt.DrawIcon
   fullName: Celeste.TextMenuExt.DrawIcon
   nameWithType: TextMenuExt.DrawIcon
+- uid: Celeste.TextMenuExt.EaseInSubHeaderExt
+  name: TextMenuExt.EaseInSubHeaderExt
+  href: api/Celeste.TextMenuExt.EaseInSubHeaderExt.html
+  commentId: T:Celeste.TextMenuExt.EaseInSubHeaderExt
+  fullName: Celeste.TextMenuExt.EaseInSubHeaderExt
+  nameWithType: TextMenuExt.EaseInSubHeaderExt
+- uid: Celeste.TextMenuExt.EaseInSubHeaderExt.#ctor(System.String,System.Boolean,Celeste.TextMenu,System.String)
+  name: EaseInSubHeaderExt(String, Boolean, TextMenu, String)
+  href: api/Celeste.TextMenuExt.EaseInSubHeaderExt.html#Celeste_TextMenuExt_EaseInSubHeaderExt__ctor_System_String_System_Boolean_Celeste_TextMenu_System_String_
+  commentId: M:Celeste.TextMenuExt.EaseInSubHeaderExt.#ctor(System.String,System.Boolean,Celeste.TextMenu,System.String)
+  fullName: Celeste.TextMenuExt.EaseInSubHeaderExt.EaseInSubHeaderExt(System.String, System.Boolean, Celeste.TextMenu, System.String)
+  nameWithType: TextMenuExt.EaseInSubHeaderExt.EaseInSubHeaderExt(String, Boolean, TextMenu, String)
+- uid: Celeste.TextMenuExt.EaseInSubHeaderExt.#ctor*
+  name: EaseInSubHeaderExt
+  href: api/Celeste.TextMenuExt.EaseInSubHeaderExt.html#Celeste_TextMenuExt_EaseInSubHeaderExt__ctor_
+  commentId: Overload:Celeste.TextMenuExt.EaseInSubHeaderExt.#ctor
+  fullName: Celeste.TextMenuExt.EaseInSubHeaderExt.EaseInSubHeaderExt
+  nameWithType: TextMenuExt.EaseInSubHeaderExt.EaseInSubHeaderExt
+- uid: Celeste.TextMenuExt.EaseInSubHeaderExt.FadeVisible
+  name: FadeVisible
+  href: api/Celeste.TextMenuExt.EaseInSubHeaderExt.html#Celeste_TextMenuExt_EaseInSubHeaderExt_FadeVisible
+  commentId: P:Celeste.TextMenuExt.EaseInSubHeaderExt.FadeVisible
+  fullName: Celeste.TextMenuExt.EaseInSubHeaderExt.FadeVisible
+  nameWithType: TextMenuExt.EaseInSubHeaderExt.FadeVisible
+- uid: Celeste.TextMenuExt.EaseInSubHeaderExt.FadeVisible*
+  name: FadeVisible
+  href: api/Celeste.TextMenuExt.EaseInSubHeaderExt.html#Celeste_TextMenuExt_EaseInSubHeaderExt_FadeVisible_
+  commentId: Overload:Celeste.TextMenuExt.EaseInSubHeaderExt.FadeVisible
+  fullName: Celeste.TextMenuExt.EaseInSubHeaderExt.FadeVisible
+  nameWithType: TextMenuExt.EaseInSubHeaderExt.FadeVisible
+- uid: Celeste.TextMenuExt.EaseInSubHeaderExt.Height
+  name: Height()
+  href: api/Celeste.TextMenuExt.EaseInSubHeaderExt.html#Celeste_TextMenuExt_EaseInSubHeaderExt_Height
+  commentId: M:Celeste.TextMenuExt.EaseInSubHeaderExt.Height
+  fullName: Celeste.TextMenuExt.EaseInSubHeaderExt.Height()
+  nameWithType: TextMenuExt.EaseInSubHeaderExt.Height()
+- uid: Celeste.TextMenuExt.EaseInSubHeaderExt.Height*
+  name: Height
+  href: api/Celeste.TextMenuExt.EaseInSubHeaderExt.html#Celeste_TextMenuExt_EaseInSubHeaderExt_Height_
+  commentId: Overload:Celeste.TextMenuExt.EaseInSubHeaderExt.Height
+  fullName: Celeste.TextMenuExt.EaseInSubHeaderExt.Height
+  nameWithType: TextMenuExt.EaseInSubHeaderExt.Height
+- uid: Celeste.TextMenuExt.EaseInSubHeaderExt.Update
+  name: Update()
+  href: api/Celeste.TextMenuExt.EaseInSubHeaderExt.html#Celeste_TextMenuExt_EaseInSubHeaderExt_Update
+  commentId: M:Celeste.TextMenuExt.EaseInSubHeaderExt.Update
+  fullName: Celeste.TextMenuExt.EaseInSubHeaderExt.Update()
+  nameWithType: TextMenuExt.EaseInSubHeaderExt.Update()
+- uid: Celeste.TextMenuExt.EaseInSubHeaderExt.Update*
+  name: Update
+  href: api/Celeste.TextMenuExt.EaseInSubHeaderExt.html#Celeste_TextMenuExt_EaseInSubHeaderExt_Update_
+  commentId: Overload:Celeste.TextMenuExt.EaseInSubHeaderExt.Update
+  fullName: Celeste.TextMenuExt.EaseInSubHeaderExt.Update
+  nameWithType: TextMenuExt.EaseInSubHeaderExt.Update
 - uid: Celeste.TextMenuExt.GetItems(Celeste.TextMenu)
   name: GetItems(TextMenu)
   href: api/Celeste.TextMenuExt.html#Celeste_TextMenuExt_GetItems_Celeste_TextMenu_
