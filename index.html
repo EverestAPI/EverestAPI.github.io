@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="icon" type="image/png" href="/favicon.png">
+        <link rel="shortcut icon" type="image/png" href="/favicon.png">
+
+        <title>Everest - Celeste Mod Loader</title>
+        <meta name="description" content="A mod loader for the retro-style 2D platformer Celeste.">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#3b2d4a">
+
+        <meta property="docfx:navrel" content="toc.html">
+        <meta property="docfx:tocrel" content="toc.html">
+        
+        <meta property="docfx:rel" content="">
+        <meta property="docfx:newtab" content="true">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="Everest - Celeste Mod Loader">
+        
+        <meta property="og:description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
+        <meta name="author" content="Everest Team">
+        <meta property="og:locale" content="en_US">
+        <link rel="canonical" href="https://everestapi.github.io/"><meta property="og:url" content="https://everestapi.github.io/">
+        <meta property="og:image" content="https://everestapi.github.io/logo.png">
+        <meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://everestapi.github.io/logo.png"><meta name="twitter:site" content="@everestapi"><meta name="twitter:creator" content="@everestapi">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap">
+
+        <link rel="stylesheet" href="/main/style.css">
+    </head>
+    <body>
+        <div id="background"></div>
+
+        <div id="parallax-root">
+            <div id="front">
+                <img id="front-logo" src="/main/everest.png">
+            </div>
+
+            <div id="body">
+                <div id="body-bg">
+                    <div id="cogwheel"></div>
+                </div>
+
+                <ul id="toplist">
+                    <li><a id="toplink-install" class="button" href="#installing-everest"><div class="toplink-icon"></div><div class="toplink-text">Install Everest</div></a></li>
+                    <li><a id="toplink-mods" class="button" href="https://gamebanana.com/games/6460"><div class="toplink-icon"></div><div class="toplink-text">Download Mods</div></a></li>
+                    <li><a id="toplink-discord" class="button" href="https://discord.gg/6qjaePQ"><div class="toplink-icon"></div><div class="toplink-text">Join the Community</div></a></li>
+                    <li><a id="toplink-wiki" class="button" href="https://github.com/EverestAPI/Resources/wiki"><div class="toplink-icon"></div><div class="toplink-text">Check the Wiki</div></a></li>
+                </ul>
+
+                <p>Everest is an <a href="https://github.com/EverestAPI">open-source</a> mod loader and modding API, allowing you to create custom map packs, texture replacements and code mods to your heart's content.</p>
+
+                <h2 id="features">Features</h2>
+                <p class="note">
+                    <img class="haha" src="/main/haha.png" alt="granny laughing">
+                    We're too busy improving Everest and don't have time for this list.<br>
+                    It would also be longer if that Berry guy would've ignored us!
+                </p>
+                <ul>
+                    <li>In-game updater and dependency downloader</li>
+                    <li>Cross-platform compatibility</li>
+                    <li>TASBot-verified</li>
+                    <li>Fixes for certain game-breaking bugs:
+                        <ul>
+                            <li>Graphics driver related bugs</li>
+                            <li>Out of memory crashes</li>
+                            <li>Most softlocks (disabled for vanilla maps)</li>
+                        </ul>
+                    </li>
+                    <li>Load mod files without messing with your original files:
+                        <ul>
+                            <li>Custom sound effects</li>
+                            <li>New decals, tilesets, sprites and other graphics</li>
+                            <li>Custom character dialogues</li>
+                            <li>Completely new maps and campaigns</li>
+                            <li>And anything else thanks to code mods</li>
+                        </ul>
+                    </li>
+                    <li>Sound test - <strong>including easter eggs hidden in Celeste by the legendary Kevin Regamey</strong></li>
+                    <li>Quality of life improvements:
+                        <ul>
+                            <li>Discord Rich Presence - share your stats live</li>
+                            <li>Use your keyboard to rename save files</li>
+                            <li>Toggle the hidden debug mode while the game is running</li>
+                            <li>Live reloading of the map you're working on, both automatic and via F5</li>
+                            <li>Reload all code and assets quickly using CTRL + F5</li>
+                            <li>F6 to open the map viewer - now without loosing progress and with SHIFT / CTRL modifiers!</li>
+                            <li>Got a keyboard without <code>~</code> and want to open the console? Press <code>.</code></li>
+                            <li>Speaking of console: Live log output using the <code>--console</code> launch flag</li>
+                        </ul>
+                    </li>
+                    <li><strong>A lot</strong> of unhardcoded and customizable entities for your custom maps</li>
+                    <li>And much more that did not fit into this list. Whew!</li>
+                </ul>
+
+                <h2 id="installing-everest">Installing Everest</h2>
+                <h3 id="windows-auto-installer">Windows auto-installer</h3>
+                <ul>
+                    <li><a href="https://gamebanana.com/tools/download/6449"><strong>Download the latest installer <code>.exe</code></strong></a> and run it.</li>
+                    <li>If Windows SmartScreen blocks it, tell it to run anyway.</li>
+                    <li>Follow the steps in the installer.</li>
+                </ul>
+                <h3 id="cross-platform-manual-installation">Cross-platform manual installation</h3>
+                <p class="note">
+                    <img class="thinking" src="/main/thinking.png" alt="maddy thinking">
+                    A new cross-platform (Windows, Linux, macOS) installer is currently in development.<br>
+                    Linux users, feel free to try the <a href="https://gamebanana.com/tools/6630">unofficial EverInst</a> at your own risk.<br>
+                    macOS users, please hold tight with the following manual installation instructions!
+                </p>
+                <ul>
+                    <li>Download the latest autobuild (<a href="https://dev.azure.com/EverestAPI/Everest/_build/latest?definitionId=3&amp;branchName=master">latest version</a>, <a href="https://dev.azure.com/EverestAPI/Everest/_build/latest?definitionId=3&amp;branchName=stable">latest stable version</a>).<br>Click the &quot;Artifacts&quot; button on the top-right of the page, then &quot;main&quot; to download it.</li>
+                    <li>Extract the <code>.zip</code>&#39;s main folder to where Celeste is installed. <code>Celeste.Mod.mm.dll</code> should be right next to <code>Celeste.exe</code><ul>
+                    <li>macOS: Right-click and browse the Celeste app in Finder, then naviagte to <code>Contents</code>, then <code>MacOS</code>.</li>
+                </ul>
+                </li>
+                    <li>Delete the <code>orig</code> folder if it exists.</li>
+                    <li>Run <code>MiniInstaller.exe</code><ul>
+                    <li>Linux / macOS: <a href="https://www.mono-project.com/download/stable/">Install the mono runtime</a>, open a terminal window where Celeste is and run <code>mono MiniInstaller.exe</code></li>
+                </ul>
+                </li>
+                </ul>
+
+                <h2 id="installing-mods">Installing mods</h2>
+                <ul>
+                    <li>Find a mod that you want to play with on <a href="https://gamebanana.com/games/6460">GameBanana</a>.</li>
+                    <li>Press the 1-click installation button.
+                        <ul>
+                            <li>If the 1-click installer doesn&#39;t work, put the mod <code>.zip</code> into the <code>Mods</code> directory where Celeste is.</li>
+                            <li>For prototyping and development, feel free to use a folder instead of a <code>.zip</code></li>
+                        </ul>
+                    </li>
+                    <li>That&#39;s it. No need to extract anything.</li>
+                </ul>
+            </div>
+
+            <div id="footer">
+                Baked with <img class="berry" src="/main/berry.gif" alt="a strawberry"> by the Everest Team
+            </div>
+
+        </div>
+
+        <div id="dummy"></div>
+    </body>
+</html>
