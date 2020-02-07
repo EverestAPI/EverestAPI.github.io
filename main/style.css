@@ -63,7 +63,7 @@ body {
 }
 
 #front-logo {
-    animation: front-in-1 0.3s 0s both;
+    animation: front-in-1 0.6s -0.2s both;
     position: absolute;
     top: calc(50% - 6vw - 16px);
     left: 50%;
@@ -250,7 +250,7 @@ a.button:hover, a.button:focus, a.button:active {
 @keyframes front-in-1 {
     0% {
         opacity: 0;
-        transform: translate(-50%, calc(-50% + 64px)) rotate(3deg);
+        transform: translate(-50%, calc(-50% + 192px)) rotate(2deg);
     }
     100% {
         opacity: 0.87;
