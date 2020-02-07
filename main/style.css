@@ -127,7 +127,6 @@ a.button, a.button:visited {
     padding: 8px;
     display: inline-block;
     cursor: pointer;
-    backdrop-filter: blur(16px);
     z-index: 1;
     text-shadow: none;
 }
