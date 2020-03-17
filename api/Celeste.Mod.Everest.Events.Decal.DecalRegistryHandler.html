@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Logger
+    <title>Delegate Everest.Events.Decal.DecalRegistryHandler
    | Everest </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Logger
+    <meta name="title" content="Delegate Everest.Events.Decal.DecalRegistryHandler
    | Everest ">
     <meta name="generator" content="docfx 2.44.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
@@ -22,7 +22,7 @@
     <meta property="docfx:rel" content="../">
     <meta property="docfx:newtab" content="true">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Class Logger
+    <meta property="og:title" content="Delegate Everest.Events.Decal.DecalRegistryHandler
   ">
     <meta property="og:site_name" content="Everest"><meta property="og:description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <meta name="author" content="Everest Team">
@@ -85,60 +85,86 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Celeste.Mod.Logger">
+            <article class="content wrap" id="_content" data-uid="Celeste.Mod.Everest.Events.Decal.DecalRegistryHandler">
   
   
-  <h1 id="Celeste_Mod_Logger" data-uid="Celeste.Mod.Logger" class="text-break">Class Logger
+  <h1 id="Celeste_Mod_Everest_Events_Decal_DecalRegistryHandler" data-uid="Celeste.Mod.Everest.Events.Decal.DecalRegistryHandler" class="text-break">Delegate Everest.Events.Decal.DecalRegistryHandler
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Logger</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Celeste.Mod.html">Celeste.Mod</a></h6>
   <h6><strong>Assembly</strong>: Celeste.Mod.mm.dll</h6>
-  <h5 id="Celeste_Mod_Logger_syntax">Syntax</h5>
+  <h5 id="Celeste_Mod_Everest_Events_Decal_DecalRegistryHandler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Logger</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate void DecalRegistryHandler(Decal decal, DecalRegistry.DecalInfo decalInfo);</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.Decal</span></td>
+        <td><span class="parametername">decal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.DecalRegistry.DecalInfo.html">DecalRegistry.DecalInfo</a></td>
+        <td><span class="parametername">decalInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Celeste_Mod_Everest_Events_Decal_DecalRegistryHandler__ctor_" data-uid="Celeste.Mod.Everest.Events.Decal.DecalRegistryHandler.#ctor*"></a>
+  <h4 id="Celeste_Mod_Everest_Events_Decal_DecalRegistryHandler__ctor_System_Object_System_IntPtr_" data-uid="Celeste.Mod.Everest.Events.Decal.DecalRegistryHandler.#ctor(System.Object,System.IntPtr)">DecalRegistryHandler(Object, IntPtr)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DecalRegistryHandler(object object, IntPtr method)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">object</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IntPtr</span></td>
+        <td><span class="parametername">method</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Celeste_Mod_Logger_Log_" data-uid="Celeste.Mod.Logger.Log*"></a>
-  <h4 id="Celeste_Mod_Logger_Log_Celeste_Mod_LogLevel_System_String_System_String_" data-uid="Celeste.Mod.Logger.Log(Celeste.Mod.LogLevel,System.String,System.String)">Log(LogLevel, String, String)</h4>
-  <div class="markdown level1 summary"><p>Log a string to the console and to log.txt</p>
-</div>
+  <a id="Celeste_Mod_Everest_Events_Decal_DecalRegistryHandler_BeginInvoke_" data-uid="Celeste.Mod.Everest.Events.Decal.DecalRegistryHandler.BeginInvoke*"></a>
+  <h4 id="Celeste_Mod_Everest_Events_Decal_DecalRegistryHandler_BeginInvoke_Celeste_Decal_Celeste_Mod_DecalRegistry_DecalInfo_System_AsyncCallback_System_Object_" data-uid="Celeste.Mod.Everest.Events.Decal.DecalRegistryHandler.BeginInvoke(Celeste.Decal,Celeste.Mod.DecalRegistry.DecalInfo,System.AsyncCallback,System.Object)">BeginInvoke(Decal, DecalRegistry.DecalInfo, AsyncCallback, Object)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Log(LogLevel level, string tag, string str)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual IAsyncResult BeginInvoke(Decal decal, DecalRegistry.DecalInfo decalInfo, AsyncCallback callback, object object)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,144 +177,51 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Celeste.Mod.LogLevel.html">LogLevel</a></td>
-        <td><span class="parametername">level</span></td>
-        <td><p>The log level.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">tag</span></td>
-        <td><p>The tag, preferably short enough to identify your mod, but not too long to clutter the log.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">str</span></td>
-        <td><p>The string / message to log.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Logger_Log_" data-uid="Celeste.Mod.Logger.Log*"></a>
-  <h4 id="Celeste_Mod_Logger_Log_System_String_System_String_" data-uid="Celeste.Mod.Logger.Log(System.String,System.String)">Log(String, String)</h4>
-  <div class="markdown level1 summary"><p>Log a string to the console and to log.txt</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Log(string tag, string str)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">tag</span></td>
-        <td><p>The tag, preferably short enough to identify your mod, but not too long to clutter the log.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">str</span></td>
-        <td><p>The string / message to log.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Logger_LogDetailed_" data-uid="Celeste.Mod.Logger.LogDetailed*"></a>
-  <h4 id="Celeste_Mod_Logger_LogDetailed_Celeste_Mod_LogLevel_System_String_System_String_" data-uid="Celeste.Mod.Logger.LogDetailed(Celeste.Mod.LogLevel,System.String,System.String)">LogDetailed(LogLevel, String, String)</h4>
-  <div class="markdown level1 summary"><p>Log a string to the console and to log.txt, including a call stack trace.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LogDetailed(LogLevel level, string tag, string str)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Celeste.Mod.LogLevel.html">LogLevel</a></td>
-        <td><span class="parametername">level</span></td>
-        <td><p>The log level.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">tag</span></td>
-        <td><p>The tag, preferably short enough to identify your mod, but not too long to clutter the log.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">str</span></td>
-        <td><p>The string / message to log.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Logger_LogDetailed_" data-uid="Celeste.Mod.Logger.LogDetailed*"></a>
-  <h4 id="Celeste_Mod_Logger_LogDetailed_System_Exception_System_String_" data-uid="Celeste.Mod.Logger.LogDetailed(System.Exception,System.String)">LogDetailed(Exception, String)</h4>
-  <div class="markdown level1 summary"><p>Print the exception to the console, including extended loading / reflection data useful for mods.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LogDetailed(Exception e, string tag = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Exception</span></td>
-        <td><span class="parametername">e</span></td>
+        <td><span class="xref">Celeste.Decal</span></td>
+        <td><span class="parametername">decal</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">tag</span></td>
+        <td><a class="xref" href="Celeste.Mod.DecalRegistry.DecalInfo.html">DecalRegistry.DecalInfo</a></td>
+        <td><span class="parametername">decalInfo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.AsyncCallback</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IAsyncResult</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Celeste_Mod_Logger_LogDetailed_" data-uid="Celeste.Mod.Logger.LogDetailed*"></a>
-  <h4 id="Celeste_Mod_Logger_LogDetailed_System_String_System_String_" data-uid="Celeste.Mod.Logger.LogDetailed(System.String,System.String)">LogDetailed(String, String)</h4>
-  <div class="markdown level1 summary"><p>Log a string to the console and to log.txt, including a call stack trace.</p>
-</div>
+  <a id="Celeste_Mod_Everest_Events_Decal_DecalRegistryHandler_EndInvoke_" data-uid="Celeste.Mod.Everest.Events.Decal.DecalRegistryHandler.EndInvoke*"></a>
+  <h4 id="Celeste_Mod_Everest_Events_Decal_DecalRegistryHandler_EndInvoke_System_IAsyncResult_" data-uid="Celeste.Mod.Everest.Events.Decal.DecalRegistryHandler.EndInvoke(System.IAsyncResult)">EndInvoke(IAsyncResult)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LogDetailed(string tag, string str)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void EndInvoke(IAsyncResult result)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -301,19 +234,60 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">tag</span></td>
-        <td><p>The tag, preferably short enough to identify your mod, but not too long to clutter the log.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">str</span></td>
-        <td><p>The string / message to log.</p>
-</td>
+        <td><span class="xref">System.IAsyncResult</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Celeste_Mod_Everest_Events_Decal_DecalRegistryHandler_Invoke_" data-uid="Celeste.Mod.Everest.Events.Decal.DecalRegistryHandler.Invoke*"></a>
+  <h4 id="Celeste_Mod_Everest_Events_Decal_DecalRegistryHandler_Invoke_Celeste_Decal_Celeste_Mod_DecalRegistry_DecalInfo_" data-uid="Celeste.Mod.Everest.Events.Decal.DecalRegistryHandler.Invoke(Celeste.Decal,Celeste.Mod.DecalRegistry.DecalInfo)">Invoke(Decal, DecalRegistry.DecalInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Invoke(Decal decal, DecalRegistry.DecalInfo decalInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.Decal</span></td>
+        <td><span class="parametername">decal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.DecalRegistry.DecalInfo.html">DecalRegistry.DecalInfo</a></td>
+        <td><span class="parametername">decalInfo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_InvokePassing__1_System_MulticastDelegate___0_System_Object___">Extensions.InvokePassing&lt;T&gt;(MulticastDelegate, T, Object[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_InvokeWhileTrue_System_MulticastDelegate_System_Object___">Extensions.InvokeWhileTrue(MulticastDelegate, Object[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_InvokeWhileFalse_System_MulticastDelegate_System_Object___">Extensions.InvokeWhileFalse(MulticastDelegate, Object[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_InvokeWhileNull__1_System_MulticastDelegate_System_Object___">Extensions.InvokeWhileNull&lt;T&gt;(MulticastDelegate, Object[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_CastDelegate_System_Delegate_System_Type_">Extensions.CastDelegate(Delegate, Type)</a>
+  </div>
 </article>
           </div>
           
