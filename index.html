@@ -118,16 +118,20 @@
                     For now, please hold tight with the following manual installation instructions!
                 </p>
                 <ul>
-                    <li>Download the latest autobuild (<a href="https://dev.azure.com/EverestAPI/Everest/_build/latest?definitionId=3&amp;branchName=master">latest version</a>, <a href="https://dev.azure.com/EverestAPI/Everest/_build/latest?definitionId=3&amp;branchName=stable">latest stable version</a>).<br>Click the &quot;Artifacts&quot; button on the top-right of the page, then &quot;main&quot; to download it.</li>
-                    <li>Extract the <code>.zip</code>&#39;s main folder to where Celeste is installed. <code>Celeste.Mod.mm.dll</code> should be right next to <code>Celeste.exe</code><ul>
-                    <li>macOS: Right-click and browse the Celeste app in Finder, then naviagte to <code>Contents</code>, then <code>MacOS</code>.</li>
-                </ul>
-                </li>
-                    <li>Delete the <code>orig</code> folder if it exists.</li>
-                    <li>Run <code>MiniInstaller.exe</code><ul>
-                    <li>Linux / macOS: <a href="https://www.mono-project.com/download/stable/">Install the mono runtime</a>, open a terminal window where Celeste is and run <code>mono MiniInstaller.exe</code></li>
-                </ul>
-                </li>
+                    <li>Download the latest autobuild (<a href="https://dev.azure.com/EverestAPI/Everest/_build/latest?definitionId=3&amp;branchName=master" id="latest-master-link">latest version</a>, <a href="https://dev.azure.com/EverestAPI/Everest/_build/latest?definitionId=3&amp;branchName=stable" id="latest-stable-link">latest stable version</a>).<div id="artifact-instructions">Click the &quot;1 published&quot; button under &quot;Related&quot;, then &quot;main&quot; to download it.</div></li>
+                    <li>Open the directory where Celeste.exe is located:
+                        <ul>
+                            <li><b>With Steam:</b> right click Celeste in your library, then &quot;Manage&quot; &gt; &quot;Browse local files&quot;.</li>
+                            <li><b>On macOS:</b> follow the step above if you own the game on Steam. Right click the Celeste application, and choose &quot;Show Package Contents&quot;. After that, go into the <code>Contents</code> directory, then <code>MacOS</code>.</li>
+                        </ul>
+                    </li>
+                    <li>Open the <code>main.zip</code> file you downloaded, then copy the <b>contents</b> of the <code>main</code> folder to the directory where Celeste.exe is: <code>Celeste.Mod.mm.dll</code> should be right next to <code>Celeste.exe</code>.</li>
+                    <li>Run <code>MiniInstaller.exe</code>. On Linux / macOS, you will need to run it through mono:
+                    <ul>
+                        <li><a href="https://www.mono-project.com/download/stable/">Install the mono runtime</a>.</li>
+                        <li>Open a terminal window, then navigate to where Celeste is (<code>cd &lt;Celeste installation folder&gt;</code>). On macOS, you can drag the <code>MacOS</code> folder to the terminal window instead of typing the path to the Celeste installation folder.</li>
+                        <li>Run the following command: <code>mono MiniInstaller.exe</code></li>
+                    </ul>
                 </ul>
 
                 <h2 id="installing-mods">Installing mods</h2>
@@ -150,5 +154,6 @@
         </div>
 
         <div id="dummy"></div>
+        <script src="index.js"></script>
     </body>
 </html>
