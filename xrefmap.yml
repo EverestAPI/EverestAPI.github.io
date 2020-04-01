@@ -1162,6 +1162,12 @@ references:
   commentId: T:Celeste.Mod.AssetTypeDirectory
   fullName: Celeste.Mod.AssetTypeDirectory
   nameWithType: AssetTypeDirectory
+- uid: Celeste.Mod.AssetTypeFont
+  name: AssetTypeFont
+  href: api/Celeste.Mod.AssetTypeFont.html
+  commentId: T:Celeste.Mod.AssetTypeFont
+  fullName: Celeste.Mod.AssetTypeFont
+  nameWithType: AssetTypeFont
 - uid: Celeste.Mod.AssetTypeGUIDs
   name: AssetTypeGUIDs
   href: api/Celeste.Mod.AssetTypeGUIDs.html
@@ -1807,6 +1813,30 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.DebugMode
   fullName: Celeste.Mod.Core.CoreModuleSettings.DebugMode
   nameWithType: CoreModuleSettings.DebugMode
+- uid: Celeste.Mod.Core.CoreModuleSettings.DebugModeInEverest
+  name: DebugModeInEverest
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DebugModeInEverest
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.DebugModeInEverest
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DebugModeInEverest
+  nameWithType: CoreModuleSettings.DebugModeInEverest
+- uid: Celeste.Mod.Core.CoreModuleSettings.DebugModeInEverest*
+  name: DebugModeInEverest
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DebugModeInEverest_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.DebugModeInEverest
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DebugModeInEverest
+  nameWithType: CoreModuleSettings.DebugModeInEverest
+- uid: Celeste.Mod.Core.CoreModuleSettings.DebugModeOld
+  name: DebugModeOld
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DebugModeOld
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.DebugModeOld
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DebugModeOld
+  nameWithType: CoreModuleSettings.DebugModeOld
+- uid: Celeste.Mod.Core.CoreModuleSettings.DebugModeOld*
+  name: DebugModeOld
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DebugModeOld_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.DebugModeOld
+  fullName: Celeste.Mod.Core.CoreModuleSettings.DebugModeOld
+  nameWithType: CoreModuleSettings.DebugModeOld
 - uid: Celeste.Mod.Core.CoreModuleSettings.DebugRCPort
   name: DebugRCPort
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DebugRCPort
@@ -1915,6 +1945,18 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdate
   fullName: Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdate
   nameWithType: CoreModuleSettings.LaunchWithFMODLiveUpdate
+- uid: Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdateInEverest
+  name: LaunchWithFMODLiveUpdateInEverest
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_LaunchWithFMODLiveUpdateInEverest
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdateInEverest
+  fullName: Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdateInEverest
+  nameWithType: CoreModuleSettings.LaunchWithFMODLiveUpdateInEverest
+- uid: Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdateInEverest*
+  name: LaunchWithFMODLiveUpdateInEverest
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_LaunchWithFMODLiveUpdateInEverest_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdateInEverest
+  fullName: Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdateInEverest
+  nameWithType: CoreModuleSettings.LaunchWithFMODLiveUpdateInEverest
 - uid: Celeste.Mod.Core.CoreModuleSettings.LaunchWithoutIntro
   name: LaunchWithoutIntro
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_LaunchWithoutIntro
@@ -1999,6 +2041,30 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.QuickRestart
   fullName: Celeste.Mod.Core.CoreModuleSettings.QuickRestart
   nameWithType: CoreModuleSettings.QuickRestart
+- uid: Celeste.Mod.Core.CoreModuleSettings.ShowEverestTitleScreen
+  name: ShowEverestTitleScreen
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_ShowEverestTitleScreen
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.ShowEverestTitleScreen
+  fullName: Celeste.Mod.Core.CoreModuleSettings.ShowEverestTitleScreen
+  nameWithType: CoreModuleSettings.ShowEverestTitleScreen
+- uid: Celeste.Mod.Core.CoreModuleSettings.ShowEverestTitleScreen*
+  name: ShowEverestTitleScreen
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_ShowEverestTitleScreen_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.ShowEverestTitleScreen
+  fullName: Celeste.Mod.Core.CoreModuleSettings.ShowEverestTitleScreen
+  nameWithType: CoreModuleSettings.ShowEverestTitleScreen
+- uid: Celeste.Mod.Core.CoreModuleSettings.ShowManualTextOnDebugMap
+  name: ShowManualTextOnDebugMap
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_ShowManualTextOnDebugMap
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.ShowManualTextOnDebugMap
+  fullName: Celeste.Mod.Core.CoreModuleSettings.ShowManualTextOnDebugMap
+  nameWithType: CoreModuleSettings.ShowManualTextOnDebugMap
+- uid: Celeste.Mod.Core.CoreModuleSettings.ShowManualTextOnDebugMap*
+  name: ShowManualTextOnDebugMap
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_ShowManualTextOnDebugMap_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.ShowManualTextOnDebugMap
+  fullName: Celeste.Mod.Core.CoreModuleSettings.ShowManualTextOnDebugMap
+  nameWithType: CoreModuleSettings.ShowManualTextOnDebugMap
 - uid: Celeste.Mod.Core.CoreModuleSettings.ShowModOptionsInGame
   name: ShowModOptionsInGame
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_ShowModOptionsInGame
@@ -2011,6 +2077,18 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.ShowModOptionsInGame
   fullName: Celeste.Mod.Core.CoreModuleSettings.ShowModOptionsInGame
   nameWithType: CoreModuleSettings.ShowModOptionsInGame
+- uid: Celeste.Mod.Core.CoreModuleSettings.TitleScreenType
+  name: TitleScreenType
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_TitleScreenType
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.TitleScreenType
+  fullName: Celeste.Mod.Core.CoreModuleSettings.TitleScreenType
+  nameWithType: CoreModuleSettings.TitleScreenType
+- uid: Celeste.Mod.Core.CoreModuleSettings.TitleScreenType*
+  name: TitleScreenType
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_TitleScreenType_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.TitleScreenType
+  fullName: Celeste.Mod.Core.CoreModuleSettings.TitleScreenType
+  nameWithType: CoreModuleSettings.TitleScreenType
 - uid: Celeste.Mod.Core.CoreModuleSettings.UnloadUnusedAudio
   name: UnloadUnusedAudio
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_UnloadUnusedAudio
@@ -2035,6 +2113,30 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.UnpackFMODBanks
   fullName: Celeste.Mod.Core.CoreModuleSettings.UnpackFMODBanks
   nameWithType: CoreModuleSettings.UnpackFMODBanks
+- uid: Celeste.Mod.Core.CoreModuleSettings.VanillaTristate
+  name: CoreModuleSettings.VanillaTristate
+  href: api/Celeste.Mod.Core.CoreModuleSettings.VanillaTristate.html
+  commentId: T:Celeste.Mod.Core.CoreModuleSettings.VanillaTristate
+  fullName: Celeste.Mod.Core.CoreModuleSettings.VanillaTristate
+  nameWithType: CoreModuleSettings.VanillaTristate
+- uid: Celeste.Mod.Core.CoreModuleSettings.VanillaTristate.Always
+  name: Always
+  href: api/Celeste.Mod.Core.CoreModuleSettings.VanillaTristate.html#Celeste_Mod_Core_CoreModuleSettings_VanillaTristate_Always
+  commentId: F:Celeste.Mod.Core.CoreModuleSettings.VanillaTristate.Always
+  fullName: Celeste.Mod.Core.CoreModuleSettings.VanillaTristate.Always
+  nameWithType: CoreModuleSettings.VanillaTristate.Always
+- uid: Celeste.Mod.Core.CoreModuleSettings.VanillaTristate.Everest
+  name: Everest
+  href: api/Celeste.Mod.Core.CoreModuleSettings.VanillaTristate.html#Celeste_Mod_Core_CoreModuleSettings_VanillaTristate_Everest
+  commentId: F:Celeste.Mod.Core.CoreModuleSettings.VanillaTristate.Everest
+  fullName: Celeste.Mod.Core.CoreModuleSettings.VanillaTristate.Everest
+  nameWithType: CoreModuleSettings.VanillaTristate.Everest
+- uid: Celeste.Mod.Core.CoreModuleSettings.VanillaTristate.Never
+  name: Never
+  href: api/Celeste.Mod.Core.CoreModuleSettings.VanillaTristate.html#Celeste_Mod_Core_CoreModuleSettings_VanillaTristate_Never
+  commentId: F:Celeste.Mod.Core.CoreModuleSettings.VanillaTristate.Never
+  fullName: Celeste.Mod.Core.CoreModuleSettings.VanillaTristate.Never
+  nameWithType: CoreModuleSettings.VanillaTristate.Never
 - uid: Celeste.Mod.DecalRegistry
   name: DecalRegistry
   href: api/Celeste.Mod.DecalRegistry.html
@@ -3568,18 +3670,6 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Content.ProcessUpdate
   fullName: Celeste.Mod.Everest.Content.ProcessUpdate
   nameWithType: Everest.Content.ProcessUpdate
-- uid: Celeste.Mod.Everest.Content.Recrawl
-  name: Recrawl()
-  href: api/Celeste.Mod.Everest.Content.html#Celeste_Mod_Everest_Content_Recrawl
-  commentId: M:Celeste.Mod.Everest.Content.Recrawl
-  fullName: Celeste.Mod.Everest.Content.Recrawl()
-  nameWithType: Everest.Content.Recrawl()
-- uid: Celeste.Mod.Everest.Content.Recrawl*
-  name: Recrawl
-  href: api/Celeste.Mod.Everest.Content.html#Celeste_Mod_Everest_Content_Recrawl_
-  commentId: Overload:Celeste.Mod.Everest.Content.Recrawl
-  fullName: Celeste.Mod.Everest.Content.Recrawl
-  nameWithType: Everest.Content.Recrawl
 - uid: Celeste.Mod.Everest.Content.TryGet(System.String,Celeste.Mod.ModAsset@,System.Boolean)
   name: TryGet(String, out ModAsset, Boolean)
   href: api/Celeste.Mod.Everest.Content.html#Celeste_Mod_Everest_Content_TryGet_System_String_Celeste_Mod_ModAsset__System_Boolean_
@@ -3652,6 +3742,18 @@ references:
   commentId: Overload:Celeste.Mod.Everest.DebugRC.ParseQueryString
   fullName: Celeste.Mod.Everest.DebugRC.ParseQueryString
   nameWithType: Everest.DebugRC.ParseQueryString
+- uid: Celeste.Mod.Everest.DebugRC.Shutdown
+  name: Shutdown()
+  href: api/Celeste.Mod.Everest.DebugRC.html#Celeste_Mod_Everest_DebugRC_Shutdown
+  commentId: M:Celeste.Mod.Everest.DebugRC.Shutdown
+  fullName: Celeste.Mod.Everest.DebugRC.Shutdown()
+  nameWithType: Everest.DebugRC.Shutdown()
+- uid: Celeste.Mod.Everest.DebugRC.Shutdown*
+  name: Shutdown
+  href: api/Celeste.Mod.Everest.DebugRC.html#Celeste_Mod_Everest_DebugRC_Shutdown_
+  commentId: Overload:Celeste.Mod.Everest.DebugRC.Shutdown
+  fullName: Celeste.Mod.Everest.DebugRC.Shutdown
+  nameWithType: Everest.DebugRC.Shutdown
 - uid: Celeste.Mod.Everest.DebugRC.Write(System.Net.HttpListenerContext,System.String)
   name: Write(HttpListenerContext, String)
   href: api/Celeste.Mod.Everest.DebugRC.html#Celeste_Mod_Everest_DebugRC_Write_System_Net_HttpListenerContext_System_String_
@@ -3826,6 +3928,78 @@ references:
   commentId: E:Celeste.Mod.Everest.Events.Decal.OnHandleDecalRegistry
   fullName: Celeste.Mod.Everest.Events.Decal.OnHandleDecalRegistry
   nameWithType: Everest.Events.Decal.OnHandleDecalRegistry
+- uid: Celeste.Mod.Everest.Events.FileSelectSlot
+  name: Everest.Events.FileSelectSlot
+  href: api/Celeste.Mod.Everest.Events.FileSelectSlot.html
+  commentId: T:Celeste.Mod.Everest.Events.FileSelectSlot
+  fullName: Celeste.Mod.Everest.Events.FileSelectSlot
+  nameWithType: Everest.Events.FileSelectSlot
+- uid: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler
+  name: Everest.Events.FileSelectSlot.CreateButtonsHandler
+  href: api/Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.html
+  commentId: T:Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler
+  fullName: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler
+  nameWithType: Everest.Events.FileSelectSlot.CreateButtonsHandler
+- uid: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.#ctor(System.Object,System.IntPtr)
+  name: CreateButtonsHandler(Object, IntPtr)
+  href: api/Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_FileSelectSlot_CreateButtonsHandler__ctor_System_Object_System_IntPtr_
+  commentId: M:Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.#ctor(System.Object,System.IntPtr)
+  fullName: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.CreateButtonsHandler(System.Object, System.IntPtr)
+  nameWithType: Everest.Events.FileSelectSlot.CreateButtonsHandler.CreateButtonsHandler(Object, IntPtr)
+- uid: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.#ctor*
+  name: CreateButtonsHandler
+  href: api/Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_FileSelectSlot_CreateButtonsHandler__ctor_
+  commentId: Overload:Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.#ctor
+  fullName: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.CreateButtonsHandler
+  nameWithType: Everest.Events.FileSelectSlot.CreateButtonsHandler.CreateButtonsHandler
+- uid: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.BeginInvoke(System.Collections.Generic.List{Celeste.patch_OuiFileSelectSlot.Button},Celeste.OuiFileSelectSlot,Celeste.Mod.EverestModuleSaveData,System.Boolean,System.AsyncCallback,System.Object)
+  name: BeginInvoke(List<patch_OuiFileSelectSlot.Button>, OuiFileSelectSlot, EverestModuleSaveData, Boolean, AsyncCallback, Object)
+  href: api/Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_FileSelectSlot_CreateButtonsHandler_BeginInvoke_System_Collections_Generic_List_Celeste_patch_OuiFileSelectSlot_Button__Celeste_OuiFileSelectSlot_Celeste_Mod_EverestModuleSaveData_System_Boolean_System_AsyncCallback_System_Object_
+  commentId: M:Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.BeginInvoke(System.Collections.Generic.List{Celeste.patch_OuiFileSelectSlot.Button},Celeste.OuiFileSelectSlot,Celeste.Mod.EverestModuleSaveData,System.Boolean,System.AsyncCallback,System.Object)
+  name.vb: BeginInvoke(List(Of patch_OuiFileSelectSlot.Button), OuiFileSelectSlot, EverestModuleSaveData, Boolean, AsyncCallback, Object)
+  fullName: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.BeginInvoke(System.Collections.Generic.List<Celeste.patch_OuiFileSelectSlot.Button>, Celeste.OuiFileSelectSlot, Celeste.Mod.EverestModuleSaveData, System.Boolean, System.AsyncCallback, System.Object)
+  fullName.vb: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.BeginInvoke(System.Collections.Generic.List(Of Celeste.patch_OuiFileSelectSlot.Button), Celeste.OuiFileSelectSlot, Celeste.Mod.EverestModuleSaveData, System.Boolean, System.AsyncCallback, System.Object)
+  nameWithType: Everest.Events.FileSelectSlot.CreateButtonsHandler.BeginInvoke(List<patch_OuiFileSelectSlot.Button>, OuiFileSelectSlot, EverestModuleSaveData, Boolean, AsyncCallback, Object)
+  nameWithType.vb: Everest.Events.FileSelectSlot.CreateButtonsHandler.BeginInvoke(List(Of patch_OuiFileSelectSlot.Button), OuiFileSelectSlot, EverestModuleSaveData, Boolean, AsyncCallback, Object)
+- uid: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.BeginInvoke*
+  name: BeginInvoke
+  href: api/Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_FileSelectSlot_CreateButtonsHandler_BeginInvoke_
+  commentId: Overload:Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.BeginInvoke
+  fullName: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.BeginInvoke
+  nameWithType: Everest.Events.FileSelectSlot.CreateButtonsHandler.BeginInvoke
+- uid: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_FileSelectSlot_CreateButtonsHandler_EndInvoke_System_IAsyncResult_
+  commentId: M:Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.EndInvoke(System.IAsyncResult)
+  fullName: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.EndInvoke(System.IAsyncResult)
+  nameWithType: Everest.Events.FileSelectSlot.CreateButtonsHandler.EndInvoke(IAsyncResult)
+- uid: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.EndInvoke*
+  name: EndInvoke
+  href: api/Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_FileSelectSlot_CreateButtonsHandler_EndInvoke_
+  commentId: Overload:Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.EndInvoke
+  fullName: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.EndInvoke
+  nameWithType: Everest.Events.FileSelectSlot.CreateButtonsHandler.EndInvoke
+- uid: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.Invoke(System.Collections.Generic.List{Celeste.patch_OuiFileSelectSlot.Button},Celeste.OuiFileSelectSlot,Celeste.Mod.EverestModuleSaveData,System.Boolean)
+  name: Invoke(List<patch_OuiFileSelectSlot.Button>, OuiFileSelectSlot, EverestModuleSaveData, Boolean)
+  href: api/Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_FileSelectSlot_CreateButtonsHandler_Invoke_System_Collections_Generic_List_Celeste_patch_OuiFileSelectSlot_Button__Celeste_OuiFileSelectSlot_Celeste_Mod_EverestModuleSaveData_System_Boolean_
+  commentId: M:Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.Invoke(System.Collections.Generic.List{Celeste.patch_OuiFileSelectSlot.Button},Celeste.OuiFileSelectSlot,Celeste.Mod.EverestModuleSaveData,System.Boolean)
+  name.vb: Invoke(List(Of patch_OuiFileSelectSlot.Button), OuiFileSelectSlot, EverestModuleSaveData, Boolean)
+  fullName: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.Invoke(System.Collections.Generic.List<Celeste.patch_OuiFileSelectSlot.Button>, Celeste.OuiFileSelectSlot, Celeste.Mod.EverestModuleSaveData, System.Boolean)
+  fullName.vb: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.Invoke(System.Collections.Generic.List(Of Celeste.patch_OuiFileSelectSlot.Button), Celeste.OuiFileSelectSlot, Celeste.Mod.EverestModuleSaveData, System.Boolean)
+  nameWithType: Everest.Events.FileSelectSlot.CreateButtonsHandler.Invoke(List<patch_OuiFileSelectSlot.Button>, OuiFileSelectSlot, EverestModuleSaveData, Boolean)
+  nameWithType.vb: Everest.Events.FileSelectSlot.CreateButtonsHandler.Invoke(List(Of patch_OuiFileSelectSlot.Button), OuiFileSelectSlot, EverestModuleSaveData, Boolean)
+- uid: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.Invoke*
+  name: Invoke
+  href: api/Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.html#Celeste_Mod_Everest_Events_FileSelectSlot_CreateButtonsHandler_Invoke_
+  commentId: Overload:Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.Invoke
+  fullName: Celeste.Mod.Everest.Events.FileSelectSlot.CreateButtonsHandler.Invoke
+  nameWithType: Everest.Events.FileSelectSlot.CreateButtonsHandler.Invoke
+- uid: Celeste.Mod.Everest.Events.FileSelectSlot.OnCreateButtons
+  name: OnCreateButtons
+  href: api/Celeste.Mod.Everest.Events.FileSelectSlot.html#Celeste_Mod_Everest_Events_FileSelectSlot_OnCreateButtons
+  commentId: E:Celeste.Mod.Everest.Events.FileSelectSlot.OnCreateButtons
+  fullName: Celeste.Mod.Everest.Events.FileSelectSlot.OnCreateButtons
+  nameWithType: Everest.Events.FileSelectSlot.OnCreateButtons
 - uid: Celeste.Mod.Everest.Events.Input
   name: Everest.Events.Input
   href: api/Celeste.Mod.Everest.Events.Input.html
@@ -4987,6 +5161,18 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Loader.LoadZip
   fullName: Celeste.Mod.Everest.Loader.LoadZip
   nameWithType: Everest.Loader.LoadZip
+- uid: Celeste.Mod.Everest.Loader.ModOptionsOrder
+  name: ModOptionsOrder
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_ModOptionsOrder
+  commentId: P:Celeste.Mod.Everest.Loader.ModOptionsOrder
+  fullName: Celeste.Mod.Everest.Loader.ModOptionsOrder
+  nameWithType: Everest.Loader.ModOptionsOrder
+- uid: Celeste.Mod.Everest.Loader.ModOptionsOrder*
+  name: ModOptionsOrder
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_ModOptionsOrder_
+  commentId: Overload:Celeste.Mod.Everest.Loader.ModOptionsOrder
+  fullName: Celeste.Mod.Everest.Loader.ModOptionsOrder
+  nameWithType: Everest.Loader.ModOptionsOrder
 - uid: Celeste.Mod.Everest.Loader.PathBlacklist
   name: PathBlacklist
   href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_PathBlacklist
@@ -5011,6 +5197,18 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Loader.PathCache
   fullName: Celeste.Mod.Everest.Loader.PathCache
   nameWithType: Everest.Loader.PathCache
+- uid: Celeste.Mod.Everest.Loader.PathModOptionsOrder
+  name: PathModOptionsOrder
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_PathModOptionsOrder
+  commentId: P:Celeste.Mod.Everest.Loader.PathModOptionsOrder
+  fullName: Celeste.Mod.Everest.Loader.PathModOptionsOrder
+  nameWithType: Everest.Loader.PathModOptionsOrder
+- uid: Celeste.Mod.Everest.Loader.PathModOptionsOrder*
+  name: PathModOptionsOrder
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_PathModOptionsOrder_
+  commentId: Overload:Celeste.Mod.Everest.Loader.PathModOptionsOrder
+  fullName: Celeste.Mod.Everest.Loader.PathModOptionsOrder
+  nameWithType: Everest.Loader.PathModOptionsOrder
 - uid: Celeste.Mod.Everest.Loader.PathMods
   name: PathMods
   href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_PathMods
@@ -11515,6 +11713,18 @@ references:
   commentId: Overload:Celeste.Mod.Helpers.ModUpdaterHelper.DownloadModUpdateList
   fullName: Celeste.Mod.Helpers.ModUpdaterHelper.DownloadModUpdateList
   nameWithType: ModUpdaterHelper.DownloadModUpdateList
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.FormatModName(System.String)
+  name: FormatModName(String)
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_FormatModName_System_String_
+  commentId: M:Celeste.Mod.Helpers.ModUpdaterHelper.FormatModName(System.String)
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.FormatModName(System.String)
+  nameWithType: ModUpdaterHelper.FormatModName(String)
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.FormatModName*
+  name: FormatModName
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_FormatModName_
+  commentId: Overload:Celeste.Mod.Helpers.ModUpdaterHelper.FormatModName
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.FormatModName
+  nameWithType: ModUpdaterHelper.FormatModName
 - uid: Celeste.Mod.Helpers.ModUpdaterHelper.GetAsyncLoadedModUpdates
   name: GetAsyncLoadedModUpdates()
   href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_GetAsyncLoadedModUpdates
@@ -15355,6 +15565,180 @@ references:
   commentId: Overload:Celeste.Mod.UI.AutoModUpdater.Update
   fullName: Celeste.Mod.UI.AutoModUpdater.Update
   nameWithType: AutoModUpdater.Update
+- uid: Celeste.Mod.UI.OuiFileSelectSlotSubmenu
+  name: OuiFileSelectSlotSubmenu
+  href: api/Celeste.Mod.UI.OuiFileSelectSlotSubmenu.html
+  commentId: T:Celeste.Mod.UI.OuiFileSelectSlotSubmenu
+  fullName: Celeste.Mod.UI.OuiFileSelectSlotSubmenu
+  nameWithType: OuiFileSelectSlotSubmenu
+- uid: Celeste.Mod.UI.OuiFileSelectSlotSubmenu.#ctor
+  name: OuiFileSelectSlotSubmenu()
+  href: api/Celeste.Mod.UI.OuiFileSelectSlotSubmenu.html#Celeste_Mod_UI_OuiFileSelectSlotSubmenu__ctor
+  commentId: M:Celeste.Mod.UI.OuiFileSelectSlotSubmenu.#ctor
+  fullName: Celeste.Mod.UI.OuiFileSelectSlotSubmenu.OuiFileSelectSlotSubmenu()
+  nameWithType: OuiFileSelectSlotSubmenu.OuiFileSelectSlotSubmenu()
+- uid: Celeste.Mod.UI.OuiFileSelectSlotSubmenu.#ctor*
+  name: OuiFileSelectSlotSubmenu
+  href: api/Celeste.Mod.UI.OuiFileSelectSlotSubmenu.html#Celeste_Mod_UI_OuiFileSelectSlotSubmenu__ctor_
+  commentId: Overload:Celeste.Mod.UI.OuiFileSelectSlotSubmenu.#ctor
+  fullName: Celeste.Mod.UI.OuiFileSelectSlotSubmenu.OuiFileSelectSlotSubmenu
+  nameWithType: OuiFileSelectSlotSubmenu.OuiFileSelectSlotSubmenu
+- uid: Celeste.Mod.UI.OuiFileSelectSlotSubmenu.addOptionsToMenu(Celeste.TextMenu)
+  name: addOptionsToMenu(TextMenu)
+  href: api/Celeste.Mod.UI.OuiFileSelectSlotSubmenu.html#Celeste_Mod_UI_OuiFileSelectSlotSubmenu_addOptionsToMenu_Celeste_TextMenu_
+  commentId: M:Celeste.Mod.UI.OuiFileSelectSlotSubmenu.addOptionsToMenu(Celeste.TextMenu)
+  fullName: Celeste.Mod.UI.OuiFileSelectSlotSubmenu.addOptionsToMenu(Celeste.TextMenu)
+  nameWithType: OuiFileSelectSlotSubmenu.addOptionsToMenu(TextMenu)
+- uid: Celeste.Mod.UI.OuiFileSelectSlotSubmenu.addOptionsToMenu(Celeste.TextMenu,Celeste.OuiFileSelectSlot,Celeste.Mod.EverestModuleSaveData,System.Boolean)
+  name: addOptionsToMenu(TextMenu, OuiFileSelectSlot, EverestModuleSaveData, Boolean)
+  href: api/Celeste.Mod.UI.OuiFileSelectSlotSubmenu.html#Celeste_Mod_UI_OuiFileSelectSlotSubmenu_addOptionsToMenu_Celeste_TextMenu_Celeste_OuiFileSelectSlot_Celeste_Mod_EverestModuleSaveData_System_Boolean_
+  commentId: M:Celeste.Mod.UI.OuiFileSelectSlotSubmenu.addOptionsToMenu(Celeste.TextMenu,Celeste.OuiFileSelectSlot,Celeste.Mod.EverestModuleSaveData,System.Boolean)
+  fullName: Celeste.Mod.UI.OuiFileSelectSlotSubmenu.addOptionsToMenu(Celeste.TextMenu, Celeste.OuiFileSelectSlot, Celeste.Mod.EverestModuleSaveData, System.Boolean)
+  nameWithType: OuiFileSelectSlotSubmenu.addOptionsToMenu(TextMenu, OuiFileSelectSlot, EverestModuleSaveData, Boolean)
+- uid: Celeste.Mod.UI.OuiFileSelectSlotSubmenu.addOptionsToMenu*
+  name: addOptionsToMenu
+  href: api/Celeste.Mod.UI.OuiFileSelectSlotSubmenu.html#Celeste_Mod_UI_OuiFileSelectSlotSubmenu_addOptionsToMenu_
+  commentId: Overload:Celeste.Mod.UI.OuiFileSelectSlotSubmenu.addOptionsToMenu
+  fullName: Celeste.Mod.UI.OuiFileSelectSlotSubmenu.addOptionsToMenu
+  nameWithType: OuiFileSelectSlotSubmenu.addOptionsToMenu
+- uid: Celeste.Mod.UI.OuiFileSelectSlotSubmenu.Goto*
+  name: Goto
+  href: api/Celeste.Mod.UI.OuiFileSelectSlotSubmenu.html#Celeste_Mod_UI_OuiFileSelectSlotSubmenu_Goto_
+  commentId: Overload:Celeste.Mod.UI.OuiFileSelectSlotSubmenu.Goto
+  fullName: Celeste.Mod.UI.OuiFileSelectSlotSubmenu.Goto
+  nameWithType: OuiFileSelectSlotSubmenu.Goto
+- uid: Celeste.Mod.UI.OuiFileSelectSlotSubmenu.Goto``1(Celeste.OuiFileSelectSlot,Celeste.Mod.EverestModuleSaveData,System.Boolean)
+  name: Goto<T>(OuiFileSelectSlot, EverestModuleSaveData, Boolean)
+  href: api/Celeste.Mod.UI.OuiFileSelectSlotSubmenu.html#Celeste_Mod_UI_OuiFileSelectSlotSubmenu_Goto__1_Celeste_OuiFileSelectSlot_Celeste_Mod_EverestModuleSaveData_System_Boolean_
+  commentId: M:Celeste.Mod.UI.OuiFileSelectSlotSubmenu.Goto``1(Celeste.OuiFileSelectSlot,Celeste.Mod.EverestModuleSaveData,System.Boolean)
+  name.vb: Goto(Of T)(OuiFileSelectSlot, EverestModuleSaveData, Boolean)
+  fullName: Celeste.Mod.UI.OuiFileSelectSlotSubmenu.Goto<T>(Celeste.OuiFileSelectSlot, Celeste.Mod.EverestModuleSaveData, System.Boolean)
+  fullName.vb: Celeste.Mod.UI.OuiFileSelectSlotSubmenu.Goto(Of T)(Celeste.OuiFileSelectSlot, Celeste.Mod.EverestModuleSaveData, System.Boolean)
+  nameWithType: OuiFileSelectSlotSubmenu.Goto<T>(OuiFileSelectSlot, EverestModuleSaveData, Boolean)
+  nameWithType.vb: OuiFileSelectSlotSubmenu.Goto(Of T)(OuiFileSelectSlot, EverestModuleSaveData, Boolean)
+- uid: Celeste.Mod.UI.OuiGenericMenu
+  name: OuiGenericMenu
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html
+  commentId: T:Celeste.Mod.UI.OuiGenericMenu
+  fullName: Celeste.Mod.UI.OuiGenericMenu
+  nameWithType: OuiGenericMenu
+- uid: Celeste.Mod.UI.OuiGenericMenu.#ctor
+  name: OuiGenericMenu()
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu__ctor
+  commentId: M:Celeste.Mod.UI.OuiGenericMenu.#ctor
+  fullName: Celeste.Mod.UI.OuiGenericMenu.OuiGenericMenu()
+  nameWithType: OuiGenericMenu.OuiGenericMenu()
+- uid: Celeste.Mod.UI.OuiGenericMenu.#ctor*
+  name: OuiGenericMenu
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu__ctor_
+  commentId: Overload:Celeste.Mod.UI.OuiGenericMenu.#ctor
+  fullName: Celeste.Mod.UI.OuiGenericMenu.OuiGenericMenu
+  nameWithType: OuiGenericMenu.OuiGenericMenu
+- uid: Celeste.Mod.UI.OuiGenericMenu.addOptionsToMenu(Celeste.TextMenu)
+  name: addOptionsToMenu(TextMenu)
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_addOptionsToMenu_Celeste_TextMenu_
+  commentId: M:Celeste.Mod.UI.OuiGenericMenu.addOptionsToMenu(Celeste.TextMenu)
+  fullName: Celeste.Mod.UI.OuiGenericMenu.addOptionsToMenu(Celeste.TextMenu)
+  nameWithType: OuiGenericMenu.addOptionsToMenu(TextMenu)
+- uid: Celeste.Mod.UI.OuiGenericMenu.addOptionsToMenu*
+  name: addOptionsToMenu
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_addOptionsToMenu_
+  commentId: Overload:Celeste.Mod.UI.OuiGenericMenu.addOptionsToMenu
+  fullName: Celeste.Mod.UI.OuiGenericMenu.addOptionsToMenu
+  nameWithType: OuiGenericMenu.addOptionsToMenu
+- uid: Celeste.Mod.UI.OuiGenericMenu.backToParentMenu
+  name: backToParentMenu
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_backToParentMenu
+  commentId: F:Celeste.Mod.UI.OuiGenericMenu.backToParentMenu
+  fullName: Celeste.Mod.UI.OuiGenericMenu.backToParentMenu
+  nameWithType: OuiGenericMenu.backToParentMenu
+- uid: Celeste.Mod.UI.OuiGenericMenu.Enter(Celeste.Oui)
+  name: Enter(Oui)
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_Enter_Celeste_Oui_
+  commentId: M:Celeste.Mod.UI.OuiGenericMenu.Enter(Celeste.Oui)
+  fullName: Celeste.Mod.UI.OuiGenericMenu.Enter(Celeste.Oui)
+  nameWithType: OuiGenericMenu.Enter(Oui)
+- uid: Celeste.Mod.UI.OuiGenericMenu.Enter*
+  name: Enter
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_Enter_
+  commentId: Overload:Celeste.Mod.UI.OuiGenericMenu.Enter
+  fullName: Celeste.Mod.UI.OuiGenericMenu.Enter
+  nameWithType: OuiGenericMenu.Enter
+- uid: Celeste.Mod.UI.OuiGenericMenu.Goto*
+  name: Goto
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_Goto_
+  commentId: Overload:Celeste.Mod.UI.OuiGenericMenu.Goto
+  fullName: Celeste.Mod.UI.OuiGenericMenu.Goto
+  nameWithType: OuiGenericMenu.Goto
+- uid: Celeste.Mod.UI.OuiGenericMenu.Goto``1(System.Action{Celeste.Overworld},System.Object[])
+  name: Goto<T>(Action<Overworld>, Object[])
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_Goto__1_System_Action_Celeste_Overworld__System_Object___
+  commentId: M:Celeste.Mod.UI.OuiGenericMenu.Goto``1(System.Action{Celeste.Overworld},System.Object[])
+  name.vb: Goto(Of T)(Action(Of Overworld), Object())
+  fullName: Celeste.Mod.UI.OuiGenericMenu.Goto<T>(System.Action<Celeste.Overworld>, System.Object[])
+  fullName.vb: Celeste.Mod.UI.OuiGenericMenu.Goto(Of T)(System.Action(Of Celeste.Overworld), System.Object())
+  nameWithType: OuiGenericMenu.Goto<T>(Action<Overworld>, Object[])
+  nameWithType.vb: OuiGenericMenu.Goto(Of T)(Action(Of Overworld), Object())
+- uid: Celeste.Mod.UI.OuiGenericMenu.Leave(Celeste.Oui)
+  name: Leave(Oui)
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_Leave_Celeste_Oui_
+  commentId: M:Celeste.Mod.UI.OuiGenericMenu.Leave(Celeste.Oui)
+  fullName: Celeste.Mod.UI.OuiGenericMenu.Leave(Celeste.Oui)
+  nameWithType: OuiGenericMenu.Leave(Oui)
+- uid: Celeste.Mod.UI.OuiGenericMenu.Leave*
+  name: Leave
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_Leave_
+  commentId: Overload:Celeste.Mod.UI.OuiGenericMenu.Leave
+  fullName: Celeste.Mod.UI.OuiGenericMenu.Leave
+  nameWithType: OuiGenericMenu.Leave
+- uid: Celeste.Mod.UI.OuiGenericMenu.menu
+  name: menu
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_menu
+  commentId: F:Celeste.Mod.UI.OuiGenericMenu.menu
+  fullName: Celeste.Mod.UI.OuiGenericMenu.menu
+  nameWithType: OuiGenericMenu.menu
+- uid: Celeste.Mod.UI.OuiGenericMenu.MenuName
+  name: MenuName
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_MenuName
+  commentId: P:Celeste.Mod.UI.OuiGenericMenu.MenuName
+  fullName: Celeste.Mod.UI.OuiGenericMenu.MenuName
+  nameWithType: OuiGenericMenu.MenuName
+- uid: Celeste.Mod.UI.OuiGenericMenu.MenuName*
+  name: MenuName
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_MenuName_
+  commentId: Overload:Celeste.Mod.UI.OuiGenericMenu.MenuName
+  fullName: Celeste.Mod.UI.OuiGenericMenu.MenuName
+  nameWithType: OuiGenericMenu.MenuName
+- uid: Celeste.Mod.UI.OuiGenericMenu.parameters
+  name: parameters
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_parameters
+  commentId: F:Celeste.Mod.UI.OuiGenericMenu.parameters
+  fullName: Celeste.Mod.UI.OuiGenericMenu.parameters
+  nameWithType: OuiGenericMenu.parameters
+- uid: Celeste.Mod.UI.OuiGenericMenu.Render
+  name: Render()
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_Render
+  commentId: M:Celeste.Mod.UI.OuiGenericMenu.Render
+  fullName: Celeste.Mod.UI.OuiGenericMenu.Render()
+  nameWithType: OuiGenericMenu.Render()
+- uid: Celeste.Mod.UI.OuiGenericMenu.Render*
+  name: Render
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_Render_
+  commentId: Overload:Celeste.Mod.UI.OuiGenericMenu.Render
+  fullName: Celeste.Mod.UI.OuiGenericMenu.Render
+  nameWithType: OuiGenericMenu.Render
+- uid: Celeste.Mod.UI.OuiGenericMenu.Update
+  name: Update()
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_Update
+  commentId: M:Celeste.Mod.UI.OuiGenericMenu.Update
+  fullName: Celeste.Mod.UI.OuiGenericMenu.Update()
+  nameWithType: OuiGenericMenu.Update()
+- uid: Celeste.Mod.UI.OuiGenericMenu.Update*
+  name: Update
+  href: api/Celeste.Mod.UI.OuiGenericMenu.html#Celeste_Mod_UI_OuiGenericMenu_Update_
+  commentId: Overload:Celeste.Mod.UI.OuiGenericMenu.Update
+  fullName: Celeste.Mod.UI.OuiGenericMenu.Update
+  nameWithType: OuiGenericMenu.Update
 - uid: Celeste.Mod.UI.OuiHelper_ChapterSelect_LevelSet
   name: OuiHelper_ChapterSelect_LevelSet
   href: api/Celeste.Mod.UI.OuiHelper_ChapterSelect_LevelSet.html
@@ -15739,6 +16123,18 @@ references:
   commentId: Overload:Celeste.Mod.UI.OuiMapList.Leave
   fullName: Celeste.Mod.UI.OuiMapList.Leave
   nameWithType: OuiMapList.Leave
+- uid: Celeste.Mod.UI.OuiMapList.OnTextInput(System.Char)
+  name: OnTextInput(Char)
+  href: api/Celeste.Mod.UI.OuiMapList.html#Celeste_Mod_UI_OuiMapList_OnTextInput_System_Char_
+  commentId: M:Celeste.Mod.UI.OuiMapList.OnTextInput(System.Char)
+  fullName: Celeste.Mod.UI.OuiMapList.OnTextInput(System.Char)
+  nameWithType: OuiMapList.OnTextInput(Char)
+- uid: Celeste.Mod.UI.OuiMapList.OnTextInput*
+  name: OnTextInput
+  href: api/Celeste.Mod.UI.OuiMapList.html#Celeste_Mod_UI_OuiMapList_OnTextInput_
+  commentId: Overload:Celeste.Mod.UI.OuiMapList.OnTextInput
+  fullName: Celeste.Mod.UI.OuiMapList.OnTextInput
+  nameWithType: OuiMapList.OnTextInput
 - uid: Celeste.Mod.UI.OuiMapList.OuiIcons
   name: OuiIcons
   href: api/Celeste.Mod.UI.OuiMapList.html#Celeste_Mod_UI_OuiMapList_OuiIcons
@@ -15757,6 +16153,12 @@ references:
   commentId: Overload:Celeste.Mod.UI.OuiMapList.Render
   fullName: Celeste.Mod.UI.OuiMapList.Render
   nameWithType: OuiMapList.Render
+- uid: Celeste.Mod.UI.OuiMapList.Searching
+  name: Searching
+  href: api/Celeste.Mod.UI.OuiMapList.html#Celeste_Mod_UI_OuiMapList_Searching
+  commentId: F:Celeste.Mod.UI.OuiMapList.Searching
+  fullName: Celeste.Mod.UI.OuiMapList.Searching
+  nameWithType: OuiMapList.Searching
 - uid: Celeste.Mod.UI.OuiMapList.Start(Celeste.AreaData,Celeste.AreaMode,System.String)
   name: Start(AreaData, AreaMode, String)
   href: api/Celeste.Mod.UI.OuiMapList.html#Celeste_Mod_UI_OuiMapList_Start_Celeste_AreaData_Celeste_AreaMode_System_String_
@@ -16627,6 +17029,78 @@ references:
   commentId: Overload:Celeste.OuiMainMenuExt.GetButtons
   fullName: Celeste.OuiMainMenuExt.GetButtons
   nameWithType: OuiMainMenuExt.GetButtons
+- uid: Celeste.patch_ClutterBlockGenerator
+  name: patch_ClutterBlockGenerator
+  href: api/Celeste.patch_ClutterBlockGenerator.html
+  commentId: T:Celeste.patch_ClutterBlockGenerator
+  fullName: Celeste.patch_ClutterBlockGenerator
+  nameWithType: patch_ClutterBlockGenerator
+- uid: Celeste.patch_ClutterBlockGenerator.Init(Celeste.Level)
+  name: Init(Level)
+  href: api/Celeste.patch_ClutterBlockGenerator.html#Celeste_patch_ClutterBlockGenerator_Init_Celeste_Level_
+  commentId: M:Celeste.patch_ClutterBlockGenerator.Init(Celeste.Level)
+  fullName: Celeste.patch_ClutterBlockGenerator.Init(Celeste.Level)
+  nameWithType: patch_ClutterBlockGenerator.Init(Level)
+- uid: Celeste.patch_ClutterBlockGenerator.Init*
+  name: Init
+  href: api/Celeste.patch_ClutterBlockGenerator.html#Celeste_patch_ClutterBlockGenerator_Init_
+  commentId: Overload:Celeste.patch_ClutterBlockGenerator.Init
+  fullName: Celeste.patch_ClutterBlockGenerator.Init
+  nameWithType: patch_ClutterBlockGenerator.Init
+- uid: Celeste.patch_ClutterBlockGenerator.orig_Init(Celeste.Level)
+  name: orig_Init(Level)
+  href: api/Celeste.patch_ClutterBlockGenerator.html#Celeste_patch_ClutterBlockGenerator_orig_Init_Celeste_Level_
+  commentId: M:Celeste.patch_ClutterBlockGenerator.orig_Init(Celeste.Level)
+  fullName: Celeste.patch_ClutterBlockGenerator.orig_Init(Celeste.Level)
+  nameWithType: patch_ClutterBlockGenerator.orig_Init(Level)
+- uid: Celeste.patch_ClutterBlockGenerator.orig_Init*
+  name: orig_Init
+  href: api/Celeste.patch_ClutterBlockGenerator.html#Celeste_patch_ClutterBlockGenerator_orig_Init_
+  commentId: Overload:Celeste.patch_ClutterBlockGenerator.orig_Init
+  fullName: Celeste.patch_ClutterBlockGenerator.orig_Init
+  nameWithType: patch_ClutterBlockGenerator.orig_Init
+- uid: Celeste.patch_KeyboardConfigUI
+  name: patch_KeyboardConfigUI
+  href: api/Celeste.patch_KeyboardConfigUI.html
+  commentId: T:Celeste.patch_KeyboardConfigUI
+  fullName: Celeste.patch_KeyboardConfigUI
+  nameWithType: patch_KeyboardConfigUI
+- uid: Celeste.patch_KeyboardConfigUI.#ctor
+  name: patch_KeyboardConfigUI()
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI__ctor
+  commentId: M:Celeste.patch_KeyboardConfigUI.#ctor
+  fullName: Celeste.patch_KeyboardConfigUI.patch_KeyboardConfigUI()
+  nameWithType: patch_KeyboardConfigUI.patch_KeyboardConfigUI()
+- uid: Celeste.patch_KeyboardConfigUI.#ctor*
+  name: patch_KeyboardConfigUI
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI__ctor_
+  commentId: Overload:Celeste.patch_KeyboardConfigUI.#ctor
+  fullName: Celeste.patch_KeyboardConfigUI.patch_KeyboardConfigUI
+  nameWithType: patch_KeyboardConfigUI.patch_KeyboardConfigUI
+- uid: Celeste.patch_KeyboardConfigUI.Reload(System.Int32)
+  name: Reload(Int32)
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_Reload_System_Int32_
+  commentId: M:Celeste.patch_KeyboardConfigUI.Reload(System.Int32)
+  fullName: Celeste.patch_KeyboardConfigUI.Reload(System.Int32)
+  nameWithType: patch_KeyboardConfigUI.Reload(Int32)
+- uid: Celeste.patch_KeyboardConfigUI.Reload*
+  name: Reload
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_Reload_
+  commentId: Overload:Celeste.patch_KeyboardConfigUI.Reload
+  fullName: Celeste.patch_KeyboardConfigUI.Reload
+  nameWithType: patch_KeyboardConfigUI.Reload
+- uid: Celeste.patch_KeyboardConfigUI.Render
+  name: Render()
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_Render
+  commentId: M:Celeste.patch_KeyboardConfigUI.Render
+  fullName: Celeste.patch_KeyboardConfigUI.Render()
+  nameWithType: patch_KeyboardConfigUI.Render()
+- uid: Celeste.patch_KeyboardConfigUI.Render*
+  name: Render
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_Render_
+  commentId: Overload:Celeste.patch_KeyboardConfigUI.Render
+  fullName: Celeste.patch_KeyboardConfigUI.Render
+  nameWithType: patch_KeyboardConfigUI.Render
 - uid: Celeste.patch_LevelData
   name: patch_LevelData
   href: api/Celeste.patch_LevelData.html
@@ -16711,6 +17185,210 @@ references:
   commentId: F:Celeste.patch_ModeProperties.MapMeta
   fullName: Celeste.patch_ModeProperties.MapMeta
   nameWithType: patch_ModeProperties.MapMeta
+- uid: Celeste.patch_OuiFileSelectSlot
+  name: patch_OuiFileSelectSlot
+  href: api/Celeste.patch_OuiFileSelectSlot.html
+  commentId: T:Celeste.patch_OuiFileSelectSlot
+  fullName: Celeste.patch_OuiFileSelectSlot
+  nameWithType: patch_OuiFileSelectSlot
+- uid: Celeste.patch_OuiFileSelectSlot.#ctor(System.Int32,Celeste.OuiFileSelect,Celeste.SaveData)
+  name: patch_OuiFileSelectSlot(Int32, OuiFileSelect, SaveData)
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot__ctor_System_Int32_Celeste_OuiFileSelect_Celeste_SaveData_
+  commentId: M:Celeste.patch_OuiFileSelectSlot.#ctor(System.Int32,Celeste.OuiFileSelect,Celeste.SaveData)
+  fullName: Celeste.patch_OuiFileSelectSlot.patch_OuiFileSelectSlot(System.Int32, Celeste.OuiFileSelect, Celeste.SaveData)
+  nameWithType: patch_OuiFileSelectSlot.patch_OuiFileSelectSlot(Int32, OuiFileSelect, SaveData)
+- uid: Celeste.patch_OuiFileSelectSlot.#ctor*
+  name: patch_OuiFileSelectSlot
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot__ctor_
+  commentId: Overload:Celeste.patch_OuiFileSelectSlot.#ctor
+  fullName: Celeste.patch_OuiFileSelectSlot.patch_OuiFileSelectSlot
+  nameWithType: patch_OuiFileSelectSlot.patch_OuiFileSelectSlot
+- uid: Celeste.patch_OuiFileSelectSlot.Button
+  name: patch_OuiFileSelectSlot.Button
+  href: api/Celeste.patch_OuiFileSelectSlot.Button.html
+  commentId: T:Celeste.patch_OuiFileSelectSlot.Button
+  fullName: Celeste.patch_OuiFileSelectSlot.Button
+  nameWithType: patch_OuiFileSelectSlot.Button
+- uid: Celeste.patch_OuiFileSelectSlot.Button.#ctor
+  name: Button()
+  href: api/Celeste.patch_OuiFileSelectSlot.Button.html#Celeste_patch_OuiFileSelectSlot_Button__ctor
+  commentId: M:Celeste.patch_OuiFileSelectSlot.Button.#ctor
+  fullName: Celeste.patch_OuiFileSelectSlot.Button.Button()
+  nameWithType: patch_OuiFileSelectSlot.Button.Button()
+- uid: Celeste.patch_OuiFileSelectSlot.Button.#ctor*
+  name: Button
+  href: api/Celeste.patch_OuiFileSelectSlot.Button.html#Celeste_patch_OuiFileSelectSlot_Button__ctor_
+  commentId: Overload:Celeste.patch_OuiFileSelectSlot.Button.#ctor
+  fullName: Celeste.patch_OuiFileSelectSlot.Button.Button
+  nameWithType: patch_OuiFileSelectSlot.Button.Button
+- uid: Celeste.patch_OuiFileSelectSlot.Button.Action
+  name: Action
+  href: api/Celeste.patch_OuiFileSelectSlot.Button.html#Celeste_patch_OuiFileSelectSlot_Button_Action
+  commentId: F:Celeste.patch_OuiFileSelectSlot.Button.Action
+  fullName: Celeste.patch_OuiFileSelectSlot.Button.Action
+  nameWithType: patch_OuiFileSelectSlot.Button.Action
+- uid: Celeste.patch_OuiFileSelectSlot.Button.Label
+  name: Label
+  href: api/Celeste.patch_OuiFileSelectSlot.Button.html#Celeste_patch_OuiFileSelectSlot_Button_Label
+  commentId: F:Celeste.patch_OuiFileSelectSlot.Button.Label
+  fullName: Celeste.patch_OuiFileSelectSlot.Button.Label
+  nameWithType: patch_OuiFileSelectSlot.Button.Label
+- uid: Celeste.patch_OuiFileSelectSlot.Button.Scale
+  name: Scale
+  href: api/Celeste.patch_OuiFileSelectSlot.Button.html#Celeste_patch_OuiFileSelectSlot_Button_Scale
+  commentId: F:Celeste.patch_OuiFileSelectSlot.Button.Scale
+  fullName: Celeste.patch_OuiFileSelectSlot.Button.Scale
+  nameWithType: patch_OuiFileSelectSlot.Button.Scale
+- uid: Celeste.patch_OuiFileSelectSlot.CreateButtons
+  name: CreateButtons()
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_CreateButtons
+  commentId: M:Celeste.patch_OuiFileSelectSlot.CreateButtons
+  fullName: Celeste.patch_OuiFileSelectSlot.CreateButtons()
+  nameWithType: patch_OuiFileSelectSlot.CreateButtons()
+- uid: Celeste.patch_OuiFileSelectSlot.CreateButtons*
+  name: CreateButtons
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_CreateButtons_
+  commentId: Overload:Celeste.patch_OuiFileSelectSlot.CreateButtons
+  fullName: Celeste.patch_OuiFileSelectSlot.CreateButtons
+  nameWithType: patch_OuiFileSelectSlot.CreateButtons
+- uid: Celeste.patch_OuiFileSelectSlot.ctor(System.Int32,Celeste.OuiFileSelect,Celeste.SaveData)
+  name: ctor(Int32, OuiFileSelect, SaveData)
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_ctor_System_Int32_Celeste_OuiFileSelect_Celeste_SaveData_
+  commentId: M:Celeste.patch_OuiFileSelectSlot.ctor(System.Int32,Celeste.OuiFileSelect,Celeste.SaveData)
+  fullName: Celeste.patch_OuiFileSelectSlot.ctor(System.Int32, Celeste.OuiFileSelect, Celeste.SaveData)
+  nameWithType: patch_OuiFileSelectSlot.ctor(Int32, OuiFileSelect, SaveData)
+- uid: Celeste.patch_OuiFileSelectSlot.ctor*
+  name: ctor
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_ctor_
+  commentId: Overload:Celeste.patch_OuiFileSelectSlot.ctor
+  fullName: Celeste.patch_OuiFileSelectSlot.ctor
+  nameWithType: patch_OuiFileSelectSlot.ctor
+- uid: Celeste.patch_OuiFileSelectSlot.ISubmenu
+  name: patch_OuiFileSelectSlot.ISubmenu
+  href: api/Celeste.patch_OuiFileSelectSlot.ISubmenu.html
+  commentId: T:Celeste.patch_OuiFileSelectSlot.ISubmenu
+  fullName: Celeste.patch_OuiFileSelectSlot.ISubmenu
+  nameWithType: patch_OuiFileSelectSlot.ISubmenu
+- uid: Celeste.patch_OuiFileSelectSlot.OnNewGameSelected
+  name: OnNewGameSelected()
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_OnNewGameSelected
+  commentId: M:Celeste.patch_OuiFileSelectSlot.OnNewGameSelected
+  fullName: Celeste.patch_OuiFileSelectSlot.OnNewGameSelected()
+  nameWithType: patch_OuiFileSelectSlot.OnNewGameSelected()
+- uid: Celeste.patch_OuiFileSelectSlot.OnNewGameSelected*
+  name: OnNewGameSelected
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_OnNewGameSelected_
+  commentId: Overload:Celeste.patch_OuiFileSelectSlot.OnNewGameSelected
+  fullName: Celeste.patch_OuiFileSelectSlot.OnNewGameSelected
+  nameWithType: patch_OuiFileSelectSlot.OnNewGameSelected
+- uid: Celeste.patch_OuiFileSelectSlot.orig_CreateButtons
+  name: orig_CreateButtons()
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_orig_CreateButtons
+  commentId: M:Celeste.patch_OuiFileSelectSlot.orig_CreateButtons
+  fullName: Celeste.patch_OuiFileSelectSlot.orig_CreateButtons()
+  nameWithType: patch_OuiFileSelectSlot.orig_CreateButtons()
+- uid: Celeste.patch_OuiFileSelectSlot.orig_CreateButtons*
+  name: orig_CreateButtons
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_orig_CreateButtons_
+  commentId: Overload:Celeste.patch_OuiFileSelectSlot.orig_CreateButtons
+  fullName: Celeste.patch_OuiFileSelectSlot.orig_CreateButtons
+  nameWithType: patch_OuiFileSelectSlot.orig_CreateButtons
+- uid: Celeste.patch_OuiFileSelectSlot.orig_OnNewGameSelected
+  name: orig_OnNewGameSelected()
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_orig_OnNewGameSelected
+  commentId: M:Celeste.patch_OuiFileSelectSlot.orig_OnNewGameSelected
+  fullName: Celeste.patch_OuiFileSelectSlot.orig_OnNewGameSelected()
+  nameWithType: patch_OuiFileSelectSlot.orig_OnNewGameSelected()
+- uid: Celeste.patch_OuiFileSelectSlot.orig_OnNewGameSelected*
+  name: orig_OnNewGameSelected
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_orig_OnNewGameSelected_
+  commentId: Overload:Celeste.patch_OuiFileSelectSlot.orig_OnNewGameSelected
+  fullName: Celeste.patch_OuiFileSelectSlot.orig_OnNewGameSelected
+  nameWithType: patch_OuiFileSelectSlot.orig_OnNewGameSelected
+- uid: Celeste.patch_OuiFileSelectSlot.orig_Render
+  name: orig_Render()
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_orig_Render
+  commentId: M:Celeste.patch_OuiFileSelectSlot.orig_Render
+  fullName: Celeste.patch_OuiFileSelectSlot.orig_Render()
+  nameWithType: patch_OuiFileSelectSlot.orig_Render()
+- uid: Celeste.patch_OuiFileSelectSlot.orig_Render*
+  name: orig_Render
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_orig_Render_
+  commentId: Overload:Celeste.patch_OuiFileSelectSlot.orig_Render
+  fullName: Celeste.patch_OuiFileSelectSlot.orig_Render
+  nameWithType: patch_OuiFileSelectSlot.orig_Render
+- uid: Celeste.patch_OuiFileSelectSlot.orig_Show
+  name: orig_Show()
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_orig_Show
+  commentId: M:Celeste.patch_OuiFileSelectSlot.orig_Show
+  fullName: Celeste.patch_OuiFileSelectSlot.orig_Show()
+  nameWithType: patch_OuiFileSelectSlot.orig_Show()
+- uid: Celeste.patch_OuiFileSelectSlot.orig_Show*
+  name: orig_Show
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_orig_Show_
+  commentId: Overload:Celeste.patch_OuiFileSelectSlot.orig_Show
+  fullName: Celeste.patch_OuiFileSelectSlot.orig_Show
+  nameWithType: patch_OuiFileSelectSlot.orig_Show
+- uid: Celeste.patch_OuiFileSelectSlot.orig_Update
+  name: orig_Update()
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_orig_Update
+  commentId: M:Celeste.patch_OuiFileSelectSlot.orig_Update
+  fullName: Celeste.patch_OuiFileSelectSlot.orig_Update()
+  nameWithType: patch_OuiFileSelectSlot.orig_Update()
+- uid: Celeste.patch_OuiFileSelectSlot.orig_Update*
+  name: orig_Update
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_orig_Update_
+  commentId: Overload:Celeste.patch_OuiFileSelectSlot.orig_Update
+  fullName: Celeste.patch_OuiFileSelectSlot.orig_Update
+  nameWithType: patch_OuiFileSelectSlot.orig_Update
+- uid: Celeste.patch_OuiFileSelectSlot.Render
+  name: Render()
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_Render
+  commentId: M:Celeste.patch_OuiFileSelectSlot.Render
+  fullName: Celeste.patch_OuiFileSelectSlot.Render()
+  nameWithType: patch_OuiFileSelectSlot.Render()
+- uid: Celeste.patch_OuiFileSelectSlot.Render*
+  name: Render
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_Render_
+  commentId: Overload:Celeste.patch_OuiFileSelectSlot.Render
+  fullName: Celeste.patch_OuiFileSelectSlot.Render
+  nameWithType: patch_OuiFileSelectSlot.Render
+- uid: Celeste.patch_OuiFileSelectSlot.Show
+  name: Show()
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_Show
+  commentId: M:Celeste.patch_OuiFileSelectSlot.Show
+  fullName: Celeste.patch_OuiFileSelectSlot.Show()
+  nameWithType: patch_OuiFileSelectSlot.Show()
+- uid: Celeste.patch_OuiFileSelectSlot.Show*
+  name: Show
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_Show_
+  commentId: Overload:Celeste.patch_OuiFileSelectSlot.Show
+  fullName: Celeste.patch_OuiFileSelectSlot.Show
+  nameWithType: patch_OuiFileSelectSlot.Show
+- uid: Celeste.patch_OuiFileSelectSlot.Update
+  name: Update()
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_Update
+  commentId: M:Celeste.patch_OuiFileSelectSlot.Update
+  fullName: Celeste.patch_OuiFileSelectSlot.Update()
+  nameWithType: patch_OuiFileSelectSlot.Update()
+- uid: Celeste.patch_OuiFileSelectSlot.Update*
+  name: Update
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_Update_
+  commentId: Overload:Celeste.patch_OuiFileSelectSlot.Update
+  fullName: Celeste.patch_OuiFileSelectSlot.Update
+  nameWithType: patch_OuiFileSelectSlot.Update
+- uid: Celeste.patch_OuiFileSelectSlot.WiggleMenu
+  name: WiggleMenu()
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_WiggleMenu
+  commentId: M:Celeste.patch_OuiFileSelectSlot.WiggleMenu
+  fullName: Celeste.patch_OuiFileSelectSlot.WiggleMenu()
+  nameWithType: patch_OuiFileSelectSlot.WiggleMenu()
+- uid: Celeste.patch_OuiFileSelectSlot.WiggleMenu*
+  name: WiggleMenu
+  href: api/Celeste.patch_OuiFileSelectSlot.html#Celeste_patch_OuiFileSelectSlot_WiggleMenu_
+  commentId: Overload:Celeste.patch_OuiFileSelectSlot.WiggleMenu
+  fullName: Celeste.patch_OuiFileSelectSlot.WiggleMenu
+  nameWithType: patch_OuiFileSelectSlot.WiggleMenu
 - uid: Celeste.patch_Session
   name: patch_Session
   href: api/Celeste.patch_Session.html
@@ -17749,6 +18427,36 @@ references:
   commentId: Overload:Monocle.MTextureExt.UndoOverride
   fullName: Monocle.MTextureExt.UndoOverride
   nameWithType: MTextureExt.UndoOverride
+- uid: Monocle.patch_PixelFont
+  name: patch_PixelFont
+  href: api/Monocle.patch_PixelFont.html
+  commentId: T:Monocle.patch_PixelFont
+  fullName: Monocle.patch_PixelFont
+  nameWithType: patch_PixelFont
+- uid: Monocle.patch_PixelFont.#ctor(System.String)
+  name: patch_PixelFont(String)
+  href: api/Monocle.patch_PixelFont.html#Monocle_patch_PixelFont__ctor_System_String_
+  commentId: M:Monocle.patch_PixelFont.#ctor(System.String)
+  fullName: Monocle.patch_PixelFont.patch_PixelFont(System.String)
+  nameWithType: patch_PixelFont.patch_PixelFont(String)
+- uid: Monocle.patch_PixelFont.#ctor*
+  name: patch_PixelFont
+  href: api/Monocle.patch_PixelFont.html#Monocle_patch_PixelFont__ctor_
+  commentId: Overload:Monocle.patch_PixelFont.#ctor
+  fullName: Monocle.patch_PixelFont.patch_PixelFont
+  nameWithType: patch_PixelFont.patch_PixelFont
+- uid: Monocle.patch_PixelFont.AddFontSize(System.String,Monocle.Atlas,System.Boolean)
+  name: AddFontSize(String, Atlas, Boolean)
+  href: api/Monocle.patch_PixelFont.html#Monocle_patch_PixelFont_AddFontSize_System_String_Monocle_Atlas_System_Boolean_
+  commentId: M:Monocle.patch_PixelFont.AddFontSize(System.String,Monocle.Atlas,System.Boolean)
+  fullName: Monocle.patch_PixelFont.AddFontSize(System.String, Monocle.Atlas, System.Boolean)
+  nameWithType: patch_PixelFont.AddFontSize(String, Atlas, Boolean)
+- uid: Monocle.patch_PixelFont.AddFontSize*
+  name: AddFontSize
+  href: api/Monocle.patch_PixelFont.html#Monocle_patch_PixelFont_AddFontSize_
+  commentId: Overload:Monocle.patch_PixelFont.AddFontSize
+  fullName: Monocle.patch_PixelFont.AddFontSize
+  nameWithType: patch_PixelFont.AddFontSize
 - uid: Monocle.patch_Sprite
   name: patch_Sprite
   href: api/Monocle.patch_Sprite.html
@@ -17869,6 +18577,30 @@ references:
   commentId: Overload:Monocle.SpriteExt.GetAnimations
   fullName: Monocle.SpriteExt.GetAnimations
   nameWithType: SpriteExt.GetAnimations
+- uid: Monocle.TrackedAsAttribute
+  name: TrackedAsAttribute
+  href: api/Monocle.TrackedAsAttribute.html
+  commentId: T:Monocle.TrackedAsAttribute
+  fullName: Monocle.TrackedAsAttribute
+  nameWithType: TrackedAsAttribute
+- uid: Monocle.TrackedAsAttribute.#ctor(System.Type)
+  name: TrackedAsAttribute(Type)
+  href: api/Monocle.TrackedAsAttribute.html#Monocle_TrackedAsAttribute__ctor_System_Type_
+  commentId: M:Monocle.TrackedAsAttribute.#ctor(System.Type)
+  fullName: Monocle.TrackedAsAttribute.TrackedAsAttribute(System.Type)
+  nameWithType: TrackedAsAttribute.TrackedAsAttribute(Type)
+- uid: Monocle.TrackedAsAttribute.#ctor*
+  name: TrackedAsAttribute
+  href: api/Monocle.TrackedAsAttribute.html#Monocle_TrackedAsAttribute__ctor_
+  commentId: Overload:Monocle.TrackedAsAttribute.#ctor
+  fullName: Monocle.TrackedAsAttribute.TrackedAsAttribute
+  nameWithType: TrackedAsAttribute.TrackedAsAttribute
+- uid: Monocle.TrackedAsAttribute.TrackedAsType
+  name: TrackedAsType
+  href: api/Monocle.TrackedAsAttribute.html#Monocle_TrackedAsAttribute_TrackedAsType
+  commentId: F:Monocle.TrackedAsAttribute.TrackedAsType
+  fullName: Monocle.TrackedAsAttribute.TrackedAsType
+  nameWithType: TrackedAsAttribute.TrackedAsType
 - uid: Monocle.VirtualAssetExt
   name: VirtualAssetExt
   href: api/Monocle.VirtualAssetExt.html
