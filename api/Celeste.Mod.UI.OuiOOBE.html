@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class patch_KeyboardConfigUI
+    <title>Class OuiOOBE
    | Everest </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class patch_KeyboardConfigUI
+    <meta name="title" content="Class OuiOOBE
    | Everest ">
     <meta name="generator" content="docfx 2.44.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
@@ -22,7 +22,7 @@
     <meta property="docfx:rel" content="../">
     <meta property="docfx:newtab" content="true">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Class patch_KeyboardConfigUI
+    <meta property="og:title" content="Class OuiOOBE
   ">
     <meta property="og:site_name" content="Everest"><meta property="og:description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <meta name="author" content="Everest Team">
@@ -85,47 +85,51 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Celeste.patch_KeyboardConfigUI">
+            <article class="content wrap" id="_content" data-uid="Celeste.Mod.UI.OuiOOBE">
   
   
-  <h1 id="Celeste_patch_KeyboardConfigUI" data-uid="Celeste.patch_KeyboardConfigUI" class="text-break">Class patch_KeyboardConfigUI
+  <h1 id="Celeste_Mod_UI_OuiOOBE" data-uid="Celeste.Mod.UI.OuiOOBE" class="text-break">Class OuiOOBE
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">patch_KeyboardConfigUI</span></div>
+    <div class="level1"><span class="xref">OuiOOBE</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Celeste.html">Celeste</a></h6>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Celeste.Mod.UI.OuiModOptions.ISubmenu.html">OuiModOptions.ISubmenu</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Celeste.Mod.UI.html">Celeste.Mod.UI</a></h6>
   <h6><strong>Assembly</strong>: Celeste.Mod.mm.dll</h6>
-  <h5 id="Celeste_patch_KeyboardConfigUI_syntax">Syntax</h5>
+  <h5 id="Celeste_Mod_UI_OuiOOBE_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class patch_KeyboardConfigUI : KeyboardConfigUI</code></pre>
+    <pre><code class="lang-csharp hljs">public class OuiOOBE : Oui, OuiModOptions.ISubmenu</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Celeste_patch_KeyboardConfigUI__ctor_" data-uid="Celeste.patch_KeyboardConfigUI.#ctor*"></a>
-  <h4 id="Celeste_patch_KeyboardConfigUI__ctor" data-uid="Celeste.patch_KeyboardConfigUI.#ctor">patch_KeyboardConfigUI()</h4>
+  <a id="Celeste_Mod_UI_OuiOOBE__ctor_" data-uid="Celeste.Mod.UI.OuiOOBE.#ctor*"></a>
+  <h4 id="Celeste_Mod_UI_OuiOOBE__ctor" data-uid="Celeste.Mod.UI.OuiOOBE.#ctor">OuiOOBE()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public patch_KeyboardConfigUI()</code></pre>
+    <pre><code class="lang-csharp hljs">public OuiOOBE()</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Celeste_patch_KeyboardConfigUI_AddKeyConfigLine_" data-uid="Celeste.patch_KeyboardConfigUI.AddKeyConfigLine*"></a>
-  <h4 id="Celeste_patch_KeyboardConfigUI_AddKeyConfigLine_System_Object_System_Collections_Generic_List_Microsoft_Xna_Framework_Input_Keys__" data-uid="Celeste.patch_KeyboardConfigUI.AddKeyConfigLine(System.Object,System.Collections.Generic.List{Microsoft.Xna.Framework.Input.Keys})">AddKeyConfigLine(Object, List&lt;Keys&gt;)</h4>
+  <a id="Celeste_Mod_UI_OuiOOBE_CreateMenu_" data-uid="Celeste.Mod.UI.OuiOOBE.CreateMenu*"></a>
+  <h4 id="Celeste_Mod_UI_OuiOOBE_CreateMenu_System_Int32_" data-uid="Celeste.Mod.UI.OuiOOBE.CreateMenu(System.Int32)">CreateMenu(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void AddKeyConfigLine(object key, List&lt;Keys&gt; list)</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMenu CreateMenu(int step)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,45 +142,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">key</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Microsoft.Xna.Framework.Input.Keys</span>&gt;</td>
-        <td><span class="parametername">list</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_patch_KeyboardConfigUI_ForceDefaultKey_" data-uid="Celeste.patch_KeyboardConfigUI.ForceDefaultKey*"></a>
-  <h4 id="Celeste_patch_KeyboardConfigUI_ForceDefaultKey_Microsoft_Xna_Framework_Input_Keys_Microsoft_Xna_Framework_Input_Keys_" data-uid="Celeste.patch_KeyboardConfigUI.ForceDefaultKey(Microsoft.Xna.Framework.Input.Keys,Microsoft.Xna.Framework.Input.Keys)">ForceDefaultKey(Keys, Keys)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected List&lt;Keys&gt; ForceDefaultKey(Keys defaultKey, Keys boundKey)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Microsoft.Xna.Framework.Input.Keys</span></td>
-        <td><span class="parametername">defaultKey</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Microsoft.Xna.Framework.Input.Keys</span></td>
-        <td><span class="parametername">boundKey</span></td>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">step</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -191,20 +158,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Microsoft.Xna.Framework.Input.Keys</span>&gt;</td>
+        <td><span class="xref">Celeste.TextMenu</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Celeste_patch_KeyboardConfigUI_ForceDefaultKey_" data-uid="Celeste.patch_KeyboardConfigUI.ForceDefaultKey*"></a>
-  <h4 id="Celeste_patch_KeyboardConfigUI_ForceDefaultKey_Microsoft_Xna_Framework_Input_Keys_System_Collections_Generic_List_Microsoft_Xna_Framework_Input_Keys__" data-uid="Celeste.patch_KeyboardConfigUI.ForceDefaultKey(Microsoft.Xna.Framework.Input.Keys,System.Collections.Generic.List{Microsoft.Xna.Framework.Input.Keys})">ForceDefaultKey(Keys, List&lt;Keys&gt;)</h4>
+  <a id="Celeste_Mod_UI_OuiOOBE_Enter_" data-uid="Celeste.Mod.UI.OuiOOBE.Enter*"></a>
+  <h4 id="Celeste_Mod_UI_OuiOOBE_Enter_Celeste_Oui_" data-uid="Celeste.Mod.UI.OuiOOBE.Enter(Celeste.Oui)">Enter(Oui)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected List&lt;Keys&gt; ForceDefaultKey(Keys defaultKey, List&lt;Keys&gt; boundKeys)</code></pre>
+    <pre><code class="lang-csharp hljs">public override IEnumerator Enter(Oui from)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -217,13 +184,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Microsoft.Xna.Framework.Input.Keys</span></td>
-        <td><span class="parametername">defaultKey</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Microsoft.Xna.Framework.Input.Keys</span>&gt;</td>
-        <td><span class="parametername">boundKeys</span></td>
+        <td><span class="xref">Celeste.Oui</span></td>
+        <td><span class="parametername">from</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -238,20 +200,30 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Microsoft.Xna.Framework.Input.Keys</span>&gt;</td>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Celeste_patch_KeyboardConfigUI_GetLabel_" data-uid="Celeste.patch_KeyboardConfigUI.GetLabel*"></a>
-  <h4 id="Celeste_patch_KeyboardConfigUI_GetLabel_System_Int32_" data-uid="Celeste.patch_KeyboardConfigUI.GetLabel(System.Int32)">GetLabel(Int32)</h4>
+  <a id="Celeste_Mod_UI_OuiOOBE_Exit_" data-uid="Celeste.Mod.UI.OuiOOBE.Exit*"></a>
+  <h4 id="Celeste_Mod_UI_OuiOOBE_Exit" data-uid="Celeste.Mod.UI.OuiOOBE.Exit">Exit()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual string GetLabel(int mapping)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Exit()</code></pre>
+  </div>
+  
+  
+  <a id="Celeste_Mod_UI_OuiOOBE_Goto_" data-uid="Celeste.Mod.UI.OuiOOBE.Goto*"></a>
+  <h4 id="Celeste_Mod_UI_OuiOOBE_Goto_System_Int32_System_Boolean_" data-uid="Celeste.Mod.UI.OuiOOBE.Goto(System.Int32,System.Boolean)">Goto(Int32, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action Goto(int target, bool back = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -265,7 +237,12 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">mapping</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">back</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -280,20 +257,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Action</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Celeste_patch_KeyboardConfigUI_GetRemapList_" data-uid="Celeste.patch_KeyboardConfigUI.GetRemapList*"></a>
-  <h4 id="Celeste_patch_KeyboardConfigUI_GetRemapList_System_Int32_Microsoft_Xna_Framework_Input_Keys_" data-uid="Celeste.patch_KeyboardConfigUI.GetRemapList(System.Int32,Microsoft.Xna.Framework.Input.Keys)">GetRemapList(Int32, Keys)</h4>
+  <a id="Celeste_Mod_UI_OuiOOBE_IsStart_" data-uid="Celeste.Mod.UI.OuiOOBE.IsStart*"></a>
+  <h4 id="Celeste_Mod_UI_OuiOOBE_IsStart_Celeste_Overworld_Celeste_Overworld_StartMode_" data-uid="Celeste.Mod.UI.OuiOOBE.IsStart(Celeste.Overworld,Celeste.Overworld.StartMode)">IsStart(Overworld, Overworld.StartMode)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual List&lt;Keys&gt; GetRemapList(int remapping, Keys newKey)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool IsStart(Overworld overworld, Overworld.StartMode start)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -306,92 +283,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">remapping</span></td>
+        <td><span class="xref">Celeste.Overworld</span></td>
+        <td><span class="parametername">overworld</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Microsoft.Xna.Framework.Input.Keys</span></td>
-        <td><span class="parametername">newKey</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Microsoft.Xna.Framework.Input.Keys</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_patch_KeyboardConfigUI_Reload_" data-uid="Celeste.patch_KeyboardConfigUI.Reload*"></a>
-  <h4 id="Celeste_patch_KeyboardConfigUI_Reload_System_Int32_" data-uid="Celeste.patch_KeyboardConfigUI.Reload(System.Int32)">Reload(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void Reload(int index = -1)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_patch_KeyboardConfigUI_Render_" data-uid="Celeste.patch_KeyboardConfigUI.Render*"></a>
-  <h4 id="Celeste_patch_KeyboardConfigUI_Render" data-uid="Celeste.patch_KeyboardConfigUI.Render">Render()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Render()</code></pre>
-  </div>
-  
-  
-  <a id="Celeste_patch_KeyboardConfigUI_SupportsMultipleBindings_" data-uid="Celeste.patch_KeyboardConfigUI.SupportsMultipleBindings*"></a>
-  <h4 id="Celeste_patch_KeyboardConfigUI_SupportsMultipleBindings_System_Int32_" data-uid="Celeste.patch_KeyboardConfigUI.SupportsMultipleBindings(System.Int32)">SupportsMultipleBindings(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual bool SupportsMultipleBindings(int mapping)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">mapping</span></td>
+        <td><span class="xref">Celeste.Overworld.StartMode</span></td>
+        <td><span class="parametername">start</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -411,6 +309,92 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Celeste_Mod_UI_OuiOOBE_Leave_" data-uid="Celeste.Mod.UI.OuiOOBE.Leave*"></a>
+  <h4 id="Celeste_Mod_UI_OuiOOBE_Leave_Celeste_Oui_" data-uid="Celeste.Mod.UI.OuiOOBE.Leave(Celeste.Oui)">Leave(Oui)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IEnumerator Leave(Oui next)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.Oui</span></td>
+        <td><span class="parametername">next</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_UI_OuiOOBE_Next_" data-uid="Celeste.Mod.UI.OuiOOBE.Next*"></a>
+  <h4 id="Celeste_Mod_UI_OuiOOBE_Next" data-uid="Celeste.Mod.UI.OuiOOBE.Next">Next()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Next()</code></pre>
+  </div>
+  
+  
+  <a id="Celeste_Mod_UI_OuiOOBE_Prev_" data-uid="Celeste.Mod.UI.OuiOOBE.Prev*"></a>
+  <h4 id="Celeste_Mod_UI_OuiOOBE_Prev" data-uid="Celeste.Mod.UI.OuiOOBE.Prev">Prev()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Prev()</code></pre>
+  </div>
+  
+  
+  <a id="Celeste_Mod_UI_OuiOOBE_Render_" data-uid="Celeste.Mod.UI.OuiOOBE.Render*"></a>
+  <h4 id="Celeste_Mod_UI_OuiOOBE_Render" data-uid="Celeste.Mod.UI.OuiOOBE.Render">Render()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Render()</code></pre>
+  </div>
+  
+  
+  <a id="Celeste_Mod_UI_OuiOOBE_Update_" data-uid="Celeste.Mod.UI.OuiOOBE.Update*"></a>
+  <h4 id="Celeste_Mod_UI_OuiOOBE_Update" data-uid="Celeste.Mod.UI.OuiOOBE.Update">Update()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Update()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Celeste.Mod.UI.OuiModOptions.ISubmenu.html">OuiModOptions.ISubmenu</a>
+  </div>
 </article>
           </div>
           

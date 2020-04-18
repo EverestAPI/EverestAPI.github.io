@@ -1342,6 +1342,15 @@ references:
   commentId: M:Celeste.Mod.ContentExtensions.LoadTextureLazyPremultiply(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.IO.Stream)
   fullName: Celeste.Mod.ContentExtensions.LoadTextureLazyPremultiply(Microsoft.Xna.Framework.Graphics.GraphicsDevice, System.IO.Stream)
   nameWithType: ContentExtensions.LoadTextureLazyPremultiply(GraphicsDevice, Stream)
+- uid: Celeste.Mod.ContentExtensions.LoadTextureLazyPremultiply(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.IO.Stream,System.Int32@,System.Int32@,System.Byte[]@)
+  name: LoadTextureLazyPremultiply(GraphicsDevice, Stream, out Int32, out Int32, out Byte[])
+  href: api/Celeste.Mod.ContentExtensions.html#Celeste_Mod_ContentExtensions_LoadTextureLazyPremultiply_Microsoft_Xna_Framework_Graphics_GraphicsDevice_System_IO_Stream_System_Int32__System_Int32__System_Byte____
+  commentId: M:Celeste.Mod.ContentExtensions.LoadTextureLazyPremultiply(Microsoft.Xna.Framework.Graphics.GraphicsDevice,System.IO.Stream,System.Int32@,System.Int32@,System.Byte[]@)
+  name.vb: LoadTextureLazyPremultiply(GraphicsDevice, Stream, ByRef Int32, ByRef Int32, ByRef Byte())
+  fullName: Celeste.Mod.ContentExtensions.LoadTextureLazyPremultiply(Microsoft.Xna.Framework.Graphics.GraphicsDevice, System.IO.Stream, out System.Int32, out System.Int32, out System.Byte[])
+  fullName.vb: Celeste.Mod.ContentExtensions.LoadTextureLazyPremultiply(Microsoft.Xna.Framework.Graphics.GraphicsDevice, System.IO.Stream, ByRef System.Int32, ByRef System.Int32, ByRef System.Byte())
+  nameWithType: ContentExtensions.LoadTextureLazyPremultiply(GraphicsDevice, Stream, out Int32, out Int32, out Byte[])
+  nameWithType.vb: ContentExtensions.LoadTextureLazyPremultiply(GraphicsDevice, Stream, ByRef Int32, ByRef Int32, ByRef Byte())
 - uid: Celeste.Mod.ContentExtensions.LoadTextureLazyPremultiply*
   name: LoadTextureLazyPremultiply
   href: api/Celeste.Mod.ContentExtensions.html#Celeste_Mod_ContentExtensions_LoadTextureLazyPremultiply_
@@ -1627,6 +1636,18 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModule.SaveDataType
   fullName: Celeste.Mod.Core.CoreModule.SaveDataType
   nameWithType: CoreModule.SaveDataType
+- uid: Celeste.Mod.Core.CoreModule.SaveSettings
+  name: SaveSettings()
+  href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_SaveSettings
+  commentId: M:Celeste.Mod.Core.CoreModule.SaveSettings
+  fullName: Celeste.Mod.Core.CoreModule.SaveSettings()
+  nameWithType: CoreModule.SaveSettings()
+- uid: Celeste.Mod.Core.CoreModule.SaveSettings*
+  name: SaveSettings
+  href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_SaveSettings_
+  commentId: Overload:Celeste.Mod.Core.CoreModule.SaveSettings
+  fullName: Celeste.Mod.Core.CoreModule.SaveSettings
+  nameWithType: CoreModule.SaveSettings
 - uid: Celeste.Mod.Core.CoreModule.Session
   name: Session
   href: api/Celeste.Mod.Core.CoreModule.html#Celeste_Mod_Core_CoreModule_Session
@@ -1801,6 +1822,18 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CreateMainMenuModeEntry
   fullName: Celeste.Mod.Core.CoreModuleSettings.CreateMainMenuModeEntry
   nameWithType: CoreModuleSettings.CreateMainMenuModeEntry
+- uid: Celeste.Mod.Core.CoreModuleSettings.CurrentVersion
+  name: CurrentVersion
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CurrentVersion
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.CurrentVersion
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CurrentVersion
+  nameWithType: CoreModuleSettings.CurrentVersion
+- uid: Celeste.Mod.Core.CoreModuleSettings.CurrentVersion*
+  name: CurrentVersion
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CurrentVersion_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CurrentVersion
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CurrentVersion
+  nameWithType: CoreModuleSettings.CurrentVersion
 - uid: Celeste.Mod.Core.CoreModuleSettings.DebugMode
   name: DebugMode
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_DebugMode
@@ -3316,6 +3349,12 @@ references:
   commentId: M:Celeste.Mod.Entities.TriggerSpikesOriginal.#ctor(Microsoft.Xna.Framework.Vector2,System.Int32,Celeste.Mod.Entities.TriggerSpikesOriginal.Directions,System.String)
   fullName: Celeste.Mod.Entities.TriggerSpikesOriginal.TriggerSpikesOriginal(Microsoft.Xna.Framework.Vector2, System.Int32, Celeste.Mod.Entities.TriggerSpikesOriginal.Directions, System.String)
   nameWithType: TriggerSpikesOriginal.TriggerSpikesOriginal(Vector2, Int32, TriggerSpikesOriginal.Directions, String)
+- uid: Celeste.Mod.Entities.TriggerSpikesOriginal.#ctor(Microsoft.Xna.Framework.Vector2,System.Int32,Celeste.Mod.Entities.TriggerSpikesOriginal.Directions,System.String,System.Single)
+  name: TriggerSpikesOriginal(Vector2, Int32, TriggerSpikesOriginal.Directions, String, Single)
+  href: api/Celeste.Mod.Entities.TriggerSpikesOriginal.html#Celeste_Mod_Entities_TriggerSpikesOriginal__ctor_Microsoft_Xna_Framework_Vector2_System_Int32_Celeste_Mod_Entities_TriggerSpikesOriginal_Directions_System_String_System_Single_
+  commentId: M:Celeste.Mod.Entities.TriggerSpikesOriginal.#ctor(Microsoft.Xna.Framework.Vector2,System.Int32,Celeste.Mod.Entities.TriggerSpikesOriginal.Directions,System.String,System.Single)
+  fullName: Celeste.Mod.Entities.TriggerSpikesOriginal.TriggerSpikesOriginal(Microsoft.Xna.Framework.Vector2, System.Int32, Celeste.Mod.Entities.TriggerSpikesOriginal.Directions, System.String, System.Single)
+  nameWithType: TriggerSpikesOriginal.TriggerSpikesOriginal(Vector2, Int32, TriggerSpikesOriginal.Directions, String, Single)
 - uid: Celeste.Mod.Entities.TriggerSpikesOriginal.#ctor*
   name: TriggerSpikesOriginal
   href: api/Celeste.Mod.Entities.TriggerSpikesOriginal.html#Celeste_Mod_Entities_TriggerSpikesOriginal__ctor_
@@ -5257,6 +5296,18 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Loader.Whitelist
   fullName: Celeste.Mod.Everest.Loader.Whitelist
   nameWithType: Everest.Loader.Whitelist
+- uid: Celeste.Mod.Everest.LogDetours
+  name: LogDetours()
+  href: api/Celeste.Mod.Everest.html#Celeste_Mod_Everest_LogDetours
+  commentId: M:Celeste.Mod.Everest.LogDetours
+  fullName: Celeste.Mod.Everest.LogDetours()
+  nameWithType: Everest.LogDetours()
+- uid: Celeste.Mod.Everest.LogDetours*
+  name: LogDetours
+  href: api/Celeste.Mod.Everest.html#Celeste_Mod_Everest_LogDetours_
+  commentId: Overload:Celeste.Mod.Everest.LogDetours
+  fullName: Celeste.Mod.Everest.LogDetours
+  nameWithType: Everest.LogDetours
 - uid: Celeste.Mod.Everest.LuaLoader
   name: Everest.LuaLoader
   href: api/Celeste.Mod.Everest.LuaLoader.html
@@ -8230,18 +8281,18 @@ references:
   commentId: Overload:Celeste.Mod.Everest.SaveSettings
   fullName: Celeste.Mod.Everest.SaveSettings
   nameWithType: Everest.SaveSettings
-- uid: Celeste.Mod.Everest.Unregister(Celeste.Mod.EverestModule)
-  name: Unregister(EverestModule)
-  href: api/Celeste.Mod.Everest.html#Celeste_Mod_Everest_Unregister_Celeste_Mod_EverestModule_
-  commentId: M:Celeste.Mod.Everest.Unregister(Celeste.Mod.EverestModule)
-  fullName: Celeste.Mod.Everest.Unregister(Celeste.Mod.EverestModule)
-  nameWithType: Everest.Unregister(EverestModule)
-- uid: Celeste.Mod.Everest.Unregister*
-  name: Unregister
-  href: api/Celeste.Mod.Everest.html#Celeste_Mod_Everest_Unregister_
-  commentId: Overload:Celeste.Mod.Everest.Unregister
-  fullName: Celeste.Mod.Everest.Unregister
-  nameWithType: Everest.Unregister
+- uid: Celeste.Mod.Everest.SlowFullRestart
+  name: SlowFullRestart()
+  href: api/Celeste.Mod.Everest.html#Celeste_Mod_Everest_SlowFullRestart
+  commentId: M:Celeste.Mod.Everest.SlowFullRestart
+  fullName: Celeste.Mod.Everest.SlowFullRestart()
+  nameWithType: Everest.SlowFullRestart()
+- uid: Celeste.Mod.Everest.SlowFullRestart*
+  name: SlowFullRestart
+  href: api/Celeste.Mod.Everest.html#Celeste_Mod_Everest_SlowFullRestart_
+  commentId: Overload:Celeste.Mod.Everest.SlowFullRestart
+  fullName: Celeste.Mod.Everest.SlowFullRestart
+  nameWithType: Everest.SlowFullRestart
 - uid: Celeste.Mod.Everest.Version
   name: Version
   href: api/Celeste.Mod.Everest.html#Celeste_Mod_Everest_Version
@@ -9166,6 +9217,18 @@ references:
   commentId: Overload:Celeste.Mod.Extensions.AddButtons
   fullName: Celeste.Mod.Extensions.AddButtons
   nameWithType: Extensions.AddButtons
+- uid: Celeste.Mod.Extensions.AddDescription(Celeste.TextMenu.Item,Celeste.TextMenu,System.String)
+  name: AddDescription(TextMenu.Item, TextMenu, String)
+  href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_AddDescription_Celeste_TextMenu_Item_Celeste_TextMenu_System_String_
+  commentId: M:Celeste.Mod.Extensions.AddDescription(Celeste.TextMenu.Item,Celeste.TextMenu,System.String)
+  fullName: Celeste.Mod.Extensions.AddDescription(Celeste.TextMenu.Item, Celeste.TextMenu, System.String)
+  nameWithType: Extensions.AddDescription(TextMenu.Item, TextMenu, String)
+- uid: Celeste.Mod.Extensions.AddDescription*
+  name: AddDescription
+  href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_AddDescription_
+  commentId: Overload:Celeste.Mod.Extensions.AddDescription
+  fullName: Celeste.Mod.Extensions.AddDescription
+  nameWithType: Extensions.AddDescription
 - uid: Celeste.Mod.Extensions.AttrIf(Celeste.BinaryPacker.Element,System.String,System.Action{System.String})
   name: AttrIf(BinaryPacker.Element, String, Action<String>)
   href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_AttrIf_Celeste_BinaryPacker_Element_System_String_System_Action_System_String__
@@ -14920,12 +14983,24 @@ references:
   commentId: M:Celeste.Mod.SettingRangeAttribute.#ctor(System.Int32,System.Int32)
   fullName: Celeste.Mod.SettingRangeAttribute.SettingRangeAttribute(System.Int32, System.Int32)
   nameWithType: SettingRangeAttribute.SettingRangeAttribute(Int32, Int32)
+- uid: Celeste.Mod.SettingRangeAttribute.#ctor(System.Int32,System.Int32,System.Boolean)
+  name: SettingRangeAttribute(Int32, Int32, Boolean)
+  href: api/Celeste.Mod.SettingRangeAttribute.html#Celeste_Mod_SettingRangeAttribute__ctor_System_Int32_System_Int32_System_Boolean_
+  commentId: M:Celeste.Mod.SettingRangeAttribute.#ctor(System.Int32,System.Int32,System.Boolean)
+  fullName: Celeste.Mod.SettingRangeAttribute.SettingRangeAttribute(System.Int32, System.Int32, System.Boolean)
+  nameWithType: SettingRangeAttribute.SettingRangeAttribute(Int32, Int32, Boolean)
 - uid: Celeste.Mod.SettingRangeAttribute.#ctor*
   name: SettingRangeAttribute
   href: api/Celeste.Mod.SettingRangeAttribute.html#Celeste_Mod_SettingRangeAttribute__ctor_
   commentId: Overload:Celeste.Mod.SettingRangeAttribute.#ctor
   fullName: Celeste.Mod.SettingRangeAttribute.SettingRangeAttribute
   nameWithType: SettingRangeAttribute.SettingRangeAttribute
+- uid: Celeste.Mod.SettingRangeAttribute.LargeRange
+  name: LargeRange
+  href: api/Celeste.Mod.SettingRangeAttribute.html#Celeste_Mod_SettingRangeAttribute_LargeRange
+  commentId: F:Celeste.Mod.SettingRangeAttribute.LargeRange
+  fullName: Celeste.Mod.SettingRangeAttribute.LargeRange
+  nameWithType: SettingRangeAttribute.LargeRange
 - uid: Celeste.Mod.SettingRangeAttribute.Max
   name: Max
   href: api/Celeste.Mod.SettingRangeAttribute.html#Celeste_Mod_SettingRangeAttribute_Max
@@ -14938,6 +15013,30 @@ references:
   commentId: F:Celeste.Mod.SettingRangeAttribute.Min
   fullName: Celeste.Mod.SettingRangeAttribute.Min
   nameWithType: SettingRangeAttribute.Min
+- uid: Celeste.Mod.SettingSubTextAttribute
+  name: SettingSubTextAttribute
+  href: api/Celeste.Mod.SettingSubTextAttribute.html
+  commentId: T:Celeste.Mod.SettingSubTextAttribute
+  fullName: Celeste.Mod.SettingSubTextAttribute
+  nameWithType: SettingSubTextAttribute
+- uid: Celeste.Mod.SettingSubTextAttribute.#ctor(System.String)
+  name: SettingSubTextAttribute(String)
+  href: api/Celeste.Mod.SettingSubTextAttribute.html#Celeste_Mod_SettingSubTextAttribute__ctor_System_String_
+  commentId: M:Celeste.Mod.SettingSubTextAttribute.#ctor(System.String)
+  fullName: Celeste.Mod.SettingSubTextAttribute.SettingSubTextAttribute(System.String)
+  nameWithType: SettingSubTextAttribute.SettingSubTextAttribute(String)
+- uid: Celeste.Mod.SettingSubTextAttribute.#ctor*
+  name: SettingSubTextAttribute
+  href: api/Celeste.Mod.SettingSubTextAttribute.html#Celeste_Mod_SettingSubTextAttribute__ctor_
+  commentId: Overload:Celeste.Mod.SettingSubTextAttribute.#ctor
+  fullName: Celeste.Mod.SettingSubTextAttribute.SettingSubTextAttribute
+  nameWithType: SettingSubTextAttribute.SettingSubTextAttribute
+- uid: Celeste.Mod.SettingSubTextAttribute.Description
+  name: Description
+  href: api/Celeste.Mod.SettingSubTextAttribute.html#Celeste_Mod_SettingSubTextAttribute_Description
+  commentId: F:Celeste.Mod.SettingSubTextAttribute.Description
+  fullName: Celeste.Mod.SettingSubTextAttribute.Description
+  nameWithType: SettingSubTextAttribute.Description
 - uid: Celeste.Mod.StrawberryRegistry
   name: StrawberryRegistry
   href: api/Celeste.Mod.StrawberryRegistry.html
@@ -16396,6 +16495,144 @@ references:
   commentId: Overload:Celeste.Mod.UI.OuiModOptionString.Value
   fullName: Celeste.Mod.UI.OuiModOptionString.Value
   nameWithType: OuiModOptionString.Value
+- uid: Celeste.Mod.UI.OuiOOBE
+  name: OuiOOBE
+  href: api/Celeste.Mod.UI.OuiOOBE.html
+  commentId: T:Celeste.Mod.UI.OuiOOBE
+  fullName: Celeste.Mod.UI.OuiOOBE
+  nameWithType: OuiOOBE
+- uid: Celeste.Mod.UI.OuiOOBE.#ctor
+  name: OuiOOBE()
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE__ctor
+  commentId: M:Celeste.Mod.UI.OuiOOBE.#ctor
+  fullName: Celeste.Mod.UI.OuiOOBE.OuiOOBE()
+  nameWithType: OuiOOBE.OuiOOBE()
+- uid: Celeste.Mod.UI.OuiOOBE.#ctor*
+  name: OuiOOBE
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE__ctor_
+  commentId: Overload:Celeste.Mod.UI.OuiOOBE.#ctor
+  fullName: Celeste.Mod.UI.OuiOOBE.OuiOOBE
+  nameWithType: OuiOOBE.OuiOOBE
+- uid: Celeste.Mod.UI.OuiOOBE.CreateMenu(System.Int32)
+  name: CreateMenu(Int32)
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_CreateMenu_System_Int32_
+  commentId: M:Celeste.Mod.UI.OuiOOBE.CreateMenu(System.Int32)
+  fullName: Celeste.Mod.UI.OuiOOBE.CreateMenu(System.Int32)
+  nameWithType: OuiOOBE.CreateMenu(Int32)
+- uid: Celeste.Mod.UI.OuiOOBE.CreateMenu*
+  name: CreateMenu
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_CreateMenu_
+  commentId: Overload:Celeste.Mod.UI.OuiOOBE.CreateMenu
+  fullName: Celeste.Mod.UI.OuiOOBE.CreateMenu
+  nameWithType: OuiOOBE.CreateMenu
+- uid: Celeste.Mod.UI.OuiOOBE.Enter(Celeste.Oui)
+  name: Enter(Oui)
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Enter_Celeste_Oui_
+  commentId: M:Celeste.Mod.UI.OuiOOBE.Enter(Celeste.Oui)
+  fullName: Celeste.Mod.UI.OuiOOBE.Enter(Celeste.Oui)
+  nameWithType: OuiOOBE.Enter(Oui)
+- uid: Celeste.Mod.UI.OuiOOBE.Enter*
+  name: Enter
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Enter_
+  commentId: Overload:Celeste.Mod.UI.OuiOOBE.Enter
+  fullName: Celeste.Mod.UI.OuiOOBE.Enter
+  nameWithType: OuiOOBE.Enter
+- uid: Celeste.Mod.UI.OuiOOBE.Exit
+  name: Exit()
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Exit
+  commentId: M:Celeste.Mod.UI.OuiOOBE.Exit
+  fullName: Celeste.Mod.UI.OuiOOBE.Exit()
+  nameWithType: OuiOOBE.Exit()
+- uid: Celeste.Mod.UI.OuiOOBE.Exit*
+  name: Exit
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Exit_
+  commentId: Overload:Celeste.Mod.UI.OuiOOBE.Exit
+  fullName: Celeste.Mod.UI.OuiOOBE.Exit
+  nameWithType: OuiOOBE.Exit
+- uid: Celeste.Mod.UI.OuiOOBE.Goto(System.Int32,System.Boolean)
+  name: Goto(Int32, Boolean)
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Goto_System_Int32_System_Boolean_
+  commentId: M:Celeste.Mod.UI.OuiOOBE.Goto(System.Int32,System.Boolean)
+  fullName: Celeste.Mod.UI.OuiOOBE.Goto(System.Int32, System.Boolean)
+  nameWithType: OuiOOBE.Goto(Int32, Boolean)
+- uid: Celeste.Mod.UI.OuiOOBE.Goto*
+  name: Goto
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Goto_
+  commentId: Overload:Celeste.Mod.UI.OuiOOBE.Goto
+  fullName: Celeste.Mod.UI.OuiOOBE.Goto
+  nameWithType: OuiOOBE.Goto
+- uid: Celeste.Mod.UI.OuiOOBE.IsStart(Celeste.Overworld,Celeste.Overworld.StartMode)
+  name: IsStart(Overworld, Overworld.StartMode)
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_IsStart_Celeste_Overworld_Celeste_Overworld_StartMode_
+  commentId: M:Celeste.Mod.UI.OuiOOBE.IsStart(Celeste.Overworld,Celeste.Overworld.StartMode)
+  fullName: Celeste.Mod.UI.OuiOOBE.IsStart(Celeste.Overworld, Celeste.Overworld.StartMode)
+  nameWithType: OuiOOBE.IsStart(Overworld, Overworld.StartMode)
+- uid: Celeste.Mod.UI.OuiOOBE.IsStart*
+  name: IsStart
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_IsStart_
+  commentId: Overload:Celeste.Mod.UI.OuiOOBE.IsStart
+  fullName: Celeste.Mod.UI.OuiOOBE.IsStart
+  nameWithType: OuiOOBE.IsStart
+- uid: Celeste.Mod.UI.OuiOOBE.Leave(Celeste.Oui)
+  name: Leave(Oui)
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Leave_Celeste_Oui_
+  commentId: M:Celeste.Mod.UI.OuiOOBE.Leave(Celeste.Oui)
+  fullName: Celeste.Mod.UI.OuiOOBE.Leave(Celeste.Oui)
+  nameWithType: OuiOOBE.Leave(Oui)
+- uid: Celeste.Mod.UI.OuiOOBE.Leave*
+  name: Leave
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Leave_
+  commentId: Overload:Celeste.Mod.UI.OuiOOBE.Leave
+  fullName: Celeste.Mod.UI.OuiOOBE.Leave
+  nameWithType: OuiOOBE.Leave
+- uid: Celeste.Mod.UI.OuiOOBE.Next
+  name: Next()
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Next
+  commentId: M:Celeste.Mod.UI.OuiOOBE.Next
+  fullName: Celeste.Mod.UI.OuiOOBE.Next()
+  nameWithType: OuiOOBE.Next()
+- uid: Celeste.Mod.UI.OuiOOBE.Next*
+  name: Next
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Next_
+  commentId: Overload:Celeste.Mod.UI.OuiOOBE.Next
+  fullName: Celeste.Mod.UI.OuiOOBE.Next
+  nameWithType: OuiOOBE.Next
+- uid: Celeste.Mod.UI.OuiOOBE.Prev
+  name: Prev()
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Prev
+  commentId: M:Celeste.Mod.UI.OuiOOBE.Prev
+  fullName: Celeste.Mod.UI.OuiOOBE.Prev()
+  nameWithType: OuiOOBE.Prev()
+- uid: Celeste.Mod.UI.OuiOOBE.Prev*
+  name: Prev
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Prev_
+  commentId: Overload:Celeste.Mod.UI.OuiOOBE.Prev
+  fullName: Celeste.Mod.UI.OuiOOBE.Prev
+  nameWithType: OuiOOBE.Prev
+- uid: Celeste.Mod.UI.OuiOOBE.Render
+  name: Render()
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Render
+  commentId: M:Celeste.Mod.UI.OuiOOBE.Render
+  fullName: Celeste.Mod.UI.OuiOOBE.Render()
+  nameWithType: OuiOOBE.Render()
+- uid: Celeste.Mod.UI.OuiOOBE.Render*
+  name: Render
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Render_
+  commentId: Overload:Celeste.Mod.UI.OuiOOBE.Render
+  fullName: Celeste.Mod.UI.OuiOOBE.Render
+  nameWithType: OuiOOBE.Render
+- uid: Celeste.Mod.UI.OuiOOBE.Update
+  name: Update()
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Update
+  commentId: M:Celeste.Mod.UI.OuiOOBE.Update
+  fullName: Celeste.Mod.UI.OuiOOBE.Update()
+  nameWithType: OuiOOBE.Update()
+- uid: Celeste.Mod.UI.OuiOOBE.Update*
+  name: Update
+  href: api/Celeste.Mod.UI.OuiOOBE.html#Celeste_Mod_UI_OuiOOBE_Update_
+  commentId: Overload:Celeste.Mod.UI.OuiOOBE.Update
+  fullName: Celeste.Mod.UI.OuiOOBE.Update
+  nameWithType: OuiOOBE.Update
 - uid: Celeste.Mod.UI.OuiSoundTest
   name: OuiSoundTest
   href: api/Celeste.Mod.UI.OuiSoundTest.html
@@ -17059,6 +17296,96 @@ references:
   commentId: Overload:Celeste.patch_ClutterBlockGenerator.orig_Init
   fullName: Celeste.patch_ClutterBlockGenerator.orig_Init
   nameWithType: patch_ClutterBlockGenerator.orig_Init
+- uid: Celeste.patch_CrystalDebris
+  name: patch_CrystalDebris
+  href: api/Celeste.patch_CrystalDebris.html
+  commentId: T:Celeste.patch_CrystalDebris
+  fullName: Celeste.patch_CrystalDebris
+  nameWithType: patch_CrystalDebris
+- uid: Celeste.patch_CrystalDebris.#ctor
+  name: patch_CrystalDebris()
+  href: api/Celeste.patch_CrystalDebris.html#Celeste_patch_CrystalDebris__ctor
+  commentId: M:Celeste.patch_CrystalDebris.#ctor
+  fullName: Celeste.patch_CrystalDebris.patch_CrystalDebris()
+  nameWithType: patch_CrystalDebris.patch_CrystalDebris()
+- uid: Celeste.patch_CrystalDebris.#ctor*
+  name: patch_CrystalDebris
+  href: api/Celeste.patch_CrystalDebris.html#Celeste_patch_CrystalDebris__ctor_
+  commentId: Overload:Celeste.patch_CrystalDebris.#ctor
+  fullName: Celeste.patch_CrystalDebris.patch_CrystalDebris
+  nameWithType: patch_CrystalDebris.patch_CrystalDebris
+- uid: Celeste.patch_CrystalDebris.orig_Update
+  name: orig_Update()
+  href: api/Celeste.patch_CrystalDebris.html#Celeste_patch_CrystalDebris_orig_Update
+  commentId: M:Celeste.patch_CrystalDebris.orig_Update
+  fullName: Celeste.patch_CrystalDebris.orig_Update()
+  nameWithType: patch_CrystalDebris.orig_Update()
+- uid: Celeste.patch_CrystalDebris.orig_Update*
+  name: orig_Update
+  href: api/Celeste.patch_CrystalDebris.html#Celeste_patch_CrystalDebris_orig_Update_
+  commentId: Overload:Celeste.patch_CrystalDebris.orig_Update
+  fullName: Celeste.patch_CrystalDebris.orig_Update
+  nameWithType: patch_CrystalDebris.orig_Update
+- uid: Celeste.patch_CrystalDebris.Update
+  name: Update()
+  href: api/Celeste.patch_CrystalDebris.html#Celeste_patch_CrystalDebris_Update
+  commentId: M:Celeste.patch_CrystalDebris.Update
+  fullName: Celeste.patch_CrystalDebris.Update()
+  nameWithType: patch_CrystalDebris.Update()
+- uid: Celeste.patch_CrystalDebris.Update*
+  name: Update
+  href: api/Celeste.patch_CrystalDebris.html#Celeste_patch_CrystalDebris_Update_
+  commentId: Overload:Celeste.patch_CrystalDebris.Update
+  fullName: Celeste.patch_CrystalDebris.Update
+  nameWithType: patch_CrystalDebris.Update
+- uid: Celeste.patch_FakeHeart
+  name: patch_FakeHeart
+  href: api/Celeste.patch_FakeHeart.html
+  commentId: T:Celeste.patch_FakeHeart
+  fullName: Celeste.patch_FakeHeart
+  nameWithType: patch_FakeHeart
+- uid: Celeste.patch_FakeHeart.#ctor(Microsoft.Xna.Framework.Vector2)
+  name: patch_FakeHeart(Vector2)
+  href: api/Celeste.patch_FakeHeart.html#Celeste_patch_FakeHeart__ctor_Microsoft_Xna_Framework_Vector2_
+  commentId: M:Celeste.patch_FakeHeart.#ctor(Microsoft.Xna.Framework.Vector2)
+  fullName: Celeste.patch_FakeHeart.patch_FakeHeart(Microsoft.Xna.Framework.Vector2)
+  nameWithType: patch_FakeHeart.patch_FakeHeart(Vector2)
+- uid: Celeste.patch_FakeHeart.#ctor*
+  name: patch_FakeHeart
+  href: api/Celeste.patch_FakeHeart.html#Celeste_patch_FakeHeart__ctor_
+  commentId: Overload:Celeste.patch_FakeHeart.#ctor
+  fullName: Celeste.patch_FakeHeart.patch_FakeHeart
+  nameWithType: patch_FakeHeart.patch_FakeHeart
+- uid: Celeste.patch_FakeHeart.Awake(Monocle.Scene)
+  name: Awake(Scene)
+  href: api/Celeste.patch_FakeHeart.html#Celeste_patch_FakeHeart_Awake_Monocle_Scene_
+  commentId: M:Celeste.patch_FakeHeart.Awake(Monocle.Scene)
+  fullName: Celeste.patch_FakeHeart.Awake(Monocle.Scene)
+  nameWithType: patch_FakeHeart.Awake(Scene)
+- uid: Celeste.patch_FakeHeart.Awake*
+  name: Awake
+  href: api/Celeste.patch_FakeHeart.html#Celeste_patch_FakeHeart_Awake_
+  commentId: Overload:Celeste.patch_FakeHeart.Awake
+  fullName: Celeste.patch_FakeHeart.Awake
+  nameWithType: patch_FakeHeart.Awake
+- uid: Celeste.patch_FakeHeart.ctor(Celeste.EntityData,Microsoft.Xna.Framework.Vector2)
+  name: ctor(EntityData, Vector2)
+  href: api/Celeste.patch_FakeHeart.html#Celeste_patch_FakeHeart_ctor_Celeste_EntityData_Microsoft_Xna_Framework_Vector2_
+  commentId: M:Celeste.patch_FakeHeart.ctor(Celeste.EntityData,Microsoft.Xna.Framework.Vector2)
+  fullName: Celeste.patch_FakeHeart.ctor(Celeste.EntityData, Microsoft.Xna.Framework.Vector2)
+  nameWithType: patch_FakeHeart.ctor(EntityData, Vector2)
+- uid: Celeste.patch_FakeHeart.ctor(Microsoft.Xna.Framework.Vector2)
+  name: ctor(Vector2)
+  href: api/Celeste.patch_FakeHeart.html#Celeste_patch_FakeHeart_ctor_Microsoft_Xna_Framework_Vector2_
+  commentId: M:Celeste.patch_FakeHeart.ctor(Microsoft.Xna.Framework.Vector2)
+  fullName: Celeste.patch_FakeHeart.ctor(Microsoft.Xna.Framework.Vector2)
+  nameWithType: patch_FakeHeart.ctor(Vector2)
+- uid: Celeste.patch_FakeHeart.ctor*
+  name: ctor
+  href: api/Celeste.patch_FakeHeart.html#Celeste_patch_FakeHeart_ctor_
+  commentId: Overload:Celeste.patch_FakeHeart.ctor
+  fullName: Celeste.patch_FakeHeart.ctor
+  nameWithType: patch_FakeHeart.ctor
 - uid: Celeste.patch_KeyboardConfigUI
   name: patch_KeyboardConfigUI
   href: api/Celeste.patch_KeyboardConfigUI.html
@@ -17077,6 +17404,66 @@ references:
   commentId: Overload:Celeste.patch_KeyboardConfigUI.#ctor
   fullName: Celeste.patch_KeyboardConfigUI.patch_KeyboardConfigUI
   nameWithType: patch_KeyboardConfigUI.patch_KeyboardConfigUI
+- uid: Celeste.patch_KeyboardConfigUI.AddKeyConfigLine(System.Object,System.Collections.Generic.List{Microsoft.Xna.Framework.Input.Keys})
+  name: AddKeyConfigLine(Object, List<Keys>)
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_AddKeyConfigLine_System_Object_System_Collections_Generic_List_Microsoft_Xna_Framework_Input_Keys__
+  commentId: M:Celeste.patch_KeyboardConfigUI.AddKeyConfigLine(System.Object,System.Collections.Generic.List{Microsoft.Xna.Framework.Input.Keys})
+  name.vb: AddKeyConfigLine(Object, List(Of Keys))
+  fullName: Celeste.patch_KeyboardConfigUI.AddKeyConfigLine(System.Object, System.Collections.Generic.List<Microsoft.Xna.Framework.Input.Keys>)
+  fullName.vb: Celeste.patch_KeyboardConfigUI.AddKeyConfigLine(System.Object, System.Collections.Generic.List(Of Microsoft.Xna.Framework.Input.Keys))
+  nameWithType: patch_KeyboardConfigUI.AddKeyConfigLine(Object, List<Keys>)
+  nameWithType.vb: patch_KeyboardConfigUI.AddKeyConfigLine(Object, List(Of Keys))
+- uid: Celeste.patch_KeyboardConfigUI.AddKeyConfigLine*
+  name: AddKeyConfigLine
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_AddKeyConfigLine_
+  commentId: Overload:Celeste.patch_KeyboardConfigUI.AddKeyConfigLine
+  fullName: Celeste.patch_KeyboardConfigUI.AddKeyConfigLine
+  nameWithType: patch_KeyboardConfigUI.AddKeyConfigLine
+- uid: Celeste.patch_KeyboardConfigUI.ForceDefaultKey(Microsoft.Xna.Framework.Input.Keys,Microsoft.Xna.Framework.Input.Keys)
+  name: ForceDefaultKey(Keys, Keys)
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_ForceDefaultKey_Microsoft_Xna_Framework_Input_Keys_Microsoft_Xna_Framework_Input_Keys_
+  commentId: M:Celeste.patch_KeyboardConfigUI.ForceDefaultKey(Microsoft.Xna.Framework.Input.Keys,Microsoft.Xna.Framework.Input.Keys)
+  fullName: Celeste.patch_KeyboardConfigUI.ForceDefaultKey(Microsoft.Xna.Framework.Input.Keys, Microsoft.Xna.Framework.Input.Keys)
+  nameWithType: patch_KeyboardConfigUI.ForceDefaultKey(Keys, Keys)
+- uid: Celeste.patch_KeyboardConfigUI.ForceDefaultKey(Microsoft.Xna.Framework.Input.Keys,System.Collections.Generic.List{Microsoft.Xna.Framework.Input.Keys})
+  name: ForceDefaultKey(Keys, List<Keys>)
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_ForceDefaultKey_Microsoft_Xna_Framework_Input_Keys_System_Collections_Generic_List_Microsoft_Xna_Framework_Input_Keys__
+  commentId: M:Celeste.patch_KeyboardConfigUI.ForceDefaultKey(Microsoft.Xna.Framework.Input.Keys,System.Collections.Generic.List{Microsoft.Xna.Framework.Input.Keys})
+  name.vb: ForceDefaultKey(Keys, List(Of Keys))
+  fullName: Celeste.patch_KeyboardConfigUI.ForceDefaultKey(Microsoft.Xna.Framework.Input.Keys, System.Collections.Generic.List<Microsoft.Xna.Framework.Input.Keys>)
+  fullName.vb: Celeste.patch_KeyboardConfigUI.ForceDefaultKey(Microsoft.Xna.Framework.Input.Keys, System.Collections.Generic.List(Of Microsoft.Xna.Framework.Input.Keys))
+  nameWithType: patch_KeyboardConfigUI.ForceDefaultKey(Keys, List<Keys>)
+  nameWithType.vb: patch_KeyboardConfigUI.ForceDefaultKey(Keys, List(Of Keys))
+- uid: Celeste.patch_KeyboardConfigUI.ForceDefaultKey*
+  name: ForceDefaultKey
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_ForceDefaultKey_
+  commentId: Overload:Celeste.patch_KeyboardConfigUI.ForceDefaultKey
+  fullName: Celeste.patch_KeyboardConfigUI.ForceDefaultKey
+  nameWithType: patch_KeyboardConfigUI.ForceDefaultKey
+- uid: Celeste.patch_KeyboardConfigUI.GetLabel(System.Int32)
+  name: GetLabel(Int32)
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_GetLabel_System_Int32_
+  commentId: M:Celeste.patch_KeyboardConfigUI.GetLabel(System.Int32)
+  fullName: Celeste.patch_KeyboardConfigUI.GetLabel(System.Int32)
+  nameWithType: patch_KeyboardConfigUI.GetLabel(Int32)
+- uid: Celeste.patch_KeyboardConfigUI.GetLabel*
+  name: GetLabel
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_GetLabel_
+  commentId: Overload:Celeste.patch_KeyboardConfigUI.GetLabel
+  fullName: Celeste.patch_KeyboardConfigUI.GetLabel
+  nameWithType: patch_KeyboardConfigUI.GetLabel
+- uid: Celeste.patch_KeyboardConfigUI.GetRemapList(System.Int32,Microsoft.Xna.Framework.Input.Keys)
+  name: GetRemapList(Int32, Keys)
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_GetRemapList_System_Int32_Microsoft_Xna_Framework_Input_Keys_
+  commentId: M:Celeste.patch_KeyboardConfigUI.GetRemapList(System.Int32,Microsoft.Xna.Framework.Input.Keys)
+  fullName: Celeste.patch_KeyboardConfigUI.GetRemapList(System.Int32, Microsoft.Xna.Framework.Input.Keys)
+  nameWithType: patch_KeyboardConfigUI.GetRemapList(Int32, Keys)
+- uid: Celeste.patch_KeyboardConfigUI.GetRemapList*
+  name: GetRemapList
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_GetRemapList_
+  commentId: Overload:Celeste.patch_KeyboardConfigUI.GetRemapList
+  fullName: Celeste.patch_KeyboardConfigUI.GetRemapList
+  nameWithType: patch_KeyboardConfigUI.GetRemapList
 - uid: Celeste.patch_KeyboardConfigUI.Reload(System.Int32)
   name: Reload(Int32)
   href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_Reload_System_Int32_
@@ -17101,6 +17488,18 @@ references:
   commentId: Overload:Celeste.patch_KeyboardConfigUI.Render
   fullName: Celeste.patch_KeyboardConfigUI.Render
   nameWithType: patch_KeyboardConfigUI.Render
+- uid: Celeste.patch_KeyboardConfigUI.SupportsMultipleBindings(System.Int32)
+  name: SupportsMultipleBindings(Int32)
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_SupportsMultipleBindings_System_Int32_
+  commentId: M:Celeste.patch_KeyboardConfigUI.SupportsMultipleBindings(System.Int32)
+  fullName: Celeste.patch_KeyboardConfigUI.SupportsMultipleBindings(System.Int32)
+  nameWithType: patch_KeyboardConfigUI.SupportsMultipleBindings(Int32)
+- uid: Celeste.patch_KeyboardConfigUI.SupportsMultipleBindings*
+  name: SupportsMultipleBindings
+  href: api/Celeste.patch_KeyboardConfigUI.html#Celeste_patch_KeyboardConfigUI_SupportsMultipleBindings_
+  commentId: Overload:Celeste.patch_KeyboardConfigUI.SupportsMultipleBindings
+  fullName: Celeste.patch_KeyboardConfigUI.SupportsMultipleBindings
+  nameWithType: patch_KeyboardConfigUI.SupportsMultipleBindings
 - uid: Celeste.patch_LevelData
   name: patch_LevelData
   href: api/Celeste.patch_LevelData.html
@@ -17389,6 +17788,66 @@ references:
   commentId: Overload:Celeste.patch_OuiFileSelectSlot.WiggleMenu
   fullName: Celeste.patch_OuiFileSelectSlot.WiggleMenu
   nameWithType: patch_OuiFileSelectSlot.WiggleMenu
+- uid: Celeste.patch_RidgeGate
+  name: patch_RidgeGate
+  href: api/Celeste.patch_RidgeGate.html
+  commentId: T:Celeste.patch_RidgeGate
+  fullName: Celeste.patch_RidgeGate
+  nameWithType: patch_RidgeGate
+- uid: Celeste.patch_RidgeGate.#ctor(Celeste.EntityData,Microsoft.Xna.Framework.Vector2)
+  name: patch_RidgeGate(EntityData, Vector2)
+  href: api/Celeste.patch_RidgeGate.html#Celeste_patch_RidgeGate__ctor_Celeste_EntityData_Microsoft_Xna_Framework_Vector2_
+  commentId: M:Celeste.patch_RidgeGate.#ctor(Celeste.EntityData,Microsoft.Xna.Framework.Vector2)
+  fullName: Celeste.patch_RidgeGate.patch_RidgeGate(Celeste.EntityData, Microsoft.Xna.Framework.Vector2)
+  nameWithType: patch_RidgeGate.patch_RidgeGate(EntityData, Vector2)
+- uid: Celeste.patch_RidgeGate.#ctor*
+  name: patch_RidgeGate
+  href: api/Celeste.patch_RidgeGate.html#Celeste_patch_RidgeGate__ctor_
+  commentId: Overload:Celeste.patch_RidgeGate.#ctor
+  fullName: Celeste.patch_RidgeGate.patch_RidgeGate
+  nameWithType: patch_RidgeGate.patch_RidgeGate
+- uid: Celeste.patch_RidgeGate.base_ctor(Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Boolean)
+  name: base_ctor(Vector2, Single, Single, Boolean)
+  href: api/Celeste.patch_RidgeGate.html#Celeste_patch_RidgeGate_base_ctor_Microsoft_Xna_Framework_Vector2_System_Single_System_Single_System_Boolean_
+  commentId: M:Celeste.patch_RidgeGate.base_ctor(Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Boolean)
+  fullName: Celeste.patch_RidgeGate.base_ctor(Microsoft.Xna.Framework.Vector2, System.Single, System.Single, System.Boolean)
+  nameWithType: patch_RidgeGate.base_ctor(Vector2, Single, Single, Boolean)
+- uid: Celeste.patch_RidgeGate.base_ctor*
+  name: base_ctor
+  href: api/Celeste.patch_RidgeGate.html#Celeste_patch_RidgeGate_base_ctor_
+  commentId: Overload:Celeste.patch_RidgeGate.base_ctor
+  fullName: Celeste.patch_RidgeGate.base_ctor
+  nameWithType: patch_RidgeGate.base_ctor
+- uid: Celeste.patch_RidgeGate.ctor(Celeste.EntityData,Microsoft.Xna.Framework.Vector2)
+  name: ctor(EntityData, Vector2)
+  href: api/Celeste.patch_RidgeGate.html#Celeste_patch_RidgeGate_ctor_Celeste_EntityData_Microsoft_Xna_Framework_Vector2_
+  commentId: M:Celeste.patch_RidgeGate.ctor(Celeste.EntityData,Microsoft.Xna.Framework.Vector2)
+  fullName: Celeste.patch_RidgeGate.ctor(Celeste.EntityData, Microsoft.Xna.Framework.Vector2)
+  nameWithType: patch_RidgeGate.ctor(EntityData, Vector2)
+- uid: Celeste.patch_RidgeGate.ctor(Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Nullable{Microsoft.Xna.Framework.Vector2})
+  name: ctor(Vector2, Single, Single, Nullable<Vector2>)
+  href: api/Celeste.patch_RidgeGate.html#Celeste_patch_RidgeGate_ctor_Microsoft_Xna_Framework_Vector2_System_Single_System_Single_System_Nullable_Microsoft_Xna_Framework_Vector2__
+  commentId: M:Celeste.patch_RidgeGate.ctor(Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Nullable{Microsoft.Xna.Framework.Vector2})
+  name.vb: ctor(Vector2, Single, Single, Nullable(Of Vector2))
+  fullName: Celeste.patch_RidgeGate.ctor(Microsoft.Xna.Framework.Vector2, System.Single, System.Single, System.Nullable<Microsoft.Xna.Framework.Vector2>)
+  fullName.vb: Celeste.patch_RidgeGate.ctor(Microsoft.Xna.Framework.Vector2, System.Single, System.Single, System.Nullable(Of Microsoft.Xna.Framework.Vector2))
+  nameWithType: patch_RidgeGate.ctor(Vector2, Single, Single, Nullable<Vector2>)
+  nameWithType.vb: patch_RidgeGate.ctor(Vector2, Single, Single, Nullable(Of Vector2))
+- uid: Celeste.patch_RidgeGate.ctor(Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Nullable{Microsoft.Xna.Framework.Vector2},System.String)
+  name: ctor(Vector2, Single, Single, Nullable<Vector2>, String)
+  href: api/Celeste.patch_RidgeGate.html#Celeste_patch_RidgeGate_ctor_Microsoft_Xna_Framework_Vector2_System_Single_System_Single_System_Nullable_Microsoft_Xna_Framework_Vector2__System_String_
+  commentId: M:Celeste.patch_RidgeGate.ctor(Microsoft.Xna.Framework.Vector2,System.Single,System.Single,System.Nullable{Microsoft.Xna.Framework.Vector2},System.String)
+  name.vb: ctor(Vector2, Single, Single, Nullable(Of Vector2), String)
+  fullName: Celeste.patch_RidgeGate.ctor(Microsoft.Xna.Framework.Vector2, System.Single, System.Single, System.Nullable<Microsoft.Xna.Framework.Vector2>, System.String)
+  fullName.vb: Celeste.patch_RidgeGate.ctor(Microsoft.Xna.Framework.Vector2, System.Single, System.Single, System.Nullable(Of Microsoft.Xna.Framework.Vector2), System.String)
+  nameWithType: patch_RidgeGate.ctor(Vector2, Single, Single, Nullable<Vector2>, String)
+  nameWithType.vb: patch_RidgeGate.ctor(Vector2, Single, Single, Nullable(Of Vector2), String)
+- uid: Celeste.patch_RidgeGate.ctor*
+  name: ctor
+  href: api/Celeste.patch_RidgeGate.html#Celeste_patch_RidgeGate_ctor_
+  commentId: Overload:Celeste.patch_RidgeGate.ctor
+  fullName: Celeste.patch_RidgeGate.ctor
+  nameWithType: patch_RidgeGate.ctor
 - uid: Celeste.patch_Session
   name: patch_Session
   href: api/Celeste.patch_Session.html
@@ -17431,6 +17890,48 @@ references:
   commentId: Overload:Celeste.patch_Session.orig_ctor
   fullName: Celeste.patch_Session.orig_ctor
   nameWithType: patch_Session.orig_ctor
+- uid: Celeste.patch_TriggerSpikes
+  name: patch_TriggerSpikes
+  href: api/Celeste.patch_TriggerSpikes.html
+  commentId: T:Celeste.patch_TriggerSpikes
+  fullName: Celeste.patch_TriggerSpikes
+  nameWithType: patch_TriggerSpikes
+- uid: Celeste.patch_TriggerSpikes.#ctor(Celeste.EntityData,Microsoft.Xna.Framework.Vector2,Celeste.TriggerSpikes.Directions)
+  name: patch_TriggerSpikes(EntityData, Vector2, TriggerSpikes.Directions)
+  href: api/Celeste.patch_TriggerSpikes.html#Celeste_patch_TriggerSpikes__ctor_Celeste_EntityData_Microsoft_Xna_Framework_Vector2_Celeste_TriggerSpikes_Directions_
+  commentId: M:Celeste.patch_TriggerSpikes.#ctor(Celeste.EntityData,Microsoft.Xna.Framework.Vector2,Celeste.TriggerSpikes.Directions)
+  fullName: Celeste.patch_TriggerSpikes.patch_TriggerSpikes(Celeste.EntityData, Microsoft.Xna.Framework.Vector2, Celeste.TriggerSpikes.Directions)
+  nameWithType: patch_TriggerSpikes.patch_TriggerSpikes(EntityData, Vector2, TriggerSpikes.Directions)
+- uid: Celeste.patch_TriggerSpikes.#ctor*
+  name: patch_TriggerSpikes
+  href: api/Celeste.patch_TriggerSpikes.html#Celeste_patch_TriggerSpikes__ctor_
+  commentId: Overload:Celeste.patch_TriggerSpikes.#ctor
+  fullName: Celeste.patch_TriggerSpikes.patch_TriggerSpikes
+  nameWithType: patch_TriggerSpikes.patch_TriggerSpikes
+- uid: Celeste.patch_TriggerSpikes.ctor(Celeste.EntityData,Microsoft.Xna.Framework.Vector2,Celeste.TriggerSpikes.Directions)
+  name: ctor(EntityData, Vector2, TriggerSpikes.Directions)
+  href: api/Celeste.patch_TriggerSpikes.html#Celeste_patch_TriggerSpikes_ctor_Celeste_EntityData_Microsoft_Xna_Framework_Vector2_Celeste_TriggerSpikes_Directions_
+  commentId: M:Celeste.patch_TriggerSpikes.ctor(Celeste.EntityData,Microsoft.Xna.Framework.Vector2,Celeste.TriggerSpikes.Directions)
+  fullName: Celeste.patch_TriggerSpikes.ctor(Celeste.EntityData, Microsoft.Xna.Framework.Vector2, Celeste.TriggerSpikes.Directions)
+  nameWithType: patch_TriggerSpikes.ctor(EntityData, Vector2, TriggerSpikes.Directions)
+- uid: Celeste.patch_TriggerSpikes.ctor(Microsoft.Xna.Framework.Vector2,System.Int32,Celeste.TriggerSpikes.Directions)
+  name: ctor(Vector2, Int32, TriggerSpikes.Directions)
+  href: api/Celeste.patch_TriggerSpikes.html#Celeste_patch_TriggerSpikes_ctor_Microsoft_Xna_Framework_Vector2_System_Int32_Celeste_TriggerSpikes_Directions_
+  commentId: M:Celeste.patch_TriggerSpikes.ctor(Microsoft.Xna.Framework.Vector2,System.Int32,Celeste.TriggerSpikes.Directions)
+  fullName: Celeste.patch_TriggerSpikes.ctor(Microsoft.Xna.Framework.Vector2, System.Int32, Celeste.TriggerSpikes.Directions)
+  nameWithType: patch_TriggerSpikes.ctor(Vector2, Int32, TriggerSpikes.Directions)
+- uid: Celeste.patch_TriggerSpikes.ctor(Microsoft.Xna.Framework.Vector2,System.Int32,Celeste.TriggerSpikes.Directions,System.Single)
+  name: ctor(Vector2, Int32, TriggerSpikes.Directions, Single)
+  href: api/Celeste.patch_TriggerSpikes.html#Celeste_patch_TriggerSpikes_ctor_Microsoft_Xna_Framework_Vector2_System_Int32_Celeste_TriggerSpikes_Directions_System_Single_
+  commentId: M:Celeste.patch_TriggerSpikes.ctor(Microsoft.Xna.Framework.Vector2,System.Int32,Celeste.TriggerSpikes.Directions,System.Single)
+  fullName: Celeste.patch_TriggerSpikes.ctor(Microsoft.Xna.Framework.Vector2, System.Int32, Celeste.TriggerSpikes.Directions, System.Single)
+  nameWithType: patch_TriggerSpikes.ctor(Vector2, Int32, TriggerSpikes.Directions, Single)
+- uid: Celeste.patch_TriggerSpikes.ctor*
+  name: ctor
+  href: api/Celeste.patch_TriggerSpikes.html#Celeste_patch_TriggerSpikes_ctor_
+  commentId: Overload:Celeste.patch_TriggerSpikes.ctor
+  fullName: Celeste.patch_TriggerSpikes.ctor
+  nameWithType: patch_TriggerSpikes.ctor
 - uid: Celeste.PlayerExt
   name: PlayerExt
   href: api/Celeste.PlayerExt.html
@@ -18025,6 +18526,171 @@ references:
   commentId: Overload:Celeste.TextMenuExt.Insert
   fullName: Celeste.TextMenuExt.Insert
   nameWithType: TextMenuExt.Insert
+- uid: Celeste.TextMenuExt.IntSlider
+  name: TextMenuExt.IntSlider
+  href: api/Celeste.TextMenuExt.IntSlider.html
+  commentId: T:Celeste.TextMenuExt.IntSlider
+  fullName: Celeste.TextMenuExt.IntSlider
+  nameWithType: TextMenuExt.IntSlider
+- uid: Celeste.TextMenuExt.IntSlider.#ctor(System.String,System.Int32,System.Int32,System.Int32)
+  name: IntSlider(String, Int32, Int32, Int32)
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider__ctor_System_String_System_Int32_System_Int32_System_Int32_
+  commentId: M:Celeste.TextMenuExt.IntSlider.#ctor(System.String,System.Int32,System.Int32,System.Int32)
+  fullName: Celeste.TextMenuExt.IntSlider.IntSlider(System.String, System.Int32, System.Int32, System.Int32)
+  nameWithType: TextMenuExt.IntSlider.IntSlider(String, Int32, Int32, Int32)
+- uid: Celeste.TextMenuExt.IntSlider.#ctor*
+  name: IntSlider
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider__ctor_
+  commentId: Overload:Celeste.TextMenuExt.IntSlider.#ctor
+  fullName: Celeste.TextMenuExt.IntSlider.IntSlider
+  nameWithType: TextMenuExt.IntSlider.IntSlider
+- uid: Celeste.TextMenuExt.IntSlider.Added
+  name: Added()
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_Added
+  commentId: M:Celeste.TextMenuExt.IntSlider.Added
+  fullName: Celeste.TextMenuExt.IntSlider.Added()
+  nameWithType: TextMenuExt.IntSlider.Added()
+- uid: Celeste.TextMenuExt.IntSlider.Added*
+  name: Added
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_Added_
+  commentId: Overload:Celeste.TextMenuExt.IntSlider.Added
+  fullName: Celeste.TextMenuExt.IntSlider.Added
+  nameWithType: TextMenuExt.IntSlider.Added
+- uid: Celeste.TextMenuExt.IntSlider.Change(System.Action{System.Int32})
+  name: Change(Action<Int32>)
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_Change_System_Action_System_Int32__
+  commentId: M:Celeste.TextMenuExt.IntSlider.Change(System.Action{System.Int32})
+  name.vb: Change(Action(Of Int32))
+  fullName: Celeste.TextMenuExt.IntSlider.Change(System.Action<System.Int32>)
+  fullName.vb: Celeste.TextMenuExt.IntSlider.Change(System.Action(Of System.Int32))
+  nameWithType: TextMenuExt.IntSlider.Change(Action<Int32>)
+  nameWithType.vb: TextMenuExt.IntSlider.Change(Action(Of Int32))
+- uid: Celeste.TextMenuExt.IntSlider.Change*
+  name: Change
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_Change_
+  commentId: Overload:Celeste.TextMenuExt.IntSlider.Change
+  fullName: Celeste.TextMenuExt.IntSlider.Change
+  nameWithType: TextMenuExt.IntSlider.Change
+- uid: Celeste.TextMenuExt.IntSlider.ConfirmPressed
+  name: ConfirmPressed()
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_ConfirmPressed
+  commentId: M:Celeste.TextMenuExt.IntSlider.ConfirmPressed
+  fullName: Celeste.TextMenuExt.IntSlider.ConfirmPressed()
+  nameWithType: TextMenuExt.IntSlider.ConfirmPressed()
+- uid: Celeste.TextMenuExt.IntSlider.ConfirmPressed*
+  name: ConfirmPressed
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_ConfirmPressed_
+  commentId: Overload:Celeste.TextMenuExt.IntSlider.ConfirmPressed
+  fullName: Celeste.TextMenuExt.IntSlider.ConfirmPressed
+  nameWithType: TextMenuExt.IntSlider.ConfirmPressed
+- uid: Celeste.TextMenuExt.IntSlider.Height
+  name: Height()
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_Height
+  commentId: M:Celeste.TextMenuExt.IntSlider.Height
+  fullName: Celeste.TextMenuExt.IntSlider.Height()
+  nameWithType: TextMenuExt.IntSlider.Height()
+- uid: Celeste.TextMenuExt.IntSlider.Height*
+  name: Height
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_Height_
+  commentId: Overload:Celeste.TextMenuExt.IntSlider.Height
+  fullName: Celeste.TextMenuExt.IntSlider.Height
+  nameWithType: TextMenuExt.IntSlider.Height
+- uid: Celeste.TextMenuExt.IntSlider.Index
+  name: Index
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_Index
+  commentId: F:Celeste.TextMenuExt.IntSlider.Index
+  fullName: Celeste.TextMenuExt.IntSlider.Index
+  nameWithType: TextMenuExt.IntSlider.Index
+- uid: Celeste.TextMenuExt.IntSlider.Label
+  name: Label
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_Label
+  commentId: F:Celeste.TextMenuExt.IntSlider.Label
+  fullName: Celeste.TextMenuExt.IntSlider.Label
+  nameWithType: TextMenuExt.IntSlider.Label
+- uid: Celeste.TextMenuExt.IntSlider.LeftPressed
+  name: LeftPressed()
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_LeftPressed
+  commentId: M:Celeste.TextMenuExt.IntSlider.LeftPressed
+  fullName: Celeste.TextMenuExt.IntSlider.LeftPressed()
+  nameWithType: TextMenuExt.IntSlider.LeftPressed()
+- uid: Celeste.TextMenuExt.IntSlider.LeftPressed*
+  name: LeftPressed
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_LeftPressed_
+  commentId: Overload:Celeste.TextMenuExt.IntSlider.LeftPressed
+  fullName: Celeste.TextMenuExt.IntSlider.LeftPressed
+  nameWithType: TextMenuExt.IntSlider.LeftPressed
+- uid: Celeste.TextMenuExt.IntSlider.LeftWidth
+  name: LeftWidth()
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_LeftWidth
+  commentId: M:Celeste.TextMenuExt.IntSlider.LeftWidth
+  fullName: Celeste.TextMenuExt.IntSlider.LeftWidth()
+  nameWithType: TextMenuExt.IntSlider.LeftWidth()
+- uid: Celeste.TextMenuExt.IntSlider.LeftWidth*
+  name: LeftWidth
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_LeftWidth_
+  commentId: Overload:Celeste.TextMenuExt.IntSlider.LeftWidth
+  fullName: Celeste.TextMenuExt.IntSlider.LeftWidth
+  nameWithType: TextMenuExt.IntSlider.LeftWidth
+- uid: Celeste.TextMenuExt.IntSlider.OnValueChange
+  name: OnValueChange
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_OnValueChange
+  commentId: F:Celeste.TextMenuExt.IntSlider.OnValueChange
+  fullName: Celeste.TextMenuExt.IntSlider.OnValueChange
+  nameWithType: TextMenuExt.IntSlider.OnValueChange
+- uid: Celeste.TextMenuExt.IntSlider.PreviousIndex
+  name: PreviousIndex
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_PreviousIndex
+  commentId: F:Celeste.TextMenuExt.IntSlider.PreviousIndex
+  fullName: Celeste.TextMenuExt.IntSlider.PreviousIndex
+  nameWithType: TextMenuExt.IntSlider.PreviousIndex
+- uid: Celeste.TextMenuExt.IntSlider.Render(Microsoft.Xna.Framework.Vector2,System.Boolean)
+  name: Render(Vector2, Boolean)
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_Render_Microsoft_Xna_Framework_Vector2_System_Boolean_
+  commentId: M:Celeste.TextMenuExt.IntSlider.Render(Microsoft.Xna.Framework.Vector2,System.Boolean)
+  fullName: Celeste.TextMenuExt.IntSlider.Render(Microsoft.Xna.Framework.Vector2, System.Boolean)
+  nameWithType: TextMenuExt.IntSlider.Render(Vector2, Boolean)
+- uid: Celeste.TextMenuExt.IntSlider.Render*
+  name: Render
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_Render_
+  commentId: Overload:Celeste.TextMenuExt.IntSlider.Render
+  fullName: Celeste.TextMenuExt.IntSlider.Render
+  nameWithType: TextMenuExt.IntSlider.Render
+- uid: Celeste.TextMenuExt.IntSlider.RightPressed
+  name: RightPressed()
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_RightPressed
+  commentId: M:Celeste.TextMenuExt.IntSlider.RightPressed
+  fullName: Celeste.TextMenuExt.IntSlider.RightPressed()
+  nameWithType: TextMenuExt.IntSlider.RightPressed()
+- uid: Celeste.TextMenuExt.IntSlider.RightPressed*
+  name: RightPressed
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_RightPressed_
+  commentId: Overload:Celeste.TextMenuExt.IntSlider.RightPressed
+  fullName: Celeste.TextMenuExt.IntSlider.RightPressed
+  nameWithType: TextMenuExt.IntSlider.RightPressed
+- uid: Celeste.TextMenuExt.IntSlider.RightWidth
+  name: RightWidth()
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_RightWidth
+  commentId: M:Celeste.TextMenuExt.IntSlider.RightWidth
+  fullName: Celeste.TextMenuExt.IntSlider.RightWidth()
+  nameWithType: TextMenuExt.IntSlider.RightWidth()
+- uid: Celeste.TextMenuExt.IntSlider.RightWidth*
+  name: RightWidth
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_RightWidth_
+  commentId: Overload:Celeste.TextMenuExt.IntSlider.RightWidth
+  fullName: Celeste.TextMenuExt.IntSlider.RightWidth
+  nameWithType: TextMenuExt.IntSlider.RightWidth
+- uid: Celeste.TextMenuExt.IntSlider.Update
+  name: Update()
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_Update
+  commentId: M:Celeste.TextMenuExt.IntSlider.Update
+  fullName: Celeste.TextMenuExt.IntSlider.Update()
+  nameWithType: TextMenuExt.IntSlider.Update()
+- uid: Celeste.TextMenuExt.IntSlider.Update*
+  name: Update
+  href: api/Celeste.TextMenuExt.IntSlider.html#Celeste_TextMenuExt_IntSlider_Update_
+  commentId: Overload:Celeste.TextMenuExt.IntSlider.Update
+  fullName: Celeste.TextMenuExt.IntSlider.Update
+  nameWithType: TextMenuExt.IntSlider.Update
 - uid: Celeste.TextMenuExt.Remove(Celeste.TextMenu,Celeste.TextMenu.Item)
   name: Remove(TextMenu, TextMenu.Item)
   href: api/Celeste.TextMenuExt.html#Celeste_TextMenuExt_Remove_Celeste_TextMenu_Celeste_TextMenu_Item_
