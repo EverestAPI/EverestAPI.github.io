@@ -16174,18 +16174,6 @@ references:
   commentId: Overload:Celeste.Mod.UI.OuiMapList.#ctor
   fullName: Celeste.Mod.UI.OuiMapList.OuiMapList
   nameWithType: OuiMapList.OuiMapList
-- uid: Celeste.Mod.UI.OuiMapList.CreateMenu(System.Boolean,FMOD.Studio.EventInstance)
-  name: CreateMenu(Boolean, EventInstance)
-  href: api/Celeste.Mod.UI.OuiMapList.html#Celeste_Mod_UI_OuiMapList_CreateMenu_System_Boolean_FMOD_Studio_EventInstance_
-  commentId: M:Celeste.Mod.UI.OuiMapList.CreateMenu(System.Boolean,FMOD.Studio.EventInstance)
-  fullName: Celeste.Mod.UI.OuiMapList.CreateMenu(System.Boolean, FMOD.Studio.EventInstance)
-  nameWithType: OuiMapList.CreateMenu(Boolean, EventInstance)
-- uid: Celeste.Mod.UI.OuiMapList.CreateMenu*
-  name: CreateMenu
-  href: api/Celeste.Mod.UI.OuiMapList.html#Celeste_Mod_UI_OuiMapList_CreateMenu_
-  commentId: Overload:Celeste.Mod.UI.OuiMapList.CreateMenu
-  fullName: Celeste.Mod.UI.OuiMapList.CreateMenu
-  nameWithType: OuiMapList.CreateMenu
 - uid: Celeste.Mod.UI.OuiMapList.Enter(Celeste.Oui)
   name: Enter(Oui)
   href: api/Celeste.Mod.UI.OuiMapList.html#Celeste_Mod_UI_OuiMapList_Enter_Celeste_Oui_
@@ -16222,18 +16210,6 @@ references:
   commentId: Overload:Celeste.Mod.UI.OuiMapList.Leave
   fullName: Celeste.Mod.UI.OuiMapList.Leave
   nameWithType: OuiMapList.Leave
-- uid: Celeste.Mod.UI.OuiMapList.OnTextInput(System.Char)
-  name: OnTextInput(Char)
-  href: api/Celeste.Mod.UI.OuiMapList.html#Celeste_Mod_UI_OuiMapList_OnTextInput_System_Char_
-  commentId: M:Celeste.Mod.UI.OuiMapList.OnTextInput(System.Char)
-  fullName: Celeste.Mod.UI.OuiMapList.OnTextInput(System.Char)
-  nameWithType: OuiMapList.OnTextInput(Char)
-- uid: Celeste.Mod.UI.OuiMapList.OnTextInput*
-  name: OnTextInput
-  href: api/Celeste.Mod.UI.OuiMapList.html#Celeste_Mod_UI_OuiMapList_OnTextInput_
-  commentId: Overload:Celeste.Mod.UI.OuiMapList.OnTextInput
-  fullName: Celeste.Mod.UI.OuiMapList.OnTextInput
-  nameWithType: OuiMapList.OnTextInput
 - uid: Celeste.Mod.UI.OuiMapList.OuiIcons
   name: OuiIcons
   href: api/Celeste.Mod.UI.OuiMapList.html#Celeste_Mod_UI_OuiMapList_OuiIcons
@@ -16252,24 +16228,6 @@ references:
   commentId: Overload:Celeste.Mod.UI.OuiMapList.Render
   fullName: Celeste.Mod.UI.OuiMapList.Render
   nameWithType: OuiMapList.Render
-- uid: Celeste.Mod.UI.OuiMapList.Searching
-  name: Searching
-  href: api/Celeste.Mod.UI.OuiMapList.html#Celeste_Mod_UI_OuiMapList_Searching
-  commentId: F:Celeste.Mod.UI.OuiMapList.Searching
-  fullName: Celeste.Mod.UI.OuiMapList.Searching
-  nameWithType: OuiMapList.Searching
-- uid: Celeste.Mod.UI.OuiMapList.Start(Celeste.AreaData,Celeste.AreaMode,System.String)
-  name: Start(AreaData, AreaMode, String)
-  href: api/Celeste.Mod.UI.OuiMapList.html#Celeste_Mod_UI_OuiMapList_Start_Celeste_AreaData_Celeste_AreaMode_System_String_
-  commentId: M:Celeste.Mod.UI.OuiMapList.Start(Celeste.AreaData,Celeste.AreaMode,System.String)
-  fullName: Celeste.Mod.UI.OuiMapList.Start(Celeste.AreaData, Celeste.AreaMode, System.String)
-  nameWithType: OuiMapList.Start(AreaData, AreaMode, String)
-- uid: Celeste.Mod.UI.OuiMapList.Start*
-  name: Start
-  href: api/Celeste.Mod.UI.OuiMapList.html#Celeste_Mod_UI_OuiMapList_Start_
-  commentId: Overload:Celeste.Mod.UI.OuiMapList.Start
-  fullName: Celeste.Mod.UI.OuiMapList.Start
-  nameWithType: OuiMapList.Start
 - uid: Celeste.Mod.UI.OuiMapList.Update
   name: Update()
   href: api/Celeste.Mod.UI.OuiMapList.html#Celeste_Mod_UI_OuiMapList_Update
@@ -16282,6 +16240,114 @@ references:
   commentId: Overload:Celeste.Mod.UI.OuiMapList.Update
   fullName: Celeste.Mod.UI.OuiMapList.Update
   nameWithType: OuiMapList.Update
+- uid: Celeste.Mod.UI.OuiMapSearch
+  name: OuiMapSearch
+  href: api/Celeste.Mod.UI.OuiMapSearch.html
+  commentId: T:Celeste.Mod.UI.OuiMapSearch
+  fullName: Celeste.Mod.UI.OuiMapSearch
+  nameWithType: OuiMapSearch
+- uid: Celeste.Mod.UI.OuiMapSearch.#ctor
+  name: OuiMapSearch()
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch__ctor
+  commentId: M:Celeste.Mod.UI.OuiMapSearch.#ctor
+  fullName: Celeste.Mod.UI.OuiMapSearch.OuiMapSearch()
+  nameWithType: OuiMapSearch.OuiMapSearch()
+- uid: Celeste.Mod.UI.OuiMapSearch.#ctor*
+  name: OuiMapSearch
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch__ctor_
+  commentId: Overload:Celeste.Mod.UI.OuiMapSearch.#ctor
+  fullName: Celeste.Mod.UI.OuiMapSearch.OuiMapSearch
+  nameWithType: OuiMapSearch.OuiMapSearch
+- uid: Celeste.Mod.UI.OuiMapSearch.Enter(Celeste.Oui)
+  name: Enter(Oui)
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch_Enter_Celeste_Oui_
+  commentId: M:Celeste.Mod.UI.OuiMapSearch.Enter(Celeste.Oui)
+  fullName: Celeste.Mod.UI.OuiMapSearch.Enter(Celeste.Oui)
+  nameWithType: OuiMapSearch.Enter(Oui)
+- uid: Celeste.Mod.UI.OuiMapSearch.Enter*
+  name: Enter
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch_Enter_
+  commentId: Overload:Celeste.Mod.UI.OuiMapSearch.Enter
+  fullName: Celeste.Mod.UI.OuiMapSearch.Enter
+  nameWithType: OuiMapSearch.Enter
+- uid: Celeste.Mod.UI.OuiMapSearch.FromChapterSelect
+  name: FromChapterSelect
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch_FromChapterSelect
+  commentId: F:Celeste.Mod.UI.OuiMapSearch.FromChapterSelect
+  fullName: Celeste.Mod.UI.OuiMapSearch.FromChapterSelect
+  nameWithType: OuiMapSearch.FromChapterSelect
+- uid: Celeste.Mod.UI.OuiMapSearch.Inspect(Celeste.AreaData,Celeste.AreaMode)
+  name: Inspect(AreaData, AreaMode)
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch_Inspect_Celeste_AreaData_Celeste_AreaMode_
+  commentId: M:Celeste.Mod.UI.OuiMapSearch.Inspect(Celeste.AreaData,Celeste.AreaMode)
+  fullName: Celeste.Mod.UI.OuiMapSearch.Inspect(Celeste.AreaData, Celeste.AreaMode)
+  nameWithType: OuiMapSearch.Inspect(AreaData, AreaMode)
+- uid: Celeste.Mod.UI.OuiMapSearch.Inspect*
+  name: Inspect
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch_Inspect_
+  commentId: Overload:Celeste.Mod.UI.OuiMapSearch.Inspect
+  fullName: Celeste.Mod.UI.OuiMapSearch.Inspect
+  nameWithType: OuiMapSearch.Inspect
+- uid: Celeste.Mod.UI.OuiMapSearch.Leave(Celeste.Oui)
+  name: Leave(Oui)
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch_Leave_Celeste_Oui_
+  commentId: M:Celeste.Mod.UI.OuiMapSearch.Leave(Celeste.Oui)
+  fullName: Celeste.Mod.UI.OuiMapSearch.Leave(Celeste.Oui)
+  nameWithType: OuiMapSearch.Leave(Oui)
+- uid: Celeste.Mod.UI.OuiMapSearch.Leave*
+  name: Leave
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch_Leave_
+  commentId: Overload:Celeste.Mod.UI.OuiMapSearch.Leave
+  fullName: Celeste.Mod.UI.OuiMapSearch.Leave
+  nameWithType: OuiMapSearch.Leave
+- uid: Celeste.Mod.UI.OuiMapSearch.OnTextInput(System.Char)
+  name: OnTextInput(Char)
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch_OnTextInput_System_Char_
+  commentId: M:Celeste.Mod.UI.OuiMapSearch.OnTextInput(System.Char)
+  fullName: Celeste.Mod.UI.OuiMapSearch.OnTextInput(System.Char)
+  nameWithType: OuiMapSearch.OnTextInput(Char)
+- uid: Celeste.Mod.UI.OuiMapSearch.OnTextInput*
+  name: OnTextInput
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch_OnTextInput_
+  commentId: Overload:Celeste.Mod.UI.OuiMapSearch.OnTextInput
+  fullName: Celeste.Mod.UI.OuiMapSearch.OnTextInput
+  nameWithType: OuiMapSearch.OnTextInput
+- uid: Celeste.Mod.UI.OuiMapSearch.OuiIcons
+  name: OuiIcons
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch_OuiIcons
+  commentId: F:Celeste.Mod.UI.OuiMapSearch.OuiIcons
+  fullName: Celeste.Mod.UI.OuiMapSearch.OuiIcons
+  nameWithType: OuiMapSearch.OuiIcons
+- uid: Celeste.Mod.UI.OuiMapSearch.Render
+  name: Render()
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch_Render
+  commentId: M:Celeste.Mod.UI.OuiMapSearch.Render
+  fullName: Celeste.Mod.UI.OuiMapSearch.Render()
+  nameWithType: OuiMapSearch.Render()
+- uid: Celeste.Mod.UI.OuiMapSearch.Render*
+  name: Render
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch_Render_
+  commentId: Overload:Celeste.Mod.UI.OuiMapSearch.Render
+  fullName: Celeste.Mod.UI.OuiMapSearch.Render
+  nameWithType: OuiMapSearch.Render
+- uid: Celeste.Mod.UI.OuiMapSearch.Searching
+  name: Searching
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch_Searching
+  commentId: F:Celeste.Mod.UI.OuiMapSearch.Searching
+  fullName: Celeste.Mod.UI.OuiMapSearch.Searching
+  nameWithType: OuiMapSearch.Searching
+- uid: Celeste.Mod.UI.OuiMapSearch.Update
+  name: Update()
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch_Update
+  commentId: M:Celeste.Mod.UI.OuiMapSearch.Update
+  fullName: Celeste.Mod.UI.OuiMapSearch.Update()
+  nameWithType: OuiMapSearch.Update()
+- uid: Celeste.Mod.UI.OuiMapSearch.Update*
+  name: Update
+  href: api/Celeste.Mod.UI.OuiMapSearch.html#Celeste_Mod_UI_OuiMapSearch_Update_
+  commentId: Overload:Celeste.Mod.UI.OuiMapSearch.Update
+  fullName: Celeste.Mod.UI.OuiMapSearch.Update
+  nameWithType: OuiMapSearch.Update
 - uid: Celeste.Mod.UI.OuiModOptions
   name: OuiModOptions
   href: api/Celeste.Mod.UI.OuiModOptions.html
