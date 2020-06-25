@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Everest.Relinker
    | Everest ">
-    <meta name="generator" content="docfx 2.44.0.0">
+    <meta name="generator" content="docfx 2.55.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <link rel="shortcut icon" href="../favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -90,8 +90,7 @@
   
   <h1 id="Celeste_Mod_Everest_Relinker" data-uid="Celeste.Mod.Everest.Relinker" class="text-break">Class Everest.Relinker
   </h1>
-  <div class="markdown level0 summary"><p>Relink mods to point towards Celeste.exe and FNA / XNA properly at runtime.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -133,8 +132,7 @@
   
   
   <h4 id="Celeste_Mod_Everest_Relinker_ChecksumHasher" data-uid="Celeste.Mod.Everest.Relinker.ChecksumHasher">ChecksumHasher</h4>
-  <div class="markdown level1 summary"><p>The hasher used by Relinker.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -161,8 +159,7 @@
   
   <a id="Celeste_Mod_Everest_Relinker_GameChecksum_" data-uid="Celeste.Mod.Everest.Relinker.GameChecksum*"></a>
   <h4 id="Celeste_Mod_Everest_Relinker_GameChecksum" data-uid="Celeste.Mod.Everest.Relinker.GameChecksum">GameChecksum</h4>
-  <div class="markdown level1 summary"><p>The current Celeste.exe&apos;s checksum.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -264,8 +261,7 @@
   
   <a id="Celeste_Mod_Everest_Relinker_ChecksumsEqual_" data-uid="Celeste.Mod.Everest.Relinker.ChecksumsEqual*"></a>
   <h4 id="Celeste_Mod_Everest_Relinker_ChecksumsEqual_System_String___System_String___" data-uid="Celeste.Mod.Everest.Relinker.ChecksumsEqual(System.String[],System.String[])">ChecksumsEqual(String[], String[])</h4>
-  <div class="markdown level1 summary"><p>Determine if both checksum collections are equal.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -284,14 +280,12 @@
       <tr>
         <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">a</span></td>
-        <td><p>The first checksum array.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">b</span></td>
-        <td><p>The second checksum array.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -306,8 +300,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>True if the contents of both arrays match, false otherwise.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -315,12 +308,12 @@
   
   <a id="Celeste_Mod_Everest_Relinker_GetCachedPath_" data-uid="Celeste.Mod.Everest.Relinker.GetCachedPath*"></a>
   <h4 id="Celeste_Mod_Everest_Relinker_GetCachedPath_Celeste_Mod_EverestModuleMetadata_" data-uid="Celeste.Mod.Everest.Relinker.GetCachedPath(Celeste.Mod.EverestModuleMetadata)">GetCachedPath(EverestModuleMetadata)</h4>
-  <div class="markdown level1 summary"><p>Get the cached path of a given mod&apos;s relinked .dll</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetCachedPath(EverestModuleMetadata meta)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use the variant with an explicit assembly name instead.&quot;)]
+public static string GetCachedPath(EverestModuleMetadata meta)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -335,8 +328,7 @@
       <tr>
         <td><a class="xref" href="Celeste.Mod.EverestModuleMetadata.html">EverestModuleMetadata</a></td>
         <td><span class="parametername">meta</span></td>
-        <td><p>The mod metadata.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -351,8 +343,54 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>The full path to the cached relinked .dll</p>
-</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Everest_Relinker_GetCachedPath_" data-uid="Celeste.Mod.Everest.Relinker.GetCachedPath*"></a>
+  <h4 id="Celeste_Mod_Everest_Relinker_GetCachedPath_Celeste_Mod_EverestModuleMetadata_System_String_" data-uid="Celeste.Mod.Everest.Relinker.GetCachedPath(Celeste.Mod.EverestModuleMetadata,System.String)">GetCachedPath(EverestModuleMetadata, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetCachedPath(EverestModuleMetadata meta, string asmname)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.EverestModuleMetadata.html">EverestModuleMetadata</a></td>
+        <td><span class="parametername">meta</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">asmname</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -360,8 +398,7 @@
   
   <a id="Celeste_Mod_Everest_Relinker_GetChecksum_" data-uid="Celeste.Mod.Everest.Relinker.GetChecksum*"></a>
   <h4 id="Celeste_Mod_Everest_Relinker_GetChecksum_Celeste_Mod_EverestModuleMetadata_" data-uid="Celeste.Mod.Everest.Relinker.GetChecksum(Celeste.Mod.EverestModuleMetadata)">GetChecksum(EverestModuleMetadata)</h4>
-  <div class="markdown level1 summary"><p>Get the checksum for a given mod&apos;s .dll or the containing .zip</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -381,8 +418,7 @@ public static string GetChecksum(EverestModuleMetadata meta)</code></pre>
       <tr>
         <td><a class="xref" href="Celeste.Mod.EverestModuleMetadata.html">EverestModuleMetadata</a></td>
         <td><span class="parametername">meta</span></td>
-        <td><p>The mod metadata.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -397,8 +433,7 @@ public static string GetChecksum(EverestModuleMetadata meta)</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>A checksum.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -406,8 +441,7 @@ public static string GetChecksum(EverestModuleMetadata meta)</code></pre>
   
   <a id="Celeste_Mod_Everest_Relinker_GetChecksum_" data-uid="Celeste.Mod.Everest.Relinker.GetChecksum*"></a>
   <h4 id="Celeste_Mod_Everest_Relinker_GetChecksum_System_String_" data-uid="Celeste.Mod.Everest.Relinker.GetChecksum(System.String)">GetChecksum(String)</h4>
-  <div class="markdown level1 summary"><p>Get the checksum for a given file.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -427,8 +461,7 @@ public static string GetChecksum(string path)</code></pre>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">path</span></td>
-        <td><p>The file path.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -443,8 +476,7 @@ public static string GetChecksum(string path)</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>A checksum.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -452,12 +484,12 @@ public static string GetChecksum(string path)</code></pre>
   
   <a id="Celeste_Mod_Everest_Relinker_GetRelinkedAssembly_" data-uid="Celeste.Mod.Everest.Relinker.GetRelinkedAssembly*"></a>
   <h4 id="Celeste_Mod_Everest_Relinker_GetRelinkedAssembly_Celeste_Mod_EverestModuleMetadata_System_IO_Stream_MonoMod_MissingDependencyResolver_System_String___System_Action_MonoMod_MonoModder__" data-uid="Celeste.Mod.Everest.Relinker.GetRelinkedAssembly(Celeste.Mod.EverestModuleMetadata,System.IO.Stream,MonoMod.MissingDependencyResolver,System.String[],System.Action{MonoMod.MonoModder})">GetRelinkedAssembly(EverestModuleMetadata, Stream, MissingDependencyResolver, String[], Action&lt;MonoModder&gt;)</h4>
-  <div class="markdown level1 summary"><p>Relink a .dll to point towards Celeste.exe and FNA / XNA properly at runtime, then load it.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Assembly GetRelinkedAssembly(EverestModuleMetadata meta, Stream stream, MissingDependencyResolver depResolver = null, string[] checksumsExtra = null, Action&lt;MonoModder&gt; prePatch = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use the variant with an explicit assembly name instead.&quot;)]
+public static Assembly GetRelinkedAssembly(EverestModuleMetadata meta, Stream stream, MissingDependencyResolver depResolver = null, string[] checksumsExtra = null, Action&lt;MonoModder&gt; prePatch = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -472,32 +504,27 @@ public static string GetChecksum(string path)</code></pre>
       <tr>
         <td><a class="xref" href="Celeste.Mod.EverestModuleMetadata.html">EverestModuleMetadata</a></td>
         <td><span class="parametername">meta</span></td>
-        <td><p>The mod metadata, used for caching, among other things.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.IO.Stream</span></td>
         <td><span class="parametername">stream</span></td>
-        <td><p>The stream to read the .dll from.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">MonoMod.MissingDependencyResolver</span></td>
         <td><span class="parametername">depResolver</span></td>
-        <td><p>An optional dependency resolver.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span>[]</td>
         <td><span class="parametername">checksumsExtra</span></td>
-        <td><p>Any optional checksums</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Action</span>&lt;<span class="xref">MonoMod.MonoModder</span>&gt;</td>
         <td><span class="parametername">prePatch</span></td>
-        <td><p>An optional step executed before patching, but after MonoMod has loaded the input assembly.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -512,8 +539,74 @@ public static string GetChecksum(string path)</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Reflection.Assembly</span></td>
-        <td><p>The loaded, relinked assembly.</p>
-</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_Everest_Relinker_GetRelinkedAssembly_" data-uid="Celeste.Mod.Everest.Relinker.GetRelinkedAssembly*"></a>
+  <h4 id="Celeste_Mod_Everest_Relinker_GetRelinkedAssembly_Celeste_Mod_EverestModuleMetadata_System_String_System_IO_Stream_MonoMod_MissingDependencyResolver_System_String___System_Action_MonoMod_MonoModder__" data-uid="Celeste.Mod.Everest.Relinker.GetRelinkedAssembly(Celeste.Mod.EverestModuleMetadata,System.String,System.IO.Stream,MonoMod.MissingDependencyResolver,System.String[],System.Action{MonoMod.MonoModder})">GetRelinkedAssembly(EverestModuleMetadata, String, Stream, MissingDependencyResolver, String[], Action&lt;MonoModder&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Assembly GetRelinkedAssembly(EverestModuleMetadata meta, string asmname, Stream stream, MissingDependencyResolver depResolver = null, string[] checksumsExtra = null, Action&lt;MonoModder&gt; prePatch = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Celeste.Mod.EverestModuleMetadata.html">EverestModuleMetadata</a></td>
+        <td><span class="parametername">meta</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">asmname</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">MonoMod.MissingDependencyResolver</span></td>
+        <td><span class="parametername">depResolver</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">checksumsExtra</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">MonoMod.MonoModder</span>&gt;</td>
+        <td><span class="parametername">prePatch</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

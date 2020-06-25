@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class patch_KeyboardConfigUI
    | Everest ">
-    <meta name="generator" content="docfx 2.44.0.0">
+    <meta name="generator" content="docfx 2.55.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <link rel="shortcut icon" href="../favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -96,6 +96,7 @@
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">patch_KeyboardConfigUI</span></div>
+      <div class="level2"><a class="xref" href="Celeste.Mod.ModuleSettingsKeyboardConfigUI.html">ModuleSettingsKeyboardConfigUI</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Celeste.html">Celeste</a></h6>
   <h6><strong>Assembly</strong>: Celeste.Mod.mm.dll</h6>
@@ -120,12 +121,12 @@
   
   
   <a id="Celeste_patch_KeyboardConfigUI_AddKeyConfigLine_" data-uid="Celeste.patch_KeyboardConfigUI.AddKeyConfigLine*"></a>
-  <h4 id="Celeste_patch_KeyboardConfigUI_AddKeyConfigLine_System_Object_System_Collections_Generic_List_Microsoft_Xna_Framework_Input_Keys__" data-uid="Celeste.patch_KeyboardConfigUI.AddKeyConfigLine(System.Object,System.Collections.Generic.List{Microsoft.Xna.Framework.Input.Keys})">AddKeyConfigLine(Object, List&lt;Keys&gt;)</h4>
+  <h4 id="Celeste_patch_KeyboardConfigUI_AddKeyConfigLine_System_Int32_System_Collections_Generic_List_Microsoft_Xna_Framework_Input_Keys__" data-uid="Celeste.patch_KeyboardConfigUI.AddKeyConfigLine(System.Int32,System.Collections.Generic.List{Microsoft.Xna.Framework.Input.Keys})">AddKeyConfigLine(Int32, List&lt;Keys&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void AddKeyConfigLine(object key, List&lt;Keys&gt; list)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void AddKeyConfigLine(int key, List&lt;Keys&gt; list)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,13 +139,62 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">key</span></td>
         <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Microsoft.Xna.Framework.Input.Keys</span>&gt;</td>
         <td><span class="parametername">list</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_patch_KeyboardConfigUI_AddKeyConfigLine_" data-uid="Celeste.patch_KeyboardConfigUI.AddKeyConfigLine*"></a>
+  <h4 id="Celeste_patch_KeyboardConfigUI_AddKeyConfigLine__1___0_System_Collections_Generic_List_Microsoft_Xna_Framework_Input_Keys__" data-uid="Celeste.patch_KeyboardConfigUI.AddKeyConfigLine``1(``0,System.Collections.Generic.List{Microsoft.Xna.Framework.Input.Keys})">AddKeyConfigLine&lt;T&gt;(T, List&lt;Keys&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddKeyConfigLine&lt;T&gt;(T key, List&lt;Keys&gt; list)
+
+    where T : Enum</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Microsoft.Xna.Framework.Input.Keys</span>&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>

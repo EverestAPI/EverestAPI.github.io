@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EverestModuleMetadata
    | Everest ">
-    <meta name="generator" content="docfx 2.44.0.0">
+    <meta name="generator" content="docfx 2.55.0.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <link rel="shortcut icon" href="../favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -90,8 +90,7 @@
   
   <h1 id="Celeste_Mod_EverestModuleMetadata" data-uid="Celeste.Mod.EverestModuleMetadata" class="text-break">Class EverestModuleMetadata
   </h1>
-  <div class="markdown level0 summary"><p>Any module metadata, usually mirroring the data in your metadata.yaml</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -123,7 +122,7 @@
   <h6><strong>Assembly</strong>: Celeste.Mod.mm.dll</h6>
   <h5 id="Celeste_Mod_EverestModuleMetadata_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EverestModuleMetadata</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class EverestModuleMetadata</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -137,44 +136,17 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public EverestModuleMetadata()</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="Celeste_Mod_EverestModuleMetadata__VersionString" data-uid="Celeste.Mod.EverestModuleMetadata._VersionString">_VersionString</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected string _VersionString</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   
   
   <a id="Celeste_Mod_EverestModuleMetadata_Dependencies_" data-uid="Celeste.Mod.EverestModuleMetadata.Dependencies*"></a>
   <h4 id="Celeste_Mod_EverestModuleMetadata_Dependencies" data-uid="Celeste.Mod.EverestModuleMetadata.Dependencies">Dependencies</h4>
-  <div class="markdown level1 summary"><p>The dependencies of the mod.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual List&lt;EverestModuleMetadata&gt; Dependencies { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;EverestModuleMetadata&gt; Dependencies { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -195,12 +167,11 @@
   
   <a id="Celeste_Mod_EverestModuleMetadata_DLL_" data-uid="Celeste.Mod.EverestModuleMetadata.DLL*"></a>
   <h4 id="Celeste_Mod_EverestModuleMetadata_DLL" data-uid="Celeste.Mod.EverestModuleMetadata.DLL">DLL</h4>
-  <div class="markdown level1 summary"><p>The path of the mod .dll inside the ZIP or the absolute DLL path if in a directory.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string DLL { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string DLL { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -221,12 +192,11 @@
   
   <a id="Celeste_Mod_EverestModuleMetadata_Hash_" data-uid="Celeste.Mod.EverestModuleMetadata.Hash*"></a>
   <h4 id="Celeste_Mod_EverestModuleMetadata_Hash" data-uid="Celeste.Mod.EverestModuleMetadata.Hash">Hash</h4>
-  <div class="markdown level1 summary"><p>The runtime mod hash. Might not be determined by all mod content.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual byte[] Hash { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public byte[] Hash { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -245,41 +215,13 @@
   </table>
   
   
-  <a id="Celeste_Mod_EverestModuleMetadata_Icon_" data-uid="Celeste.Mod.EverestModuleMetadata.Icon*"></a>
-  <h4 id="Celeste_Mod_EverestModuleMetadata_Icon" data-uid="Celeste.Mod.EverestModuleMetadata.Icon">Icon</h4>
-  <div class="markdown level1 summary"><p>The icon of the mod to be used in the mod menu.
-Everest loads icon.png by default, but this can also be set by the mod at runtime.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual Texture2D Icon { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Microsoft.Xna.Framework.Graphics.Texture2D</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Celeste_Mod_EverestModuleMetadata_Multimeta_" data-uid="Celeste.Mod.EverestModuleMetadata.Multimeta*"></a>
   <h4 id="Celeste_Mod_EverestModuleMetadata_Multimeta" data-uid="Celeste.Mod.EverestModuleMetadata.Multimeta">Multimeta</h4>
-  <div class="markdown level1 summary"><p>The collection of mod metadatas this mod metadata is part of. Set at runtime.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual EverestModuleMetadata[] Multimeta { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EverestModuleMetadata[] Multimeta { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -300,12 +242,11 @@ Everest loads icon.png by default, but this can also be set by the mod at runtim
   
   <a id="Celeste_Mod_EverestModuleMetadata_Name_" data-uid="Celeste.Mod.EverestModuleMetadata.Name*"></a>
   <h4 id="Celeste_Mod_EverestModuleMetadata_Name" data-uid="Celeste.Mod.EverestModuleMetadata.Name">Name</h4>
-  <div class="markdown level1 summary"><p>The name of the mod.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string Name { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -326,12 +267,11 @@ Everest loads icon.png by default, but this can also be set by the mod at runtim
   
   <a id="Celeste_Mod_EverestModuleMetadata_PathArchive_" data-uid="Celeste.Mod.EverestModuleMetadata.PathArchive*"></a>
   <h4 id="Celeste_Mod_EverestModuleMetadata_PathArchive" data-uid="Celeste.Mod.EverestModuleMetadata.PathArchive">PathArchive</h4>
-  <div class="markdown level1 summary"><p>The path to the ZIP of the mod. In case of unzipped mods, an empty string. Set at runtime.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string PathArchive { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string PathArchive { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -352,12 +292,11 @@ Everest loads icon.png by default, but this can also be set by the mod at runtim
   
   <a id="Celeste_Mod_EverestModuleMetadata_PathDirectory_" data-uid="Celeste.Mod.EverestModuleMetadata.PathDirectory*"></a>
   <h4 id="Celeste_Mod_EverestModuleMetadata_PathDirectory" data-uid="Celeste.Mod.EverestModuleMetadata.PathDirectory">PathDirectory</h4>
-  <div class="markdown level1 summary"><p>The path to the directory of the mod. In case of .zips, an empty string. Set at runtime.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string PathDirectory { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string PathDirectory { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -376,14 +315,38 @@ Everest loads icon.png by default, but this can also be set by the mod at runtim
   </table>
   
   
-  <a id="Celeste_Mod_EverestModuleMetadata_Version_" data-uid="Celeste.Mod.EverestModuleMetadata.Version*"></a>
-  <h4 id="Celeste_Mod_EverestModuleMetadata_Version" data-uid="Celeste.Mod.EverestModuleMetadata.Version">Version</h4>
-  <div class="markdown level1 summary"><p>The mod version.</p>
-</div>
+  <a id="Celeste_Mod_EverestModuleMetadata_SupportsCodeReload_" data-uid="Celeste.Mod.EverestModuleMetadata.SupportsCodeReload*"></a>
+  <h4 id="Celeste_Mod_EverestModuleMetadata_SupportsCodeReload" data-uid="Celeste.Mod.EverestModuleMetadata.SupportsCodeReload">SupportsCodeReload</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual Version Version { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool SupportsCodeReload { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_Mod_EverestModuleMetadata_Version_" data-uid="Celeste.Mod.EverestModuleMetadata.Version*"></a>
+  <h4 id="Celeste_Mod_EverestModuleMetadata_Version" data-uid="Celeste.Mod.EverestModuleMetadata.Version">Version</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Version Version { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -408,7 +371,7 @@ Everest loads icon.png by default, but this can also be set by the mod at runtim
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual string VersionString { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string VersionString { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -431,8 +394,7 @@ Everest loads icon.png by default, but this can also be set by the mod at runtim
   
   <a id="Celeste_Mod_EverestModuleMetadata_PostParse_" data-uid="Celeste.Mod.EverestModuleMetadata.PostParse*"></a>
   <h4 id="Celeste_Mod_EverestModuleMetadata_PostParse" data-uid="Celeste.Mod.EverestModuleMetadata.PostParse">PostParse()</h4>
-  <div class="markdown level1 summary"><p>Perform a few basic post-parsing operations. For example, make the DLL path absolute if the mod is in a directory.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

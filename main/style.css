@@ -33,8 +33,6 @@ body {
     right: 0;
     background-image: url("./background.png");
     background-size: cover;
-    filter: blur(8px);
-    backface-visibility: hidden;
 }
 
 #cogwheel {
@@ -112,14 +110,13 @@ body {
 
 #overlay {
     background: url(./overlay.png);
-    animation: overlay linear 40s 0s forwards infinite;
     position: absolute;
     top: 0;
     left: 0;
-    width: 200vw;
-    height: 200vw;
-    background-size: 100vw;
-    background-position: 0 0;
+    width: 100vw;
+    height: 100vw;
+    background-size: 77vw;
+    background-position: 20vh 10vh;
 }
 
 #noisefg {
@@ -134,7 +131,6 @@ body {
     z-index: 100;
     pointer-events: none;
     opacity: 0.03;
-    animation: noisemove 1s forwards infinite linear;
     mix-blend-mode: screen;
     z-index: 10001;
 }
@@ -264,8 +260,8 @@ a.button:hover, a.button:focus, a.button:active {
 
 
 @media only screen and (max-width: 600px) {
-    #front { 
-        bottom: unset;  
+    #front {
+        bottom: unset;
     }
 
     #body {
@@ -319,26 +315,6 @@ a.button:hover, a.button:focus, a.button:active {
     }
     100% {
         transform: rotate(360deg);
-    }
-}
-
-@keyframes overlay {
-    0% {
-        transform: translate(-50%, -50%);
-    }
-    100% {
-        transform: translate(0, 0);
-    }
-}
-
-@keyframes noisemove {
-    0% {
-        background-position-x: -3357px;
-        background-position-y: -4489px;
-    }
-    100% {
-        background-position-x: 3231px;
-        background-position-y: 5821px;
     }
 }
 
