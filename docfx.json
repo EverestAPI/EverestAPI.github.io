@@ -4,7 +4,7 @@
       "src": [
         {
           "files": [
-            "Celeste.Mod.mm/bin/Debug/**.mm.dll"
+            "Celeste.Mod.mm/bin/Debug/net452/**.mm.dll"
           ],
           "src": "../Everest/"
         }
@@ -23,7 +23,7 @@
       },
       {
         "files": [
-          "tutorials/**"          
+          "tutorials/**"
         ]
       },
       {
