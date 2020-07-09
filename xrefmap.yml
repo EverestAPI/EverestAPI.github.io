@@ -2065,6 +2065,18 @@ references:
   commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CreateMainMenuModeEntry
   fullName: Celeste.Mod.Core.CoreModuleSettings.CreateMainMenuModeEntry
   nameWithType: CoreModuleSettings.CreateMainMenuModeEntry
+- uid: Celeste.Mod.Core.CoreModuleSettings.CurrentBranch
+  name: CurrentBranch
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CurrentBranch
+  commentId: P:Celeste.Mod.Core.CoreModuleSettings.CurrentBranch
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CurrentBranch
+  nameWithType: CoreModuleSettings.CurrentBranch
+- uid: Celeste.Mod.Core.CoreModuleSettings.CurrentBranch*
+  name: CurrentBranch
+  href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CurrentBranch_
+  commentId: Overload:Celeste.Mod.Core.CoreModuleSettings.CurrentBranch
+  fullName: Celeste.Mod.Core.CoreModuleSettings.CurrentBranch
+  nameWithType: CoreModuleSettings.CurrentBranch
 - uid: Celeste.Mod.Core.CoreModuleSettings.CurrentVersion
   name: CurrentVersion
   href: api/Celeste.Mod.Core.CoreModuleSettings.html#Celeste_Mod_Core_CoreModuleSettings_CurrentVersion
@@ -3703,36 +3715,6 @@ references:
   commentId: Overload:Celeste.Mod.Entities.GenericStrawberrySeed.Update
   fullName: Celeste.Mod.Entities.GenericStrawberrySeed.Update
   nameWithType: GenericStrawberrySeed.Update
-- uid: Celeste.Mod.Entities.ITriggerable
-  name: ITriggerable
-  href: api/Celeste.Mod.Entities.ITriggerable.html
-  commentId: T:Celeste.Mod.Entities.ITriggerable
-  fullName: Celeste.Mod.Entities.ITriggerable
-  nameWithType: ITriggerable
-- uid: Celeste.Mod.Entities.ITriggerable.StartTriggered
-  name: StartTriggered()
-  href: api/Celeste.Mod.Entities.ITriggerable.html#Celeste_Mod_Entities_ITriggerable_StartTriggered
-  commentId: M:Celeste.Mod.Entities.ITriggerable.StartTriggered
-  fullName: Celeste.Mod.Entities.ITriggerable.StartTriggered()
-  nameWithType: ITriggerable.StartTriggered()
-- uid: Celeste.Mod.Entities.ITriggerable.StartTriggered*
-  name: StartTriggered
-  href: api/Celeste.Mod.Entities.ITriggerable.html#Celeste_Mod_Entities_ITriggerable_StartTriggered_
-  commentId: Overload:Celeste.Mod.Entities.ITriggerable.StartTriggered
-  fullName: Celeste.Mod.Entities.ITriggerable.StartTriggered
-  nameWithType: ITriggerable.StartTriggered
-- uid: Celeste.Mod.Entities.ITriggerable.Trigger
-  name: Trigger()
-  href: api/Celeste.Mod.Entities.ITriggerable.html#Celeste_Mod_Entities_ITriggerable_Trigger
-  commentId: M:Celeste.Mod.Entities.ITriggerable.Trigger
-  fullName: Celeste.Mod.Entities.ITriggerable.Trigger()
-  nameWithType: ITriggerable.Trigger()
-- uid: Celeste.Mod.Entities.ITriggerable.Trigger*
-  name: Trigger
-  href: api/Celeste.Mod.Entities.ITriggerable.html#Celeste_Mod_Entities_ITriggerable_Trigger_
-  commentId: Overload:Celeste.Mod.Entities.ITriggerable.Trigger
-  fullName: Celeste.Mod.Entities.ITriggerable.Trigger
-  nameWithType: ITriggerable.Trigger
 - uid: Celeste.Mod.Entities.LavaBlockerTrigger
   name: LavaBlockerTrigger
   href: api/Celeste.Mod.Entities.LavaBlockerTrigger.html
@@ -10463,6 +10445,18 @@ references:
   commentId: Overload:Celeste.Mod.Extensions.ExtractStream
   fullName: Celeste.Mod.Extensions.ExtractStream
   nameWithType: Extensions.ExtractStream
+- uid: Celeste.Mod.Extensions.GetTypesSafe(System.Reflection.Assembly)
+  name: GetTypesSafe(Assembly)
+  href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_GetTypesSafe_System_Reflection_Assembly_
+  commentId: M:Celeste.Mod.Extensions.GetTypesSafe(System.Reflection.Assembly)
+  fullName: Celeste.Mod.Extensions.GetTypesSafe(System.Reflection.Assembly)
+  nameWithType: Extensions.GetTypesSafe(Assembly)
+- uid: Celeste.Mod.Extensions.GetTypesSafe*
+  name: GetTypesSafe
+  href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_GetTypesSafe_
+  commentId: Overload:Celeste.Mod.Extensions.GetTypesSafe
+  fullName: Celeste.Mod.Extensions.GetTypesSafe
+  nameWithType: Extensions.GetTypesSafe
 - uid: Celeste.Mod.Extensions.InvokePassing*
   name: InvokePassing
   href: api/Celeste.Mod.Extensions.html#Celeste_Mod_Extensions_InvokePassing_

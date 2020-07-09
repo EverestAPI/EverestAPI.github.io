@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Extensions
    | Everest ">
-    <meta name="generator" content="docfx 2.55.0.0">
+    <meta name="generator" content="docfx 2.56.1.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <link rel="shortcut icon" href="../favicon.png">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -908,6 +908,48 @@
   </table>
   
   
+  <a id="Celeste_Mod_Extensions_GetTypesSafe_" data-uid="Celeste.Mod.Extensions.GetTypesSafe*"></a>
+  <h4 id="Celeste_Mod_Extensions_GetTypesSafe_System_Reflection_Assembly_" data-uid="Celeste.Mod.Extensions.GetTypesSafe(System.Reflection.Assembly)">GetTypesSafe(Assembly)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Type[] GetTypesSafe(this Assembly asm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td><span class="parametername">asm</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Celeste_Mod_Extensions_InvokePassing_" data-uid="Celeste.Mod.Extensions.InvokePassing*"></a>
   <h4 id="Celeste_Mod_Extensions_InvokePassing__1_System_MulticastDelegate___0_System_Object___" data-uid="Celeste.Mod.Extensions.InvokePassing``1(System.MulticastDelegate,``0,System.Object[])">InvokePassing&lt;T&gt;(MulticastDelegate, T, Object[])</h4>
   <div class="markdown level1 summary"></div>
@@ -1029,7 +1071,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T InvokeWhileNull&lt;T&gt;(this MulticastDelegate md, params object[] args)
-
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
