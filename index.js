@@ -13,14 +13,16 @@
 			// parse the response
 			var json = JSON.parse(this.responseText);
 			
-			// get the master and stable build IDs
-			var masterVersions = extractVersionsList(json, 'refs/heads/master');
+			// get the dev, beta and stable build IDs
+			var devVersions = extractVersionsList(json, 'refs/heads/dev');
+			var betaVersions = extractVersionsList(json, 'refs/heads/beta');
 			var stableVersions = extractVersionsList(json, 'refs/heads/stable');
 			
 			// if both are present...
-			if (masterVersions.length !== 0 && stableVersions.length !== 0) {
+			if (devVersions.length !== 0 && betaVersions.length !== 0 && stableVersions.length !== 0) {
 				// set the links to their artifacts
-				document.getElementById("latest-master-link").href = 'https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/' + masterVersions[0] + '/artifacts?artifactName=main&api-version=5.0&%24format=zip'
+				document.getElementById("latest-dev-link").href = 'https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/' + devVersions[0] + '/artifacts?artifactName=main&api-version=5.0&%24format=zip'
+				document.getElementById("latest-beta-link").href = 'https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/' + betaVersions[0] + '/artifacts?artifactName=main&api-version=5.0&%24format=zip'
 				document.getElementById("latest-stable-link").href = 'https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/' + stableVersions[0] + '/artifacts?artifactName=main&api-version=5.0&%24format=zip'
 				
 				// remove the line saying "Click the '1 published' button under 'Related', then 'main' to download it." since those are now direct links.
@@ -30,7 +32,7 @@
 		}
 	};
 	
-	// run a request to Azure to get the latest master and stable IDs, to turn the download links into direct links.
+	// run a request to Azure to get the latest dev/beta/stable IDs, to turn the download links into direct links.
 	xhttp.open("GET", "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds?api-version=5.0", true);
 	xhttp.send();
 }
