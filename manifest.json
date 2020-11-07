@@ -854,6 +854,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Celeste.Mod.Entities.EntityTriggerListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Celeste.Mod.Entities.EntityTriggerListener.html",
+          "hash": "gUN50mIRxS0EKin+x4k6zQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Celeste.Mod.Entities.FlagTrigger.yml",
       "output": {
         ".html": {
@@ -1014,7 +1026,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Entities.html",
-          "hash": "ltqfEwSF6YDLpIE5yZI4PQ=="
+          "hash": "YeGb2fH0uD72HqUkj13nWQ=="
         }
       },
       "is_incremental": false,
@@ -1410,7 +1422,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Everest.Loader.html",
-          "hash": "3jbK/mNZCyA8nl+q67rprA=="
+          "hash": "VtNDjPFPBtuGhzWykSjczw=="
         }
       },
       "is_incremental": false,
@@ -2334,7 +2346,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Helpers.ModUpdaterHelper.html",
-          "hash": "6x7gZ9qNYwj4O6Wb8x9+cw=="
+          "hash": "aDwg7wOEM+vEWl4s2gl5zA=="
         }
       },
       "is_incremental": false,
@@ -2646,7 +2658,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.Mod.Meta.MapMetaMountain.html",
-          "hash": "6iiIG0rxp37Kb02kCyAMSA=="
+          "hash": "catUvEdkUG+6x+ZGgjYjgA=="
         }
       },
       "is_incremental": false,
@@ -3354,7 +3366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Celeste.MountainResources.html",
-          "hash": "AZqDmKNzBkVCDSkZQGl5Ug=="
+          "hash": "zeUHBdysafFjA43Q8nfn1w=="
         }
       },
       "is_incremental": false,
@@ -3990,7 +4002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "LGKf/GJK+5CO9OnHhSlhcA=="
+          "hash": "4sPuvnq5HiDQFmNDgnkd2A=="
         }
       },
       "is_incremental": false,
@@ -4346,25 +4358,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because docfx version changed from 2.55.0.0 to 2.56.1.0.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "DocfxVersionChanged"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 0
+          "skipped_file_count": 4
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 330,
-          "skipped_file_count": 0
+          "total_file_count": 331,
+          "skipped_file_count": 331
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

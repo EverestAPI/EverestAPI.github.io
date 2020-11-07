@@ -298,12 +298,12 @@
   
   
   <a id="Celeste_Mod_Helpers_ModUpdaterHelper_ListAvailableUpdates_" data-uid="Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates*"></a>
-  <h4 id="Celeste_Mod_Helpers_ModUpdaterHelper_ListAvailableUpdates_System_Collections_Generic_Dictionary_System_String_Celeste_Mod_Helpers_ModUpdateInfo__" data-uid="Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates(System.Collections.Generic.Dictionary{System.String,Celeste.Mod.Helpers.ModUpdateInfo})">ListAvailableUpdates(Dictionary&lt;String, ModUpdateInfo&gt;)</h4>
+  <h4 id="Celeste_Mod_Helpers_ModUpdaterHelper_ListAvailableUpdates_System_Collections_Generic_Dictionary_System_String_Celeste_Mod_Helpers_ModUpdateInfo__System_Boolean_" data-uid="Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates(System.Collections.Generic.Dictionary{System.String,Celeste.Mod.Helpers.ModUpdateInfo},System.Boolean)">ListAvailableUpdates(Dictionary&lt;String, ModUpdateInfo&gt;, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SortedDictionary&lt;ModUpdateInfo, EverestModuleMetadata&gt; ListAvailableUpdates(Dictionary&lt;string, ModUpdateInfo&gt; updateCatalog)</code></pre>
+    <pre><code class="lang-csharp hljs">public static SortedDictionary&lt;ModUpdateInfo, EverestModuleMetadata&gt; ListAvailableUpdates(Dictionary&lt;string, ModUpdateInfo&gt; updateCatalog, bool excludeBlacklist)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -318,6 +318,11 @@
       <tr>
         <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="Celeste.Mod.Helpers.ModUpdateInfo.html">ModUpdateInfo</a>&gt;</td>
         <td><span class="parametername">updateCatalog</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">excludeBlacklist</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -340,13 +345,30 @@
   
   
   <a id="Celeste_Mod_Helpers_ModUpdaterHelper_RunAsyncCheckForModUpdates_" data-uid="Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates*"></a>
-  <h4 id="Celeste_Mod_Helpers_ModUpdaterHelper_RunAsyncCheckForModUpdates" data-uid="Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates">RunAsyncCheckForModUpdates()</h4>
+  <h4 id="Celeste_Mod_Helpers_ModUpdaterHelper_RunAsyncCheckForModUpdates_System_Boolean_" data-uid="Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates(System.Boolean)">RunAsyncCheckForModUpdates(Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RunAsyncCheckForModUpdates()</code></pre>
+    <pre><code class="lang-csharp hljs">public static void RunAsyncCheckForModUpdates(bool excludeBlacklist)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">excludeBlacklist</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Celeste_Mod_Helpers_ModUpdaterHelper_TryDelete_" data-uid="Celeste.Mod.Helpers.ModUpdaterHelper.TryDelete*"></a>

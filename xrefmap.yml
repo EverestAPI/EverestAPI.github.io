@@ -3559,6 +3559,36 @@ references:
   commentId: Overload:Celeste.Mod.Entities.DialogCutsceneTrigger.OnEnter
   fullName: Celeste.Mod.Entities.DialogCutsceneTrigger.OnEnter
   nameWithType: DialogCutsceneTrigger.OnEnter
+- uid: Celeste.Mod.Entities.EntityTriggerListener
+  name: EntityTriggerListener
+  href: api/Celeste.Mod.Entities.EntityTriggerListener.html
+  commentId: T:Celeste.Mod.Entities.EntityTriggerListener
+  fullName: Celeste.Mod.Entities.EntityTriggerListener
+  nameWithType: EntityTriggerListener
+- uid: Celeste.Mod.Entities.EntityTriggerListener.#ctor(System.Action,System.Action)
+  name: EntityTriggerListener(Action, Action)
+  href: api/Celeste.Mod.Entities.EntityTriggerListener.html#Celeste_Mod_Entities_EntityTriggerListener__ctor_System_Action_System_Action_
+  commentId: M:Celeste.Mod.Entities.EntityTriggerListener.#ctor(System.Action,System.Action)
+  fullName: Celeste.Mod.Entities.EntityTriggerListener.EntityTriggerListener(System.Action, System.Action)
+  nameWithType: EntityTriggerListener.EntityTriggerListener(Action, Action)
+- uid: Celeste.Mod.Entities.EntityTriggerListener.#ctor*
+  name: EntityTriggerListener
+  href: api/Celeste.Mod.Entities.EntityTriggerListener.html#Celeste_Mod_Entities_EntityTriggerListener__ctor_
+  commentId: Overload:Celeste.Mod.Entities.EntityTriggerListener.#ctor
+  fullName: Celeste.Mod.Entities.EntityTriggerListener.EntityTriggerListener
+  nameWithType: EntityTriggerListener.EntityTriggerListener
+- uid: Celeste.Mod.Entities.EntityTriggerListener.OnStartTriggered
+  name: OnStartTriggered
+  href: api/Celeste.Mod.Entities.EntityTriggerListener.html#Celeste_Mod_Entities_EntityTriggerListener_OnStartTriggered
+  commentId: F:Celeste.Mod.Entities.EntityTriggerListener.OnStartTriggered
+  fullName: Celeste.Mod.Entities.EntityTriggerListener.OnStartTriggered
+  nameWithType: EntityTriggerListener.OnStartTriggered
+- uid: Celeste.Mod.Entities.EntityTriggerListener.OnTrigger
+  name: OnTrigger
+  href: api/Celeste.Mod.Entities.EntityTriggerListener.html#Celeste_Mod_Entities_EntityTriggerListener_OnTrigger
+  commentId: F:Celeste.Mod.Entities.EntityTriggerListener.OnTrigger
+  fullName: Celeste.Mod.Entities.EntityTriggerListener.OnTrigger
+  nameWithType: EntityTriggerListener.OnTrigger
 - uid: Celeste.Mod.Entities.FlagTrigger
   name: FlagTrigger
   href: api/Celeste.Mod.Entities.FlagTrigger.html
@@ -6257,6 +6287,18 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Loader.PathMods
   fullName: Celeste.Mod.Everest.Loader.PathMods
   nameWithType: Everest.Loader.PathMods
+- uid: Celeste.Mod.Everest.Loader.PathUpdaterBlacklist
+  name: PathUpdaterBlacklist
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_PathUpdaterBlacklist
+  commentId: P:Celeste.Mod.Everest.Loader.PathUpdaterBlacklist
+  fullName: Celeste.Mod.Everest.Loader.PathUpdaterBlacklist
+  nameWithType: Everest.Loader.PathUpdaterBlacklist
+- uid: Celeste.Mod.Everest.Loader.PathUpdaterBlacklist*
+  name: PathUpdaterBlacklist
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_PathUpdaterBlacklist_
+  commentId: Overload:Celeste.Mod.Everest.Loader.PathUpdaterBlacklist
+  fullName: Celeste.Mod.Everest.Loader.PathUpdaterBlacklist
+  nameWithType: Everest.Loader.PathUpdaterBlacklist
 - uid: Celeste.Mod.Everest.Loader.PathWhitelist
   name: PathWhitelist
   href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_PathWhitelist
@@ -6269,6 +6311,18 @@ references:
   commentId: Overload:Celeste.Mod.Everest.Loader.PathWhitelist
   fullName: Celeste.Mod.Everest.Loader.PathWhitelist
   nameWithType: Everest.Loader.PathWhitelist
+- uid: Celeste.Mod.Everest.Loader.UpdaterBlacklist
+  name: UpdaterBlacklist
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_UpdaterBlacklist
+  commentId: P:Celeste.Mod.Everest.Loader.UpdaterBlacklist
+  fullName: Celeste.Mod.Everest.Loader.UpdaterBlacklist
+  nameWithType: Everest.Loader.UpdaterBlacklist
+- uid: Celeste.Mod.Everest.Loader.UpdaterBlacklist*
+  name: UpdaterBlacklist
+  href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_UpdaterBlacklist_
+  commentId: Overload:Celeste.Mod.Everest.Loader.UpdaterBlacklist
+  fullName: Celeste.Mod.Everest.Loader.UpdaterBlacklist
+  nameWithType: Everest.Loader.UpdaterBlacklist
 - uid: Celeste.Mod.Everest.Loader.VersionSatisfiesDependency(System.Version,System.Version)
   name: VersionSatisfiesDependency(Version, Version)
   href: api/Celeste.Mod.Everest.Loader.html#Celeste_Mod_Everest_Loader_VersionSatisfiesDependency_System_Version_System_Version_
@@ -12884,27 +12938,27 @@ references:
   commentId: Overload:Celeste.Mod.Helpers.ModUpdaterHelper.IsAsyncUpdateCheckingDone
   fullName: Celeste.Mod.Helpers.ModUpdaterHelper.IsAsyncUpdateCheckingDone
   nameWithType: ModUpdaterHelper.IsAsyncUpdateCheckingDone
-- uid: Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates(System.Collections.Generic.Dictionary{System.String,Celeste.Mod.Helpers.ModUpdateInfo})
-  name: ListAvailableUpdates(Dictionary<String, ModUpdateInfo>)
-  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_ListAvailableUpdates_System_Collections_Generic_Dictionary_System_String_Celeste_Mod_Helpers_ModUpdateInfo__
-  commentId: M:Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates(System.Collections.Generic.Dictionary{System.String,Celeste.Mod.Helpers.ModUpdateInfo})
-  name.vb: ListAvailableUpdates(Dictionary(Of String, ModUpdateInfo))
-  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates(System.Collections.Generic.Dictionary<System.String, Celeste.Mod.Helpers.ModUpdateInfo>)
-  fullName.vb: Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates(System.Collections.Generic.Dictionary(Of System.String, Celeste.Mod.Helpers.ModUpdateInfo))
-  nameWithType: ModUpdaterHelper.ListAvailableUpdates(Dictionary<String, ModUpdateInfo>)
-  nameWithType.vb: ModUpdaterHelper.ListAvailableUpdates(Dictionary(Of String, ModUpdateInfo))
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates(System.Collections.Generic.Dictionary{System.String,Celeste.Mod.Helpers.ModUpdateInfo},System.Boolean)
+  name: ListAvailableUpdates(Dictionary<String, ModUpdateInfo>, Boolean)
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_ListAvailableUpdates_System_Collections_Generic_Dictionary_System_String_Celeste_Mod_Helpers_ModUpdateInfo__System_Boolean_
+  commentId: M:Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates(System.Collections.Generic.Dictionary{System.String,Celeste.Mod.Helpers.ModUpdateInfo},System.Boolean)
+  name.vb: ListAvailableUpdates(Dictionary(Of String, ModUpdateInfo), Boolean)
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates(System.Collections.Generic.Dictionary<System.String, Celeste.Mod.Helpers.ModUpdateInfo>, System.Boolean)
+  fullName.vb: Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates(System.Collections.Generic.Dictionary(Of System.String, Celeste.Mod.Helpers.ModUpdateInfo), System.Boolean)
+  nameWithType: ModUpdaterHelper.ListAvailableUpdates(Dictionary<String, ModUpdateInfo>, Boolean)
+  nameWithType.vb: ModUpdaterHelper.ListAvailableUpdates(Dictionary(Of String, ModUpdateInfo), Boolean)
 - uid: Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates*
   name: ListAvailableUpdates
   href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_ListAvailableUpdates_
   commentId: Overload:Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates
   fullName: Celeste.Mod.Helpers.ModUpdaterHelper.ListAvailableUpdates
   nameWithType: ModUpdaterHelper.ListAvailableUpdates
-- uid: Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates
-  name: RunAsyncCheckForModUpdates()
-  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_RunAsyncCheckForModUpdates
-  commentId: M:Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates
-  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates()
-  nameWithType: ModUpdaterHelper.RunAsyncCheckForModUpdates()
+- uid: Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates(System.Boolean)
+  name: RunAsyncCheckForModUpdates(Boolean)
+  href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_RunAsyncCheckForModUpdates_System_Boolean_
+  commentId: M:Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates(System.Boolean)
+  fullName: Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates(System.Boolean)
+  nameWithType: ModUpdaterHelper.RunAsyncCheckForModUpdates(Boolean)
 - uid: Celeste.Mod.Helpers.ModUpdaterHelper.RunAsyncCheckForModUpdates*
   name: RunAsyncCheckForModUpdates
   href: api/Celeste.Mod.Helpers.ModUpdaterHelper.html#Celeste_Mod_Helpers_ModUpdaterHelper_RunAsyncCheckForModUpdates_
@@ -15048,6 +15102,30 @@ references:
   commentId: Overload:Celeste.Mod.Meta.MapMetaMountain.#ctor
   fullName: Celeste.Mod.Meta.MapMetaMountain.MapMetaMountain
   nameWithType: MapMetaMountain.MapMetaMountain
+- uid: Celeste.Mod.Meta.MapMetaMountain.BackgroundMusic
+  name: BackgroundMusic
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_BackgroundMusic
+  commentId: P:Celeste.Mod.Meta.MapMetaMountain.BackgroundMusic
+  fullName: Celeste.Mod.Meta.MapMetaMountain.BackgroundMusic
+  nameWithType: MapMetaMountain.BackgroundMusic
+- uid: Celeste.Mod.Meta.MapMetaMountain.BackgroundMusic*
+  name: BackgroundMusic
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_BackgroundMusic_
+  commentId: Overload:Celeste.Mod.Meta.MapMetaMountain.BackgroundMusic
+  fullName: Celeste.Mod.Meta.MapMetaMountain.BackgroundMusic
+  nameWithType: MapMetaMountain.BackgroundMusic
+- uid: Celeste.Mod.Meta.MapMetaMountain.BackgroundMusicParams
+  name: BackgroundMusicParams
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_BackgroundMusicParams
+  commentId: P:Celeste.Mod.Meta.MapMetaMountain.BackgroundMusicParams
+  fullName: Celeste.Mod.Meta.MapMetaMountain.BackgroundMusicParams
+  nameWithType: MapMetaMountain.BackgroundMusicParams
+- uid: Celeste.Mod.Meta.MapMetaMountain.BackgroundMusicParams*
+  name: BackgroundMusicParams
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_BackgroundMusicParams_
+  commentId: Overload:Celeste.Mod.Meta.MapMetaMountain.BackgroundMusicParams
+  fullName: Celeste.Mod.Meta.MapMetaMountain.BackgroundMusicParams
+  nameWithType: MapMetaMountain.BackgroundMusicParams
 - uid: Celeste.Mod.Meta.MapMetaMountain.Cursor
   name: Cursor
   href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_Cursor
@@ -15132,6 +15210,66 @@ references:
   commentId: Overload:Celeste.Mod.Meta.MapMetaMountain.ShowCore
   fullName: Celeste.Mod.Meta.MapMetaMountain.ShowCore
   nameWithType: MapMetaMountain.ShowCore
+- uid: Celeste.Mod.Meta.MapMetaMountain.ShowSnow
+  name: ShowSnow
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_ShowSnow
+  commentId: P:Celeste.Mod.Meta.MapMetaMountain.ShowSnow
+  fullName: Celeste.Mod.Meta.MapMetaMountain.ShowSnow
+  nameWithType: MapMetaMountain.ShowSnow
+- uid: Celeste.Mod.Meta.MapMetaMountain.ShowSnow*
+  name: ShowSnow
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_ShowSnow_
+  commentId: Overload:Celeste.Mod.Meta.MapMetaMountain.ShowSnow
+  fullName: Celeste.Mod.Meta.MapMetaMountain.ShowSnow
+  nameWithType: MapMetaMountain.ShowSnow
+- uid: Celeste.Mod.Meta.MapMetaMountain.StarBeltColors1
+  name: StarBeltColors1
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_StarBeltColors1
+  commentId: P:Celeste.Mod.Meta.MapMetaMountain.StarBeltColors1
+  fullName: Celeste.Mod.Meta.MapMetaMountain.StarBeltColors1
+  nameWithType: MapMetaMountain.StarBeltColors1
+- uid: Celeste.Mod.Meta.MapMetaMountain.StarBeltColors1*
+  name: StarBeltColors1
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_StarBeltColors1_
+  commentId: Overload:Celeste.Mod.Meta.MapMetaMountain.StarBeltColors1
+  fullName: Celeste.Mod.Meta.MapMetaMountain.StarBeltColors1
+  nameWithType: MapMetaMountain.StarBeltColors1
+- uid: Celeste.Mod.Meta.MapMetaMountain.StarBeltColors2
+  name: StarBeltColors2
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_StarBeltColors2
+  commentId: P:Celeste.Mod.Meta.MapMetaMountain.StarBeltColors2
+  fullName: Celeste.Mod.Meta.MapMetaMountain.StarBeltColors2
+  nameWithType: MapMetaMountain.StarBeltColors2
+- uid: Celeste.Mod.Meta.MapMetaMountain.StarBeltColors2*
+  name: StarBeltColors2
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_StarBeltColors2_
+  commentId: Overload:Celeste.Mod.Meta.MapMetaMountain.StarBeltColors2
+  fullName: Celeste.Mod.Meta.MapMetaMountain.StarBeltColors2
+  nameWithType: MapMetaMountain.StarBeltColors2
+- uid: Celeste.Mod.Meta.MapMetaMountain.StarFogColor
+  name: StarFogColor
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_StarFogColor
+  commentId: P:Celeste.Mod.Meta.MapMetaMountain.StarFogColor
+  fullName: Celeste.Mod.Meta.MapMetaMountain.StarFogColor
+  nameWithType: MapMetaMountain.StarFogColor
+- uid: Celeste.Mod.Meta.MapMetaMountain.StarFogColor*
+  name: StarFogColor
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_StarFogColor_
+  commentId: Overload:Celeste.Mod.Meta.MapMetaMountain.StarFogColor
+  fullName: Celeste.Mod.Meta.MapMetaMountain.StarFogColor
+  nameWithType: MapMetaMountain.StarFogColor
+- uid: Celeste.Mod.Meta.MapMetaMountain.StarStreamColors
+  name: StarStreamColors
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_StarStreamColors
+  commentId: P:Celeste.Mod.Meta.MapMetaMountain.StarStreamColors
+  fullName: Celeste.Mod.Meta.MapMetaMountain.StarStreamColors
+  nameWithType: MapMetaMountain.StarStreamColors
+- uid: Celeste.Mod.Meta.MapMetaMountain.StarStreamColors*
+  name: StarStreamColors
+  href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_StarStreamColors_
+  commentId: Overload:Celeste.Mod.Meta.MapMetaMountain.StarStreamColors
+  fullName: Celeste.Mod.Meta.MapMetaMountain.StarStreamColors
+  nameWithType: MapMetaMountain.StarStreamColors
 - uid: Celeste.Mod.Meta.MapMetaMountain.State
   name: State
   href: api/Celeste.Mod.Meta.MapMetaMountain.html#Celeste_Mod_Meta_MapMetaMountain_State
@@ -18671,6 +18809,12 @@ references:
   commentId: Overload:Celeste.MountainResources.#ctor
   fullName: Celeste.MountainResources.MountainResources
   nameWithType: MountainResources.MountainResources
+- uid: Celeste.MountainResources.MountainBird
+  name: MountainBird
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainBird
+  commentId: F:Celeste.MountainResources.MountainBird
+  fullName: Celeste.MountainResources.MountainBird
+  nameWithType: MountainResources.MountainBird
 - uid: Celeste.MountainResources.MountainBuildings
   name: MountainBuildings
   href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainBuildings
@@ -18689,18 +18833,60 @@ references:
   commentId: F:Celeste.MountainResources.MountainCoreWall
   fullName: Celeste.MountainResources.MountainCoreWall
   nameWithType: MountainResources.MountainCoreWall
+- uid: Celeste.MountainResources.MountainExtraModels
+  name: MountainExtraModels
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainExtraModels
+  commentId: F:Celeste.MountainResources.MountainExtraModels
+  fullName: Celeste.MountainResources.MountainExtraModels
+  nameWithType: MountainResources.MountainExtraModels
+- uid: Celeste.MountainResources.MountainExtraModelTextures
+  name: MountainExtraModelTextures
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainExtraModelTextures
+  commentId: F:Celeste.MountainResources.MountainExtraModelTextures
+  fullName: Celeste.MountainResources.MountainExtraModelTextures
+  nameWithType: MountainResources.MountainExtraModelTextures
 - uid: Celeste.MountainResources.MountainFogTexture
   name: MountainFogTexture
   href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainFogTexture
   commentId: F:Celeste.MountainResources.MountainFogTexture
   fullName: Celeste.MountainResources.MountainFogTexture
   nameWithType: MountainResources.MountainFogTexture
+- uid: Celeste.MountainResources.MountainMoon
+  name: MountainMoon
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainMoon
+  commentId: F:Celeste.MountainResources.MountainMoon
+  fullName: Celeste.MountainResources.MountainMoon
+  nameWithType: MountainResources.MountainMoon
+- uid: Celeste.MountainResources.MountainMoonTexture
+  name: MountainMoonTexture
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainMoonTexture
+  commentId: F:Celeste.MountainResources.MountainMoonTexture
+  fullName: Celeste.MountainResources.MountainMoonTexture
+  nameWithType: MountainResources.MountainMoonTexture
 - uid: Celeste.MountainResources.MountainSkyboxTextures
   name: MountainSkyboxTextures
   href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainSkyboxTextures
   commentId: F:Celeste.MountainResources.MountainSkyboxTextures
   fullName: Celeste.MountainResources.MountainSkyboxTextures
   nameWithType: MountainResources.MountainSkyboxTextures
+- uid: Celeste.MountainResources.MountainSpaceStarsTexture
+  name: MountainSpaceStarsTexture
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainSpaceStarsTexture
+  commentId: F:Celeste.MountainResources.MountainSpaceStarsTexture
+  fullName: Celeste.MountainResources.MountainSpaceStarsTexture
+  nameWithType: MountainResources.MountainSpaceStarsTexture
+- uid: Celeste.MountainResources.MountainSpaceTexture
+  name: MountainSpaceTexture
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainSpaceTexture
+  commentId: F:Celeste.MountainResources.MountainSpaceTexture
+  fullName: Celeste.MountainResources.MountainSpaceTexture
+  nameWithType: MountainResources.MountainSpaceTexture
+- uid: Celeste.MountainResources.MountainStarStreamTexture
+  name: MountainStarStreamTexture
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainStarStreamTexture
+  commentId: F:Celeste.MountainResources.MountainStarStreamTexture
+  fullName: Celeste.MountainResources.MountainStarStreamTexture
+  nameWithType: MountainResources.MountainStarStreamTexture
 - uid: Celeste.MountainResources.MountainStates
   name: MountainStates
   href: api/Celeste.MountainResources.html#Celeste_MountainResources_MountainStates
@@ -18719,6 +18905,30 @@ references:
   commentId: F:Celeste.MountainResources.MountainTerrainTextures
   fullName: Celeste.MountainResources.MountainTerrainTextures
   nameWithType: MountainResources.MountainTerrainTextures
+- uid: Celeste.MountainResources.StarBeltColors1
+  name: StarBeltColors1
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_StarBeltColors1
+  commentId: F:Celeste.MountainResources.StarBeltColors1
+  fullName: Celeste.MountainResources.StarBeltColors1
+  nameWithType: MountainResources.StarBeltColors1
+- uid: Celeste.MountainResources.StarBeltColors2
+  name: StarBeltColors2
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_StarBeltColors2
+  commentId: F:Celeste.MountainResources.StarBeltColors2
+  fullName: Celeste.MountainResources.StarBeltColors2
+  nameWithType: MountainResources.StarBeltColors2
+- uid: Celeste.MountainResources.StarFogColor
+  name: StarFogColor
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_StarFogColor
+  commentId: F:Celeste.MountainResources.StarFogColor
+  fullName: Celeste.MountainResources.StarFogColor
+  nameWithType: MountainResources.StarFogColor
+- uid: Celeste.MountainResources.StarStreamColors
+  name: StarStreamColors
+  href: api/Celeste.MountainResources.html#Celeste_MountainResources_StarStreamColors
+  commentId: F:Celeste.MountainResources.StarStreamColors
+  fullName: Celeste.MountainResources.StarStreamColors
+  nameWithType: MountainResources.StarStreamColors
 - uid: Celeste.MTNExt
   name: MTNExt
   href: api/Celeste.MTNExt.html
