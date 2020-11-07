@@ -104,7 +104,7 @@ body {
     overflow: hidden;
     mix-blend-mode: hard-light;
     opacity: 0.13;
-    filter: blur(16px);
+    /* filter: blur(16px); */ /* Thanks, Chromium?! */
     z-index: 10000;
 }
 
