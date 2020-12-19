@@ -17,12 +17,12 @@
 
         <meta property="docfx:navrel" content="toc.html">
         <meta property="docfx:tocrel" content="toc.html">
-        
+
         <meta property="docfx:rel" content="">
         <meta property="docfx:newtab" content="true">
         <meta property="og:type" content="article">
         <meta property="og:title" content="Everest - Celeste Mod Loader">
-        
+
         <meta property="og:description" content="The mod loader for the retro-style 2D platformer Celeste.">
         <meta name="author" content="Everest Team">
         <meta property="og:locale" content="en_US">
@@ -114,12 +114,75 @@
                 </ul>
 
                 <h2 id="installing-everest">Installing Everest</h2>
-                <h3 id="windows-auto-installer">Windows auto-installer</h3>
+
+                <h3 id="olympus">Olympus - Cross-platform Everest Installer</h3>
+                <p class="note">
+                    <img class="yolo" src="/main/yolo.png" alt="theo saying yolo">
+                    YOLO! This fancy tech is very fresh so don't be surprised if it blows up in your face.<br>
+                    Make sure to report all bugs to the Everest Team on the Celeste Discord server!<br>
+                    And yes, we are still trying to improve the macOS / Linux experience.
+                </p>
                 <ul>
-                    <li><a href="https://gamebanana.com/tools/download/6449"><strong>Download the latest installer <code>.exe</code></strong></a> and run it.</li>
-                    <li>If Windows SmartScreen blocks it, tell it to run anyway.</li>
-                    <li>Follow the steps in the installer.</li>
+                    <li>
+                        If you are on <strong>Windows:</strong>
+                        <ul>
+                            <li><a href="https://gamebanana.com/tools/download/6449">Download <strong><code>olympus.exe</code></strong> and run it.</a></li>
+                            <li>If Windows SmartScreen blocks it, tell it to run anyway.</li>
+                        </ul><br>
+                    </li>
+
+                    <li>
+                        If you are on <strong>macOS:</strong>
+                        <ul>
+                            <li>
+                                <a href="https://dev.azure.com/EverestAPI/Olympus/_build/latest?definitionId=4&amp;branchName=stable" id="olympus-macos-latest-link">Download the latest autobuild.</a>
+                                <div id="olympus-macos-artifact-instructions"><strong>Click the &quot;5 published&quot; button under &quot;Related&quot;, then &quot;macos.main&quot; to download it.</strong></div>
+                            </li>
+                            <li>Unzip the zip inside of the zip. Zipception!</li>
+                            <li>Drag the Olympus app into your Applications folder.</li>
+                            <li>
+                                Hope that it works.<br>
+                                Sadly our <span class="strike">code monkeys</span> top scientists aren't trained with Macs.<br>
+                                You might need to tell macOS that you want to run applications from unverified developers.<br>
+                                <strong>If you are a macOS user and are willing to help us test stuff: let us know on Discord!</strong>
+                            </li>
+                        </ul><br>
+                    </li>
+
+                    <li>
+                        If you are on <strong>Linux:</strong>
+                        <ul>
+                            <li>Install <a href="https://love2d.org/">love2d</a> (preferably v11.3) using the package manager of your distro's choice.</li>
+                            <li>
+                                <a href="https://dev.azure.com/EverestAPI/Olympus/_build/latest?definitionId=4&amp;branchName=stable" id="olympus-linux-latest-link">Download the latest autobuild.</a>
+                                <div id="olympus-linux-artifact-instructions"><strong>Click the &quot;5 published&quot; button under &quot;Related&quot;, then &quot;linux.main&quot; to download it.</strong></div>
+                            </li>
+                            <li>Unzip the zip inside of the zip. Zipception!</li>
+                            <li>
+                                Run <code>olympus.sh</code> and hope that it works.<br>
+                                If it doesn't, feel free to ask one of the other 11 Linux users on the Celeste Discord.
+                            </li>
+                        </ul><br>
+                    </li>
+
+                    <li><strong>No matter what platform you are on:</strong>
+                        <ul>
+                            <li>Press on the &quot;Manage&quot; button on the left side.</li>
+                            <li>Add your Celeste installation(s), change the name(s) as you see fit.</li>
+                            <li>Go back (top left corner) and press the huge Everest installation button.</li>
+                            <li>Select an Everest version and hit the long &quot;Install&quot; or &quot;Update&quot; button.</li>
+                        </ul>
+                    </li>
                 </ul>
+
+                <img class="screenshot" src="/main/olympus.png" alt="a screenshot of the olympus installer">
+
+                <h3 id="windows-auto-installer">Everest.Installer for Windows (old)</h3>
+                <ul>
+                    <li><a href="https://gamebanana.com/tools/download/6449">Download <strong><code>everestinstaller.exe</code></strong> and run it.</a></li>
+                    <li>If Windows SmartScreen blocks it, tell it to run anyway.</li>
+                </ul>
+
                 <h3 id="cross-platform-manual-installation">Cross-platform manual installation</h3>
                 <p class="note">
                     <img class="thinking" src="/main/thinking.png" alt="maddy thinking">
@@ -135,15 +198,15 @@
                             <li><a href="https://dev.azure.com/EverestAPI/Everest/_build/latest?definitionId=3&amp;branchName=beta" id="latest-beta-link">beta branch</a>: best to develop your mod or to have others test your mods on, with earlier access to new features.</li>
                             <li><a href="https://dev.azure.com/EverestAPI/Everest/_build/latest?definitionId=3&amp;branchName=dev" id="latest-dev-link">dev branch</a>: gets updated <i>very frequently</i> as development of new features goes on.</li>
                         </ul>
-                        <div id="artifact-instructions">Click the &quot;1 published&quot; button under &quot;Related&quot;, then &quot;main&quot; to download it.</div>
+                        <div id="artifact-instructions"><strong>Click the &quot;1 published&quot; button under &quot;Related&quot;, then &quot;main&quot; to download it.</strong></div>
                     </li>
                     <li>Open the directory where Celeste.exe is located:
                         <ul>
-                            <li><b>With Steam:</b> right click Celeste in your library, then &quot;Manage&quot; &gt; &quot;Browse local files&quot;.</li>
-                            <li><b>On macOS:</b> follow the step above if you own the game on Steam. Right click the Celeste application, and choose &quot;Show Package Contents&quot;. After that, go into the <code>Contents</code> directory, then <code>MacOS</code>.</li>
+                            <li><strong>With Steam:</strong> right click Celeste in your library, then &quot;Manage&quot; &gt; &quot;Browse local files&quot;.</li>
+                            <li><strong>On macOS:</strong> follow the step above if you own the game on Steam. Right click the Celeste application, and choose &quot;Show Package Contents&quot;. After that, go into the <code>Contents</code> directory, then <code>MacOS</code>.</li>
                         </ul>
                     </li>
-                    <li>Open the <code>main.zip</code> file you downloaded, then copy the <b>contents</b> of the <code>main</code> folder to the directory where Celeste.exe is: <code>Celeste.Mod.mm.dll</code> should be right next to <code>Celeste.exe</code>.</li>
+                    <li>Open the <code>main.zip</code> file you downloaded, then copy the <strong>contents</strong> of the <code>main</code> folder to the directory where Celeste.exe is: <code>Celeste.Mod.mm.dll</code> should be right next to <code>Celeste.exe</code>.</li>
                     <li>Run <code>MiniInstaller.exe</code>. On Linux / macOS, you will need to run it through mono:
                     <ul>
                         <li><a href="https://www.mono-project.com/download/stable/">Install the mono runtime</a>.</li>
