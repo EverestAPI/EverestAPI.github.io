@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CoreModuleSettings
+    <title>Class patch_SaveData
    | Everest </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CoreModuleSettings
+    <meta name="title" content="Class patch_SaveData
    | Everest ">
     <meta name="generator" content="docfx 2.56.1.0">
     <meta name="description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
@@ -22,7 +22,7 @@
     <meta property="docfx:rel" content="../">
     <meta property="docfx:newtab" content="true">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Class CoreModuleSettings
+    <meta property="og:title" content="Class patch_SaveData
   ">
     <meta property="og:site_name" content="Everest"><meta property="og:description" content="Unofficial mod loader for the retro-style 2D platformer Celeste.">
     <meta name="author" content="Everest Team">
@@ -85,74 +85,481 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Celeste.Mod.Core.CoreModuleSettings">
+            <article class="content wrap" id="_content" data-uid="Celeste.patch_SaveData">
   
   
-  <h1 id="Celeste_Mod_Core_CoreModuleSettings" data-uid="Celeste.Mod.Core.CoreModuleSettings" class="text-break">Class CoreModuleSettings
+  <h1 id="Celeste_patch_SaveData" data-uid="Celeste.patch_SaveData" class="text-break">Class patch_SaveData
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Celeste.Mod.EverestModuleSettings.html">EverestModuleSettings</a></div>
-    <div class="level2"><span class="xref">CoreModuleSettings</span></div>
+    <div class="level1"><span class="xref">patch_SaveData</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Celeste.Mod.Core.html">Celeste.Mod.Core</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Celeste.html">Celeste</a></h6>
   <h6><strong>Assembly</strong>: Celeste.Mod.mm.dll</h6>
-  <h5 id="Celeste_Mod_Core_CoreModuleSettings_syntax">Syntax</h5>
+  <h5 id="Celeste_patch_SaveData_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingName(&quot;modoptions_coremodule_title&quot;)]
-public class CoreModuleSettings : EverestModuleSettings</code></pre>
+    <pre><code class="lang-csharp hljs">public class patch_SaveData : SaveData</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings__ctor_" data-uid="Celeste.Mod.Core.CoreModuleSettings.#ctor*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings__ctor" data-uid="Celeste.Mod.Core.CoreModuleSettings.#ctor">CoreModuleSettings()</h4>
+  <a id="Celeste_patch_SaveData__ctor_" data-uid="Celeste.patch_SaveData.#ctor*"></a>
+  <h4 id="Celeste_patch_SaveData__ctor" data-uid="Celeste.patch_SaveData.#ctor">patch_SaveData()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CoreModuleSettings()</code></pre>
+    <pre><code class="lang-csharp hljs">public patch_SaveData()</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Celeste_patch_SaveData_Areas" data-uid="Celeste.patch_SaveData.Areas">Areas</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;AreaStats&gt; Areas</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Celeste.AreaStats</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_Areas_Unsafe" data-uid="Celeste.patch_SaveData.Areas_Unsafe">Areas_Unsafe</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;AreaStats&gt; Areas_Unsafe</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Celeste.AreaStats</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_CurrentSession" data-uid="Celeste.patch_SaveData.CurrentSession">CurrentSession</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Session CurrentSession</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.Session</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_CurrentSession_Safe" data-uid="Celeste.patch_SaveData.CurrentSession_Safe">CurrentSession_Safe</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Session CurrentSession_Safe</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.Session</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_CurrentSession_Unsafe" data-uid="Celeste.patch_SaveData.CurrentSession_Unsafe">CurrentSession_Unsafe</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Session CurrentSession_Unsafe</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.Session</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_HasModdedSaveData" data-uid="Celeste.patch_SaveData.HasModdedSaveData">HasModdedSaveData</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasModdedSaveData</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_LastArea" data-uid="Celeste.patch_SaveData.LastArea">LastArea</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AreaKey LastArea</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.AreaKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_LastArea_Safe" data-uid="Celeste.patch_SaveData.LastArea_Safe">LastArea_Safe</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AreaKey LastArea_Safe</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.AreaKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_LastArea_Unsafe" data-uid="Celeste.patch_SaveData.LastArea_Unsafe">LastArea_Unsafe</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AreaKey LastArea_Unsafe</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.AreaKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_LevelSetRecycleBin" data-uid="Celeste.patch_SaveData.LevelSetRecycleBin">LevelSetRecycleBin</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;LevelSetStats&gt; LevelSetRecycleBin</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Celeste.LevelSetStats.html">LevelSetStats</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_LevelSets" data-uid="Celeste.patch_SaveData.LevelSets">LevelSets</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;LevelSetStats&gt; LevelSets</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Celeste.LevelSetStats.html">LevelSetStats</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_LoadedModSaveDataIndex" data-uid="Celeste.patch_SaveData.LoadedModSaveDataIndex">LoadedModSaveDataIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int LoadedModSaveDataIndex</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_Poem" data-uid="Celeste.patch_SaveData.Poem">Poem</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; Poem</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_Poem_Unsafe" data-uid="Celeste.patch_SaveData.Poem_Unsafe">Poem_Unsafe</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; Poem_Unsafe</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_TotalStrawberries" data-uid="Celeste.patch_SaveData.TotalStrawberries">TotalStrawberries</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TotalStrawberries</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_TotalStrawberries_Unsafe" data-uid="Celeste.patch_SaveData.TotalStrawberries_Unsafe">TotalStrawberries_Unsafe</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TotalStrawberries_Unsafe</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_UnlockedAreas" data-uid="Celeste.patch_SaveData.UnlockedAreas">UnlockedAreas</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int UnlockedAreas</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Celeste_patch_SaveData_UnlockedAreas_Unsafe" data-uid="Celeste.patch_SaveData.UnlockedAreas_Unsafe">UnlockedAreas_Unsafe</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int UnlockedAreas_Unsafe</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings_AutoUpdateModsOnStartup_" data-uid="Celeste.Mod.Core.CoreModuleSettings.AutoUpdateModsOnStartup*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_AutoUpdateModsOnStartup" data-uid="Celeste.Mod.Core.CoreModuleSettings.AutoUpdateModsOnStartup">AutoUpdateModsOnStartup</h4>
+  <a id="Celeste_patch_SaveData_Areas_Safe_" data-uid="Celeste.patch_SaveData.Areas_Safe*"></a>
+  <h4 id="Celeste_patch_SaveData_Areas_Safe" data-uid="Celeste.patch_SaveData.Areas_Safe">Areas_Safe</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingInGame(false)]
-public bool AutoUpdateModsOnStartup { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;AreaStats&gt; Areas_Safe { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -164,73 +571,20 @@ public bool AutoUpdateModsOnStartup { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Celeste.AreaStats</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings_CodeReload_" data-uid="Celeste.Mod.Core.CoreModuleSettings.CodeReload*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_CodeReload" data-uid="Celeste.Mod.Core.CoreModuleSettings.CodeReload">CodeReload</h4>
+  <a id="Celeste_patch_SaveData_LevelSet_" data-uid="Celeste.patch_SaveData.LevelSet*"></a>
+  <h4 id="Celeste_patch_SaveData_LevelSet" data-uid="Celeste.patch_SaveData.LevelSet">LevelSet</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public bool CodeReload { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_CodeReload_WIP_" data-uid="Celeste.Mod.Core.CoreModuleSettings.CodeReload_WIP*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_CodeReload_WIP" data-uid="Celeste.Mod.Core.CoreModuleSettings.CodeReload_WIP">CodeReload_WIP</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public bool CodeReload_WIP { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_CurrentBranch_" data-uid="Celeste.Mod.Core.CoreModuleSettings.CurrentBranch*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_CurrentBranch" data-uid="Celeste.Mod.Core.CoreModuleSettings.CurrentBranch">CurrentBranch</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public string CurrentBranch { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string LevelSet { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -249,14 +603,13 @@ public string CurrentBranch { get; set; }</code></pre>
   </table>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings_CurrentVersion_" data-uid="Celeste.Mod.Core.CoreModuleSettings.CurrentVersion*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_CurrentVersion" data-uid="Celeste.Mod.Core.CoreModuleSettings.CurrentVersion">CurrentVersion</h4>
+  <a id="Celeste_patch_SaveData_LevelSetStats_" data-uid="Celeste.patch_SaveData.LevelSetStats*"></a>
+  <h4 id="Celeste_patch_SaveData_LevelSetStats" data-uid="Celeste.patch_SaveData.LevelSetStats">LevelSetStats</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public string CurrentVersion { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public LevelSetStats LevelSetStats { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -268,99 +621,20 @@ public string CurrentVersion { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Celeste.LevelSetStats.html">LevelSetStats</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings_DebugMode_" data-uid="Celeste.Mod.Core.CoreModuleSettings.DebugMode*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_DebugMode" data-uid="Celeste.Mod.Core.CoreModuleSettings.DebugMode">DebugMode</h4>
+  <a id="Celeste_patch_SaveData_MaxArea_" data-uid="Celeste.patch_SaveData.MaxArea*"></a>
+  <h4 id="Celeste_patch_SaveData_MaxArea" data-uid="Celeste.patch_SaveData.MaxArea">MaxArea</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CoreModuleSettings.VanillaTristate DebugMode { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Celeste.Mod.Core.CoreModuleSettings.VanillaTristate.html">CoreModuleSettings.VanillaTristate</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_DebugModeInEverest_" data-uid="Celeste.Mod.Core.CoreModuleSettings.DebugModeInEverest*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_DebugModeInEverest" data-uid="Celeste.Mod.Core.CoreModuleSettings.DebugModeInEverest">DebugModeInEverest</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public bool DebugModeInEverest { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_DebugModeOld_" data-uid="Celeste.Mod.Core.CoreModuleSettings.DebugModeOld*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_DebugModeOld" data-uid="Celeste.Mod.Core.CoreModuleSettings.DebugModeOld">DebugModeOld</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-[Obsolete(&quot;Use DebugMode instead.&quot;)]
-public bool DebugModeOld { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_DebugRCPort_" data-uid="Celeste.Mod.Core.CoreModuleSettings.DebugRCPort*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_DebugRCPort" data-uid="Celeste.Mod.Core.CoreModuleSettings.DebugRCPort">DebugRCPort</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public int DebugRCPort { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int MaxArea { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -379,357 +653,13 @@ public int DebugRCPort { get; set; }</code></pre>
   </table>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings_DefaultStartingLevelSet_" data-uid="Celeste.Mod.Core.CoreModuleSettings.DefaultStartingLevelSet*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_DefaultStartingLevelSet" data-uid="Celeste.Mod.Core.CoreModuleSettings.DefaultStartingLevelSet">DefaultStartingLevelSet</h4>
+  <a id="Celeste_patch_SaveData_MaxAssistArea_" data-uid="Celeste.patch_SaveData.MaxAssistArea*"></a>
+  <h4 id="Celeste_patch_SaveData_MaxAssistArea" data-uid="Celeste.patch_SaveData.MaxAssistArea">MaxAssistArea</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public string DefaultStartingLevelSet { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_DisableAntiSoftlock_" data-uid="Celeste.Mod.Core.CoreModuleSettings.DisableAntiSoftlock*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_DisableAntiSoftlock" data-uid="Celeste.Mod.Core.CoreModuleSettings.DisableAntiSoftlock">DisableAntiSoftlock</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingNeedsRelaunch]
-[SettingInGame(false)]
-[SettingIgnore]
-public bool DisableAntiSoftlock { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_DiscordID_" data-uid="Celeste.Mod.Core.CoreModuleSettings.DiscordID*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_DiscordID" data-uid="Celeste.Mod.Core.CoreModuleSettings.DiscordID">DiscordID</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public string DiscordID { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_DiscordLib_" data-uid="Celeste.Mod.Core.CoreModuleSettings.DiscordLib*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_DiscordLib" data-uid="Celeste.Mod.Core.CoreModuleSettings.DiscordLib">DiscordLib</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public string DiscordLib { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_DiscordSubtextInGame_" data-uid="Celeste.Mod.Core.CoreModuleSettings.DiscordSubtextInGame*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_DiscordSubtextInGame" data-uid="Celeste.Mod.Core.CoreModuleSettings.DiscordSubtextInGame">DiscordSubtextInGame</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public string DiscordSubtextInGame { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_DiscordTextInGame_" data-uid="Celeste.Mod.Core.CoreModuleSettings.DiscordTextInGame*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_DiscordTextInGame" data-uid="Celeste.Mod.Core.CoreModuleSettings.DiscordTextInGame">DiscordTextInGame</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public string DiscordTextInGame { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_DiscordTextInMenu_" data-uid="Celeste.Mod.Core.CoreModuleSettings.DiscordTextInMenu*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_DiscordTextInMenu" data-uid="Celeste.Mod.Core.CoreModuleSettings.DiscordTextInMenu">DiscordTextInMenu</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public string DiscordTextInMenu { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_InputGui_" data-uid="Celeste.Mod.Core.CoreModuleSettings.InputGui*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_InputGui" data-uid="Celeste.Mod.Core.CoreModuleSettings.InputGui">InputGui</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string InputGui { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_LaunchWithFMODLiveUpdate_" data-uid="Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdate*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_LaunchWithFMODLiveUpdate" data-uid="Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdate">LaunchWithFMODLiveUpdate</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingNeedsRelaunch]
-[SettingInGame(false)]
-public CoreModuleSettings.VanillaTristate LaunchWithFMODLiveUpdate { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Celeste.Mod.Core.CoreModuleSettings.VanillaTristate.html">CoreModuleSettings.VanillaTristate</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_LaunchWithFMODLiveUpdateInEverest_" data-uid="Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdateInEverest*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_LaunchWithFMODLiveUpdateInEverest" data-uid="Celeste.Mod.Core.CoreModuleSettings.LaunchWithFMODLiveUpdateInEverest">LaunchWithFMODLiveUpdateInEverest</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public bool LaunchWithFMODLiveUpdateInEverest { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_LaunchWithoutIntro_" data-uid="Celeste.Mod.Core.CoreModuleSettings.LaunchWithoutIntro*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_LaunchWithoutIntro" data-uid="Celeste.Mod.Core.CoreModuleSettings.LaunchWithoutIntro">LaunchWithoutIntro</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingNeedsRelaunch]
-[SettingInGame(false)]
-public bool LaunchWithoutIntro { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_LazyLoading_" data-uid="Celeste.Mod.Core.CoreModuleSettings.LazyLoading*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_LazyLoading" data-uid="Celeste.Mod.Core.CoreModuleSettings.LazyLoading">LazyLoading</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingNeedsRelaunch]
-[SettingInGame(false)]
-[SettingIgnore]
-public bool LazyLoading { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_LazyLoading_Yes_I_Know_This_Can_Cause_Bugs_" data-uid="Celeste.Mod.Core.CoreModuleSettings.LazyLoading_Yes_I_Know_This_Can_Cause_Bugs*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_LazyLoading_Yes_I_Know_This_Can_Cause_Bugs" data-uid="Celeste.Mod.Core.CoreModuleSettings.LazyLoading_Yes_I_Know_This_Can_Cause_Bugs">LazyLoading_Yes_I_Know_This_Can_Cause_Bugs</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public bool LazyLoading_Yes_I_Know_This_Can_Cause_Bugs { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_LogHistoryCountToKeep_" data-uid="Celeste.Mod.Core.CoreModuleSettings.LogHistoryCountToKeep*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_LogHistoryCountToKeep" data-uid="Celeste.Mod.Core.CoreModuleSettings.LogHistoryCountToKeep">LogHistoryCountToKeep</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public int LogHistoryCountToKeep { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int MaxAssistArea { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -748,14 +678,13 @@ public int LogHistoryCountToKeep { get; set; }</code></pre>
   </table>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings_LogLevels_" data-uid="Celeste.Mod.Core.CoreModuleSettings.LogLevels*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_LogLevels" data-uid="Celeste.Mod.Core.CoreModuleSettings.LogLevels">LogLevels</h4>
+  <a id="Celeste_patch_SaveData_Poem_Safe_" data-uid="Celeste.patch_SaveData.Poem_Safe*"></a>
+  <h4 id="Celeste_patch_SaveData_Poem_Safe" data-uid="Celeste.patch_SaveData.Poem_Safe">Poem_Safe</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public Dictionary&lt;string, LogLevel&gt; LogLevels { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; Poem_Safe { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -767,20 +696,20 @@ public Dictionary&lt;string, LogLevel&gt; LogLevels { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="Celeste.Mod.LogLevel.html">LogLevel</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings_MainMenuMode_" data-uid="Celeste.Mod.Core.CoreModuleSettings.MainMenuMode*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_MainMenuMode" data-uid="Celeste.Mod.Core.CoreModuleSettings.MainMenuMode">MainMenuMode</h4>
+  <a id="Celeste_patch_SaveData_TotalHeartGems_" data-uid="Celeste.patch_SaveData.TotalHeartGems*"></a>
+  <h4 id="Celeste_patch_SaveData_TotalHeartGems" data-uid="Celeste.patch_SaveData.TotalHeartGems">TotalHeartGems</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string MainMenuMode { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int TotalHeartGems { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -792,20 +721,20 @@ public Dictionary&lt;string, LogLevel&gt; LogLevels { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings_MenuPageDown_" data-uid="Celeste.Mod.Core.CoreModuleSettings.MenuPageDown*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_MenuPageDown" data-uid="Celeste.Mod.Core.CoreModuleSettings.MenuPageDown">MenuPageDown</h4>
+  <a id="Celeste_patch_SaveData_TotalHeartGemsInVanilla_" data-uid="Celeste.patch_SaveData.TotalHeartGemsInVanilla*"></a>
+  <h4 id="Celeste_patch_SaveData_TotalHeartGemsInVanilla" data-uid="Celeste.patch_SaveData.TotalHeartGemsInVanilla">TotalHeartGemsInVanilla</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonBinding MenuPageDown { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int TotalHeartGemsInVanilla { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -817,20 +746,20 @@ public Dictionary&lt;string, LogLevel&gt; LogLevels { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Celeste.Mod.ButtonBinding.html">ButtonBinding</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings_MenuPageUp_" data-uid="Celeste.Mod.Core.CoreModuleSettings.MenuPageUp*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_MenuPageUp" data-uid="Celeste.Mod.Core.CoreModuleSettings.MenuPageUp">MenuPageUp</h4>
+  <a id="Celeste_patch_SaveData_TotalStrawberries_Safe_" data-uid="Celeste.patch_SaveData.TotalStrawberries_Safe*"></a>
+  <h4 id="Celeste_patch_SaveData_TotalStrawberries_Safe" data-uid="Celeste.patch_SaveData.TotalStrawberries_Safe">TotalStrawberries_Safe</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonBinding MenuPageUp { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int TotalStrawberries_Safe { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -842,23 +771,20 @@ public Dictionary&lt;string, LogLevel&gt; LogLevels { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Celeste.Mod.ButtonBinding.html">ButtonBinding</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings_MultithreadedGC_" data-uid="Celeste.Mod.Core.CoreModuleSettings.MultithreadedGC*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_MultithreadedGC" data-uid="Celeste.Mod.Core.CoreModuleSettings.MultithreadedGC">MultithreadedGC</h4>
+  <a id="Celeste_patch_SaveData_UnlockedAreas_Safe_" data-uid="Celeste.patch_SaveData.UnlockedAreas_Safe*"></a>
+  <h4 id="Celeste_patch_SaveData_UnlockedAreas_Safe" data-uid="Celeste.patch_SaveData.UnlockedAreas_Safe">UnlockedAreas_Safe</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingNeedsRelaunch]
-[SettingInGame(false)]
-[SettingIgnore]
-public bool? MultithreadedGC { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int UnlockedAreas_Safe { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -870,23 +796,20 @@ public bool? MultithreadedGC { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings_NonThreadedGL_" data-uid="Celeste.Mod.Core.CoreModuleSettings.NonThreadedGL*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_NonThreadedGL" data-uid="Celeste.Mod.Core.CoreModuleSettings.NonThreadedGL">NonThreadedGL</h4>
+  <a id="Celeste_patch_SaveData_UnlockedModes_" data-uid="Celeste.patch_SaveData.UnlockedModes*"></a>
+  <h4 id="Celeste_patch_SaveData_UnlockedModes" data-uid="Celeste.patch_SaveData.UnlockedModes">UnlockedModes</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingNeedsRelaunch]
-[SettingInGame(false)]
-[SettingIgnore]
-public bool NonThreadedGL { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int UnlockedModes { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -898,274 +821,7 @@ public bool NonThreadedGL { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_QuickRestart_" data-uid="Celeste.Mod.Core.CoreModuleSettings.QuickRestart*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_QuickRestart" data-uid="Celeste.Mod.Core.CoreModuleSettings.QuickRestart">QuickRestart</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public int? QuickRestart { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_RestartAppDomain_WIP_" data-uid="Celeste.Mod.Core.CoreModuleSettings.RestartAppDomain_WIP*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_RestartAppDomain_WIP" data-uid="Celeste.Mod.Core.CoreModuleSettings.RestartAppDomain_WIP">RestartAppDomain_WIP</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingNeedsRelaunch]
-[SettingInGame(false)]
-[SettingIgnore]
-public bool RestartAppDomain_WIP { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_ShowEverestTitleScreen_" data-uid="Celeste.Mod.Core.CoreModuleSettings.ShowEverestTitleScreen*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_ShowEverestTitleScreen" data-uid="Celeste.Mod.Core.CoreModuleSettings.ShowEverestTitleScreen">ShowEverestTitleScreen</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingInGame(false)]
-public bool ShowEverestTitleScreen { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_ShowManualTextOnDebugMap_" data-uid="Celeste.Mod.Core.CoreModuleSettings.ShowManualTextOnDebugMap*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_ShowManualTextOnDebugMap" data-uid="Celeste.Mod.Core.CoreModuleSettings.ShowManualTextOnDebugMap">ShowManualTextOnDebugMap</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public bool ShowManualTextOnDebugMap { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_ShowModOptionsInGame_" data-uid="Celeste.Mod.Core.CoreModuleSettings.ShowModOptionsInGame*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_ShowModOptionsInGame" data-uid="Celeste.Mod.Core.CoreModuleSettings.ShowModOptionsInGame">ShowModOptionsInGame</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingInGame(false)]
-public bool ShowModOptionsInGame { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_TitleScreenType_" data-uid="Celeste.Mod.Core.CoreModuleSettings.TitleScreenType*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_TitleScreenType" data-uid="Celeste.Mod.Core.CoreModuleSettings.TitleScreenType">TitleScreenType</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingIgnore]
-public string TitleScreenType { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_UnloadUnusedAudio_" data-uid="Celeste.Mod.Core.CoreModuleSettings.UnloadUnusedAudio*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_UnloadUnusedAudio" data-uid="Celeste.Mod.Core.CoreModuleSettings.UnloadUnusedAudio">UnloadUnusedAudio</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingNeedsRelaunch]
-[SettingInGame(false)]
-[SettingIgnore]
-public bool UnloadUnusedAudio { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_UnpackFMODBanks_" data-uid="Celeste.Mod.Core.CoreModuleSettings.UnpackFMODBanks*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_UnpackFMODBanks" data-uid="Celeste.Mod.Core.CoreModuleSettings.UnpackFMODBanks">UnpackFMODBanks</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingNeedsRelaunch]
-[SettingInGame(false)]
-[SettingIgnore]
-public bool UnpackFMODBanks { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_UseKeyboardForTextInput_" data-uid="Celeste.Mod.Core.CoreModuleSettings.UseKeyboardForTextInput*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_UseKeyboardForTextInput" data-uid="Celeste.Mod.Core.CoreModuleSettings.UseKeyboardForTextInput">UseKeyboardForTextInput</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingInGame(false)]
-public bool UseKeyboardForTextInput { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Celeste_Mod_Core_CoreModuleSettings_WarnOnEverestYamlErrors_" data-uid="Celeste.Mod.Core.CoreModuleSettings.WarnOnEverestYamlErrors*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_WarnOnEverestYamlErrors" data-uid="Celeste.Mod.Core.CoreModuleSettings.WarnOnEverestYamlErrors">WarnOnEverestYamlErrors</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[SettingSubText(&quot;MODOPTIONS_COREMODULE_WARNONEVERESTYAMLERRORS_DESC&quot;)]
-[SettingInGame(false)]
-public bool WarnOnEverestYamlErrors { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1174,13 +830,33 @@ public bool WarnOnEverestYamlErrors { get; set; }</code></pre>
   </h3>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings_CreateInputGuiEntry_" data-uid="Celeste.Mod.Core.CoreModuleSettings.CreateInputGuiEntry*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_CreateInputGuiEntry_Celeste_TextMenu_System_Boolean_" data-uid="Celeste.Mod.Core.CoreModuleSettings.CreateInputGuiEntry(Celeste.TextMenu,System.Boolean)">CreateInputGuiEntry(TextMenu, Boolean)</h4>
+  <a id="Celeste_patch_SaveData_AfterInitialize_" data-uid="Celeste.patch_SaveData.AfterInitialize*"></a>
+  <h4 id="Celeste_patch_SaveData_AfterInitialize" data-uid="Celeste.patch_SaveData.AfterInitialize">AfterInitialize()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CreateInputGuiEntry(TextMenu menu, bool inGame)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AfterInitialize()</code></pre>
+  </div>
+  
+  
+  <a id="Celeste_patch_SaveData_BeforeSave_" data-uid="Celeste.patch_SaveData.BeforeSave*"></a>
+  <h4 id="Celeste_patch_SaveData_BeforeSave" data-uid="Celeste.patch_SaveData.BeforeSave">BeforeSave()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BeforeSave()</code></pre>
+  </div>
+  
+  
+  <a id="Celeste_patch_SaveData_GetAreaStatsFor_" data-uid="Celeste.patch_SaveData.GetAreaStatsFor*"></a>
+  <h4 id="Celeste_patch_SaveData_GetAreaStatsFor_Celeste_AreaKey_" data-uid="Celeste.patch_SaveData.GetAreaStatsFor(Celeste.AreaKey)">GetAreaStatsFor(AreaKey)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AreaStats GetAreaStatsFor(AreaKey key)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1193,26 +869,36 @@ public bool WarnOnEverestYamlErrors { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Celeste.TextMenu</span></td>
-        <td><span class="parametername">menu</span></td>
+        <td><span class="xref">Celeste.AreaKey</span></td>
+        <td><span class="parametername">key</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">inGame</span></td>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.AreaStats</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Celeste_Mod_Core_CoreModuleSettings_CreateMainMenuModeEntry_" data-uid="Celeste.Mod.Core.CoreModuleSettings.CreateMainMenuModeEntry*"></a>
-  <h4 id="Celeste_Mod_Core_CoreModuleSettings_CreateMainMenuModeEntry_Celeste_TextMenu_System_Boolean_" data-uid="Celeste.Mod.Core.CoreModuleSettings.CreateMainMenuModeEntry(Celeste.TextMenu,System.Boolean)">CreateMainMenuModeEntry(TextMenu, Boolean)</h4>
+  <a id="Celeste_patch_SaveData_GetCheckpoints_" data-uid="Celeste.patch_SaveData.GetCheckpoints*"></a>
+  <h4 id="Celeste_patch_SaveData_GetCheckpoints_Celeste_AreaKey_" data-uid="Celeste.patch_SaveData.GetCheckpoints(Celeste.AreaKey)">GetCheckpoints(AreaKey)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CreateMainMenuModeEntry(TextMenu menu, bool inGame)</code></pre>
+    <pre><code class="lang-csharp hljs">public HashSet&lt;string&gt; GetCheckpoints(AreaKey area)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1225,13 +911,415 @@ public bool WarnOnEverestYamlErrors { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Celeste.TextMenu</span></td>
-        <td><span class="parametername">menu</span></td>
+        <td><span class="xref">Celeste.AreaKey</span></td>
+        <td><span class="parametername">area</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.HashSet</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_patch_SaveData_GetFilename_" data-uid="Celeste.patch_SaveData.GetFilename*"></a>
+  <h4 id="Celeste_patch_SaveData_GetFilename_System_Int32_" data-uid="Celeste.patch_SaveData.GetFilename(System.Int32)">GetFilename(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetFilename(int slot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">slot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_patch_SaveData_GetLevelSetStatsFor_" data-uid="Celeste.patch_SaveData.GetLevelSetStatsFor*"></a>
+  <h4 id="Celeste_patch_SaveData_GetLevelSetStatsFor_System_String_" data-uid="Celeste.patch_SaveData.GetLevelSetStatsFor(System.String)">GetLevelSetStatsFor(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LevelSetStats GetLevelSetStatsFor(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Celeste.LevelSetStats.html">LevelSetStats</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_patch_SaveData_InitializeDebugMode_" data-uid="Celeste.patch_SaveData.InitializeDebugMode*"></a>
+  <h4 id="Celeste_patch_SaveData_InitializeDebugMode_System_Boolean_" data-uid="Celeste.patch_SaveData.InitializeDebugMode(System.Boolean)">InitializeDebugMode(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void InitializeDebugMode(bool loadExisting = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">loadExisting</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_patch_SaveData_LoadModSaveData_" data-uid="Celeste.patch_SaveData.LoadModSaveData*"></a>
+  <h4 id="Celeste_patch_SaveData_LoadModSaveData_System_Int32_" data-uid="Celeste.patch_SaveData.LoadModSaveData(System.Int32)">LoadModSaveData(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadModSaveData(int slot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">slot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_patch_SaveData_orig_BeforeSave_" data-uid="Celeste.patch_SaveData.orig_BeforeSave*"></a>
+  <h4 id="Celeste_patch_SaveData_orig_BeforeSave" data-uid="Celeste.patch_SaveData.orig_BeforeSave">orig_BeforeSave()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void orig_BeforeSave()</code></pre>
+  </div>
+  
+  
+  <a id="Celeste_patch_SaveData_orig_GetCheckpoints_" data-uid="Celeste.patch_SaveData.orig_GetCheckpoints*"></a>
+  <h4 id="Celeste_patch_SaveData_orig_GetCheckpoints_Celeste_AreaKey_" data-uid="Celeste.patch_SaveData.orig_GetCheckpoints(Celeste.AreaKey)">orig_GetCheckpoints(AreaKey)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashSet&lt;string&gt; orig_GetCheckpoints(AreaKey area)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.AreaKey</span></td>
+        <td><span class="parametername">area</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.HashSet</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_patch_SaveData_orig_Start_" data-uid="Celeste.patch_SaveData.orig_Start*"></a>
+  <h4 id="Celeste_patch_SaveData_orig_Start_Celeste_SaveData_System_Int32_" data-uid="Celeste.patch_SaveData.orig_Start(Celeste.SaveData,System.Int32)">orig_Start(SaveData, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void orig_Start(SaveData data, int slot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.SaveData</span></td>
+        <td><span class="parametername">data</span></td>
         <td></td>
       </tr>
       <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">slot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_patch_SaveData_orig_StartSession_" data-uid="Celeste.patch_SaveData.orig_StartSession*"></a>
+  <h4 id="Celeste_patch_SaveData_orig_StartSession_Celeste_Session_" data-uid="Celeste.patch_SaveData.orig_StartSession(Celeste.Session)">orig_StartSession(Session)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void orig_StartSession(Session session)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.Session</span></td>
+        <td><span class="parametername">session</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_patch_SaveData_orig_TryDelete_" data-uid="Celeste.patch_SaveData.orig_TryDelete*"></a>
+  <h4 id="Celeste_patch_SaveData_orig_TryDelete_System_Int32_" data-uid="Celeste.patch_SaveData.orig_TryDelete(System.Int32)">orig_TryDelete(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool orig_TryDelete(int slot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">slot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">inGame</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_patch_SaveData_Start_" data-uid="Celeste.patch_SaveData.Start*"></a>
+  <h4 id="Celeste_patch_SaveData_Start_Celeste_SaveData_System_Int32_" data-uid="Celeste.patch_SaveData.Start(Celeste.SaveData,System.Int32)">Start(SaveData, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Start(SaveData data, int slot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.SaveData</span></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">slot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_patch_SaveData_StartSession_" data-uid="Celeste.patch_SaveData.StartSession*"></a>
+  <h4 id="Celeste_patch_SaveData_StartSession_Celeste_Session_" data-uid="Celeste.patch_SaveData.StartSession(Celeste.Session)">StartSession(Session)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartSession(Session session)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Celeste.Session</span></td>
+        <td><span class="parametername">session</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Celeste_patch_SaveData_TryDelete_" data-uid="Celeste.patch_SaveData.TryDelete*"></a>
+  <h4 id="Celeste_patch_SaveData_TryDelete_System_Int32_" data-uid="Celeste.patch_SaveData.TryDelete(System.Int32)">TryDelete(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryDelete(int slot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">slot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>

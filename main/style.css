@@ -252,10 +252,28 @@ a.button:hover, a.button:focus, a.button:active {
     padding: 8px 16px 8px 0;
 }
 
+.yolo {
+    float: left;
+    height: 32px;
+    padding: 8px 16px 8px 0;
+}
+
 .thinking {
     float: left;
     height: 32px;
     padding: 8px 16px 8px 0;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.screenshot {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 3px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
 }
 
 
