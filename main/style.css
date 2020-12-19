@@ -274,6 +274,7 @@ a.button:hover, a.button:focus, a.button:active {
     transform: translateX(-50%);
     border-radius: 3px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    max-width: calc(100vw - 64px);
 }
 
 
