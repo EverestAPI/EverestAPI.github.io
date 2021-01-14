@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main
+      - name: git checkout
         uses: actions/checkout@v2
 
       - name: Generate olympusnews/index.txt
@@ -21,14 +21,10 @@ jobs:
           done
           popd
           
-      - name: git commit
-        run: |
-          git add .
-          git commit -m 'Automatically update gh-pages'
-
-      - name: GitHub push to gh-pages
-        uses: ad-m/github-push-action@v0.6.0
+      - name: git add && git commit && git push
+        uses: EndBug/add-and-commit@v6.2.0
         with:
-          github_token: ${{ secrets.PUSH_TOKEN }}
+          token: ${{ secrets.PUSH_TOKEN }}
+          message: Automatically update gh-pages
           branch: gh-pages
-          force: true
+          push: true
