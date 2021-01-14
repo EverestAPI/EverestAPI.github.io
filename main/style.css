@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Renogare;
+    src:
+        url("/fonts/Renogare-Regular.woff") format("woff"),
+        url("/fonts/Renogare-Regular.otf") format("opentype");
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -192,7 +199,7 @@ a.button:hover, a.button:focus, a.button:active {
 
 #toplist li > a {
     padding: 0;
-    width: 280px;
+    width: 300px;
     height: 64px;
     border-radius: 3px;
     margin-bottom: 8px;
@@ -231,6 +238,11 @@ a.button:hover, a.button:focus, a.button:active {
 
 #toplink-wiki .toplink-icon {
     background-image: url("./wiki.png");
+}
+
+#toplist, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Renogare', 'Poppins', sans-serif;
+    font-weight: normal;
 }
 
 #footer {
