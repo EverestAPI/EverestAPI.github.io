@@ -25,7 +25,7 @@ jobs:
         run: |
           git config user.name "0x0ade's bot"
           git config user.email "nuda1998+ghbot@gmail.com"
-          git branch -d gh-pages
+          git branch -d gh-pages || true
           git checkout -b gh-pages
           git add .
           git commit -m 'Automatically update gh-pages'
