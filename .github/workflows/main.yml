@@ -20,6 +20,11 @@ jobs:
             echo $f >> index.txt
           done
           popd
+          
+      - name: git commit
+        run: |
+          git add .
+          git commit -m 'Automatically update gh-pages'
 
       - name: GitHub push to gh-pages
         uses: ad-m/github-push-action@v0.6.0
