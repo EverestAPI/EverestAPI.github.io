@@ -20,11 +20,19 @@ jobs:
             echo $f >> index.txt
           done
           popd
-          
-      - name: git add && git commit && git push
-        uses: EndBug/add-and-commit@v6.2.0
+
+      - name: git <setup> && git add && git commit
+        run: |
+          git config user.name "0x0ade's bot"
+          git config user.email "nuda1998+ghbot@gmail.com"
+          git branch -d gh-pages
+          git checkout -b gh-pages
+          git add .
+          git commit -m 'Automatically update gh-pages'
+
+      - name: git push
+        uses: ad-m/github-push-action@v0.6.0
         with:
-          token: ${{ secrets.PUSH_TOKEN }}
-          message: Automatically update gh-pages
+          github_token: ${{ secrets.PUSH_TOKEN }}
           branch: gh-pages
-          push: true
+          force: true
