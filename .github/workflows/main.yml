@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2
+
+      - name: Checkout gh-pages
+        uses: actions/checkout@v2
+        with:
+          ref: 'gh-pages'
+          path: 'gh-pages'
+
+      - name: Prepare gh-pages branch for push
+        run: |
+          rm -rf gh-pages/*
+          cp -r !(gh-pages) gh-pages/
+          pushd gh-pages
+
+          pushd olympusnews
+          rm -f index.txt
+          for f in *; do
+            echo $f >> index.txt
+          done
+          popd
+
+          popd
+
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.PUSH_TOKEN }}
+          directory: gh-pages
+          branch: gh-pages
+          force: true
