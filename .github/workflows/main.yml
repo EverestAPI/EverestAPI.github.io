@@ -23,7 +23,7 @@ jobs:
 
       - name: git <setup> && git add && git commit
         run: |
-          git config user.name '0x0ade's bot'
+          git config user.name '0x0ade'\''s bot'
           git config user.email 'nuda1998+ghbot@gmail.com'
           git branch -d gh-pages || true
           git checkout -b gh-pages
