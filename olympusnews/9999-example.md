@@ -5,7 +5,7 @@
 # Maybe Olympus will have text formatting in the future, who knows.
 title: 'Example Pinned Post'
 image: ~
-link: ~
+link: 'https://everestapi.github.io/'
 
 ---
 
