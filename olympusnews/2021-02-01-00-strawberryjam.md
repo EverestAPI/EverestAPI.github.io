@@ -1,7 +1,7 @@
 ---
 title: 'Strawberry Jam?!'
 link: 'https://youtu.be/BOg-LqoUgiA'
-images: './images/strawberryjam.png'
+image: './images/strawberryjam.png'
 
 ---
 
