@@ -148,14 +148,17 @@
                     <li>
                         If you are on <strong>Linux:</strong>
                         <ul>
-                            <li>Have a fairly sane, up to date system (f.e. no musl libc). Otherwise you're on your own.</li>
+                            <li>Pray to dependency satan.</li>
                             <li>
                                 <a href="https://dev.azure.com/EverestAPI/Olympus/_build/latest?definitionId=4&amp;branchName=stable" id="olympus-linux-latest-link">Download the latest autobuild.</a>
                                 <div id="olympus-linux-artifact-instructions"><strong>Click the &quot;5 published&quot; button under &quot;Related&quot;, then &quot;linux.main&quot; to download it.</strong></div>
                             </li>
-                            <li>Unzip the zip inside of the zip. Zipception!</li>
+                            <li>Unzip the zip inside of the zip. Zipception!<br>
+                                The resulting folder will be your Olympus "installation" folder.
+                            </li>
+                            <li>Run <code>install.sh</code> to install the one-click installer handler and application icon.</li>
                             <li>
-                                Run <code>olympus.sh</code> and hope that it works.<br>
+                                Run Olympus from your applications list (or <code>olympus.sh</code>) and hope that it works.<br>
                                 If the bundled Love2D doesn't work and your distro provides it via the package manager, try that.<br>
                                 If Olympus still doesn't work, feel free to ask one of the other 11 Linux users on the Celeste Discord.
                             </li>
