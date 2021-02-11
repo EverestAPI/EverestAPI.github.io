@@ -5,8 +5,9 @@ image: './images/strawberryjam.png'
 
 ---
 
-Signups for the Strawberry Jam Collab 2021 are, well...
+Signups for the Strawberry Jam Collab 2021 are, well...  
+WE'VE GOT ENOUGH MAPPERS. SORRY.  
 
-MAPPERS: CLOSED. The video is outdated. Sorry.
+Playtesters and asset makers are still welcome!
 
-ASSET MAKERS: OPEN. Watch the video for more info.
+Please watch the video linked below for more info.
