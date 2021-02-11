@@ -1,10 +1,12 @@
 ---
 title: 'Strawberry Jam?!'
-link: 'https://youtu.be/ZgjXNAW085Q?hi-from=olympus'
+link: 'https://youtu.be/BOg-LqoUgiA?hi-from=olympus'
 image: './images/strawberryjam.png'
 
 ---
 
-Signups for the Strawberry Jam Collab 2021 are CLOSING!  
+Signups for the Strawberry Jam Collab 2021 are, well...
 
-Please watch the video linked below for more info.  
+MAPPERS: CLOSED. The video is outdated. Sorry.
+
+ASSET MAKERS: OPEN. Watch the video for more info.
