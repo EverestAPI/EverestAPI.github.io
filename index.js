@@ -33,7 +33,7 @@
 	};
 
 	// run a request to Azure to get the latest dev/beta/stable IDs, to turn the download links into direct links.
-	xhttpEverest.open("GET", "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds", true);
+	xhttpEverest.open("GET", "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds?definitions=3", true);
 	xhttpEverest.send();
 
 	// now let's do the same for Olympus
