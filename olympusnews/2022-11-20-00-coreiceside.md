@@ -2,7 +2,7 @@
 title: 'Core Ice-Side Remake'
 image: './images/2022-11-20-00-coreiceside.png'
 link: 'https://gamebanana.com/mods/370242'
-ignore: true # mod was taken down by owner
+ignore: false
 
 ---
 
