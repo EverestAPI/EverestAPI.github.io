@@ -6,4 +6,4 @@ ignore: false
 
 ---
 
-Beauty in Celeste has seemingly released its peak in DanTKO’s Twilight Cove. Experience this gorgeous map no matter what skill level you are, as the map features unique beginner gameplay with 3 berries to collect. Play one of the best looking maps of the year with the link below!
+Beauty in Celeste has seemingly reached its peak in DanTKO’s Twilight Cove. Experience this gorgeous map no matter what skill level you are, as the map features unique beginner gameplay with 3 berries to collect. Play one of the best looking maps of the year with the link below!
