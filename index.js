@@ -38,4 +38,26 @@
             }
         }
     }
+
+    // fetch the Olympus versions through Azure
+    const olympusVersionsFetch = await fetch("https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds");
+
+    if (olympusVersionsFetch.ok) {
+        // parse the response
+        const json = JSON.parse(await olympusVersionsFetch.text());
+
+        // grab the latest stable version
+        const stableVersions = json.value.filter(version => version.sourceBranch === "refs/heads/stable").map(version => version.id);
+        if (stableVersions.length !== 0) {
+            // set the links to the latest stable
+            document.getElementById("olympus-macos-latest-link").href = "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/" + stableVersions[0] + "/artifacts?artifactName=macos.main&$format=zip"
+            document.getElementById("olympus-linux-latest-link").href = "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/" + stableVersions[0] + "/artifacts?artifactName=linux.main&$format=zip"
+
+            // remove the line saying "Click the '5 published' button under 'Related', then '...main' to download it." since those are now direct links.
+            const artifactInstructionsMac = document.getElementById("olympus-macos-artifact-instructions");
+            artifactInstructionsMac.parentNode.removeChild(artifactInstructionsMac);
+            const artifactInstructionsLinux = document.getElementById("olympus-linux-artifact-instructions");
+            artifactInstructionsLinux.parentNode.removeChild(artifactInstructionsLinux);
+        }
+    }
 })();
