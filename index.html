@@ -108,7 +108,7 @@
                 <h3 id="olympus">Olympus - Cross-platform Everest Installer</h3>
                 <p class="note">
                     <img class="yolo" src="/main/yolo.png" alt="theo saying yolo">
-                    YOLO! This fancy tech is very fresh so don't be surprised if it blows up in your face.<br>
+                    YOLO! This fancy tech is actively worked on, so don't be surprised if it blows up in your face.<br>
                     Please report all bugs to the Everest Team in #modding_help on the Celeste Discord server!<br>
                     Feel free to scroll down to the manual installation instructions if this doesn't work.
                 </p>
@@ -135,7 +135,10 @@
                                 <div id="olympus-macos-artifact-instructions"><strong>Click the &quot;5 published&quot; button under &quot;Related&quot;, then &quot;macos.main&quot; to download it.</strong></div>
                             </li>
                             <li>Unzip the zip inside of the zip. Zipception!</li>
-                            <li>Drag the Olympus app into your Applications folder.</li>
+                            <li>
+                                Drag the Olympus app into your Applications folder.<br>
+                                If you leave it in your Downloads folder, some things like self-updating might not work!
+                            </li>
                             <li>
                                 Hope that it works.<br>
                                 Sadly our <span class="strike">code monkeys</span> top scientists aren't trained with Macs.<br>
@@ -148,7 +151,6 @@
                     <li>
                         If you are on <strong>Linux:</strong>
                         <ul>
-                            <li>Pray to dependency satan.</li>
                             <li>
                                 <a href="https://dev.azure.com/EverestAPI/Olympus/_build/latest?definitionId=4&amp;branchName=stable" id="olympus-linux-latest-link">Download the latest autobuild.</a>
                                 <div id="olympus-linux-artifact-instructions"><strong>Click the &quot;5 published&quot; button under &quot;Related&quot;, then &quot;linux.main&quot; to download it.</strong></div>
@@ -159,8 +161,13 @@
                             <li>Run <code>install.sh</code> <b>in a terminal</b> to install the one-click installer handler and application icon.</li>
                             <li>
                                 Run Olympus from your applications list (or <code>olympus</code> in the folder) and hope that it works.<br>
-                                If the bundled Love2D doesn't work and your distro provides it via the package manager, try that.<br>
-                                If Olympus still doesn't work, feel free to ask one of the other 11 Linux users on the Celeste Discord.
+                                If it doesn't, here are some things to check:
+                                <ul>
+                                    <li>If the bundled Love2D doesn't work and your distro provides it via the package manager, try that.</li>
+                                    <li>If you have Mono installed on your system, try updating it.</li>
+                                    <li>If you are on ArchLinux, you can give <a href="https://aur.archlinux.org/packages/olympus" target="_blank">the unofficial AUR package</a> a try.</li>
+                                </ul>
+                                If you're still out of luck, feel free to ask for help on the Celeste Discord.
                             </li>
                         </ul><br>
                     </li>
@@ -218,10 +225,10 @@
 
                 <h2 id="installing-mods">Installing mods</h2>
                 <ul>
-                    <li>Find a mod that you want to play with on <a href="https://gamebanana.com/games/6460">GameBanana</a>.</li>
+                    <li>Find a mod that you want to play with on <a href="https://gamebanana.com/games/6460">GameBanana</a>, or in the "Download Mods" section of Olympus.</li>
                     <li>Press the 1-click installation button.
                         <ul>
-                            <li>If the 1-click installer doesn&#39;t work, put the mod <code>.zip</code> into the <code>Mods</code> directory where Celeste is.</li>
+                            <li>If the 1-click installer doesn&#39;t work, put the mod <code>.zip</code> into the <code>Mods</code> directory where Celeste is, or drag the <code>.zip</code> on Olympus to install it.</li>
                             <li>For prototyping and development, feel free to use a folder instead of a <code>.zip</code></li>
                         </ul>
                     </li>
