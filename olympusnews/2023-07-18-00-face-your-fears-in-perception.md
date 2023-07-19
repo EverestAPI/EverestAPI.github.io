@@ -2,7 +2,7 @@
 image: ./images/2023-07-18-00-face-your-fears-in-perception.jpg
 link: https://gamebanana.com/mods/456816
 ignore: false
-title: Face your Fears in Perception
+title: Face your Fears in Perceptions
 
 ---
 
