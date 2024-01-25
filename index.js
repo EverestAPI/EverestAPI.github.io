@@ -19,7 +19,7 @@
         if (updaterUrlFetch.ok) {
             // ... then call it.
             const updaterUrl = await updaterUrlFetch.text();
-            const versionListFetch = await fetch(updaterUrl.trim());
+            const versionListFetch = await fetch(updaterUrl.trim() + "?supportsNativeBuilds=true");
 
             if (versionListFetch.ok) {
                 const versionList = await versionListFetch.json();
