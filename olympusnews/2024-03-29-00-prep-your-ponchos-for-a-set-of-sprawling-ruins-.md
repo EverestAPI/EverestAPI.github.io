@@ -6,4 +6,4 @@ title: Prep Your Ponchos For A Set of Sprawling Ruins!
 
 ---
 
-2 new incredibly beautiful maps just graced this upcoming weekend! Advanced players can rejoice in 50+ rooms of Drizzle, a journey across mossy ruins soaked in complex climbing, custom mechanics, & lore! For grandmaster bounce helper fanatics, prepare to get awed by the equally stunning, 30+ room aerial odyssey that is Wonderland Vale, which you can find on the front page of GameBanana! Drizzle is linked below, check ‘em out!
+2 new incredibly beautiful maps just graced this upcoming weekend! Advanced players can rejoice with 50+ rooms of Drizzle, a journey through mossy ruins soaked in complex climbing, custom mechanics, & lore! For grandmaster bounce helper fanatics, prepare to get awed by the equally stunning, 30+ room aerial odyssey that is Wonderland Vale, which you can find on the front page of GameBanana! Drizzle is linked below, check ‘em out!
