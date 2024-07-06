@@ -61,12 +61,12 @@
 
                 if (stable !== null) {
                     // set the links to the latest stable
-                    document.getElementById("olympus-macos-latest-link").href = stable.macDownload;
+                    document.getElementById("olympus-macos-latest-link").href = stable.macosDownload;
                     document.getElementById("olympus-linux-latest-link").href = stable.linuxDownload;
 
                     // remove the line saying "Click the '5 published' button under 'Related', then '...main' to download it." since those are now direct links.
-                    const artifactInstructionsMac = document.getElementById("olympus-macos-artifact-instructions");
-                    artifactInstructionsMac.parentNode.removeChild(artifactInstructionsMac);
+                    const artifactInstructionsMacOS = document.getElementById("olympus-macos-artifact-instructions");
+                    artifactInstructionsMacOS.parentNode.removeChild(artifactInstructionsMacOS);
                     const artifactInstructionsLinux = document.getElementById("olympus-linux-artifact-instructions");
                     artifactInstructionsLinux.parentNode.removeChild(artifactInstructionsLinux);
                 }
