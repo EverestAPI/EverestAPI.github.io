@@ -6,4 +6,4 @@ title: The Most Sinister Lobby to Date...
 
 ---
 
-DEVIL'S DEN is a pack made in a month by tirednwired with six maps, six hearts, and six flowers. With some of the most post-conventional expert to grandmaster experiences, these maps effortlessly weave together straightforward techspam, light precision, & very wacky gimmicks. If you appreciate devilish tech, banger tunes, and remarkably graceful color schemes, go check this out below!
+DEVIL'S DEN is a pack made in a month by tirednwired with six maps, six hearts, and six flowers. With some of the most post- conventional expert to grandmaster experiences, these maps effortlessly weave together straightforward techspam, light precision, & very wacky gimmicks. If you appreciate devilish tech, banger tunes, and remarkably graceful color schemes, go check this out below!
