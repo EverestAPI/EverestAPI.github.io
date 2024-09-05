@@ -6,4 +6,4 @@ title: A New Zucchini Contest Has Been Brewed!
 
 ---
 
-The 4th edition of Zucchini Contest, Perilous Potionscape, has hit the shelves with 24 concoctions, each brewed in only 8-ish hours! This one had a special gimmick where each mapper spun a wheel of over 500 prompts multiple times throughout the mapping period, leading to some deviously silly consequences. Go play this wildly magical contest with the link below!
+The 4th edition of Zucchini Contest, Perilous Potionscape, has hit the shelves with 24 concoctions, each brewed in only 8-ish hours. But that's not all! Each mapper spun The Wheel™ of over 500 prompts multiple times throughout the mapping period, leading to some deviously silly consequences. Go play this wildly magical contest with the link below!
