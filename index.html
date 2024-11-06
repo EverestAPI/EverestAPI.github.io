@@ -134,16 +134,25 @@
                                 <a href="https://dev.azure.com/EverestAPI/Olympus/_build/latest?definitionId=4&amp;branchName=stable" id="olympus-macos-latest-link">Download the latest autobuild.</a>
                                 <div id="olympus-macos-artifact-instructions"><strong>Click the &quot;5 published&quot; button under &quot;Related&quot;, then &quot;macos.main&quot; to download it.</strong></div>
                             </li>
-                            <li>Unzip the zip inside of the zip. Zipception!</li>
+                            <li>Unzip the zip inside of the zip.</li>
                             <li>
                                 Drag the Olympus app into your Applications folder.<br>
-                                If you leave it in your Downloads folder, some things like self-updating might not work!
-                            </li>
-                            <li>
-                                Hope that it works.<br>
-                                Sadly our <span class="strike">code monkeys</span> top scientists aren't trained with Macs.<br>
-                                You might need to <b>right-click, open</b>, then allow running applications from unverified developers.<br>
-                                <strong>If you are a macOS user and are willing to help us test stuff: let us know on Discord!</strong>
+                                If you leave it in your Downloads folder, some things like self-updating might not work!<br>
+                                <b id="mac-instructions-fold-icon">-</b> <a id="mac-instructions-fold-trigger" href="#">Instructions for running the unverified app</a>
+                                <ul id="mac-instructions-fold">
+                                    <li>
+                                        Running Olympus will probably result in this error showing up. Close it by clicking "Done".
+                                        <img src="/images/olympus-run-macos-1.png" class="halfwidth">
+                                    </li>
+                                    <li>
+                                        Then, open the Settings app, select "Privacy & Security" and scroll down until you see a notice about Olympus. Open it anyway!
+                                        <img src="/images/olympus-run-macos-2.png">
+                                    </li>
+                                    <li>
+                                        Go through this final warning by clicking "Open Anyway" again. You might need to type your password to finish the process.
+                                        <img src="/images/olympus-run-macos-3.png" class="halfwidth">
+                                    </li>
+                                </ul>
                             </li>
                         </ul><br>
                     </li>
@@ -155,7 +164,7 @@
                                 <a href="https://dev.azure.com/EverestAPI/Olympus/_build/latest?definitionId=4&amp;branchName=stable" id="olympus-linux-latest-link">Download the latest autobuild.</a>
                                 <div id="olympus-linux-artifact-instructions"><strong>Click the &quot;5 published&quot; button under &quot;Related&quot;, then &quot;linux.main&quot; to download it.</strong></div>
                             </li>
-                            <li>Unzip the zip inside of the zip. Zipception!<br>
+                            <li>Unzip the zip inside of the zip.<br>
                                 <b>The resulting folder will be your Olympus "installation" folder.</b>
                             </li>
                             <li>Run <code>install.sh</code> <b>in a terminal</b> to install the one-click installer handler and application icon.</li>

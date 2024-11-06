@@ -289,6 +289,15 @@ a.button:hover, a.button:focus, a.button:active {
     max-width: calc(100vw - 64px);
 }
 
+#mac-instructions-fold img {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+}
+#mac-instructions-fold img.halfwidth {
+    max-width: 50%;
+}
+
 
 @media only screen and (max-width: 600px) {
     #front {
@@ -303,6 +312,10 @@ a.button:hover, a.button:focus, a.button:active {
         float: none;
         width: fit-content;
         margin: 0 auto;
+    }
+
+    #mac-instructions-fold img.halfwidth {
+        max-width: 100%;
     }
 }
 
