@@ -292,7 +292,7 @@ a.button:hover, a.button:focus, a.button:active {
 #mac-instructions-fold {
     border: solid #806e93 1px;
     border-radius: 10px;
-    padding: 5px 10px 5px 25px;
+    padding: 5px 10px 0 25px;
 }
 #mac-instructions-fold div {
     text-align: center;
@@ -302,6 +302,9 @@ a.button:hover, a.button:focus, a.button:active {
 }
 #mac-instructions-fold img.halfwidth {
     max-width: 50%;
+}
+#mac-instructions-fold-trigger {
+    display: inline;
 }
 
 
