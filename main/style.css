@@ -289,10 +289,11 @@ a.button:hover, a.button:focus, a.button:active {
     max-width: calc(100vw - 64px);
 }
 
-#mac-instructions-fold img {
-    display: block;
-    max-width: 100%;
+#mac-instructions-fold div {
     text-align: center;
+}
+#mac-instructions-fold img {
+    max-width: 100%;
 }
 #mac-instructions-fold img.halfwidth {
     max-width: 50%;

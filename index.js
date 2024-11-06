@@ -86,12 +86,12 @@
             // unfold
             icon.innerText = "-";
             fold.style.display = "block";
-            folded = true;
+            folded = false;
         } else {
             // fold
             icon.innerText = "+";
             fold.style.display = "none";
-            folded = false;
+            folded = true;
         }
     };
 
