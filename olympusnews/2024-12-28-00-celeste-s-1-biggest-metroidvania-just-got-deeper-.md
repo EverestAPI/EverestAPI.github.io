@@ -6,4 +6,4 @@ title: 'Celeste’s #1 Biggest Metroidvania Just Got Deeper!'
 
 ---
 
-Introducing 250+ new rooms, Secret of Celeste Mountain 3.0 is finally out! With new bosses, new abilities, and years of polish, there’s nearly no bottom to the amount of exploration in this sprawling metroidvania. Capped out at low advanced, this adventure is accessible to plenty of modded players, so check it out below!
+Introducing 250+ new rooms, Secret of Celeste Mountain 3.0 is finally out! With new bosses, new abilities, and years of polish, there’s nearly no bottom to the amount of exploration in this sprawling metroidvania. Capped out at mid expert, this adventure has plenty of layers of techless challenges, so check it out below!
