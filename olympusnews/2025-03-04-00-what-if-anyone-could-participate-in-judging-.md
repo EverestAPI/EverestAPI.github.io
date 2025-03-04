@@ -2,7 +2,7 @@
 image: ./images/2025-03-04-00-what-if-anyone-could-participate-in-judging-.jpg
 link: https://gamebanana.com/mods/575980
 ignore: false
-title: What If Anyone Could Participate In Judging?
+title: What If Anyone Could Be A Judge?
 
 ---
 
