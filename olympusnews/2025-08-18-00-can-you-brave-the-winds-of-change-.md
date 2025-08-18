@@ -6,4 +6,4 @@ title: Can You Brave The Winds Of Change?
 
 ---
 
-The Eidolon Infrastructure is a predominately GM+1 map characterized by striking room designs that revolve around brutalist industrial fgtile structures. Featuring 13 rooms, including a grand & incredibly difficult GM+2 finale, this MOCE//LXVI inspired map is sure to prove itself a formidable opponent. Go test your fate in the link below!
+The Eidolon Infrastructure is a predominately GM+1 map characterized by striking room designs that revolve around brutalist industrial tile structures. Featuring 13 rooms, including a grand & incredibly difficult GM+2 finale, this MOCE//LXVI inspired map is sure to prove itself a formidable opponent. Go test your fate in the link below!
