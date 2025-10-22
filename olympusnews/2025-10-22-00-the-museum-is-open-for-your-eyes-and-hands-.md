@@ -6,4 +6,4 @@ title: The Museum Is Open For Your Eyes And Hands!
 
 ---
 
-Exhibition V is a gallery of 20+ vanilla setpieces where no gameplay takes place. Walk around, read Mowo’s thoughts on the process of creation, and appreciate the intricate decoration choices. For anyone interested in making maps, this is an essential reference that dives deep into the best ways to make use of color, shape, and composition in Celeste. Also it’s just really pretty, so go check into this lovely museum below!
+Exhibition V is a gallery of 20+ vanilla setpieces where no gameplay takes place. Walk around, read Mowo’s thoughts on the process of creation, and appreciate the intricate decoration choices. For anyone interested in making maps, this is an essential reference that dives deep into conveying intense emotion & beauty in Celeste through color, shape, and composition. Also it’s just really pretty, so go check into this lovely museum below!
