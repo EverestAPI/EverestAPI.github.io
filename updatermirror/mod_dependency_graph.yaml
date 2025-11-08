@@ -29032,12 +29032,6 @@ InfiniteBackups:
   - Name: Everest
     Version: 1.2879.0
   URL: https://gamebanana.com/mmdl/603956
-NotAFloatingPointNumber:
-  OptionalDependencies: []
-  Dependencies:
-  - Name: Everest
-    Version: NoVersion
-  URL: https://gamebanana.com/mmdl/1557272
 doomwoods:
   OptionalDependencies: []
   Dependencies:
