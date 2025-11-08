@@ -13128,6 +13128,16 @@ InfiniteBackups:
   xxHash:
   - f70ddd61bbabb18a
   URL: https://gamebanana.com/mmdl/603956
+NotAFloatingPointNumber:
+  GameBananaType: Wip
+  Version: '3.14'
+  LastUpdate: 1762637338
+  Size: 234
+  GameBananaId: 87255
+  GameBananaFileId: 1557272
+  xxHash:
+  - fcbe4856f1dbfbb8
+  URL: https://gamebanana.com/mmdl/1557272
 doomwoods:
   GameBananaType: Mod
   Version: 0.0.1
@@ -32320,14 +32330,14 @@ AvBdayHelper2021:
   URL: https://gamebanana.com/mmdl/894054
 CatppuccinLoennThemes:
   GameBananaType: Tool
-  Version: 1.0.0
-  LastUpdate: 1762635238
-  Size: 7293
+  Version: 1.0.1
+  LastUpdate: 1762637989
+  Size: 8032
   GameBananaId: 21152
-  GameBananaFileId: 1557243
+  GameBananaFileId: 1557281
   xxHash:
-  - 73de93e98516ed41
-  URL: https://gamebanana.com/mmdl/1557243
+  - eca9572eb1266331
+  URL: https://gamebanana.com/mmdl/1557281
 CrowdControl:
   GameBananaType: Mod
   Version: 2.2.0
