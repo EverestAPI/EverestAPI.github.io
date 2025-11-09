@@ -1,0 +1,90 @@
+Mod:
+  6800:
+  - name: All
+    count: 3887
+  - id: 6802
+    name: Campaign
+    count: 447
+  - id: 6803
+    name: Collab/Contest
+    count: 351
+  - id: 15667
+    name: Multiplayer
+    count: 24
+  - id: 6801
+    name: Standalone
+    count: 2398
+  15655:
+  - name: All
+    count: 115
+  - id: 15656
+    name: Audio
+    count: 51
+  - id: 15657
+    name: Graphics
+    count: 53
+  4632:
+  - name: All
+    count: 139
+  - id: 4636
+    name: Twitch Integration
+    count: 1
+  4633:
+  - name: All
+    count: 46
+  - id: 14168
+    name: Translations
+    count: 18
+  5081:
+  - name: All
+    count: 181
+  4635:
+  - name: All
+    count: 41
+  1501:
+  - name: All
+    count: 14
+  11181:
+  - name: All
+    count: 313
+  - id: 16940
+    name: Collectibles
+    count: 34
+  - id: 11182
+    name: Other/Misc
+    count: 69
+  - id: 11183
+    name: Player
+    count: 162
+  2317:
+  - name: All
+    count: 51
+Tool:
+  0:
+  - name: All
+    count: 62
+  - id: 653
+    name: Ahorn Plugin
+    count: 6
+  - id: 1098
+    name: Lönn Plugin
+    count: 17
+  - id: 1654
+    name: Mod Installer
+    count: 4
+  - id: 575
+    name: Other/Misc
+    count: 34
+  - id: 859
+    name: Twitch Integration
+    count: 1
+Wip:
+  0:
+  - name: All
+    count: 103
+  - id: 680
+    name: Maps
+    count: 78
+  - id: 466
+    name: Other/Misc
+    count: 25
