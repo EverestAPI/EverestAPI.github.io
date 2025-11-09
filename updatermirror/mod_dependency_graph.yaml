@@ -60065,6 +60065,8 @@ TheWorldTrap:
     Version: 1.2.2
   - Name: HonlyHelper
     Version: 1.7.5
+  - Name: Spekio's Toolbox
+    Version: 1.4.0
   - Name: GalacticaHelper
     Version: 1.2.0
   - Name: Batteries
@@ -60089,6 +60091,8 @@ TheWorldTrap:
     Version: 1.4.0
   - Name: CpopHelper
     Version: 1.3.0
+  - Name: TWT Room Graphics
+    Version: 1.0.0
   - Name: PandorasBox
     Version: 1.0.49
   - Name: AdventureHelper
@@ -60135,7 +60139,7 @@ TheWorldTrap:
     Version: 1.3.23
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1546373
+  URL: https://gamebanana.com/mmdl/1557413
 PointlessLobby:
   OptionalDependencies: []
   Dependencies:
