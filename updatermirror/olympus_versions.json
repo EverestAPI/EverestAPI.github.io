@@ -1,5 +1,14 @@
 [
   {
+    "date": "2025-11-09T16:04:08.8431315Z",
+    "changelog": "∙ Added more mirror options for people that cannot access maddie480.ovh",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5276/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "25.11.09.02",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5276/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5276/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-11-02T11:00:40.3661023Z",
     "changelog": "∙ Prevent \"Disable All\" from disabling favorited mods",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5271/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
