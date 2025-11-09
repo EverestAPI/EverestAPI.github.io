@@ -344,36 +344,6 @@
     "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5144/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
   },
   {
-    "date": "2025-09-10T08:57:44.001193Z",
-    "olympusBuildFileSize": 71742316,
-    "mainFileSize": 71979921,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5133/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "author": "JaThePlayer",
-    "commit": "e7ace5553f2f5021588c65c2138d565d622df399",
-    "description": "Implement culling for LavaRect",
-    "branch": "dev",
-    "version": 5833,
-    "isNative": true,
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5133/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 269,
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5133/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-09-10T08:55:32.5331768Z",
-    "olympusBuildFileSize": 71742064,
-    "mainFileSize": 71979743,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5132/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "author": "TheDavSmasher",
-    "commit": "fd7cfd393e7a50b88c9b0789e66773b1bb0eec5e",
-    "description": "Add NoWarn attribute to DotNetZip Dependency (#979)",
-    "branch": "dev",
-    "version": 5832,
-    "isNative": true,
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5132/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 269,
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5132/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
-  },
-  {
     "date": "2025-09-06T18:50:47Z",
     "olympusBuildFileSize": 70903736,
     "mainFileSize": 70838138,
