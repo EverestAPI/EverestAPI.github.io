@@ -100952,6 +100952,28 @@ PanicLinePortraits:
   - Name: SaveFilePortraits
     Version: 1.0.0
   URL: https://gamebanana.com/mmdl/1526472
+Limbo:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FlaglinesAndSuch
+    Version: 1.6.50
+  - Name: FrostHelper
+    Version: 1.74.0
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: Everest
+    Version: 1.5421.0
+  - Name: Rug Helper
+    Version: 0.1.0
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: MaxHelpingHand
+    Version: 1.38.0
+  URL: https://gamebanana.com/mmdl/1558162
 Fifty-Fifty:
   OptionalDependencies: []
   Dependencies:
