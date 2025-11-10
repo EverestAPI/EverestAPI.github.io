@@ -1,59 +1,12 @@
 [
   {
-    "CategoryId": 1098,
-    "Screenshots": [
-      "https://images.gamebanana.com/img/ss/tools/690fadd6aa96f.jpg",
-      "https://images.gamebanana.com/img/ss/tools/690fadce259d5.jpg",
-      "https://images.gamebanana.com/img/ss/tools/690fadce251c8.jpg",
-      "https://images.gamebanana.com/img/ss/tools/690fadce2c708.jpg",
-      "https://images.gamebanana.com/img/ss/tools/690fadce2a849.jpg"
-    ],
-    "Description": "A soothing pastel theme for Loenn",
-    "Views": 85,
-    "GameBananaType": "Tool",
-    "TokenizedName": [
-      "catppuccin",
-      "themes",
-      "for",
-      "loenn"
-    ],
-    "UpdatedDate": 1762638023,
-    "GameBananaId": 21152,
-    "Featured": {
-      "Category": "today",
-      "Position": 0
-    },
-    "Text": "<h1>Catppuccin Themes for Loenn<br><br><\/h1>The popular pastel color schemes you know, now in your map editor!<br><br>Comes in 4 styles:<br><br>- Latte<br><br>- Frappe<br><br>- Macchiato<br><br>- Mocha<br><br>Each theme can be selected in the Edit > Settings > Editor > Theme dropdown.<br><br><span class=\"RedColor SelectedElement\">KNOWN ISSUES<\/span><br><br>If you apply a Catppuccin theme, and then apply a non-Catppuccin theme, the background color will not change. This is due to how Loenn themes don't natively support changing the background color, and closing + reopening Loenn will fix this issue.",
-    "ModifiedDate": 1762637994,
-    "Name": "Catppuccin Themes for Loenn",
-    "PageURL": "https://gamebanana.com/tools/21152",
-    "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_tools_690fadd6aa96f.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_tools_690fadce259d5.png"
-    ],
-    "CreatedDate": 1762635255,
-    "Author": "grog398",
-    "CategoryName": "Lönn Plugin",
-    "Downloads": 19,
-    "Likes": 3,
-    "Files": [{
-      "Description": "",
-      "HasEverestYaml": true,
-      "Size": 8032,
-      "CreatedDate": 1762637989,
-      "Downloads": 14,
-      "URL": "https://gamebanana.com/dl/1557281",
-      "Name": "catppuccinloenn_22339.zip"
-    }]
-  },
-  {
     "CategoryId": 6800,
     "Screenshots": [
       "https://images.gamebanana.com/img/ss/mods/6908d95f86570.jpg",
       "https://images.gamebanana.com/img/ss/mods/6908d96b94840.jpg"
     ],
     "Description": "Drifting in the space",
-    "Views": 674,
+    "Views": 685,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "moon",
@@ -80,14 +33,14 @@
     "CreatedDate": 1762187817,
     "Author": "rifs",
     "CategoryName": "Maps",
-    "Downloads": 209,
+    "Downloads": 217,
     "Likes": 23,
     "Files": [{
       "Description": "",
       "HasEverestYaml": true,
       "Size": 22720262,
       "CreatedDate": 1762187773,
-      "Downloads": 209,
+      "Downloads": 217,
       "URL": "https://gamebanana.com/dl/1553965",
       "Name": "moon_of_the_ultras.zip"
     }]
@@ -104,7 +57,7 @@
       "https://images.gamebanana.com/img/ss/mods/690c81f8155db.jpg"
     ],
     "Description": "The Secret Ingredient is the friends we have made along the way.",
-    "Views": 647,
+    "Views": 676,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "secret",
@@ -130,7 +83,7 @@
     "CreatedDate": 1762428713,
     "Author": "Crispybag",
     "CategoryName": "Maps",
-    "Downloads": 619,
+    "Downloads": 643,
     "Likes": 22,
     "Files": [
       {
@@ -138,7 +91,7 @@
         "HasEverestYaml": true,
         "Size": 1978956,
         "CreatedDate": 1762523919,
-        "Downloads": 172,
+        "Downloads": 186,
         "URL": "https://gamebanana.com/dl/1556317",
         "Name": "secretingredientcontest_bf189.zip"
       },
@@ -147,7 +100,7 @@
         "HasEverestYaml": true,
         "Size": 183875410,
         "CreatedDate": 1762427767,
-        "Downloads": 244,
+        "Downloads": 256,
         "URL": "https://gamebanana.com/dl/1555696",
         "Name": "secretingredientcontestaudio.zip"
       }
@@ -160,7 +113,7 @@
       "https://images.gamebanana.com/img/ss/mods/690df3e5b325e.jpg"
     ],
     "Description": "Explore an illusionary city",
-    "Views": 236,
+    "Views": 247,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "electro",
@@ -209,7 +162,7 @@
       "https://images.gamebanana.com/img/ss/mods/68f185fb8d3ee.jpg"
     ],
     "Description": "A cute adventure intended for all skill levels",
-    "Views": 2139,
+    "Views": 2146,
     "GameBananaType": "Mod",
     "TokenizedName": ["daybreak"],
     "UpdatedDate": 1760659175,
@@ -231,14 +184,14 @@
     "CreatedDate": 1760659175,
     "Author": "ABuffZucchini",
     "CategoryName": "Maps",
-    "Downloads": 1061,
+    "Downloads": 1067,
     "Likes": 25,
     "Files": [{
       "Description": "",
       "HasEverestYaml": true,
       "Size": 19755727,
       "CreatedDate": 1760662367,
-      "Downloads": 1053,
+      "Downloads": 1060,
       "URL": "https://gamebanana.com/dl/1540473",
       "Name": "daybreak_aa5ca.zip"
     }]
@@ -254,7 +207,7 @@
       "https://images.gamebanana.com/img/ss/mods/68fa5a4b1eab5.jpg"
     ],
     "Description": "Better Hurry Up",
-    "Views": 2162,
+    "Views": 2186,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "t",
@@ -279,7 +232,7 @@
     "CreatedDate": 1761239016,
     "Author": "tobyaaa",
     "CategoryName": "Maps",
-    "Downloads": 803,
+    "Downloads": 808,
     "Likes": 20,
     "Files": [
       {
@@ -287,7 +240,7 @@
         "HasEverestYaml": true,
         "Size": 11257835,
         "CreatedDate": 1761519556,
-        "Downloads": 631,
+        "Downloads": 636,
         "URL": "https://gamebanana.com/dl/1548213",
         "Name": "t-minus_f9872.zip"
       },
@@ -325,7 +278,7 @@
       "https://images.gamebanana.com/img/ss/mods/68ff93ecc5429.jpg"
     ],
     "Description": "Bubble Key Lock",
-    "Views": 1505,
+    "Views": 1535,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "creation",
@@ -351,7 +304,7 @@
     "CreatedDate": 1761595186,
     "Author": "KaileyTheAlien",
     "CategoryName": "Maps",
-    "Downloads": 1036,
+    "Downloads": 1059,
     "Likes": 20,
     "Files": [
       {
@@ -359,7 +312,7 @@
         "HasEverestYaml": true,
         "Size": 1048248,
         "CreatedDate": 1762715087,
-        "Downloads": 0,
+        "Downloads": 11,
         "URL": "https://gamebanana.com/dl/1557984",
         "Name": "creationthroughsufferingfullrelease_3f195.zip"
       },
@@ -368,7 +321,7 @@
         "HasEverestYaml": true,
         "Size": 1049924,
         "CreatedDate": 1762501873,
-        "Downloads": 70,
+        "Downloads": 74,
         "URL": "https://gamebanana.com/dl/1556179",
         "Name": "creationthroughsufferingfullrelease_2b154.zip"
       },
@@ -404,7 +357,7 @@
         "HasEverestYaml": true,
         "Size": 383531389,
         "CreatedDate": 1761597119,
-        "Downloads": 222,
+        "Downloads": 224,
         "URL": "https://gamebanana.com/dl/1548898",
         "Name": "whatcreationthroughsufferingismadeof_6f6f1.zip"
       },
@@ -427,7 +380,7 @@
       "https://images.gamebanana.com/img/ss/mods/68b85472acaab.jpg"
     ],
     "Description": "surprise! (late) birthday map",
-    "Views": 3645,
+    "Views": 3655,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "amber",
@@ -453,14 +406,14 @@
     "CreatedDate": 1756913629,
     "Author": "earthwise",
     "CategoryName": "Maps",
-    "Downloads": 871,
+    "Downloads": 875,
     "Likes": 38,
     "Files": [{
       "Description": "1.0.0",
       "HasEverestYaml": true,
       "Size": 19086307,
       "CreatedDate": 1756912562,
-      "Downloads": 871,
+      "Downloads": 875,
       "URL": "https://gamebanana.com/dl/1510809",
       "Name": "amberleafbluffs_final_v1.zip"
     }]
@@ -475,7 +428,7 @@
       "https://images.gamebanana.com/img/ss/mods/68a87f30d815a.jpg"
     ],
     "Description": "A beginner map",
-    "Views": 3173,
+    "Views": 3181,
     "GameBananaType": "Mod",
     "TokenizedName": ["nyx"],
     "UpdatedDate": 1755882730,
@@ -497,14 +450,14 @@
     "CreatedDate": 1755873238,
     "Author": "ssat",
     "CategoryName": "Maps",
-    "Downloads": 1359,
+    "Downloads": 1364,
     "Likes": 33,
     "Files": [{
       "Description": "",
       "HasEverestYaml": true,
       "Size": 8331006,
       "CreatedDate": 1755882625,
-      "Downloads": 1350,
+      "Downloads": 1355,
       "URL": "https://gamebanana.com/dl/1502163",
       "Name": "nyx_fab12.zip"
     }]
@@ -519,7 +472,7 @@
       "https://images.gamebanana.com/img/ss/mods/68d6b9fa52413.jpg"
     ],
     "Description": "A peaceful castle beyond the clouds",
-    "Views": 1662,
+    "Views": 1663,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "nights",
@@ -572,7 +525,7 @@
       "https://images.gamebanana.com/img/ss/mods/686c65fe9c177.jpg"
     ],
     "Description": "Now You're Playing With Power!",
-    "Views": 9704,
+    "Views": 9709,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "super",
@@ -599,14 +552,14 @@
     "CreatedDate": 1751935234,
     "Author": "ashmosphere",
     "CategoryName": "Skins",
-    "Downloads": 2638,
+    "Downloads": 2642,
     "Likes": 48,
     "Files": [{
       "Description": "",
       "HasEverestYaml": true,
       "Size": 3321277,
       "CreatedDate": 1751997315,
-      "Downloads": 2561,
+      "Downloads": 2565,
       "URL": "https://gamebanana.com/dl/1473860",
       "Name": "mariomadeline_e3608.zip"
     }]
@@ -619,7 +572,7 @@
       "https://images.gamebanana.com/img/ss/mods/685b81fa27b13.jpg"
     ],
     "Description": "The Tower That Might Be",
-    "Views": 18649,
+    "Views": 18665,
     "GameBananaType": "Mod",
     "TokenizedName": ["theworldtrap"],
     "UpdatedDate": 1762648452,
@@ -641,7 +594,7 @@
     "CreatedDate": 1750827521,
     "Author": "PPNyan",
     "CategoryName": "Maps",
-    "Downloads": 3976,
+    "Downloads": 3979,
     "Likes": 35,
     "Files": [
       {
@@ -649,7 +602,7 @@
         "HasEverestYaml": true,
         "Size": 76118433,
         "CreatedDate": 1762648389,
-        "Downloads": 33,
+        "Downloads": 37,
         "URL": "https://gamebanana.com/dl/1557413",
         "Name": "theworldtrap_e0551.zip"
       },
@@ -778,7 +731,7 @@
       "https://images.gamebanana.com/img/ss/mods/6861d7fa66f5c.jpg"
     ],
     "Description": "a strange landscape of vanilla-difficulty gameplay",
-    "Views": 3340,
+    "Views": 3343,
     "GameBananaType": "Mod",
     "TokenizedName": ["dialtone"],
     "UpdatedDate": 1751243069,
@@ -800,14 +753,14 @@
     "CreatedDate": 1751243069,
     "Author": "ABuffZucchini",
     "CategoryName": "Maps",
-    "Downloads": 1261,
+    "Downloads": 1263,
     "Likes": 31,
     "Files": [{
       "Description": "The Map",
       "HasEverestYaml": true,
       "Size": 3425152,
       "CreatedDate": 1751440014,
-      "Downloads": 1073,
+      "Downloads": 1075,
       "URL": "https://gamebanana.com/dl/1469568",
       "Name": "dialtone_eacae.zip"
     }]
@@ -828,7 +781,7 @@
       "https://images.gamebanana.com/img/ss/mods/672ef51774a9c.jpg"
     ],
     "Description": "A feast of over 75 beginner maps!",
-    "Views": 56613,
+    "Views": 56636,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "breeze",
@@ -853,7 +806,7 @@
     "CreatedDate": 1731182399,
     "Author": "Donker19",
     "CategoryName": "Maps",
-    "Downloads": 40582,
+    "Downloads": 40605,
     "Likes": 83,
     "Files": [
       {
@@ -861,7 +814,7 @@
         "HasEverestYaml": true,
         "Size": 234447819,
         "CreatedDate": 1760568856,
-        "Downloads": 1876,
+        "Downloads": 1893,
         "URL": "https://gamebanana.com/dl/1539722",
         "Name": "breezecontest2025_v1_1_2.zip"
       },
@@ -870,7 +823,7 @@
         "HasEverestYaml": true,
         "Size": 707675460,
         "CreatedDate": 1731192314,
-        "Downloads": 13504,
+        "Downloads": 13508,
         "URL": "https://gamebanana.com/dl/1318934",
         "Name": "breezecontestr2024_audio1_0_1.zip"
       }
@@ -888,7 +841,7 @@
       "https://images.gamebanana.com/img/ss/mods/67d3e29b1e9fb.jpg"
     ],
     "Description": "Madeline finds herself amidst a dystopian world, where the line that divides dream and reality is all but an illusion...",
-    "Views": 25548,
+    "Views": 25553,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "city",
@@ -915,14 +868,14 @@
     "CreatedDate": 1741971207,
     "Author": "ricky06",
     "CategoryName": "Maps",
-    "Downloads": 8136,
+    "Downloads": 8138,
     "Likes": 71,
     "Files": [{
       "Description": "",
       "HasEverestYaml": true,
       "Size": 31022869,
       "CreatedDate": 1747597719,
-      "Downloads": 3696,
+      "Downloads": 3698,
       "URL": "https://gamebanana.com/dl/1441603",
       "Name": "cobd_ricky06_aabcf.zip"
     }]
@@ -934,7 +887,7 @@
       "https://images.gamebanana.com/img/ss/mods/67bb7a9c94f16.jpg"
     ],
     "Description": "A delve into the mind of a creative",
-    "Views": 9664,
+    "Views": 9665,
     "GameBananaType": "Mod",
     "TokenizedName": ["aesthetica"],
     "UpdatedDate": 1740671159,
@@ -999,7 +952,7 @@
       "https://images.gamebanana.com/img/ss/mods/63e16597a0ec5.jpg"
     ],
     "Description": "A collaboration involving 350+ people to commemorate Celeste",
-    "Views": 399657,
+    "Views": 399693,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "strawberry",
@@ -1025,7 +978,7 @@
     "CreatedDate": 1676617638,
     "Author": "Strawberry Jam Collab Team",
     "CategoryName": "Maps",
-    "Downloads": 1471028,
+    "Downloads": 1471296,
     "Likes": 374,
     "Files": [
       {
@@ -1033,7 +986,7 @@
         "HasEverestYaml": true,
         "Size": 95650820,
         "CreatedDate": 1743704036,
-        "Downloads": 78688,
+        "Downloads": 78765,
         "URL": "https://gamebanana.com/dl/1414214",
         "Name": "strawberryjammappack_v1012.zip"
       },
@@ -1042,7 +995,7 @@
         "HasEverestYaml": true,
         "Size": 91062907,
         "CreatedDate": 1677301990,
-        "Downloads": 218306,
+        "Downloads": 218360,
         "URL": "https://gamebanana.com/dl/941090",
         "Name": "strawberryjamassets_v101.zip"
       },
@@ -1051,7 +1004,7 @@
         "HasEverestYaml": true,
         "Size": 318011755,
         "CreatedDate": 1695524389,
-        "Downloads": 196460,
+        "Downloads": 196512,
         "URL": "https://gamebanana.com/dl/1060720",
         "Name": "strawberryjamaudioa_v104_66276.zip"
       },
@@ -1060,7 +1013,7 @@
         "HasEverestYaml": true,
         "Size": 318382262,
         "CreatedDate": 1676616089,
-        "Downloads": 231751,
+        "Downloads": 231802,
         "URL": "https://gamebanana.com/dl/937262",
         "Name": "strawberryjamaudiob_v100.zip"
       },
@@ -1069,7 +1022,7 @@
         "HasEverestYaml": true,
         "Size": 317738998,
         "CreatedDate": 1695524392,
-        "Downloads": 190712,
+        "Downloads": 190759,
         "URL": "https://gamebanana.com/dl/1060721",
         "Name": "strawberryjamaudioc_v101_3f26b.zip"
       },
@@ -1091,7 +1044,7 @@
       "https://images.gamebanana.com/img/ss/mods/5f46e9ee53c9b.jpg"
     ],
     "Description": "A collaboration involving 100+ people to commemorate Celeste",
-    "Views": 708516,
+    "Views": 708542,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "the",
@@ -1120,7 +1073,7 @@
     "CreatedDate": 1599670994,
     "Author": "Spring Collab 2020 Team",
     "CategoryName": "Maps",
-    "Downloads": 304542,
+    "Downloads": 304557,
     "Likes": 251,
     "Files": [
       {
@@ -1128,7 +1081,7 @@
         "HasEverestYaml": true,
         "Size": 56291358,
         "CreatedDate": 1725474405,
-        "Downloads": 39633,
+        "Downloads": 39640,
         "URL": "https://gamebanana.com/dl/1273559",
         "Name": "springcollab2020_63108.zip"
       },
@@ -1137,7 +1090,7 @@
         "HasEverestYaml": true,
         "Size": 513411848,
         "CreatedDate": 1599575103,
-        "Downloads": 105984,
+        "Downloads": 105990,
         "URL": "https://gamebanana.com/dl/484937",
         "Name": "springcollab2020audio_135a4.zip"
       },
@@ -1156,7 +1109,7 @@
     "CategoryId": 6800,
     "Screenshots": ["https://images.gamebanana.com/img/ss/mods/60e5d6e408360.jpg"],
     "Description": "Maddie goes on a journey through the mind & memories of one that are not her own.",
-    "Views": 387390,
+    "Views": 387401,
     "GameBananaType": "Mod",
     "TokenizedName": ["glyph"],
     "UpdatedDate": 1722299987,
@@ -1175,7 +1128,7 @@
     "CreatedDate": 1588357721,
     "Author": "marshall h",
     "CategoryName": "Maps",
-    "Downloads": 63365,
+    "Downloads": 63370,
     "Likes": 214,
     "Files": [
       {
@@ -1183,7 +1136,7 @@
         "HasEverestYaml": true,
         "Size": 29213443,
         "CreatedDate": 1722301354,
-        "Downloads": 23628,
+        "Downloads": 23632,
         "URL": "https://gamebanana.com/dl/1247390",
         "Name": "glyph_3a47c.zip"
       },
