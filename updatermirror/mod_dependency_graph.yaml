@@ -15874,6 +15874,52 @@ Randomizer:
   - Name: Everest
     Version: 1.2707.0
   URL: https://gamebanana.com/mmdl/1554793
+ScarletSpire:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: GravityHelper
+    Version: 1.2.22
+  - Name: SaladimHelper
+    Version: 0.3.3
+  - Name: Everest
+    Version: 1.5184.0
+  - Name: ExtendedVariantMode
+    Version: 0.39.7
+  - Name: VivHelper
+    Version: 1.14.8
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: MaxHelpingHand
+    Version: 1.33.6
+  - Name: FlaglinesAndSuch
+    Version: 1.6.30
+  - Name: FrostHelper
+    Version: 1.61.0
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: ShroomHelper
+    Version: 1.2.10
+  - Name: ChroniaHelper
+    Version: 1.28.18
+  - Name: CommunalHelper
+    Version: 1.20.10
+  - Name: FemtoHelper
+    Version: 1.12.20
+  - Name: SorbetHelper
+    Version: 1.5.1
+  - Name: OutbackHelper
+    Version: 1.7.3
+  - Name: Spooooky's Asset Pack
+    Version: 1.0.9
+  - Name: XaphanHelper
+    Version: 1.0.70
+  - Name: LylyraHelper
+    Version: 1.3.17
+  - Name: DJMapHelper
+    Version: 1.13.4
+  - Name: AdventureHelper
+    Version: 1.6.0
+  URL: https://gamebanana.com/mmdl/1558229
 Varicolor:
   OptionalDependencies: []
   Dependencies:
