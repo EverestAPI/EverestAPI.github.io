@@ -4281,13 +4281,13 @@ IntoTheVoid [WIP]:
 Lavande:
   GameBananaType: Mod
   Version: 1.0.1
-  LastUpdate: 1755303355
-  Size: 57322982
+  LastUpdate: 1762786258
+  Size: 57321393
   GameBananaId: 557112
-  GameBananaFileId: 1497998
+  GameBananaFileId: 1558528
   xxHash:
-  - daac1e91c4deee13
-  URL: https://gamebanana.com/mmdl/1497998
+  - c8dc8b7b1b049c5a
+  URL: https://gamebanana.com/mmdl/1558528
 Kirara:
   GameBananaType: Mod
   Version: 2004.4.11
@@ -9058,6 +9058,16 @@ LagPauser:
   xxHash:
   - c88e076b0667d27a
   URL: https://gamebanana.com/mmdl/1458113
+MidnightBounce:
+  GameBananaType: Mod
+  Version: 0.0.1
+  LastUpdate: 1762784942
+  Size: 3006809
+  GameBananaId: 632806
+  GameBananaFileId: 1558517
+  xxHash:
+  - f483168da4c1c965
+  URL: https://gamebanana.com/mmdl/1558517
 Glitch:
   GameBananaType: Mod
   Version: 0.0.1
@@ -18100,14 +18110,14 @@ MyExampleMod:
   URL: https://gamebanana.com/mmdl/1092505
 SecretIngredientContest:
   GameBananaType: Mod
-  Version: 1.0.3
-  LastUpdate: 1762523919
-  Size: 1978956
+  Version: 1.0.4
+  LastUpdate: 1762781008
+  Size: 1974886
   GameBananaId: 631922
-  GameBananaFileId: 1556317
+  GameBananaFileId: 1558477
   xxHash:
-  - e710ccc7212e00c3
-  URL: https://gamebanana.com/mmdl/1556317
+  - e197aac50d2d4d0e
+  URL: https://gamebanana.com/mmdl/1558477
 Subjection:
   GameBananaType: Mod
   Version: 1.0.0
