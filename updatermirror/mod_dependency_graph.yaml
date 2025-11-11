@@ -18685,8 +18685,6 @@ summitbullside:
 speedkitty:
   OptionalDependencies: []
   Dependencies:
-  - Name: FrostHelper
-    Version: 1.64.0
   - Name: BrokemiaHelper
     Version: 1.8.2
   - Name: GravityHelper
@@ -18695,21 +18693,25 @@ speedkitty:
     Version: 1.5184.0
   - Name: ExtendedVariantMode
     Version: 0.39.7
-  - Name: CherryHelper
-    Version: 1.8.1
   - Name: VivHelper
     Version: 1.14.8
+  - Name: MaxHelpingHand
+    Version: 1.32.0
+  - Name: FrostHelper
+    Version: 1.64.0
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: CherryHelper
+    Version: 1.8.1
   - Name: CollabUtils2
     Version: 1.10.14
   - Name: SorbetHelper
     Version: 1.5.1
   - Name: OutbackHelper
     Version: 1.7.3
-  - Name: MaxHelpingHand
-    Version: 1.32.0
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1550420
+  URL: https://gamebanana.com/mmdl/1559029
 Perilous Precipice:
   OptionalDependencies: []
   Dependencies:
