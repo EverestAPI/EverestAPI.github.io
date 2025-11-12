@@ -80558,6 +80558,32 @@ Cabin:
   - Name: Dax's Resources
     Version: 0.0.7
   URL: https://gamebanana.com/mmdl/1551223
+PastelHaze:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: EeveeHelper
+    Version: 1.12.3
+  - Name: FrostHelper
+    Version: 1.73.1
+  - Name: HonlyHelper
+    Version: 1.7.5
+  - Name: ShroomHelper
+    Version: 1.2.10
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: ChroniaHelper
+    Version: 1.38.3
+  - Name: Everest
+    Version: 1.5961.0
+  - Name: ExtendedVariantMode
+    Version: 0.46.0
+  - Name: SorbetHelper
+    Version: 1.7.10
+  - Name: OutbackHelper
+    Version: 1.7.3
+  - Name: MaxHelpingHand
+    Version: 1.38.0
+  URL: https://gamebanana.com/mmdl/1559900
 Epimorphism:
   OptionalDependencies: []
   Dependencies:
