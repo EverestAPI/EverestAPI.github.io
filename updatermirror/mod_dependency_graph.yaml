@@ -29358,46 +29358,6 @@ bits_myrtlebirth:
   - Name: Spooooky's Asset Pack
     Version: 1.0.8
   URL: https://gamebanana.com/mmdl/1259139
-Writer's block:
-  OptionalDependencies: []
-  Dependencies:
-  - Name: Loenn
-    Version: 0.0.1
-  - Name: JungleHelper
-    Version: 1.3.3
-  - Name: BrokemiaHelper
-    Version: 1.8.2
-  - Name: GravityHelper
-    Version: 1.2.22
-  - Name: Everest
-    Version: 1.5009.0
-  - Name: ExtendedVariantMode
-    Version: 0.39.9
-  - Name: VivHelper
-    Version: 1.14.8
-  - Name: MaxHelpingHand
-    Version: 1.33.6
-  - Name: FlaglinesAndSuch
-    Version: 1.6.29
-  - Name: FrostHelper
-    Version: 1.64.0
-  - Name: VortexHelper
-    Version: 1.2.17
-  - Name: MoreDasheline
-    Version: 1.7.1
-  - Name: CrystallineHelper
-    Version: 1.16.4
-  - Name: CherryHelper
-    Version: 1.8.1
-  - Name: CommunalHelper
-    Version: 1.20.10
-  - Name: OutbackHelper
-    Version: 1.7.3
-  - Name: DJMapHelper
-    Version: 1.13.4
-  - Name: AdventureHelper
-    Version: 1.6.0
-  URL: https://gamebanana.com/mmdl/1354428
 Rebound:
   OptionalDependencies: []
   Dependencies:
