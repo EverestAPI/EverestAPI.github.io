@@ -65672,6 +65672,54 @@ toki pona Celeste:
   - Name: Everest
     Version: 1.4351.0
   URL: https://gamebanana.com/mmdl/1083988
+AnotherDreamR:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: GravityHelper
+    Version: 1.2.23
+  - Name: NerdHelper
+    Version: 1.6.3
+  - Name: CavernHelper
+    Version: 1.3.3
+  - Name: Everest
+    Version: 1.0.0
+  - Name: VivHelper
+    Version: 1.5.3
+  - Name: CeilingUltra
+    Version: 1.4.4
+  - Name: MaxHelpingHand
+    Version: 1.16.8
+  - Name: FlaglinesAndSuch
+    Version: 1.4.12
+  - Name: FrostHelper
+    Version: 1.30.3
+  - Name: ColoredLights
+    Version: 1.1.1
+  - Name: VortexHelper
+    Version: 1.2.0
+  - Name: MoreDasheline
+    Version: 1.7.1
+  - Name: ShroomHelper
+    Version: 1.2.1
+  - Name: ChroniaHelper
+    Version: 1.33.15
+  - Name: CherryHelper
+    Version: 1.6.10
+  - Name: CommunalHelper
+    Version: 1.9.2
+  - Name: CollabUtils2
+    Version: 1.5.3
+  - Name: ProgHelper
+    Version: 1.3.6
+  - Name: SorbetHelper
+    Version: 1.7.4
+  - Name: OutbackHelper
+    Version: 1.7.3
+  - Name: XaphanHelper
+    Version: 1.0.76
+  - Name: SafeRespawnCrumble
+    Version: 1.1.0
+  URL: https://gamebanana.com/mmdl/1560236
 MadelineIntoTheTemple:
   OptionalDependencies: []
   Dependencies:
