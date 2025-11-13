@@ -85077,9 +85077,9 @@ AurorasHelper:
   - Name: ExtendedVariantMode
     Version: 0.29.0
   Dependencies:
-  - Name: Everest
-    Version: 1.2781.0
-  URL: https://gamebanana.com/mmdl/1246583
+  - Name: EverestCore
+    Version: 1.5935.0
+  URL: https://gamebanana.com/mmdl/1560372
 amoeba:
   OptionalDependencies: []
   Dependencies:
