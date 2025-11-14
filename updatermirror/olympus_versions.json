@@ -1,5 +1,14 @@
 [
   {
+    "date": "2025-11-14T23:01:59.449785Z",
+    "changelog": "∙ Added timestamps and tags to logs",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5281/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "25.11.14.03",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5281/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5281/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-11-09T16:37:47.7493674Z",
     "changelog": "∙ Use API mirror to update mods if enabled",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5277/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
