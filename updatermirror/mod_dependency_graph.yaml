@@ -102012,6 +102012,40 @@ DamaKevins:
   OptionalDependencies: []
   Dependencies: []
   URL: https://gamebanana.com/mmdl/971352
+Cyathe:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: KyfexHelper
+    Version: 0.10.0
+  - Name: Everest
+    Version: 1.5935.0
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: StyleMaskHelper
+    Version: 1.4.0
+  - Name: SSMHelper
+    Version: 1.2.12
+  - Name: MaxHelpingHand
+    Version: 1.38.0
+  - Name: FrostHelper
+    Version: 1.74.0
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: LunaticHelper
+    Version: 1.1.1
+  - Name: ChroniaHelper
+    Version: 1.39.1
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: SorbetHelper
+    Version: 1.7.10
+  - Name: XaphanHelper
+    Version: 1.0.77
+  - Name: SafeRespawnCrumble
+    Version: 1.2.0
+  - Name: PandorasBox
+    Version: 1.0.49
+  URL: https://gamebanana.com/mmdl/1560824
 Angel Rib:
   OptionalDependencies: []
   Dependencies:
