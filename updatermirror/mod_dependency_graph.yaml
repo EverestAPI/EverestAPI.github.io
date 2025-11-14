@@ -83006,13 +83006,13 @@ Celestial Metropolis:
   OptionalDependencies: []
   Dependencies:
   - Name: JungleHelper
-    Version: 1.3.7
+    Version: 1.3.9
   - Name: GrayscaleStylegrounds
     Version: 1.1.0
   - Name: DisplayMessageCommand
     Version: 1.0.4
   - Name: GravityHelper
-    Version: 1.2.23
+    Version: 1.2.24
   - Name: SaladimHelper
     Version: 0.3.4
   - Name: VivHelper
@@ -83024,13 +83024,13 @@ Celestial Metropolis:
   - Name: CommunalHelper
     Version: 1.24.4
   - Name: ReverseHelper
-    Version: 1.15.13
+    Version: 1.15.15
   - Name: SorbetHelper
-    Version: 1.7.10
+    Version: 1.8.2
   - Name: OutbackHelper
     Version: 1.7.3
   - Name: BrokemiaHelper
-    Version: 1.8.3
+    Version: 1.8.4
   - Name: Everest
     Version: 1.4000.0
   - Name: ContortHelper
@@ -83038,13 +83038,13 @@ Celestial Metropolis:
   - Name: LuaCutscenes
     Version: 0.2.13
   - Name: FlaglinesAndSuch
-    Version: 1.6.46
+    Version: 1.6.50
   - Name: ShroomHelper
     Version: 1.2.10
   - Name: CollabUtils2
     Version: 1.10.14
   - Name: ExtendedCameraDynamics
-    Version: 1.1.1
+    Version: 1.1.2
   - Name: JPC2024Assets
     Version: 1.0.1
   - Name: HonlyHelper
@@ -83056,13 +83056,13 @@ Celestial Metropolis:
   - Name: EeveeHelper
     Version: 1.12.3
   - Name: DzhakeHelper
-    Version: 1.4.17
+    Version: 1.4.19
   - Name: ChroniaHelper
-    Version: 1.38.2
+    Version: 1.40.6
   - Name: CherryHelper
     Version: 1.8.2
   - Name: FemtoHelper
-    Version: 1.14.6
+    Version: 1.14.7
   - Name: Celestial Metropolis Audio
     Version: 1.0.1
   - Name: NewYearMoonAudio
@@ -83072,23 +83072,23 @@ Celestial Metropolis:
   - Name: AdventureHelper
     Version: 1.6.0
   - Name: AdamsAddons
-    Version: 1.14.8
+    Version: 1.14.9
   - Name: NerdHelper
     Version: 1.6.3
   - Name: PrismaticHelper
     Version: 1.12.0
   - Name: ExtendedVariantMode
-    Version: 0.45.0
+    Version: 0.46.1
   - Name: StyleMaskHelper
     Version: 1.4.0
   - Name: MaxHelpingHand
-    Version: 1.38.0
+    Version: 1.38.1
   - Name: LuckyHelper
-    Version: 0.21.0
+    Version: 0.22.1
   - Name: memorialHelper
     Version: 1.0.4
   - Name: FrostHelper
-    Version: 1.73.1
+    Version: 1.74.0
   - Name: UnderDragon's Repository
     Version: 2.6.3
   - Name: VortexHelper
@@ -83102,12 +83102,12 @@ Celestial Metropolis:
   - Name: Spooooky's Asset Pack
     Version: 1.0.10
   - Name: XaphanHelper
-    Version: 1.0.76
+    Version: 1.0.77
   - Name: AurorasHelper
-    Version: 0.12.2
+    Version: 0.12.3
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1533892
+  URL: https://gamebanana.com/mmdl/1560918
 CrystalGardenANCHOR:
   OptionalDependencies: []
   Dependencies:
