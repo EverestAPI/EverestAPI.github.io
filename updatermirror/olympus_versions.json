@@ -1,5 +1,14 @@
 [
   {
+    "date": "2025-11-15T15:03:23.3086126Z",
+    "changelog": "∙ Fixed mislabeling of \"CmdUpdateAllMods\" as \"CmdTasks\" in log-sharp.txt",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5285/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "25.11.15.03",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5285/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5285/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-11-15T13:50:31.8849086Z",
     "changelog": "∙ Make sure log lines are actually written to log.txt",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5283/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
