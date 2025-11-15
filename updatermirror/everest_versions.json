@@ -329,21 +329,6 @@
     "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5145/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
   },
   {
-    "date": "2025-09-16T18:07:33.2914563Z",
-    "olympusBuildFileSize": 71741793,
-    "mainFileSize": 71979771,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5144/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "author": "SnipUndercover",
-    "commit": "63e662e16213bc3a8b07cc7803386777f359ae92",
-    "description": "Remove unused PhotosensitiveMode setting",
-    "branch": "dev",
-    "version": 5844,
-    "isNative": true,
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5144/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 269,
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5144/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
-  },
-  {
     "date": "2025-09-06T18:50:47Z",
     "olympusBuildFileSize": 70903736,
     "mainFileSize": 70838138,
