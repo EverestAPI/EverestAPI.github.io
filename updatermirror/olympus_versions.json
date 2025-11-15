@@ -1,5 +1,14 @@
 [
   {
+    "date": "2025-11-15T13:50:31.8849086Z",
+    "changelog": "∙ Make sure log lines are actually written to log.txt",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5283/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "25.11.15.01",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5283/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5283/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-11-14T23:01:59.449785Z",
     "changelog": "∙ Added timestamps and tags to logs",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5281/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
