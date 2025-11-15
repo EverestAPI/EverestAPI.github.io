@@ -9,13 +9,13 @@
       "https://images.gamebanana.com/img/ss/mods/691836a8d98cd.jpg"
     ],
     "Description": "This is my first map!!",
-    "Views": 36,
+    "Views": 70,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "fading",
       "rain"
     ],
-    "UpdatedDate": 1763195565,
+    "UpdatedDate": 1763214269,
     "SubcategoryId": 6801,
     "SubcategoryName": "Standalone",
     "GameBananaId": 633747,
@@ -24,7 +24,7 @@
       "Position": 0
     },
     "Text": "This is my first map!!<br><br>Difficulty should be around beginner green to beginner red.<br>Main gameplay is dashless with green boosters and jump crystal.<br>Total gameplay rooms is around 20.<br>There are 2 alternate rooms that skips a few rooms of main gameplay, but they are way harder (by way harder I mean it).<br><br>The music of this map is Library nap by Nightmargin in the Oneshot OST.",
-    "ModifiedDate": 1763199859,
+    "ModifiedDate": 1763214224,
     "Name": "fading rain",
     "PageURL": "https://gamebanana.com/mods/633747",
     "MirroredScreenshots": [
@@ -34,17 +34,28 @@
     "CreatedDate": 1763195565,
     "Author": "x_asterisk_x",
     "CategoryName": "Maps",
-    "Downloads": 12,
+    "Downloads": 24,
     "Likes": 10,
-    "Files": [{
-      "Description": "",
-      "HasEverestYaml": true,
-      "Size": 3057697,
-      "CreatedDate": 1763199855,
-      "Downloads": 11,
-      "URL": "https://gamebanana.com/dl/1561468",
-      "Name": "fadingrain_300c0.zip"
-    }]
+    "Files": [
+      {
+        "Description": "",
+        "HasEverestYaml": true,
+        "Size": 3057697,
+        "CreatedDate": 1763199855,
+        "Downloads": 16,
+        "URL": "https://gamebanana.com/dl/1561468",
+        "Name": "fadingrain_300c0.zip"
+      },
+      {
+        "Description": "1.0.1 - fix some of the Chinese characters not loading",
+        "HasEverestYaml": true,
+        "Size": 3063339,
+        "CreatedDate": 1763214190,
+        "Downloads": 0,
+        "URL": "https://gamebanana.com/dl/1561609",
+        "Name": "fadingrain_199df.zip"
+      }
+    ]
   },
   {
     "CategoryId": 6800,
