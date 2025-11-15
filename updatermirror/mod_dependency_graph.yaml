@@ -86898,6 +86898,30 @@ Chiikawa_ChiiSkin:
   - Name: SkinModHelper
     Version: 0.5.0
   URL: https://gamebanana.com/mmdl/1312405
+StoneStorm:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.74.0
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: ChroniaHelper
+    Version: 1.39.1
+  - Name: Everest
+    Version: 1.5961.0
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: OutbackHelper
+    Version: 1.7.3
+  - Name: XaphanHelper
+    Version: 1.0.77
+  - Name: MaxHelpingHand
+    Version: 1.38.0
+  - Name: DJMapHelper
+    Version: 1.13.4
+  URL: https://gamebanana.com/mmdl/1561848
 sleepwalk station:
   OptionalDependencies: []
   Dependencies:
