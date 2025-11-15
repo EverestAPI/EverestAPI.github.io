@@ -30726,6 +30726,76 @@ NyanBallsWeek:
   - Name: AdventureHelper
     Version: 1.5.3
   URL: https://gamebanana.com/mmdl/1068990
+NarcBDayMap_Blacklight:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: GameHelper
+    Version: 1.8.8.0
+  - Name: BounceHelper
+    Version: 1.14.0
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: bitsbolts
+    Version: 1.4.7
+  - Name: EeveeHelper
+    Version: 1.12.3
+  - Name: aonHelper
+    Version: 0.9.0
+  - Name: DzhakeHelper
+    Version: 1.4.19
+  - Name: Kelper
+    Version: 0.5.5
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.14.7
+  - Name: ReverseHelper
+    Version: 1.15.15
+  - Name: SorbetHelper
+    Version: 1.8.2
+  - Name: KoseiHelper
+    Version: 1.18.0.1
+  - Name: AidenHelper
+    Version: 1.2.1
+  - Name: BrokemiaHelper
+    Version: 1.8.4
+  - Name: GooberHelper
+    Version: 1.4.4
+  - Name: NerdHelper
+    Version: 1.6.3
+  - Name: PrismaticHelper
+    Version: 1.12.0
+  - Name: Everest
+    Version: 1.5752.0
+  - Name: ExtendedVariantMode
+    Version: 0.46.1
+  - Name: StyleMaskHelper
+    Version: 1.4.0
+  - Name: ChronoHelper
+    Version: 1.2.8
+  - Name: CeilingUltra
+    Version: 1.5.2
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: MaxHelpingHand
+    Version: 1.38.1
+  - Name: FlaglinesAndSuch
+    Version: 1.6.46
+  - Name: FrostHelper
+    Version: 1.74.0
+  - Name: ShroomHelper
+    Version: 1.2.10
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: CollabUtils2
+    Version: 1.10.14
+  - Name: XaphanHelper
+    Version: 1.0.77
+  - Name: DJMapHelper
+    Version: 1.13.4
+  URL: https://gamebanana.com/mmdl/1561417
 Emptiness:
   OptionalDependencies: []
   Dependencies:
