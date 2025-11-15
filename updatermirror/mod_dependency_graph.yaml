@@ -21852,6 +21852,20 @@ AIRTH:
   - Name: LuaCutscenes
     Version: 0.2.13
   URL: https://gamebanana.com/mmdl/1424593
+fading rain:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: ChroniaHelper
+    Version: 1.39.1
+  - Name: Everest
+    Version: 1.5901.0
+  - Name: ExtendedVariantMode
+    Version: 0.46.0
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: MaxHelpingHand
+    Version: 1.38.0
+  URL: https://gamebanana.com/mmdl/1561435
 MTC3 Map:
   OptionalDependencies: []
   Dependencies:
