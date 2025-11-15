@@ -30759,6 +30759,8 @@ NarcBDayMap_Blacklight:
     Version: 1.18.0.1
   - Name: AidenHelper
     Version: 1.2.1
+  - Name: AdamsAddons
+    Version: 1.14.9
   - Name: BrokemiaHelper
     Version: 1.8.4
   - Name: GooberHelper
@@ -30795,7 +30797,7 @@ NarcBDayMap_Blacklight:
     Version: 1.0.77
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1561417
+  URL: https://gamebanana.com/mmdl/1561434
 Emptiness:
   OptionalDependencies: []
   Dependencies:
