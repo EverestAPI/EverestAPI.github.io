@@ -355,21 +355,6 @@
     "isNative": true
   },
   {
-    "date": "2025-09-17T00:12:51.5169115Z",
-    "olympusBuildFileSize": 71742361,
-    "mainFileSize": 71979913,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5145/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "author": "microlith57",
-    "commit": "a5678551da2bebaaea333b38ff45a859c3fbce18",
-    "description": "add event for `GameLoader.LoadThread` (#985)",
-    "branch": "dev",
-    "version": 5845,
-    "isNative": true,
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5145/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 267,
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5145/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
-  },
-  {
     "date": "2025-09-06T18:50:47Z",
     "olympusBuildFileSize": 70903736,
     "mainFileSize": 70838138,
