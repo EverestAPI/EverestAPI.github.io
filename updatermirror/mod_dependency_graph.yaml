@@ -81772,6 +81772,12 @@ industrialis:
   - Name: MaxHelpingHand
     Version: 1.34.0
   URL: https://gamebanana.com/mmdl/1410893
+vanillassat:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.5961.0
+  URL: https://gamebanana.com/mmdl/1562115
 Celeste But Stupid:
   OptionalDependencies: []
   Dependencies:
