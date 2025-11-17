@@ -89238,6 +89238,12 @@ PersistenceHelper:
   - Name: Everest
     Version: 1.3164.0
   URL: https://gamebanana.com/mmdl/1116759
+1-map:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.5986.0
+  URL: https://gamebanana.com/mmdl/1562819
 Stargazing:
   OptionalDependencies: []
   Dependencies:
