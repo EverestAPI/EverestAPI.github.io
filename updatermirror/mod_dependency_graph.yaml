@@ -98478,6 +98478,14 @@ nanossupermodo:
   - Name: MaxHelpingHand
     Version: 1.24.1
   URL: https://gamebanana.com/mmdl/947420
+SSMHelper:
+  OptionalDependencies:
+  - Name: CavernHelper
+    Version: 1.3.7
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.5986.0
+  URL: https://gamebanana.com/mmdl/1563273
 yoshmtc2:
   OptionalDependencies: []
   Dependencies:
