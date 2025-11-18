@@ -80424,32 +80424,6 @@ TheGigglebug:
   - Name: AdventureHelper
     Version: 1.5.8
   URL: https://gamebanana.com/mmdl/1412804
-milksong:
-  OptionalDependencies: []
-  Dependencies:
-  - Name: AdamsAddons
-    Version: 1.14.4
-  - Name: FrostHelper
-    Version: 1.73.0
-  - Name: StrawberryJam2021AudioA
-    Version: 1.0.4
-  - Name: JungleHelper
-    Version: 1.3.6
-  - Name: ShroomHelper
-    Version: 1.2.10
-  - Name: Everest
-    Version: 1.5752.0
-  - Name: StyleMaskHelper
-    Version: 1.3.3
-  - Name: Spooooky's Asset Pack
-    Version: 1.0.10
-  - Name: ChronoHelper
-    Version: 1.2.8
-  - Name: PandorasBox
-    Version: 1.0.49
-  - Name: SecretSanta2024AudioBank3
-    Version: 1.0.0
-  URL: https://gamebanana.com/mmdl/1515127
 Clover Madeline:
   OptionalDependencies: []
   Dependencies:
