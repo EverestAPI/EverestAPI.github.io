@@ -102351,6 +102351,8 @@ Frigid Fields:
     Version: 1.16.6
   - Name: Everest
     Version: 1.5935.0
+  - Name: ExtendedVariantMode
+    Version: 0.46.1
   - Name: CherryHelper
     Version: 1.8.2
   - Name: CollabUtils2
@@ -102363,7 +102365,7 @@ Frigid Fields:
     Version: 1.38.0
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1561869
+  URL: https://gamebanana.com/mmdl/1563398
 TrollMap:
   OptionalDependencies: []
   Dependencies:
