@@ -22595,26 +22595,14 @@ Cycle Chaos:
   Dependencies:
   - Name: GameHelper
     Version: 1.8.5.0
-  - Name: Everest
-    Version: 1.0.0
-  - Name: ExtendedVariantMode
-    Version: 0.45.0
+  - Name: GravityHelper
+    Version: 1.2.23
   - Name: VivHelper
     Version: 1.9.32
-  - Name: ContortHelper
-    Version: 1.5.5
-  - Name: MaxHelpingHand
-    Version: 1.23.0
-  - Name: FrostHelper
-    Version: 1.73.1
-  - Name: VortexHelper
-    Version: 1.2.9
-  - Name: YetAnotherHelper
-    Version: 1.2.4
-  - Name: ShroomHelper
-    Version: 1.2.4
-  - Name: CrystallineHelper
-    Version: 1.13.0
+  - Name: aonHelper
+    Version: 0.7.2
+  - Name: ChroniaHelper
+    Version: 1.39.1
   - Name: CherryHelper
     Version: 1.7.0
   - Name: CommunalHelper
@@ -22623,11 +22611,41 @@ Cycle Chaos:
     Version: 1.9.2
   - Name: SorbetHelper
     Version: 1.1.1
-  - Name: DJMapHelper
-    Version: 1.11.3
+  - Name: OutbackHelper
+    Version: 1.7.3
   - Name: AdventureHelper
     Version: 1.5.8
-  URL: https://gamebanana.com/mmdl/1559813
+  - Name: BrokemiaHelper
+    Version: 1.8.3
+  - Name: Everest
+    Version: 1.0.0
+  - Name: ExtendedVariantMode
+    Version: 0.45.0
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: MaxHelpingHand
+    Version: 1.23.0
+  - Name: FlaglinesAndSuch
+    Version: 1.6.46
+  - Name: FrostHelper
+    Version: 1.73.1
+  - Name: VortexHelper
+    Version: 1.2.9
+  - Name: YetAnotherHelper
+    Version: 1.2.4
+  - Name: LunaticHelper
+    Version: 1.1.1
+  - Name: ShroomHelper
+    Version: 1.2.4
+  - Name: CrystallineHelper
+    Version: 1.13.0
+  - Name: CollabUtils2
+    Version: 1.10.14
+  - Name: XaphanHelper
+    Version: 1.0.76
+  - Name: DJMapHelper
+    Version: 1.11.3
+  URL: https://gamebanana.com/mmdl/1563681
 SpooookyAstolfoSkinMod:
   OptionalDependencies: []
   Dependencies:
