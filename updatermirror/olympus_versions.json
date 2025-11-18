@@ -1,5 +1,14 @@
 [
   {
+    "date": "2025-11-18T23:50:17.2609569Z",
+    "changelog": "∙ Added French language option",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5303/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "25.11.18.02",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5303/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5303/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-11-15T22:20:04.0801385Z",
     "changelog": "∙ Added more mirror options for people that cannot access maddie480.ovh\n∙ Improved logs for easier troubleshooting\n∙ Manage Installed Mods: \"Disable All\" does not disable favorited mods anymore",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5295/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
