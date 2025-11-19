@@ -39746,6 +39746,12 @@ binsurprise:
   - Name: bitsbolts
     Version: 1.4.4
   URL: https://gamebanana.com/mmdl/1452571
+Pilo's A Sides:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.5986.0
+  URL: https://gamebanana.com/mmdl/1564379
 JackalHelper:
   OptionalDependencies:
   - Name: AltSidesHelper
