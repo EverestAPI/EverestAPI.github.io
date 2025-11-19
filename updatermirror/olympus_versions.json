@@ -1,5 +1,14 @@
 [
   {
+    "date": "2025-11-19T13:21:31.8571181Z",
+    "changelog": "∙ Touch-ups to French translation",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5306/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "25.11.19.03",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5306/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5306/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-11-18T23:50:17.2609569Z",
     "changelog": "∙ Added French language option",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5303/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
