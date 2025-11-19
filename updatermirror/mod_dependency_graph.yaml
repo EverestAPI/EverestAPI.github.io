@@ -15674,6 +15674,54 @@ Bunnysides:
   - Name: Everest
     Version: 1.0.0
   URL: https://gamebanana.com/mmdl/893380
+SnakeSummit:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: AdamsAddons
+    Version: 1.14.8
+  - Name: GameHelper
+    Version: 1.8.5.0
+  - Name: BrokemiaHelper
+    Version: 1.8.3
+  - Name: HonlyHelper
+    Version: 1.7.5
+  - Name: Everest
+    Version: 1.5617.0
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: MaxHelpingHand
+    Version: 1.38.0
+  - Name: LuckyHelper
+    Version: 0.18.5
+  - Name: Sardine7
+    Version: 1.2.0
+  - Name: EeveeHelper
+    Version: 1.12.3
+  - Name: FlaglinesAndSuch
+    Version: 1.6.46
+  - Name: FrostHelper
+    Version: 1.73.1
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: DzhakeHelper
+    Version: 1.4.17
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.14.4
+  - Name: SorbetHelper
+    Version: 1.7.9
+  - Name: Spooooky's Asset Pack
+    Version: 1.0.10
+  - Name: XaphanHelper
+    Version: 1.0.76
+  - Name: KoseiHelper
+    Version: 1.16.0.2
+  - Name: DJMapHelper
+    Version: 1.13.4
+  URL: https://gamebanana.com/mmdl/1556078
 ninzmountain:
   OptionalDependencies: []
   Dependencies:
