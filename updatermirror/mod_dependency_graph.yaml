@@ -41870,6 +41870,32 @@ Pong:
   - Name: MaxHelpingHand
     Version: 1.24.1
   URL: https://gamebanana.com/mmdl/955256
+CAZZO:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.74.0
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: ShroomHelper
+    Version: 1.2.10
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: Everest
+    Version: 1.5416.0
+  - Name: ExtendedVariantMode
+    Version: 0.46.0
+  - Name: CommunalHelper
+    Version: 1.21.0
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: SorbetHelper
+    Version: 1.7.1
+  - Name: JackalHelper
+    Version: 1.7.5
+  - Name: MaxHelpingHand
+    Version: 1.38.0
+  URL: https://gamebanana.com/mmdl/1564285
 AeughPuffers:
   OptionalDependencies: []
   Dependencies: []
