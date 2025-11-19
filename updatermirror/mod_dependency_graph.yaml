@@ -53080,6 +53080,28 @@ fraud:
   - Name: IsaGrabBag
     Version: 1.7.2
   URL: https://gamebanana.com/mmdl/1422006
+Axolotl:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.74.0
+  - Name: GravityHelper
+    Version: 1.2.24
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: Everest
+    Version: 1.5674.0
+  - Name: ExtendedVariantMode
+    Version: 0.46.1
+  - Name: SorbetHelper
+    Version: 1.8.2
+  - Name: XaphanHelper
+    Version: 1.0.76
+  - Name: MaxHelpingHand
+    Version: 1.38.0
+  URL: https://gamebanana.com/mmdl/1563929
 ScrappedSuperdash:
   OptionalDependencies: []
   Dependencies:
