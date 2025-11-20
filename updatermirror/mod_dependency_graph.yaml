@@ -62178,6 +62178,12 @@ Stronger:
   - Name: DJMapHelper
     Version: 1.13.4
   URL: https://gamebanana.com/mmdl/1432990
+OneDash:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.3471.0
+  URL: https://gamebanana.com/mmdl/1564486
 randomportraits:
   OptionalDependencies: []
   Dependencies:
