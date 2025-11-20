@@ -1,5 +1,50 @@
 [
   {
+    "date": "2025-12-05T15:11:06.4143605Z",
+    "changelog": "∙ Added a GameBanana category filter to Manage Installed Mods\n∙ Added tooltips on highlighted mods in Manage Installed Mods\n∙ Added French language option\n∙ Detect and warn the user if suppress-output is missing (macOS and Linux only)",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5357/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "25.12.05.03",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5357/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5357/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2025-12-05T15:05:52.6922957Z",
+    "changelog": "∙ Added a GameBanana category filter to Manage Installed Mods\n∙ Added tooltips on highlighted mods in Manage Installed Mods\n∙ Added French language option\n∙ Detect and warn the user if suppress-output is missing (macOS and Linux only)",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5356/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "windows-init",
+    "version": "25.12.05.02",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5356/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5356/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2025-12-05T14:58:49.7641239Z",
+    "changelog": "∙ Added a GameBanana category filter to Manage Installed Mods\n∙ Added tooltips on highlighted mods in Manage Installed Mods\n∙ Added French language option\n∙ Detect and warn the user if suppress-output is missing (macOS and Linux only)",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5355/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "stable",
+    "version": "25.12.05.01",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5355/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5355/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2025-11-23T17:16:24.0407373Z",
+    "changelog": "∙ Added a GameBanana category filter to Manage Installed Mods screen",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5322/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "25.11.23.01",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5322/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5322/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2025-11-22T14:36:40.7436908Z",
+    "changelog": "∙ Detect and warn the user if suppress-output is missing (macOS and Linux only)",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5321/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "25.11.22.03",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5321/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5321/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-11-20T18:35:32.4633161Z",
     "changelog": "∙ Tooltips in the Manage Installed Mods screen now appear without delay",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5310/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
@@ -196,68 +241,5 @@
     "version": "25.10.22.03",
     "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5247/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
     "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5247/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-10-04T20:43:03.5776071Z",
-    "changelog": "∙ Handle invalid server responses from Azure when checking for Olympus updates\n∙ Support the arm64 architecture (alias of arm)\n∙ Linux: Added changelog to the Flatpak metadata file\n∙ Minor tweak in the code for mod presets",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5207/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "25.10.04.03",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5207/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5207/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-10-04T20:38:44.6204436Z",
-    "changelog": "∙ Handle invalid server responses from Azure when checking for Olympus updates\n∙ Support the arm64 architecture (alias of arm)\n∙ Linux: Added changelog to the Flatpak metadata file\n∙ Minor tweak in the code for mod presets",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5206/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "windows-init",
-    "version": "25.10.04.02",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5206/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5206/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-10-04T20:34:03.6771463Z",
-    "changelog": "∙ Handle invalid server responses from Azure when checking for Olympus updates\n∙ Support the arm64 architecture (alias of arm)\n∙ Linux: Added changelog to the Flatpak metadata file\n∙ Minor tweak in the code for mod presets",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5205/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "stable",
-    "version": "25.10.04.01",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5205/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5205/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-09-23T18:54:23.1830837Z",
-    "changelog": "∙ Linux: Added changelog to the Flatpak metadata file",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5169/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "25.09.23.13",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5169/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5169/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-09-23T18:45:36.2691638Z",
-    "changelog": "∙ Support the arm64 architecture (alias of arm)",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5166/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "25.09.23.10",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5166/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5166/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-09-23T18:38:52.6784315Z",
-    "changelog": "∙ Handle invalid server responses from Azure when checking for Olympus updates",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5163/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "25.09.23.07",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5163/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5163/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-09-23T18:30:15.1702613Z",
-    "changelog": "∙ Minor tweak in the code for mod presets",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5160/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "25.09.23.04",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5160/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5160/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
   }
 ]
