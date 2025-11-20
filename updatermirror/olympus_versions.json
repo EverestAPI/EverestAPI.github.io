@@ -1,5 +1,14 @@
 [
   {
+    "date": "2025-11-20T13:12:55.0929036Z",
+    "changelog": "∙ Display tooltips on highlighted mods in Manage Installed Mods",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5309/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "25.11.20.01",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5309/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5309/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-11-19T13:21:31.8571181Z",
     "changelog": "∙ Touch-ups to French translation",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5306/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
