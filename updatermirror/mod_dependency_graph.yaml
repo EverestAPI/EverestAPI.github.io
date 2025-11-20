@@ -51268,20 +51268,6 @@ foroffintendedmyabsoluteoverlove:
   - Name: PandorasBox
     Version: 1.0.49
   URL: https://gamebanana.com/mmdl/1221756
-Knowledge Puzzle:
-  OptionalDependencies: []
-  Dependencies:
-  - Name: ChroniaHelper
-    Version: 1.28.30
-  - Name: Everest
-    Version: 1.0.0
-  - Name: ExtendedVariantMode
-    Version: 0.40.1
-  - Name: VivHelper
-    Version: 1.14.10
-  - Name: MaxHelpingHand
-    Version: 1.33.7
-  URL: https://gamebanana.com/mmdl/1506947
 NoDeathScreen:
   OptionalDependencies: []
   Dependencies:
