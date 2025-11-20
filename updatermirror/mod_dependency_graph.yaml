@@ -71956,6 +71956,12 @@ waaaaah:
   - Name: SorbetHelper
     Version: 1.1.1
   URL: https://gamebanana.com/mmdl/1079923
+ProgrammaticInput:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.5577.0
+  URL: https://gamebanana.com/mmdl/1563980
 cryptobiosis:
   OptionalDependencies: []
   Dependencies:
