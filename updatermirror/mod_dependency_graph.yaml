@@ -98773,13 +98773,15 @@ CelesteWithTheo:
     Version: 1.5326.0
   - Name: ExtendedVariantMode
     Version: 0.42.0
+  - Name: CommunalHelper
+    Version: 1.24.4
   - Name: CollabUtils2
     Version: 1.10.14
   - Name: AdventureHelper
     Version: 1.6.0
   - Name: bitsbolts
     Version: 1.4.4
-  URL: https://gamebanana.com/mmdl/1493872
+  URL: https://gamebanana.com/mmdl/1565293
 The Frosty Fell:
   OptionalDependencies: []
   Dependencies:
