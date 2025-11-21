@@ -1,5 +1,20 @@
 [
   {
+    "date": "2025-11-21T18:31:46.8780893Z",
+    "olympusBuildFileSize": 71801314,
+    "mainFileSize": 72037898,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5311/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "maddie480",
+    "commit": "00ac1c3b4a10332902f0ef504b3f55bd907a3707",
+    "description": "Add a \"database mirror\" option for people that cannot access maddie480.ovh",
+    "branch": "dev",
+    "version": 6011,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5311/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5311/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-11-19T18:09:48.2691468Z",
     "olympusBuildFileSize": 71800868,
     "mainFileSize": 72037534,
