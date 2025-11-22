@@ -44210,14 +44210,14 @@ Glitch Cave (Reprise):
   URL: https://gamebanana.com/mmdl/674708
 EndersBlender:
   GameBananaType: Mod
-  Version: 1.1.16
-  LastUpdate: 1763457869
-  Size: 519349
+  Version: 1.1.17
+  LastUpdate: 1763805178
+  Size: 421646
   GameBananaId: 568903
-  GameBananaFileId: 1563553
+  GameBananaFileId: 1565977
   xxHash:
-  - 70806ec3b5c925c0
-  URL: https://gamebanana.com/mmdl/1563553
+  - 30d1da60c64a2182
+  URL: https://gamebanana.com/mmdl/1565977
 RustandDust:
   GameBananaType: Mod
   Version: 1.0.0
@@ -48518,6 +48518,16 @@ LunyarisRslashEslashDslash:
   xxHash:
   - 8da7eb2395f8d92f
   URL: https://gamebanana.com/mmdl/1037010
+RepetitionMap:
+  GameBananaType: Mod
+  Version: 0.0.1
+  LastUpdate: 1763805427
+  Size: 9133
+  GameBananaId: 635111
+  GameBananaFileId: 1565983
+  xxHash:
+  - ac878c23ec6bacc1
+  URL: https://gamebanana.com/mmdl/1565983
 EvanKrusher948Gym:
   GameBananaType: Mod
   Version: '1.1'

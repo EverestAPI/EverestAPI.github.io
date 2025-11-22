@@ -94139,7 +94139,7 @@ EndersBlender:
   Dependencies:
   - Name: Everest
     Version: 1.5986.0
-  URL: https://gamebanana.com/mmdl/1563553
+  URL: https://gamebanana.com/mmdl/1565977
 RustandDust:
   OptionalDependencies: []
   Dependencies:
@@ -102728,6 +102728,12 @@ LunyarisRslashEslashDslash:
   - Name: AdventureHelper
     Version: 1.5.8
   URL: https://gamebanana.com/mmdl/1037010
+RepetitionMap:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.5986.0
+  URL: https://gamebanana.com/mmdl/1565983
 EvanKrusher948Gym:
   OptionalDependencies: []
   Dependencies:
