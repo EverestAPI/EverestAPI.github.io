@@ -90217,6 +90217,8 @@ Hallownest:
     Version: 1.6.30
   - Name: FrostHelper
     Version: 1.67.3
+  - Name: VortexHelper
+    Version: 1.2.19
   - Name: LunaticHelper
     Version: 1.1.1
   - Name: CrystallineHelper
@@ -90227,13 +90229,15 @@ Hallownest:
     Version: 1.8.1
   - Name: CommunalHelper
     Version: 1.21.1
+  - Name: FemtoHelper
+    Version: 1.14.7
   - Name: XaphanHelper
     Version: 1.0.75
   - Name: PandorasBox
     Version: 1.0.49
   - Name: AdventureHelper
     Version: 1.6.0
-  URL: https://gamebanana.com/mmdl/1447694
+  URL: https://gamebanana.com/mmdl/1566332
 My World:
   OptionalDependencies: []
   Dependencies:
