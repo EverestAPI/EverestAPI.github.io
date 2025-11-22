@@ -1,5 +1,14 @@
 [
   {
+    "date": "2025-11-22T14:29:32.2284355Z",
+    "changelog": "∙ Detect and warn the user if suppress-output is missing (macOS and Linux only)",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5320/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "25.11.22.02",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5320/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5320/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-11-21T21:26:10.1263063Z",
     "changelog": "∙ Touch-ups of the French translation (again)",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5313/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
