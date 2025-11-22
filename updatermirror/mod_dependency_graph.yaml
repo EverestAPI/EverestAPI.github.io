@@ -64942,9 +64942,9 @@ Legend of the Three Sisters:
   OptionalDependencies: []
   Dependencies:
   - Name: FlaglinesAndSuch
-    Version: 1.6.43
+    Version: 1.6.50
   - Name: FrostHelper
-    Version: 1.70.0
+    Version: 1.74.0
   - Name: CrystallineHelper
     Version: 1.16.6
   - Name: Everest
@@ -64956,14 +64956,16 @@ Legend of the Three Sisters:
   - Name: VivHelper
     Version: 1.14.10
   - Name: KoseiHelper
-    Version: 1.14.3.1
+    Version: 1.18.0.1
   - Name: MaxHelpingHand
     Version: 1.36.2
   - Name: LuaCutscenes
     Version: 0.2.13
+  - Name: AdventureHelper
+    Version: 1.6.0
   - Name: bitsbolts
-    Version: 1.4.6
-  URL: https://gamebanana.com/mmdl/1552841
+    Version: 1.4.7
+  URL: https://gamebanana.com/mmdl/1565850
 T-Pose:
   OptionalDependencies: []
   Dependencies:
