@@ -12790,20 +12790,6 @@ ThCollabThing:
   - Name: SorbetHelper
     Version: 1.0.0
   URL: https://gamebanana.com/mmdl/1435831
-Seeuve:
-  OptionalDependencies: []
-  Dependencies:
-  - Name: Everest
-    Version: 1.5421.0
-  - Name: ExtendedVariantMode
-    Version: 0.40.2
-  - Name: VivHelper
-    Version: 1.14.10
-  - Name: CpopHelper
-    Version: 1.3.0
-  - Name: MaxHelpingHand
-    Version: 1.33.7
-  URL: https://gamebanana.com/mmdl/1566610
 EC2025ButterflyKnife:
   OptionalDependencies: []
   Dependencies:
