@@ -1138,6 +1138,14 @@ drawzaL:
   - Name: AdventureHelper
     Version: 1.6.0
   URL: https://gamebanana.com/mmdl/1473004
+Hawktuah Jump:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: Everest
+    Version: 1.5986.0
+  URL: https://gamebanana.com/mmdl/1566480
 uwufeesh:
   OptionalDependencies: []
   Dependencies:
