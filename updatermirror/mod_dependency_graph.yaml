@@ -79604,6 +79604,14 @@ jump!:
   - Name: DJMapHelper
     Version: 1.8.38
   URL: https://gamebanana.com/mmdl/752278
+6Grim:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.4986.0
+  - Name: MaxHelpingHand
+    Version: 1.31.5
+  URL: https://gamebanana.com/mmdl/1566481
 BadApple:
   OptionalDependencies: []
   Dependencies:
