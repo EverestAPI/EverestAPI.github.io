@@ -30274,32 +30274,6 @@ Moonlight Daydream:
   - Name: DJMapHelper
     Version: 1.13.4
   URL: https://gamebanana.com/mmdl/1448694
-SeekerMap:
-  OptionalDependencies: []
-  Dependencies:
-  - Name: EeveeHelper
-    Version: 1.12.3
-  - Name: VortexHelper
-    Version: 1.2.19
-  - Name: DzhakeHelper
-    Version: 1.4.19
-  - Name: CrystallineHelper
-    Version: 1.16.6
-  - Name: Everest
-    Version: 1.5961.0
-  - Name: VivHelper
-    Version: 1.14.10
-  - Name: OutbackHelper
-    Version: 1.7.3
-  - Name: XaphanHelper
-    Version: 1.0.77
-  - Name: KoseiHelper
-    Version: 1.18.1.0
-  - Name: MaxHelpingHand
-    Version: 1.38.1
-  - Name: Sardine7
-    Version: 1.2.0
-  URL: https://gamebanana.com/mmdl/1567208
 umbjellyfishyellow:
   OptionalDependencies: []
   Dependencies:
@@ -73108,6 +73082,32 @@ carry_y0h:
   - Name: MaxHelpingHand
     Version: 1.33.7
   URL: https://gamebanana.com/mmdl/1369551
+SomeraSeekerMap:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: EeveeHelper
+    Version: 1.12.3
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: DzhakeHelper
+    Version: 1.4.19
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: Everest
+    Version: 1.5961.0
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: OutbackHelper
+    Version: 1.7.3
+  - Name: XaphanHelper
+    Version: 1.0.77
+  - Name: KoseiHelper
+    Version: 1.18.1.0
+  - Name: MaxHelpingHand
+    Version: 1.38.1
+  - Name: Sardine7
+    Version: 1.2.0
+  URL: https://gamebanana.com/mmdl/1567324
 Dreamy_trials:
   OptionalDependencies: []
   Dependencies:
