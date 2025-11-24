@@ -1994,6 +1994,12 @@ CBREF:
   - Name: bitsbolts
     Version: 1.3.11
   URL: https://gamebanana.com/mmdl/1423391
+repleH:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.4986.0
+  URL: https://gamebanana.com/mmdl/1567326
 redux:
   OptionalDependencies: []
   Dependencies:
