@@ -67064,6 +67064,12 @@ Nowhere Valley:
   - Name: MaxHelpingHand
     Version: 1.24.10
   URL: https://gamebanana.com/mmdl/1081205
+DaxHelper:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.5935.0
+  URL: https://gamebanana.com/mmdl/1567389
 LessRandom:
   OptionalDependencies: []
   Dependencies:
