@@ -12709,6 +12709,10 @@ Crystal caverns:
     Version: 1.2.19
   - Name: LunaticHelper
     Version: 1.1.1
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: ChroniaHelper
+    Version: 1.39.1
   - Name: Everest
     Version: 1.5935.0
   - Name: ExtendedVariantMode
@@ -12717,9 +12721,13 @@ Crystal caverns:
     Version: 1.14.10
   - Name: auspicioushelper
     Version: 0.3.3
+  - Name: OutbackHelper
+    Version: 1.7.3
   - Name: MaxHelpingHand
     Version: 1.38.0
-  URL: https://gamebanana.com/mmdl/1562648
+  - Name: AdventureHelper
+    Version: 1.6.0
+  URL: https://gamebanana.com/mmdl/1567399
 Shorty's Hats:
   OptionalDependencies: []
   Dependencies:
@@ -67069,7 +67077,7 @@ DaxHelper:
   Dependencies:
   - Name: EverestCore
     Version: 1.5935.0
-  URL: https://gamebanana.com/mmdl/1567396
+  URL: https://gamebanana.com/mmdl/1567400
 LessRandom:
   OptionalDependencies: []
   Dependencies:
