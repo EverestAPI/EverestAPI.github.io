@@ -1,5 +1,20 @@
 [
   {
+    "date": "2025-11-25T14:58:08.2165986Z",
+    "olympusBuildFileSize": 71802269,
+    "mainFileSize": 72038931,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5326/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "wuke32767",
+    "commit": "b5257c4a51642ca0cdda7b0e4b7287e9d1fb45e3",
+    "description": "Rework `SwapImmediately` handling (#955)",
+    "branch": "dev",
+    "version": 6026,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5326/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5326/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-11-23T22:59:26.1691306Z",
     "olympusBuildFileSize": 71801306,
     "mainFileSize": 72037943,
