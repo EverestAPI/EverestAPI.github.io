@@ -344,21 +344,6 @@
     "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5184/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
   },
   {
-    "date": "2025-09-26T07:02:25.5979283Z",
-    "olympusBuildFileSize": 71790806,
-    "mainFileSize": 72027494,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5172/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "author": "Wartori54",
-    "commit": "16482a118ce7cfb12997534ab71530ffecb0b4ea",
-    "description": "Bump MonoMod (#973)",
-    "branch": "dev",
-    "version": 5872,
-    "isNative": true,
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5172/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 269,
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5172/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
-  },
-  {
     "date": "2025-09-20T19:35:15Z",
     "olympusBuildFileSize": 71733398,
     "mainFileSize": 71666512,
