@@ -27730,6 +27730,18 @@ BreakingASweat:
   - Name: PandorasBox
     Version: 1.0.46
   URL: https://gamebanana.com/mmdl/1236348
+MovementLinter:
+  OptionalDependencies:
+  - Name: SpeedrunTool
+    Version: 3.7.11
+  - Name: CelesteTAS
+    Version: 3.16.7
+  - Name: ExtendedVariantMode
+    Version: 999.999.999
+  Dependencies:
+  - Name: Everest
+    Version: 1.3876.0
+  URL: https://gamebanana.com/mmdl/1567955
 BasalticBeachRemastered:
   OptionalDependencies: []
   Dependencies:
