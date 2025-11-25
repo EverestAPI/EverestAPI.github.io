@@ -47218,6 +47218,12 @@ totofmghsfmsghsgsndgshdfsfgsdgs:
   - Name: ContortHelper
     Version: 1.5.5
   URL: https://gamebanana.com/mmdl/852138
+Dur:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.5752.0
+  URL: https://gamebanana.com/mmdl/1568127
 pretty:
   OptionalDependencies: []
   Dependencies:
