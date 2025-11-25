@@ -15212,6 +15212,104 @@ PPBD2024:
   - Name: XaphanHelper
     Version: 1.0.63
   URL: https://gamebanana.com/mmdl/1329746
+PPBD2025:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: GameHelper
+    Version: 1.8.8.0
+  - Name: BounceHelper
+    Version: 1.14.0
+  - Name: JungleHelper
+    Version: 1.3.6
+  - Name: GravityHelper
+    Version: 1.2.24
+  - Name: HonlyHelper
+    Version: 1.7.5
+  - Name: SaladimHelper
+    Version: 0.3.4
+  - Name: FactoryHelper
+    Version: 1.4.0
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: Batteries
+    Version: 1.1.4
+  - Name: Anonhelper
+    Version: 1.1.1
+  - Name: Sardine7
+    Version: 1.2.0
+  - Name: EeveeHelper
+    Version: 1.12.3
+  - Name: ChroniaHelper
+    Version: 1.40.10
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.14.1
+  - Name: ArphimigonsToyBox
+    Version: 1.4.1
+  - Name: ProgHelper
+    Version: 1.5.1
+  - Name: SorbetHelper
+    Version: 1.7.6
+  - Name: BGswitch
+    Version: 1.2.2
+  - Name: KoseiHelper
+    Version: 1.18.1.0
+  - Name: BlixelHelper
+    Version: 1.2.0
+  - Name: ShrimpHelper
+    Version: 1.2.3
+  - Name: PandorasBox
+    Version: 1.0.49
+  - Name: AdventureHelper
+    Version: 1.6.0
+  - Name: AdamsAddons
+    Version: 1.14.10
+  - Name: BrokemiaHelper
+    Version: 1.8.5
+  - Name: NerdHelper
+    Version: 1.6.3
+  - Name: PrismaticHelper
+    Version: 1.12.0
+  - Name: Everest
+    Version: 1.5635.0
+  - Name: ExtendedVariantMode
+    Version: 0.43.2
+  - Name: DBBHelper
+    Version: 1.0.9
+  - Name: StyleMaskHelper
+    Version: 1.4.0
+  - Name: ChronoHelper
+    Version: 1.2.8
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: JackalHelper
+    Version: 1.7.5
+  - Name: MaxHelpingHand
+    Version: 1.37.2
+  - Name: IsaGrabBag
+    Version: 1.7.3
+  - Name: LuaCutscenes
+    Version: 0.2.13
+  - Name: FlaglinesAndSuch
+    Version: 1.6.50
+  - Name: FrostHelper
+    Version: 1.70.3
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: CollabUtils2
+    Version: 1.10.14
+  - Name: XaphanHelper
+    Version: 1.0.77
+  - Name: AurorasHelper
+    Version: 0.12.3
+  - Name: LylyraHelper
+    Version: 1.3.24
+  URL: https://gamebanana.com/mmdl/1568221
 Kaizo_Adventures:
   OptionalDependencies: []
   Dependencies:
