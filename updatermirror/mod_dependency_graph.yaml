@@ -8900,6 +8900,36 @@ KevlovDog:
   - Name: Sardine7
     Version: 1.0.0
   URL: https://gamebanana.com/mmdl/484734
+calcite:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: GravityHelper
+    Version: 1.2.24
+  - Name: NerdHelper
+    Version: 1.6.3
+  - Name: Everest
+    Version: 1.0.0
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: MaxHelpingHand
+    Version: 1.38.0
+  - Name: FlaglinesAndSuch
+    Version: 1.6.50
+  - Name: FrostHelper
+    Version: 1.74.0
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: ChroniaHelper
+    Version: 1.39.1
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: ReverseHelper
+    Version: 1.15.13
+  - Name: DJMapHelper
+    Version: 1.13.4
+  URL: https://gamebanana.com/mmdl/1568017
 PlayTheGame:
   OptionalDependencies: []
   Dependencies:
