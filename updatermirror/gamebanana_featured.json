@@ -46,6 +46,53 @@
   {
     "CategoryId": 6800,
     "Screenshots": [
+      "https://images.gamebanana.com/img/ss/mods/69264314a8541.jpg",
+      "https://images.gamebanana.com/img/ss/mods/692645e639b51.jpg",
+      "https://images.gamebanana.com/img/ss/mods/692645e63ea85.jpg",
+      "https://images.gamebanana.com/img/ss/mods/692645e636075.jpg"
+    ],
+    "Description": "Learn about the superdash variant!",
+    "Views": 94,
+    "GameBananaType": "Mod",
+    "TokenizedName": [
+      "ashs",
+      "superdash",
+      "gym"
+    ],
+    "UpdatedDate": 1764116067,
+    "SubcategoryId": 6801,
+    "SubcategoryName": "Standalone",
+    "GameBananaId": 635890,
+    "Featured": {
+      "Category": "today",
+      "Position": 0
+    },
+    "Text": "As the name suggests, this mod is a gym for the superdash variant. <br><br>I haven't really noticed anything like it, and there's a ton a fun tech with the variant, so this should be helpful for anyone who wants to play/make superdash mods or who just wants to learn about them<br><br>The gym has 14 different pieces of tech ranging from beginner to grandmaster, although non of the gameplay itself will get to that difficulty.<br><br>Finally, you can find a playthrough here: https://youtu.be/YJuq2eCKvaQ<br><br>And the original soundtrack here: https://youtu.be/fT022MYQ_is",
+    "ModifiedDate": 1764193780,
+    "Name": "Ash's Superdash Gym",
+    "PageURL": "https://gamebanana.com/mods/635890",
+    "MirroredScreenshots": [
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_69264314a8541.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_692645e639b51.png"
+    ],
+    "CreatedDate": 1764116067,
+    "Author": "Aphyllix",
+    "CategoryName": "Maps",
+    "Downloads": 34,
+    "Likes": 5,
+    "Files": [{
+      "Description": "1.1",
+      "HasEverestYaml": true,
+      "Size": 26289753,
+      "CreatedDate": 1764193744,
+      "Downloads": 0,
+      "URL": "https://gamebanana.com/dl/1569281",
+      "Name": "ashssupergym.zip"
+    }]
+  },
+  {
+    "CategoryId": 6800,
+    "Screenshots": [
       "https://images.gamebanana.com/img/ss/mods/6925e4fd1cfda.jpg",
       "https://images.gamebanana.com/img/ss/mods/6925e52923fe0.jpg",
       "https://images.gamebanana.com/img/ss/mods/6925e5aaa96b8.jpg"
@@ -577,10 +624,10 @@
       "https://images.gamebanana.com/img/ss/mods/685b81fa27b13.jpg"
     ],
     "Description": "The Tower That Might Be",
-    "Views": 19008,
+    "Views": 19015,
     "GameBananaType": "Mod",
     "TokenizedName": ["theworldtrap"],
-    "UpdatedDate": 1762648452,
+    "UpdatedDate": 1764194099,
     "SubcategoryId": 6803,
     "SubcategoryName": "Collab/Contest",
     "GameBananaId": 602806,
@@ -589,7 +636,7 @@
       "Position": 1
     },
     "Text": "<b>TheWorldTrap <\/b>social experiment has begun. Can the community create 365 rooms without missing a day? Or will The Tower That Might Be crumble before reaching it's fullest potential.<br><br>The full overview document can be read <a href=\"https://docs.google.com/document/d/1fsUJ_yDVoGuFQqV1iBABZr5XP6_f1BU06Irovp79b68/edit?usp=sharing\" target=\"_blank\">here<\/a>!<br><br>Credits for all the mappers and estimated difficulties of each room can be found <a href=\"https://docs.google.com/spreadsheets/d/11tDQkUcfpdS4C_VPq4gx4a3Im0r66u8MKF1hsfNKNCw/edit?usp=sharing\">here<\/a>!",
-    "ModifiedDate": 1762649533,
+    "ModifiedDate": 1764194011,
     "Name": "TheWorldTrap",
     "PageURL": "https://gamebanana.com/mods/602806",
     "MirroredScreenshots": [
@@ -599,15 +646,24 @@
     "CreatedDate": 1750827521,
     "Author": "PPNyan",
     "CategoryName": "Maps",
-    "Downloads": 4151,
+    "Downloads": 4153,
     "Likes": 35,
     "Files": [
+      {
+        "Description": "Batch 15",
+        "HasEverestYaml": true,
+        "Size": 81568228,
+        "CreatedDate": 1764193959,
+        "Downloads": 0,
+        "URL": "https://gamebanana.com/dl/1569284",
+        "Name": "theworldtrap_67d89.zip"
+      },
       {
         "Description": "Batch 13 & 14",
         "HasEverestYaml": true,
         "Size": 76118433,
         "CreatedDate": 1762648389,
-        "Downloads": 205,
+        "Downloads": 207,
         "URL": "https://gamebanana.com/dl/1557413",
         "Name": "theworldtrap_e0551.zip"
       },
