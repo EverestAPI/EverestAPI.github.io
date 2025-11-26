@@ -89599,9 +89599,31 @@ PersistenceHelper:
 1-map:
   OptionalDependencies: []
   Dependencies:
+  - Name: GravityHelper
+    Version: 1.2.24
+  - Name: CrystallineHelper
+    Version: 1.16.6
   - Name: Everest
     Version: 1.5986.0
-  URL: https://gamebanana.com/mmdl/1562819
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.14.9
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: SorbetHelper
+    Version: 1.8.2
+  - Name: XaphanHelper
+    Version: 1.0.77
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: JackalHelper
+    Version: 1.7.5
+  - Name: DJMapHelper
+    Version: 1.13.4
+  - Name: AdventureHelper
+    Version: 1.6.0
+  URL: https://gamebanana.com/mmdl/1569332
 Linja:
   OptionalDependencies: []
   Dependencies:
