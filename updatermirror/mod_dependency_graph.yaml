@@ -43022,6 +43022,30 @@ WIPmap:
   - Name: PandorasBox
     Version: 1.0.49
   URL: https://gamebanana.com/mmdl/1313982
+Ash's Superdash Gym:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.73.0
+  - Name: LunaticHelper
+    Version: 1.1.1
+  - Name: Everest
+    Version: NoVersion
+  - Name: ExtendedVariantMode
+    Version: 0.45.0
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.14.1
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: StyleMaskHelper
+    Version: 1.4.0
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: MaxHelpingHand
+    Version: 1.37.2
+  URL: https://gamebanana.com/mmdl/1568457
 Semena Mertvykh:
   OptionalDependencies: []
   Dependencies:
