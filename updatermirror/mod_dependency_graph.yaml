@@ -93868,6 +93868,16 @@ Tetrahelper:
   - Name: Everest
     Version: 1.3396.0
   URL: https://gamebanana.com/mmdl/934524
+Whateveryouwant:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.5986.0
+  - Name: SorbetHelper
+    Version: 1.8.2
+  - Name: bitsbolts
+    Version: 1.4.7
+  URL: https://gamebanana.com/mmdl/1568617
 Midnight Rainbows:
   OptionalDependencies: []
   Dependencies:
