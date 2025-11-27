@@ -43492,6 +43492,12 @@ fmt:
   - Name: DJMapHelper
     Version: 1.13.4
   URL: https://gamebanana.com/mmdl/1115662
+_1UpHelper:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.5935.0
+  URL: https://gamebanana.com/mmdl/1569381
 Hello:
   OptionalDependencies: []
   Dependencies:
