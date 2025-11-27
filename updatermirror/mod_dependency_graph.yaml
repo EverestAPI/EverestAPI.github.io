@@ -32474,16 +32474,6 @@ Your Bad:
   - Name: Everest
     Version: 1.3324.0
   URL: https://gamebanana.com/mmdl/867668
-Meow:
-  OptionalDependencies: []
-  Dependencies:
-  - Name: Everest
-    Version: 1.5986.0
-  - Name: ExtendedVariantMode
-    Version: 0.46.1
-  - Name: MaxHelpingHand
-    Version: 1.38.0
-  URL: https://gamebanana.com/mmdl/1569427
 InterstellarCaverns:
   OptionalDependencies: []
   Dependencies:
