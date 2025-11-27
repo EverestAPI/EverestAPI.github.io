@@ -8023,6 +8023,8 @@ madelinedeathspam.bin:
 constantsplayground:
   OptionalDependencies: []
   Dependencies:
+  - Name: AdamsAddons
+    Version: 1.14.8
   - Name: FrostHelper
     Version: 1.72.0
   - Name: CrystallineHelper
@@ -8035,7 +8037,7 @@ constantsplayground:
     Version: 1.37.2
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1547967
+  URL: https://gamebanana.com/mmdl/1569358
 Lethologica:
   OptionalDependencies: []
   Dependencies:
