@@ -92054,6 +92054,38 @@ OneMoreTime:
   - Name: CrystallineHelper
     Version: 1.16.5
   URL: https://gamebanana.com/mmdl/1414809
+Frozen_Citadel:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: GravityHelper
+    Version: 1.2.23
+  - Name: Everest
+    Version: 1.5421.0
+  - Name: ExtendedVariantMode
+    Version: 0.42.0
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: Batteries
+    Version: 1.1.4
+  - Name: Sardine7
+    Version: 1.2.0
+  - Name: bitsbolts
+    Version: 1.4.4
+  - Name: FlaglinesAndSuch
+    Version: 1.6.30
+  - Name: FrostHelper
+    Version: 1.68.1
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: auspicioushelper
+    Version: 0.2.1
+  - Name: ProgHelper
+    Version: 1.3.6
+  - Name: PandorasBox
+    Version: 1.0.49
+  URL: https://gamebanana.com/mmdl/1570160
 TheEnigma:
   OptionalDependencies: []
   Dependencies:
