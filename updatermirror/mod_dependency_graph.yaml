@@ -45882,14 +45882,6 @@ Celestial Doomsday:
   - Name: DJMapHelper
     Version: 1.8.20
   URL: https://gamebanana.com/mmdl/502158
-Vivi_Skinmod_Aubrey:
-  OptionalDependencies: []
-  Dependencies:
-  - Name: Everest
-    Version: 1.4465.0
-  - Name: SkinModHelperPlus
-    Version: 0.10.4
-  URL: https://gamebanana.com/mmdl/1511051
 intasity:
   OptionalDependencies: []
   Dependencies:
@@ -97918,6 +97910,14 @@ Dashless+ Undefined:
   - Name: DJMapHelper
     Version: 1.13.1
   URL: https://gamebanana.com/mmdl/958447
+ViviSkinmod:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: SkinModHelperPlus
+    Version: 0.16.4
+  - Name: SkinModHelper
+    Version: 0.6.1
+  URL: https://gamebanana.com/mmdl/1570816
 ForkKILLETHelper:
   OptionalDependencies: []
   Dependencies:
