@@ -89609,31 +89609,45 @@ PersistenceHelper:
 1-map:
   OptionalDependencies: []
   Dependencies:
+  - Name: BounceHelper
+    Version: 1.14.0
   - Name: GravityHelper
     Version: 1.2.24
-  - Name: CrystallineHelper
-    Version: 1.16.6
   - Name: Everest
     Version: 1.5986.0
-  - Name: CommunalHelper
-    Version: 1.24.4
-  - Name: FemtoHelper
-    Version: 1.14.9
   - Name: VivHelper
     Version: 1.14.10
-  - Name: SorbetHelper
-    Version: 1.8.2
-  - Name: XaphanHelper
-    Version: 1.0.77
   - Name: ContortHelper
     Version: 1.5.5
   - Name: JackalHelper
     Version: 1.7.5
+  - Name: Anonhelper
+    Version: 1.1.1
+  - Name: IsaGrabBag
+    Version: 1.7.3
+  - Name: FlaglinesAndSuch
+    Version: 1.6.50
+  - Name: FrostHelper
+    Version: 1.74.1
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.14.9
+  - Name: SorbetHelper
+    Version: 1.8.2
+  - Name: XaphanHelper
+    Version: 1.0.77
   - Name: DJMapHelper
     Version: 1.13.4
+  - Name: PandorasBox
+    Version: 1.0.49
   - Name: AdventureHelper
     Version: 1.6.0
-  URL: https://gamebanana.com/mmdl/1569332
+  URL: https://gamebanana.com/mmdl/1570263
 Linja:
   OptionalDependencies: []
   Dependencies:
