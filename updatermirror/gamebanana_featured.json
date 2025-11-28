@@ -46,6 +46,49 @@
   {
     "CategoryId": 6800,
     "Screenshots": [
+      "https://images.gamebanana.com/img/ss/mods/6929b1ece878e.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6929b2d03ef65.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6929b2fa91d30.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6929b38775910.jpg"
+    ],
+    "Description": "a short journey through doors",
+    "Views": 0,
+    "GameBananaType": "Mod",
+    "TokenizedName": ["arboretum"],
+    "UpdatedDate": 1764341831,
+    "SubcategoryId": 6801,
+    "SubcategoryName": "Standalone",
+    "GameBananaId": 636395,
+    "Featured": {
+      "Category": "today",
+      "Position": 0
+    },
+    "Text": "my first try at mapping<br>every asset is created from my own photos",
+    "ModifiedDate": 1764341831,
+    "Name": "arboretum",
+    "PageURL": "https://gamebanana.com/mods/636395",
+    "MirroredScreenshots": [
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6929b1ece878e.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6929b2d03ef65.png"
+    ],
+    "CreatedDate": 1764341831,
+    "Author": "AuroraDrywall",
+    "CategoryName": "Maps",
+    "Downloads": 0,
+    "Likes": 1,
+    "Files": [{
+      "Description": "1.0.0",
+      "HasEverestYaml": true,
+      "Size": 3950113,
+      "CreatedDate": 1764341421,
+      "Downloads": 0,
+      "URL": "https://gamebanana.com/dl/1570368",
+      "Name": "arboretum_eef65.zip"
+    }]
+  },
+  {
+    "CategoryId": 6800,
+    "Screenshots": [
       "https://images.gamebanana.com/img/ss/mods/692616faa26dc.jpg",
       "https://images.gamebanana.com/img/ss/mods/692616fd4c000.jpg",
       "https://images.gamebanana.com/img/ss/mods/692617004a013.jpg"

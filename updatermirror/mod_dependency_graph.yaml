@@ -96458,6 +96458,20 @@ Anonhelper:
   - Name: EverestCore
     Version: 1.4465.0
   URL: https://gamebanana.com/mmdl/1274894
+arboretum:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.5935.0
+  - Name: ExtendedVariantMode
+    Version: 0.46.1
+  - Name: FemtoHelper
+    Version: 1.14.7
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: MaxHelpingHand
+    Version: 1.38.1
+  URL: https://gamebanana.com/mmdl/1570368
 The Toy Box:
   OptionalDependencies: []
   Dependencies:
