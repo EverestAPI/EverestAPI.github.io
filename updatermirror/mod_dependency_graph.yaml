@@ -63563,7 +63563,9 @@ Panselo:
   Dependencies:
   - Name: Everest
     Version: 1.5635.0
-  URL: https://gamebanana.com/mmdl/1534285
+  - Name: MaxHelpingHand
+    Version: 1.38.1
+  URL: https://gamebanana.com/mmdl/1570323
 Glitchtophen:
   OptionalDependencies: []
   Dependencies:
