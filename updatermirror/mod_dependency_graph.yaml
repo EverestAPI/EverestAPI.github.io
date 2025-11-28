@@ -58720,6 +58720,36 @@ SucroseSolaris:
   - Name: FemtoTechAudio
     Version: 1.3.0
   URL: https://gamebanana.com/mmdl/763185
+Tsukiakari:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: BrokemiaHelper
+    Version: 1.8.2
+  - Name: Everest
+    Version: 1.5052.0
+  - Name: ExtendedVariantMode
+    Version: 0.39.6
+  - Name: VivHelper
+    Version: 1.14.8
+  - Name: MaxHelpingHand
+    Version: 1.32.0
+  - Name: Sardine7
+    Version: 1.2.0
+  - Name: FlaglinesAndSuch
+    Version: 1.6.29
+  - Name: FrostHelper
+    Version: 1.57.1
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: YetAnotherHelper
+    Version: 1.2.5
+  - Name: CrystallineHelper
+    Version: 1.16.4
+  - Name: FemtoHelper
+    Version: 1.12.22
+  - Name: DJMapHelper
+    Version: 1.13.4
+  URL: https://gamebanana.com/mmdl/1570333
 Krypton:
   OptionalDependencies: []
   Dependencies:
