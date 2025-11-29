@@ -38030,6 +38030,54 @@ Reckoning:
   - Name: ZKB99trap
     Version: 1.0.0
   URL: https://gamebanana.com/mmdl/1508268
+Sometimes Superdash Collab 3:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: BounceHelper
+    Version: 1.11.0
+  - Name: GravityHelper
+    Version: 1.2.21
+  - Name: HonlyHelper
+    Version: 1.7.5
+  - Name: Everest
+    Version: 1.5052.0
+  - Name: ExtendedVariantMode
+    Version: 0.39.2
+  - Name: FactoryHelper
+    Version: 1.3.7
+  - Name: VivHelper
+    Version: 1.14.8
+  - Name: Batteries
+    Version: 1.1.4
+  - Name: MaxHelpingHand
+    Version: 1.32.0
+  - Name: Anonhelper
+    Version: 1.1.1
+  - Name: IsaGrabBag
+    Version: 1.7.1
+  - Name: FrenchHelper
+    Version: 1.1.9
+  - Name: FlaglinesAndSuch
+    Version: 1.6.29
+  - Name: FrostHelper
+    Version: 1.60.2
+  - Name: VortexHelper
+    Version: 1.2.17
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.12.25
+  - Name: ArphimigonsToyBox
+    Version: 1.4.1
+  - Name: CollabUtils2
+    Version: 1.10.6
+  - Name: XaphanHelper
+    Version: 1.0.63
+  - Name: DJMapHelper
+    Version: 1.13.4
+  URL: https://gamebanana.com/mmdl/1571617
 work__station:
   OptionalDependencies: []
   Dependencies:
