@@ -33638,6 +33638,12 @@ slashbday:
   - Name: MaxHelpingHand
     Version: 1.33.6
   URL: https://gamebanana.com/mmdl/1359820
+FrigoHelper:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.5935.0
+  URL: https://gamebanana.com/mmdl/1571618
 Lunar Ruins:
   OptionalDependencies: []
   Dependencies:
