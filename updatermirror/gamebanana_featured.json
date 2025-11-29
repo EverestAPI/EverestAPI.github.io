@@ -8,7 +8,7 @@
       "https://images.gamebanana.com/img/ss/mods/6929b38775910.jpg"
     ],
     "Description": "a short journey through doors",
-    "Views": 169,
+    "Views": 176,
     "GameBananaType": "Mod",
     "TokenizedName": ["arboretum"],
     "UpdatedDate": 1764341831,
@@ -20,7 +20,7 @@
       "Position": 0
     },
     "Text": "my first try at mapping<br>every asset is created from my own photos",
-    "ModifiedDate": 1764341831,
+    "ModifiedDate": 1764420516,
     "Name": "arboretum",
     "PageURL": "https://gamebanana.com/mods/636395",
     "MirroredScreenshots": [
@@ -30,17 +30,28 @@
     "CreatedDate": 1764341831,
     "Author": "AuroraDrywall",
     "CategoryName": "Maps",
-    "Downloads": 38,
+    "Downloads": 39,
     "Likes": 8,
-    "Files": [{
-      "Description": "1.0.0",
-      "HasEverestYaml": true,
-      "Size": 3950113,
-      "CreatedDate": 1764341421,
-      "Downloads": 38,
-      "URL": "https://gamebanana.com/dl/1570368",
-      "Name": "arboretum_eef65.zip"
-    }]
+    "Files": [
+      {
+        "Description": "1.0.1 - fixed smwdoor asset overwriting and added endscreen",
+        "HasEverestYaml": true,
+        "Size": 3950113,
+        "CreatedDate": 1764341421,
+        "Downloads": 39,
+        "URL": "https://gamebanana.com/dl/1570368",
+        "Name": "arboretum_eef65.zip"
+      },
+      {
+        "Description": "",
+        "HasEverestYaml": true,
+        "Size": 3951356,
+        "CreatedDate": 1764420469,
+        "Downloads": 0,
+        "URL": "https://gamebanana.com/dl/1571347",
+        "Name": "arboretum_43252.zip"
+      }
+    ]
   },
   {
     "CategoryId": 6800,
