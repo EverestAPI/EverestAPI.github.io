@@ -91166,6 +91166,20 @@ Caught Maps Collab:
   - Name: DJMapHelper
     Version: 1.13.4
   URL: https://gamebanana.com/mmdl/1479768
+DoonvHelper:
+  OptionalDependencies:
+  - Name: FrostHelper
+    Version: 1.40.3
+  - Name: XaphanHelper
+    Version: 1.0.54
+  - Name: Guneline
+    Version: 1.0.0
+  - Name: LuaCutscenes
+    Version: 0.2.7
+  Dependencies:
+  - Name: Everest
+    Version: 1.5986.0
+  URL: https://gamebanana.com/mmdl/1571380
 PlatinumStrawberry:
   OptionalDependencies: []
   Dependencies:
