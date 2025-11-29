@@ -3220,14 +3220,14 @@ BossesHelper:
   URL: https://gamebanana.com/mmdl/1551289
 ILHookDebugger:
   GameBananaType: Mod
-  Version: 0.9.3
-  LastUpdate: 1746195631
-  Size: 61587
+  Version: 0.9.4
+  LastUpdate: 1764396529
+  Size: 97188
   GameBananaId: 561558
-  GameBananaFileId: 1431720
+  GameBananaFileId: 1571209
   xxHash:
-  - c34e81ace0ef3d35
-  URL: https://gamebanana.com/mmdl/1431720
+  - 8fbb3ab63263561f
+  URL: https://gamebanana.com/mmdl/1571209
 dadbodportraits:
   GameBananaType: Mod
   Version: 1.0.0
@@ -30548,6 +30548,16 @@ GayassComplex:
   xxHash:
   - 766521299a24b592
   URL: https://gamebanana.com/mmdl/623478
+ILHookDebuggerExtension_TextEditor:
+  GameBananaType: Mod
+  Version: 0.1.0
+  LastUpdate: 1764396529
+  Size: 42468
+  GameBananaId: 561558
+  GameBananaFileId: 1571208
+  xxHash:
+  - 24d911600740eed9
+  URL: https://gamebanana.com/mmdl/1571208
 OshirosFunRide:
   GameBananaType: Mod
   Version: 1.0.0
@@ -46118,6 +46128,16 @@ ViviSkinmod:
   xxHash:
   - a66c38ab1169b59e
   URL: https://gamebanana.com/mmdl/1570816
+ILHookDebuggerExtension_Decompiler:
+  GameBananaType: Mod
+  Version: 0.1.0
+  LastUpdate: 1764396535
+  Size: 1179395
+  GameBananaId: 561558
+  GameBananaFileId: 1571210
+  xxHash:
+  - eab39818167970ae
+  URL: https://gamebanana.com/mmdl/1571210
 ForkKILLETHelper:
   GameBananaType: Mod
   Version: 0.2.0
