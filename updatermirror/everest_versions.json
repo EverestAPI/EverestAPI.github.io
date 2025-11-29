@@ -299,21 +299,6 @@
     "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5196/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
   },
   {
-    "date": "2025-09-29T22:14:09.6223013Z",
-    "olympusBuildFileSize": 71795171,
-    "mainFileSize": 72031439,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5194/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "author": "SnipUndercover",
-    "commit": "a8e5303e693336ed1cebcb8c321a4d799c363eb3",
-    "description": "Rewrite `QueuedTaskHelper`",
-    "branch": "dev",
-    "version": 5894,
-    "isNative": true,
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5194/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 269,
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5194/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
-  },
-  {
     "date": "2025-09-20T19:35:15Z",
     "olympusBuildFileSize": 71733398,
     "mainFileSize": 71666512,
