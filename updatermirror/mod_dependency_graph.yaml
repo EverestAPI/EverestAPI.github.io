@@ -75373,7 +75373,7 @@ MaxHelpingHand:
   - Name: LunaticHelper
     Version: 1.1.1
   - Name: ExtendedVariantMode
-    Version: 0.40.2
+    Version: 0.47.1
   - Name: CommunalHelper
     Version: 1.24.0
   - Name: ExtendedCameraDynamics
@@ -75384,8 +75384,8 @@ MaxHelpingHand:
     Version: 0.2.8
   Dependencies:
   - Name: Everest
-    Version: 1.3847.0
-  URL: https://gamebanana.com/mmdl/1559340
+    Version: 1.5806.0
+  URL: https://gamebanana.com/mmdl/1571488
 Ooo:
   OptionalDependencies: []
   Dependencies:
@@ -93939,7 +93939,7 @@ ExtendedVariantMode:
   Dependencies:
   - Name: Everest
     Version: 1.5806.0
-  URL: https://gamebanana.com/mmdl/1570405
+  URL: https://gamebanana.com/mmdl/1571490
 Another Farewell Map:
   OptionalDependencies: []
   Dependencies:
