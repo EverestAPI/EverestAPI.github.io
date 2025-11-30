@@ -297,36 +297,6 @@
     "isNative": true
   },
   {
-    "date": "2025-09-30T22:13:08.847935Z",
-    "olympusBuildFileSize": 71795220,
-    "mainFileSize": 72031275,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5197/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "author": "microlith57",
-    "commit": "6a6da718227b357f5b997499e454d5dc5c3e2788",
-    "description": "per decal parallax (#992)",
-    "branch": "dev",
-    "version": 5897,
-    "isNative": true,
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5197/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 269,
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5197/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-09-30T22:13:28.7408652Z",
-    "olympusBuildFileSize": 71794861,
-    "mainFileSize": 72030918,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5196/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "author": "Wartori54",
-    "commit": "11d2e1b87a5f4702a8a4d4300bc575c3bcd19187",
-    "description": "Splash: Ditch Timers and use deltatime instead",
-    "branch": "dev",
-    "version": 5896,
-    "isNative": true,
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5196/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 269,
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5196/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
-  },
-  {
     "date": "2025-09-20T19:35:15Z",
     "olympusBuildFileSize": 71733398,
     "mainFileSize": 71666512,
