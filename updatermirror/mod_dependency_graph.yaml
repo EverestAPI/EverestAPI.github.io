@@ -79072,6 +79072,102 @@ Sea, Swallow Me:
   - Name: XaphanHelper
     Version: 1.0.77
   URL: https://gamebanana.com/mmdl/1568350
+cloudsbday:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: ClutterHelper
+    Version: 1.2.1
+  - Name: MadelineCrystal
+    Version: 1.7.1
+  - Name: Aqua
+    Version: 1.2.2
+  - Name: GravityHelper
+    Version: 1.2.24
+  - Name: HonlyHelper
+    Version: 1.7.5
+  - Name: MaxAlHelper
+    Version: 0.3.6
+  - Name: KyfexHelper
+    Version: 0.12.0
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: bitsbolts
+    Version: 1.4.7
+  - Name: ChroniaHelper
+    Version: 1.39.1
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.13.12
+  - Name: ArphimigonsToyBox
+    Version: 1.4.1
+  - Name: CpopHelper
+    Version: 1.3.0
+  - Name: ProgHelper
+    Version: 1.5.1
+  - Name: SorbetHelper
+    Version: 1.8.2
+  - Name: AubreyHelper
+    Version: 0.1.0
+  - Name: OutbackHelper
+    Version: 1.7.3
+  - Name: KoseiHelper
+    Version: 1.18.1.0
+  - Name: AidenHelper
+    Version: 1.2.1
+  - Name: PandorasBox
+    Version: 1.0.49
+  - Name: AdamsAddons
+    Version: 1.14.10
+  - Name: BrokemiaHelper
+    Version: 1.8.5
+  - Name: NerdHelper
+    Version: 1.6.3
+  - Name: CavernHelper
+    Version: 1.3.7
+  - Name: Everest
+    Version: NoVersion
+  - Name: ExtendedVariantMode
+    Version: 0.43.2
+  - Name: DBBHelper
+    Version: 1.0.9
+  - Name: StyleMaskHelper
+    Version: 1.4.0
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: MaxHelpingHand
+    Version: 1.35.2
+  - Name: FlaglinesAndSuch
+    Version: 1.6.50
+  - Name: FrostHelper
+    Version: 1.74.0
+  - Name: Picoline
+    Version: 0.2.2
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: LunaticHelper
+    Version: 1.1.1
+  - Name: ShroomHelper
+    Version: 1.2.10
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: auspicioushelper
+    Version: 0.1.16
+  - Name: CollabUtils2
+    Version: 1.10.14
+  - Name: ExtendedCameraDynamics
+    Version: 1.1.2
+  - Name: Spooooky's Asset Pack
+    Version: 1.0.10
+  - Name: XaphanHelper
+    Version: 1.0.76
+  - Name: AurorasHelper
+    Version: 0.12.2
+  - Name: DJMapHelper
+    Version: 1.13.4
+  URL: https://gamebanana.com/mmdl/1571632
 Parrot Goes Swimming:
   OptionalDependencies: []
   Dependencies:
