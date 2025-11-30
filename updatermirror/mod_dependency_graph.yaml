@@ -51822,6 +51822,12 @@ Crumble_Trials:
   - Name: MaxHelpingHand
     Version: 1.38.0
   URL: https://gamebanana.com/mmdl/1530347
+Forsaken City Remix Remake:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.5986.0
+  URL: https://gamebanana.com/mmdl/1572235
 Wanshiro:
   OptionalDependencies: []
   Dependencies:
