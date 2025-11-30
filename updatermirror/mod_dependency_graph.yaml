@@ -81500,6 +81500,12 @@ MTC2_SummitBadeline_DeerClops:
   - Name: XaphanHelper
     Version: 1.0.60
   URL: https://gamebanana.com/mmdl/1234195
+Thelevel:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.5986.0
+  URL: https://gamebanana.com/mmdl/1572097
 ComedyHour:
   OptionalDependencies: []
   Dependencies:
