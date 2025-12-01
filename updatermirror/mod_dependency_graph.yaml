@@ -1654,6 +1654,12 @@ LichtMTC:
   - Name: MaxHelpingHand
     Version: 1.29.4
   URL: https://gamebanana.com/mmdl/1192102
+probananahelper:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.4467.0
+  URL: https://gamebanana.com/mmdl/1572704
 StrawberryJam2021:
   OptionalDependencies:
   - Name: SpeedrunTool
