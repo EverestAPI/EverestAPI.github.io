@@ -11608,7 +11608,7 @@ UDAllHelper:
   - Name: BounceHelper
     Version: 1.14.0
   - Name: GravityHelper
-    Version: 1.2.23
+    Version: 1.2.24
   - Name: PersistenceHelper
     Version: 1.0.3
   - Name: WobbleDecals
@@ -11636,7 +11636,7 @@ UDAllHelper:
   - Name: UnderDragonDec
     Version: '0.99'
   - Name: LeniencyHelper
-    Version: 1.1.0
+    Version: 1.2.2
   - Name: ConditionHelper
     Version: 1.0.0
   - Name: Kelper
@@ -11646,7 +11646,7 @@ UDAllHelper:
   - Name: AuraHelper
     Version: 0.7.5
   - Name: BossesHelper
-    Version: 1.1.4
+    Version: 1.2.1
   - Name: LocksmithHelper
     Version: 0.3.0
   - Name: ShrimpHelper
@@ -11658,7 +11658,7 @@ UDAllHelper:
   - Name: TileLayoutAnchor
     Version: 1.2.1
   - Name: CaeruleaHelper
-    Version: 1.4.3
+    Version: 1.5.0
   - Name: ContortHelper
     Version: 1.5.5
   - Name: KaydenCommands
@@ -11668,7 +11668,7 @@ UDAllHelper:
   - Name: LuaCutscenes
     Version: 0.2.13
   - Name: FlaglinesAndSuch
-    Version: 1.6.46
+    Version: 1.6.50
   - Name: SeekerHelper
     Version: 1.0.0
   - Name: DisposableTheo
@@ -11676,7 +11676,7 @@ UDAllHelper:
   - Name: QuantumMechanics
     Version: 1.3.2
   - Name: viddiesToolbox
-    Version: 1.2.3
+    Version: 1.3.0
   - Name: YetAnotherHelper
     Version: 1.2.5
   - Name: LoennBrushes
@@ -11686,9 +11686,9 @@ UDAllHelper:
   - Name: ClutterHelper
     Version: 1.2.1
   - Name: SpeedrunTool
-    Version: 3.26.3
+    Version: 3.27.10
   - Name: corkr900GraphicsPack
-    Version: 1.1.11
+    Version: 1.1.13
   - Name: Batteries
     Version: 1.1.4
   - Name: EnysEnythings
@@ -11710,7 +11710,7 @@ UDAllHelper:
   - Name: CherryHelper
     Version: 1.8.2
   - Name: FemtoHelper
-    Version: 1.14.4
+    Version: 1.14.10
   - Name: CpopHelper
     Version: 1.3.0
   - Name: AubreyHelper
@@ -11724,9 +11724,9 @@ UDAllHelper:
   - Name: PandorasBox
     Version: 1.0.49
   - Name: AdamsAddons
-    Version: 1.14.8
+    Version: 1.14.10
   - Name: BitsHelper
-    Version: 0.1.1
+    Version: 0.1.2
   - Name: NerdHelper
     Version: 1.6.3
   - Name: Tetrahelper
@@ -11736,7 +11736,7 @@ UDAllHelper:
   - Name: PrismaticHelper
     Version: 1.12.0
   - Name: ExtendedVariantMode
-    Version: 0.45.0
+    Version: 0.47.2
   - Name: DBBHelper
     Version: 1.0.9
   - Name: SSMQoLMod
@@ -11744,15 +11744,15 @@ UDAllHelper:
   - Name: Wolfy's garden decals
     Version: 1.4.0
   - Name: MaxHelpingHand
-    Version: 1.38.0
+    Version: 1.39.3
   - Name: WorldMapHelper
     Version: 1.1.0
   - Name: memorialHelper
     Version: 1.0.4
   - Name: FrostHelper
-    Version: 1.73.1
+    Version: 1.74.1
   - Name: AurorasLoennPlugin
-    Version: 0.12.4
+    Version: 0.12.5
   - Name: FurryHelper
     Version: 1.0.6
   - Name: LunaticHelper
@@ -11760,21 +11760,23 @@ UDAllHelper:
   - Name: TeraHelper
     Version: 1.0.4
   - Name: CrystallineHelper
-    Version: 1.16.6
+    Version: 1.17.1
   - Name: DonkerMod
     Version: 1.0.0
   - Name: AltSidesHelper
     Version: 1.7.1
+  - Name: DoonvHelper
+    Version: 1.0.0
   - Name: XaphanHelper
-    Version: 1.0.76
+    Version: 1.0.78
   - Name: AurorasHelper
-    Version: 0.12.2
+    Version: 0.12.3
   - Name: BondingHelper
     Version: 1.1.0
   - Name: GatekeepHelper
     Version: 1.2.0
   - Name: MaymayHelper
-    Version: 0.1.1
+    Version: 0.1.2
   - Name: DJMapHelper
     Version: 1.13.4
   - Name: FemtoTechAudio
@@ -11782,11 +11784,11 @@ UDAllHelper:
   - Name: GlitchHelper
     Version: 1.0.2
   - Name: JungleHelper
-    Version: 1.3.6
+    Version: 1.3.9
   - Name: Errand Of Wednesday
-    Version: 0.2.2
+    Version: 0.3.0
   - Name: MadelineCrystal
-    Version: 1.6.1
+    Version: 1.7.1
   - Name: StunningHelper
     Version: 1.1.0
   - Name: MaxAlHelper
@@ -11796,7 +11798,7 @@ UDAllHelper:
   - Name: FlamecrafterAssetPack
     Version: 1.4.0
   - Name: KyfexHelper
-    Version: 0.9.2
+    Version: 0.12.1
   - Name: VivHelper
     Version: 1.14.10
   - Name: ImGuiHelper
@@ -11804,7 +11806,7 @@ UDAllHelper:
   - Name: BetterRefillGems
     Version: 1.0.1
   - Name: OzmasOddities
-    Version: 0.2.0
+    Version: 0.6.1
   - Name: TwigHelper
     Version: 1.6.0
   - Name: FancyTileEntities
@@ -11812,15 +11814,15 @@ UDAllHelper:
   - Name: MoreLockBlocks
     Version: 1.1.0
   - Name: ConsistencyTracker
-    Version: 2.9.7
+    Version: 2.9.8
   - Name: bitsbolts
-    Version: 1.4.6
+    Version: 1.4.7
   - Name: MoladanHelper
     Version: 1.0.1
   - Name: crowberrydecalpack
     Version: 0.1.0
   - Name: Long Name Helper by Helen, Helen's Helper, hELPER
-    Version: 1.9.10
+    Version: 1.9.12
   - Name: ReallyBigHelper
     Version: 0.9.6
   - Name: FoxsDecalPack
@@ -11832,17 +11834,17 @@ UDAllHelper:
   - Name: Microlith57MiscellaneousMechanics
     Version: 1.2.2
   - Name: ReverseHelper
-    Version: 1.15.13
+    Version: 1.15.18
   - Name: ProgHelper
-    Version: 1.5.0
+    Version: 1.5.2
   - Name: SorbetHelper
-    Version: 1.7.9
+    Version: 1.8.2
   - Name: Maya's Helper
     Version: 1.1.3
   - Name: CoopHelper
     Version: 1.0.8
   - Name: KoseiHelper
-    Version: 1.15.4.1
+    Version: 1.19.0.0
   - Name: NeihraHelper
     Version: 0.1.0
   - Name: AidenHelper
@@ -11852,7 +11854,7 @@ UDAllHelper:
   - Name: WindHelper
     Version: 1.2.0
   - Name: BrokemiaHelper
-    Version: 1.8.3
+    Version: 1.8.5
   - Name: AltLevelsHelper
     Version: 1.1.0
   - Name: VanillaTweaks
@@ -11882,17 +11884,17 @@ UDAllHelper:
   - Name: PuzzleHelper
     Version: 1.1.0
   - Name: CollabUtils2
-    Version: 1.10.14
+    Version: 1.11.0
   - Name: ExtendedCameraDynamics
-    Version: 1.1.1
+    Version: 1.1.2
   - Name: SafeRespawnCrumble
     Version: 1.2.0
   - Name: CollabLobbyUI
     Version: 1.0.9
   - Name: AnotherLoennPlugin
-    Version: 1.6.0
+    Version: 1.7.2
   - Name: GameHelper
-    Version: 1.8.5.0
+    Version: 1.8.8.0
   - Name: EmHelper
     Version: 1.3.0
   - Name: Aqua
@@ -11906,37 +11908,39 @@ UDAllHelper:
   - Name: FaerieHelper
     Version: 1.1.0
   - Name: aonHelper
-    Version: 0.7.1
+    Version: 0.9.0
   - Name: BrassHelper
     Version: 0.5.0
   - Name: LoennExtended
-    Version: 1.3.3
+    Version: 1.4.0
   - Name: ArphimigonsToyBox
     Version: 1.4.1
   - Name: Lunasentitymod
     Version: 2.1.1
   - Name: VidPlayer
-    Version: 0.3.1
+    Version: 0.4.0
   - Name: ProfilingTools
     Version: 0.0.3
   - Name: AdventureHelper
     Version: 1.6.0
   - Name: GooberHelper
-    Version: 1.3.0
+    Version: 1.4.5
   - Name: HeatMeter
     Version: 0.1.3
   - Name: StyleMaskHelper
     Version: 1.4.0
+  - Name: FrigoHelper
+    Version: 0.1.1
   - Name: ParrotHelper
     Version: 1.2.1
   - Name: SSMHelper
-    Version: 1.2.12
+    Version: 1.2.15
   - Name: LollydesSjStuffs
     Version: 1.1.3
   - Name: FlaksHelper
     Version: 0.1.3
   - Name: LuckyHelper
-    Version: 0.18.5
+    Version: 0.23.1
   - Name: SkinModHelper
     Version: 0.6.1
   - Name: AurorasAdditions
@@ -11956,8 +11960,8 @@ UDAllHelper:
   - Name: LoennPresets
     Version: 1.1.14
   - Name: LylyraHelper
-    Version: 1.3.23
-  URL: https://gamebanana.com/mmdl/1517796
+    Version: 1.3.24
+  URL: https://gamebanana.com/mmdl/1572685
 ParrotDashSkin_legacy:
   OptionalDependencies: []
   Dependencies:
@@ -29618,7 +29622,7 @@ UDCollectiveHelper:
   - Name: BounceHelper
     Version: 1.14.0
   - Name: GravityHelper
-    Version: 1.2.23
+    Version: 1.2.24
   - Name: PersistenceHelper
     Version: 1.0.3
   - Name: ChineseNewYear2023Helper
@@ -29638,7 +29642,7 @@ UDCollectiveHelper:
   - Name: FrenchHelper
     Version: 1.1.9
   - Name: LeniencyHelper
-    Version: 1.1.0
+    Version: 1.2.2
   - Name: ConditionHelper
     Version: 1.0.0
   - Name: Kelper
@@ -29648,7 +29652,7 @@ UDCollectiveHelper:
   - Name: AuraHelper
     Version: 0.7.5
   - Name: BossesHelper
-    Version: 1.1.4
+    Version: 1.2.1
   - Name: LocksmithHelper
     Version: 0.3.0
   - Name: ShrimpHelper
@@ -29660,7 +29664,7 @@ UDCollectiveHelper:
   - Name: TileLayoutAnchor
     Version: 1.2.1
   - Name: CaeruleaHelper
-    Version: 1.4.3
+    Version: 1.5.0
   - Name: ContortHelper
     Version: 1.5.5
   - Name: KaydenCommands
@@ -29670,7 +29674,7 @@ UDCollectiveHelper:
   - Name: LuaCutscenes
     Version: 0.2.13
   - Name: FlaglinesAndSuch
-    Version: 1.6.46
+    Version: 1.6.50
   - Name: SeekerHelper
     Version: 1.0.0
   - Name: DisposableTheo
@@ -29678,7 +29682,7 @@ UDCollectiveHelper:
   - Name: QuantumMechanics
     Version: 1.3.2
   - Name: viddiesToolbox
-    Version: 1.2.3
+    Version: 1.3.0
   - Name: YetAnotherHelper
     Version: 1.2.5
   - Name: LoennBrushes
@@ -29688,7 +29692,7 @@ UDCollectiveHelper:
   - Name: ClutterHelper
     Version: 1.2.1
   - Name: SpeedrunTool
-    Version: 3.26.3
+    Version: 3.27.10
   - Name: Batteries
     Version: 1.1.4
   - Name: EnysEnythings
@@ -29710,7 +29714,7 @@ UDCollectiveHelper:
   - Name: CherryHelper
     Version: 1.8.2
   - Name: FemtoHelper
-    Version: 1.14.4
+    Version: 1.14.10
   - Name: CpopHelper
     Version: 1.3.0
   - Name: AubreyHelper
@@ -29724,9 +29728,9 @@ UDCollectiveHelper:
   - Name: PandorasBox
     Version: 1.0.49
   - Name: AdamsAddons
-    Version: 1.14.8
+    Version: 1.14.10
   - Name: BitsHelper
-    Version: 0.1.1
+    Version: 0.1.2
   - Name: NerdHelper
     Version: 1.6.3
   - Name: Tetrahelper
@@ -29736,19 +29740,19 @@ UDCollectiveHelper:
   - Name: PrismaticHelper
     Version: 1.12.0
   - Name: ExtendedVariantMode
-    Version: 0.45.0
+    Version: 0.47.2
   - Name: DBBHelper
     Version: 1.0.9
   - Name: MaxHelpingHand
-    Version: 1.38.0
+    Version: 1.39.3
   - Name: WorldMapHelper
     Version: 1.1.0
   - Name: memorialHelper
     Version: 1.0.4
   - Name: FrostHelper
-    Version: 1.73.1
+    Version: 1.74.1
   - Name: AurorasLoennPlugin
-    Version: 0.12.4
+    Version: 0.12.5
   - Name: FurryHelper
     Version: 1.0.6
   - Name: LunaticHelper
@@ -29756,21 +29760,23 @@ UDCollectiveHelper:
   - Name: TeraHelper
     Version: 1.0.4
   - Name: CrystallineHelper
-    Version: 1.16.6
+    Version: 1.17.1
   - Name: DonkerMod
     Version: 1.0.0
   - Name: AltSidesHelper
     Version: 1.7.1
+  - Name: DoonvHelper
+    Version: 1.0.0
   - Name: XaphanHelper
-    Version: 1.0.76
+    Version: 1.0.78
   - Name: AurorasHelper
-    Version: 0.12.2
+    Version: 0.12.3
   - Name: BondingHelper
     Version: 1.1.0
   - Name: GatekeepHelper
     Version: 1.2.0
   - Name: MaymayHelper
-    Version: 0.1.1
+    Version: 0.1.2
   - Name: DJMapHelper
     Version: 1.13.4
   - Name: FemtoTechAudio
@@ -29778,11 +29784,11 @@ UDCollectiveHelper:
   - Name: GlitchHelper
     Version: 1.0.2
   - Name: JungleHelper
-    Version: 1.3.6
+    Version: 1.3.9
   - Name: Errand Of Wednesday
-    Version: 0.2.2
+    Version: 0.3.0
   - Name: MadelineCrystal
-    Version: 1.6.1
+    Version: 1.7.1
   - Name: StunningHelper
     Version: 1.1.0
   - Name: MaxAlHelper
@@ -29792,13 +29798,13 @@ UDCollectiveHelper:
   - Name: FlamecrafterAssetPack
     Version: 1.4.0
   - Name: KyfexHelper
-    Version: 0.9.2
+    Version: 0.12.1
   - Name: VivHelper
     Version: 1.14.10
   - Name: ImGuiHelper
     Version: 0.1.3
   - Name: OzmasOddities
-    Version: 0.2.0
+    Version: 0.6.1
   - Name: TwigHelper
     Version: 1.6.0
   - Name: FancyTileEntities
@@ -29806,11 +29812,11 @@ UDCollectiveHelper:
   - Name: MoreLockBlocks
     Version: 1.1.0
   - Name: bitsbolts
-    Version: 1.4.6
+    Version: 1.4.7
   - Name: MoladanHelper
     Version: 1.0.1
   - Name: Long Name Helper by Helen, Helen's Helper, hELPER
-    Version: 1.9.10
+    Version: 1.9.12
   - Name: ReallyBigHelper
     Version: 0.9.6
   - Name: FoxsDecalPack
@@ -29822,17 +29828,17 @@ UDCollectiveHelper:
   - Name: Microlith57MiscellaneousMechanics
     Version: 1.2.2
   - Name: ReverseHelper
-    Version: 1.15.13
+    Version: 1.15.18
   - Name: ProgHelper
-    Version: 1.5.0
+    Version: 1.5.2
   - Name: SorbetHelper
-    Version: 1.7.9
+    Version: 1.8.2
   - Name: Maya's Helper
     Version: 1.1.3
   - Name: CoopHelper
     Version: 1.0.8
   - Name: KoseiHelper
-    Version: 1.15.4.1
+    Version: 1.19.0.0
   - Name: NeihraHelper
     Version: 0.1.0
   - Name: AidenHelper
@@ -29842,7 +29848,7 @@ UDCollectiveHelper:
   - Name: WindHelper
     Version: 1.2.0
   - Name: BrokemiaHelper
-    Version: 1.8.3
+    Version: 1.8.5
   - Name: AltLevelsHelper
     Version: 1.1.0
   - Name: VanillaTweaks
@@ -29868,15 +29874,15 @@ UDCollectiveHelper:
   - Name: PuzzleHelper
     Version: 1.1.0
   - Name: CollabUtils2
-    Version: 1.10.14
+    Version: 1.11.0
   - Name: ExtendedCameraDynamics
-    Version: 1.1.1
+    Version: 1.1.2
   - Name: SafeRespawnCrumble
     Version: 1.2.0
   - Name: AnotherLoennPlugin
-    Version: 1.6.0
+    Version: 1.7.2
   - Name: GameHelper
-    Version: 1.8.5.0
+    Version: 1.8.8.0
   - Name: EmHelper
     Version: 1.3.0
   - Name: Aqua
@@ -29890,37 +29896,39 @@ UDCollectiveHelper:
   - Name: FaerieHelper
     Version: 1.1.0
   - Name: aonHelper
-    Version: 0.7.1
+    Version: 0.9.0
   - Name: BrassHelper
     Version: 0.5.0
   - Name: LoennExtended
-    Version: 1.3.3
+    Version: 1.4.0
   - Name: ArphimigonsToyBox
     Version: 1.4.1
   - Name: Lunasentitymod
     Version: 2.1.1
   - Name: VidPlayer
-    Version: 0.3.1
+    Version: 0.4.0
   - Name: ProfilingTools
     Version: 0.0.3
   - Name: AdventureHelper
     Version: 1.6.0
   - Name: GooberHelper
-    Version: 1.3.0
+    Version: 1.4.5
   - Name: HeatMeter
     Version: 0.1.3
   - Name: StyleMaskHelper
     Version: 1.4.0
+  - Name: FrigoHelper
+    Version: 0.1.1
   - Name: ParrotHelper
     Version: 1.2.1
   - Name: SSMHelper
-    Version: 1.2.12
+    Version: 1.2.15
   - Name: LollydesSjStuffs
     Version: 1.1.3
   - Name: FlaksHelper
     Version: 0.1.3
   - Name: LuckyHelper
-    Version: 0.18.5
+    Version: 0.23.1
   - Name: SkinModHelper
     Version: 0.6.1
   - Name: AurorasAdditions
@@ -29940,8 +29948,8 @@ UDCollectiveHelper:
   - Name: LoennPresets
     Version: 1.1.14
   - Name: LylyraHelper
-    Version: 1.3.23
-  URL: https://gamebanana.com/mmdl/1517797
+    Version: 1.3.24
+  URL: https://gamebanana.com/mmdl/1572686
 Farewell on the Moon:
   OptionalDependencies: []
   Dependencies:
@@ -36298,11 +36306,11 @@ UDMapinHelper:
   OptionalDependencies: []
   Dependencies:
   - Name: AnotherLoennPlugin
-    Version: 1.6.0
+    Version: 1.7.2
   - Name: SpeedrunTool
-    Version: 3.25.6
+    Version: 3.27.10
   - Name: CelesteTAS
-    Version: 3.45.2
+    Version: 3.46.2
   - Name: JustLoennyThings
     Version: 0.2.8
   - Name: VivHelper
@@ -36312,42 +36320,42 @@ UDMapinHelper:
   - Name: LoennScripts
     Version: 1.0.8
   - Name: LoennExtended
-    Version: 1.3.3
+    Version: 1.4.0
   - Name: CommunalHelper
     Version: 1.24.4
   - Name: ProfilingTools
     Version: 0.0.3
   - Name: BrokemiaHelper
-    Version: 1.8.3
+    Version: 1.8.5
   - Name: ExtendedVariantMode
-    Version: 0.42.0
+    Version: 0.47.2
   - Name: KaydenCommands
     Version: 1.0.1
   - Name: MaxHelpingHand
-    Version: 1.37.0
+    Version: 1.39.3
   - Name: LuaCutscenes
     Version: 0.2.13
   - Name: FrostHelper
-    Version: 1.70.1
+    Version: 1.74.1
   - Name: ModderToolkit
     Version: 0.1.1
   - Name: AurorasLoennPlugin
-    Version: 0.12.3
+    Version: 0.12.5
   - Name: MoreLoennPlugins
     Version: 1.8.4
   - Name: LoennBrushes
     Version: 1.0.1
   - Name: CollabUtils2
-    Version: 1.10.14
+    Version: 1.11.0
   - Name: LoennPresets
     Version: 1.1.14
   - Name: MappingUtils
-    Version: 1.9.0
+    Version: 1.10.1
   - Name: LoennProjectManager
-    Version: 0.4.4
+    Version: 0.4.6
   - Name: CollabLobbyUI
     Version: 1.0.9
-  URL: https://gamebanana.com/mmdl/1476096
+  URL: https://gamebanana.com/mmdl/1572687
 SMW_texturePack:
   OptionalDependencies: []
   Dependencies: []
