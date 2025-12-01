@@ -70626,6 +70626,30 @@ DesertBusButItFellInAVolcano:
   - Name: Everest
     Version: 1.2330.0
   URL: https://gamebanana.com/mmdl/617795
+MaplzeTreeAdventure:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.47.4
+  - Name: BrokemiaHelper
+    Version: 1.8.4
+  - Name: GravityHelper
+    Version: 1.2.21
+  - Name: ShroomHelper
+    Version: 1.2.8
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: Everest
+    Version: NoVersion
+  - Name: XaphanHelper
+    Version: 1.0.77
+  - Name: AurorasHelper
+    Version: 0.12.2
+  - Name: SSMHelper
+    Version: 1.2.12
+  - Name: MaxHelpingHand
+    Version: 1.29.5
+  URL: https://gamebanana.com/mmdl/1572797
 sunset-break:
   OptionalDependencies: []
   Dependencies:
