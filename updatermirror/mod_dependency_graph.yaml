@@ -18901,6 +18901,8 @@ speedkitty:
     Version: 1.14.8
   - Name: MaxHelpingHand
     Version: 1.32.0
+  - Name: EeveeHelper
+    Version: 1.12.3
   - Name: FrostHelper
     Version: 1.64.0
   - Name: VortexHelper
@@ -18915,7 +18917,7 @@ speedkitty:
     Version: 1.7.3
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1559621
+  URL: https://gamebanana.com/mmdl/1572355
 Perilous Precipice:
   OptionalDependencies: []
   Dependencies:
