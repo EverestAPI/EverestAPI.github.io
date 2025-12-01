@@ -83828,6 +83828,32 @@ Tear's Wacky Week:
   - Name: DJMapHelper
     Version: 1.13.4
   URL: https://gamebanana.com/mmdl/1449048
+sunset_novmap:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.74.0
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: FemtoHelper
+    Version: 1.14.9
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: CollabUtils2
+    Version: 1.10.14
+  - Name: SorbetHelper
+    Version: 1.8.2
+  - Name: StyleMaskHelper
+    Version: 1.4.0
+  - Name: IsaGrabBag
+    Version: 1.7.3
+  - Name: bitsbolts
+    Version: 1.4.7
+  URL: https://gamebanana.com/mmdl/1572408
 CelesteHollowTitle:
   OptionalDependencies: []
   Dependencies:
