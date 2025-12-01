@@ -89829,16 +89829,22 @@ PersistenceHelper:
   Dependencies:
   - Name: BounceHelper
     Version: 1.14.0
+  - Name: BrokemiaHelper
+    Version: 1.8.5
   - Name: GravityHelper
     Version: 1.2.24
   - Name: Everest
     Version: 1.5986.0
+  - Name: ExtendedVariantMode
+    Version: 0.47.0
   - Name: VivHelper
     Version: 1.14.10
   - Name: ContortHelper
     Version: 1.5.5
   - Name: JackalHelper
     Version: 1.7.5
+  - Name: MaxHelpingHand
+    Version: 1.38.1
   - Name: Anonhelper
     Version: 1.1.1
   - Name: IsaGrabBag
@@ -89847,6 +89853,10 @@ PersistenceHelper:
     Version: 1.6.50
   - Name: FrostHelper
     Version: 1.74.1
+  - Name: StrawberryJam2021
+    Version: 1.0.12
+  - Name: LunaticHelper
+    Version: 1.1.1
   - Name: CrystallineHelper
     Version: 1.16.6
   - Name: CherryHelper
@@ -89863,9 +89873,7 @@ PersistenceHelper:
     Version: 1.13.4
   - Name: PandorasBox
     Version: 1.0.49
-  - Name: AdventureHelper
-    Version: 1.6.0
-  URL: https://gamebanana.com/mmdl/1570263
+  URL: https://gamebanana.com/mmdl/1572413
 Linja:
   OptionalDependencies: []
   Dependencies:
