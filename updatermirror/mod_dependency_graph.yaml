@@ -103375,6 +103375,10 @@ Clouded Judgement:
 FOCUS:
   OptionalDependencies: []
   Dependencies:
+  - Name: GameHelper
+    Version: 1.8.8.0
+  - Name: BrokemiaHelper
+    Version: 1.8.2
   - Name: NerdHelper
     Version: 1.6.2
   - Name: PrismaticHelper
@@ -103411,7 +103415,7 @@ FOCUS:
     Version: 1.0.75
   - Name: KoseiHelper
     Version: 1.12.3.1
-  URL: https://gamebanana.com/mmdl/1535431
+  URL: https://gamebanana.com/mmdl/1572879
 SpireOfFools:
   OptionalDependencies: []
   Dependencies:
