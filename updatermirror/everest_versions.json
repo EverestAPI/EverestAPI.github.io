@@ -1,5 +1,20 @@
 [
   {
+    "date": "2025-12-02T22:02:04.7207451Z",
+    "olympusBuildFileSize": 71804567,
+    "mainFileSize": 72040582,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5350/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "SnipUndercover",
+    "commit": "e9801f54f4b651bff8968e4df7710ca441173303",
+    "description": "Show more verbose messages on duplicate tileset IDs",
+    "branch": "dev",
+    "version": 6050,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5350/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5350/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-12-02T18:56:30.0509072Z",
     "olympusBuildFileSize": 71803678,
     "mainFileSize": 72039971,
