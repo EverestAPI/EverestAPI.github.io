@@ -1,5 +1,35 @@
 [
   {
+    "date": "2025-12-02T18:56:30.0509072Z",
+    "olympusBuildFileSize": 71803678,
+    "mainFileSize": 72039971,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5349/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "microlith57",
+    "commit": "f274c81fd77109e32b98860090bc14cae48dac12",
+    "description": "fix SeekerEffectsController overwriting music layer 3",
+    "branch": "dev",
+    "version": 6049,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5349/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5349/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2025-12-02T18:56:27.8336782Z",
+    "olympusBuildFileSize": 71803739,
+    "mainFileSize": 72039933,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5348/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "SnipUndercover",
+    "commit": "b87cfe5242d3959fa561820eb3f91072724adce6",
+    "description": "Show \"<INVALID>\" marker for invalid Dialog IDs",
+    "branch": "dev",
+    "version": 6048,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5348/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5348/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-12-02T08:29:30.0729877Z",
     "olympusBuildFileSize": 71802559,
     "mainFileSize": 72039298,
