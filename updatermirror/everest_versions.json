@@ -1,5 +1,35 @@
 [
   {
+    "date": "2025-12-02T08:29:30.0729877Z",
+    "olympusBuildFileSize": 71802559,
+    "mainFileSize": 72039298,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5347/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "SilverDorian46",
+    "commit": "6e8d8418958ef9609c3a1668f863d4ad9d05dec5",
+    "description": "LevelEnter.OnPlayVignette event",
+    "branch": "dev",
+    "version": 6047,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5347/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5347/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2025-12-02T08:28:39.9317931Z",
+    "olympusBuildFileSize": 71802169,
+    "mainFileSize": 72038926,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5346/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "aonkeeper4",
+    "commit": "12e6ee182deaab02889756abb7fc6780889bac07",
+    "description": "Force NoInlining on `Solid.HasPlayerRider`, `Solid.HasPlayerClimbing` and `Solid.HasPlayerOnTop`",
+    "branch": "dev",
+    "version": 6046,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5346/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5346/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-11-30T23:29:45.3222705Z",
     "olympusBuildFileSize": 71802391,
     "mainFileSize": 72038895,
