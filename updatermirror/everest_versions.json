@@ -1,5 +1,20 @@
 [
   {
+    "date": "2025-12-02T23:08:20.7506552Z",
+    "olympusBuildFileSize": 71804537,
+    "mainFileSize": 72040484,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5351/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "ACherryJam",
+    "commit": "ef1894ce6ecc3d9423e2a6b4db09e407f045ef12",
+    "description": "Fix weird behaviour and freeze with SubMenu with enterOnSelect and no hoverable items",
+    "branch": "dev",
+    "version": 6051,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5351/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5351/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-12-02T22:02:04.7207451Z",
     "olympusBuildFileSize": 71804567,
     "mainFileSize": 72040582,

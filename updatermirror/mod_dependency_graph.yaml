@@ -8121,7 +8121,9 @@ NikolaMUnnerfedTheWorldTrapRooms:
     Version: '1.5674'
   - Name: ExtendedVariantMode
     Version: 0.43.1
-  URL: https://gamebanana.com/mmdl/1540780
+  - Name: MaxHelpingHand
+    Version: 1.38.1
+  URL: https://gamebanana.com/mmdl/1573299
 MilkChan_Skin:
   OptionalDependencies: []
   Dependencies:
@@ -89973,7 +89975,7 @@ Linja:
   Dependencies:
   - Name: Everest
     Version: 1.4986.0
-  URL: https://gamebanana.com/mmdl/1573223
+  URL: https://gamebanana.com/mmdl/1573302
 Stargazing:
   OptionalDependencies: []
   Dependencies:
