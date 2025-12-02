@@ -45986,6 +45986,22 @@ Celestial Doomsday:
   - Name: DJMapHelper
     Version: 1.8.20
   URL: https://gamebanana.com/mmdl/502158
+EvaHelper:
+  OptionalDependencies:
+  - Name: HonlyHelper
+    Version: 1.7.5
+  - Name: Kelper
+    Version: 0.5.5
+  - Name: CollabUtils2
+    Version: 1.11.0
+  - Name: DoonvHelper
+    Version: 1.0.0
+  Dependencies:
+  - Name: Everest
+    Version: 1.5986.0
+  - Name: ExtendedVariantMode
+    Version: 0.47.2
+  URL: https://gamebanana.com/mmdl/1573073
 intasity:
   OptionalDependencies: []
   Dependencies:
@@ -89957,7 +89973,7 @@ Linja:
   Dependencies:
   - Name: Everest
     Version: 1.4986.0
-  URL: https://gamebanana.com/mmdl/1573217
+  URL: https://gamebanana.com/mmdl/1573223
 Stargazing:
   OptionalDependencies: []
   Dependencies:
