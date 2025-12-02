@@ -49700,6 +49700,14 @@ MaxAlHelperTestMap:
   - Name: Everest
     Version: 1.5617.0
   URL: https://gamebanana.com/mmdl/1476244
+500_Cornerkicks:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: YetAnotherHelper
+    Version: 1.2.5
+  - Name: Everest
+    Version: 1.5988.0
+  URL: https://gamebanana.com/mmdl/1573120
 MadelineSki_Skinmod_PotatoLucy:
   OptionalDependencies: []
   Dependencies:
