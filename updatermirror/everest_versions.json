@@ -1,5 +1,20 @@
 [
   {
+    "date": "2025-12-03T22:58:49.3158652Z",
+    "olympusBuildFileSize": 71691362,
+    "mainFileSize": 71925365,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5354/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "Wartori54",
+    "commit": "d7bc4c2716b747d243fa4347b98422766b3d8b5a",
+    "description": "Bump NLua",
+    "branch": "dev",
+    "version": 6054,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5354/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5354/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-12-03T01:00:06.8651142Z",
     "olympusBuildFileSize": 71804869,
     "mainFileSize": 72040813,
