@@ -51545,7 +51545,7 @@ TASHelper:
     Version: 3.46.2
   - Name: EverestCore
     Version: '1.5986'
-  URL: https://gamebanana.com/mmdl/1573010
+  URL: https://gamebanana.com/mmdl/1573685
 Notepad2:
   OptionalDependencies: []
   Dependencies:
@@ -83690,15 +83690,15 @@ Celestial Metropolis:
   - Name: CommunalHelper
     Version: 1.24.4
   - Name: ReverseHelper
-    Version: 1.15.15
+    Version: 1.15.18
   - Name: SorbetHelper
     Version: 1.8.2
   - Name: OutbackHelper
     Version: 1.7.3
   - Name: BrokemiaHelper
-    Version: 1.8.4
+    Version: 1.8.5
   - Name: Everest
-    Version: 1.4000.0
+    Version: 1.5986.0
   - Name: ContortHelper
     Version: 1.5.5
   - Name: LuaCutscenes
@@ -83708,7 +83708,7 @@ Celestial Metropolis:
   - Name: ShroomHelper
     Version: 1.2.10
   - Name: CollabUtils2
-    Version: 1.10.14
+    Version: 1.11.1
   - Name: ExtendedCameraDynamics
     Version: 1.1.2
   - Name: JPC2024Assets
@@ -83724,11 +83724,11 @@ Celestial Metropolis:
   - Name: DzhakeHelper
     Version: 1.4.19
   - Name: ChroniaHelper
-    Version: 1.40.6
+    Version: 1.40.23
   - Name: CherryHelper
     Version: 1.8.2
   - Name: FemtoHelper
-    Version: 1.14.7
+    Version: 1.14.10
   - Name: Celestial Metropolis Audio
     Version: 1.0.1
   - Name: NewYearMoonAudio
@@ -83738,25 +83738,25 @@ Celestial Metropolis:
   - Name: AdventureHelper
     Version: 1.6.0
   - Name: AdamsAddons
-    Version: 1.14.9
+    Version: 1.14.10
   - Name: NerdHelper
     Version: 1.6.3
   - Name: PrismaticHelper
     Version: 1.12.0
   - Name: ExtendedVariantMode
-    Version: 0.46.1
+    Version: 0.47.2
   - Name: StyleMaskHelper
     Version: 1.4.0
   - Name: MaxHelpingHand
-    Version: 1.38.1
+    Version: 1.39.4
   - Name: LuckyHelper
-    Version: 0.22.1
+    Version: 0.23.1
   - Name: memorialHelper
     Version: 1.0.4
   - Name: FrostHelper
-    Version: 1.74.0
+    Version: 1.74.1
   - Name: UnderDragon's Repository
-    Version: 2.6.3
+    Version: 2.6.4
   - Name: VortexHelper
     Version: 1.2.19
   - Name: LunaticHelper
@@ -83764,16 +83764,16 @@ Celestial Metropolis:
   - Name: MoreDasheline
     Version: 1.7.1
   - Name: CrystallineHelper
-    Version: 1.16.6
+    Version: 1.17.1
   - Name: Spooooky's Asset Pack
     Version: 1.0.10
   - Name: XaphanHelper
-    Version: 1.0.77
+    Version: 1.0.78
   - Name: AurorasHelper
     Version: 0.12.3
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1560918
+  URL: https://gamebanana.com/mmdl/1573675
 CrystalGardenANCHOR:
   OptionalDependencies: []
   Dependencies:
