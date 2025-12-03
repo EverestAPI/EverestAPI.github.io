@@ -60554,24 +60554,6 @@ TimerExport:
   - Name: Head2Head
     Version: 1.1.6
   URL: https://gamebanana.com/mmdl/1028611
-ExtendedCSides:
-  OptionalDependencies: []
-  Dependencies:
-  - Name: Everest
-    Version: 1.3761.0
-  - Name: CherryHelper
-    Version: 1.7.3
-  - Name: CommunalHelper
-    Version: 1.14.5
-  - Name: VivHelper
-    Version: 1.13.2
-  - Name: MaxHelpingHand
-    Version: 1.25.4
-  - Name: Sardine7
-    Version: 1.1.4
-  - Name: AdventureHelper
-    Version: 1.5.8
-  URL: https://gamebanana.com/mmdl/1195809
 LostInCave:
   OptionalDependencies: []
   Dependencies:
