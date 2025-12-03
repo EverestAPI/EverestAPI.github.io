@@ -1,5 +1,20 @@
 [
   {
+    "date": "2025-12-03T01:00:06.8651142Z",
+    "olympusBuildFileSize": 71804869,
+    "mainFileSize": 72040813,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5352/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "DashingCat",
+    "commit": "651730813145c711719c5b9cdb1f1ed88ec94476",
+    "description": "Scroll buttons on main menu (issue #793)",
+    "branch": "dev",
+    "version": 6052,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5352/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5352/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-12-02T23:08:20.7506552Z",
     "olympusBuildFileSize": 71804537,
     "mainFileSize": 72040484,
