@@ -49963,15 +49963,15 @@ JtohFinalClimb:
 GameHelper:
   OptionalDependencies:
   - Name: SpeedrunTool
-    Version: 3.25.6
+    Version: 3.27.10
   - Name: VivHelper
     Version: 1.14.10
   - Name: CollabUtils2
-    Version: 1.10.14
+    Version: 1.11.1
   Dependencies:
   - Name: Everest
-    Version: 1.5935.0
-  URL: https://gamebanana.com/mmdl/1552637
+    Version: 1.5986.0
+  URL: https://gamebanana.com/mmdl/1573637
 New Adventure:
   OptionalDependencies: []
   Dependencies:
