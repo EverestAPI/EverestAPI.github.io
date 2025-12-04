@@ -5105,6 +5105,8 @@ Noramiku:
 AvianAscension:
   OptionalDependencies: []
   Dependencies:
+  - Name: AdamsAddons
+    Version: 1.14.0
   - Name: BrokemiaHelper
     Version: 1.5.0
   - Name: VortexHelper
@@ -5112,18 +5114,22 @@ AvianAscension:
   - Name: Everest
     Version: 1.0.0
   - Name: ExtendedVariantMode
-    Version: 0.27.0
+    Version: 0.24.1
   - Name: CommunalHelper
     Version: 1.11.3
   - Name: VivHelper
-    Version: 1.12.9
+    Version: 1.12.2
   - Name: CollabUtils2
     Version: 1.6.10
+  - Name: Male Electus Parrot Skin
+    Version: 1.0.1
   - Name: ContortHelper
     Version: 1.5.5
   - Name: MaxHelpingHand
     Version: 1.18.4
-  URL: https://gamebanana.com/mmdl/1454811
+  - Name: PandorasBox
+    Version: 1.0.47
+  URL: https://gamebanana.com/mmdl/1574428
 CelestialCabinet:
   OptionalDependencies: []
   Dependencies:
