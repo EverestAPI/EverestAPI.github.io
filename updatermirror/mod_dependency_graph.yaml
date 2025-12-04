@@ -57650,6 +57650,12 @@ Extended Ridiculousness:
   - Name: ExtendedVariantMode
     Version: 0.20.1
   URL: https://gamebanana.com/mmdl/562532
+FoxyJumpscare:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.5935.0
+  URL: https://gamebanana.com/mmdl/1574329
 PumberBumpersEverywhere:
   OptionalDependencies:
   - Name: VortexHelper
