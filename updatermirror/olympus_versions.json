@@ -214,32 +214,5 @@
     "version": "25.10.22.03",
     "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5247/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
     "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5247/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-10-04T20:43:03.5776071Z",
-    "changelog": "∙ Handle invalid server responses from Azure when checking for Olympus updates\n∙ Support the arm64 architecture (alias of arm)\n∙ Linux: Added changelog to the Flatpak metadata file\n∙ Minor tweak in the code for mod presets",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5207/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "25.10.04.03",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5207/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5207/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-10-04T20:38:44.6204436Z",
-    "changelog": "∙ Handle invalid server responses from Azure when checking for Olympus updates\n∙ Support the arm64 architecture (alias of arm)\n∙ Linux: Added changelog to the Flatpak metadata file\n∙ Minor tweak in the code for mod presets",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5206/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "windows-init",
-    "version": "25.10.04.02",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5206/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5206/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-10-04T20:34:03.6771463Z",
-    "changelog": "∙ Handle invalid server responses from Azure when checking for Olympus updates\n∙ Support the arm64 architecture (alias of arm)\n∙ Linux: Added changelog to the Flatpak metadata file\n∙ Minor tweak in the code for mod presets",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5205/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "stable",
-    "version": "25.10.04.01",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5205/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5205/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
   }
 ]
