@@ -8680,6 +8680,14 @@ nuwutadjectivenounennui:
   - Name: LuaCutscenes
     Version: 0.2.13
   URL: https://gamebanana.com/mmdl/1552857
+TendouAlice_China:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.4465.0
+  - Name: SkinModHelperPlus
+    Version: 0.10.4
+  URL: https://gamebanana.com/mmdl/1574252
 TASRecorder:
   OptionalDependencies: []
   Dependencies:
