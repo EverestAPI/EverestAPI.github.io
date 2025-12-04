@@ -83904,7 +83904,7 @@ sunset_novmap:
   - Name: VortexHelper
     Version: 1.2.19
   - Name: CrystallineHelper
-    Version: 1.16.6
+    Version: 1.17.1
   - Name: FemtoHelper
     Version: 1.14.10
   - Name: CommunalHelper
@@ -83921,7 +83921,7 @@ sunset_novmap:
     Version: 1.7.3
   - Name: bitsbolts
     Version: 1.4.7
-  URL: https://gamebanana.com/mmdl/1573996
+  URL: https://gamebanana.com/mmdl/1573997
 CelesteHollowTitle:
   OptionalDependencies: []
   Dependencies:
@@ -94165,7 +94165,7 @@ FemtoHelper:
   Dependencies:
   - Name: Everest
     Version: 1.5935.0
-  URL: https://gamebanana.com/mmdl/1572391
+  URL: https://gamebanana.com/mmdl/1574001
 ABY:
   OptionalDependencies: []
   Dependencies:
