@@ -49567,11 +49567,15 @@ cursedthings:
 Miyabi_Skinmod_minidres:
   OptionalDependencies: []
   Dependencies:
+  - Name: Miyabidemon
+    Version: 1.0.0
   - Name: Everest
     Version: 1.5720.0
+  - Name: StrawberryFriend
+    Version: 2.1.3
   - Name: SkinModHelperPlus
     Version: 0.16.5
-  URL: https://gamebanana.com/mmdl/1561314
+  URL: https://gamebanana.com/mmdl/1574543
 Zelotypia:
   OptionalDependencies: []
   Dependencies:
