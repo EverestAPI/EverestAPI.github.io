@@ -44665,13 +44665,13 @@ LuckyHelper:
   - Name: EeveeHelper
     Version: 1.12.3
   - Name: ExtendedVariantMode
-    Version: 0.39.2
+    Version: 0.47.2
   - Name: VivHelper
     Version: 1.14.10
   Dependencies:
   - Name: Everest
-    Version: 1.5577.0
-  URL: https://gamebanana.com/mmdl/1567923
+    Version: 1.5901.0
+  URL: https://gamebanana.com/mmdl/1574904
 Old Piano:
   OptionalDependencies: []
   Dependencies:
