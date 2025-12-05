@@ -79244,6 +79244,8 @@ KyfexHelper:
   OptionalDependencies:
   - Name: FrostHelper
     Version: 1.72.0
+  - Name: CrystallineHelper
+    Version: 1.16.6
   - Name: auspicioushelper
     Version: 0.2.7
   - Name: CommunalHelper
@@ -79255,7 +79257,7 @@ KyfexHelper:
   Dependencies:
   - Name: EverestCore
     Version: 1.4673.0
-  URL: https://gamebanana.com/mmdl/1570969
+  URL: https://gamebanana.com/mmdl/1574991
 Mikoline's Extend Hat Pack:
   OptionalDependencies: []
   Dependencies:
