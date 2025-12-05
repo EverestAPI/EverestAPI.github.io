@@ -1,5 +1,14 @@
 [
   {
+    "date": "2025-12-05T15:05:52.6922957Z",
+    "changelog": "∙ Added a GameBanana category filter to Manage Installed Mods\n∙ Added tooltips on highlighted mods in Manage Installed Mods\n∙ Added French language option\n∙ Detect and warn the user if suppress-output is missing (macOS and Linux only)",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5356/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "windows-init",
+    "version": "25.12.05.02",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5356/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5356/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-12-05T14:58:49.7641239Z",
     "changelog": "∙ Added a GameBanana category filter to Manage Installed Mods\n∙ Added tooltips on highlighted mods in Manage Installed Mods\n∙ Added French language option\n∙ Detect and warn the user if suppress-output is missing (macOS and Linux only)",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5355/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
