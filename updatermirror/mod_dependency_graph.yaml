@@ -89023,6 +89023,8 @@ Wik-Sides:
     Version: 1.7.5
   - Name: Everest
     Version: 1.5416.0
+  - Name: ExtendedVariantMode
+    Version: 0.46.1
   - Name: VivHelper
     Version: 1.14.10
   - Name: SSMHelper
@@ -89041,7 +89043,7 @@ Wik-Sides:
     Version: 1.20.12
   - Name: SorbetHelper
     Version: 1.6.2
-  URL: https://gamebanana.com/mmdl/1451103
+  URL: https://gamebanana.com/mmdl/1574818
 TheFaeRealm:
   OptionalDependencies: []
   Dependencies:
