@@ -27966,6 +27966,12 @@ TailSizeDynamics:
   - Name: EverestCore
     Version: 1.5935.0
   URL: https://gamebanana.com/mmdl/1552123
+dreammod:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.6031.0
+  URL: https://gamebanana.com/mmdl/1575784
 PixelGalaxy:
   OptionalDependencies: []
   Dependencies:
