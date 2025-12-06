@@ -40629,7 +40629,9 @@ Touch:
     Version: 1.13.4
   URL: https://gamebanana.com/mmdl/1429703
 CrossoverCollab:
-  OptionalDependencies: []
+  OptionalDependencies:
+  - Name: Foxeline
+    Version: 1.10.1
   Dependencies:
   - Name: JungleHelper
     Version: 1.3.9
@@ -40700,7 +40702,7 @@ CrossoverCollab:
   - Name: SafeRespawnCrumble
     Version: 1.2.0
   - Name: GameHelper
-    Version: 1.10.0
+    Version: 1.10.1
   - Name: EmHelper
     Version: 1.3.0
   - Name: HonlyHelper
@@ -40718,7 +40720,7 @@ CrossoverCollab:
   - Name: EeveeHelper
     Version: 1.12.3
   - Name: ChroniaHelper
-    Version: 1.40.30
+    Version: 1.40.31
   - Name: CherryHelper
     Version: 1.8.2
   - Name: FemtoHelper
@@ -40740,7 +40742,7 @@ CrossoverCollab:
   - Name: PrismaticHelper
     Version: 1.12.0
   - Name: EvaHelper
-    Version: 1.1.2
+    Version: 1.2.0
   - Name: ExtendedVariantMode
     Version: 0.47.2
   - Name: DBBHelper
@@ -40783,7 +40785,7 @@ CrossoverCollab:
     Version: 1.0.0
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1574969
+  URL: https://gamebanana.com/mmdl/1575543
 MeatOfTheDSides:
   OptionalDependencies: []
   Dependencies:
@@ -50073,7 +50075,7 @@ GameHelper:
   Dependencies:
   - Name: Everest
     Version: 1.5986.0
-  URL: https://gamebanana.com/mmdl/1573637
+  URL: https://gamebanana.com/mmdl/1575537
 New Adventure:
   OptionalDependencies: []
   Dependencies:
