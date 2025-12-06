@@ -97074,6 +97074,34 @@ recongfonmap:
   - Name: ZKB99trap
     Version: 1.0.0
   URL: https://gamebanana.com/mmdl/1414673
+Grapotropolis:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: AdamsAddons
+    Version: 1.14.8
+  - Name: FrostHelper
+    Version: 1.74.0
+  - Name: JungleHelper
+    Version: 1.3.9
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: Everest
+    Version: 1.5986.0
+  - Name: ExtendedVariantMode
+    Version: 0.46.1
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: Linja
+    Version: 0.2.0
+  - Name: Spooooky's Asset Pack
+    Version: 1.0.10
+  - Name: LylyraHelper
+    Version: 1.3.23
+  - Name: MaxHelpingHand
+    Version: 1.38.0
+  - Name: bitsbolts
+    Version: 1.4.7
+  URL: https://gamebanana.com/mmdl/1575814
 sunset_ceiling:
   OptionalDependencies: []
   Dependencies:
