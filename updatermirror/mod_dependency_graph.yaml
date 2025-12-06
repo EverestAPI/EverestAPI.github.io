@@ -38820,6 +38820,52 @@ GayWeek:
   - Name: AdventureHelper
     Version: 1.5.8
   URL: https://gamebanana.com/mmdl/1233688
+danrooms:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: BrokemiaHelper
+    Version: 1.7.2
+  - Name: GravityHelper
+    Version: 1.2.3
+  - Name: NerdHelper
+    Version: 1.4.0
+  - Name: Everest
+    Version: 1.4465.0
+  - Name: ExtendedVariantMode
+    Version: 0.35.1
+  - Name: VivHelper
+    Version: 1.14.3
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: MaxHelpingHand
+    Version: 1.29.5
+  - Name: Anonhelper
+    Version: 1.1.0
+  - Name: memorialHelper
+    Version: 1.0.4
+  - Name: EeveeHelper
+    Version: 1.11.1
+  - Name: FrostHelper
+    Version: 1.48.0
+  - Name: QuantumMechanics
+    Version: 1.2.0
+  - Name: VortexHelper
+    Version: 1.2.14
+  - Name: ShroomHelper
+    Version: 1.2.8
+  - Name: CommunalHelper
+    Version: 1.19.4
+  - Name: ReverseHelper
+    Version: 1.10.3
+  - Name: CollabUtils2
+    Version: 1.10.8
+  - Name: Maya's Helper
+    Version: 1.1.1
+  - Name: OutbackHelper
+    Version: 1.7.3
+  - Name: AdventureHelper
+    Version: 1.5.8
+  URL: https://gamebanana.com/mmdl/1575782
 SecretSanta2022:
   OptionalDependencies: []
   Dependencies:
