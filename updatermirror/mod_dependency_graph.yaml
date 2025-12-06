@@ -104308,6 +104308,22 @@ not_done Garbage map:
   - Name: MaxHelpingHand
     Version: 1.29.3
   URL: https://gamebanana.com/mmdl/1126555
+HOTPINK:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.70.2
+  - Name: Everest
+    Version: 1.4673.0
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: CollabUtils2
+    Version: 1.10.14
+  - Name: SorbetHelper
+    Version: 1.7.5
+  - Name: MaxHelpingHand
+    Version: 1.37.2
+  URL: https://gamebanana.com/mmdl/1575360
 ShiftingSewersANCHOR:
   OptionalDependencies: []
   Dependencies:
