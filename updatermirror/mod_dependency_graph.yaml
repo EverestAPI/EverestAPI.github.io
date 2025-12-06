@@ -49823,11 +49823,11 @@ MaxAlHelperTestMap:
 500_Cornerkicks:
   OptionalDependencies: []
   Dependencies:
-  - Name: YetAnotherHelper
-    Version: 1.2.5
-  - Name: Everest
-    Version: 1.5986.0
-  URL: https://gamebanana.com/mmdl/1573221
+  - Name: GravityHelper
+    Version: 1.2.24
+  - Name: ExtendedCameraDynamics
+    Version: 1.1.2
+  URL: https://gamebanana.com/mmdl/1575500
 MadelineSki_Skinmod_PotatoLucy:
   OptionalDependencies: []
   Dependencies:
