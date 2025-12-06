@@ -75564,32 +75564,6 @@ FirstCamp:
   - Name: Everest
     Version: 1.3471.0
   URL: https://gamebanana.com/mmdl/1152584
-MaxHelpingHand:
-  OptionalDependencies:
-  - Name: FlaglinesAndSuch
-    Version: 1.6.8
-  - Name: FrostHelper
-    Version: 1.46.0
-  - Name: EeveeHelper
-    Version: 1.12.2
-  - Name: BounceHelper
-    Version: 1.12.0
-  - Name: LunaticHelper
-    Version: 1.1.1
-  - Name: ExtendedVariantMode
-    Version: 0.47.1
-  - Name: CommunalHelper
-    Version: 1.24.0
-  - Name: ExtendedCameraDynamics
-    Version: 1.0.3
-  - Name: OutbackHelper
-    Version: 1.7.2
-  - Name: LuaCutscenes
-    Version: 0.2.8
-  Dependencies:
-  - Name: Everest
-    Version: 1.5986.0
-  URL: https://gamebanana.com/mmdl/1575513
 Ooo:
   OptionalDependencies: []
   Dependencies:
