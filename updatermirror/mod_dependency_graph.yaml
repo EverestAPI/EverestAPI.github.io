@@ -91740,12 +91740,12 @@ DoonvHelper:
     Version: 1.0.54
   - Name: Guneline
     Version: 1.0.0
-  - Name: LuaCutscenes
-    Version: 0.2.7
   Dependencies:
   - Name: Everest
     Version: 1.5986.0
-  URL: https://gamebanana.com/mmdl/1574957
+  - Name: LuaCutscenes
+    Version: 0.2.7
+  URL: https://gamebanana.com/mmdl/1575428
 PlatinumStrawberry:
   OptionalDependencies: []
   Dependencies:
