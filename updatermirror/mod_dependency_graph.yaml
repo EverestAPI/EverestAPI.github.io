@@ -35480,22 +35480,6 @@ CornerGlidePortal_ussrname:
   - Name: PandorasBox
     Version: 1.0.47
   URL: https://gamebanana.com/mmdl/1270291
-AstralStep:
-  OptionalDependencies: []
-  Dependencies:
-  - Name: ShroomHelper
-    Version: 1.2.10
-  - Name: Everest
-    Version: 1.5421.0
-  - Name: VivHelper
-    Version: 1.14.10
-  - Name: OutbackHelper
-    Version: 1.7.3
-  - Name: MaxHelpingHand
-    Version: 1.37.0
-  - Name: AdventureHelper
-    Version: 1.6.0
-  URL: https://gamebanana.com/mmdl/1485118
 JulienSpeedyCore:
   OptionalDependencies: []
   Dependencies:
