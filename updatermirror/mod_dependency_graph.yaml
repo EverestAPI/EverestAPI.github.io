@@ -89288,6 +89288,12 @@ adenatorweek01:
   - Name: Everest
     Version: 1.5326.0
   URL: https://gamebanana.com/mmdl/1412813
+CollabUtils2:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.3847.0
+  URL: https://gamebanana.com/mmdl/1572763
 DowntownSundown:
   OptionalDependencies: []
   Dependencies:
