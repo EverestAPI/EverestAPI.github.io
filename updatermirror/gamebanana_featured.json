@@ -517,7 +517,7 @@
       "https://images.gamebanana.com/img/ss/mods/690c81f8155db.jpg"
     ],
     "Description": "The Secret Ingredient is the friends we have made along the way.",
-    "Views": 2988,
+    "Views": 3013,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "secret",
@@ -532,8 +532,8 @@
       "Category": "3month",
       "Position": 2
     },
-    "Text": "\"We just need one more ingredient for this soup to taste really good, what should we add?\"<br><br>Secret Ingredient Contest is all about mapping with a given palette, but you can add a few of your own things in the mix to give it a unique spin!<br>Will you add a triple dash refill or do you rather fancy a Kevin? It's all up to you!<br><br>The Secret Ingredient Lobby features 28 maps ranging from Beginner to Expert in a lobby format!<br><br>The maps have not been judged yet, so you can explore and discover the maps while the judging process is happening!<br>It's the first time I've hosted a contest so I hope you are looking forward to playing the maps just as much as I am! I hope you enjoy!",
-    "ModifiedDate": 1764235708,
+    "Text": "\"We just need one more ingredient for this soup to taste really good, what should we add?\"<br><br>Secret Ingredient Contest is all about mapping with a given palette, but you can add a few of your own things in the mix to give it a unique spin!<br>Will you add a triple dash refill or do you rather fancy a Kevin? It's all up to you!<br><br>The Secret Ingredient Lobby features 28 maps ranging from Beginner to Expert in a lobby format!<br><br>You can find the judging sheet<a href=\"https://docs.google.com/spreadsheets/d/1fkLJaQaEmeqciqFZuTc7l3a2HZud4l3PWo43g1iU5Ig/edit?usp=sharing\"> here<\/a>.<br><br>",
+    "ModifiedDate": 1765141738,
     "Name": "Secret Ingredient Contest",
     "PageURL": "https://gamebanana.com/mods/631922",
     "MirroredScreenshots": [
@@ -543,26 +543,26 @@
     "CreatedDate": 1762428713,
     "Author": "Crispybag",
     "CategoryName": "Maps",
-    "Downloads": 2257,
-    "Likes": 27,
+    "Downloads": 2262,
+    "Likes": 28,
     "Files": [
+      {
+        "Description": "",
+        "HasEverestYaml": true,
+        "Size": 2008765,
+        "CreatedDate": 1765141317,
+        "Downloads": 0,
+        "URL": "https://gamebanana.com/dl/1576457",
+        "Name": "secretingredientcontest_900e8.zip"
+      },
       {
         "Description": "1.0.0 - Audio Bank",
         "HasEverestYaml": true,
         "Size": 183875410,
         "CreatedDate": 1762427767,
-        "Downloads": 803,
+        "Downloads": 804,
         "URL": "https://gamebanana.com/dl/1555696",
         "Name": "secretingredientcontestaudio.zip"
-      },
-      {
-        "Description": "",
-        "HasEverestYaml": true,
-        "Size": 1975211,
-        "CreatedDate": 1764235705,
-        "Downloads": 333,
-        "URL": "https://gamebanana.com/dl/1569542",
-        "Name": "secretingredientcontest_246fc.zip"
       }
     ]
   },
