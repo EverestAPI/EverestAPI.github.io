@@ -38831,6 +38831,8 @@ danrooms:
     Version: 1.7.2
   - Name: GravityHelper
     Version: 1.2.3
+  - Name: HonlyHelper
+    Version: 1.7.5
   - Name: NerdHelper
     Version: 1.4.0
   - Name: Everest
@@ -38839,6 +38841,8 @@ danrooms:
     Version: 0.35.1
   - Name: VivHelper
     Version: 1.14.3
+  - Name: StyleMaskHelper
+    Version: 1.3.3
   - Name: ContortHelper
     Version: 1.5.5
   - Name: MaxHelpingHand
@@ -38851,12 +38855,12 @@ danrooms:
     Version: 1.11.1
   - Name: FrostHelper
     Version: 1.48.0
-  - Name: QuantumMechanics
-    Version: 1.2.0
   - Name: VortexHelper
     Version: 1.2.14
   - Name: ShroomHelper
     Version: 1.2.8
+  - Name: CherryHelper
+    Version: 1.8.1
   - Name: CommunalHelper
     Version: 1.19.4
   - Name: ReverseHelper
@@ -38867,9 +38871,11 @@ danrooms:
     Version: 1.1.1
   - Name: OutbackHelper
     Version: 1.7.3
+  - Name: DJMapHelper
+    Version: 1.13.4
   - Name: AdventureHelper
     Version: 1.5.8
-  URL: https://gamebanana.com/mmdl/1575782
+  URL: https://gamebanana.com/mmdl/1576385
 SecretSanta2022:
   OptionalDependencies: []
   Dependencies:
@@ -94165,7 +94171,7 @@ FemtoHelper:
   Dependencies:
   - Name: Everest
     Version: 1.5935.0
-  URL: https://gamebanana.com/mmdl/1574001
+  URL: https://gamebanana.com/mmdl/1576386
 ABY:
   OptionalDependencies: []
   Dependencies:
