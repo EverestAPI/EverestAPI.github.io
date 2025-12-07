@@ -30596,6 +30596,26 @@ MapName:
   - Name: LuaCutscenes
     Version: 0.2.8
   URL: https://gamebanana.com/mmdl/1463569
+DaxaroodleBirthday2025Andy:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: EeveeHelper
+    Version: 1.12.2
+  - Name: FrostHelper
+    Version: 1.67.4
+  - Name: Everest
+    Version: 1.5395.0
+  - Name: CommunalHelper
+    Version: 1.21.1
+  - Name: CollabUtils2
+    Version: 1.10.14
+  - Name: SorbetHelper
+    Version: 1.7.2
+  - Name: Spooooky's Asset Pack
+    Version: 1.0.9
+  - Name: MaxHelpingHand
+    Version: 1.35.2
+  URL: https://gamebanana.com/mmdl/1576114
 nirth:
   OptionalDependencies: []
   Dependencies:
