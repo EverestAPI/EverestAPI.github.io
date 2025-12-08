@@ -45486,6 +45486,12 @@ StaminaMeter:
   - Name: Everest
     Version: 1.1143.0
   URL: https://gamebanana.com/mmdl/844034
+ErrorPostcardSoundChooser:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.5935.0
+  URL: https://gamebanana.com/mmdl/1576716
 Core OSC:
   OptionalDependencies: []
   Dependencies:
@@ -67151,7 +67157,7 @@ Into the Blue:
     Version: 1.0.9
   - Name: XaphanHelper
     Version: 1.0.70
-  URL: https://gamebanana.com/mmdl/1576113
+  URL: https://gamebanana.com/mmdl/1576779
 Nyx:
   OptionalDependencies: []
   Dependencies:
@@ -90019,7 +90025,7 @@ Linja:
   Dependencies:
   - Name: Everest
     Version: 1.4986.0
-  URL: https://gamebanana.com/mmdl/1573595
+  URL: https://gamebanana.com/mmdl/1576770
 Stargazing:
   OptionalDependencies: []
   Dependencies:

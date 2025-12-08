@@ -20248,6 +20248,16 @@ StaminaMeter:
   xxHash:
   - 9629dd27aae1bbaf
   URL: https://gamebanana.com/mmdl/844034
+ErrorPostcardSoundChooser:
+  GameBananaType: Mod
+  Version: 0.1.0
+  LastUpdate: 1765169346
+  Size: 11370
+  GameBananaId: 638277
+  GameBananaFileId: 1576716
+  xxHash:
+  - 2064c69af8fe5ca3
+  URL: https://gamebanana.com/mmdl/1576716
 Core OSC:
   GameBananaType: Mod
   Version: 1.0.0
@@ -31000,14 +31010,14 @@ CSRGold:
   URL: https://gamebanana.com/mmdl/729632
 Into the Blue:
   GameBananaType: Mod
-  Version: 1.2.1
-  LastUpdate: 1765102248
-  Size: 47338266
+  Version: 1.2.2
+  LastUpdate: 1765178846
+  Size: 47339625
   GameBananaId: 572882
-  GameBananaFileId: 1576113
+  GameBananaFileId: 1576779
   xxHash:
-  - 207bce9b35152e9c
-  URL: https://gamebanana.com/mmdl/1576113
+  - bc069740b6eeea55
+  URL: https://gamebanana.com/mmdl/1576779
 Nyx:
   GameBananaType: Mod
   Version: 0.0.1
@@ -41920,14 +41930,14 @@ PersistenceHelper:
   URL: https://gamebanana.com/mmdl/1572425
 Linja:
   GameBananaType: Mod
-  Version: 0.2.0
-  LastUpdate: 1764760046
-  Size: 67795
+  Version: 0.3.0
+  LastUpdate: 1765177180
+  Size: 71542
   GameBananaId: 635888
-  GameBananaFileId: 1573595
+  GameBananaFileId: 1576770
   xxHash:
-  - 40b06ba5e8fe359e
-  URL: https://gamebanana.com/mmdl/1573595
+  - 83cd9d9573f7a78c
+  URL: https://gamebanana.com/mmdl/1576770
 Stargazing:
   GameBananaType: Mod
   Version: 0.0.1
