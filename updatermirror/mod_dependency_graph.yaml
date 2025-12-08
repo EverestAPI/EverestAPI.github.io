@@ -6745,7 +6745,7 @@ aonHelper:
   Dependencies:
   - Name: EverestCore
     Version: 1.5935.0
-  URL: https://gamebanana.com/mmdl/1558152
+  URL: https://gamebanana.com/mmdl/1576702
 Abandoned Metropolis:
   OptionalDependencies: []
   Dependencies:
@@ -29600,6 +29600,58 @@ MappingUtils:
   - Name: EverestCore
     Version: 1.5184.0
   URL: https://gamebanana.com/mmdl/1500342
+tofu:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: JungleHelper
+    Version: 1.3.9
+  - Name: HonlyHelper
+    Version: 1.7.5
+  - Name: Everest
+    Version: 1.5986.0
+  - Name: ExtendedVariantMode
+    Version: 0.47.3
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: FancyTileEntities
+    Version: 1.6.2
+  - Name: MaxHelpingHand
+    Version: 1.39.5
+  - Name: IsaGrabBag
+    Version: 1.7.3
+  - Name: LuaCutscenes
+    Version: 0.2.13
+  - Name: SpirialisHelper
+    Version: 1.0.8
+  - Name: Sardine7
+    Version: 1.2.0
+  - Name: FlaglinesAndSuch
+    Version: 1.6.50
+  - Name: FrostHelper
+    Version: 1.74.1
+  - Name: StrawberryJam2021
+    Version: 1.0.12
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: ShroomHelper
+    Version: 1.2.10
+  - Name: CrystallineHelper
+    Version: 1.17.1
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.14.11
+  - Name: CollabUtils2
+    Version: 1.11.1
+  - Name: ProgHelper
+    Version: 1.5.2
+  - Name: XaphanHelper
+    Version: 1.0.78
+  - Name: DJMapHelper
+    Version: 1.13.4
+  - Name: PandorasBox
+    Version: 1.0.49
+  URL: https://gamebanana.com/mmdl/1576595
 UDCollectiveHelper:
   OptionalDependencies: []
   Dependencies:

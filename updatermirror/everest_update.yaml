@@ -2860,14 +2860,14 @@ Notsus:
   URL: https://gamebanana.com/mmdl/1002805
 aonHelper:
   GameBananaType: Mod
-  Version: 0.9.0
-  LastUpdate: 1762727014
-  Size: 109267
+  Version: 0.9.1
+  LastUpdate: 1765166976
+  Size: 109532
   GameBananaId: 517672
-  GameBananaFileId: 1558152
+  GameBananaFileId: 1576702
   xxHash:
-  - ba72b8641c764f2b
-  URL: https://gamebanana.com/mmdl/1558152
+  - f3bc1c0e818ea5eb
+  URL: https://gamebanana.com/mmdl/1576702
 Abandoned Metropolis:
   GameBananaType: Mod
   Version: 1.0.0
@@ -13338,6 +13338,16 @@ MappingUtils:
   xxHash:
   - 49368baaf271a2e6
   URL: https://gamebanana.com/mmdl/1500342
+tofu:
+  GameBananaType: Mod
+  Version: 0.0.1
+  LastUpdate: 1765155764
+  Size: 223668
+  GameBananaId: 638272
+  GameBananaFileId: 1576595
+  xxHash:
+  - 539935c13f8f6a39
+  URL: https://gamebanana.com/mmdl/1576595
 UDCollectiveHelper:
   GameBananaType: Mod
   Version: 1.15.0
