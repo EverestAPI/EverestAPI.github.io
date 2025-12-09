@@ -19566,6 +19566,28 @@ CrazyCycles:
   - Name: MaxHelpingHand
     Version: 1.24.1
   URL: https://gamebanana.com/mmdl/1162710
+Cogwork Core:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: AdamsAddons
+    Version: 1.14.10
+  - Name: FrostHelper
+    Version: 1.74.1
+  - Name: Everest
+    Version: 1.4465.0
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: SorbetHelper
+    Version: 1.8.2
+  - Name: Spooooky's Asset Pack
+    Version: 1.0.10
+  - Name: MaxHelpingHand
+    Version: 1.39.4
+  - Name: IsaGrabBag
+    Version: 1.7.3
+  - Name: AdventureHelper
+    Version: 1.6.0
+  URL: https://gamebanana.com/mmdl/1577689
 Probably Ancient Evil:
   OptionalDependencies: []
   Dependencies:
