@@ -29996,6 +29996,28 @@ UDCollectiveHelper:
   - Name: LylyraHelper
     Version: 1.3.24
   URL: https://gamebanana.com/mmdl/1572686
+Three Sisters Peaks (WiP):
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FlaglinesAndSuch
+    Version: 1.6.50
+  - Name: FrostHelper
+    Version: 1.74.1
+  - Name: Everest
+    Version: 1.5986.0
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.14.10
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: MaxHelpingHand
+    Version: 1.39.4
+  - Name: LuaCutscenes
+    Version: 0.2.13
+  - Name: AdventureHelper
+    Version: 1.6.0
+  URL: https://gamebanana.com/mmdl/1577626
 Farewell on the Moon:
   OptionalDependencies: []
   Dependencies:
