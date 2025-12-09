@@ -41928,6 +41928,38 @@ Volcano Ruins:
   - Name: AdventureHelper
     Version: 1.5.8
   URL: https://gamebanana.com/mmdl/1143294
+ExpertRemix:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: AdamsAddons
+    Version: 1.13.1
+  - Name: Errand Of Wednesday
+    Version: 0.1.3
+  - Name: Everest
+    Version: 1.5184.0
+  - Name: ExtendedVariantMode
+    Version: 0.39.7
+  - Name: VivHelper
+    Version: 1.14.8
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: MaxHelpingHand
+    Version: 1.33.6
+  - Name: FlaglinesAndSuch
+    Version: 1.6.29
+  - Name: ConditionHelper
+    Version: 1.0.0
+  - Name: AchievementHelper
+    Version: 1.0.4
+  - Name: CommunalHelper
+    Version: 1.20.6
+  - Name: CollabUtils2
+    Version: 1.10.14
+  - Name: AltSidesHelper
+    Version: 1.7.1
+  - Name: DJMapHelper
+    Version: 1.13.4
+  URL: https://gamebanana.com/mmdl/1577464
 Astronaut Madeline:
   OptionalDependencies: []
   Dependencies:
