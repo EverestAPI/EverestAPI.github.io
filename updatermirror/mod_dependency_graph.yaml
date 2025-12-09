@@ -60130,10 +60130,12 @@ auspicioushelper:
     Version: 1.21.1
   - Name: ExtendedCameraDynamics
     Version: 1.0.8
+  - Name: MappingUtils
+    Version: 1.10.1
   Dependencies:
   - Name: EverestCore
     Version: 1.5961.0
-  URL: https://gamebanana.com/mmdl/1574504
+  URL: https://gamebanana.com/mmdl/1577540
 DeepDream:
   OptionalDependencies: []
   Dependencies:
