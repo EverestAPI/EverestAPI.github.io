@@ -69892,6 +69892,12 @@ Dashless+:
   - Name: DJMapHelper
     Version: 1.13.1
   URL: https://gamebanana.com/mmdl/1577229
+borealisHelper:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.5935.0
+  URL: https://gamebanana.com/mmdl/1577982
 172Greybox:
   OptionalDependencies: []
   Dependencies:
@@ -90061,24 +90067,38 @@ PersistenceHelper:
   Dependencies:
   - Name: BounceHelper
     Version: 1.14.0
-  - Name: BrokemiaHelper
-    Version: 1.8.5
   - Name: GravityHelper
     Version: 1.2.24
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: Anonhelper
+    Version: 1.1.1
+  - Name: EeveeHelper
+    Version: 1.12.3
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.14.9
+  - Name: SorbetHelper
+    Version: 1.8.2
+  - Name: PandorasBox
+    Version: 1.0.49
+  - Name: AdventureHelper
+    Version: 1.6.0
+  - Name: BrokemiaHelper
+    Version: 1.8.5
   - Name: Everest
     Version: 1.5986.0
   - Name: ExtendedVariantMode
     Version: 0.47.0
-  - Name: VivHelper
-    Version: 1.14.10
   - Name: ContortHelper
     Version: 1.5.5
   - Name: JackalHelper
     Version: 1.7.5
   - Name: MaxHelpingHand
     Version: 1.38.1
-  - Name: Anonhelper
-    Version: 1.1.1
   - Name: IsaGrabBag
     Version: 1.7.3
   - Name: FlaglinesAndSuch
@@ -90091,21 +90111,11 @@ PersistenceHelper:
     Version: 1.1.1
   - Name: CrystallineHelper
     Version: 1.16.6
-  - Name: CherryHelper
-    Version: 1.8.2
-  - Name: CommunalHelper
-    Version: 1.24.4
-  - Name: FemtoHelper
-    Version: 1.14.9
-  - Name: SorbetHelper
-    Version: 1.8.2
   - Name: XaphanHelper
     Version: 1.0.77
   - Name: DJMapHelper
     Version: 1.13.4
-  - Name: PandorasBox
-    Version: 1.0.49
-  URL: https://gamebanana.com/mmdl/1572425
+  URL: https://gamebanana.com/mmdl/1577986
 Linja:
   OptionalDependencies:
   - Name: VortexHelper
