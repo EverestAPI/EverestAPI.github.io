@@ -40800,17 +40800,23 @@ CrossoverCollab:
   OptionalDependencies:
   - Name: MotionSmoothing
     Version: 1.0.0
+  - Name: aonHelper
+    Version: 0.9.1
   - Name: AltLevelsHelper
     Version: 1.0.0
   - Name: LoungeMod
     Version: 1.0.0
   - Name: Foxeline
     Version: 1.10.2
+  - Name: Hyperline
+    Version: 0.3.10
   - Name: EndersBlender
     Version: 1.0.0
+  - Name: LuckyHelper
+    Version: 0.23.3
   Dependencies:
   - Name: JungleHelper
-    Version: 1.3.9
+    Version: 1.4.0
   - Name: DisplayMessageCommand
     Version: 1.0.4
   - Name: GravityHelper
@@ -40878,15 +40884,13 @@ CrossoverCollab:
   - Name: SafeRespawnCrumble
     Version: 1.2.0
   - Name: GameHelper
-    Version: 1.10.2
+    Version: 1.10.3
   - Name: EmHelper
     Version: 1.3.0
   - Name: HonlyHelper
     Version: 1.7.5
   - Name: Spekio's Toolbox
     Version: 1.4.0
-  - Name: SpeedrunTool
-    Version: 3.27.11
   - Name: corkr900GraphicsPack
     Version: 1.1.13
   - Name: Anonhelper
@@ -40896,11 +40900,11 @@ CrossoverCollab:
   - Name: EeveeHelper
     Version: 1.12.3
   - Name: ChroniaHelper
-    Version: 1.40.31
+    Version: 1.40.32
   - Name: CherryHelper
     Version: 1.8.2
   - Name: FemtoHelper
-    Version: 1.14.12
+    Version: 1.14.13
   - Name: ArphimigonsToyBox
     Version: 1.4.1
   - Name: CpopHelper
@@ -40918,7 +40922,7 @@ CrossoverCollab:
   - Name: PrismaticHelper
     Version: 1.12.0
   - Name: EvaHelper
-    Version: 1.2.1
+    Version: 1.2.2
   - Name: ExtendedVariantMode
     Version: 0.47.3
   - Name: DBBHelper
@@ -40930,7 +40934,7 @@ CrossoverCollab:
   - Name: LollydesSjStuffs
     Version: 1.1.3
   - Name: MaxHelpingHand
-    Version: 1.39.7
+    Version: 1.39.8
   - Name: SkinModHelper
     Version: 0.6.1
   - Name: memorialHelper
@@ -40961,7 +40965,7 @@ CrossoverCollab:
     Version: 1.0.0
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1576522
+  URL: https://gamebanana.com/mmdl/1578093
 MeatOfTheDSides:
   OptionalDependencies: []
   Dependencies:
