@@ -8956,6 +8956,18 @@ Odessa:
   - Name: Everest
     Version: 1.2374.0
   URL: https://gamebanana.com/mmdl/508029
+someplace:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: AdamsAddons
+    Version: 1.14.10
+  - Name: BrokemiaHelper
+    Version: 1.8.5
+  - Name: Everest
+    Version: 1.5986.0
+  - Name: FemtoHelper
+    Version: 1.14.13
+  URL: https://gamebanana.com/mmdl/1578213
 7bell:
   OptionalDependencies: []
   Dependencies:
