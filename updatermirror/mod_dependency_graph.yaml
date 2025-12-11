@@ -42388,6 +42388,12 @@ Travel through the stars:
   - Name: AdventureHelper
     Version: 1.6.0
   URL: https://gamebanana.com/mmdl/1486914
+Meorries:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.4265.0
+  URL: https://gamebanana.com/mmdl/1578839
 OneRoom:
   OptionalDependencies: []
   Dependencies:
