@@ -28262,6 +28262,26 @@ DzhakeHelper:
   - Name: Everest
     Version: 1.5577.0
   URL: https://gamebanana.com/mmdl/1551642
+Nonfaller:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.74.1
+  - Name: NerdHelper
+    Version: 1.6.3
+  - Name: Everest
+    Version: 1.6042.0
+  - Name: ExtendedVariantMode
+    Version: 0.47.2
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.14.9
+  - Name: XaphanHelper
+    Version: 1.0.78
+  - Name: MaxHelpingHand
+    Version: 1.39.3
+  URL: https://gamebanana.com/mmdl/1578470
 TicTacToe:
   OptionalDependencies: []
   Dependencies:
