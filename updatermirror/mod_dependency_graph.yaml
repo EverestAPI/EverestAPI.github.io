@@ -97034,6 +97034,12 @@ Rift:
   - Name: AdventureHelper
     Version: 1.5.5
   URL: https://gamebanana.com/mmdl/841917
+UnnamedMod:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.5986.0
+  URL: https://gamebanana.com/mmdl/1578622
 scanlines:
   OptionalDependencies: []
   Dependencies:
