@@ -40867,7 +40867,7 @@ CrossoverCollab:
   - Name: Hyperline
     Version: 0.3.10
   - Name: EndersBlender
-    Version: 1.0.0
+    Version: 1.1.20
   - Name: LuckyHelper
     Version: 0.23.3
   Dependencies:
@@ -40956,11 +40956,11 @@ CrossoverCollab:
   - Name: EeveeHelper
     Version: 1.12.3
   - Name: ChroniaHelper
-    Version: 1.40.32
+    Version: 1.40.36
   - Name: CherryHelper
     Version: 1.8.2
   - Name: FemtoHelper
-    Version: 1.14.13
+    Version: 1.14.14
   - Name: ArphimigonsToyBox
     Version: 1.4.1
   - Name: CpopHelper
@@ -41021,7 +41021,7 @@ CrossoverCollab:
     Version: 1.0.0
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1578093
+  URL: https://gamebanana.com/mmdl/1579187
 MeatOfTheDSides:
   OptionalDependencies: []
   Dependencies:
