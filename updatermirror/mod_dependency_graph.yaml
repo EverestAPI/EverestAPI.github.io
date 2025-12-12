@@ -68892,6 +68892,14 @@ spikejump vs cornerjump:
   - Name: Everest
     Version: 1.0.0
   URL: https://gamebanana.com/mmdl/898146
+BadwayOpus7:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.5961.0
+  - Name: MaxHelpingHand
+    Version: 1.38.0
+  URL: https://gamebanana.com/mmdl/1579166
 CelesteTM Audio Pack:
   OptionalDependencies: []
   Dependencies:
