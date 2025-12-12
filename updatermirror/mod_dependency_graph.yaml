@@ -20390,52 +20390,6 @@ falling death:
   - Name: Sardine7
     Version: 1.0.0
   URL: https://gamebanana.com/mmdl/806902
-'12':
-  OptionalDependencies: []
-  Dependencies:
-  - Name: JungleHelper
-    Version: 1.3.9
-  - Name: HonlyHelper
-    Version: 1.7.5
-  - Name: Everest
-    Version: 1.5986.0
-  - Name: VivHelper
-    Version: 1.14.10
-  - Name: ContortHelper
-    Version: 1.5.5
-  - Name: FancyTileEntities
-    Version: 1.6.2
-  - Name: MaxHelpingHand
-    Version: 1.38.1
-  - Name: FrostHelper
-    Version: 1.74.1
-  - Name: StrawberryJam2021
-    Version: 1.0.12
-  - Name: YetAnotherHelper
-    Version: 1.2.5
-  - Name: LunaticHelper
-    Version: 1.1.1
-  - Name: MoreDasheline
-    Version: 1.7.1
-  - Name: CrystallineHelper
-    Version: 1.16.6
-  - Name: CherryHelper
-    Version: 1.8.2
-  - Name: CommunalHelper
-    Version: 1.24.4
-  - Name: FemtoHelper
-    Version: 1.14.9
-  - Name: CollabUtils2
-    Version: 1.10.14
-  - Name: XaphanHelper
-    Version: 1.0.77
-  - Name: DJMapHelper
-    Version: 1.13.4
-  - Name: PandorasBox
-    Version: 1.0.49
-  - Name: AdventureHelper
-    Version: 1.6.0
-  URL: https://gamebanana.com/mmdl/1579039
 Madeline Goes To The Beach:
   OptionalDependencies: []
   Dependencies:
