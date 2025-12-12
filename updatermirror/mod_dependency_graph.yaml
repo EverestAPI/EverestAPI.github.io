@@ -69298,6 +69298,16 @@ ReachForTheStars:
   - Name: AdventureHelper
     Version: 1.5.8
   URL: https://gamebanana.com/mmdl/1564201
+NeostiglineOpus2:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.5901.0
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: MaxHelpingHand
+    Version: 1.38.0
+  URL: https://gamebanana.com/mmdl/1579168
 ERROR-VENOMOUS_TRADE_ERROR:
   OptionalDependencies: []
   Dependencies:
