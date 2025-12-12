@@ -61033,6 +61033,8 @@ TheWorldTrap:
     Version: 1.4.0
   - Name: CpopHelper
     Version: 1.3.0
+  - Name: BGswitch
+    Version: 1.2.2
   - Name: TWT Room Graphics
     Version: 1.0.0
   - Name: PandorasBox
@@ -61051,8 +61053,12 @@ TheWorldTrap:
     Version: 1.3.7
   - Name: PrismaticHelper
     Version: 1.12.0
+  - Name: EvaHelper
+    Version: 1.1.2
   - Name: ExtendedVariantMode
     Version: 0.41.1
+  - Name: DBBHelper
+    Version: 1.0.9
   - Name: StyleMaskHelper
     Version: 1.3.3
   - Name: SSMHelper
@@ -61077,11 +61083,13 @@ TheWorldTrap:
     Version: 1.0.76
   - Name: AurorasHelper
     Version: 0.12.2
+  - Name: Dax's Resources
+    Version: 0.0.12
   - Name: LylyraHelper
     Version: 1.3.23
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1569284
+  URL: https://gamebanana.com/mmdl/1579315
 PointlessLobby:
   OptionalDependencies: []
   Dependencies:
