@@ -7631,7 +7631,7 @@ BossesHelper:
   Dependencies:
   - Name: EverestCore
     Version: 1.5635.0
-  URL: https://gamebanana.com/mmdl/1551289
+  URL: https://gamebanana.com/mmdl/1579533
 ILHookDebugger:
   OptionalDependencies:
   - Name: ILHookDebuggerExtension_Decompiler
