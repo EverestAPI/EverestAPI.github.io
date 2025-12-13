@@ -30498,6 +30498,14 @@ RCside:
   - Name: Everest
     Version: 1.864.0
   URL: https://gamebanana.com/mmdl/426349
+SomeSplitButtons:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: SpeedrunTool
+    Version: 3.27.11
+  - Name: EverestCore
+    Version: 1.5935.0
+  URL: https://gamebanana.com/mmdl/1579652
 Feb28:
   OptionalDependencies: []
   Dependencies:
