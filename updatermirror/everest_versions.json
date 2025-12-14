@@ -1,5 +1,35 @@
 [
   {
+    "date": "2025-12-14T01:29:06.46554Z",
+    "olympusBuildFileSize": 71690965,
+    "mainFileSize": 71925111,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5370/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "SnipUndercover",
+    "commit": "dcfbe559a8b8cd5fa5f1f7c2aef4e9e083fa9637",
+    "description": "Remove dependency hot loading",
+    "branch": "dev",
+    "version": 6070,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5370/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5370/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2025-12-14T01:28:52.0572992Z",
+    "olympusBuildFileSize": 71691196,
+    "mainFileSize": 71925408,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5369/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "grog398",
+    "commit": "10f87175d81b31c24095c368353455bb6d36a28a",
+    "description": "Change loglevel of ILCursorExtensions logging to Verbose",
+    "branch": "dev",
+    "version": 6069,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5369/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5369/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2025-12-13T21:04:40.2237886Z",
     "olympusBuildFileSize": 71691246,
     "mainFileSize": 71925364,
