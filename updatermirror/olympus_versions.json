@@ -232,14 +232,5 @@
     "version": "25.10.23.01",
     "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5248/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
     "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5248/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-10-22T20:12:32.3575868Z",
-    "changelog": "∙ Added favorites to \"Manage Installed Mods\", with a dedicated filter\n∙ Suggest disabling dependencies when disabling a mod\n∙ Display warning symbol if an enabled mod has disabled dependencies\n∙ Different text colors for dependencies of enabled mods, favorites and their dependencies",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5247/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "25.10.22.03",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5247/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5247/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
   }
 ]
