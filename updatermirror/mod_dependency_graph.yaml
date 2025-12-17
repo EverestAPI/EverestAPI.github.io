@@ -28084,6 +28084,24 @@ dreammod:
   - Name: Everest
     Version: 1.6031.0
   URL: https://gamebanana.com/mmdl/1575863
+StageFourMY:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.74.1
+  - Name: JungleHelper
+    Version: 1.4.0
+  - Name: Everest
+    Version: 1.5986.0
+  - Name: ExtendedVariantMode
+    Version: 0.47.3
+  - Name: Linja
+    Version: 0.3.0
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: MaxHelpingHand
+    Version: 1.39.8
+  URL: https://gamebanana.com/mmdl/1582424
 PixelGalaxy:
   OptionalDependencies: []
   Dependencies:
