@@ -196,50 +196,5 @@
     "version": "25.11.01.01",
     "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5260/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
     "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5260/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-10-25T08:38:50.0753717Z",
-    "changelog": "∙ Fixed a crash when applying a mod preset",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5257/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "25.10.25.02",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5257/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5257/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-10-24T12:32:08.1417851Z",
-    "changelog": "∙ Auto-disable logic fixes + some cleanup",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5253/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "25.10.24.04",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5253/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5253/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-10-23T20:55:10.7025763Z",
-    "changelog": "∙ Better handling of the \"multiple versions of the same mod are installed\" case",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5249/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "25.10.23.02",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5249/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5249/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-10-23T20:01:34.7285453Z",
-    "changelog": "∙ Fixed crash of Manage Installed Mods when a mod with no everest.yaml is present\n∙ Refresh the mod list when it is filtered on enabled/favorite mods and a mod is enabled/favorited",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5248/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "25.10.23.01",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5248/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5248/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-10-22T20:12:32.3575868Z",
-    "changelog": "∙ Added favorites to \"Manage Installed Mods\", with a dedicated filter\n∙ Suggest disabling dependencies when disabling a mod\n∙ Display warning symbol if an enabled mod has disabled dependencies\n∙ Different text colors for dependencies of enabled mods, favorites and their dependencies",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5247/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "25.10.22.03",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5247/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5247/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
   }
 ]

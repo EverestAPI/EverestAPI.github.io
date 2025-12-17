@@ -1,19 +1,19 @@
 Mod:
   6800:
   - name: All
-    count: 3932
+    count: 3958
   - id: 6802
     name: Campaign
-    count: 450
+    count: 451
   - id: 6803
     name: Collab/Contest
-    count: 351
+    count: 352
   - id: 15667
     name: Multiplayer
     count: 24
   - id: 6801
     name: Standalone
-    count: 2436
+    count: 2455
   15655:
   - name: All
     count: 116
@@ -25,7 +25,7 @@ Mod:
     count: 54
   4632:
   - name: All
-    count: 144
+    count: 145
   - id: 4636
     name: Twitch Integration
     count: 1
@@ -37,7 +37,7 @@ Mod:
     count: 18
   5081:
   - name: All
-    count: 192
+    count: 195
   4635:
   - name: All
     count: 41
@@ -46,29 +46,29 @@ Mod:
     count: 14
   11181:
   - name: All
-    count: 315
+    count: 317
   - id: 16940
     name: Collectibles
-    count: 34
+    count: 35
   - id: 11182
     name: Other/Misc
     count: 70
   - id: 11183
     name: Player
-    count: 164
+    count: 165
   2317:
   - name: All
-    count: 51
+    count: 52
 Tool:
   0:
   - name: All
-    count: 62
+    count: 63
   - id: 653
     name: Ahorn Plugin
     count: 6
   - id: 1098
     name: Lönn Plugin
-    count: 17
+    count: 18
   - id: 1654
     name: Mod Installer
     count: 4
