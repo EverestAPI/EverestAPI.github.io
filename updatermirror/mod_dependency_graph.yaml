@@ -69213,6 +69213,8 @@ WithHerEyes:
     Version: 1.24.4
   - Name: FemtoHelper
     Version: 1.14.1
+  - Name: Microlith57MiscellaneousMechanics
+    Version: 1.2.2
   - Name: PandorasBox
     Version: 1.0.49
   - Name: TheoSkinMod
@@ -69225,6 +69227,8 @@ WithHerEyes:
     Version: 1.5617.0
   - Name: ExtendedVariantMode
     Version: 0.44.1
+  - Name: StyleMaskHelper
+    Version: 1.4.0
   - Name: ChronoHelper
     Version: 1.2.8
   - Name: MaxHelpingHand
@@ -69234,7 +69238,7 @@ WithHerEyes:
   - Name: LuaCutscenes
     Version: 0.2.13
   - Name: LuckyHelper
-    Version: 0.18.0
+    Version: 0.21.2
   - Name: SkinModHelper
     Version: 0.6.1
   - Name: FlaglinesAndSuch
@@ -69244,12 +69248,12 @@ WithHerEyes:
   - Name: CrystallineHelper
     Version: 1.16.6
   - Name: ExtendedCameraDynamics
-    Version: 1.1.1
+    Version: 1.1.2
   - Name: Spooooky's Asset Pack
     Version: 1.0.10
   - Name: LylyraHelper
     Version: 1.3.22
-  URL: https://gamebanana.com/mmdl/1507924
+  URL: https://gamebanana.com/mmdl/1586762
 PurpleAndYellow:
   OptionalDependencies: []
   Dependencies:
