@@ -63494,10 +63494,12 @@ CelesteTAS:
     Version: 3.24.5
   - Name: ExtendedCameraDynamics
     Version: 1.0.5
+  - Name: CollabUtils2
+    Version: 1.10.14
   Dependencies:
   - Name: EverestCore
-    Version: 1.5617.0
-  URL: https://gamebanana.com/mmdl/1491538
+    Version: 1.5935.0
+  URL: https://gamebanana.com/mmdl/1586832
 Reinhardt Birthday Collab 2022:
   OptionalDependencies: []
   Dependencies:
