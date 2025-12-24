@@ -50557,7 +50557,7 @@ JtohFinalClimb:
 GameHelper:
   OptionalDependencies:
   - Name: SpeedrunTool
-    Version: 3.27.11
+    Version: 3.0.0
   - Name: VivHelper
     Version: 1.14.10
   - Name: CollabUtils2
@@ -50565,7 +50565,7 @@ GameHelper:
   Dependencies:
   - Name: Everest
     Version: 1.6064.0
-  URL: https://gamebanana.com/mmdl/1584158
+  URL: https://gamebanana.com/mmdl/1587018
 New Adventure:
   OptionalDependencies: []
   Dependencies:
@@ -96277,7 +96277,7 @@ VidPlayer:
   Dependencies:
   - Name: EverestCore
     Version: 1.5577.0
-  URL: https://gamebanana.com/mmdl/1523968
+  URL: https://gamebanana.com/mmdl/1587013
 Hug:
   OptionalDependencies: []
   Dependencies:
