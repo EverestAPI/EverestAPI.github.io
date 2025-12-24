@@ -41082,6 +41082,8 @@ CrossoverCollab:
     Version: 1.0.0
   - Name: aonHelper
     Version: 0.9.1
+  - Name: Picoline
+    Version: 0.5.0
   - Name: AltLevelsHelper
     Version: 1.0.0
   - Name: LoungeMod
@@ -41091,9 +41093,9 @@ CrossoverCollab:
   - Name: Hyperline
     Version: 0.3.10
   - Name: EndersBlender
-    Version: 1.1.20
+    Version: 1.1.21
   - Name: LuckyHelper
-    Version: 0.23.3
+    Version: 0.24.0
   Dependencies:
   - Name: JungleHelper
     Version: 1.4.0
@@ -41164,7 +41166,7 @@ CrossoverCollab:
   - Name: SafeRespawnCrumble
     Version: 1.2.0
   - Name: GameHelper
-    Version: 1.10.3
+    Version: 1.10.5
   - Name: EmHelper
     Version: 1.3.0
   - Name: HonlyHelper
@@ -41202,7 +41204,7 @@ CrossoverCollab:
   - Name: PrismaticHelper
     Version: 1.12.0
   - Name: EvaHelper
-    Version: 1.2.2
+    Version: 1.2.5
   - Name: ExtendedVariantMode
     Version: 0.47.3
   - Name: DBBHelper
@@ -41234,18 +41236,18 @@ CrossoverCollab:
   - Name: AltSidesHelper
     Version: 1.7.1
   - Name: DoonvHelper
-    Version: 1.0.1
+    Version: 1.0.3
   - Name: Spooooky's Asset Pack
     Version: 1.0.10
   - Name: XaphanHelper
     Version: 1.0.78
   - Name: AurorasHelper
-    Version: 0.12.3
+    Version: 0.12.4
   - Name: CrossoverCollabAudio
     Version: 1.0.0
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1584250
+  URL: https://gamebanana.com/mmdl/1587028
 MeatOfTheDSides:
   OptionalDependencies: []
   Dependencies:
