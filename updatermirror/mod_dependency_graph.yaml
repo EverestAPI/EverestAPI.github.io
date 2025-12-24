@@ -10936,6 +10936,24 @@ Sein:
   - Name: SkinModHelperPlus
     Version: 0.8.3
   URL: https://gamebanana.com/mmdl/1506482
+Baelzebub_Buttcrack:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.74.0
+  - Name: GravityHelper
+    Version: 1.2.23
+  - Name: HonlyHelper
+    Version: 1.7.5
+  - Name: ShroomHelper
+    Version: 1.2.10
+  - Name: Everest
+    Version: 1.5961.0
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: MaxHelpingHand
+    Version: 1.38.0
+  URL: https://gamebanana.com/mmdl/1587220
 Torrents:
   OptionalDependencies: []
   Dependencies:
@@ -75268,6 +75286,22 @@ LioceMap:
   - Name: AdventureHelper
     Version: 1.5.8
   URL: https://gamebanana.com/mmdl/884934
+Map 5:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: ShroomHelper
+    Version: 1.2.7
+  - Name: CrystallineHelper
+    Version: 1.15.2
+  - Name: Everest
+    Version: 1.4000.0
+  - Name: CommunalHelper
+    Version: 1.19.2
+  - Name: VivHelper
+    Version: 1.13.2
+  - Name: MaxHelpingHand
+    Version: 1.28.10
+  URL: https://gamebanana.com/mmdl/1587182
 HighFrameRateMod:
   OptionalDependencies: []
   Dependencies:
@@ -75865,7 +75899,7 @@ AdamsAddons:
   Dependencies:
   - Name: EverestCore
     Version: 1.5577.0
-  URL: https://gamebanana.com/mmdl/1586175
+  URL: https://gamebanana.com/mmdl/1587269
 MeliHelper:
   OptionalDependencies: []
   Dependencies:
@@ -79547,7 +79581,7 @@ KyfexHelper:
   Dependencies:
   - Name: EverestCore
     Version: 1.4673.0
-  URL: https://gamebanana.com/mmdl/1581056
+  URL: https://gamebanana.com/mmdl/1587249
 Mikoline's Extend Hat Pack:
   OptionalDependencies: []
   Dependencies:
@@ -83617,7 +83651,7 @@ MotionSmoothing:
     Version: 1.0.4
   - Name: EverestCore
     Version: 1.4673.0
-  URL: https://gamebanana.com/mmdl/1583674
+  URL: https://gamebanana.com/mmdl/1587250
 FCEmoji:
   OptionalDependencies: []
   Dependencies:
