@@ -8181,7 +8181,7 @@ TestLobby:
     Version: 1.13.4
   - Name: PandorasBox
     Version: 1.0.49
-  URL: https://gamebanana.com/mmdl/1586270
+  URL: https://gamebanana.com/mmdl/1586788
 CHROMETYPE:
   OptionalDependencies: []
   Dependencies:
@@ -34356,6 +34356,18 @@ Neutrality:
   - Name: bitsbolts
     Version: 1.4.7
   URL: https://gamebanana.com/mmdl/1584302
+BstestD:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: EeveeHelper
+    Version: 1.12.2
+  - Name: Everest
+    Version: 1.5421.0
+  - Name: GalacticaHelper
+    Version: 1.2.0
+  - Name: LylyraHelper
+    Version: 1.3.19
+  URL: https://gamebanana.com/mmdl/1509100
 JauntNyan:
   OptionalDependencies: []
   Dependencies:
@@ -63486,6 +63498,20 @@ WastedMeadow:
   - Name: Everest
     Version: 1.0.0
   URL: https://gamebanana.com/mmdl/791456
+CelesteTAS:
+  OptionalDependencies:
+  - Name: TASRecorder
+    Version: 1.6.0
+  - Name: SpeedrunTool
+    Version: 3.24.5
+  - Name: ExtendedCameraDynamics
+    Version: 1.0.5
+  - Name: CollabUtils2
+    Version: 1.10.14
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.5935.0
+  URL: https://gamebanana.com/mmdl/1586832
 Reinhardt Birthday Collab 2022:
   OptionalDependencies: []
   Dependencies:
@@ -101658,14 +101684,6 @@ Madelocator:
   OptionalDependencies: []
   Dependencies: []
   URL: https://gamebanana.com/mmdl/424848
-1aifitlockedthefuckin:
-  OptionalDependencies: []
-  Dependencies:
-  - Name: Everest
-    Version: 1.5986.0
-  - Name: XaphanHelper
-    Version: 1.0.78
-  URL: https://gamebanana.com/mmdl/1586255
 ChroniasTreat:
   OptionalDependencies: []
   Dependencies:
