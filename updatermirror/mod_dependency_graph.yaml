@@ -68288,6 +68288,16 @@ lplCollab2022Audio:
   - Name: DJMapHelper
     Version: 1.12.0
   URL: https://gamebanana.com/mmdl/1018208
+VerdantRuins:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.74.1
+  - Name: Everest
+    Version: 1.5986.0
+  - Name: MaxHelpingHand
+    Version: 1.39.8
+  URL: https://gamebanana.com/mmdl/1587663
 Celestish:
   OptionalDependencies: []
   Dependencies:
