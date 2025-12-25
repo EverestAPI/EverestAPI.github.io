@@ -47,7 +47,7 @@
       "https://images.gamebanana.com/img/ss/mods/694711e57cdbd.jpg"
     ],
     "Description": "The king is dead // Long live the king",
-    "Views": 391,
+    "Views": 410,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "the",
@@ -65,7 +65,7 @@
       "Position": 1
     },
     "Text": "<b>This mod contains:\r\n<\/b><ul><li>10 maps + a heartside;<\/li><li>Difficulty ranging from beginner all the way up to gm+;<\/li><li>A lot of lore and a story to uncover, perhaps, if you want to;<\/li><li>A letter of love and hate to creation as a whole;<\/li><li>And \"more\"...<\/li><\/ul>\r\nAll credits will be present within the mod where applicable. <br><br><hr><br>This mod has been a long time coming. It represents the culmination of my first year as a mapper, and I am very proud of it. While most of the content present within this mod was made in the past five months, some ideas therein are things I've wanted to make for years. This map pack is the result of a few hundred hours of work, and I hope you enjoy it as much as I enjoyed making it. <br><br>Moreover, <span class=\"GreenColor\">this mod is extremely story-driven<\/span>. Many individual maps feature at least some amount of written lore. Because I am aware that this might not be everyone's cup of tea, I have chosen<b> not to lock the heartside behind a heart gate.<\/b> You may choose to only play some of the maps, or all of them, or none of them at all, but know that should you want to experience the heartside in its fullest, truest form, I recommend you check the rest of the map pack out first. <br><br><span class=\"RedColor\">For any bug or major cheese you may find<\/span> (as it is unfortunately not too unlikely that there remains some despite my best efforts to patch them out), or if you have any questions relating to the mod, feel free to ping renpinefur in the celeste discord.",
-    "ModifiedDate": 1766329584,
+    "ModifiedDate": 1766687205,
     "Name": "The King in Deep Blue",
     "PageURL": "https://gamebanana.com/mods/640708",
     "MirroredScreenshots": [
@@ -75,17 +75,28 @@
     "CreatedDate": 1766329115,
     "Author": "RenPinefur",
     "CategoryName": "Maps",
-    "Downloads": 107,
+    "Downloads": 112,
     "Likes": 11,
-    "Files": [{
-      "Description": "1.01 - The mod. Truly.",
-      "HasEverestYaml": true,
-      "Size": 70469373,
-      "CreatedDate": 1766266165,
-      "Downloads": 106,
-      "URL": "https://gamebanana.com/dl/1584385",
-      "Name": "thekingindeepbluev1_01.zip"
-    }]
+    "Files": [
+      {
+        "Description": "1.02 - The current version",
+        "HasEverestYaml": true,
+        "Size": 70469706,
+        "CreatedDate": 1766687188,
+        "Downloads": 0,
+        "URL": "https://gamebanana.com/dl/1587947",
+        "Name": "thekingindeepblue1_02.zip"
+      },
+      {
+        "Description": "1.01 - The original",
+        "HasEverestYaml": true,
+        "Size": 70469373,
+        "CreatedDate": 1766266165,
+        "Downloads": 109,
+        "URL": "https://gamebanana.com/dl/1584385",
+        "Name": "thekingindeepbluev1_01.zip"
+      }
+    ]
   },
   {
     "CategoryId": 6800,
