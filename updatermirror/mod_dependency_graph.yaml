@@ -89298,6 +89298,26 @@ Fia_Swingyard:
   - Name: AdventureHelper
     Version: 1.6.0
   URL: https://gamebanana.com/mmdl/1502813
+WeAreCharlieKirk:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FlaglinesAndSuch
+    Version: 1.6.50
+  - Name: Everest
+    Version: 1.5674.0
+  - Name: ExtendedVariantMode
+    Version: 0.43.2
+  - Name: Kelper
+    Version: 0.5.5
+  - Name: MaxHelpingHand
+    Version: 1.37.2
+  - Name: SkinModHelperPlus
+    Version: 0.16.4
+  - Name: SkinModHelper
+    Version: 0.6.1
+  - Name: ViviSkinmod
+    Version: 1.5.0
+  URL: https://gamebanana.com/mmdl/1588619
 PuzzleIslandHelper:
   OptionalDependencies: []
   Dependencies:
