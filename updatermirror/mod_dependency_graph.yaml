@@ -105848,6 +105848,38 @@ Mauve Storm:
   - Name: MaxHelpingHand
     Version: 1.33.6
   URL: https://gamebanana.com/mmdl/1449559
+Songkeeper's Grove:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: JungleHelper
+    Version: 1.3.5
+  - Name: NerdHelper
+    Version: 1.6.3
+  - Name: Everest
+    Version: 1.4673.0
+  - Name: ExtendedVariantMode
+    Version: 0.41.1
+  - Name: ChronoHelper
+    Version: 1.2.8
+  - Name: MaxHelpingHand
+    Version: 1.38.1
+  - Name: bitsbolts
+    Version: 1.4.4
+  - Name: FlaglinesAndSuch
+    Version: 1.6.41
+  - Name: FrostHelper
+    Version: 1.74.0
+  - Name: LunaticHelper
+    Version: 1.1.1
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.14.4
+  - Name: PandorasBox
+    Version: 1.0.49
+  URL: https://gamebanana.com/mmdl/1588634
 Overcharge:
   OptionalDependencies: []
   Dependencies:
