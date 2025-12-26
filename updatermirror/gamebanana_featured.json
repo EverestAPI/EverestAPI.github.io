@@ -51,6 +51,62 @@
   {
     "CategoryId": 6800,
     "Screenshots": [
+      "https://images.gamebanana.com/img/ss/mods/694e591558e51.jpg",
+      "https://images.gamebanana.com/img/ss/mods/694e516fd9776.jpg",
+      "https://images.gamebanana.com/img/ss/mods/694e516f84c9e.jpg",
+      "https://images.gamebanana.com/img/ss/mods/694e516fd279f.jpg",
+      "https://images.gamebanana.com/img/ss/mods/694e516fe314b.jpg",
+      "https://images.gamebanana.com/img/ss/mods/694e516fd550e.jpg"
+    ],
+    "Description": "Into the Bluins...",
+    "Views": 119,
+    "GameBananaType": "Mod",
+    "TokenizedName": ["bluins"],
+    "UpdatedDate": 1766742983,
+    "SubcategoryId": 6801,
+    "SubcategoryName": "Standalone",
+    "GameBananaId": 641978,
+    "Featured": {
+      "Category": "today",
+      "Position": 1
+    },
+    "Text": "Hi! I'm Mowo, and these are my Bluins!<br><br>This map includes:<br>- 12 main gameplay rooms<br>- tech-little intervanced difficulty<br>- tricky Falling Dream Block and Zip Mover setpieces<br>- many custom sprites, including mysterious and elusive Runes<br>- two guest berries by abbi paradise and nasc<br><br>The music used is \"Scootin' Through Clocktowers Beneath The Sea\" by Pascal Michael Stiefel from the A Hat in Time OST.<br>Please ping or dm me (@mowosa) if you want to share your thoughts!",
+    "ModifiedDate": 1766772817,
+    "Name": "Bluins",
+    "PageURL": "https://gamebanana.com/mods/641978",
+    "MirroredScreenshots": [
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_694e591558e51.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_694e516fd9776.png"
+    ],
+    "CreatedDate": 1766742983,
+    "Author": "Mowosa",
+    "CategoryName": "Maps",
+    "Downloads": 34,
+    "Likes": 7,
+    "Files": [
+      {
+        "Description": "1.0.1 - Day 1 Cheese Patch",
+        "HasEverestYaml": true,
+        "Size": 6534841,
+        "CreatedDate": 1766754680,
+        "Downloads": 12,
+        "URL": "https://gamebanana.com/dl/1588452",
+        "Name": "bluins_e8e0e.zip"
+      },
+      {
+        "Description": "ARCHIVED - 1.0.0 - Into the Bluins...",
+        "HasEverestYaml": true,
+        "Size": 6534879,
+        "CreatedDate": 1766740784,
+        "Downloads": 17,
+        "URL": "https://gamebanana.com/dl/1588365",
+        "Name": "bluins.zip"
+      }
+    ]
+  },
+  {
+    "CategoryId": 6800,
+    "Screenshots": [
       "https://images.gamebanana.com/img/ss/mods/6949ad0fba329.jpg",
       "https://images.gamebanana.com/img/ss/mods/6949ad16c770e.jpg"
     ],
