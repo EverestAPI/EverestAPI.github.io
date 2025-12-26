@@ -99850,6 +99850,30 @@ DCSummit:
   - Name: MaxHelpingHand
     Version: 1.16.12
   URL: https://gamebanana.com/mmdl/660305
+SecretSantaCollab2025:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.74.1
+  - Name: MoreDasheline
+    Version: 1.7.1
+  - Name: CrystallineHelper
+    Version: 1.17.1
+  - Name: Everest
+    Version: 1.5986.0
+  - Name: ExtendedVariantMode
+    Version: 0.47.2
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: CollabUtils2
+    Version: 1.10.14
+  - Name: MaxHelpingHand
+    Version: 1.39.3
+  - Name: LuaCutscenes
+    Version: 0.2.13
+  - Name: PandorasBox
+    Version: 1.0.49
+  URL: https://gamebanana.com/mmdl/1588209
 Evan's Challenge:
   OptionalDependencies: []
   Dependencies:
