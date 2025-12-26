@@ -93958,6 +93958,30 @@ Rebuild_Plan:
   - Name: MaxHelpingHand
     Version: 1.34.0
   URL: https://gamebanana.com/mmdl/1420726
+Bluins:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: AdamsAddons
+    Version: 1.14.10
+  - Name: EeveeHelper
+    Version: 1.12.3
+  - Name: FrostHelper
+    Version: 1.76.0
+  - Name: Everest
+    Version: 1.6064.0
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: SorbetHelper
+    Version: 1.8.2
+  - Name: StyleMaskHelper
+    Version: 1.4.0
+  - Name: MaxHelpingHand
+    Version: 1.38.0
+  - Name: PandorasBox
+    Version: 1.0.49
+  - Name: bitsbolts
+    Version: 1.4.7
+  URL: https://gamebanana.com/mmdl/1588365
 BopmoRuins:
   OptionalDependencies: []
   Dependencies:
