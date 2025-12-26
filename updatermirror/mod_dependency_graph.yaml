@@ -60491,7 +60491,7 @@ PufferCrystal:
 auspicioushelper:
   OptionalDependencies:
   - Name: SpeedrunTool
-    Version: 3.0.0
+    Version: 3.27.11
   - Name: CommunalHelper
     Version: 1.21.1
   - Name: ExtendedCameraDynamics
@@ -60501,7 +60501,7 @@ auspicioushelper:
   Dependencies:
   - Name: EverestCore
     Version: 1.5961.0
-  URL: https://gamebanana.com/mmdl/1577540
+  URL: https://gamebanana.com/mmdl/1588366
 DeepDream:
   OptionalDependencies: []
   Dependencies:
