@@ -48210,16 +48210,6 @@ meoweline:
   - Name: EverestCore
     Version: 1.4673.0
   URL: https://gamebanana.com/mmdl/1386054
-BadwaysUltras:
-  OptionalDependencies: []
-  Dependencies:
-  - Name: Everest
-    Version: 1.5635.0
-  - Name: ChroniaHelper
-    Version: 1.36.13
-  - Name: VivHelper
-    Version: 1.14.10
-  URL: https://gamebanana.com/mmdl/1534288
 GDDH:
   OptionalDependencies: []
   Dependencies:
@@ -89160,6 +89150,48 @@ grid_ussr:
   - Name: PandorasBox
     Version: 1.0.47
   URL: https://gamebanana.com/mmdl/1071103
+climbandrise:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: BrokemiaHelper
+    Version: 1.7.2
+  - Name: Everest
+    Version: 1.4896.0
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: MaxHelpingHand
+    Version: 1.30.8
+  - Name: Anonhelper
+    Version: 1.1.1
+  - Name: EeveeHelper
+    Version: 1.11.1
+  - Name: FlaglinesAndSuch
+    Version: 1.6.43
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: CrystallineHelper
+    Version: 1.15.3
+  - Name: ChroniaHelper
+    Version: '1.2'
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: CommunalHelper
+    Version: 1.20.2
+  - Name: FemtoHelper
+    Version: 1.14.1
+  - Name: CollabUtils2
+    Version: 1.10.14
+  - Name: ExtendedCameraDynamics
+    Version: 1.0.9
+  - Name: SorbetHelper
+    Version: 1.7.4
+  - Name: OutbackHelper
+    Version: 1.7.3
+  - Name: KoseiHelper
+    Version: 1.14.0.1
+  - Name: DJMapHelper
+    Version: 1.13.4
+  URL: https://gamebanana.com/mmdl/1589138
 DELTASCENEONE:
   OptionalDependencies: []
   Dependencies:
