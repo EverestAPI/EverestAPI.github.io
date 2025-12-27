@@ -97958,6 +97958,16 @@ Grapotropolis:
   - Name: bitsbolts
     Version: 1.4.7
   URL: https://gamebanana.com/mmdl/1575814
+CoffeesMaps:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: ChroniaHelper
+    Version: 1.40.43
+  - Name: Everest
+    Version: 1.6064.0
+  - Name: MaxHelpingHand
+    Version: 1.39.9
+  URL: https://gamebanana.com/mmdl/1588946
 sunset_ceiling:
   OptionalDependencies: []
   Dependencies:
