@@ -11632,6 +11632,12 @@ Forsaken Speed:
   - Name: MaxHelpingHand
     Version: 1.37.2
   URL: https://gamebanana.com/mmdl/1529408
+WaowMoonberries:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.3471.0
+  URL: https://gamebanana.com/mmdl/1589196
 PrismaticHelper:
   OptionalDependencies:
   - Name: SpeedrunTool
