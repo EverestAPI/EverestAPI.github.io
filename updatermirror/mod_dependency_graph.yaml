@@ -7222,6 +7222,16 @@ AUGUST16:
   - Name: bitsbolts
     Version: 1.3.6
   URL: https://gamebanana.com/mmdl/1342609
+Hollow Knight Mountain Song:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FlaglinesAndSuch
+    Version: 1.6.46
+  - Name: ShroomHelper
+    Version: 1.2.10
+  - Name: Everest
+    Version: 1.5901.0
+  URL: https://gamebanana.com/mmdl/1580225
 ttt:
   OptionalDependencies: []
   Dependencies:
