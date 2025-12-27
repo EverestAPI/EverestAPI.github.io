@@ -1,5 +1,31 @@
 [
   {
+    "date": "2025-12-27T19:45:31.8501082Z",
+    "olympusBuildFileSize": 71690898,
+    "mainFileSize": 71925130,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5390/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5390/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "commit": "04aa4228786ba8448455f1962f9714c08ad28383",
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5390/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip",
+    "branch": "beta",
+    "version": 6090,
+    "isNative": true
+  },
+  {
+    "date": "2025-12-27T19:38:27Z",
+    "olympusBuildFileSize": 71684113,
+    "mainFileSize": 71619979,
+    "mainDownload": "https://github.com/EverestAPI/Everest/releases/download/stable-1.6088.0/main.zip",
+    "olympusMetaDownload": "https://github.com/EverestAPI/Everest/releases/download/stable-1.6088.0/olympus-meta.zip",
+    "olympusMetaFileSize": 355,
+    "commit": "d7bc4c2716b747d243fa4347b98422766b3d8b5a",
+    "olympusBuildDownload": "https://github.com/EverestAPI/Everest/releases/download/stable-1.6088.0/olympus-build.zip",
+    "branch": "stable",
+    "version": 6088,
+    "isNative": true
+  },
+  {
     "date": "2025-12-17T23:10:46.1934927Z",
     "olympusBuildFileSize": 71690966,
     "mainFileSize": 71925163,
