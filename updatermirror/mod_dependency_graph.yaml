@@ -89430,12 +89430,6 @@ WeAreCharlieKirk:
   - Name: ViviSkinmod
     Version: 1.5.0
   URL: https://gamebanana.com/mmdl/1588619
-PuzzleIslandHelper:
-  OptionalDependencies: []
-  Dependencies:
-  - Name: Everest
-    Version: 1.2781.0
-  URL: https://gamebanana.com/mmdl/993801
 Divinity2:
   OptionalDependencies: []
   Dependencies:
