@@ -63114,6 +63114,76 @@ KelperApiExample:
   - Name: EverestCore
     Version: 1.4986.0
   URL: https://gamebanana.com/mmdl/1315279
+rinsillycollection:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: JungleHelper
+    Version: 1.2.2
+  - Name: GravityHelper
+    Version: 1.1.50
+  - Name: FactoryHelper
+    Version: 1.3.5
+  - Name: VivHelper
+    Version: 1.13.2
+  - Name: Compendium_BounceHelper
+    Version: 1.1.0
+  - Name: Anonhelper
+    Version: 1.1.1
+  - Name: Monika's D-Sides
+    Version: 4.67.0
+  - Name: EeveeHelper
+    Version: 1.12.2
+  - Name: Long Name Helper by Helen, Helen's Helper, hELPER
+    Version: 1.9.10
+  - Name: CherryHelper
+    Version: 1.7.1
+  - Name: CommunalHelper
+    Version: 1.19.3
+  - Name: FemtoHelper
+    Version: 1.12.11
+  - Name: OutbackHelper
+    Version: 1.7.3
+  - Name: BrokemiaHelper
+    Version: 1.7.2
+  - Name: NerdHelper
+    Version: 1.4.0
+  - Name: PrismaticHelper
+    Version: 1.11.0
+  - Name: Everest
+    Version: 1.2593.0
+  - Name: ExtendedVariantMode
+    Version: 0.27.3
+  - Name: ChronoHelper
+    Version: 1.2.2
+  - Name: SSMHelper
+    Version: 1.2.9
+  - Name: ContortHelper
+    Version: NoVersion
+  - Name: MaxHelpingHand
+    Version: 1.28.2
+  - Name: IsaGrabBag
+    Version: 1.6.14
+  - Name: FlaglinesAndSuch
+    Version: 1.6.30
+  - Name: FrostHelper
+    Version: 1.47.1
+  - Name: VortexHelper
+    Version: 1.2.12
+  - Name: LunaticHelper
+    Version: 1.1.1
+  - Name: ShroomHelper
+    Version: 1.2.7
+  - Name: CrystallineHelper
+    Version: 1.16.3
+  - Name: CollabUtils2
+    Version: 1.10.4
+  - Name: XaphanHelper
+    Version: 1.0.63
+  - Name: AurorasHelper
+    Version: 0.12.2
+  - Name: DJMapHelper
+    Version: 1.13.4
+  URL: https://gamebanana.com/mmdl/1589593
 LavenderRavine:
   OptionalDependencies: []
   Dependencies:
