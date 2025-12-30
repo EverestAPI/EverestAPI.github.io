@@ -7390,6 +7390,32 @@ StymphBirthdayParty:
   - Name: DJMapHelper
     Version: 1.13.4
   URL: https://gamebanana.com/mmdl/1499593
+HoroTaurus:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: AdamsAddons
+    Version: 1.14.10
+  - Name: FrostHelper
+    Version: 1.70.4
+  - Name: DzhakeHelper
+    Version: 1.4.16
+  - Name: ChroniaHelper
+    Version: 1.40.20
+  - Name: Everest
+    Version: 1.5674.0
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.14.1
+  - Name: ArphimigonsToyBox
+    Version: 1.4.1
+  - Name: ExtendedCameraDynamics
+    Version: 1.1.0
+  - Name: XaphanHelper
+    Version: 1.0.78
+  - Name: MaxHelpingHand
+    Version: 1.37.2
+  URL: https://gamebanana.com/mmdl/1591796
 SnowfallSpire:
   OptionalDependencies: []
   Dependencies:
