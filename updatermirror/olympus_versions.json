@@ -151,50 +151,5 @@
     "version": "25.11.09.02",
     "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5276/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
     "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5276/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-11-02T11:00:40.3661023Z",
-    "changelog": "∙ Prevent \"Disable All\" from disabling favorited mods",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5271/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "25.11.02.03",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5271/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5271/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-11-01T20:15:49.3252057Z",
-    "changelog": "∙ Added favorites to \"Manage Installed Mods\", with a dedicated filter\n∙ Suggest disabling dependencies when disabling a mod\n∙ Display warning symbol if an enabled mod has disabled dependencies\n∙ Different text colors for dependencies of enabled mods, favorites and their dependencies\n∙ Make sure to fall back to a mirror in case GameBanana sets up network filtering again",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5266/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "25.11.01.04",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5266/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5266/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-11-01T20:09:22.7560468Z",
-    "changelog": "∙ Added favorites to \"Manage Installed Mods\", with a dedicated filter\n∙ Suggest disabling dependencies when disabling a mod\n∙ Display warning symbol if an enabled mod has disabled dependencies\n∙ Different text colors for dependencies of enabled mods, favorites and their dependencies\n∙ Make sure to fall back to a mirror in case GameBanana sets up network filtering again",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5265/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "windows-init",
-    "version": "25.11.01.03",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5265/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5265/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-11-01T20:05:07.3505043Z",
-    "changelog": "∙ Added favorites to \"Manage Installed Mods\", with a dedicated filter\n∙ Suggest disabling dependencies when disabling a mod\n∙ Display warning symbol if an enabled mod has disabled dependencies\n∙ Different text colors for dependencies of enabled mods, favorites and their dependencies\n∙ Make sure to fall back to a mirror in case GameBanana sets up network filtering again",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5264/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "stable",
-    "version": "25.11.01.02",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5264/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5264/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2025-11-01T17:34:05.8436073Z",
-    "changelog": "∙ Make sure to fall back to a mirror in case GameBanana sets up network filtering again",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5260/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "25.11.01.01",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5260/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5260/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
   }
 ]
