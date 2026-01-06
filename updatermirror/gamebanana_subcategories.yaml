@@ -1,10 +1,10 @@
 Mod:
   6800:
   - name: All
-    count: 3983
+    count: 4001
   - id: 6802
     name: Campaign
-    count: 453
+    count: 456
   - id: 6803
     name: Collab/Contest
     count: 352
@@ -13,7 +13,7 @@ Mod:
     count: 24
   - id: 6801
     name: Standalone
-    count: 2472
+    count: 2484
   15655:
   - name: All
     count: 116
@@ -25,7 +25,7 @@ Mod:
     count: 54
   4632:
   - name: All
-    count: 145
+    count: 147
   - id: 4636
     name: Twitch Integration
     count: 1
@@ -37,19 +37,19 @@ Mod:
     count: 18
   5081:
   - name: All
-    count: 196
+    count: 198
   4635:
   - name: All
     count: 41
   1501:
   - name: All
-    count: 14
+    count: 15
   11181:
   - name: All
-    count: 317
+    count: 318
   - id: 16940
     name: Collectibles
-    count: 35
+    count: 36
   - id: 11182
     name: Other/Misc
     count: 70
@@ -62,7 +62,7 @@ Mod:
 Tool:
   0:
   - name: All
-    count: 63
+    count: 65
   - id: 653
     name: Ahorn Plugin
     count: 6
@@ -74,17 +74,17 @@ Tool:
     count: 4
   - id: 575
     name: Other/Misc
-    count: 34
+    count: 36
   - id: 859
     name: Twitch Integration
     count: 1
 Wip:
   0:
   - name: All
-    count: 102
+    count: 103
   - id: 680
     name: Maps
     count: 77
   - id: 466
     name: Other/Misc
-    count: 25
+    count: 26
