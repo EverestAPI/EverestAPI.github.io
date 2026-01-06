@@ -6,4 +6,4 @@ title: How Many Berries?!
 
 ---
 
-Berry 143 is a beginner-intermediate map featuring a new movement mechanic coded by Limia where you can phase through solids! Explore a surreal open world with a whopping 143 berries, featuring gameplay reminiscent of vanilla, plus a bunch of achievements & side quests! Inspired by the old flash game Goime 500 by carykh. Start foraging for berries in the link below!
+Berry 143 is a beginner-intermediate map by Bryse0n featuring a new movement mechanic where you can phase through solids! Explore a surreal open world with a whopping 143 berries, featuring gameplay reminiscent of vanilla, plus a bunch of achievements & side quests! Inspired by the old flash game Goime 500 by carykh. Start foraging for berries in the link below!
