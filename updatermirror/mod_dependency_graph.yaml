@@ -62349,6 +62349,8 @@ TheWorldTrap:
     Version: 1.15.2.6
   - Name: AidenHelper
     Version: 1.2.1
+  - Name: VSRGEngineHelper
+    Version: 0.1.0
   - Name: GlassHelper
     Version: 1.0.2
   - Name: BrokemiaHelper
@@ -62471,7 +62473,7 @@ TheWorldTrap:
     Version: 1.3.23
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1579315
+  URL: https://gamebanana.com/mmdl/1600710
 PointlessLobby:
   OptionalDependencies: []
   Dependencies:
