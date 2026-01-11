@@ -19958,6 +19958,12 @@ Bubbler:
   - Name: MaxHelpingHand
     Version: 1.32.0
   URL: https://gamebanana.com/mmdl/1342844
+AllRandomBerries:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.5935.0
+  URL: https://gamebanana.com/mmdl/1600662
 CrazyCycles:
   OptionalDependencies: []
   Dependencies:
