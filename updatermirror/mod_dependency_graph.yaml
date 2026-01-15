@@ -4975,31 +4975,33 @@ The Climb:
 EarthquakeSides:
   OptionalDependencies: []
   Dependencies:
-  - Name: FrostHelper
-    Version: 1.47.4
   - Name: BrokemiaHelper
     Version: 1.7.2
   - Name: NerdHelper
     Version: 1.4.0
-  - Name: ShroomHelper
-    Version: 1.2.4
-  - Name: CrystallineHelper
-    Version: 1.15.3
   - Name: Everest
     Version: 1.3000.0
   - Name: ExtendedVariantMode
     Version: 0.31.1
+  - Name: MaxHelpingHand
+    Version: 1.24.0
+  - Name: FrostHelper
+    Version: 1.47.4
+  - Name: ShroomHelper
+    Version: 1.2.4
+  - Name: CrystallineHelper
+    Version: 1.15.3
+  - Name: ChroniaHelper
+    Version: 1.42.5
   - Name: CommunalHelper
     Version: 1.14.4
   - Name: FemtoHelper
     Version: 1.11.5
-  - Name: MaxHelpingHand
-    Version: 1.24.0
   - Name: DJMapHelper
     Version: 1.13.4
   - Name: AdventureHelper
     Version: 1.5.8
-  URL: https://gamebanana.com/mmdl/1602098
+  URL: https://gamebanana.com/mmdl/1603261
 elytra studio:
   OptionalDependencies: []
   Dependencies:
@@ -34697,7 +34699,7 @@ FrigoHelper:
   Dependencies:
   - Name: EverestCore
     Version: 1.5935.0
-  URL: https://gamebanana.com/mmdl/1601486
+  URL: https://gamebanana.com/mmdl/1603157
 Lunar Ruins:
   OptionalDependencies: []
   Dependencies:
@@ -38217,7 +38219,7 @@ SpringCollabAutumnAudio:
   Dependencies:
   - Name: Everest
     Version: 1.4000.0
-  URL: https://gamebanana.com/mmdl/1178608
+  URL: https://gamebanana.com/mmdl/1603216
 VoidBaby:
   OptionalDependencies: []
   Dependencies:
@@ -48767,87 +48769,15 @@ PinkPortraitsPack:
 springcollabautumn:
   OptionalDependencies: []
   Dependencies:
-  - Name: JungleHelper
-    Version: 1.1.6
-  - Name: GravityHelper
-    Version: 1.1.41
-  - Name: HonlyHelper
-    Version: 1.7.4
-  - Name: VivHelper
-    Version: 1.12.1
-  - Name: Anonhelper
-    Version: 1.0.9
-  - Name: EeveeHelper
-    Version: 1.5.3
-  - Name: CherryHelper
-    Version: 1.7.1
-  - Name: CommunalHelper
-    Version: 1.17.3
-  - Name: FemtoHelper
-    Version: 1.10.1
-  - Name: SorbetHelper
-    Version: 1.1.1
-  - Name: OutbackHelper
-    Version: 1.7.2
-  - Name: PandorasBox
-    Version: 1.0.47
-  - Name: AdventureHelper
-    Version: 1.5.8
-  - Name: BrokemiaHelper
-    Version: 1.7.2
-  - Name: NerdHelper
-    Version: 1.4.0
-  - Name: PrismaticHelper
-    Version: '1.1'
   - Name: Everest
     Version: 1.4000.0
-  - Name: ExtendedVariantMode
-    Version: 0.26.12
-  - Name: SpringCollabAutumnAudio
-    Version: 1.0.0
-  - Name: StyleMaskHelper
-    Version: 1.2.0
-  - Name: ChronoHelper
-    Version: 1.1.2
-  - Name: ContortHelper
-    Version: 1.5.5
-  - Name: JackalHelper
-    Version: 1.6.8
-  - Name: MaxHelpingHand
-    Version: 1.25.6
-  - Name: LuaCutscenes
-    Version: 0.2.12
-  - Name: memorialHelper
-    Version: 1.0.4
-  - Name: FlaglinesAndSuch
-    Version: 1.6.9
-  - Name: FrostHelper
-    Version: 1.41.2
-  - Name: VortexHelper
-    Version: 1.2.11
-  - Name: LunaticHelper
-    Version: 1.1.1
-  - Name: MoreDasheline
-    Version: 1.7.0
-  - Name: ShroomHelper
-    Version: 1.2.5
-  - Name: CrystallineHelper
-    Version: 1.14.1
   - Name: CollabUtils2
-    Version: 1.9.0
-  - Name: XaphanHelper
-    Version: 1.0.55
-  - Name: AurorasHelper
-    Version: 0.6.1
-  - Name: PlatinumStrawberry
-    Version: 1.0.2.0
-  - Name: SafeRespawnCrumble
+    Version: 1.10.14
+  - Name: SpringCollabAutumnAudio
     Version: 1.2.0
-  - Name: LylyraHelper
-    Version: 1.3.9
-  - Name: DJMapHelper
-    Version: 1.13.2
-  URL: https://gamebanana.com/mmdl/1262428
+  - Name: SpringCollabAutumnData
+    Version: 1.2.0
+  URL: https://gamebanana.com/mmdl/1603215
 Farewell Alphaside:
   OptionalDependencies: []
   Dependencies:
@@ -71604,6 +71534,90 @@ DewieGiganticRuins:
   - Name: PandorasBox
     Version: 1.0.49
   URL: https://gamebanana.com/mmdl/1492987
+SpringCollabAutumnData:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: JungleHelper
+    Version: 1.1.6
+  - Name: GravityHelper
+    Version: 1.1.41
+  - Name: HonlyHelper
+    Version: 1.7.4
+  - Name: VivHelper
+    Version: 1.12.1
+  - Name: Anonhelper
+    Version: 1.0.9
+  - Name: EeveeHelper
+    Version: 1.5.3
+  - Name: CherryHelper
+    Version: 1.7.1
+  - Name: CommunalHelper
+    Version: 1.17.3
+  - Name: FemtoHelper
+    Version: 1.10.1
+  - Name: SorbetHelper
+    Version: 1.1.1
+  - Name: OutbackHelper
+    Version: 1.7.2
+  - Name: PandorasBox
+    Version: 1.0.47
+  - Name: AdventureHelper
+    Version: 1.5.8
+  - Name: BrokemiaHelper
+    Version: 1.7.2
+  - Name: NerdHelper
+    Version: 1.4.0
+  - Name: PrismaticHelper
+    Version: '1.1'
+  - Name: Everest
+    Version: 1.4000.0
+  - Name: ExtendedVariantMode
+    Version: 0.26.12
+  - Name: SpringCollabAutumnAudio
+    Version: 1.1.0
+  - Name: StyleMaskHelper
+    Version: 1.2.0
+  - Name: ChronoHelper
+    Version: 1.1.2
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: JackalHelper
+    Version: 1.6.8
+  - Name: MaxHelpingHand
+    Version: 1.25.6
+  - Name: LuaCutscenes
+    Version: 0.2.12
+  - Name: memorialHelper
+    Version: 1.0.4
+  - Name: FlaglinesAndSuch
+    Version: 1.6.9
+  - Name: FrostHelper
+    Version: 1.41.2
+  - Name: VortexHelper
+    Version: 1.2.11
+  - Name: LunaticHelper
+    Version: 1.1.1
+  - Name: MoreDasheline
+    Version: 1.7.0
+  - Name: ShroomHelper
+    Version: 1.2.5
+  - Name: CrystallineHelper
+    Version: 1.14.1
+  - Name: CollabUtils2
+    Version: 1.9.0
+  - Name: XaphanHelper
+    Version: 1.0.55
+  - Name: AurorasHelper
+    Version: 0.6.1
+  - Name: PlatinumStrawberry
+    Version: 1.0.2.0
+  - Name: SafeRespawnCrumble
+    Version: 1.2.0
+  - Name: LylyraHelper
+    Version: 1.3.9
+  - Name: DJMapHelper
+    Version: 1.13.2
+  URL: https://gamebanana.com/mmdl/1603219
 DenimMod_Celeste_Skinhelper:
   OptionalDependencies: []
   Dependencies:
@@ -97488,8 +97502,6 @@ Midnight Rainbows:
   URL: https://gamebanana.com/mmdl/880266
 ExtendedVariantMode:
   OptionalDependencies:
-  - Name: MotionSmoothing
-    Version: 1.3.2
   - Name: JungleHelper
     Version: 1.1.5
   - Name: BetterRefillGems
@@ -97501,7 +97513,7 @@ ExtendedVariantMode:
   Dependencies:
   - Name: Everest
     Version: 1.6129.0
-  URL: https://gamebanana.com/mmdl/1600302
+  URL: https://gamebanana.com/mmdl/1603160
 Another Farewell Map:
   OptionalDependencies: []
   Dependencies:
