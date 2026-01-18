@@ -6799,11 +6799,15 @@ Notsus:
     Version: 1.4030.0
   URL: https://gamebanana.com/mmdl/1002805
 aonHelper:
-  OptionalDependencies: []
+  OptionalDependencies:
+  - Name: DzhakeHelper
+    Version: 1.4.9
+  - Name: ReverseHelper
+    Version: 1.15.1
   Dependencies:
   - Name: EverestCore
-    Version: 1.5935.0
-  URL: https://gamebanana.com/mmdl/1604046
+    Version: 1.6129.0
+  URL: https://gamebanana.com/mmdl/1605569
 Abandoned Metropolis:
   OptionalDependencies: []
   Dependencies:
