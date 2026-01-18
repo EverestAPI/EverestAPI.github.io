@@ -95229,15 +95229,13 @@ Desert Bus:
     Version: 1.1433.0
   URL: https://gamebanana.com/mmdl/752339
 MoreLockBlocks:
-  OptionalDependencies:
-  - Name: DzhakeHelper
-    Version: 1.4.9
-  - Name: ReverseHelper
-    Version: 1.15.1
+  OptionalDependencies: []
   Dependencies:
+  - Name: aonHelper
+    Version: 0.11.0
   - Name: EverestCore
-    Version: 1.5052.0
-  URL: https://gamebanana.com/mmdl/1321617
+    Version: 1.6129.0
+  URL: https://gamebanana.com/mmdl/1605567
 IWannaCelesteExtremity:
   OptionalDependencies: []
   Dependencies:
