@@ -46290,10 +46290,12 @@ LuckyHelper:
     Version: 0.47.2
   - Name: VivHelper
     Version: 1.14.10
+  - Name: CollabUtils2
+    Version: 1.11.1
   Dependencies:
   - Name: Everest
-    Version: 1.5901.0
-  URL: https://gamebanana.com/mmdl/1602246
+    Version: 1.6129.0
+  URL: https://gamebanana.com/mmdl/1605891
 Old Piano:
   OptionalDependencies: []
   Dependencies:
