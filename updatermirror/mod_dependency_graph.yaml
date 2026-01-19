@@ -96016,6 +96016,42 @@ SpeedCommands:
   - Name: Everest
     Version: 1.961.0
   URL: https://gamebanana.com/mmdl/434983
+EvilCeleste:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.5326.0
+  - Name: ExtendedVariantMode
+    Version: 0.45.0
+  - Name: StyleMaskHelper
+    Version: 1.4.0
+  - Name: ParrotHelper
+    Version: 1.2.1
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: MaxHelpingHand
+    Version: 1.33.7
+  - Name: LuaCutscenes
+    Version: 0.2.13
+  - Name: FrostHelper
+    Version: 1.66.0
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: CrystallineHelper
+    Version: 1.17.1
+  - Name: ChroniaHelper
+    Version: 1.38.3
+  - Name: CommunalHelper
+    Version: 1.20.11
+  - Name: CollabUtils2
+    Version: 1.12.4
+  - Name: SorbetHelper
+    Version: 1.8.3
+  - Name: KoseiHelper
+    Version: 1.17.0.0
+  - Name: AdventureHelper
+    Version: 1.6.0
+  URL: https://gamebanana.com/mmdl/1606220
 2024_BooreokjamCollab:
   OptionalDependencies: []
   Dependencies:
@@ -97705,7 +97741,7 @@ FemtoHelper:
   Dependencies:
   - Name: Everest
     Version: 1.5935.0
-  URL: https://gamebanana.com/mmdl/1604528
+  URL: https://gamebanana.com/mmdl/1606216
 ABY:
   OptionalDependencies: []
   Dependencies:

@@ -49,6 +49,56 @@
   {
     "CategoryId": 6800,
     "Screenshots": [
+      "https://images.gamebanana.com/img/ss/mods/696eb0389f0f3.jpg",
+      "https://images.gamebanana.com/img/ss/mods/696eb10892a0d.jpg",
+      "https://images.gamebanana.com/img/ss/mods/696eb197dfc6f.jpg",
+      "https://images.gamebanana.com/img/ss/mods/696eb19fc0e31.jpg"
+    ],
+    "Description": "An eerie adventure where your gun is your best friend",
+    "Views": 0,
+    "GameBananaType": "Mod",
+    "TokenizedName": [
+      "the",
+      "corrupt",
+      "celeste",
+      "mountain",
+      "chapter",
+      "1"
+    ],
+    "UpdatedDate": 1768862917,
+    "SubcategoryId": 6802,
+    "SubcategoryName": "Campaign",
+    "GameBananaId": 647302,
+    "Featured": {
+      "Category": "today",
+      "Position": 0
+    },
+    "Text": "<i class=\"SelectedElement\">Madeline discovers a menacing-looking mountain not far away from her home, coated in red mist and painting the sky around it in a bloody shade of red. On her journey, she finds a gun in the pieces of rubble, which will help her uncover the dark secrets this mountain hides.<\/i><br><br>This is an up-and-coming Campaign of mine that revolves around a feature from Kosei Helper - The <span class=\"GreenColor\">Nemesis Gun<\/span>. Your main objective is to <span class=\"GreenColor\">shoot the Touch Switch Walls<\/span> scattered in every room to <span class=\"GreenColor\">progress further<\/span>. The keybinds (Nemesis Shot) of the Nemesis Gun can be found in <b>Mod Options -&gt; Kosei Helper -&gt; Keyboard/Controller Config<\/b>. Only Chapter 1 is available at the moment, with more soon to follow.<br><br>There's absolutely <span class=\"GreenColor\">no tech<\/span> required to play this map and it's aimed to be around <span class=\"GreenColor\">Beginner<\/span> difficulty. However, the difficulty and complexity gets higher later on, so maybe it'd be a good idea to get comfortable with <span class=\"RedColor\">Intermediate<\/span> gameplay before tackling this map. Chapter 1 has <b>11 rooms<\/b> in total.<br><br>&nbsp;If you have any issues with this map (Such as Touch Switch Walls not collecting upon being shot), try disabling a few mods not required for this map and updating your current ones. If none of this will help, feel free to ping me on Discord (<b>@masteroftrash<\/b>) in Mt. Celeste Climbing Association. You're also allowed to ping me if you find any skips or unintended routes in this map.<br><br>Hope you'll have fun!",
+    "ModifiedDate": 1768862917,
+    "Name": "The Corrupt Celeste Mountain (Chapter 1)",
+    "PageURL": "https://gamebanana.com/mods/647302",
+    "MirroredScreenshots": [
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_696eb0389f0f3.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_696eb10892a0d.png"
+    ],
+    "CreatedDate": 1768862917,
+    "Author": "MasterOfTrash",
+    "CategoryName": "Maps",
+    "Downloads": 0,
+    "Likes": 3,
+    "Files": [{
+      "Description": "",
+      "HasEverestYaml": true,
+      "Size": 43447565,
+      "CreatedDate": 1768861738,
+      "Downloads": 0,
+      "URL": "https://gamebanana.com/dl/1606220",
+      "Name": "evilceleste.zip"
+    }]
+  },
+  {
+    "CategoryId": 6800,
+    "Screenshots": [
       "https://images.gamebanana.com/img/ss/mods/696c4aeb1d606.jpg",
       "https://images.gamebanana.com/img/ss/mods/696c4aeb39c7f.jpg"
     ],
