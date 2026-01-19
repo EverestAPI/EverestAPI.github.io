@@ -88708,6 +88708,34 @@ amoeba:
   - Name: DJMapHelper
     Version: 1.13.4
   URL: https://gamebanana.com/mmdl/1172415
+DreamsOfANightSky:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: NerdHelper
+    Version: 1.6.3
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: Everest
+    Version: 1.5846.0
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: SorbetHelper
+    Version: 1.7.10
+  - Name: VidPlayer
+    Version: 0.5.0
+  - Name: JackalHelper
+    Version: 1.7.5
+  - Name: MaxHelpingHand
+    Version: 1.38.0
+  - Name: LuaCutscenes
+    Version: 0.2.13
+  - Name: DJMapHelper
+    Version: 1.13.4
+  - Name: PandorasBox
+    Version: 1.0.49
+  URL: https://gamebanana.com/mmdl/1605746
 Klotski2:
   OptionalDependencies: []
   Dependencies:
