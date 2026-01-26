@@ -1970,14 +1970,14 @@ The Climb:
   URL: https://gamebanana.com/mmdl/578685
 EarthquakeSides:
   GameBananaType: Mod
-  Version: 1.0.11
-  LastUpdate: 1769384622
-  Size: 58934048
+  Version: 1.0.12
+  LastUpdate: 1769462280
+  Size: 58874532
   GameBananaId: 644505
-  GameBananaFileId: 1610294
+  GameBananaFileId: 1610933
   xxHash:
-  - 87d376fa3b45a6d5
-  URL: https://gamebanana.com/mmdl/1610294
+  - 6f71468950722327
+  URL: https://gamebanana.com/mmdl/1610933
 elytra studio:
   GameBananaType: Mod
   Version: 1.1.0
@@ -3348,6 +3348,16 @@ fantomZippers:
   xxHash:
   - 21b5fa430c3c9500
   URL: https://gamebanana.com/mmdl/1573142
+1112223312Claustrophobia:
+  GameBananaType: Mod
+  Version: 0.0.1
+  LastUpdate: 1769460642
+  Size: 2088996
+  GameBananaId: 648813
+  GameBananaFileId: 1610919
+  xxHash:
+  - ee171c1c2d9e917f
+  URL: https://gamebanana.com/mmdl/1610919
 BAD IDEA:
   GameBananaType: Mod
   Version: 0.0.1

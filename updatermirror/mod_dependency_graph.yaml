@@ -5007,7 +5007,7 @@ EarthquakeSides:
     Version: 1.13.4
   - Name: AdventureHelper
     Version: 1.5.8
-  URL: https://gamebanana.com/mmdl/1610294
+  URL: https://gamebanana.com/mmdl/1610933
 elytra studio:
   OptionalDependencies: []
   Dependencies:
@@ -7810,6 +7810,30 @@ fantomZippers:
   - Name: EverestCore
     Version: 1.5577.0
   URL: https://gamebanana.com/mmdl/1573142
+1112223312Claustrophobia:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.73.1
+  - Name: Aqua
+    Version: 1.2.2
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: ChroniaHelper
+    Version: 1.40.43
+  - Name: Everest
+    Version: 1.5901.0
+  - Name: ExtendedVariantMode
+    Version: 0.46.0
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: OutbackHelper
+    Version: 1.7.3
+  - Name: XaphanHelper
+    Version: 1.0.76
+  URL: https://gamebanana.com/mmdl/1610919
 BAD IDEA:
   OptionalDependencies: []
   Dependencies:
