@@ -61558,6 +61558,12 @@ StunningHelper:
   - Name: EverestCore
     Version: 1.4673.0
   URL: https://gamebanana.com/mmdl/1428232
+CrystallineCaves:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.6129.0
+  URL: https://gamebanana.com/mmdl/1612215
 TearsSky:
   OptionalDependencies: []
   Dependencies:
