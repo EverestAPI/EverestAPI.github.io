@@ -17882,6 +17882,14 @@ Blinding_Indigo_MTC3:
   - Name: LuaCutscenes
     Version: 0.2.13
   URL: https://gamebanana.com/mmdl/1434321
+missingtextureskin:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: SkinModHelperPlus
+    Version: 0.17.6
+  - Name: SkinModHelper
+    Version: 0.6.1
+  URL: https://gamebanana.com/mmdl/1612227
 PrinnyHeroSkin:
   OptionalDependencies:
   - Name: MoreDasheline
