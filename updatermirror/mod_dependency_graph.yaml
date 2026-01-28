@@ -67079,6 +67079,8 @@ CowboyBebop:
     Version: 1.4.10
   - Name: ShroomHelper
     Version: 1.2.10
+  - Name: ChroniaHelper
+    Version: 1.38.3
   - Name: CommunalHelper
     Version: 1.20.12
   - Name: SorbetHelper
@@ -67087,7 +67089,7 @@ CowboyBebop:
     Version: 1.0.9
   - Name: AidenHelper
     Version: 1.2.1
-  URL: https://gamebanana.com/mmdl/1426344
+  URL: https://gamebanana.com/mmdl/1612425
 funni dreamblock teleport level:
   OptionalDependencies: []
   Dependencies:
