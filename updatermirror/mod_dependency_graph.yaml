@@ -6279,15 +6279,13 @@ Core-O-sidee:
     Version: 1.8.1
   - Name: CommunalHelper
     Version: 1.20.6
-  - Name: CollabUtils2
-    Version: 1.10.12
   - Name: OutbackHelper
     Version: 1.7.3
+  - Name: XaphanHelper
+    Version: 1.0.78
   - Name: DJMapHelper
     Version: 1.13.4
-  - Name: PandorasBox
-    Version: 1.0.49
-  URL: https://gamebanana.com/mmdl/1610392
+  URL: https://gamebanana.com/mmdl/1612402
 StrawberryTool:
   OptionalDependencies: []
   Dependencies:
