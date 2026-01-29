@@ -14181,7 +14181,9 @@ ysides:
     Version: 1.20.12
   - Name: CollabUtils2
     Version: 1.10.14
-  URL: https://gamebanana.com/mmdl/1412537
+  - Name: SorbetHelper
+    Version: 1.8.3
+  URL: https://gamebanana.com/mmdl/1612639
 Angel:
   OptionalDependencies: []
   Dependencies:
