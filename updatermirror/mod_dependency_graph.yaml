@@ -21766,6 +21766,12 @@ Lava8068:
   - Name: bitsbolts
     Version: 1.4.4
   URL: https://gamebanana.com/mmdl/1492004
+NoDeathScreenReal:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.5416.0
+  URL: https://gamebanana.com/mmdl/1612573
 bigmountain:
   OptionalDependencies: []
   Dependencies:
