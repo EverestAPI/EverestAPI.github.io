@@ -50276,6 +50276,76 @@ theoultratechspam.bin:
   - Name: MaxHelpingHand
     Version: 1.32.0
   URL: https://gamebanana.com/mmdl/1318445
+StardustOdyssey:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: JungleHelper
+    Version: 1.3.6
+  - Name: GravityHelper
+    Version: 1.2.23
+  - Name: HonlyHelper
+    Version: 1.7.5
+  - Name: Spekio's Toolbox
+    Version: 1.4.0
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: bitsbolts
+    Version: 1.4.6
+  - Name: EeveeHelper
+    Version: 1.12.3
+  - Name: DzhakeHelper
+    Version: 1.4.17
+  - Name: ChroniaHelper
+    Version: 1.36.12
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.14.1
+  - Name: ArphimigonsToyBox
+    Version: 1.4.1
+  - Name: SorbetHelper
+    Version: 1.7.7
+  - Name: AdamsAddons
+    Version: 1.14.5
+  - Name: FixMirrorCrash
+    Version: 1.0.1
+  - Name: CavernHelper
+    Version: 1.3.7
+  - Name: PrismaticHelper
+    Version: 1.12.0
+  - Name: Everest
+    Version: 1.5674.0
+  - Name: ExtendedVariantMode
+    Version: 0.44.1
+  - Name: ChronoHelper
+    Version: 1.2.8
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: JackalHelper
+    Version: 1.7.5
+  - Name: MaxHelpingHand
+    Version: 1.37.2
+  - Name: IsaGrabBag
+    Version: 1.7.3
+  - Name: memorialHelper
+    Version: 1.0.4
+  - Name: FlaglinesAndSuch
+    Version: 1.6.43
+  - Name: FrostHelper
+    Version: 1.70.4
+  - Name: LunaticHelper
+    Version: 1.1.1
+  - Name: ShroomHelper
+    Version: 1.2.10
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: CollabUtils2
+    Version: 1.10.14
+  - Name: Spooooky's Asset Pack
+    Version: 1.0.10
+  - Name: DJMapHelper
+    Version: 1.13.4
+  URL: https://gamebanana.com/mmdl/1612600
 Fishy Fiesta:
   OptionalDependencies: []
   Dependencies:
@@ -80822,6 +80892,16 @@ FlamespriteSkinModHelper:
   - Name: SkinModHelperPlus
     Version: 0.16.1
   URL: https://gamebanana.com/mmdl/1455688
+highestshelf:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: ChroniaHelper
+    Version: 1.40.43
+  - Name: Everest
+    Version: 1.6157.0
+  - Name: ExtendedVariantMode
+    Version: 0.47.5
+  URL: https://gamebanana.com/mmdl/1612599
 PVP:
   OptionalDependencies: []
   Dependencies:
