@@ -8168,6 +8168,24 @@ madelinedeathspam.bin:
   - Name: MaxHelpingHand
     Version: 1.35.2
   URL: https://gamebanana.com/mmdl/1428714
+NeverendingNyoomville:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.76.4
+  - Name: NerdHelper
+    Version: 1.6.3
+  - Name: Everest
+    Version: 1.6157.0
+  - Name: Kelper
+    Version: 0.5.5
+  - Name: FemtoHelper
+    Version: 1.14.25
+  - Name: SSMHelper
+    Version: 1.2.15
+  - Name: MaxHelpingHand
+    Version: 1.39.14
+  URL: https://gamebanana.com/mmdl/1612543
 constantsplayground:
   OptionalDependencies: []
   Dependencies:
