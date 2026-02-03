@@ -1,12 +1,12 @@
 [
   {
-    "date": "2025-12-05T15:11:06.4143605Z",
-    "changelog": "∙ Added a GameBanana category filter to Manage Installed Mods\n∙ Added tooltips on highlighted mods in Manage Installed Mods\n∙ Added French language option\n∙ Detect and warn the user if suppress-output is missing (macOS and Linux only)",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5357/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "date": "2026-02-04T14:49:52.866454Z",
+    "changelog": "∙ Fixed the \"edit modpresets.txt\" button when on Linux, or when language is set to French",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5468/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
     "branch": "main",
-    "version": "25.12.05.03",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5357/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5357/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+    "version": "26.02.04.03",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5468/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5468/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
   },
   {
     "date": "2025-12-05T15:05:52.6922957Z",
