@@ -7081,13 +7081,13 @@ Subway:
 Snowyseas:
   GameBananaType: Mod
   Version: 0.0.1
-  LastUpdate: 1769912392
-  Size: 520923
+  LastUpdate: 1770149983
+  Size: 521370
   GameBananaId: 649842
-  GameBananaFileId: 1614557
+  GameBananaFileId: 1616762
   xxHash:
-  - 794ec91e35286e92
-  URL: https://gamebanana.com/mmdl/1614557
+  - f28863fc33f613f2
+  URL: https://gamebanana.com/mmdl/1616762
 Shining Shooting Star~Audio:
   GameBananaType: Mod
   Version: 1.0.0
@@ -19618,6 +19618,16 @@ Meorries:
   xxHash:
   - afcd0dcb30825656
   URL: https://gamebanana.com/mmdl/1578839
+DashlessJump:
+  GameBananaType: Mod
+  Version: 0.9.2
+  LastUpdate: 1770138313
+  Size: 10940052
+  GameBananaId: 650609
+  GameBananaFileId: 1616617
+  xxHash:
+  - e4c2d5ad4be6468a
+  URL: https://gamebanana.com/mmdl/1616617
 OneRoom:
   GameBananaType: Mod
   Version: 0.0.1
