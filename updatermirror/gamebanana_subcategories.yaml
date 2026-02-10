@@ -1,10 +1,10 @@
 Mod:
   6800:
   - name: All
-    count: 4094
+    count: 4113
   - id: 6802
     name: Campaign
-    count: 465
+    count: 468
   - id: 6803
     name: Collab/Contest
     count: 357
@@ -13,19 +13,19 @@ Mod:
     count: 24
   - id: 6801
     name: Standalone
-    count: 2553
+    count: 2562
   15655:
   - name: All
-    count: 117
+    count: 118
   - id: 15656
     name: Audio
-    count: 52
+    count: 53
   - id: 15657
     name: Graphics
     count: 54
   4632:
   - name: All
-    count: 152
+    count: 154
   - id: 4636
     name: Twitch Integration
     count: 1
@@ -37,7 +37,7 @@ Mod:
     count: 19
   5081:
   - name: All
-    count: 199
+    count: 200
   4635:
   - name: All
     count: 41
@@ -58,7 +58,7 @@ Mod:
     count: 168
   2317:
   - name: All
-    count: 53
+    count: 54
 Tool:
   0:
   - name: All
