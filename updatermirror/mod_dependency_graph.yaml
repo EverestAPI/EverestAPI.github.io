@@ -65214,6 +65214,38 @@ SpeedrunTool:
   - Name: Everest
     Version: '1.6064'
   URL: https://gamebanana.com/mmdl/1581234
+finalscraps:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: GameHelper
+    Version: 1.8.5.0
+  - Name: GravityHelper
+    Version: 1.2.23
+  - Name: Everest
+    Version: 1.5674.0
+  - Name: ExtendedVariantMode
+    Version: 0.46.1
+  - Name: StyleMaskHelper
+    Version: 1.3.3
+  - Name: MaxHelpingHand
+    Version: 1.37.2
+  - Name: LuaCutscenes
+    Version: 0.2.13
+  - Name: FrostHelper
+    Version: 1.70.3
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: ChroniaHelper
+    Version: 1.35.0
+  - Name: Needle Helper
+    Version: 1.0.0
+  - Name: ExtendedCameraDynamics
+    Version: 1.1.1
+  - Name: AurorasHelper
+    Version: 0.12.2
+  - Name: DJMapHelper
+    Version: 1.13.4
+  URL: https://gamebanana.com/mmdl/1626393
 SaveMover:
   OptionalDependencies: []
   Dependencies:
