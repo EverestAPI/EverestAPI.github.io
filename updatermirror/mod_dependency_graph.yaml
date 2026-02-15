@@ -81146,6 +81146,54 @@ TRANSIENT:
   - Name: PandorasBox
     Version: 1.0.39
   URL: https://gamebanana.com/mmdl/888937
+Angleversario:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: GameHelper
+    Version: 1.10.3
+  - Name: JungleHelper
+    Version: 1.4.2
+  - Name: BrokemiaHelper
+    Version: 1.8.5
+  - Name: GravityHelper
+    Version: 1.2.23
+  - Name: HonlyHelper
+    Version: 1.7.5
+  - Name: Everest
+    Version: 1.5846.0
+  - Name: ExtendedVariantMode
+    Version: 0.44.1
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: Batteries
+    Version: 1.1.4
+  - Name: MaxHelpingHand
+    Version: 1.37.2
+  - Name: LuaCutscenes
+    Version: 0.2.13
+  - Name: FrostHelper
+    Version: 1.73.1
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: ChroniaHelper
+    Version: 1.40.32
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: CollabUtils2
+    Version: 1.12.3
+  - Name: CpopHelper
+    Version: 1.3.0
+  - Name: OutbackHelper
+    Version: 1.7.3
+  - Name: DJMapHelper
+    Version: 1.13.4
+  - Name: PandorasBox
+    Version: 1.0.49
+  - Name: AdventureHelper
+    Version: 1.6.0
+  URL: https://gamebanana.com/mmdl/1626340
 Sumber:
   OptionalDependencies: []
   Dependencies:
