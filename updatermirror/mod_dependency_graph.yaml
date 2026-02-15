@@ -26286,6 +26286,14 @@ celesteanypercenT:
   - Name: DJMapHelper
     Version: 1.9.4
   URL: https://gamebanana.com/mmdl/745301
+BufferVisualizer:
+  OptionalDependencies:
+  - Name: SpeedrunTool
+    Version: 3.27.2
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.5935.0
+  URL: https://gamebanana.com/mmdl/1626381
 I Cannot Say:
   OptionalDependencies: []
   Dependencies:
