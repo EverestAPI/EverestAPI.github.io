@@ -110435,6 +110435,10 @@ The Cotton Alley:
     Version: 1.14.10
   - Name: MaxHelpingHand
     Version: 1.35.2
+  - Name: SkinModHelperPlus
+    Version: 0.17.7
+  - Name: SkinModHelper
+    Version: 0.6.1
   - Name: EeveeHelper
     Version: 1.12.2
   - Name: FlaglinesAndSuch
@@ -110451,7 +110455,7 @@ The Cotton Alley:
     Version: 1.0.76
   - Name: AdventureHelper
     Version: 1.6.0
-  URL: https://gamebanana.com/mmdl/1478098
+  URL: https://gamebanana.com/mmdl/1632091
 BlahajQuest:
   OptionalDependencies: []
   Dependencies:
