@@ -1,28 +1,28 @@
 Mod:
   6800:
   - name: All
-    count: 4139
+    count: 4170
   - id: 6802
     name: Campaign
-    count: 473
+    count: 476
   - id: 6803
     name: Collab/Contest
-    count: 358
+    count: 362
   - id: 15667
     name: Multiplayer
     count: 24
   - id: 6801
     name: Standalone
-    count: 2574
+    count: 2593
   15655:
   - name: All
-    count: 118
+    count: 116
   - id: 15656
     name: Audio
     count: 53
   - id: 15657
     name: Graphics
-    count: 54
+    count: 52
   4632:
   - name: All
     count: 154
@@ -46,29 +46,29 @@ Mod:
     count: 15
   11181:
   - name: All
-    count: 325
+    count: 329
   - id: 16940
     name: Collectibles
     count: 36
   - id: 11182
     name: Other/Misc
-    count: 71
+    count: 73
   - id: 11183
     name: Player
-    count: 171
+    count: 172
   2317:
   - name: All
     count: 54
 Tool:
   0:
   - name: All
-    count: 66
+    count: 67
   - id: 653
     name: Ahorn Plugin
     count: 6
   - id: 1098
     name: Lönn Plugin
-    count: 18
+    count: 19
   - id: 1654
     name: Mod Installer
     count: 4
@@ -81,10 +81,10 @@ Tool:
 Wip:
   0:
   - name: All
-    count: 103
+    count: 101
   - id: 680
     name: Maps
-    count: 77
+    count: 75
   - id: 466
     name: Other/Misc
     count: 26
