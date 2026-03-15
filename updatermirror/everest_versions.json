@@ -286,21 +286,6 @@
     "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5444/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
   },
   {
-    "date": "2026-01-14T02:55:36.1304921Z",
-    "olympusBuildFileSize": 71691955,
-    "mainFileSize": 71925826,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5436/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "author": "SnipUndercover",
-    "commit": "1922e54e683e77b6348d123b530da4ddbb7bdef1",
-    "description": "Implement map-specific postcard textures",
-    "branch": "dev",
-    "version": 6136,
-    "isNative": true,
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5436/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 269,
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5436/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
-  },
-  {
     "date": "2026-01-24T19:01:29Z",
     "olympusBuildFileSize": 71683715,
     "mainFileSize": 71619855,
