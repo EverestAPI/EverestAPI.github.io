@@ -101474,6 +101474,20 @@ CanyonHelper:
   - Name: EverestCore
     Version: 1.4465.0
   URL: https://gamebanana.com/mmdl/1360982
+dreamkevin:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: NerdHelper
+    Version: 1.6.3
+  - Name: ChroniaHelper
+    Version: 1.44.8
+  - Name: Everest
+    Version: 1.6170.0
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: MaxHelpingHand
+    Version: 1.39.16
+  URL: https://gamebanana.com/mmdl/1648730
 Shockbounce:
   OptionalDependencies: []
   Dependencies:
