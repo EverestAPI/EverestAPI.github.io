@@ -54120,6 +54120,30 @@ LittleEpic's Precision Challenge:
   - Name: DJMapHelper
     Version: 1.11.1
   URL: https://gamebanana.com/mmdl/1243114
+Nibblz Insanity gv:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FlaglinesAndSuch
+    Version: 1.6.65
+  - Name: FrostHelper
+    Version: 1.77.1
+  - Name: BounceHelper
+    Version: 1.14.0
+  - Name: HonlyHelper
+    Version: 1.7.5
+  - Name: ChroniaHelper
+    Version: 1.47.32
+  - Name: Everest
+    Version: 1.6170.0
+  - Name: ExtendedVariantMode
+    Version: 0.48.0
+  - Name: CommunalHelper
+    Version: 1.24.5
+  - Name: ArphimigonsToyBox
+    Version: 1.4.1
+  - Name: OutbackHelper
+    Version: 1.7.3
+  URL: https://gamebanana.com/mmdl/1648732
 PerfectlyNormal:
   OptionalDependencies: []
   Dependencies:
