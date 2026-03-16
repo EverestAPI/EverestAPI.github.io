@@ -738,6 +738,40 @@ Celeste - Revengeance Mode:
   - Name: SorbetHelper
     Version: 1.0.0
   URL: https://gamebanana.com/mmdl/876329
+Curio Contest:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.6188.0
+  - Name: ExtendedVariantMode
+    Version: 0.47.10
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: MaxHelpingHand
+    Version: 1.39.17
+  - Name: Sardine7
+    Version: 1.2.0
+  - Name: FlaglinesAndSuch
+    Version: 1.6.65
+  - Name: FrostHelper
+    Version: 1.76.6
+  - Name: RainTools
+    Version: 0.1.0
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: ShroomHelper
+    Version: 1.2.10
+  - Name: CollabUtils2
+    Version: 1.12.7
+  - Name: SorbetHelper
+    Version: 1.8.3
+  - Name: Spooooky's Asset Pack
+    Version: 1.0.10
+  - Name: XaphanHelper
+    Version: 1.0.78
+  - Name: DJMapHelper
+    Version: 1.13.4
+  URL: https://gamebanana.com/mmdl/1648893
 straightflychallenge:
   OptionalDependencies: []
   Dependencies:
