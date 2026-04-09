@@ -45239,27 +45239,39 @@ Cryogenic:
 __:
   OptionalDependencies: []
   Dependencies:
+  - Name: Everest
+    Version: 1.6249.0
+  - Name: ExtendedVariantMode
+    Version: 0.47.10
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: JackalHelper
+    Version: 1.7.6
+  - Name: MaxHelpingHand
+    Version: 1.39.18
+  - Name: LuaCutscenes
+    Version: 0.2.13
+  - Name: bitsbolts
+    Version: 1.4.8
   - Name: EeveeHelper
     Version: 1.12.5
   - Name: FrostHelper
     Version: 1.78.0
   - Name: MoreDasheline
     Version: 1.7.1
-  - Name: Everest
-    Version: 1.6249.0
-  - Name: ExtendedVariantMode
-    Version: 0.47.10
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.15.10
   - Name: Microlith57MiscellaneousMechanics
     Version: 1.2.2
-  - Name: VivHelper
-    Version: 1.14.10
+  - Name: XaphanHelper
+    Version: 1.0.78
   - Name: AurorasHelper
     Version: 0.12.5
-  - Name: MaxHelpingHand
-    Version: 1.39.18
-  - Name: bitsbolts
-    Version: 1.4.8
-  URL: https://gamebanana.com/mmdl/1671719
+  - Name: PandorasBox
+    Version: 1.0.49
+  URL: https://gamebanana.com/mmdl/1671851
 Sunset Rise:
   OptionalDependencies: []
   Dependencies:
