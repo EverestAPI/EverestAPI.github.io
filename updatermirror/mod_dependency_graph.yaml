@@ -114769,6 +114769,8 @@ FOCUS:
     Version: 1.2.19
   - Name: CrystallineHelper
     Version: 1.16.5
+  - Name: ChroniaHelper
+    Version: 1.47.28
   - Name: CommunalHelper
     Version: 1.21.1
   - Name: FemtoHelper
@@ -114783,7 +114785,7 @@ FOCUS:
     Version: 1.0.75
   - Name: KoseiHelper
     Version: 1.12.3.1
-  URL: https://gamebanana.com/mmdl/1651168
+  URL: https://gamebanana.com/mmdl/1672132
 SpireOfFools:
   OptionalDependencies: []
   Dependencies:
