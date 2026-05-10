@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-05-23T21:12:35.4017111Z",
+    "changelog": "∙ Do not show download progress when getting the file size fails",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5612/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.05.23.02",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5612/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5612/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-05-23T20:49:55.2980357Z",
+    "changelog": "∙ Fixed installing Everest from a .zip file",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5611/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.05.23.01",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5611/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5611/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-05-17T21:44:24.8576165Z",
+    "changelog": "∙ Point more explicitly to log.txt and log-sharp.txt in instructions to ask for help with crashes",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5610/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.05.17.01",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5610/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5610/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-05-03T09:54:43.645107Z",
     "changelog": "∙ Fixed crash when fetching Everest versions fails when checking for updates in the background\n∙ Fixed crash on startup when a version of Everest compiled from source is installed",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5598/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
@@ -124,41 +151,5 @@
     "version": "26.04.16.01",
     "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5565/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
     "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5565/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-03-21T19:36:02.2025946Z",
-    "changelog": "∙ Make sure the Download button is greyed out when appropriate in the \"Download Mods\" section when the API mirror is enabled\n∙ Fixed the \"edit modpresets.txt\" button when on Linux, or when language is set to French",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5526/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.03.21.03",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5526/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5526/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-03-21T19:28:10.5106374Z",
-    "changelog": "∙ Make sure the Download button is greyed out when appropriate in the \"Download Mods\" section when the API mirror is enabled\n∙ Fixed the \"edit modpresets.txt\" button when on Linux, or when language is set to French",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5525/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "windows-init",
-    "version": "26.03.21.02",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5525/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5525/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-03-21T19:22:19.9171421Z",
-    "changelog": "∙ Make sure the Download button is greyed out when appropriate in the \"Download Mods\" section when the API mirror is enabled\n∙ Fixed the \"edit modpresets.txt\" button when on Linux, or when language is set to French",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5524/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "stable",
-    "version": "26.03.21.01",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5524/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5524/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-03-15T15:50:49.7202062Z",
-    "changelog": "∙ Make sure the Download button is greyed out when appropriate in the \"Download Mods\" section when the API mirror is enabled",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5509/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.03.15.02",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5509/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5509/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
   }
 ]
