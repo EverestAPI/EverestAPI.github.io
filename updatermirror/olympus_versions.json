@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-06-06T20:22:23.7246279Z",
+    "changelog": "∙ Manage Installed Mods: Added a button to install a mod from a .zip",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5632/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.06.06.03",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5632/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5632/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-05-30T20:15:42.7253409Z",
+    "changelog": "∙ Point more explicitly to log.txt and log-sharp.txt in instructions to ask for help with crashes\n∙ Fixed installing Everest from a .zip file\n∙ Do not show download progress when getting the file size fails",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5622/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.05.30.04",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5622/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5622/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-05-30T20:11:48.3313536Z",
+    "changelog": "∙ Point more explicitly to log.txt and log-sharp.txt in instructions to ask for help with crashes\n∙ Fixed installing Everest from a .zip file\n∙ Do not show download progress when getting the file size fails",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5621/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "windows-init",
+    "version": "26.05.30.03",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5621/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5621/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-05-30T20:04:09.7066457Z",
+    "changelog": "∙ Point more explicitly to log.txt and log-sharp.txt in instructions to ask for help with crashes\n∙ Fixed installing Everest from a .zip file\n∙ Do not show download progress when getting the file size fails",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5618/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "stable",
+    "version": "26.05.30.01",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5618/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5618/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-05-23T21:12:35.4017111Z",
     "changelog": "∙ Do not show download progress when getting the file size fails",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5612/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
