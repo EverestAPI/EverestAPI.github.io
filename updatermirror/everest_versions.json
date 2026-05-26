@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-05-30T20:12:17.1284326Z",
+    "olympusBuildFileSize": 71695307,
+    "mainFileSize": 71929164,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5619/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "maddie480-bot",
+    "commit": "202f53af5e781f52b8006778f6ebabaf13c4f13f",
+    "description": "Bump TAS Check dependencies",
+    "branch": "dev",
+    "version": 6319,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5619/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5619/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-05-30T19:44:27.3156822Z",
+    "olympusBuildFileSize": 71695300,
+    "mainFileSize": 71929231,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5617/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5617/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "commit": "b24dd1e6ed4efc912e341de44b74497335393dce",
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5617/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip",
+    "branch": "beta",
+    "version": 6317,
+    "isNative": true
+  },
+  {
+    "date": "2026-05-30T19:36:50Z",
+    "olympusBuildFileSize": 71689340,
+    "mainFileSize": 71623452,
+    "mainDownload": "https://github.com/EverestAPI/Everest/releases/download/stable-1.6314.0/main.zip",
+    "olympusMetaDownload": "https://github.com/EverestAPI/Everest/releases/download/stable-1.6314.0/olympus-meta.zip",
+    "olympusMetaFileSize": 355,
+    "commit": "a3112074ae83766af9f8cf48295689bbd8166730",
+    "olympusBuildDownload": "https://github.com/EverestAPI/Everest/releases/download/stable-1.6314.0/olympus-build.zip",
+    "branch": "stable",
+    "version": 6314,
+    "isNative": true
+  },
+  {
     "date": "2026-05-16T20:27:04.7268832Z",
     "olympusBuildFileSize": 71693838,
     "mainFileSize": 71929220,
@@ -310,21 +351,6 @@
     "branch": "stable",
     "version": 6242,
     "isNative": true
-  },
-  {
-    "date": "2026-03-30T07:48:37.9778939Z",
-    "olympusBuildFileSize": 71693765,
-    "mainFileSize": 71929206,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5535/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "author": "microlith57",
-    "commit": "e8142070eae528f4e195ab33a6ad202093204675",
-    "description": "make animationSpeed decalregistry handler accept floats (#1097)",
-    "branch": "dev",
-    "version": 6235,
-    "isNative": true,
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5535/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 269,
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5535/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
   },
   {
     "date": "2026-03-07T19:39:28Z",

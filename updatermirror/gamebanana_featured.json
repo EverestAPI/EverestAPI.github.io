@@ -2,48 +2,146 @@
   {
     "CategoryId": 6800,
     "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/6a1453d5b2c81.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a1453d5c09aa.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a1453d5d29fc.jpg"
+      "https://images.gamebanana.com/img/ss/mods/6a1cd788dcfdf.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a1cddfcdd51d.jpg"
     ],
-    "Description": "miku",
-    "Views": 103,
+    "Description": "The Mountain needs YOUR help!",
+    "Views": 72,
     "GameBananaType": "Mod",
     "TokenizedName": [
-      "lemon",
-      "melon",
-      "cookie"
+      "celestroll",
+      "facility"
     ],
-    "UpdatedDate": 1779718281,
+    "UpdatedDate": 1780278245,
     "SubcategoryId": 6803,
     "SubcategoryName": "Collab/Contest",
-    "GameBananaId": 680219,
+    "GameBananaId": 682191,
     "Featured": {
       "Category": "today",
       "Position": 0
     },
-    "Text": "Dashless bounce helper map (Advanced difficulty ?)<br>MTC4 entry<br>Miku<br>song used: <a href=\"https://www.youtube.com/watch?v=5l8VZEyNRH8\">[MV] TAK - \u2018LEMON MELON COOKIE\u2019 feat. 初音ミク<\/a>",
-    "ModifiedDate": 1779718232,
-    "Name": "Lemon Melon Cookie",
-    "PageURL": "https://gamebanana.com/mods/680219",
+    "Text": "Oh no! A Mysterious Evil Facility(tm) is destroying Celeste Mountain, and it's up to you to break in and shut it down! I sure hope there's no surprises on the way...<br><br>Made for the Any Game Troll Contest! If you are streaming the level and are worried about copyright strikes, there is quite a bit of custom music in here (mostly Nintendo stuff). You can turn down the music from the options menu at any time, but of course the level won't be AS funny.",
+    "ModifiedDate": 1780280956,
+    "Name": "Celestroll Facility",
+    "PageURL": "https://gamebanana.com/mods/682191",
     "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a1453d5b2c81.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a1453d5c09aa.png"
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a1cd788dcfdf.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a1cddfcdd51d.png"
     ],
-    "CreatedDate": 1779716431,
-    "Author": "MapleFoxx",
+    "CreatedDate": 1780278245,
+    "Author": "hennyburgr",
     "CategoryName": "Maps",
-    "Downloads": 22,
-    "Likes": 8,
+    "Downloads": 17,
+    "Likes": 4,
     "Files": [{
-      "Description": "",
+      "Description": "1.0.0",
       "HasEverestYaml": true,
-      "Size": 5779250,
-      "CreatedDate": 1779718230,
-      "Downloads": 19,
-      "URL": "https://gamebanana.com/dl/1710936",
-      "Name": "maplelemonmelon_f4d54.zip"
+      "Size": 23962452,
+      "CreatedDate": 1780275668,
+      "Downloads": 17,
+      "URL": "https://gamebanana.com/dl/1716902",
+      "Name": "hennyburgr_celestetroll.zip"
     }]
+  },
+  {
+    "CategoryId": 6800,
+    "Screenshots": [
+      "https://images.gamebanana.com/img/ss/mods/6a1c5b4379940.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a1c5b4344236.jpg"
+    ],
+    "Description": "",
+    "Views": 69,
+    "GameBananaType": "Mod",
+    "TokenizedName": [
+      "stop",
+      "swimming",
+      "loch",
+      "ness",
+      "monster"
+    ],
+    "UpdatedDate": 1780243580,
+    "SubcategoryId": 6801,
+    "SubcategoryName": "Standalone",
+    "GameBananaId": 682054,
+    "Featured": {
+      "Category": "today",
+      "Position": 1
+    },
+    "Text": "A short <span class=\"GreenColor\">6 rooms<\/span> map.<br>Difficulty: <span class=\"RedColor\">Expert<\/span><br>Tech: Dream Jump, Dream Grab, Wallbounce<br>Music used: Flying by 四人囃子(Yonin Bayashi)",
+    "ModifiedDate": 1780243580,
+    "Name": "Stop Swimming, Loch Ness Monster",
+    "PageURL": "https://gamebanana.com/mods/682054",
+    "MirroredScreenshots": [
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a1c5b4379940.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a1c5b4344236.png"
+    ],
+    "CreatedDate": 1780243580,
+    "Author": "InkRat",
+    "CategoryName": "Maps",
+    "Downloads": 11,
+    "Likes": 3,
+    "Files": [{
+      "Description": "1.0.0",
+      "HasEverestYaml": true,
+      "Size": 7634550,
+      "CreatedDate": 1780243343,
+      "Downloads": 11,
+      "URL": "https://gamebanana.com/dl/1716456",
+      "Name": "badwayopus16.zip"
+    }]
+  },
+  {
+    "CategoryId": 15655,
+    "Screenshots": [
+      "https://images.gamebanana.com/img/ss/mods/6a1c8278642bb.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a1c82c1459be.jpg"
+    ],
+    "Description": "Wawawa",
+    "Views": 40,
+    "GameBananaType": "Mod",
+    "TokenizedName": [
+      "wymikis",
+      "assetpack"
+    ],
+    "UpdatedDate": 1780270225,
+    "GameBananaId": 682094,
+    "Featured": {
+      "Category": "today",
+      "Position": 2
+    },
+    "Text": "Welcome to my fun little asset pack :)<br>As for now, only holding gears, mushrooms, and cliff trees variants. However, I'll be expanding this asset pack as I make more sprites!<br>Made a lil<a href=\"https://github.com/wymikii/wymiki-asset-pack-/wiki\"> GitHub wiki <\/a>with some tips, make sure to check it out!<br><span class=\"RedColor\">If you use this asset pack, please make sure to credit me!<\/span><br><br>Feel free to ping me on discord for any question, issues or overall feedback ^^",
+    "ModifiedDate": 1780270078,
+    "Name": "Wymiki's AssetPack!",
+    "PageURL": "https://gamebanana.com/mods/682094",
+    "MirroredScreenshots": [
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a1c8278642bb.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a1c82c1459be.png"
+    ],
+    "CreatedDate": 1780253394,
+    "Author": "wymiki",
+    "CategoryName": "Assets",
+    "Downloads": 7,
+    "Likes": 2,
+    "Files": [
+      {
+        "Description": "1.0.1.1 - Forgot to delete the test map :<",
+        "HasEverestYaml": true,
+        "Size": 99414,
+        "CreatedDate": 1780270052,
+        "Downloads": 5,
+        "URL": "https://gamebanana.com/dl/1716835",
+        "Name": "wymiki_sassetpack__863a5.zip"
+      },
+      {
+        "Description": "ARCHIVED - 1.0.1 - Marchrooms + Cogs + Clifftrees!",
+        "HasEverestYaml": true,
+        "Size": 101329,
+        "CreatedDate": 1780253158,
+        "Downloads": 2,
+        "URL": "https://gamebanana.com/dl/1716592",
+        "Name": "wymiki_sassetpack__a3a6d.zip"
+      }
+    ]
   },
   {
     "CategoryId": 6800,
@@ -55,7 +153,7 @@
       "https://images.gamebanana.com/img/ss/mods/6a145a9f0a767.jpg"
     ],
     "Description": "The groove never left~",
-    "Views": 149,
+    "Views": 354,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "slow",
@@ -66,8 +164,8 @@
     "SubcategoryName": "Collab/Contest",
     "GameBananaId": 680228,
     "Featured": {
-      "Category": "today",
-      "Position": 1
+      "Category": "week",
+      "Position": 3
     },
     "Text": "Welcome to the Groove!<br><br>Slow Groovin' is my entry to Music Translation Contest 4, it is a map centered around bumpers, gravity helper and an entity that was custom coded by me for the map! A disco ball that will help you proceed through each room.<br><br>Your objective is to help Theo fix every room in his nightclub before he opens, or his business might be ruined! <br><br>The song used for the map is of the same name, you can listen to it here: <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/EtiuYbojIOc\" frameborder=\"0\" allowfullscreen=\"\"><\/iframe>",
     "ModifiedDate": 1779720565,
@@ -80,14 +178,14 @@
     "CreatedDate": 1779719109,
     "Author": "Chelito0607",
     "CategoryName": "Maps",
-    "Downloads": 34,
-    "Likes": 14,
+    "Downloads": 105,
+    "Likes": 15,
     "Files": [{
       "Description": "",
       "HasEverestYaml": true,
       "Size": 4770265,
       "CreatedDate": 1779720036,
-      "Downloads": 27,
+      "Downloads": 98,
       "URL": "https://gamebanana.com/dl/1710952",
       "Name": "slowgroovin_b9426.zip"
     }]
@@ -100,7 +198,7 @@
       "https://images.gamebanana.com/img/ss/mods/6a14db01a36fe.jpg"
     ],
     "Description": "Go on a short excursion through the city!",
-    "Views": 88,
+    "Views": 305,
     "GameBananaType": "Mod",
     "TokenizedName": ["excursions"],
     "UpdatedDate": 1779751842,
@@ -108,8 +206,8 @@
     "SubcategoryName": "Standalone",
     "GameBananaId": 680374,
     "Featured": {
-      "Category": "today",
-      "Position": 2
+      "Category": "week",
+      "Position": 4
     },
     "Text": "A medium-length excursion for <a href=\"https://gamebanana.com/jams/224\">Music Translation Contest 4<\/a> based on <a href=\"https://www.youtube.com/watch?v=jjuMyBEJAH8\">Excursions<\/a> by C418.<br><br>Contains about <b>30<\/b> rooms of <b>intermediate/advanced<\/b> gameplay with many berries to find across 2 checkpoints. I really had a ton of fun making this, it's probably my best work despite being made in about 3-4 days. I wasn't planning on making another mtc4 map but I rediscovered this song and I absolutely love how all the atmospheric textures coalesce into a sort of hazy mirage which I tried to recreate in the map.",
     "ModifiedDate": 1779760167,
@@ -122,152 +220,60 @@
     "CreatedDate": 1779751842,
     "Author": "Yoshachobi7",
     "CategoryName": "Maps",
-    "Downloads": 29,
-    "Likes": 8,
+    "Downloads": 130,
+    "Likes": 14,
     "Files": [{
       "Description": "",
       "HasEverestYaml": true,
       "Size": 18826783,
       "CreatedDate": 1779760162,
-      "Downloads": 18,
+      "Downloads": 119,
       "URL": "https://gamebanana.com/dl/1711464",
       "Name": "excursions_51990.zip"
     }]
   },
   {
-    "CategoryId": 11181,
-    "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/6a108d5623b46.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a108d6f2970a.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a108d6fb6d45.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a108eac453ef.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a108d6fa48dd.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a108d6fd7bec.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a108d6fa0127.jpg"
-    ],
-    "Description": "Unleash your inner wolf!!!",
-    "Views": 477,
-    "GameBananaType": "Mod",
-    "TokenizedName": [
-      "wordwolf",
-      "skinmod"
-    ],
-    "UpdatedDate": 1779470704,
-    "SubcategoryId": 11183,
-    "SubcategoryName": "Player",
-    "GameBananaId": 679247,
-    "Featured": {
-      "Category": "week",
-      "Position": 3
-    },
-    "Text": "Ever grown tired of your humanity??, always wanted to be a playful wolf??, then with this mod you can do so in Celeste!1!.<br><br>Now bringing to the game the Wordwolf skinmod!!, get to play with this little critter while climbing any Mountain!!!.<br><br>This mod changes all of Madeline sprites, as well as added support for modded mechanics such as the nail mechanic, elytra, aqua hook and slide, directional dashes and more!!.<br><br>It also comes with a custom textbox and portraits, so enjoy a full experience without seeing Madeline again!!.<br><br>There is even a second variant with custom wallbounces and super dashes!. So be sure to have selected the \"extra\u201d variant on smh+ menu to enjoy the full set of movements for the skin!!<br><hr>I want to use this opportunity to thanks Wordwolf for their commission, i can say this mod is one of the most unique one i have had the pleasure to work on, and im very happy with the result.<br><br>i knew i would have a lot of fun thinking on animations for the skin, and while it was challenging due to its animalistic theme, im really glad they not only choose me for this task, but also very grateful for the patience they had in waiting for me till i could be open for their&nbsp; project ^^&nbsp;",
-    "ModifiedDate": 1779470704,
-    "Name": "WORDWOLF - Skinmod",
-    "PageURL": "https://gamebanana.com/mods/679247",
-    "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a108d5623b46.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a108d6f2970a.png"
-    ],
-    "CreatedDate": 1779470704,
-    "Author": "Zaro123",
-    "CategoryName": "Skins",
-    "Downloads": 92,
-    "Likes": 19,
-    "Files": [{
-      "Description": "",
-      "HasEverestYaml": true,
-      "Size": 2988352,
-      "CreatedDate": 1779470232,
-      "Downloads": 92,
-      "URL": "https://gamebanana.com/dl/1708299",
-      "Name": "wordwolf_skinmod.zip"
-    }]
-  },
-  {
     "CategoryId": 6800,
     "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/6a128d474e542.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a128d94caa20.jpg"
+      "https://images.gamebanana.com/img/ss/mods/6a14fdd294e4e.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a14fdd2d3bca.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a14fdd2c9d56.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a14fdd2d43b0.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a14fdd2d4ab3.jpg"
     ],
-    "Description": "1 song, 20+ contributors, in the dream of Metropolis.",
-    "Views": 424,
+    "Description": "An energetic kitty of a map by gooseberry and Donker19!",
+    "Views": 383,
     "GameBananaType": "Mod",
-    "TokenizedName": [
-      "sleep",
-      "talk",
-      "metropolis"
-    ],
-    "UpdatedDate": 1779711284,
+    "TokenizedName": ["meow"],
+    "UpdatedDate": 1779809033,
     "SubcategoryId": 6801,
     "SubcategoryName": "Standalone",
-    "GameBananaId": 679759,
-    "Featured": {
-      "Category": "week",
-      "Position": 4
-    },
-    "Text": "Song: <b>Sleep Talk Metropolis<\/b> By <b>Mili<\/b><br>Difficulty: <span class=\"GreenColor\"><b>Intermediate <\/b>~<b> <span class=\"RedColor\">grandexpert<\/span><\/b><br><\/span><br><i>Life is like a dream, catching the light in the grey.<br>Follow your heart, in this, Sleep Talk Metropolis.<\/i><br><br>Sleep Talk Metropolis is a mtc4 entry by <b>15 <\/b>mappers, each contributing <b>1\u20132 parts <\/b>of the song.<br><br>The concept revolves around <b><span class=\"RedColor\">music sync<\/span><\/b>.<br><br>Of course, not every rhythm is strictly enforced \u2014 that probably wouldn't be fun. But you won't like it when it's offbeat.<br><br>So, just enjoy the different mapping styles and flavors!<br><br>",
-    "ModifiedDate": 1779712027,
-    "Name": "Sleep Talk Metropolis",
-    "PageURL": "https://gamebanana.com/mods/679759",
-    "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a128d474e542.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a128d94caa20.png"
-    ],
-    "CreatedDate": 1779600840,
-    "Author": "shadowRo",
-    "CategoryName": "Maps",
-    "Downloads": 104,
-    "Likes": 14,
-    "Files": [{
-      "Description": "1.0.3 - Main File",
-      "HasEverestYaml": true,
-      "Size": 11984312,
-      "CreatedDate": 1779711014,
-      "Downloads": 29,
-      "URL": "https://gamebanana.com/dl/1710856",
-      "Name": "sleep_talk_metropolis_6e24e.zip"
-    }]
-  },
-  {
-    "CategoryId": 6800,
-    "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/6a11360424377.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a1136132c4bf.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a113620c30ae.jpg"
-    ],
-    "Description": "Reach out, feel the weight of the rain",
-    "Views": 314,
-    "GameBananaType": "Mod",
-    "TokenizedName": ["flowline"],
-    "UpdatedDate": 1779513405,
-    "SubcategoryId": 6801,
-    "SubcategoryName": "Standalone",
-    "GameBananaId": 679430,
+    "GameBananaId": 680417,
     "Featured": {
       "Category": "week",
       "Position": 5
     },
-    "Text": "After a long rest, I finally picked up<i> Lönn<\/i>&nbsp;again and made this map in a mix of emotions.<br><b>Flowline <\/b>can stand for anything you want it to be. I'm quite satisfied with the atmosphere it presents, rainy days, colorless buildings, a feeling of serenity, loneliness and sorrow. You could certainly call it a second Gray City, which is another map with lovely vibe in DC2020, and that's exactly the kind of mood I was trying to recapture.<br>Music: <i>Puddles<\/i> by Jay-Lounge, <i>I'm So Sorry<\/i> by Liam Mc Cay<br><hr>As for the specifics:<br><ul><li><b>8<\/b>&nbsp;main gameplay rooms, focusing on the&nbsp;<b>zipmover<\/b>&nbsp;and <b>wallbooster<\/b><\/li><li>Difficulty from <span class=\"RedColor\">red<\/span> exp to <span class=\"GreenColor\">green<\/span> gm. <b>NOTICE! Sometimes strict and <span class=\"RedColor\">INCONSISTENT<\/span> inputs are required.<\/b><\/li><li>Some other unique scenes.<\/li><li>An antenna station.<\/li><li>No collectibles.<\/li><\/ul><hr>I want to thank all of my friends--they offered huge help along the way.<br>Hope you'll enjoy the scenery here!",
-    "ModifiedDate": 1779602781,
-    "Name": "Flowline",
-    "PageURL": "https://gamebanana.com/mods/679430",
+    "Text": "A map for <a href=\"https://gamebanana.com/jams/224\">Music Translation Contest 4 <\/a>using <a href=\"https://www.youtube.com/watch?v=oSeQ1_QNf-c\">Meow by Anamanaguchi<\/a>!<br><br>The map has 13 rooms and 3 berries, and is roughly red-advanced difficulty throughout 2 checkpoints. The entire map was made in less then 24 hours by both myself and the lovely Donker19, thanks to him for starting the map and this lovely collaboration! (And thanks to Moladan for approving our brief 2.5 hour extension :3) <br><br>Meow :3",
+    "ModifiedDate": 1779808971,
+    "Name": "Meow",
+    "PageURL": "https://gamebanana.com/mods/680417",
     "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a11360424377.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a1136132c4bf.png"
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a14fdd294e4e.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a14fdd2d3bca.png"
     ],
-    "CreatedDate": 1779513405,
-    "Author": "rifs",
+    "CreatedDate": 1779762936,
+    "Author": "goose!",
     "CategoryName": "Maps",
-    "Downloads": 62,
-    "Likes": 12,
+    "Downloads": 117,
+    "Likes": 13,
     "Files": [{
-      "Description": "",
+      "Description": "1.0.1",
       "HasEverestYaml": true,
-      "Size": 14946718,
-      "CreatedDate": 1779522843,
-      "Downloads": 48,
-      "URL": "https://gamebanana.com/dl/1708914",
-      "Name": "flowline_d6740.zip"
+      "Size": 35757034,
+      "CreatedDate": 1779808942,
+      "Downloads": 93,
+      "URL": "https://gamebanana.com/dl/1711858",
+      "Name": "meow_v1_0_1.zip"
     }]
   },
   {
@@ -281,7 +287,7 @@
       "https://images.gamebanana.com/img/ss/mods/69fdc63ab55a3.jpg"
     ],
     "Description": "Dreaming of Falling Flowers",
-    "Views": 1669,
+    "Views": 1969,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "where",
@@ -307,15 +313,15 @@
     "CreatedDate": 1778239101,
     "Author": "tmszzzzz",
     "CategoryName": "Maps",
-    "Downloads": 467,
-    "Likes": 20,
+    "Downloads": 555,
+    "Likes": 21,
     "Files": [
       {
         "Description": "",
         "HasEverestYaml": true,
         "Size": 57369103,
         "CreatedDate": 1778835645,
-        "Downloads": 202,
+        "Downloads": 286,
         "URL": "https://gamebanana.com/dl/1702116",
         "Name": "104--wheremoonlightfalls.zip"
       },
@@ -324,7 +330,7 @@
         "HasEverestYaml": true,
         "Size": 57368639,
         "CreatedDate": 1778559248,
-        "Downloads": 97,
+        "Downloads": 98,
         "URL": "https://gamebanana.com/dl/1699693",
         "Name": "103--wheremoonlightfalls.zip"
       },
@@ -333,7 +339,7 @@
         "HasEverestYaml": true,
         "Size": 57368011,
         "CreatedDate": 1778400713,
-        "Downloads": 59,
+        "Downloads": 60,
         "URL": "https://gamebanana.com/dl/1697976",
         "Name": "102--wheremoonlightfalls.zip"
       },
@@ -342,7 +348,7 @@
         "HasEverestYaml": true,
         "Size": 57369438,
         "CreatedDate": 1778332779,
-        "Downloads": 40,
+        "Downloads": 41,
         "URL": "https://gamebanana.com/dl/1697123",
         "Name": "101--wheremoonlightfalls.zip"
       },
@@ -351,100 +357,104 @@
         "HasEverestYaml": true,
         "Size": 57368293,
         "CreatedDate": 1778238749,
-        "Downloads": 69,
+        "Downloads": 70,
         "URL": "https://gamebanana.com/dl/1696140",
         "Name": "100--wheremoonlightfalls.zip"
       }
     ]
   },
   {
-    "CategoryId": 6800,
+    "CategoryId": 11181,
     "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/6a08ff4462d70.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a08f8a4013fe.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a08f8a408257.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a08f8a417755.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a08f8a41944a.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a08f8a4d2e11.jpg"
+      "https://images.gamebanana.com/img/ss/mods/6a108d5623b46.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a108d6f2970a.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a108d6fb6d45.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a108eac453ef.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a108d6fa48dd.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a108d6fd7bec.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a108d6fa0127.jpg"
     ],
-    "Description": "Clay Bricks Touched by Human Hands",
-    "Views": 631,
+    "Description": "Unleash your inner wolf!!!",
+    "Views": 964,
     "GameBananaType": "Mod",
     "TokenizedName": [
-      "inside",
-      "the",
-      "sarcophagus"
+      "wordwolf",
+      "skinmod"
     ],
-    "UpdatedDate": 1778974157,
-    "SubcategoryId": 6801,
-    "SubcategoryName": "Standalone",
-    "GameBananaId": 677803,
+    "UpdatedDate": 1779470704,
+    "SubcategoryId": 11183,
+    "SubcategoryName": "Player",
+    "GameBananaId": 679247,
     "Featured": {
       "Category": "month",
       "Position": 7
     },
-    "Text": "I originally wasn't going to do anything this MTC, but boy oh boy did I fold...<br><br>Inside The Sarcophagus is a <b>50 <\/b>room dashless map with an innate extra jump, a ton of diverse cycle gameplay, <b>20 <\/b>berries, and a poem that unfolds as you progress through each checkpoint. There are a lot of themes and ideas that I got through the song (linked <a href=\"https://youtu.be/Rm8o85tCZc8?list=RDRm8o85tCZc8\" target=\"_blank\">here!<\/a>), that I wanted to personify within the setting, gameplay, dialogue, etc etc etc. I'm not going to say them here though, you'll have to come up with your own interpretation! I also took on an artist role and drew among other things an endscreen and icon, which was super refreshing and fun to do.<br><br>As for difficulty, I'll say <span class=\"RedColor\">advanced<\/span> maybe? It's hard to rate partially because it's completable techless, it scales pretty intensely to the point where I'd say the first checkpoint is pretty comfortably beginner, and on top of that this map has some tricks up its sleeve that make the difficulty hard to evaluate, you'll see what I mean when you play it! Execution-wise though, there's no tech required, and a lot of rooms are even relatively open-ended. Because of this, if anyone streams this, please ping me on discord @abuffzucchini, I'd especially love to watch people play this one. Have fun!<br>",
-    "ModifiedDate": 1779235454,
-    "Name": "Inside The Sarcophagus",
-    "PageURL": "https://gamebanana.com/mods/677803",
+    "Text": "Ever grown tired of your humanity??, always wanted to be a playful wolf??, then with this mod you can do so in Celeste!1!.<br><br>Now bringing to the game the Wordwolf skinmod!!, get to play with this little critter while climbing any Mountain!!!.<br><br>This mod changes all of Madeline sprites, as well as added support for modded mechanics such as the nail mechanic, elytra, aqua hook and slide, directional dashes and more!!.<br><br>It also comes with a custom textbox and portraits, so enjoy a full experience without seeing Madeline again!!.<br><br>There is even a second variant with custom wallbounces and super dashes!. So be sure to have selected the \"extra\u201d variant on smh+ menu to enjoy the full set of movements for the skin!!<br><hr>I want to use this opportunity to thanks Wordwolf for their commission, i can say this mod is one of the most unique one i have had the pleasure to work on, and im very happy with the result.<br><br>i knew i would have a lot of fun thinking on animations for the skin, and while it was challenging due to its animalistic theme, im really glad they not only choose me for this task, but also very grateful for the patience they had in waiting for me till i could be open for their&nbsp; project ^^&nbsp;",
+    "ModifiedDate": 1779470704,
+    "Name": "WORDWOLF - Skinmod",
+    "PageURL": "https://gamebanana.com/mods/679247",
     "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a08ff4462d70.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a08f8a4013fe.png"
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a108d5623b46.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a108d6f2970a.png"
     ],
-    "CreatedDate": 1778974157,
-    "Author": "ABuffZucchini",
-    "CategoryName": "Maps",
-    "Downloads": 202,
-    "Likes": 16,
+    "CreatedDate": 1779470704,
+    "Author": "Zaro123",
+    "CategoryName": "Skins",
+    "Downloads": 183,
+    "Likes": 19,
     "Files": [{
-      "Description": "1.0.2 - The Map",
+      "Description": "",
       "HasEverestYaml": true,
-      "Size": 22977431,
-      "CreatedDate": 1779235443,
-      "Downloads": 110,
-      "URL": "https://gamebanana.com/dl/1706268",
-      "Name": "insidethesarcophagus_07934.zip"
+      "Size": 2988352,
+      "CreatedDate": 1779470232,
+      "Downloads": 183,
+      "URL": "https://gamebanana.com/dl/1708299",
+      "Name": "wordwolf_skinmod.zip"
     }]
   },
   {
     "CategoryId": 6800,
     "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/69efea61a37a8.jpg",
-      "https://images.gamebanana.com/img/ss/mods/69efea61b61cf.jpg"
+      "https://images.gamebanana.com/img/ss/mods/6a128d474e542.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a128d94caa20.jpg"
     ],
-    "Description": "look at them go",
-    "Views": 647,
+    "Description": "1 song, 20+ contributors, in the dream of Metropolis.",
+    "Views": 946,
     "GameBananaType": "Mod",
-    "TokenizedName": ["pedro"],
-    "UpdatedDate": 1777330837,
+    "TokenizedName": [
+      "sleep",
+      "talk",
+      "metropolis"
+    ],
+    "UpdatedDate": 1779711284,
     "SubcategoryId": 6801,
     "SubcategoryName": "Standalone",
-    "GameBananaId": 672910,
+    "GameBananaId": 679759,
     "Featured": {
       "Category": "month",
       "Position": 8
     },
-    "Text": "5 Rooms of Advanced, good luck!<br><br><br>Translation of this song:<br><a href=\"https://www.youtube.com/watch?v=RXKabdUBiWM\" class=\"SelectedElement\">Raffaella Carra X Jaxomy &amp; Agatino Romero - Pedro<\/a><br><br>",
-    "ModifiedDate": 1777330837,
-    "Name": "Pedro",
-    "PageURL": "https://gamebanana.com/mods/672910",
+    "Text": "Song: <b>Sleep Talk Metropolis<\/b> By <b>Mili<\/b><br>Difficulty: <span class=\"GreenColor\"><b>Intermediate <\/b>~<b> <span class=\"RedColor\">grandexpert<\/span><\/b><br><\/span><br><i>Life is like a dream, catching the light in the grey.<br>Follow your heart, in this, Sleep Talk Metropolis.<\/i><br><br>Sleep Talk Metropolis is a mtc4 entry by <b>15 <\/b>mappers, each contributing <b>1\u20132 parts <\/b>of the song.<br><br>The concept revolves around <b><span class=\"RedColor\">music sync<\/span><\/b>.<br><br>Of course, not every rhythm is strictly enforced \u2014 that probably wouldn't be fun. But you won't like it when it's offbeat.<br><br>So, just enjoy the different mapping styles and flavors!<br><br>",
+    "ModifiedDate": 1779712027,
+    "Name": "Sleep Talk Metropolis",
+    "PageURL": "https://gamebanana.com/mods/679759",
     "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_69efea61a37a8.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_69efea61b61cf.png"
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a128d474e542.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a128d94caa20.png"
     ],
-    "CreatedDate": 1777330837,
-    "Author": "Crispybag",
+    "CreatedDate": 1779600840,
+    "Author": "shadowRo",
     "CategoryName": "Maps",
-    "Downloads": 169,
-    "Likes": 14,
+    "Downloads": 205,
+    "Likes": 16,
     "Files": [{
-      "Description": "",
+      "Description": "1.0.3 - Main File",
       "HasEverestYaml": true,
-      "Size": 3395282,
-      "CreatedDate": 1777330809,
-      "Downloads": 169,
-      "URL": "https://gamebanana.com/dl/1687442",
-      "Name": "pedro.zip"
+      "Size": 11984312,
+      "CreatedDate": 1779711014,
+      "Downloads": 129,
+      "URL": "https://gamebanana.com/dl/1710856",
+      "Name": "sleep_talk_metropolis_6e24e.zip"
     }]
   },
   {
@@ -458,7 +468,7 @@
       "https://images.gamebanana.com/img/ss/mods/69cfed37af215.jpg"
     ],
     "Description": "Small plantlife blooming is a tiny victory",
-    "Views": 5906,
+    "Views": 6357,
     "GameBananaType": "Mod",
     "TokenizedName": ["sonder"],
     "UpdatedDate": 1775496567,
@@ -480,14 +490,14 @@
     "CreatedDate": 1775234405,
     "Author": "Crispybag",
     "CategoryName": "Maps",
-    "Downloads": 1587,
+    "Downloads": 1684,
     "Likes": 41,
     "Files": [{
       "Description": "1.0.3 - Final Version Surely",
       "HasEverestYaml": true,
       "Size": 11715316,
       "CreatedDate": 1775496429,
-      "Downloads": 1425,
+      "Downloads": 1520,
       "URL": "https://gamebanana.com/dl/1669303",
       "Name": "sonder_0d559.zip"
     }]
@@ -502,7 +512,7 @@
       "https://images.gamebanana.com/img/ss/mods/69cfb63071de5.jpg"
     ],
     "Description": "Wow, it's the slipperiest...",
-    "Views": 4748,
+    "Views": 4895,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "slipperiest",
@@ -527,7 +537,7 @@
     "CreatedDate": 1775229472,
     "Author": "Spooooky",
     "CategoryName": "Maps",
-    "Downloads": 1141,
+    "Downloads": 1192,
     "Likes": 35,
     "Files": [
       {
@@ -535,7 +545,7 @@
         "HasEverestYaml": true,
         "Size": 17854855,
         "CreatedDate": 1775386772,
-        "Downloads": 949,
+        "Downloads": 1000,
         "URL": "https://gamebanana.com/dl/1668239",
         "Name": "slipperiestnookv103.zip"
       },
@@ -576,7 +586,7 @@
       "https://images.gamebanana.com/img/ss/mods/69b6f6775a6f7.jpg"
     ],
     "Description": "A Road Trip Like Never Before!",
-    "Views": 3907,
+    "Views": 4001,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "road",
@@ -601,14 +611,14 @@
     "CreatedDate": 1773598402,
     "Author": "PPNyan",
     "CategoryName": "Maps",
-    "Downloads": 910,
+    "Downloads": 933,
     "Likes": 32,
     "Files": [{
       "Description": "",
       "HasEverestYaml": true,
       "Size": 142920394,
       "CreatedDate": 1773601664,
-      "Downloads": 902,
+      "Downloads": 925,
       "URL": "https://gamebanana.com/dl/1648638",
       "Name": "roadtrip_dceb3.zip"
     }]
@@ -621,7 +631,7 @@
       "https://images.gamebanana.com/img/ss/mods/69315113d47bc.jpg"
     ],
     "Description": "",
-    "Views": 43344,
+    "Views": 44445,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "crossover",
@@ -646,15 +656,15 @@
     "CreatedDate": 1764957576,
     "Author": "CrossoverCollab",
     "CategoryName": "Maps",
-    "Downloads": 87919,
-    "Likes": 103,
+    "Downloads": 90698,
+    "Likes": 104,
     "Files": [
       {
         "Description": "1.2.0",
         "HasEverestYaml": true,
         "Size": 107161615,
         "CreatedDate": 1779468702,
-        "Downloads": 1286,
+        "Downloads": 3073,
         "URL": "https://gamebanana.com/dl/1708271",
         "Name": "crossovercollab-120.zip"
       },
@@ -663,7 +673,7 @@
         "HasEverestYaml": true,
         "Size": 497387960,
         "CreatedDate": 1768057810,
-        "Downloads": 13638,
+        "Downloads": 14609,
         "URL": "https://gamebanana.com/dl/1599638",
         "Name": "crossovercollabaudio-110.zip"
       },
@@ -672,7 +682,7 @@
         "HasEverestYaml": true,
         "Size": 107159586,
         "CreatedDate": 1770307899,
-        "Downloads": 11025,
+        "Downloads": 11036,
         "URL": "https://gamebanana.com/dl/1617908",
         "Name": "crossovercollab-113.zip"
       },
@@ -681,7 +691,7 @@
         "HasEverestYaml": true,
         "Size": 108175985,
         "CreatedDate": 1768413547,
-        "Downloads": 1995,
+        "Downloads": 1999,
         "URL": "https://gamebanana.com/dl/1602481",
         "Name": "crossovercollab-110.zip"
       },
@@ -690,7 +700,7 @@
         "HasEverestYaml": true,
         "Size": 107437515,
         "CreatedDate": 1765642810,
-        "Downloads": 5705,
+        "Downloads": 5707,
         "URL": "https://gamebanana.com/dl/1579808",
         "Name": "crossovercollab-107.zip"
       },
@@ -725,7 +735,7 @@
       "https://images.gamebanana.com/img/ss/mods/694e681398358.jpg"
     ],
     "Description": "Someone sang in a forest once, and now everything is weird",
-    "Views": 7937,
+    "Views": 7995,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "songkeepers",
@@ -750,14 +760,14 @@
     "CreatedDate": 1766775990,
     "Author": "ricky06",
     "CategoryName": "Maps",
-    "Downloads": 2667,
+    "Downloads": 2712,
     "Likes": 54,
     "Files": [{
       "Description": "",
       "HasEverestYaml": true,
       "Size": 19228857,
       "CreatedDate": 1768980775,
-      "Downloads": 1542,
+      "Downloads": 1587,
       "URL": "https://gamebanana.com/dl/1607057",
       "Name": "songkeepergrove_a7357.zip"
     }]
@@ -772,7 +782,7 @@
       "https://images.gamebanana.com/img/ss/mods/69540fa0de7ef.jpg"
     ],
     "Description": "Get 143 berries in this easy open world map!",
-    "Views": 8300,
+    "Views": 8355,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "berry",
@@ -797,7 +807,7 @@
     "CreatedDate": 1767113898,
     "Author": "bryse0n",
     "CategoryName": "Maps",
-    "Downloads": 3009,
+    "Downloads": 3043,
     "Likes": 31,
     "Files": [
       {
@@ -805,7 +815,7 @@
         "HasEverestYaml": true,
         "Size": 68249683,
         "CreatedDate": 1770155639,
-        "Downloads": 1139,
+        "Downloads": 1173,
         "URL": "https://gamebanana.com/dl/1616815",
         "Name": "berry143_7e6d9.zip"
       },
@@ -870,7 +880,7 @@
       "https://images.gamebanana.com/img/ss/mods/686c65fe9c177.jpg"
     ],
     "Description": "Now You're Playing With Power!",
-    "Views": 17772,
+    "Views": 18002,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "super",
@@ -897,14 +907,14 @@
     "CreatedDate": 1751935234,
     "Author": "ashmosphere",
     "CategoryName": "Skins",
-    "Downloads": 5646,
+    "Downloads": 5739,
     "Likes": 57,
     "Files": [{
       "Description": "",
       "HasEverestYaml": true,
       "Size": 3321277,
       "CreatedDate": 1751997315,
-      "Downloads": 5569,
+      "Downloads": 5663,
       "URL": "https://gamebanana.com/dl/1473860",
       "Name": "mariomadeline_e3608.zip"
     }]
@@ -917,7 +927,7 @@
       "https://images.gamebanana.com/img/ss/mods/68b85472acaab.jpg"
     ],
     "Description": "surprise! (late) birthday map",
-    "Views": 7004,
+    "Views": 7062,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "amber",
@@ -943,14 +953,14 @@
     "CreatedDate": 1756913629,
     "Author": "limimimia",
     "CategoryName": "Maps",
-    "Downloads": 1538,
+    "Downloads": 1557,
     "Likes": 52,
     "Files": [{
       "Description": "1.0.0",
       "HasEverestYaml": true,
       "Size": 19086307,
       "CreatedDate": 1756912562,
-      "Downloads": 1538,
+      "Downloads": 1557,
       "URL": "https://gamebanana.com/dl/1510809",
       "Name": "amberleafbluffs_final_v1.zip"
     }]
@@ -964,7 +974,7 @@
       "https://images.gamebanana.com/img/ss/mods/69072e46e8df6.jpg"
     ],
     "Description": "Traverse the world with a unique entity!",
-    "Views": 9705,
+    "Views": 10061,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "dark",
@@ -990,7 +1000,7 @@
     "CreatedDate": 1752702509,
     "Author": "HexaliaCach9095",
     "CategoryName": "Maps",
-    "Downloads": 2545,
+    "Downloads": 2580,
     "Likes": 42,
     "Files": [
       {
@@ -998,7 +1008,7 @@
         "HasEverestYaml": true,
         "Size": 14895593,
         "CreatedDate": 1762123990,
-        "Downloads": 1885,
+        "Downloads": 1916,
         "URL": "https://gamebanana.com/dl/1553498",
         "Name": "darkmatterjourneyz14.zip"
       },
@@ -1034,7 +1044,7 @@
         "HasEverestYaml": true,
         "Size": 14894398,
         "CreatedDate": 1762082218,
-        "Downloads": 51,
+        "Downloads": 52,
         "URL": "https://gamebanana.com/dl/1553107",
         "Name": "darkmatterjourneyz12.zip"
       },
@@ -1043,7 +1053,7 @@
         "HasEverestYaml": true,
         "Size": 14895837,
         "CreatedDate": 1762080927,
-        "Downloads": 12,
+        "Downloads": 15,
         "URL": "https://gamebanana.com/dl/1553101",
         "Name": "darkmatterjourneyz11.zip"
       },
@@ -1069,7 +1079,7 @@
       "https://images.gamebanana.com/img/ss/mods/63e16597a0ec5.jpg"
     ],
     "Description": "A collaboration involving 350+ people to commemorate Celeste",
-    "Views": 441106,
+    "Views": 442169,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "strawberry",
@@ -1095,15 +1105,15 @@
     "CreatedDate": 1676617638,
     "Author": "Strawberry Jam Collab Team",
     "CategoryName": "Maps",
-    "Downloads": 1657047,
-    "Likes": 404,
+    "Downloads": 1663627,
+    "Likes": 405,
     "Files": [
       {
         "Description": "Map Pack",
         "HasEverestYaml": true,
         "Size": 95650820,
         "CreatedDate": 1743704036,
-        "Downloads": 126964,
+        "Downloads": 128669,
         "URL": "https://gamebanana.com/dl/1414214",
         "Name": "strawberryjammappack_v1012.zip"
       },
@@ -1112,7 +1122,7 @@
         "HasEverestYaml": true,
         "Size": 91062907,
         "CreatedDate": 1677301990,
-        "Downloads": 252560,
+        "Downloads": 253796,
         "URL": "https://gamebanana.com/dl/941090",
         "Name": "strawberryjamassets_v101.zip"
       },
@@ -1121,7 +1131,7 @@
         "HasEverestYaml": true,
         "Size": 318011755,
         "CreatedDate": 1695524389,
-        "Downloads": 231512,
+        "Downloads": 232758,
         "URL": "https://gamebanana.com/dl/1060720",
         "Name": "strawberryjamaudioa_v104_66276.zip"
       },
@@ -1130,7 +1140,7 @@
         "HasEverestYaml": true,
         "Size": 318382262,
         "CreatedDate": 1676616089,
-        "Downloads": 265501,
+        "Downloads": 266708,
         "URL": "https://gamebanana.com/dl/937262",
         "Name": "strawberryjamaudiob_v100.zip"
       },
@@ -1139,7 +1149,7 @@
         "HasEverestYaml": true,
         "Size": 317738998,
         "CreatedDate": 1695524392,
-        "Downloads": 224565,
+        "Downloads": 225776,
         "URL": "https://gamebanana.com/dl/1060721",
         "Name": "strawberryjamaudioc_v101_3f26b.zip"
       },
@@ -1148,7 +1158,7 @@
         "HasEverestYaml": true,
         "Size": 92466810,
         "CreatedDate": 1725833634,
-        "Downloads": 79326,
+        "Downloads": 79348,
         "URL": "https://gamebanana.com/dl/1276362",
         "Name": "strawberryjammappack_v1011.zip"
       }
@@ -1161,7 +1171,7 @@
       "https://images.gamebanana.com/img/ss/mods/5f46e9ee53c9b.jpg"
     ],
     "Description": "A collaboration involving 100+ people to commemorate Celeste",
-    "Views": 723900,
+    "Views": 724477,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "the",
@@ -1190,7 +1200,7 @@
     "CreatedDate": 1599670994,
     "Author": "Spring Collab 2020 Team",
     "CategoryName": "Maps",
-    "Downloads": 327539,
+    "Downloads": 328672,
     "Likes": 259,
     "Files": [
       {
@@ -1198,7 +1208,7 @@
         "HasEverestYaml": true,
         "Size": 56313473,
         "CreatedDate": 1777722265,
-        "Downloads": 5222,
+        "Downloads": 6094,
         "URL": "https://gamebanana.com/dl/1691049",
         "Name": "springcollab2020.zip"
       },
@@ -1207,7 +1217,7 @@
         "HasEverestYaml": true,
         "Size": 513411848,
         "CreatedDate": 1599575103,
-        "Downloads": 114414,
+        "Downloads": 114668,
         "URL": "https://gamebanana.com/dl/484937",
         "Name": "springcollab2020audio_135a4.zip"
       },
@@ -1216,7 +1226,7 @@
         "HasEverestYaml": true,
         "Size": 159602,
         "CreatedDate": 1616693898,
-        "Downloads": 2283,
+        "Downloads": 2288,
         "URL": "https://gamebanana.com/dl/539975",
         "Name": "springcollab2020oldgmhs_ee692.zip"
       }
@@ -1226,7 +1236,7 @@
     "CategoryId": 6800,
     "Screenshots": ["https://images.gamebanana.com/img/ss/mods/60e5d6e408360.jpg"],
     "Description": "Maddie goes on a journey through the mind & memories of one that are not her own.",
-    "Views": 402529,
+    "Views": 402984,
     "GameBananaType": "Mod",
     "TokenizedName": ["glyph"],
     "UpdatedDate": 1722299987,
@@ -1245,7 +1255,7 @@
     "CreatedDate": 1588357721,
     "Author": "marshall h",
     "CategoryName": "Maps",
-    "Downloads": 69863,
+    "Downloads": 70075,
     "Likes": 234,
     "Files": [
       {
@@ -1253,7 +1263,7 @@
         "HasEverestYaml": true,
         "Size": 29213443,
         "CreatedDate": 1722301354,
-        "Downloads": 29986,
+        "Downloads": 30197,
         "URL": "https://gamebanana.com/dl/1247390",
         "Name": "glyph_3a47c.zip"
       },
@@ -1262,7 +1272,7 @@
         "HasEverestYaml": true,
         "Size": 29179347,
         "CreatedDate": 1638481866,
-        "Downloads": 34995,
+        "Downloads": 34996,
         "URL": "https://gamebanana.com/dl/703925",
         "Name": "glyph_d2f43.zip"
       },
@@ -1271,7 +1281,7 @@
         "HasEverestYaml": true,
         "Size": 23273323,
         "CreatedDate": 1629786878,
-        "Downloads": 823,
+        "Downloads": 824,
         "URL": "https://gamebanana.com/dl/643617",
         "Name": "glyph_d8867.zip"
       }
