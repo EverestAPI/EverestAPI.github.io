@@ -8283,7 +8283,7 @@ ScugHelper:
   Dependencies:
   - Name: EverestCore
     Version: 1.5935.0
-  URL: https://gamebanana.com/mmdl/1715946
+  URL: https://gamebanana.com/mmdl/1717682
 fantomZippers:
   OptionalDependencies: []
   Dependencies:
@@ -38732,10 +38732,10 @@ BetaBaiterMTC4:
   - Name: Hateline
     Version: 0.2.2
   - Name: KoseiHelper
-    Version: 1.19.1.0
+    Version: 1.20.0.0
   - Name: PandorasBox
     Version: 1.0.49
-  URL: https://gamebanana.com/mmdl/1712656
+  URL: https://gamebanana.com/mmdl/1717684
 katzebdaycollab:
   OptionalDependencies: []
   Dependencies:
