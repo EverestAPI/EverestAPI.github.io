@@ -94775,6 +94775,8 @@ ScorchedRuins:
     Version: 1.2.10
   - Name: CrystallineHelper
     Version: 1.16.6
+  - Name: ChroniaHelper
+    Version: 1.51.14
   - Name: CommunalHelper
     Version: 1.24.4
   - Name: FemtoHelper
@@ -94783,7 +94785,7 @@ ScorchedRuins:
     Version: 1.0.76
   - Name: AdventureHelper
     Version: 1.6.0
-  URL: https://gamebanana.com/mmdl/1557044
+  URL: https://gamebanana.com/mmdl/1717888
 Last Nightmare of Xaihi:
   OptionalDependencies: []
   Dependencies:
