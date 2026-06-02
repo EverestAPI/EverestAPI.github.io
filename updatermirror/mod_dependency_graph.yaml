@@ -111660,6 +111660,14 @@ Broken Machine:
   - Name: Anonhelper
     Version: 1.1.0
   URL: https://gamebanana.com/mmdl/1281887
+Greenline_Skinmod_Gdpro835:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.5720.0
+  - Name: SkinModHelperPlus
+    Version: 0.16.5
+  URL: https://gamebanana.com/mmdl/1717985
 Ythundyth's Chapter 6 EX-Side:
   OptionalDependencies: []
   Dependencies:
