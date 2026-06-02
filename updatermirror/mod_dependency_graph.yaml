@@ -122215,11 +122215,13 @@ DashlessHelper:
     Version: 1.1761.0
   URL: https://gamebanana.com/mmdl/867310
 DawnHelper:
-  OptionalDependencies: []
+  OptionalDependencies:
+  - Name: GravityHelper
+    Version: 1.2.23
   Dependencies:
   - Name: EverestCore
     Version: 1.5935.0
-  URL: https://gamebanana.com/mmdl/1705697
+  URL: https://gamebanana.com/mmdl/1717986
 Recursion:
   OptionalDependencies: []
   Dependencies:
