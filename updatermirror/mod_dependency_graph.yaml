@@ -96452,6 +96452,24 @@ Neoneline:
   - Name: SkinModHelper
     Version: 0.5.5
   URL: https://gamebanana.com/mmdl/1010937
+ProjectFlip:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FlaglinesAndSuch
+    Version: 1.6.67
+  - Name: FrostHelper
+    Version: 1.78.2
+  - Name: GravityHelper
+    Version: 1.2.26
+  - Name: FemtoHelper
+    Version: 1.15.16
+  - Name: CommunalHelper
+    Version: 1.25.3
+  - Name: StyleMaskHelper
+    Version: 1.4.0
+  - Name: bitsbolts
+    Version: 1.4.8
+  URL: https://gamebanana.com/mmdl/1729116
 donttalktome:
   OptionalDependencies: []
   Dependencies:
