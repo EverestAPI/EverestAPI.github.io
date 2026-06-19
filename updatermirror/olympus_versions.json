@@ -1,5 +1,95 @@
 [
   {
+    "date": "2026-07-12T11:52:09.4917293Z",
+    "changelog": "∙ Tweaks to the Simplified Chinese translation (Connectivity Test screen)",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5707/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.07.12.04",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5707/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5707/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-07-11T20:15:04.6859029Z",
+    "changelog": "∙ Tweaks to the Simplified Chinese translation",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5701/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.07.11.05",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5701/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5701/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-07-11T10:17:29.8558664Z",
+    "changelog": "∙ Group translations and font priority orders in same files",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5696/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.07.11.04",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5696/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5696/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-07-11T09:35:10.7915064Z",
+    "changelog": "∙ Fixed some characters using the wrong ideographs in Simplified Chinese",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5695/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.07.11.03",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5695/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5695/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-07-10T20:10:03.8305468Z",
+    "changelog": "∙ Added Simplified Chinese language option",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5692/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.07.10.08",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5692/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5692/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-07-10T15:39:01.4023435Z",
+    "changelog": "∙ Minor tweak to the French translation",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5691/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.07.10.07",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5691/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5691/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-07-10T15:31:07.0518341Z",
+    "changelog": "∙ Fixed a freeze when cancelling out of the file picker after clicking \"Install from file\"",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5689/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.07.10.05",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5689/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5689/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-07-10T15:11:51.5117713Z",
+    "changelog": "∙ Ship Chinese, Japanese and Korean fonts with Olympus",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5688/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.07.10.04",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5688/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5688/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-07-10T14:28:16.4229903Z",
+    "changelog": "∙ More efficient translation loading",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5687/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.07.10.03",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5687/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5687/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-07-10T10:15:43.1018182Z",
+    "changelog": "∙ Reorganized language files for easier contribution",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5686/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.07.10.02",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5686/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5686/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-06-06T20:22:23.7246279Z",
     "changelog": "∙ Manage Installed Mods: Added a button to install a mod from a .zip",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5632/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
@@ -52,113 +142,5 @@
     "version": "26.05.23.01",
     "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5611/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
     "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5611/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-05-17T21:44:24.8576165Z",
-    "changelog": "∙ Point more explicitly to log.txt and log-sharp.txt in instructions to ask for help with crashes",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5610/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.05.17.01",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5610/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5610/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-05-03T09:54:43.645107Z",
-    "changelog": "∙ Fixed crash when fetching Everest versions fails when checking for updates in the background\n∙ Fixed crash on startup when a version of Everest compiled from source is installed",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5598/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.05.03.05",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5598/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5598/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-05-03T09:49:29.4110539Z",
-    "changelog": "∙ Fixed crash when fetching Everest versions fails when checking for updates in the background\n∙ Fixed crash on startup when a version of Everest compiled from source is installed",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5597/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "windows-init",
-    "version": "26.05.03.04",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5597/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5597/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-05-03T09:42:35.7461411Z",
-    "changelog": "∙ Fixed crash when fetching Everest versions fails when checking for updates in the background\n∙ Fixed crash on startup when a version of Everest compiled from source is installed",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5596/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "stable",
-    "version": "26.05.03.03",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5596/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5596/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-05-03T09:27:24.9388365Z",
-    "changelog": "∙ Fixed crash when fetching Everest versions fails when checking for updates in the background",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5595/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.05.03.02",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5595/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5595/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-05-03T09:08:44.2495756Z",
-    "changelog": "∙ Fixed crash on startup when a version of Everest compiled from source is installed",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5594/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.05.03.01",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5594/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5594/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-05-02T19:42:46.2012559Z",
-    "changelog": "∙ Block installation of mods with everest.yaml names that are invalid file names\n∙ Updated the OlympUI dependency to latest version\n∙ Added a (!) icon on the cog button leading to the \"Install Everest\" screen when updates are available\n∙ Added a big button above the Everest versions list to install or update to the latest version of the current branch\n∙ Added a notice to clarify that the \"Updates\" section in Options & Updates is only about Olympus\n∙ Linux: (Hopefully) fix game freezes when running Celeste on Flatpak\n∙ Linux: Hide the \"Updates\" setting when using Flatpak, as Olympus doesn't self-update",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5592/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.05.02.03",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5592/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5592/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-05-02T19:37:02.4960134Z",
-    "changelog": "∙ Block installation of mods with everest.yaml names that are invalid file names\n∙ Updated the OlympUI dependency to latest version\n∙ Added a (!) icon on the cog button leading to the \"Install Everest\" screen when updates are available\n∙ Added a big button above the Everest versions list to install or update to the latest version of the current branch\n∙ Added a notice to clarify that the \"Updates\" section in Options & Updates is only about Olympus\n∙ Linux: (Hopefully) fix game freezes when running Celeste on Flatpak\n∙ Linux: Hide the \"Updates\" setting when using Flatpak, as Olympus doesn't self-update",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5590/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "windows-init",
-    "version": "26.05.02.02",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5590/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5590/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-05-02T19:33:06.6880024Z",
-    "changelog": "∙ Block installation of mods with everest.yaml names that are invalid file names\n∙ Updated the OlympUI dependency to latest version\n∙ Added a (!) icon on the cog button leading to the \"Install Everest\" screen when updates are available\n∙ Added a big button above the Everest versions list to install or update to the latest version of the current branch\n∙ Added a notice to clarify that the \"Updates\" section in Options & Updates is only about Olympus\n∙ Linux: (Hopefully) fix game freezes when running Celeste on Flatpak\n∙ Linux: Hide the \"Updates\" setting when using Flatpak, as Olympus doesn't self-update",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5589/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "stable",
-    "version": "26.05.02.01",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5589/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5589/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-04-29T16:25:56.1233945Z",
-    "changelog": "∙ Linux: (Hopefully) fix game freezes when running Celeste on Flatpak\n∙ Linux: Hide the \"Updates\" setting when using Flatpak, as Olympus doesn't self-update",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5585/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.04.29.02",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5585/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5585/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-04-22T22:03:44.5792228Z",
-    "changelog": "∙ Added a notice to clarify that the \"Updates\" section in Options & Updates is only about Olympus",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5580/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.04.22.01",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5580/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5580/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-04-20T18:49:23.4651381Z",
-    "changelog": "∙ Added a big button above the Everest versions list to install or update to the latest version of the current branch",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5578/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.04.20.02",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5578/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5578/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
   }
 ]
