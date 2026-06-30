@@ -37132,6 +37132,12 @@ Falling_Cloud:
   - Name: MaxHelpingHand
     Version: 1.39.17
   URL: https://gamebanana.com/mmdl/1635063
+ForsakenEvil:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.6314.0
+  URL: https://gamebanana.com/mmdl/1742093
 UltraProcessing:
   OptionalDependencies: []
   Dependencies:
