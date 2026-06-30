@@ -175,33 +175,39 @@ resverie story contest:
 Aftermath Ch3:
   OptionalDependencies: []
   Dependencies:
+  - Name: TilesetActionHelper
+    Version: 0.1.3
   - Name: HonlyHelper
-    Version: 1.7.1
+    Version: 1.7.4
   - Name: Everest
     Version: 1.1312.0
   - Name: ExtendedVariantMode
-    Version: 0.23.2
+    Version: 0.26.9
   - Name: VivHelper
-    Version: 1.9.12
+    Version: 1.10.20
   - Name: MaxHelpingHand
-    Version: 1.21.13
+    Version: 1.24.5
   - Name: LuaCutscenes
-    Version: 0.2.6
-  - Name: FrostHelper
-    Version: 1.37.8
+    Version: 0.2.7
   - Name: FlaglinesAndSuch
-    Version: 1.5.8
+    Version: 1.6.2
+  - Name: FrostHelper
+    Version: 1.40.3
+  - Name: VortexHelper
+    Version: 1.2.11
   - Name: ShroomHelper
-    Version: 1.2.3
+    Version: 1.2.4
+  - Name: CrystallineHelper
+    Version: 1.13.0
   - Name: CommunalHelper
-    Version: 1.13.6
+    Version: 1.14.5
   - Name: FemtoHelper
-    Version: 1.7.0
-  - Name: PandorasBox
-    Version: 1.0.39
+    Version: 1.9.4
   - Name: DJMapHelper
-    Version: 1.11.3
-  URL: https://gamebanana.com/mmdl/1741843
+    Version: 1.13.2
+  - Name: PandorasBox
+    Version: 1.0.46
+  URL: https://gamebanana.com/mmdl/1742025
 QueesleAmityCollab:
   OptionalDependencies: []
   Dependencies:
