@@ -102584,6 +102584,18 @@ April:
   - Name: PandorasBox
     Version: 1.0.49
   URL: https://gamebanana.com/mmdl/1586315
+ValleyK:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FlaglinesAndSuch
+    Version: 1.6.67
+  - Name: Everest
+    Version: 1.6314.0
+  - Name: ExtendedVariantMode
+    Version: 0.50.1
+  - Name: MaxHelpingHand
+    Version: 1.40.4
+  URL: https://gamebanana.com/mmdl/1742553
 Better Sign:
   OptionalDependencies: []
   Dependencies:
