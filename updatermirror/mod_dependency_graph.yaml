@@ -38296,7 +38296,7 @@ Cleithrophobia (Gimmick Contest):
   - Name: VivHelper
     Version: 1.14.10
   - Name: DawnHelper
-    Version: 0.1.0
+    Version: 1.2.0
   - Name: MaxHelpingHand
     Version: 1.39.5
   - Name: bitsbolts
@@ -38323,7 +38323,7 @@ Cleithrophobia (Gimmick Contest):
     Version: 1.3.24
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1742890
+  URL: https://gamebanana.com/mmdl/1742959
 AnimalIsland:
   OptionalDependencies: []
   Dependencies:
@@ -43655,7 +43655,7 @@ girlhell1999:
     Version: 1.13.4
   - Name: HamburgerHelper
     Version: 0.1.12
-  URL: https://gamebanana.com/mmdl/1723288
+  URL: https://gamebanana.com/mmdl/1742916
 RG2BallsTourney:
   OptionalDependencies: []
   Dependencies:
@@ -59532,6 +59532,28 @@ DreamCollab2022:
   - Name: DJMapHelper
     Version: 1.10.0
   URL: https://gamebanana.com/mmdl/974338
+fishhouse:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.76.0
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: ShroomHelper
+    Version: 1.2.10
+  - Name: Everest
+    Version: 1.6088.0
+  - Name: ExtendedVariantMode
+    Version: 0.47.6
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: ChronoHelper
+    Version: 1.2.9
+  - Name: JackalHelper
+    Version: 1.7.5
+  - Name: MaxHelpingHand
+    Version: 1.39.10
+  URL: https://gamebanana.com/mmdl/1742958
 TheTrueCelestialResort:
   OptionalDependencies: []
   Dependencies:
@@ -89515,7 +89537,7 @@ AdamsAddons:
   Dependencies:
   - Name: EverestCore
     Version: 1.5577.0
-  URL: https://gamebanana.com/mmdl/1733087
+  URL: https://gamebanana.com/mmdl/1742932
 MeliHelper:
   OptionalDependencies: []
   Dependencies:
