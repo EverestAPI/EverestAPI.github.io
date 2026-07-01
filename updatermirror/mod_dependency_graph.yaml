@@ -21166,6 +21166,12 @@ TypA-1:
   - Name: Everest
     Version: 1.5016.0
   URL: https://gamebanana.com/mmdl/1530670
+BetterSaves:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.4449.0
+  URL: https://gamebanana.com/mmdl/1742764
 DreamOverdose:
   OptionalDependencies: []
   Dependencies:
