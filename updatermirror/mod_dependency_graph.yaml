@@ -18642,6 +18642,46 @@ Bubblegum Trash:
   - Name: MaxHelpingHand
     Version: 1.40.1
   URL: https://gamebanana.com/mmdl/1711403
+Rhi's Rando Rooms:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: GameHelper
+    Version: 1.11.3
+  - Name: ScugHelper
+    Version: 2.41.2
+  - Name: GravityHelper
+    Version: 1.2.28
+  - Name: Everest
+    Version: 1.6314.0
+  - Name: ExtendedVariantMode
+    Version: 0.50.1
+  - Name: MaxHelpingHand
+    Version: 1.40.4
+  - Name: Sardine7
+    Version: 1.2.0
+  - Name: memorialHelper
+    Version: 1.0.4
+  - Name: FlaglinesAndSuch
+    Version: 1.6.67
+  - Name: FrostHelper
+    Version: 1.79.0
+  - Name: YetAnotherHelper
+    Version: 1.2.5
+  - Name: ShroomHelper
+    Version: 1.2.10
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: CommunalHelper
+    Version: 1.25.3
+  - Name: auspicioushelper
+    Version: 0.4.3
+  - Name: OutbackHelper
+    Version: 1.7.3
+  - Name: XaphanHelper
+    Version: 1.0.79
+  - Name: AdventureHelper
+    Version: 1.6.0
+  URL: https://gamebanana.com/mmdl/1742237
 2021MapCollection:
   OptionalDependencies: []
   Dependencies:
