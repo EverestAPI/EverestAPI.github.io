@@ -105172,6 +105172,12 @@ DeloadMod:
   - Name: EverestCore
     Version: 1.4673.0
   URL: https://gamebanana.com/mmdl/1370400
+BetterGrabIcon:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.3471.0
+  URL: https://gamebanana.com/mmdl/1743102
 foxmod dlc:
   OptionalDependencies: []
   Dependencies:
