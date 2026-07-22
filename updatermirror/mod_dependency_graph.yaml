@@ -112650,6 +112650,58 @@ ACollectionOfObjects:
   - Name: Everest
     Version: 1.5326.0
   URL: https://gamebanana.com/mmdl/1384509
+actual marsie bday map:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: AdamsAddons
+    Version: 1.15.05
+  - Name: ScugHelper
+    Version: 2.50.1
+  - Name: BrokemiaHelper
+    Version: 1.8.5
+  - Name: GravityHelper
+    Version: 1.2.28
+  - Name: Everest
+    Version: 1.6337.0
+  - Name: ExtendedVariantMode
+    Version: 0.50.1
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: StyleMaskHelper
+    Version: 1.4.0
+  - Name: Batteries
+    Version: 1.1.4
+  - Name: SSMHelper
+    Version: 1.2.15
+  - Name: MaxHelpingHand
+    Version: 1.40.4
+  - Name: EeveeHelper
+    Version: 1.12.5
+  - Name: FlaglinesAndSuch
+    Version: 1.6.71
+  - Name: FrostHelper
+    Version: 1.79.0
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: CrystallineHelper
+    Version: 1.17.2
+  - Name: ChroniaHelper
+    Version: 1.51.33
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: CommunalHelper
+    Version: 1.25.3
+  - Name: FemtoHelper
+    Version: 1.15.19
+  - Name: ReverseHelper
+    Version: 1.16.3
+  - Name: auspicioushelper
+    Version: 0.4.5
+  - Name: AurorasHelper
+    Version: 0.12.6
+  - Name: DJMapHelper
+    Version: 1.13.4
+  URL: https://gamebanana.com/mmdl/1761934
 DiamondBerry:
   OptionalDependencies: []
   Dependencies:
