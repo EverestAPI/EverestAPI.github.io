@@ -8349,11 +8349,13 @@ DonkMTC:
 CelesteV1410TraditionalChineseTranslation:
   OptionalDependencies: []
   Dependencies:
+  - Name: ChineseFontPack
+    Version: 1.4.2
   - Name: Celeste
     Version: 1.4.0.0
   - Name: Everest
     Version: 1.0.0
-  URL: https://gamebanana.com/mmdl/1738067
+  URL: https://gamebanana.com/mmdl/1761537
 SWEETMAGNOLIA:
   OptionalDependencies: []
   Dependencies:
