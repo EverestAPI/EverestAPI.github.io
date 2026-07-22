@@ -109566,6 +109566,22 @@ PlattenTek:
   OptionalDependencies: []
   Dependencies: []
   URL: https://gamebanana.com/mmdl/636752
+ClearStems:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: AdamsAddons
+    Version: 1.15.05
+  - Name: FrostHelper
+    Version: 1.79.0
+  - Name: Everest
+    Version: 1.6314.0
+  - Name: SorbetHelper
+    Version: 1.9.2
+  - Name: Spooooky's Asset Pack
+    Version: 1.0.12
+  - Name: MaxHelpingHand
+    Version: 1.40.5
+  URL: https://gamebanana.com/mmdl/1761384
 BeiDanCi:
   OptionalDependencies: []
   Dependencies:
