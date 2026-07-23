@@ -111166,6 +111166,12 @@ MountainNoJump:
   - Name: AdventureHelper
     Version: 1.6.0
   URL: https://gamebanana.com/mmdl/1758168
+We Don't Have Many Days:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.6397.0
+  URL: https://gamebanana.com/mmdl/1762238
 Jelly Dream:
   OptionalDependencies: []
   Dependencies:
