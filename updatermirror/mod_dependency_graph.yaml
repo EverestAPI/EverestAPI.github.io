@@ -109005,6 +109005,8 @@ Birthwu:
     Version: 1.52.2
   - Name: Everest
     Version: 1.6314.0
+  - Name: ExtendedVariantMode
+    Version: 0.50.1
   - Name: CommunalHelper
     Version: 1.25.3
   - Name: CollabUtils2
@@ -109015,7 +109017,7 @@ Birthwu:
     Version: 1.5.5
   - Name: MaxHelpingHand
     Version: 1.40.4
-  URL: https://gamebanana.com/mmdl/1761151
+  URL: https://gamebanana.com/mmdl/1762805
 the fourth:
   OptionalDependencies: []
   Dependencies:
