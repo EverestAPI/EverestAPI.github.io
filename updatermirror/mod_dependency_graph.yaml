@@ -105924,6 +105924,12 @@ DepthsOfTheMountain:
   - Name: bitsbolts
     Version: 1.4.9
   URL: https://gamebanana.com/mmdl/1750604
+'{aethercaves=null}':
+  OptionalDependencies: []
+  Dependencies:
+  - Name: Everest
+    Version: 1.0.0
+  URL: https://gamebanana.com/mmdl/1763258
 alice_short_troll:
   OptionalDependencies: []
   Dependencies:
