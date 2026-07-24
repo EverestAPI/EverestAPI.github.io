@@ -89432,6 +89432,12 @@ BDAYCEPH:
   - Name: IsaGrabBag
     Version: 1.5.1.6
   URL: https://gamebanana.com/mmdl/731880
+KarlsConcoction:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.5935.0
+  URL: https://gamebanana.com/mmdl/1762997
 SpikedSpire:
   OptionalDependencies: []
   Dependencies:
