@@ -98188,6 +98188,18 @@ I Love Crouch Climbs:
   - Name: MaxHelpingHand
     Version: 1.30.6
   URL: https://gamebanana.com/mmdl/1239295
+F333:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: ChroniaHelper
+    Version: 1.52.22
+  - Name: Everest
+    Version: 1.6397.0
+  - Name: ExtendedVariantMode
+    Version: 0.50.3
+  - Name: MaxHelpingHand
+    Version: 1.40.7
+  URL: https://gamebanana.com/mmdl/1763167
 Monster's Life Collection:
   OptionalDependencies: []
   Dependencies:
