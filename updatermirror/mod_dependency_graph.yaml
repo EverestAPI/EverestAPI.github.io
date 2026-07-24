@@ -5779,7 +5779,9 @@ BitsHelper:
     Version: 1.30.6
   - Name: EverestCore
     Version: 1.5577.0
-  URL: https://gamebanana.com/mmdl/1702959
+  - Name: PandorasBox
+    Version: 1.0.49
+  URL: https://gamebanana.com/mmdl/1763352
 bongobong:
   OptionalDependencies: []
   Dependencies:
