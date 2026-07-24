@@ -67657,25 +67657,35 @@ Precision1:
 GaunletReRevamped:
   OptionalDependencies: []
   Dependencies:
-  - Name: FrostHelper
-    Version: 1.46.0
-  - Name: MoreDasheline
-    Version: 1.7.0
   - Name: Everest
     Version: 1.4335.0
-  - Name: FemtoHelper
-    Version: 1.10.4
   - Name: VivHelper
     Version: 1.13.2
-  - Name: CollabUtils2
-    Version: 1.10.8
+  - Name: Lap3mod
+    Version: 2.0.1
   - Name: ContortHelper
     Version: 1.5.5
   - Name: MaxHelpingHand
     Version: 1.28.3
+  - Name: FlaglinesAndSuch
+    Version: 1.6.71
+  - Name: FrostHelper
+    Version: 1.46.0
+  - Name: MoreDasheline
+    Version: 1.7.0
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: FemtoHelper
+    Version: 1.10.4
+  - Name: CollabUtils2
+    Version: 1.10.8
+  - Name: KoseiHelper
+    Version: 1.22.0.0
+  - Name: SafeRespawnCrumble
+    Version: 1.2.1
   - Name: DJMapHelper
     Version: 1.13.4
-  URL: https://gamebanana.com/mmdl/1178397
+  URL: https://gamebanana.com/mmdl/1762972
 CSR CATSTARE Deuteronomy:
   OptionalDependencies: []
   Dependencies:
