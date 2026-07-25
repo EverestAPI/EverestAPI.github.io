@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-07-27T17:25:16.4613865Z",
+    "changelog": "∙ Fixed an animation glitch with the \"!\" icon",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5729/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.07.27.01",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5729/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5729/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-07-25T19:19:48.1200003Z",
+    "changelog": "∙ Added Simplified Chinese language option\n∙ Manage Installed Mods: Added a button to install a mod from a .zip\n∙ Chinese, Japanese and Korean fonts are now shipped with Olympus\n∙ Minor tweak to the French translation",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5724/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.07.25.03",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5724/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5724/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-07-25T19:09:47.5094335Z",
+    "changelog": "∙ Added Simplified Chinese language option\n∙ Manage Installed Mods: Added a button to install a mod from a .zip\n∙ Chinese, Japanese and Korean fonts are now shipped with Olympus\n∙ Minor tweak to the French translation",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5723/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "windows-init",
+    "version": "26.07.25.02",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5723/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5723/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-07-25T19:02:45.9529997Z",
+    "changelog": "∙ Added Simplified Chinese language option\n∙ Manage Installed Mods: Added a button to install a mod from a .zip\n∙ Chinese, Japanese and Korean fonts are now shipped with Olympus\n∙ Minor tweak to the French translation",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5722/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "stable",
+    "version": "26.07.25.01",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5722/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5722/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-07-12T11:52:09.4917293Z",
     "changelog": "∙ Tweaks to the Simplified Chinese translation (Connectivity Test screen)",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5707/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
@@ -97,32 +133,5 @@
     "version": "26.06.06.03",
     "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5632/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
     "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5632/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-05-30T20:15:42.7253409Z",
-    "changelog": "∙ Point more explicitly to log.txt and log-sharp.txt in instructions to ask for help with crashes\n∙ Fixed installing Everest from a .zip file\n∙ Do not show download progress when getting the file size fails",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5622/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.05.30.04",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5622/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5622/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-05-30T20:11:48.3313536Z",
-    "changelog": "∙ Point more explicitly to log.txt and log-sharp.txt in instructions to ask for help with crashes\n∙ Fixed installing Everest from a .zip file\n∙ Do not show download progress when getting the file size fails",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5621/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "windows-init",
-    "version": "26.05.30.03",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5621/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5621/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-05-30T20:04:09.7066457Z",
-    "changelog": "∙ Point more explicitly to log.txt and log-sharp.txt in instructions to ask for help with crashes\n∙ Fixed installing Everest from a .zip file\n∙ Do not show download progress when getting the file size fails",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5618/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "stable",
-    "version": "26.05.30.01",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5618/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5618/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
   }
 ]
