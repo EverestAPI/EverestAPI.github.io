@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-08-03T15:11:00.0200681Z",
+    "olympusBuildFileSize": 73461319,
+    "mainFileSize": 71936187,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5742/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "strandsofivy",
+    "commit": "64efa06727ee79919172f88d52525ebf120ccf04",
+    "description": "Internise asset format strings",
+    "branch": "dev",
+    "version": 6442,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5742/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5742/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-07-25T20:43:48.0229632Z",
     "olympusBuildFileSize": 73461164,
     "mainFileSize": 71936256,
