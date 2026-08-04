@@ -258579,6 +258579,42 @@
   CategoryName: Maps
   SubcategoryId: 6801
   SubcategoryName: Standalone
+- PageURL: https://gamebanana.com/mods/700496
+  GameBananaType: Mod
+  GameBananaId: 700496
+  Name: Elevator to the Sky
+  Author: gamesword107
+  Description: Use wind and jellyfish as your elevator, low-Intermediate.
+  Likes: 1
+  Views: 0
+  Downloads: 0
+  Text: <span class="GreenColor">This short map is low-Intermediate difficulty. This
+    map takes place in a futuristic city where Madeline uses the wind and jellyfish
+    as her elevator to the top. This map is part of a five-day challenge to try and
+    make one map every day. This map was recycled from an old map I made. This map
+    took three hours to make.</span><br><br>
+  CreatedDate: 1785870647
+  ModifiedDate: 1785870647
+  UpdatedDate: 1785870647
+  Screenshots:
+  - https://images.gamebanana.com/img/ss/mods/6a72383d54f2e.jpg
+  - https://images.gamebanana.com/img/ss/mods/6a7238412d736.jpg
+  - https://images.gamebanana.com/img/ss/mods/6a723844ec333.jpg
+  MirroredScreenshots:
+  - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a72383d54f2e.png
+  - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a7238412d736.png
+  Files:
+  - Description: '1'
+    HasEverestYaml: true
+    Size: 7637478
+    CreatedDate: 1785870412
+    Downloads: 0
+    URL: https://gamebanana.com/dl/1774040
+    Name: elevatortothesky.zip
+  CategoryId: 6800
+  CategoryName: Maps
+  SubcategoryId: 6801
+  SubcategoryName: Standalone
 - PageURL: https://gamebanana.com/tools/6449
   GameBananaType: Tool
   GameBananaId: 6449

@@ -101398,6 +101398,20 @@ AFUNERALONMOUNTCELESTE:
   - Name: LylyraHelper
     Version: 1.3.23
   URL: https://gamebanana.com/mmdl/1757807
+ElevatorToTheSky:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FlaglinesAndSuch
+    Version: 1.6.71
+  - Name: FrostHelper
+    Version: 1.79.0
+  - Name: Everest
+    Version: 1.6418.0
+  - Name: Spooooky's Asset Pack
+    Version: 1.0.12
+  - Name: MaxHelpingHand
+    Version: 1.40.7
+  URL: https://gamebanana.com/mmdl/1774040
 Sciorda:
   OptionalDependencies: []
   Dependencies:
