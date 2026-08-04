@@ -46762,6 +46762,14 @@ nebday:
   - Name: AurorasHelper
     Version: 0.12.6
   URL: https://gamebanana.com/mmdl/1677168
+nononodont:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.79.0
+  - Name: Everest
+    Version: 1.6418.0
+  URL: https://gamebanana.com/mmdl/1773794
 Minus-1:
   OptionalDependencies: []
   Dependencies:
