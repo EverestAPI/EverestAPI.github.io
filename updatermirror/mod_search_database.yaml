@@ -258502,6 +258502,41 @@
     Name: 12_toilet_challenge.zip
   CategoryId: 6800
   CategoryName: Maps
+- PageURL: https://gamebanana.com/mods/700481
+  GameBananaType: Mod
+  GameBananaId: 700481
+  Name: ShrimpNya
+  Author: Wawawaf
+  Description: ''
+  Likes: 0
+  Views: 0
+  Downloads: 0
+  Text: 'This map was originally made for SFFC 2026, but it ended up being way too
+    hard and bad, so I decided to release it as a standalone instead... about 3 months
+    after finishing the main gameplay and deco<br><br>It''s also <i>really</i> jank,
+    so play at your own risk<br><br>Difficulty: ~gm+1'
+  CreatedDate: 1785867015
+  ModifiedDate: 1785867015
+  UpdatedDate: 1785867015
+  Screenshots:
+  - https://images.gamebanana.com/img/ss/mods/6a722937da5ca.jpg
+  - https://images.gamebanana.com/img/ss/mods/6a722937e55ab.jpg
+  - https://images.gamebanana.com/img/ss/mods/6a7229381f71e.jpg
+  MirroredScreenshots:
+  - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a722937da5ca.png
+  - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a722937e55ab.png
+  Files:
+  - Description: '1.0'
+    HasEverestYaml: true
+    Size: 103850
+    CreatedDate: 1785866200
+    Downloads: 0
+    URL: https://gamebanana.com/dl/1773983
+    Name: shrimpnya.zip
+  CategoryId: 6800
+  CategoryName: Maps
+  SubcategoryId: 6801
+  SubcategoryName: Standalone
 - PageURL: https://gamebanana.com/tools/6449
   GameBananaType: Tool
   GameBananaId: 6449
