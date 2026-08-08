@@ -128298,6 +128298,26 @@ MapleLemonMelon:
   - Name: AdventureHelper
     Version: 1.6.0
   URL: https://gamebanana.com/mmdl/1710936
+Hi Pale:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: EeveeHelper
+    Version: 1.12.4
+  - Name: CrystallineHelper
+    Version: 1.17.2
+  - Name: Everest
+    Version: 1.6194.0
+  - Name: ExtendedVariantMode
+    Version: 0.48.1
+  - Name: CommunalHelper
+    Version: 1.25.4
+  - Name: auspicioushelper
+    Version: 0.3.4
+  - Name: MaxHelpingHand
+    Version: 1.39.18
+  - Name: Sardine7
+    Version: 1.2.0
+  URL: https://gamebanana.com/mmdl/1777874
 Annihilate:
   OptionalDependencies: []
   Dependencies:
