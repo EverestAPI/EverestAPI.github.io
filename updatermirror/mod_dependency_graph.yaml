@@ -121763,13 +121763,19 @@ ViviSkinmod:
 PeachChronicals:
   OptionalDependencies: []
   Dependencies:
+  - Name: CrystallineHelper
+    Version: 1.17.2
   - Name: Everest
     Version: 1.5635.0
+  - Name: ExtendedVariantMode
+    Version: 0.50.3
+  - Name: CommunalHelper
+    Version: 1.25.5
   - Name: OutbackHelper
     Version: 1.7.3
   - Name: MaxHelpingHand
     Version: 1.37.0
-  URL: https://gamebanana.com/mmdl/1767856
+  URL: https://gamebanana.com/mmdl/1777805
 ILHookDebuggerExtension_Decompiler:
   OptionalDependencies: []
   Dependencies:
