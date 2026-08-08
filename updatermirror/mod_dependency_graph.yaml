@@ -127140,6 +127140,90 @@ Moon Climb:
   - Name: MaxHelpingHand
     Version: 1.22.0
   URL: https://gamebanana.com/mmdl/885610
+GloomyLumiBirthdayCollab:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: GameHelper
+    Version: 1.8.5.0
+  - Name: JungleHelper
+    Version: 1.3.6
+  - Name: GravityHelper
+    Version: 1.2.23
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: Sardine7
+    Version: 1.2.0
+  - Name: bitsbolts
+    Version: 1.4.6
+  - Name: EeveeHelper
+    Version: 1.12.3
+  - Name: Long Name Helper by Helen, Helen's Helper, hELPER
+    Version: 1.9.10
+  - Name: DzhakeHelper
+    Version: 1.4.17
+  - Name: ChroniaHelper
+    Version: 1.35.3
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: CommunalHelper
+    Version: 1.24.4
+  - Name: FemtoHelper
+    Version: 1.14.1
+  - Name: ArphimigonsToyBox
+    Version: 1.4.1
+  - Name: ProgHelper
+    Version: 1.4.0
+  - Name: SorbetHelper
+    Version: 1.7.7
+  - Name: OutbackHelper
+    Version: 1.7.3
+  - Name: KoseiHelper
+    Version: 1.15.1.1
+  - Name: PandorasBox
+    Version: 1.0.49
+  - Name: AdventureHelper
+    Version: 1.6.0
+  - Name: ScugHelper
+    Version: 2.53.1
+  - Name: BrokemiaHelper
+    Version: 1.8.3
+  - Name: Everest
+    Version: 1.5720.0
+  - Name: ExtendedVariantMode
+    Version: 0.44.1
+  - Name: StyleMaskHelper
+    Version: 1.3.3
+  - Name: SSMHelper
+    Version: 1.2.12
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: MaxHelpingHand
+    Version: 1.37.2
+  - Name: LuckyHelper
+    Version: 0.17.0
+  - Name: FlaglinesAndSuch
+    Version: 1.6.45
+  - Name: FrostHelper
+    Version: 1.70.3
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: YetAnotherHelper
+    Version: 1.2.5
+  - Name: LunaticHelper
+    Version: 1.1.1
+  - Name: CrystallineHelper
+    Version: 1.16.6
+  - Name: CollabUtils2
+    Version: 1.10.14
+  - Name: ExtendedCameraDynamics
+    Version: 1.1.1
+  - Name: Spooooky's Asset Pack
+    Version: 1.0.10
+  - Name: XaphanHelper
+    Version: 1.0.76
+  - Name: DJMapHelper
+    Version: 1.13.4
+  URL: https://gamebanana.com/mmdl/1777785
 nanoeasymodo:
   OptionalDependencies: []
   Dependencies:
