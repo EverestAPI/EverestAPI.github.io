@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-08-21T20:30:12.0917978Z",
+    "changelog": "∙ Removed the \"residual files from a .NET Core build\" warning when installing \"core\" versions of Everest",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5783/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.08.21.06",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5783/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5783/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-08-21T20:19:21.2716041Z",
+    "changelog": "∙ Added Korean language option",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5781/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.08.21.04",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5781/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5781/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-07-27T17:25:16.4613865Z",
     "changelog": "∙ Fixed an animation glitch with the \"!\" icon",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5729/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
