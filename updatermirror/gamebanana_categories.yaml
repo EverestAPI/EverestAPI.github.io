@@ -1,44 +1,46 @@
 - formatted: All
-  count: 6034
-- itemtype: Mod
-  categoryid: 15655
+  count: 6083
+- itemtype: Obsolete
+  categoryid: GameBanana_Mod_15655
   formatted: Assets
   count: 128
-- itemtype: Mod
-  categoryid: 4633
+- itemtype: Obsolete
+  categoryid: GameBanana_Mod_4633
   formatted: Dialog
-  count: 50
-- itemtype: Mod
-  categoryid: 1501
+  count: 51
+- itemtype: Obsolete
+  categoryid: GameBanana_Mod_1501
   formatted: Effects
   count: 15
-- itemtype: Mod
-  categoryid: 5081
+- itemtype: Obsolete
+  categoryid: GameBanana_Mod_5081
   formatted: Helpers
-  count: 234
-- itemtype: Mod
-  categoryid: 6800
+  count: 236
+- itemtype: Obsolete
+  categoryid: GameBanana_Mod_6800
   formatted: Maps
-  count: 4790
-- itemtype: Mod
-  categoryid: 4635
+  count: 4834
+- itemtype: Obsolete
+  categoryid: GameBanana_Mod_4635
   formatted: Mechanics
-  count: 49
-- itemtype: Mod
-  categoryid: 4632
+  count: 50
+- itemtype: Obsolete
+  categoryid: GameBanana_Mod_4632
   formatted: Other/Misc
-  count: 175
-- itemtype: Mod
-  categoryid: 11181
+  count: 176
+- itemtype: Obsolete
+  categoryid: GameBanana_Mod_11181
   formatted: Skins
   count: 360
-- itemtype: Tool
+- itemtype: Obsolete
+  categoryid: GameBanana_Tool_Root
   formatted: Tools
   count: 72
-- itemtype: Mod
-  categoryid: 2317
+- itemtype: Obsolete
+  categoryid: GameBanana_Mod_2317
   formatted: UI
   count: 60
-- itemtype: Wip
+- itemtype: Obsolete
+  categoryid: GameBanana_Wip_Root
   formatted: WiPs
   count: 101

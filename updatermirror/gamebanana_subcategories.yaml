@@ -1,90 +1,88 @@
-Mod:
-  6800:
+Obsolete:
+  GameBanana_Mod_6800:
   - name: All
-    count: 4790
-  - id: 6802
+    count: 4834
+  - id: GameBanana_Mod_6802
     name: Campaign
     count: 497
-  - id: 6803
+  - id: GameBanana_Mod_6803
     name: Collab/Contest
-    count: 440
-  - id: 15667
+    count: 449
+  - id: GameBanana_Mod_15667
     name: Multiplayer
     count: 27
-  - id: 6801
+  - id: GameBanana_Mod_6801
     name: Standalone
-    count: 3029
-  15655:
+    count: 3054
+  GameBanana_Mod_4632:
   - name: All
-    count: 128
-  - id: 15656
-    name: Audio
-    count: 56
-  - id: 15657
-    name: Graphics
-    count: 59
-  4632:
-  - name: All
-    count: 175
-  - id: 4636
+    count: 176
+  - id: GameBanana_Mod_4636
     name: Twitch Integration
     count: 1
-  4633:
+  GameBanana_Mod_4633:
   - name: All
-    count: 50
-  - id: 14168
+    count: 51
+  - id: GameBanana_Mod_14168
     name: Translations
-    count: 21
-  5081:
-  - name: All
-    count: 234
-  4635:
-  - name: All
-    count: 49
-  1501:
-  - name: All
-    count: 15
-  11181:
-  - name: All
-    count: 360
-  - id: 16940
-    name: Collectibles
-    count: 38
-  - id: 11182
-    name: Other/Misc
-    count: 78
-  - id: 11183
-    name: Player
-    count: 189
-  2317:
-  - name: All
-    count: 60
-Tool:
-  0:
+    count: 22
+  GameBanana_Tool_Root:
   - name: All
     count: 72
-  - id: 653
+  - id: GameBanana_Tool_653
     name: Ahorn Plugin
     count: 6
-  - id: 1098
+  - id: GameBanana_Tool_1098
     name: Lönn Plugin
     count: 20
-  - id: 1654
+  - id: GameBanana_Tool_1654
     name: Mod Installer
     count: 4
-  - id: 575
+  - id: GameBanana_Tool_575
     name: Other/Misc
     count: 41
-  - id: 859
+  - id: GameBanana_Tool_859
     name: Twitch Integration
     count: 1
-Wip:
-  0:
+  GameBanana_Mod_5081:
+  - name: All
+    count: 236
+  GameBanana_Wip_Root:
   - name: All
     count: 101
-  - id: 680
+  - id: GameBanana_Wip_680
     name: Maps
     count: 74
-  - id: 466
+  - id: GameBanana_Wip_466
     name: Other/Misc
     count: 27
+  GameBanana_Mod_1501:
+  - name: All
+    count: 15
+  GameBanana_Mod_4635:
+  - name: All
+    count: 50
+  GameBanana_Mod_11181:
+  - name: All
+    count: 360
+  - id: GameBanana_Mod_16940
+    name: Collectibles
+    count: 38
+  - id: GameBanana_Mod_11182
+    name: Other/Misc
+    count: 78
+  - id: GameBanana_Mod_11183
+    name: Player
+    count: 189
+  GameBanana_Mod_15655:
+  - name: All
+    count: 128
+  - id: GameBanana_Mod_15656
+    name: Audio
+    count: 56
+  - id: GameBanana_Mod_15657
+    name: Graphics
+    count: 59
+  GameBanana_Mod_2317:
+  - name: All
+    count: 60
