@@ -313,7 +313,7 @@
       "https://images.gamebanana.com/img/ss/mods/6a8660031df02.jpg"
     ],
     "Description": "Explore the Canvas, Appreciate the Art",
-    "Views": 572,
+    "Views": 741,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "canvas",
@@ -325,10 +325,10 @@
     "GameBananaId": 706886,
     "Featured": {
       "Category": "week",
-      "Position": 4
+      "Position": 3
     },
     "Text": "<h1>欢迎各位来到<span class=\"GreenColor\">画布竞赛合集<\/span>！<\/h1>经过了一年多的打磨，画布终于要和大家见面啦！<br>本竞赛合集包含<span class=\"GreenColor\">超过20张地图<\/span>。<br>合集涵盖<span class=\"GreenColor\">酱二至酱五<\/span>的难度，每一份<i>独一无二的绘画作品<\/i>等待大家去探索！<br>祝各位玩得开心！<br><br><h1>Welcome to the <span class=\"GreenColor\">Canvas Contest<\/span>!<\/h1>After more than a year of refinement, Canvas Contest is finally ready to meet you all!<br>This contest includes <span class=\"GreenColor\">over 20 maps<\/span>.<br>With difficulties ranging from <span class=\"GreenColor\">Intermediate to Grandmaster<\/span>, <i>the unique paintings<\/i> are waiting you exploring.<br>Hope you enjoy the map!<br><br>",
-    "ModifiedDate": 1787367371,
+    "ModifiedDate": 1787419513,
     "Name": "Canvas Contest",
     "PageURL": "https://gamebanana.com/mods/706886",
     "MirroredScreenshots": [
@@ -338,24 +338,24 @@
     "CreatedDate": 1787198375,
     "Author": "bits-Atomizated",
     "CategoryName": "Maps",
-    "Downloads": 922,
-    "Likes": 26,
+    "Downloads": 1270,
+    "Likes": 27,
     "Files": [
       {
-        "Description": "1.0.9 - Main Pack",
+        "Description": "1.0.10 - Main Pack",
         "HasEverestYaml": true,
-        "Size": 3653749,
-        "CreatedDate": 1787364704,
+        "Size": 3652660,
+        "CreatedDate": 1787419461,
         "Downloads": 0,
-        "URL": "https://gamebanana.com/dl/1792908",
-        "Name": "canvascontest0009.zip"
+        "URL": "https://gamebanana.com/dl/1793532",
+        "Name": "canvascontest0010.zip"
       },
       {
         "Description": "1.0.1 - Graphics",
         "HasEverestYaml": true,
         "Size": 81795227,
         "CreatedDate": 1787367321,
-        "Downloads": 0,
+        "Downloads": 148,
         "URL": "https://gamebanana.com/dl/1792934",
         "Name": "canvascontest_graphics0001.zip"
       },
@@ -364,7 +364,7 @@
         "HasEverestYaml": true,
         "Size": 341453216,
         "CreatedDate": 1787211575,
-        "Downloads": 205,
+        "Downloads": 280,
         "URL": "https://gamebanana.com/dl/1790693",
         "Name": "canvascontest_audio_0d9d8.zip"
       }
