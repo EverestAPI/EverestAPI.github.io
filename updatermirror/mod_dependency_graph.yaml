@@ -87600,6 +87600,38 @@ ShiveringHollows:
   - Name: DJMapHelper
     Version: 1.9.8
   URL: https://gamebanana.com/mmdl/872333
+CrispybagsSpringCollabPack:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: JungleHelper
+    Version: 1.4.10
+  - Name: Everest
+    Version: 1.6458.0
+  - Name: ExtendedVariantMode
+    Version: 0.50.5
+  - Name: MaxHelpingHand
+    Version: 1.33.7
+  - Name: EeveeHelper
+    Version: 1.12.2
+  - Name: FrostHelper
+    Version: 1.66.0
+  - Name: YetAnotherHelper
+    Version: 1.2.5
+  - Name: ShroomHelper
+    Version: 1.2.10
+  - Name: CrystallineHelper
+    Version: 1.17.2
+  - Name: CommunalHelper
+    Version: 1.25.5
+  - Name: FemtoHelper
+    Version: 1.15.22
+  - Name: CollabUtils2
+    Version: 1.13.4
+  - Name: SorbetHelper
+    Version: 1.6.2
+  - Name: PandorasBox
+    Version: 1.0.49
+  URL: https://gamebanana.com/mmdl/1793665
 spumperpeakgv:
   OptionalDependencies: []
   Dependencies:
