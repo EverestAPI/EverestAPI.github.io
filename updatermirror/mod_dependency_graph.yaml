@@ -40058,6 +40058,18 @@ Teleport:
   - Name: DJMapHelper
     Version: 1.8.37
   URL: https://gamebanana.com/mmdl/678846
+liquidsilence:
+  OptionalDependencies: []
+  Dependencies:
+  - Name: FrostHelper
+    Version: 1.79.0
+  - Name: CrystallineHelper
+    Version: 1.17.2
+  - Name: Everest
+    Version: 1.6397.0
+  - Name: MaxHelpingHand
+    Version: 1.40.7
+  URL: https://gamebanana.com/mmdl/1793646
 AletrisSandboxLite:
   OptionalDependencies: []
   Dependencies:
