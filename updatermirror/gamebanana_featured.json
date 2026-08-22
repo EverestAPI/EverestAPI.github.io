@@ -47,6 +47,51 @@
   {
     "CategoryId": 6800,
     "Screenshots": [
+      "https://images.gamebanana.com/img/ss/mods/6a88fde2745ba.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a88fde2da149.jpg"
+    ],
+    "Description": "",
+    "Views": 33,
+    "GameBananaType": "Mod",
+    "TokenizedName": [
+      "helix",
+      "of",
+      "atropos"
+    ],
+    "UpdatedDate": 1787362868,
+    "SubcategoryId": 6803,
+    "SubcategoryName": "Collab/Contest",
+    "GameBananaId": 707906,
+    "Featured": {
+      "Category": "today",
+      "Position": 0
+    },
+    "Text": "Standalone version after multiple requests.<br><br>Originally from Secret Santa Collab 2026: https://gamebanana.com/mods/695378",
+    "ModifiedDate": 1787376044,
+    "Name": "Helix of Atropos",
+    "PageURL": "https://gamebanana.com/mods/707906",
+    "MirroredScreenshots": [
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a88fde2745ba.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a88fde2da149.png"
+    ],
+    "CreatedDate": 1787362868,
+    "Author": "olive_r",
+    "CategoryName": "Maps",
+    "Downloads": 8,
+    "Likes": 4,
+    "Files": [{
+      "Description": "",
+      "HasEverestYaml": true,
+      "Size": 16453823,
+      "CreatedDate": 1787362865,
+      "Downloads": 7,
+      "URL": "https://gamebanana.com/dl/1792889",
+      "Name": "helixofatroposssc25v152.zip"
+    }]
+  },
+  {
+    "CategoryId": 6800,
+    "Screenshots": [
       "https://images.gamebanana.com/img/ss/mods/6a8731b419607.jpg",
       "https://images.gamebanana.com/img/ss/mods/6a8731b41feba.jpg"
     ],
@@ -207,7 +252,7 @@
       "https://images.gamebanana.com/img/ss/mods/6a808c7bb35bb.jpg"
     ],
     "Description": "Time strips the gears 'til you forget what they were for",
-    "Views": 2637,
+    "Views": 2693,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "spark",
@@ -224,7 +269,7 @@
       "Position": 3
     },
     "Text": "<b>Spark in the Machine<\/b> is a 100+ room map by <span class=\"GreenColor\"><span class=\"GreenColor\"><a href=\"https://gamebanana.com/members/1777548\">ABuffZucchini <\/a><\/span><\/span>and <a href=\"https://gamebanana.com/members/2022983\">ricky06<\/a>, ranging from <span class=\"GreenColor\">advanced <\/span>to <span class=\"RedColor\">low grandmaster<\/span>. After 3 years of rigorous work and late-night bursts of motivation, we\u2019re extremely proud to finally present our biggest and most ambitious project yet! <br><br>Features:<br><ul><li>9 checkpoints of high octane gameplay with dream blocks, contraptions, and brand new custom mechanics<\/li><li><a href=\"https://youtube.com/playlist?list=PLEKDbEQV5sjA&si=zPUY3urrMnQSwxao\" target=\"_blank\">45+ minute OST<\/a> by <a href=\"https://www.youtube.com/@Soggy__Milk\" target=\"_blank\">Soggy Milk<\/a>!<\/li><li>A decaying factory with a wide array of custom assets<\/li><li>A story featuring old friends and new faces<\/li><li>20 Strawberries to collect<\/li><li>Secrets?<\/li><\/ul><br>As for tech required, the map uses Expert tech up to ultras, and hyper bunnyhops, but does NOT require dream hypers, neutral jumps, or demos. Players using invert grab or toggle grab may run into unintended behavior using the map\u2019s custom mechanic.<br><br><b><u>Special thanks to:<\/u><\/b><br><b>Bissy <\/b>- The spark that started it all! Thank you for bringing this project to life and gathering so many amazing people. Even when life pushed you into the background, your contributions to camera-work and motivational energy carried us forward!<br><br><b>Soggy Milk<\/b> - For being the noises behind the machine! Your incredible 45+ minute long album made for this map was consistently one of the biggest reasons we kept going. Thank you for carrying much of the emotional weight of this project! <b>The full album is available on the following platforms<\/b>, please go check it out! <a href=\"https://youtube.com/playlist?list=PLEKDbEQV5sjA&si=zPUY3urrMnQSwxao\" target=\"_blank\">Youtube<\/a> | <a href=\"https://open.spotify.com/album/1pW6kQda8GHyHWqLyQ4WEt?si=rldK0IplRSy4shtf4YQBVQ&utm_source=copy-link&sci=spotify%3Acard-config%3A42DPjeOgYEDJbNGr407g7H\" target=\"_blank\">Spotify<\/a><br><br><b>SSM24<\/b> - As the mechanic of the machine! Without your codemod support and constant iterations on Resizable Dash Switches, Spark in the Machine would not exist. Sorry for all the bug reports <3<br><br><b>Playtesters<\/b> - Bissy, Donk, Kazt, Skqw, Worldwaker2, and Tykim, who all dedicated time to making sure this map could be as close to our vision as possible<br><br>If you ran into a strange bug, or just enjoyed our map, feel free to let us know @abuffzucchini and @ricky06. Have fun!<br><br>",
-    "ModifiedDate": 1787358274,
+    "ModifiedDate": 1787370233,
     "Name": "Spark in the Machine",
     "PageURL": "https://gamebanana.com/mods/704652",
     "MirroredScreenshots": [
@@ -234,24 +279,24 @@
     "CreatedDate": 1786809804,
     "Author": "ricky06",
     "CategoryName": "Maps",
-    "Downloads": 4547,
-    "Likes": 93,
+    "Downloads": 4673,
+    "Likes": 95,
     "Files": [
       {
         "Description": "The Map (requires audio dependency)",
         "HasEverestYaml": true,
-        "Size": 36676532,
-        "CreatedDate": 1787357908,
+        "Size": 36643815,
+        "CreatedDate": 1787370208,
         "Downloads": 0,
-        "URL": "https://gamebanana.com/dl/1792820",
-        "Name": "sparkinthemachine103.zip"
+        "URL": "https://gamebanana.com/dl/1792983",
+        "Name": "sparkinthemachine103_50953.zip"
       },
       {
         "Description": "The Audio",
         "HasEverestYaml": true,
         "Size": 65427792,
         "CreatedDate": 1786809617,
-        "Downloads": 1763,
+        "Downloads": 1790,
         "URL": "https://gamebanana.com/dl/1785265",
         "Name": "sparkinthemachineaudio.zip"
       }
@@ -268,13 +313,13 @@
       "https://images.gamebanana.com/img/ss/mods/6a8660031df02.jpg"
     ],
     "Description": "Explore the Canvas, Appreciate the Art",
-    "Views": 488,
+    "Views": 572,
     "GameBananaType": "Mod",
     "TokenizedName": [
       "canvas",
       "contest"
     ],
-    "UpdatedDate": 1787292622,
+    "UpdatedDate": 1787367512,
     "SubcategoryId": 6803,
     "SubcategoryName": "Collab/Contest",
     "GameBananaId": 706886,
@@ -283,7 +328,7 @@
       "Position": 4
     },
     "Text": "<h1>欢迎各位来到<span class=\"GreenColor\">画布竞赛合集<\/span>！<\/h1>经过了一年多的打磨，画布终于要和大家见面啦！<br>本竞赛合集包含<span class=\"GreenColor\">超过20张地图<\/span>。<br>合集涵盖<span class=\"GreenColor\">酱二至酱五<\/span>的难度，每一份<i>独一无二的绘画作品<\/i>等待大家去探索！<br>祝各位玩得开心！<br><br><h1>Welcome to the <span class=\"GreenColor\">Canvas Contest<\/span>!<\/h1>After more than a year of refinement, Canvas Contest is finally ready to meet you all!<br>This contest includes <span class=\"GreenColor\">over 20 maps<\/span>.<br>With difficulties ranging from <span class=\"GreenColor\">Intermediate to Grandmaster<\/span>, <i>the unique paintings<\/i> are waiting you exploring.<br>Hope you enjoy the map!<br><br>",
-    "ModifiedDate": 1787331651,
+    "ModifiedDate": 1787367371,
     "Name": "Canvas Contest",
     "PageURL": "https://gamebanana.com/mods/706886",
     "MirroredScreenshots": [
@@ -293,33 +338,33 @@
     "CreatedDate": 1787198375,
     "Author": "bits-Atomizated",
     "CategoryName": "Maps",
-    "Downloads": 842,
+    "Downloads": 922,
     "Likes": 26,
     "Files": [
       {
-        "Description": "1.0.8 - Main Pack",
+        "Description": "1.0.9 - Main Pack",
         "HasEverestYaml": true,
-        "Size": 3654872,
-        "CreatedDate": 1787331616,
+        "Size": 3653749,
+        "CreatedDate": 1787364704,
         "Downloads": 0,
-        "URL": "https://gamebanana.com/dl/1792327",
-        "Name": "canvascontest0008.zip"
+        "URL": "https://gamebanana.com/dl/1792908",
+        "Name": "canvascontest0009.zip"
       },
       {
-        "Description": "Graphics",
+        "Description": "1.0.1 - Graphics",
         "HasEverestYaml": true,
-        "Size": 81534696,
-        "CreatedDate": 1787210538,
-        "Downloads": 187,
-        "URL": "https://gamebanana.com/dl/1790679",
-        "Name": "canvascontest_graphics_61e5e.zip"
+        "Size": 81795227,
+        "CreatedDate": 1787367321,
+        "Downloads": 0,
+        "URL": "https://gamebanana.com/dl/1792934",
+        "Name": "canvascontest_graphics0001.zip"
       },
       {
-        "Description": "Audio Pack",
+        "Description": "1.0.0 - Audio Pack",
         "HasEverestYaml": true,
         "Size": 341453216,
         "CreatedDate": 1787211575,
-        "Downloads": 191,
+        "Downloads": 205,
         "URL": "https://gamebanana.com/dl/1790693",
         "Name": "canvascontest_audio_0d9d8.zip"
       }
