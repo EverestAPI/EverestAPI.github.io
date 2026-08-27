@@ -389,21 +389,6 @@
     "isNative": true
   },
   {
-    "date": "2026-06-29T14:54:01.7364057Z",
-    "olympusBuildFileSize": 73462085,
-    "mainFileSize": 71936028,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5671/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "author": "earthwise01",
-    "commit": "a87291ef07460b677c9c2cadcefa3f9e6f3799a9",
-    "description": "prevent `ParticleType` instances from being kept alive forever",
-    "branch": "dev",
-    "version": 6371,
-    "isNative": true,
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5671/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 269,
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5671/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
-  },
-  {
     "date": "2026-05-30T19:36:50Z",
     "olympusBuildFileSize": 71689340,
     "mainFileSize": 71623452,
