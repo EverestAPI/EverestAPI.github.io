@@ -1,6 +1,6 @@
 ---
 image: ./images/2026-08-27-00-goopvendor-s-new-favorite-grandmaster-map-.png
-link: https://gamebanana.com/mods/346606
+link: https://gamebanana.com/mods/709520
 ignore: false
 title: Goopvendor's New Favorite GM Map!
 
