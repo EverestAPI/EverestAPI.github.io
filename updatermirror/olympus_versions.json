@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-08-29T20:11:17.580554Z",
+    "changelog": "∙ Fixed 1-click install links",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5826/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.08.29.05",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5826/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5826/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-08-29T19:40:50.93708Z",
+    "changelog": "∙ Cleaner mirror fallback mechanics following the mod updater refactor\n∙ Added a new mirror: France (risingsunlight.dev)",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5823/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.08.29.03",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5823/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5823/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-08-29T19:01:59.150077Z",
+    "changelog": "∙ Fixes to the mod browser following the mod updater refactor",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5819/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.08.29.01",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5819/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5819/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-08-23T16:26:47.1913575Z",
     "changelog": "∙ Minor updates to the Korean translation",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5793/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
