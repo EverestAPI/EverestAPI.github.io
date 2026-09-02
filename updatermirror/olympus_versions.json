@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-07T20:39:07.0820867Z",
+    "changelog": "∙ Added Korean language option\n∙ Removed the \"residual files from a .NET Core build\" warning when installing \"core\" versions of Everest\n∙ Fixed an animation glitch with the \"!\" icon\n∙ Made the download animation fill in linearly as the download progresses\n∙ Cleaner mirror fallback mechanics & Fixes to the mod browser following the mod updater refactor\n∙ Added a new mirror: France (risingsunlight.dev)\n∙ Fix linux changelog script",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5854/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.09.07.06",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5854/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5854/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-09-07T20:33:01.4923959Z",
+    "changelog": "∙ Added Korean language option\n∙ Removed the \"residual files from a .NET Core build\" warning when installing \"core\" versions of Everest\n∙ Fixed an animation glitch with the \"!\" icon\n∙ Made the download animation fill in linearly as the download progresses\n∙ Cleaner mirror fallback mechanics & Fixes to the mod browser following the mod updater refactor\n∙ Added a new mirror: France (risingsunlight.dev)\n∙ Fix linux changelog script",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5853/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "windows-init",
+    "version": "26.09.07.05",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5853/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5853/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-09-07T20:27:25.0308158Z",
+    "changelog": "∙ Added Korean language option\n∙ Removed the \"residual files from a .NET Core build\" warning when installing \"core\" versions of Everest\n∙ Fixed an animation glitch with the \"!\" icon\n∙ Made the download animation fill in linearly as the download progresses\n∙ Cleaner mirror fallback mechanics & Fixes to the mod browser following the mod updater refactor\n∙ Added a new mirror: France (risingsunlight.dev)\n∙ Fix linux changelog script",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5852/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "stable",
+    "version": "26.09.07.04",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5852/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5852/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-08-29T20:11:17.580554Z",
     "changelog": "∙ Fixed 1-click install links",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5826/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
@@ -142,50 +169,5 @@
     "version": "26.07.10.08",
     "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5692/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
     "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5692/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-07-10T15:39:01.4023435Z",
-    "changelog": "∙ Minor tweak to the French translation",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5691/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.07.10.07",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5691/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5691/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-07-10T15:31:07.0518341Z",
-    "changelog": "∙ Fixed a freeze when cancelling out of the file picker after clicking \"Install from file\"",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5689/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.07.10.05",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5689/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5689/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-07-10T15:11:51.5117713Z",
-    "changelog": "∙ Ship Chinese, Japanese and Korean fonts with Olympus",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5688/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.07.10.04",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5688/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5688/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-07-10T14:28:16.4229903Z",
-    "changelog": "∙ More efficient translation loading",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5687/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.07.10.03",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5687/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5687/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-07-10T10:15:43.1018182Z",
-    "changelog": "∙ Reorganized language files for easier contribution",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5686/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.07.10.02",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5686/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5686/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
   }
 ]
