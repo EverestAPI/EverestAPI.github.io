@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-09-03T23:54:08.2294291Z",
+    "olympusBuildFileSize": 73467301,
+    "mainFileSize": 71941722,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5829/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "SnipUndercover",
+    "commit": "082e21b0b6dd7ff7c96d65b2ca2c632f4fd8df75",
+    "description": "Fix `TryGotoPrevBestFit` using `TryGotoNext` with 1 predicate",
+    "branch": "dev",
+    "version": 6529,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5829/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5829/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-08-27T18:41:48.4015726Z",
     "olympusBuildFileSize": 73466109,
     "mainFileSize": 71941701,
