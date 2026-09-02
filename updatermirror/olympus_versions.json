@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-09-05T21:06:26.0789929Z",
+    "changelog": "∙ Added Korean language option\n∙ Removed the \"residual files from a .NET Core build\" warning when installing \"core\" versions of Everest\n∙ Fixed an animation glitch with the \"!\" icon\n∙ Made the download animation fill in linearly as the download progresses\n∙ Cleaner mirror fallback mechanics & Fixes to the mod browser following the mod updater refactor\n∙ Added a new mirror: France (risingsunlight.dev)",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5840/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.09.05.06",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5840/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5840/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-09-05T21:01:37.6754896Z",
+    "changelog": "∙ Added Korean language option\n∙ Removed the \"residual files from a .NET Core build\" warning when installing \"core\" versions of Everest\n∙ Fixed an animation glitch with the \"!\" icon\n∙ Made the download animation fill in linearly as the download progresses\n∙ Cleaner mirror fallback mechanics & Fixes to the mod browser following the mod updater refactor\n∙ Added a new mirror: France (risingsunlight.dev)",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5839/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "windows-init",
+    "version": "26.09.05.05",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5839/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5839/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-09-05T20:56:07.3064254Z",
+    "changelog": "∙ Added Korean language option\n∙ Removed the \"residual files from a .NET Core build\" warning when installing \"core\" versions of Everest\n∙ Fixed an animation glitch with the \"!\" icon\n∙ Made the download animation fill in linearly as the download progresses\n∙ Cleaner mirror fallback mechanics & Fixes to the mod browser following the mod updater refactor\n∙ Added a new mirror: France (risingsunlight.dev)",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5838/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "stable",
+    "version": "26.09.05.04",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5838/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5838/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-08-29T20:11:17.580554Z",
     "changelog": "∙ Fixed 1-click install links",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5826/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
