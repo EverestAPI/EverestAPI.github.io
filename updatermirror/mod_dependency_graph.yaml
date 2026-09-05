@@ -82023,6 +82023,21 @@ Relestio:
   - Name: Everest
     Version: 1.3070.0
   OptionalDependencies: []
+Rembered:
+  URL: https://gamebanana.com/mmdl/1808016
+  MirrorName: '1808016'
+  Dependencies:
+  - Name: BrokemiaHelper
+    Version: 1.8.5
+  - Name: CrystallineHelper
+    Version: 1.17.2
+  - Name: Everest
+    Version: 1.6485.0
+  - Name: MaxHelpingHand
+    Version: 1.40.9
+  - Name: VivHelper
+    Version: 1.14.10
+  OptionalDependencies: []
 Remember:
   URL: https://gamebanana.com/mmdl/1767840
   MirrorName: '1767840'
