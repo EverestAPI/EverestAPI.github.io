@@ -29401,6 +29401,15 @@ OverworldHelper:
   xxHash:
   - a83fff849b79cf37
   Size: 7259
+OverworldMusicHelper:
+  Version: 1.0.0
+  LastUpdate: 1788610582
+  GameBananaFileId: '1807787'
+  MirrorName: '1807787'
+  URL: https://gamebanana.com/mmdl/1807787
+  xxHash:
+  - f3e67ab784a12357
+  Size: 15740
 Overwritten:
   Version: '1.1'
   LastUpdate: 1698676884

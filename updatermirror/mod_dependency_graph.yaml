@@ -74515,6 +74515,13 @@ OverworldHelper:
   - Name: EverestCore
     Version: 1.5935.0
   OptionalDependencies: []
+OverworldMusicHelper:
+  URL: https://gamebanana.com/mmdl/1807787
+  MirrorName: '1807787'
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.5935.0
+  OptionalDependencies: []
 Overwritten:
   URL: https://gamebanana.com/mmdl/1079815
   MirrorName: '1079815'

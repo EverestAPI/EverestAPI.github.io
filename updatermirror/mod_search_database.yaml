@@ -343389,3 +343389,44 @@
     w more extensive per-map/per-mod configuration + extra support for code mods
   UpdatedDate: 1788406398
   Views: 13
+- Author: tart1997
+  Category:
+    ID: GameBanana_Mod_4632
+    Name: Other/Misc
+  CategoryId: GameBanana_Mod_4632
+  CategoryName: Other/Misc
+  CreatedDate: 1788611136
+  Description: Tired of that wind?
+  Downloads: 0
+  FeaturedTier: 0
+  Files:
+  - Description: 1.0.0
+    HasEverestYaml: true
+    Size: 15740
+    CreatedDate: 1788610582
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1807787
+    Name: overworldmusichelper.zip
+    MirrorName: '1807787'
+    ID: GameBanana/1807787
+    IsLatestVersion: true
+  GameBananaType: Obsolete
+  Likes: 0
+  MirroredScreenshots:
+  - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9c0973e83af.png
+  - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9c0a0b6bfd4.png
+  ModifiedDate: 1788611136
+  Name: Overworld Music Helper
+  PageURL: https://gamebanana.com/mods/713914
+  Screenshots:
+  - https://images.gamebanana.com/img/ss/mods/6a9c0973e83af.jpg
+  - https://images.gamebanana.com/img/ss/mods/6a9c0a0b6bfd4.jpg
+  Text: A tiny little mod that allows you to change what the game considers to be
+    the default overworld music.<br><br>You can set the overworld music AND ambiance
+    to be whatever FMOD event you want as long as some mod in your mods folder has
+    it. You can even make your own tiny bank with the sole purpose of containing the
+    event you wish to be your default.<br><br>My recommendation is to set the Music
+    to "event:/none" and the Ambiance to "event:/new_content/env/10_rain" but it's
+    really all up to you.
+  UpdatedDate: 1788611136
+  Views: 0
