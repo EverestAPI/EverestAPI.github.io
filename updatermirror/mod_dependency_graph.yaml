@@ -75906,17 +75906,6 @@ ParrotJaunt:
   - Name: VortexHelper
     Version: 1.2.19
   OptionalDependencies: []
-ParrotMB6FBHSPHDRCBsFirstMap2024:
-  URL: https://gamebanana.com/mmdl/1549419
-  MirrorName: '1549419'
-  Dependencies:
-  - Name: EeveeHelper
-    Version: 1.11.1
-  - Name: Everest
-    Version: 1.5000.0
-  - Name: MaxHelpingHand
-    Version: 1.29.4
-  OptionalDependencies: []
 Parrot_CONGRATS:
   URL: https://gamebanana.com/mmdl/1760519
   MirrorName: '1760519'
