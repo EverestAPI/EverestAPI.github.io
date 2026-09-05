@@ -1213,8 +1213,9 @@
   {
     "CategoryId": "GameBanana_Mod_6800",
     "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/6a938e9ec9f08.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a938ebb57197.jpg"
+      "https://images.gamebanana.com/img/ss/mods/6a9a768cce8c5.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a9a76a27cf74.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a9a76a27e863.jpg"
     ],
     "Category": {
       "Parent": {
@@ -1224,38 +1225,38 @@
       "ID": "GameBanana_Mod_6801",
       "Name": "Standalone"
     },
-    "Description": "",
-    "Views": 235,
+    "Description": "Idyllic Mirage / Rosehip at Dawn",
+    "Views": 0,
     "GameBananaType": "Obsolete",
-    "UpdatedDate": 1788055287,
+    "UpdatedDate": 1788507896,
     "FeaturedTier": 6,
     "SubcategoryId": "GameBanana_Mod_6801",
     "SubcategoryName": "Standalone",
-    "Text": "I introduce my very first custom Celeste map: JUICE!<br><br>It is 24~ rooms of beginner gameplay centered on instant refills and crumble blocks, featuring lots of jumpthroughs and berries. I worked real hard on this and I'm super happy with how it came out, so if you decide to play it, have fun and I hope you enjoy!&nbsp;<br><br>-Kenna",
-    "ModifiedDate": 1788055287,
-    "Name": "JUICE",
-    "PageURL": "https://gamebanana.com/mods/711545",
+    "Text": "Please ping me if you beat the map or encounter any issues! my discord is @kalypsooooo<br><br>Gorgeous 10 room advanced map exploring jellies, move blocks, and feathers! So, so very proud of this one, i hope you all enjoy!<br><br>Music by Berlinist: <br>Komorebi: https://youtu.be/977NIrIGnqg?si=4HniVURlmY69tHxC<br>Komorebi, Pt. 2: https://youtu.be/8N1xj5W2JVw?si=2i_t-XTPQ8eVI2Qa",
+    "ModifiedDate": 1788519447,
+    "Name": "Idyllic Mirage",
+    "PageURL": "https://gamebanana.com/mods/713502",
     "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a938e9ec9f08.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a938ebb57197.png"
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9a768cce8c5.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9a76a27cf74.png"
     ],
-    "CreatedDate": 1788055287,
-    "Author": "KennaLikesPizza",
+    "CreatedDate": 1788507896,
+    "Author": "kalypsoooo",
     "CategoryName": "Maps",
-    "Downloads": 58,
+    "Downloads": 0,
     "Files": [{
-      "MirrorName": "1801684",
+      "MirrorName": "1806711",
       "IsLatestVersion": true,
-      "Description": "",
+      "Description": "1.0.0 - map",
       "HasEverestYaml": true,
-      "Size": 6530992,
-      "CreatedDate": 1788055253,
-      "Downloads": 58,
-      "ID": "GameBanana/1801684",
-      "URL": "https://gamebanana.com/mmdl/1801684",
-      "Name": "juice_e5f61.zip"
+      "Size": 8067871,
+      "CreatedDate": 1788507865,
+      "Downloads": 0,
+      "ID": "GameBanana/1806711",
+      "URL": "https://gamebanana.com/mmdl/1806711",
+      "Name": "idyllicmirage.zip"
     }],
-    "Likes": 6
+    "Likes": 12
   },
   {
     "CategoryId": "GameBanana_Mod_6800",
@@ -1414,5 +1415,151 @@
       }
     ],
     "Likes": 30
+  },
+  {
+    "CategoryId": "GameBanana_Mod_6800",
+    "Screenshots": [
+      "https://images.gamebanana.com/img/ss/mods/6a9b2c9c58c51.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a9b2c9c5a913.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a9b2c9c63c87.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a9b2c9c68436.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a9b2c9c8e2ef.jpg"
+    ],
+    "Category": {
+      "Parent": {
+        "ID": "GameBanana_Mod_6800",
+        "Name": "Maps"
+      },
+      "ID": "GameBanana_Mod_6801",
+      "Name": "Standalone"
+    },
+    "Description": "playback addon showcase",
+    "Views": 0,
+    "GameBananaType": "Obsolete",
+    "UpdatedDate": 1788554874,
+    "FeaturedTier": 7,
+    "SubcategoryId": "GameBanana_Mod_6801",
+    "SubcategoryName": "Standalone",
+    "Text": "A piece of an upcoming chapter from Mt Carpet to showcase the new bells in playback addon,<br>featuring a massive collection of ~25 puzzle rooms using the new bells",
+    "ModifiedDate": 1788555105,
+    "Name": "Grand Bell Temple",
+    "PageURL": "https://gamebanana.com/mods/713686",
+    "MirroredScreenshots": [
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9b2c9c58c51.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9b2c9c5a913.png"
+    ],
+    "CreatedDate": 1788554874,
+    "Author": "carvedpuppet395",
+    "CategoryName": "Maps",
+    "Downloads": 0,
+    "Files": [{
+      "MirrorName": "1807177",
+      "IsLatestVersion": true,
+      "Description": "1.0.0 - first version",
+      "HasEverestYaml": true,
+      "Size": 39264730,
+      "CreatedDate": 1788554513,
+      "Downloads": 0,
+      "ID": "GameBanana/1807177",
+      "URL": "https://gamebanana.com/mmdl/1807177",
+      "Name": "grand_bell_temple.zip"
+    }],
+    "Likes": 2
+  },
+  {
+    "CategoryId": "GameBanana_Mod_6800",
+    "Screenshots": [
+      "https://images.gamebanana.com/img/ss/mods/6a9b7cd77ed8b.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a9b7cf3d5b12.jpg"
+    ],
+    "Category": {
+      "Parent": {
+        "ID": "GameBanana_Mod_6800",
+        "Name": "Maps"
+      },
+      "ID": "GameBanana_Mod_6801",
+      "Name": "Standalone"
+    },
+    "Description": "frustration",
+    "Views": 0,
+    "GameBananaType": "Obsolete",
+    "UpdatedDate": 1788575041,
+    "FeaturedTier": 7,
+    "SubcategoryId": "GameBanana_Mod_6801",
+    "SubcategoryName": "Standalone",
+    "Text": "dedicated to schnippi, released on his birthday :3<br>i tried my best to make something somewhat fun and consistent to play (while still very challenging)<br>if you find some particular input that is extremely inconsistent lmk and i'll nerf it",
+    "ModifiedDate": 1788575041,
+    "Name": "The Sharpest Sapling",
+    "PageURL": "https://gamebanana.com/mods/713788",
+    "MirroredScreenshots": [
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9b7cd77ed8b.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9b7cf3d5b12.png"
+    ],
+    "CreatedDate": 1788575041,
+    "Author": "theepiccarrot7",
+    "CategoryName": "Maps",
+    "Downloads": 0,
+    "Files": [{
+      "MirrorName": "1807459",
+      "IsLatestVersion": true,
+      "Description": "",
+      "HasEverestYaml": true,
+      "Size": 2515066,
+      "CreatedDate": 1788575016,
+      "Downloads": 0,
+      "ID": "GameBanana/1807459",
+      "URL": "https://gamebanana.com/mmdl/1807459",
+      "Name": "thesharpestsapling.zip"
+    }],
+    "Likes": 2
+  },
+  {
+    "CategoryId": "GameBanana_Mod_6800",
+    "Screenshots": [
+      "https://images.gamebanana.com/img/ss/mods/6a9bdfcd53cc9.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a9bdc6297708.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a9bdc62ad06d.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a9bdc62b474d.jpg"
+    ],
+    "Category": {
+      "Parent": {
+        "ID": "GameBanana_Mod_6800",
+        "Name": "Maps"
+      },
+      "ID": "GameBanana_Mod_6801",
+      "Name": "Standalone"
+    },
+    "Description": "Getting back into the Swing of things",
+    "Views": 0,
+    "GameBananaType": "Obsolete",
+    "UpdatedDate": 1788600510,
+    "FeaturedTier": 7,
+    "SubcategoryId": "GameBanana_Mod_6801",
+    "SubcategoryName": "Standalone",
+    "Text": "Hello! This is my fourth map! It is on the shorter side this time being 3 rooms in length, And 1 berry. It has been hard to map lately, and this was an effort to Make something Again, hence the title, and theme. <br><br>This was my first time trying to make nyoom gameplay, so I hope it works! The map requires Expert Knowledge of Kevins.<br><br>Please ping me @pummells on Discord if you have any feedback!",
+    "ModifiedDate": 1788602410,
+    "Name": "put something down",
+    "PageURL": "https://gamebanana.com/mods/713883",
+    "MirroredScreenshots": [
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9bdfcd53cc9.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9bdc6297708.png"
+    ],
+    "CreatedDate": 1788600510,
+    "Author": "pummells",
+    "CategoryName": "Maps",
+    "Downloads": 0,
+    "Files": [{
+      "MirrorName": "1807732",
+      "IsLatestVersion": true,
+      "Description": "",
+      "HasEverestYaml": true,
+      "Size": 18376,
+      "CreatedDate": 1788602182,
+      "Downloads": 0,
+      "ID": "GameBanana/1807732",
+      "URL": "https://gamebanana.com/mmdl/1807732",
+      "Name": "put_something_down_be24a.zip"
+    }],
+    "Likes": 1
   }
 ]
