@@ -343437,7 +343437,17 @@
   Downloads: 98
   FeaturedTier: 0
   Files:
-  - Description: 0.2.0
+  - Description: 0.3.0 - Celestial Resort Update
+    HasEverestYaml: true
+    Size: 12381277
+    CreatedDate: 1788734140
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1809423
+    Name: celestehardmode_dd6b8.zip
+    MirrorName: '1809423'
+    ID: GameBanana/1809423
+    IsLatestVersion: true
+  - Description: ARCHIVED - 0.2.0 - Old Site Update
     HasEverestYaml: true
     Size: 8259910
     CreatedDate: 1786993041
@@ -343446,8 +343456,8 @@
     Name: celestehardmode_94a71.zip
     MirrorName: '1787774'
     ID: GameBanana/1787774
-    IsLatestVersion: true
-  - Description: ARCHIVED - 0.1.0
+    IsLatestVersion: false
+  - Description: ARCHIVED - 0.1.0 - Forsaken City Update
     HasEverestYaml: true
     Size: 3903554
     CreatedDate: 1785527469
@@ -343460,52 +343470,67 @@
   GameBananaType: Obsolete
   Likes: 5
   MirroredScreenshots:
-  - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_wips_6a8358fc121c7.png
+  - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_wips_6a9dea7496d01.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_wips_6a8359084cbea.png
-  ModifiedDate: 1786993160
+  ModifiedDate: 1788734235
   Name: '[WIP] Harderleste - Celeste Hard Mode'
   PageURL: https://gamebanana.com/wips/102630
   Screenshots:
-  - https://images.gamebanana.com/img/ss/wips/6a8358fc121c7.jpg
+  - https://images.gamebanana.com/img/ss/wips/6a9dea7496d01.jpg
   - https://images.gamebanana.com/img/ss/wips/6a8359084cbea.jpg
   - https://images.gamebanana.com/img/ss/wips/6a835929aa25a.jpg
   - https://images.gamebanana.com/img/ss/wips/6a83590858416.jpg
   - https://images.gamebanana.com/img/ss/wips/6a8359084d93d.jpg
   - https://images.gamebanana.com/img/ss/wips/6a835929aa2c8.jpg
+  - https://images.gamebanana.com/img/ss/wips/6a9dea917c26d.jpg
+  - https://images.gamebanana.com/img/ss/wips/6a9dea917fe84.jpg
   SubcategoryId: GameBanana_Wip_680
   SubcategoryName: Maps
-  Text: "Do you ever get that itch to play some good old Celeste, only to be bored\
-    \ out of your skull because everything is so easy now after you’ve achieved 100%\
-    \ or even 202? Ever wish things could be just a little harder? Well, look no further!\
-    \ Welcome to Harderleste, a map pack that takes every chapter from vanilla Celeste,\
-    \ and cranks up the difficulty tenfold, while still feeling fair to the player\
-    \ and done in a way that is coherent within the original, almost like it makes\
-    \ sense that these are the way they are. Think you got what it takes to reach\
-    \ the top? Yes? How about 100% then? That too, huh? Well I hope you have fun with\
-    \ collecting the golden berries, good luck on your 202 journeys!<br><br>\r\nThis\
-    \ mod is essentially a reimagining of LennyTheSniper’s unfinished “Hard Mode”\
-    \ for Celeste that they were making at some point, but sadly it was never finished.\
-    \ Ever since Expert Remix, I’ve had quite a fun time making vanilla Celeste rooms\
-    \ harder, one because it’s fun, and two because I find it quite interesting, to\
-    \ say the least. I tried my best to make sure nothing in here plays exactly the\
-    \ same as any of the rooms in Expert Remix, but if I have to recycle ideas, I\
-    \ will, it just won’t happen very often I assure you.<br><br>\r\nSpecial thanks\
-    \ to everyone that is playing the WIP versions of the mod, any feedback is greatly\
-    \ appreciated and would also be a big help in improving this mod, so don’t hesitate\
-    \ to drop a comment if you want to, I’d love to hear what you have to say about\
-    \ this!<br><br>\r\nAs of v0.2.0, this mod contains the following:<br><br>\r\n\
-    - 5 maps, including:<br>\r\n&nbsp;&nbsp; - Prologue<br>\r\n&nbsp;&nbsp; - Forsaken\
-    \ City<br>\r\n&nbsp;&nbsp; - Forsaken City B-Side<br>\r\n&nbsp;&nbsp; - Old Site<br>\r\
-    \n&nbsp;&nbsp; - Old Site B-Side<br>- 38 strawberries to collect, along with 5\
-    \ golden berries to grind for<br>- 19 achievements, 1 of which being secret<br><br>\r\
-    \nComing soon in the next update:<br><br>\r\n- Celestial Resort<br>\r\n- Celestial\
-    \ Resort B-Side<br>\r\n- More collectables, more achievements!<br><br>\r\nBtw\
-    \ yeah sorry I’m only now improving the mod description, when I dropped the first\
-    \ version it was like 1 AM in the morning and I was running low on energy and\
-    \ I really needed to sleep, I was very close to finishing and thus I just rushed\
-    \ it so I could do that, so I hope you understand :maddyhug:<br>"
+  Text: Do you ever get that itch to play some good old Celeste, only to be bored
+    out of your skull because everything is so easy now after you’ve achieved 100%
+    or even 202? Ever wish things could be just a little harder? Well, look no further!
+    Welcome to Harderleste, the official unofficial hard mode to Celeste! This is
+    a map pack that takes every chapter from vanilla Celeste, and cranks up the difficulty
+    tenfold, while still feeling fair to the player and done in a way that feels coherent
+    within the original. Think you got what it takes to reach the top? Yes? How about
+    100% then? That too, huh? Well I hope you have fun with collecting the golden
+    berries, good luck on your 202 journeys!<br><hr>This mod is essentially a reimagining
+    of&nbsp;<span class="GreenColor">LennyTheSniper</span>’s unfinished “Hard Mode”
+    for Celeste that they were making at some point, but sadly it was never finished.
+    Ever since Expert Remix, I’ve had quite a fun time making vanilla Celeste rooms
+    harder, one because it’s fun, and two because I find it quite interesting, to
+    say the least. I tried my best to make sure nothing in here plays exactly the
+    same as any of the rooms in Expert Remix, but if I have to recycle ideas, I will,
+    it just won’t happen very often I assure you.<br><hr>This mod expects that you
+    have achieved 100% in the vanilla game, so any technique taught in the base game
+    will be required in order to beat many of this mod's chapters. A full list of
+    every technique that you are expected to know how to perform for this mod is provided
+    below:<br><ul><li>Climb Jump</li><li>Momentum Boost</li><li>Dream Jump</li><li>Dream
+    Grab</li><li>Oshiro Jump</li><li>Cloud Jump</li><li>Snowball Jump</li><li>Seeker
+    Jump</li><li>Theo Regrab</li><li>Bumper Boost</li><li>Wallbounce</li><li>Hyperdash</li><li>Extended
+    Hyperdash</li><li>Jelly Boost</li><li>Wavedash</li><li>Fastfall</li></ul>Additionally,
+    throughout the mod you will have to perform new techniques to beat chapters. Any
+    new technique will provide a tutorial on how to perform it, if necessary.<br><hr>As
+    of&nbsp;<span class="GreenColor"><b>v0.3.0</b></span>, this mod contains the following:<br><br><span
+    class="RedColor"><span class="GreenColor"><span class="RedColor"><b><span class="GreenColor">7<font
+    color="#ff4e4e">&nbsp;</font></span></b></span></span></span>maps spanning across&nbsp;<span
+    class="RedColor"><b>3</b></span>&nbsp;chapters, including:<br><ul><li>Prologue</li><li>Forsaken
+    City</li><li>Forsaken City B-Side</li><li>Old Site</li><li>Old Site B-Side</li><li>Celestial
+    Resort</li><li>Celestial Resort B-Side</li></ul><b><span class="GreenColor">63</span></b>&nbsp;strawberries,
+    including&nbsp;<span class="RedColor"><b>7</b></span>&nbsp;goldens to grind for<br><font
+    color="#6ee16c"><b>27</b></font>&nbsp;achievements, including&nbsp;<font color="#ff4e4e"><b>2</b></font>&nbsp;secret
+    achievements; courtesy of&nbsp;<span class="GreenColor">AchievementHelper</span><br><hr>Coming
+    soon in&nbsp;<b><span class="GreenColor">v0.4.0</span></b>:<br><ul><li>Golden
+    Ridge<br></li><li>Golden Ridge B-Side<br></li><li>More collectables, more achievements!<br></li></ul><hr>Special
+    thanks to everyone that is playing the WIP versions of the mod, any feedback is
+    greatly appreciated and would also be a big help in improving this mod, so don’t
+    hesitate to drop a comment if you want to, I’d love to hear what you have to say
+    about this!<br><br>Big thanks to&nbsp;<span class="GreenColor">Brokemia</span>&nbsp;for
+    helping me figure out how to properly set up some of these achievements so I didn't
+    have to put like 8 achievement controllers in every room.<br><hr>Reworking the
+    description again lmao I just can't have a break anymore<br>
   UpdatedDate: 1786993359
-  Views: 664
+  Views: 670
 - Author: PixelJinx
   Category:
     ID: GameBanana_Wip_680

@@ -23983,8 +23983,8 @@ Celest:
     Version: 1.800.0
   OptionalDependencies: []
 Celeste (Hard Mode):
-  URL: https://gamebanana.com/mmdl/1787774
-  MirrorName: '1787774'
+  URL: https://gamebanana.com/mmdl/1809423
+  MirrorName: '1809423'
   Dependencies:
   - Name: AchievementHelper
     Version: 1.0.5
@@ -23992,12 +23992,16 @@ Celeste (Hard Mode):
     Version: 1.7.1
   - Name: ConditionHelper
     Version: 1.0.0
+  - Name: Errand Of Wednesday
+    Version: 0.4.2
   - Name: Everest
     Version: 1.6305.0
   - Name: JungleHelper
     Version: 1.4.8
   - Name: MaxHelpingHand
     Version: 1.40.9
+  - Name: Pico8MapLoaderEditor
+    Version: 1.1.4
   OptionalDependencies: []
 Celeste - Hard Mode:
   URL: https://gamebanana.com/mmdl/801712
