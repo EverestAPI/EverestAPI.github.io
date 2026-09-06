@@ -54306,6 +54306,39 @@ InterstellarCaverns:
   - Name: MaxHelpingHand
     Version: 1.3.0
   OptionalDependencies: []
+Intertwined:
+  URL: https://gamebanana.com/mmdl/1809266
+  MirrorName: '1809266'
+  Dependencies:
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: ChroniaHelper
+    Version: 1.54.0
+  - Name: CollabUtils2
+    Version: 1.13.4
+  - Name: CommunalHelper
+    Version: 1.25.5
+  - Name: CoopHelper
+    Version: 1.1.4
+  - Name: CpopHelper
+    Version: 1.3.0
+  - Name: CrystallineHelper
+    Version: 1.17.2
+  - Name: DJMapHelper
+    Version: 1.13.4
+  - Name: Everest
+    Version: 1.6129.0
+  - Name: ExtendedVariantMode
+    Version: 0.50.5
+  - Name: FrostHelper
+    Version: 1.80.1
+  - Name: MaxHelpingHand
+    Version: 1.40.9
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: VortexHelper
+    Version: 1.2.19
+  OptionalDependencies: []
 Into The Core:
   URL: https://gamebanana.com/mmdl/900378
   MirrorName: '900378'

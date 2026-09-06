@@ -343845,3 +343845,66 @@
   Text: This is totes a beginner map. Trust.
   UpdatedDate: 1788719889
   Views: 0
+- Author: Clantis
+  Category:
+    ID: GameBanana_Mod_15667
+    Name: Multiplayer
+    Parent:
+      ID: GameBanana_Mod_6800
+      Name: Maps
+  CategoryId: GameBanana_Mod_6800
+  CategoryName: Maps
+  CreatedDate: 1788724709
+  Description: ''
+  Downloads: 0
+  FeaturedTier: 0
+  Files:
+  - Description: 1.0.0
+    HasEverestYaml: true
+    Size: 12440882
+    CreatedDate: 1788724639
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1809266
+    Name: intertwined.zip
+    MirrorName: '1809266'
+    ID: GameBanana/1809266
+    IsLatestVersion: true
+  GameBananaType: Obsolete
+  Likes: 1
+  MirroredScreenshots:
+  - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9ca20966199.png
+  - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9c91ef2bb7d.png
+  ModifiedDate: 1788724709
+  Name: Intertwined
+  PageURL: https://gamebanana.com/mods/713075
+  Screenshots:
+  - https://images.gamebanana.com/img/ss/mods/6a9ca20966199.jpg
+  - https://images.gamebanana.com/img/ss/mods/6a9c91ef2bb7d.jpg
+  - https://images.gamebanana.com/img/ss/mods/6a9c91ef3f3ed.jpg
+  - https://images.gamebanana.com/img/ss/mods/6a9c91ef11fc4.jpg
+  - https://images.gamebanana.com/img/ss/mods/6a9c91ef54dbd.jpg
+  - https://images.gamebanana.com/img/ss/mods/6a9c91ef18899.jpg
+  - https://images.gamebanana.com/img/ss/mods/6a9c91ef1a9ad.jpg
+  SubcategoryId: GameBanana_Mod_15667
+  SubcategoryName: Multiplayer
+  Text: "Intertwined is a 16 room long <b>2-Player Co-op Summit map</b>, which uses\
+    \ Co-op helper to sync entities over CelesteNet.\r\n\r\nThe map ranges from Expert\
+    \ to Grandmaster difficulty, per player. The map typically plays like a death-link\
+    \ challenge though there is occasional cross-player interactions.<br><br>Players\
+    \ pick between playing as Madeline with one dash, or Badeline with two. Both paths\
+    \ are around the same difficulty.<br><br>There are 2 practice rooms for each Co-op\
+    \ room, which allow each player to play a room Single-player with changes to make\
+    \ them possible.<br><br>You can also play either practice route in its entirety\
+    \ Single-player. To setup the flags required to do so without a friend, there\
+    \ are debug rooms present near the start of the map to set them up for you.<br><br>This\
+    \ map is intended to be played with CelesteNet interactions <span class=\"RedColor\"\
+    ><b>Disabled.</b>\_</span>We currently can't forcefully disable them as that will\
+    \ require an update to CelesteNet. <br><br>There are three deathless collectibles\
+    \ available.<br><ul><li>Golden Strawberry - Doing the map Co-op deathless.</li><li>Silver\
+    \ Strawberry x2 - Doing a single-player practice room route deathless.</li></ul>\r\
+    \n\r\n\r\nDo not look for any additional collectibles.<br><br>There are text files\
+    \ in the mod folder describing our in-depth thoughts on the map if you'd like\
+    \ to read through them :)<br><br><h3>Huge thanks to all of our playtesters, as\
+    \ well as a special thanks to wtorek35 for the amazing art featured in the map.</h3>"
+  UpdatedDate: 1788724709
+  Views: 29
