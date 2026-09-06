@@ -1094,6 +1094,74 @@
   {
     "CategoryId": "GameBanana_Mod_6800",
     "Screenshots": [
+      "https://images.gamebanana.com/img/ss/mods/6a808c7e67d85.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a808c7b8af0f.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a808c7b972db.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a808c7ba9fe4.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a808c7ba92a4.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a808c7bc41a6.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a808c7bbcb39.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a808c7b9846e.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a808c7bb35bb.jpg"
+    ],
+    "Category": {
+      "Parent": {
+        "ID": "GameBanana_Mod_6800",
+        "Name": "Maps"
+      },
+      "ID": "GameBanana_Mod_6801",
+      "Name": "Standalone"
+    },
+    "Description": "Time strips the gears 'til you forget what they were for",
+    "Views": 5645,
+    "GameBananaType": "Obsolete",
+    "UpdatedDate": 1787358036,
+    "FeaturedTier": 5,
+    "SubcategoryId": "GameBanana_Mod_6801",
+    "SubcategoryName": "Standalone",
+    "Text": "<b>Spark in the Machine<\/b> is a 100+ room map by <span class=\"GreenColor\"><span class=\"GreenColor\"><a href=\"https://gamebanana.com/members/1777548\">ABuffZucchini <\/a><\/span><\/span>and <a href=\"https://gamebanana.com/members/2022983\">ricky06<\/a>, ranging from <span class=\"GreenColor\">advanced <\/span>to <span class=\"RedColor\">low grandmaster<\/span>. After 3 years of rigorous work and late-night bursts of motivation, we\u2019re extremely proud to finally present our biggest and most ambitious project yet! <br><br>Features:<br><ul><li>9 checkpoints of high octane gameplay with dream blocks, contraptions, and brand new custom mechanics<\/li><li><a href=\"https://youtube.com/playlist?list=PLEKDbEQV5sjA&si=zPUY3urrMnQSwxao\" target=\"_blank\">45+ minute OST<\/a> by <a href=\"https://www.youtube.com/@Soggy__Milk\" target=\"_blank\">Soggy Milk<\/a>!<\/li><li>A decaying factory with a wide array of custom assets<\/li><li>A story featuring old friends and new faces<\/li><li>20 Strawberries to collect<\/li><li>Secrets?<\/li><\/ul><br>As for tech required, the map uses Expert tech up to ultras, and hyper bunnyhops, but does NOT require dream hypers, neutral jumps, or demos. Players using invert grab or toggle grab may run into unintended behavior using the map\u2019s custom mechanic.<br><br><b><u>Special thanks to:<\/u><\/b><br><b>Bissy <\/b>- The spark that started it all! Thank you for bringing this project to life and gathering so many amazing people. Even when life pushed you into the background, your contributions to camera-work and motivational energy carried us forward!<br><br><b>Soggy Milk<\/b> - For being the noises behind the machine! Your incredible 45+ minute long album made for this map was consistently one of the biggest reasons we kept going. Thank you for carrying much of the emotional weight of this project! <b>The full album is available on the following platforms<\/b>, please go check it out! <a href=\"https://youtube.com/playlist?list=PLEKDbEQV5sjA&si=zPUY3urrMnQSwxao\" target=\"_blank\">Youtube<\/a> | <a href=\"https://open.spotify.com/album/1pW6kQda8GHyHWqLyQ4WEt?si=rldK0IplRSy4shtf4YQBVQ&utm_source=copy-link&sci=spotify%3Acard-config%3A42DPjeOgYEDJbNGr407g7H\" target=\"_blank\">Spotify<\/a><br><br><b>SSM24<\/b> - As the mechanic of the machine! Without your codemod support and constant iterations on Resizable Dash Switches, Spark in the Machine would not exist. Sorry for all the bug reports <3<br><br><b>Playtesters<\/b> - Bissy, Donk, Kazt, Skqw, Worldwaker2, and Tykim, who all dedicated time to making sure this map could be as close to our vision as possible<br><br>If you ran into a strange bug, or just enjoyed our map, feel free to let us know @abuffzucchini and @ricky06. Have fun!<br><br>",
+    "ModifiedDate": 1788733050,
+    "Name": "Spark in the Machine",
+    "PageURL": "https://gamebanana.com/mods/704652",
+    "MirroredScreenshots": [
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a808c7e67d85.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a808c7b8af0f.png"
+    ],
+    "CreatedDate": 1786809804,
+    "Author": "ricky06",
+    "CategoryName": "Maps",
+    "Downloads": 7398,
+    "Files": [
+      {
+        "MirrorName": "1809399",
+        "IsLatestVersion": true,
+        "Description": "",
+        "HasEverestYaml": true,
+        "Size": 36673703,
+        "CreatedDate": 1788733001,
+        "Downloads": 0,
+        "ID": "GameBanana/1809399",
+        "URL": "https://gamebanana.com/mmdl/1809399",
+        "Name": "sparkinthemachine104.zip"
+      },
+      {
+        "MirrorName": "1809400",
+        "IsLatestVersion": true,
+        "Description": "",
+        "HasEverestYaml": true,
+        "Size": 65427761,
+        "CreatedDate": 1788733034,
+        "Downloads": 0,
+        "ID": "GameBanana/1809400",
+        "URL": "https://gamebanana.com/mmdl/1809400",
+        "Name": "sparkinthemachineaudio101.zip"
+      }
+    ],
+    "Likes": 112
+  },
+  {
+    "CategoryId": "GameBanana_Mod_6800",
+    "Screenshots": [
       "https://images.gamebanana.com/img/ss/mods/6a93aa4fa4739.jpg",
       "https://images.gamebanana.com/img/ss/mods/6a93aa5562ca1.jpg"
     ],
@@ -1388,54 +1456,6 @@
       "ID": "GameBanana/1808594",
       "URL": "https://gamebanana.com/mmdl/1808594",
       "Name": "quogcode.zip"
-    }],
-    "Likes": 1
-  },
-  {
-    "CategoryId": "GameBanana_Mod_6800",
-    "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/6a9c933b53059.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a9c933b46676.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a9c933b76ea7.jpg"
-    ],
-    "Category": {
-      "Parent": {
-        "ID": "GameBanana_Mod_6800",
-        "Name": "Maps"
-      },
-      "ID": "GameBanana_Mod_6801",
-      "Name": "Standalone"
-    },
-    "Description": "A map where the tiles are the same in each room",
-    "Views": 33,
-    "GameBananaType": "Obsolete",
-    "UpdatedDate": 1788647403,
-    "FeaturedTier": 7,
-    "SubcategoryId": "GameBanana_Mod_6801",
-    "SubcategoryName": "Standalone",
-    "Text": "A vanilla beginner hike through rooms with similar layouts. It's also my first Celeste map!<br><br>The tiles (and-tile adjacent entities) are located in the same places in every room.<br><br>Featuring:<br>20-ish rooms<br>6 berries<br>1 dependency (its everest)<br><span class=\"Spoiler\">more than 6 berries?<\/span>",
-    "ModifiedDate": 1788647403,
-    "Name": "This is the Only Layout",
-    "PageURL": "https://gamebanana.com/mods/714123",
-    "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9c933b53059.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9c933b46676.png"
-    ],
-    "CreatedDate": 1788647403,
-    "Author": "lukewarmsupernova",
-    "CategoryName": "Maps",
-    "Downloads": 13,
-    "Files": [{
-      "MirrorName": "1808310",
-      "IsLatestVersion": true,
-      "Description": "1.0.0 - Initial Version",
-      "HasEverestYaml": true,
-      "Size": 694913,
-      "CreatedDate": 1788646284,
-      "Downloads": 13,
-      "ID": "GameBanana/1808310",
-      "URL": "https://gamebanana.com/mmdl/1808310",
-      "Name": "thisistheonlylayout.zip"
     }],
     "Likes": 1
   }
