@@ -1509,5 +1509,53 @@
       "Name": "rembered.zip"
     }],
     "Likes": 2
+  },
+  {
+    "CategoryId": "GameBanana_Mod_6800",
+    "Screenshots": [
+      "https://images.gamebanana.com/img/ss/mods/6a9c933b53059.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a9c933b46676.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a9c933b76ea7.jpg"
+    ],
+    "Category": {
+      "Parent": {
+        "ID": "GameBanana_Mod_6800",
+        "Name": "Maps"
+      },
+      "ID": "GameBanana_Mod_6801",
+      "Name": "Standalone"
+    },
+    "Description": "A map where the tiles are the same in each room",
+    "Views": 33,
+    "GameBananaType": "Obsolete",
+    "UpdatedDate": 1788647403,
+    "FeaturedTier": 7,
+    "SubcategoryId": "GameBanana_Mod_6801",
+    "SubcategoryName": "Standalone",
+    "Text": "A vanilla beginner hike through rooms with similar layouts. It's also my first Celeste map!<br><br>The tiles (and-tile adjacent entities) are located in the same places in every room.<br><br>Featuring:<br>20-ish rooms<br>6 berries<br>1 dependency (its everest)<br><span class=\"Spoiler\">more than 6 berries?<\/span>",
+    "ModifiedDate": 1788647403,
+    "Name": "This is the Only Layout",
+    "PageURL": "https://gamebanana.com/mods/714123",
+    "MirroredScreenshots": [
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9c933b53059.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9c933b46676.png"
+    ],
+    "CreatedDate": 1788647403,
+    "Author": "lukewarmsupernova",
+    "CategoryName": "Maps",
+    "Downloads": 13,
+    "Files": [{
+      "MirrorName": "1808310",
+      "IsLatestVersion": true,
+      "Description": "1.0.0 - Initial Version",
+      "HasEverestYaml": true,
+      "Size": 694913,
+      "CreatedDate": 1788646284,
+      "Downloads": 13,
+      "ID": "GameBanana/1808310",
+      "URL": "https://gamebanana.com/mmdl/1808310",
+      "Name": "thisistheonlylayout.zip"
+    }],
+    "Likes": 1
   }
 ]
