@@ -327533,8 +327533,19 @@
   Downloads: 46
   FeaturedTier: 0
   Files:
-  - Description: 1.0.1 - Current version. Added more single-dash triggers; changed
-      some tiles
+  - Description: 1.0.2 - Current version. Changed lock to correct style for its room
+      (no gameplay changes)
+    HasEverestYaml: true
+    Size: 2293541
+    CreatedDate: 1788717279
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1809153
+    Name: wrongendian_1_0_2.zip
+    MirrorName: '1809153'
+    ID: GameBanana/1809153
+    IsLatestVersion: true
+  - Description: ARCHIVED - 1.0.1 - Added more single-dash triggers; changed some
+      tiles
     HasEverestYaml: true
     Size: 2292976
     CreatedDate: 1787672792
@@ -327543,7 +327554,7 @@
     Name: wrongendian_1_0_1.zip
     MirrorName: '1797024'
     ID: GameBanana/1797024
-    IsLatestVersion: true
+    IsLatestVersion: false
   - Description: ARCHIVED - 1.0.0 - First released version
     HasEverestYaml: true
     Size: 2292996
@@ -327559,7 +327570,7 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a8a206d24686.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a8a2070f3670.png
-  ModifiedDate: 1787672919
+  ModifiedDate: 1788717370
   Name: Wrong-Endian
   PageURL: https://gamebanana.com/mods/708325
   Screenshots:
@@ -327609,7 +327620,7 @@
     but (as you can see from e.g. the linked answer) it was basically useless; I don''t
     think anything from those uses ended up making it into the map.<br><br>'
   UpdatedDate: 1787438146
-  Views: 243
+  Views: 256
 - Author: Chelito0607
   Category:
     ID: GameBanana_Mod_6803
