@@ -11940,6 +11940,13 @@ BeginnerContest2021_AliceQuasar:
   - Name: VivHelper
     Version: 1.5.4
   OptionalDependencies: []
+BeginnerMap:
+  URL: https://gamebanana.com/mmdl/1809185
+  MirrorName: '1809185'
+  Dependencies:
+  - Name: Everest
+    Version: 1.6397.0
+  OptionalDependencies: []
 BeiDanCi:
   URL: https://gamebanana.com/mmdl/1548369
   MirrorName: '1548369'
