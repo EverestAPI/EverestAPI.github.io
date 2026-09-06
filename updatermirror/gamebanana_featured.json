@@ -779,12 +779,8 @@
   {
     "CategoryId": "GameBanana_Mod_6800",
     "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/6a4226623e602.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a422662d17fc.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a42266214ca0.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a422662b25c9.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a422662b9720.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a422662bf9ae.jpg"
+      "https://images.gamebanana.com/img/ss/mods/6a8d6a31197b9.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a8d6a3c723ac.jpg"
     ],
     "Category": {
       "Parent": {
@@ -794,36 +790,36 @@
       "ID": "GameBanana_Mod_6801",
       "Name": "Standalone"
     },
-    "Description": "Madeline tries to extract a zip file, but bites off more than she can chew...",
-    "Views": 2901,
+    "Description": "Fangame Summer Feast 2026",
+    "Views": 2027,
     "GameBananaType": "Obsolete",
-    "UpdatedDate": 1783075722,
+    "UpdatedDate": 1787655889,
     "FeaturedTier": 3,
     "SubcategoryId": "GameBanana_Mod_6801",
     "SubcategoryName": "Standalone",
-    "Text": "\"A jaunt is a short, yet cohesive experience that captures the human emotion of unbridled whimsy.\" - Sun Tzu, Art of War<br><br>This is my map for <span class=\"GreenColor\"><a href=\"https://gamebanana.com/collections/207550?tab=0\">Jaunty June<\/a><\/span>! I had a lot of fun making this one, as the gimmick behind this map was something I conceptualized like 2 years ago, but just never really got around to fleshing out. Well surprise! It's here now in its full jauntiful glory.<br><br>I will refrain from saying anymore to avoid spoilers. I hope that it is fun to play, and that it makes you smile at least once. I also hope I've made Sun Tzu proud.<br><br>Features:<br>- 10ish gameplay rooms, somewhere in the range of intermediate (give or take... I honestly don't know how to judge the difficulty of this)<br>- Original music by iosun! Thank you for carrying the vibes of this map <3 <a href=\"https://soundcloud.com/elysun524/the-material-conditions-have?si=1a9993629d3b47b69bcc814da5274bfb&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing\">You can listen to the song here.<\/a><br>- WinRAR<br>- Madeline.zip<br><br>Feel free to ping @ricky06 on Discord for any comments or feedback!",
-    "ModifiedDate": 1783075664,
-    "Name": "When Push Comes to Shove",
-    "PageURL": "https://gamebanana.com/mods/690057",
+    "Text": "<b>Tracing Colors<\/b> is the blind race map for <span class=\"GreenColor\"><b>Fangame Summer Feast 2026<\/b><\/span>.<br><br>Explore a colorless art museum floating above the clouds, trace colors in mysterious paintings and unlock new paths. Explore, solve, and bring the lost light back to life.<br><br> This map contains:<br><ul><li>About <span class=\"Spoiler\">50<\/span> gameplay rooms with difficulty ranging from <span class=\"RedColor\"><span class=\"GreenColor\"><b>Expert<\/b> to <b>Grandmaster<\/b><\/span><\/span>.<\/li><li><span class=\"Spoiler\">5<\/span> checkpoints and <span class=\"Spoiler\">4<\/span> different themes.<\/li><li>Original soundtrack by q_is_sleeping.<\/li><li>Gameplay with some novel mechanics. <\/li><\/ul><br><br>Huge thanks to Myn_Gen for decorating almost all of the map, q_is_sleeping for composing the music for this map, EndlessRain for creating custom assets, thumbnail and endscreen art, and Lucky_boy for coding the new mechanic.<br><br>Also, huge thanks to Paradox_bones, AppleSheep, Farewell_Yun, naNiX, sssxxxx__ for playtesting the map and slugcat for some suggestions after the blind race.<br><br>All of the asset authors are listed in the beginning of the map, thanks for all of your artworks!<br><br>Wish you all a pleasant time!<br><br>",
+    "ModifiedDate": 1787655889,
+    "Name": "Tracing Colors",
+    "PageURL": "https://gamebanana.com/mods/709520",
     "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a4226623e602.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a422662d17fc.png"
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a8d6a31197b9.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a8d6a3c723ac.png"
     ],
-    "CreatedDate": 1782749695,
-    "Author": "ricky06",
+    "CreatedDate": 1787655889,
+    "Author": "ssat",
     "CategoryName": "Maps",
-    "Downloads": 859,
+    "Downloads": 550,
     "Files": [{
-      "MirrorName": "1744275",
+      "MirrorName": "1796788",
       "IsLatestVersion": true,
-      "Description": "",
+      "Description": "1.1.0",
       "HasEverestYaml": true,
-      "Size": 4017738,
-      "CreatedDate": 1783075656,
-      "Downloads": 626,
-      "ID": "GameBanana/1744275",
-      "URL": "https://gamebanana.com/mmdl/1744275",
-      "Name": "jauntyjune_ricky06_3e1a2.zip"
+      "Size": 11132478,
+      "CreatedDate": 1787652486,
+      "Downloads": 548,
+      "ID": "GameBanana/1796788",
+      "URL": "https://gamebanana.com/mmdl/1796788",
+      "Name": "fasf2026.zip"
     }],
     "Likes": 31
   },
@@ -1166,48 +1162,110 @@
   {
     "CategoryId": "GameBanana_Mod_6800",
     "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/6a8d6a31197b9.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a8d6a3c723ac.jpg"
+      "https://images.gamebanana.com/img/ss/mods/6a93aa4fa4739.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a93aa5562ca1.jpg"
     ],
     "Category": {
       "Parent": {
         "ID": "GameBanana_Mod_6800",
         "Name": "Maps"
       },
-      "ID": "GameBanana_Mod_6801",
-      "Name": "Standalone"
+      "ID": "GameBanana_Mod_6803",
+      "Name": "Collab/Contest"
     },
-    "Description": "Fangame Summer Feast 2026",
-    "Views": 2027,
+    "Description": "",
+    "Views": 1411,
     "GameBananaType": "Obsolete",
-    "UpdatedDate": 1787655889,
+    "UpdatedDate": 1788105633,
     "FeaturedTier": 5,
-    "SubcategoryId": "GameBanana_Mod_6801",
-    "SubcategoryName": "Standalone",
-    "Text": "<b>Tracing Colors<\/b> is the blind race map for <span class=\"GreenColor\"><b>Fangame Summer Feast 2026<\/b><\/span>.<br><br>Explore a colorless art museum floating above the clouds, trace colors in mysterious paintings and unlock new paths. Explore, solve, and bring the lost light back to life.<br><br> This map contains:<br><ul><li>About <span class=\"Spoiler\">50<\/span> gameplay rooms with difficulty ranging from <span class=\"RedColor\"><span class=\"GreenColor\"><b>Expert<\/b> to <b>Grandmaster<\/b><\/span><\/span>.<\/li><li><span class=\"Spoiler\">5<\/span> checkpoints and <span class=\"Spoiler\">4<\/span> different themes.<\/li><li>Original soundtrack by q_is_sleeping.<\/li><li>Gameplay with some novel mechanics. <\/li><\/ul><br><br>Huge thanks to Myn_Gen for decorating almost all of the map, q_is_sleeping for composing the music for this map, EndlessRain for creating custom assets, thumbnail and endscreen art, and Lucky_boy for coding the new mechanic.<br><br>Also, huge thanks to Paradox_bones, AppleSheep, Farewell_Yun, naNiX, sssxxxx__ for playtesting the map and slugcat for some suggestions after the blind race.<br><br>All of the asset authors are listed in the beginning of the map, thanks for all of your artworks!<br><br>Wish you all a pleasant time!<br><br>",
-    "ModifiedDate": 1787655889,
-    "Name": "Tracing Colors",
-    "PageURL": "https://gamebanana.com/mods/709520",
+    "SubcategoryId": "GameBanana_Mod_6803",
+    "SubcategoryName": "Collab/Contest",
+    "Text": "<span class=\"RedColor\">If you encounter any bugs or issues, please DM me on Discord at gro.g with your problem.<\/span><br><br>It's...vanilla.<br>It's...secret.<br><br>It could even be...santa.<br><br>and Wow That Sure Was A Collab.<br><br>Featuring over 60 maps ranging from wholesome A-Side to evil grandma difficulty, every kind of mapper worked to see what they could do under the restriction of vanilla* mapping.<br><br>*This collab currently uses a WIP Everest feature that has not been implemented yet. It has been added to the code for the collab, and will be removed once the feature has fully released.",
+    "ModifiedDate": 1788553886,
+    "Name": "The Vanilla Secret Santa Collab",
+    "PageURL": "https://gamebanana.com/mods/711600",
     "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a8d6a31197b9.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a8d6a3c723ac.png"
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a93aa4fa4739.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a93aa5562ca1.png"
     ],
-    "CreatedDate": 1787655889,
-    "Author": "ssat",
+    "CreatedDate": 1788105633,
+    "Author": "grog398",
     "CategoryName": "Maps",
-    "Downloads": 550,
-    "Files": [{
-      "MirrorName": "1796788",
-      "IsLatestVersion": true,
-      "Description": "1.1.0",
-      "HasEverestYaml": true,
-      "Size": 11132478,
-      "CreatedDate": 1787652486,
-      "Downloads": 548,
-      "ID": "GameBanana/1796788",
-      "URL": "https://gamebanana.com/mmdl/1796788",
-      "Name": "fasf2026.zip"
-    }],
+    "Downloads": 1126,
+    "Files": [
+      {
+        "MirrorName": "1807166",
+        "IsLatestVersion": true,
+        "Description": "0.1.3 - Main build v0.1.3",
+        "HasEverestYaml": true,
+        "Size": 46180465,
+        "CreatedDate": 1788553864,
+        "Downloads": 207,
+        "ID": "GameBanana/1807166",
+        "URL": "https://gamebanana.com/mmdl/1807166",
+        "Name": "vanillasecretsantacollab_b72ce.zip"
+      },
+      {
+        "MirrorName": "1802492",
+        "IsLatestVersion": true,
+        "Description": "0.1.1 - Audio Dependency",
+        "HasEverestYaml": true,
+        "Size": 708722201,
+        "CreatedDate": 1788118378,
+        "Downloads": 430,
+        "ID": "GameBanana/1802492",
+        "URL": "https://gamebanana.com/mmdl/1802492",
+        "Name": "vsscaudio_b3ecf.zip"
+      },
+      {
+        "MirrorName": "1803515",
+        "IsLatestVersion": false,
+        "Description": "ARCHIVED - 0.1.2 - Main build v0.1.2 (DEAD)",
+        "HasEverestYaml": true,
+        "Size": 46180420,
+        "CreatedDate": 1788205649,
+        "Downloads": 286,
+        "ID": "GameBanana/1803515",
+        "URL": "https://gamebanana.com/mmdl/1803515",
+        "Name": "vanillasecretsantacollab_3b738.zip"
+      },
+      {
+        "MirrorName": "1802517",
+        "IsLatestVersion": false,
+        "Description": "ARCHIVED - 0.1.1 - Main build v0.1.1 (DEAD)",
+        "HasEverestYaml": true,
+        "Size": 46180388,
+        "CreatedDate": 1788120861,
+        "Downloads": 77,
+        "ID": "GameBanana/1802517",
+        "URL": "https://gamebanana.com/mmdl/1802517",
+        "Name": "vanillasecretsantacollab_77088.zip"
+      },
+      {
+        "MirrorName": "1802271",
+        "IsLatestVersion": false,
+        "Description": "ARCHIVED - 0.1.0 - Main build v0.1.0 (DEAD)",
+        "HasEverestYaml": true,
+        "Size": 46180388,
+        "CreatedDate": 1788104357,
+        "Downloads": 67,
+        "ID": "GameBanana/1802271",
+        "URL": "https://gamebanana.com/mmdl/1802271",
+        "Name": "vanillasecretsantacollab_0c3bd.zip"
+      },
+      {
+        "MirrorName": "1801870",
+        "IsLatestVersion": false,
+        "Description": "ARCHIVED - 0.1.0 - Audio Dependency (DEAD)",
+        "HasEverestYaml": true,
+        "Size": 708659471,
+        "CreatedDate": 1788064130,
+        "Downloads": 59,
+        "ID": "GameBanana/1801870",
+        "URL": "https://gamebanana.com/mmdl/1801870",
+        "Name": "vsscaudio.zip"
+      }
+    ],
     "Likes": 31
   },
   {
@@ -1310,111 +1368,49 @@
   {
     "CategoryId": "GameBanana_Mod_6800",
     "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/6a93aa4fa4739.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a93aa5562ca1.jpg"
+      "https://images.gamebanana.com/img/ss/mods/6a98942e45039.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a989464c4ed7.jpg"
     ],
     "Category": {
       "Parent": {
         "ID": "GameBanana_Mod_6800",
         "Name": "Maps"
       },
-      "ID": "GameBanana_Mod_6803",
-      "Name": "Collab/Contest"
+      "ID": "GameBanana_Mod_6801",
+      "Name": "Standalone"
     },
     "Description": "",
-    "Views": 1411,
+    "Views": 188,
     "GameBananaType": "Obsolete",
-    "UpdatedDate": 1788105633,
+    "UpdatedDate": 1788384386,
     "FeaturedTier": 6,
-    "SubcategoryId": "GameBanana_Mod_6803",
-    "SubcategoryName": "Collab/Contest",
-    "Text": "<span class=\"RedColor\">If you encounter any bugs or issues, please DM me on Discord at gro.g with your problem.<\/span><br><br>It's...vanilla.<br>It's...secret.<br><br>It could even be...santa.<br><br>and Wow That Sure Was A Collab.<br><br>Featuring over 60 maps ranging from wholesome A-Side to evil grandma difficulty, every kind of mapper worked to see what they could do under the restriction of vanilla* mapping.<br><br>*This collab currently uses a WIP Everest feature that has not been implemented yet. It has been added to the code for the collab, and will be removed once the feature has fully released.",
-    "ModifiedDate": 1788553886,
-    "Name": "The Vanilla Secret Santa Collab",
-    "PageURL": "https://gamebanana.com/mods/711600",
+    "SubcategoryId": "GameBanana_Mod_6801",
+    "SubcategoryName": "Standalone",
+    "Text": "Penumbra from SSC2024 as a standalone. This was floating around as a zip for awhile but i figured i should probably just upload this at this point. Might be weird with SSC2024 enabled/SSC saves, use at your own risk/make backups if you really care.<br><br>gm++ gravity helper mauvelike nonsense",
+    "ModifiedDate": 1788384386,
+    "Name": "Penumbra (Standalone)",
+    "PageURL": "https://gamebanana.com/mods/713014",
     "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a93aa4fa4739.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a93aa5562ca1.png"
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a98942e45039.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a989464c4ed7.png"
     ],
-    "CreatedDate": 1788105633,
-    "Author": "grog398",
+    "CreatedDate": 1788384386,
+    "Author": "m47a",
     "CategoryName": "Maps",
-    "Downloads": 1126,
-    "Files": [
-      {
-        "MirrorName": "1807166",
-        "IsLatestVersion": true,
-        "Description": "0.1.3 - Main build v0.1.3",
-        "HasEverestYaml": true,
-        "Size": 46180465,
-        "CreatedDate": 1788553864,
-        "Downloads": 207,
-        "ID": "GameBanana/1807166",
-        "URL": "https://gamebanana.com/mmdl/1807166",
-        "Name": "vanillasecretsantacollab_b72ce.zip"
-      },
-      {
-        "MirrorName": "1802492",
-        "IsLatestVersion": true,
-        "Description": "0.1.1 - Audio Dependency",
-        "HasEverestYaml": true,
-        "Size": 708722201,
-        "CreatedDate": 1788118378,
-        "Downloads": 430,
-        "ID": "GameBanana/1802492",
-        "URL": "https://gamebanana.com/mmdl/1802492",
-        "Name": "vsscaudio_b3ecf.zip"
-      },
-      {
-        "MirrorName": "1803515",
-        "IsLatestVersion": false,
-        "Description": "ARCHIVED - 0.1.2 - Main build v0.1.2 (DEAD)",
-        "HasEverestYaml": true,
-        "Size": 46180420,
-        "CreatedDate": 1788205649,
-        "Downloads": 286,
-        "ID": "GameBanana/1803515",
-        "URL": "https://gamebanana.com/mmdl/1803515",
-        "Name": "vanillasecretsantacollab_3b738.zip"
-      },
-      {
-        "MirrorName": "1802517",
-        "IsLatestVersion": false,
-        "Description": "ARCHIVED - 0.1.1 - Main build v0.1.1 (DEAD)",
-        "HasEverestYaml": true,
-        "Size": 46180388,
-        "CreatedDate": 1788120861,
-        "Downloads": 77,
-        "ID": "GameBanana/1802517",
-        "URL": "https://gamebanana.com/mmdl/1802517",
-        "Name": "vanillasecretsantacollab_77088.zip"
-      },
-      {
-        "MirrorName": "1802271",
-        "IsLatestVersion": false,
-        "Description": "ARCHIVED - 0.1.0 - Main build v0.1.0 (DEAD)",
-        "HasEverestYaml": true,
-        "Size": 46180388,
-        "CreatedDate": 1788104357,
-        "Downloads": 67,
-        "ID": "GameBanana/1802271",
-        "URL": "https://gamebanana.com/mmdl/1802271",
-        "Name": "vanillasecretsantacollab_0c3bd.zip"
-      },
-      {
-        "MirrorName": "1801870",
-        "IsLatestVersion": false,
-        "Description": "ARCHIVED - 0.1.0 - Audio Dependency (DEAD)",
-        "HasEverestYaml": true,
-        "Size": 708659471,
-        "CreatedDate": 1788064130,
-        "Downloads": 59,
-        "ID": "GameBanana/1801870",
-        "URL": "https://gamebanana.com/mmdl/1801870",
-        "Name": "vsscaudio.zip"
-      }
-    ],
-    "Likes": 31
+    "Downloads": 19,
+    "Files": [{
+      "MirrorName": "1805417",
+      "IsLatestVersion": true,
+      "Description": "",
+      "HasEverestYaml": true,
+      "Size": 11000073,
+      "CreatedDate": 1788384128,
+      "Downloads": 19,
+      "ID": "GameBanana/1805417",
+      "URL": "https://gamebanana.com/mmdl/1805417",
+      "Name": "ssc2024maya.zip"
+    }],
+    "Likes": 5
   },
   {
     "CategoryId": "GameBanana_Mod_6800",
@@ -1462,53 +1458,6 @@
       "Name": "quogcode.zip"
     }],
     "Likes": 1
-  },
-  {
-    "CategoryId": "GameBanana_Mod_6800",
-    "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/6a9c42314da6d.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a9c42383da28.jpg"
-    ],
-    "Category": {
-      "Parent": {
-        "ID": "GameBanana_Mod_6800",
-        "Name": "Maps"
-      },
-      "ID": "GameBanana_Mod_6801",
-      "Name": "Standalone"
-    },
-    "Description": "A mappers' first event contribution",
-    "Views": 47,
-    "GameBananaType": "Obsolete",
-    "UpdatedDate": 1788625711,
-    "FeaturedTier": 7,
-    "SubcategoryId": "GameBanana_Mod_6801",
-    "SubcategoryName": "Standalone",
-    "Text": "Hii!<br><br>This is my second ever map, a short&nbsp;dashless challenge made for Lekelamega's mapping event.<br>Made in less than two weeks with about 14 hours in Loenn. Themed after my favorite checkpoint from Celeste's Farewell.<br><br><span class=\"GreenColor\">Green Expert<\/span><br><br><span class=\"Spoiler\">can you find the hidd<\/span><span class=\"Spoiler\">en ultra chain?<\/span><br><br>Also go play In Stars and Time",
-    "ModifiedDate": 1788625711,
-    "Name": "Rembered",
-    "PageURL": "https://gamebanana.com/mods/714000",
-    "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9c42314da6d.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9c42383da28.png"
-    ],
-    "CreatedDate": 1788625711,
-    "Author": "UltraXav",
-    "CategoryName": "Maps",
-    "Downloads": 13,
-    "Files": [{
-      "MirrorName": "1808016",
-      "IsLatestVersion": true,
-      "Description": "1.0.0 - ^The Map^",
-      "HasEverestYaml": true,
-      "Size": 574441,
-      "CreatedDate": 1788624903,
-      "Downloads": 13,
-      "ID": "GameBanana/1808016",
-      "URL": "https://gamebanana.com/mmdl/1808016",
-      "Name": "rembered.zip"
-    }],
-    "Likes": 2
   },
   {
     "CategoryId": "GameBanana_Mod_6800",
