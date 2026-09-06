@@ -2177,6 +2177,29 @@
   - Name: PandorasBox
     Version: 1.0.49
   OptionalDependencies: []
+4leafclover:
+  URL: https://gamebanana.com/mmdl/1809173
+  MirrorName: '1809173'
+  Dependencies:
+  - Name: CrystallineHelper
+    Version: 1.17.2
+  - Name: Everest
+    Version: 1.6485.0
+  - Name: ExtendedVariantMode
+    Version: 0.50.5
+  - Name: FrostHelper
+    Version: 1.80.1
+  - Name: KoseiHelper
+    Version: 1.24.0.0
+  - Name: MaxHelpingHand
+    Version: 1.40.9
+  - Name: SorbetHelper
+    Version: 1.9.2
+  - Name: VidPlayer
+    Version: 0.6.0
+  - Name: VivHelper
+    Version: 1.14.10
+  OptionalDependencies: []
 500_Cornerkicks:
   URL: https://gamebanana.com/mmdl/1594724
   MirrorName: '1594724'
