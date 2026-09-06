@@ -90874,6 +90874,35 @@ SkyHigh:
   - Name: VivHelper
     Version: 1.6.0.3
   OptionalDependencies: []
+Skyline Haze:
+  URL: https://gamebanana.com/mmdl/1809468
+  MirrorName: '1809468'
+  Dependencies:
+  - Name: AdamsAddons
+    Version: 1.15.06
+  - Name: AdventureHelper
+    Version: 1.6.0
+  - Name: BrokemiaHelper
+    Version: 1.8.5
+  - Name: ChroniaHelper
+    Version: 1.52.24
+  - Name: CommunalHelper
+    Version: 1.25.4
+  - Name: ContortHelper
+    Version: 1.5.5
+  - Name: EeveeHelper
+    Version: 1.12.5
+  - Name: Everest
+    Version: 1.6418.0
+  - Name: ExtendedVariantMode
+    Version: 0.50.3
+  - Name: FemtoHelper
+    Version: 1.15.20
+  - Name: FrostHelper
+    Version: 1.79.0
+  - Name: MaxHelpingHand
+    Version: 1.40.7
+  OptionalDependencies: []
 Skyrealm:
   URL: https://gamebanana.com/mmdl/1076676
   MirrorName: '1076676'
