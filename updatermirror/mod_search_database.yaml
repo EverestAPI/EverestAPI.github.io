@@ -329788,19 +329788,29 @@
   CategoryName: Other/Misc
   CreatedDate: 1787965983
   Description: Some extra odds and ends for strawberries and carryables
-  Downloads: 66
+  Downloads: 68
   FeaturedTier: 0
   Files:
+  - Description: 1.3.3
+    HasEverestYaml: true
+    Size: 31615
+    CreatedDate: 1788723830
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1809245
+    Name: follower_addons_such_094c8.zip
+    MirrorName: '1809245'
+    ID: GameBanana/1809245
+    IsLatestVersion: true
   - Description: 1.3.2
     HasEverestYaml: true
     Size: 31386
     CreatedDate: 1788650014
-    Downloads: 6
+    Downloads: 8
     URL: https://gamebanana.com/mmdl/1808367
     Name: follower_addons_such_02fbe.zip
     MirrorName: '1808367'
     ID: GameBanana/1808367
-    IsLatestVersion: true
+    IsLatestVersion: false
   - Description: 1.3.1
     HasEverestYaml: true
     Size: 31184
@@ -329866,7 +329876,7 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a92310849c2c.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a923141a74aa.png
-  ModifiedDate: 1788650024
+  ModifiedDate: 1788723846
   Name: Follower Addons & Such
   PageURL: https://gamebanana.com/mods/711016
   Screenshots:
@@ -329887,7 +329897,7 @@
     Strawberry Blockfield in every room</li></ul>For bugs, suggestions or feature
     requests, message @DatGuyAlex0523 on the Celeste Discord :)
   UpdatedDate: 1788650248
-  Views: 138
+  Views: 146
 - Author: Eeco_UwU
   Category:
     ID: GameBanana_Mod_6801
