@@ -124,50 +124,5 @@
     "version": "26.07.25.01",
     "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5722/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
     "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5722/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-07-12T11:52:09.4917293Z",
-    "changelog": "∙ Tweaks to the Simplified Chinese translation (Connectivity Test screen)",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5707/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.07.12.04",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5707/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5707/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-07-11T20:15:04.6859029Z",
-    "changelog": "∙ Tweaks to the Simplified Chinese translation",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5701/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.07.11.05",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5701/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5701/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-07-11T10:17:29.8558664Z",
-    "changelog": "∙ Group translations and font priority orders in same files",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5696/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.07.11.04",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5696/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5696/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-07-11T09:35:10.7915064Z",
-    "changelog": "∙ Fixed some characters using the wrong ideographs in Simplified Chinese",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5695/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.07.11.03",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5695/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5695/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-07-10T20:10:03.8305468Z",
-    "changelog": "∙ Added Simplified Chinese language option",
-    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5692/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
-    "branch": "main",
-    "version": "26.07.10.08",
-    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5692/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
-    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5692/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
   }
 ]
