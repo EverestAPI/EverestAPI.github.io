@@ -419,21 +419,6 @@
     "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5710/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
   },
   {
-    "date": "2026-07-12T22:44:09.7881214Z",
-    "olympusBuildFileSize": 73462237,
-    "mainFileSize": 71936072,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5709/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "author": "Daxcr",
-    "commit": "17e1810631ec9ab5da122fb5c3492d918029c833",
-    "description": "Fix MiniInstaller not copying FNA.dll for XNA installs",
-    "branch": "dev",
-    "version": 6409,
-    "isNative": true,
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5709/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 269,
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5709/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
-  },
-  {
     "date": "2026-07-11T18:44:19Z",
     "olympusBuildFileSize": 73446037,
     "mainFileSize": 71627000,
