@@ -297116,7 +297116,17 @@
   Downloads: 103
   FeaturedTier: 0
   Files:
-  - Description: 0.4.2
+  - Description: 0.4.3
+    HasEverestYaml: true
+    Size: 69168
+    CreatedDate: 1789232021
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1814667
+    Name: warlockhelper_b91ba.zip
+    MirrorName: '1814667'
+    ID: GameBanana/1814667
+    IsLatestVersion: true
+  - Description: ARCHIVED - 0.4.2
     HasEverestYaml: true
     Size: 173554
     CreatedDate: 1788145334
@@ -297125,7 +297135,7 @@
     Name: warlockhelper_79492.zip
     MirrorName: '1802858'
     ID: GameBanana/1802858
-    IsLatestVersion: true
+    IsLatestVersion: false
   - Description: ARCHIVED - 0.4.1
     HasEverestYaml: true
     Size: 138690
@@ -297181,7 +297191,7 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_69fb9b0cf2e53.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_69fb9b0d2f305.png
-  ModifiedDate: 1788381668
+  ModifiedDate: 1789232069
   Name: Warlock Helper
   PageURL: https://gamebanana.com/mods/672514
   Screenshots:
