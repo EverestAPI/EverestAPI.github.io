@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-09-12T16:03:04.6745548Z",
+    "changelog": "∙ Manage Installed Mods: refresh mod list when toggling a mod with the \"Enabled mods only\" filter",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5861/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.09.12.04",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5861/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5861/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-09-12T09:53:07.1945007Z",
     "changelog": "∙ Added sort by updated date to the mod browser",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5859/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
