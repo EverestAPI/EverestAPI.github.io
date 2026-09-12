@@ -293129,27 +293129,28 @@
   Likes: 0
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_69ec8f0398b04.png
-  ModifiedDate: 1789219707
+  ModifiedDate: 1789219823
   Name: Ender's Extras
   PageURL: https://gamebanana.com/mods/666460
   Screenshots:
   - https://images.gamebanana.com/img/ss/mods/69ec8f0398b04.jpg
-  Text: A helper containing misc entities and gimmicks for my maps. <a href="https://github.com/EnderallyGolem/Enders-Extras"
+  Text: A helper containing misc entities and gimmicks for my maps.&nbsp;<a href="https://github.com/EnderallyGolem/Enders-Extras"
     target="_blank" class="SelectedElement">Source code is here.</a><br><br>Some of
     the things included:<br><br><u>Individual Entities</u><ul><li>Tile Entity - Several
     options for merging, colliding, extending offscreen, being made a dash block,
     being coloured, etc.</li><li>Connectable Outline - Outline that can connect, be
     attached, and made to appear on a flag.</li><li>Incremental Flag Trigger - Increases
-    a counter and sets a <flag><number> flag upon passing through in order.</li><li>Camera
+    a counter and sets a <flag><number> flag upon passing through in order.</number></flag></li><li>Camera
     Spline Target Trigger - Makes the camera smoothly follow a spline. The camera
-    will target the closest part of a spline to the player.</li></ul><br><br><u>Gimmicks</u><ul><li>Room-Swap
+    will target the closest part of a spline to the player.</li><li>Mod Settings NPC
+    - NPC that brings up the mod setting menu for specified settings.</li></ul><br><u>Gimmicks</u><ul><li>Room-Swap
     - Create a grid of rooms that can swap positions with each other (by copy-pasting
     entities).</li><li>Cassette Entities - Blocks that move according to a beat, and
-    a trigger that lets  you change the current beat and tempo.</li><li>Sound Ripples
-    - Bells that gives nearby entities an outline that can be seen even in darkness.</li><li>Death
-    Handler - Several entities and triggers for changing respawns and letting entities
-    bypass the resetting from a respawn. (This is currently experimental and may change
-    functionality!)</li></ul><br><u>Misc Features</u><u></u><ul><li>Map-selection
+    a trigger that lets&nbsp; you change the current beat and tempo.</li><li>Sound
+    Ripples - Bells that gives nearby entities an outline that can be seen even in
+    darkness.</li><li>Death Handler - Several entities and triggers for changing respawns
+    and letting entities bypass the resetting from a respawn. (This is currently experimental
+    and may change functionality!)</li></ul><br><u>Misc Features</u><u></u><ul><li>Map-selection
     map name override - Lets the name of the map shown during map select be different
     from the actual name.</li><li>Map-selection chapter number removal - Removes the
     chapter number, and shifts the map name to be centered, like an interlude</li></ul><br><br>
