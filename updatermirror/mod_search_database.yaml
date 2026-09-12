@@ -159481,16 +159481,6 @@
   Files:
   - Description: version of farming exxenias :3
     HasEverestYaml: true
-    Size: 11282536
-    CreatedDate: 1715794745
-    Downloads: 110
-    URL: https://gamebanana.com/mmdl/1195071
-    Name: spiralstaircase_019f4.zip
-    MirrorName: '1195071'
-    ID: GameBanana/1195071
-    IsLatestVersion: false
-  - Description: ARCHIVED
-    HasEverestYaml: true
     Size: 11254813
     CreatedDate: 1788304010
     Downloads: 17
@@ -159499,12 +159489,22 @@
     MirrorName: '1804610'
     ID: GameBanana/1804610
     IsLatestVersion: true
+  - Description: ARCHIVED
+    HasEverestYaml: true
+    Size: 11282536
+    CreatedDate: 1715794745
+    Downloads: 110
+    URL: https://gamebanana.com/mmdl/1195071
+    Name: spiralstaircase_019f4.zip
+    MirrorName: '1195071'
+    ID: GameBanana/1195071
+    IsLatestVersion: false
   GameBananaType: Obsolete
   Likes: 7
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6644f8af71329.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6644f8adf0e0b.png
-  ModifiedDate: 1788304043
+  ModifiedDate: 1789229933
   Name: Spiral Staircase [music translation contest 2]
   PageURL: https://gamebanana.com/mods/513753
   Screenshots:
@@ -159524,7 +159524,7 @@
     secrets) ranging from <span class="GreenColor">beginner</span> to <span class="RedColor">yellow
     gm</span>.</i><br><br>'
   UpdatedDate: 1715796198
-  Views: 1258
+  Views: 1260
 - Author: Worldwaker2
   Category:
     ID: GameBanana_Mod_6803
@@ -272065,14 +272065,14 @@
   CategoryName: Helpers
   CreatedDate: 1766428767
   Description: ''
-  Downloads: 3827
+  Downloads: 3832
   FeaturedTier: 0
   Files:
   - Description: 1.1.0 - 1.1.0 Official Release
     HasEverestYaml: true
     Size: 1776126
     CreatedDate: 1788481640
-    Downloads: 744
+    Downloads: 751
     URL: https://gamebanana.com/mmdl/1806479
     Name: celeste3dengine.zip
     MirrorName: '1806479'
@@ -272113,27 +272113,26 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9a0a8264fd2.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9a09ade746b.png
-  ModifiedDate: 1788481665
+  ModifiedDate: 1789229957
   Name: Celeste 3D Engine
   PageURL: https://gamebanana.com/mods/641088
   Screenshots:
   - https://images.gamebanana.com/img/ss/mods/6a9a0a8264fd2.jpg
   - https://images.gamebanana.com/img/ss/mods/6a9a09ade746b.jpg
   - https://images.gamebanana.com/img/ss/mods/6a9a09b2d9486.jpg
-  Text: '<h1>V1.1.0 : OFFICIAL RELEASE</h1><br><b>Celeste 3D Engine is finally going
-    out of Beta !</b><br>A lot of features have been added, and even more bug fixed
-    (see latest chaneglogs)<br><br><a href="https://eylstar.github.io/Celeste3DEngineDocumentation"
+  Text: <h1>OFFICIAL RELEASE</h1><br><b>Celeste 3D Engine is finally going out of
+    Beta !</b><br>A lot of features have been added, and even more bug fixed (see
+    latest chaneglogs)<br><br><a href="https://eylstar.github.io/Celeste3DEngineDocumentation"
     target="_blank">Official Documentation</a> is availabe, go read it if you want
     to start using the Engine<br><br>Celeste3DEngine is a full 3D rendering and gameplay
     engine, running inside Celeste itself. Models, lighting, shadows, physics, UI,
-    all of it, drawn on top of, behind, or entirely in place of Celeste''s own 2D
-    rendering.<br><br>It''s built for modders, everything is done via code, and the
-    API follows a pattern extremely close from Unity''s component system. GameObject,
-    Behaviour, Collider3D, if you''ve touched something like that before, this should
-    feel familiar fast.<br><br><b>You can basically think of Celeste 3D Engine as
-    "Unity in Celeste".</b><br><br>'
+    all of it, drawn on top of, behind, or entirely in place of Celeste's own 2D rendering.<br><br>It's
+    built for modders, everything is done via code, and the API follows a pattern
+    extremely close from Unity's component system. GameObject, Behaviour, Collider3D,
+    if you've touched something like that before, this should feel familiar fast.<br><br><b>You
+    can basically think of Celeste 3D Engine as "Unity in Celeste".</b><br><br>
   UpdatedDate: 1788482478
-  Views: 1514
+  Views: 1516
 - Author: Jl4cTuk
   Category:
     ID: GameBanana_Mod_2317
