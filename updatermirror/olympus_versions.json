@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-09-12T18:15:07.1442665Z",
+    "changelog": "∙ Fixed background size not changing when changing UI Scale option",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5867/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.09.12.10",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5867/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5867/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-09-12T17:04:18.2227097Z",
     "changelog": "∙ Added \"UI Scale\" option",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5863/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
