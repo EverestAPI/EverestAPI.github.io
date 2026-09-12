@@ -272068,15 +272068,15 @@
   Downloads: 3832
   FeaturedTier: 0
   Files:
-  - Description: 1.2.1 - 1.2.0 Blender Add-On, Wind Shader & Optimization
+  - Description: 1.2.2 - 1.2.0 Blender Add-On, Wind Shader & Optimization
     HasEverestYaml: true
-    Size: 1774954
-    CreatedDate: 1789230861
+    Size: 1774953
+    CreatedDate: 1789232772
     Downloads: 0
-    URL: https://gamebanana.com/mmdl/1814646
-    Name: celeste3dengine_b2ffd.zip
-    MirrorName: '1814646'
-    ID: GameBanana/1814646
+    URL: https://gamebanana.com/mmdl/1814672
+    Name: celeste3dengine_bdba1.zip
+    MirrorName: '1814672'
+    ID: GameBanana/1814672
     IsLatestVersion: true
   - Description: 1.1.0 - 1.1.0 Official Release
     HasEverestYaml: true
@@ -272097,6 +272097,16 @@
     Name: celeste3dengine_41780.zip
     MirrorName: '1762496'
     ID: GameBanana/1762496
+    IsLatestVersion: false
+  - Description: ARCHIVED - 1.2.1 - 1.2.0 Blender Add-On, Wind Shader & Optimization
+    HasEverestYaml: true
+    Size: 1774954
+    CreatedDate: 1789230861
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1814646
+    Name: celeste3dengine_b2ffd.zip
+    MirrorName: '1814646'
+    ID: GameBanana/1814646
     IsLatestVersion: false
   - Description: ARCHIVED - 1.2.0 - 1.2.0 Blender Add-On, Wind Shader & Optimization
     HasEverestYaml: true
@@ -272133,7 +272143,7 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9a0a8264fd2.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9a09ade746b.png
-  ModifiedDate: 1789230879
+  ModifiedDate: 1789232784
   Name: Celeste 3D Engine
   PageURL: https://gamebanana.com/mods/641088
   Screenshots:
