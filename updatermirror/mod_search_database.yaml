@@ -272068,6 +272068,16 @@
   Downloads: 3832
   FeaturedTier: 0
   Files:
+  - Description: 1.2.0 - 1.2.0 Blender Add-On, Wind Shader & Optimization
+    HasEverestYaml: true
+    Size: 1783495
+    CreatedDate: 1789230044
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1814628
+    Name: celeste3dengine_c5e23.zip
+    MirrorName: '1814628'
+    ID: GameBanana/1814628
+    IsLatestVersion: true
   - Description: 1.1.0 - 1.1.0 Official Release
     HasEverestYaml: true
     Size: 1776126
@@ -272077,8 +272087,8 @@
     Name: celeste3dengine.zip
     MirrorName: '1806479'
     ID: GameBanana/1806479
-    IsLatestVersion: true
-  - Description: 1.0.0 - 1.0.0 Beta
+    IsLatestVersion: false
+  - Description: 1.0.0 - 1.0.0 Open Beta
     HasEverestYaml: true
     Size: 1709904
     CreatedDate: 1784819302
@@ -272088,7 +272098,7 @@
     MirrorName: '1762496'
     ID: GameBanana/1762496
     IsLatestVersion: false
-  - Description: 0.1.1
+  - Description: ARCHIVED - 0.1.1
     HasEverestYaml: true
     Size: 44762
     CreatedDate: 1766582022
@@ -272098,7 +272108,7 @@
     MirrorName: '1586876'
     ID: GameBanana/1586876
     IsLatestVersion: false
-  - Description: 0.1.0
+  - Description: ARCHIVED - 0.1.0
     HasEverestYaml: true
     Size: 25389
     CreatedDate: 1766447263
@@ -272113,13 +272123,14 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9a0a8264fd2.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9a09ade746b.png
-  ModifiedDate: 1789229957
+  ModifiedDate: 1789230096
   Name: Celeste 3D Engine
   PageURL: https://gamebanana.com/mods/641088
   Screenshots:
   - https://images.gamebanana.com/img/ss/mods/6a9a0a8264fd2.jpg
   - https://images.gamebanana.com/img/ss/mods/6a9a09ade746b.jpg
   - https://images.gamebanana.com/img/ss/mods/6a9a09b2d9486.jpg
+  - https://images.gamebanana.com/img/ss/mods/6aa57bcd98495.jpg
   Text: <h1>OFFICIAL RELEASE</h1><br><b>Celeste 3D Engine is finally going out of
     Beta !</b><br>A lot of features have been added, and even more bug fixed (see
     latest chaneglogs)<br><br><a href="https://eylstar.github.io/Celeste3DEngineDocumentation"
