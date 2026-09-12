@@ -272068,15 +272068,15 @@
   Downloads: 3832
   FeaturedTier: 0
   Files:
-  - Description: 1.2.2 - 1.2.0 Blender Add-On, Wind Shader & Optimization
+  - Description: 1.2.3 - 1.2.0 Blender Add-On, Wind Shader & Optimization
     HasEverestYaml: true
-    Size: 1774953
-    CreatedDate: 1789232772
+    Size: 1774960
+    CreatedDate: 1789233600
     Downloads: 0
-    URL: https://gamebanana.com/mmdl/1814672
-    Name: celeste3dengine_bdba1.zip
-    MirrorName: '1814672'
-    ID: GameBanana/1814672
+    URL: https://gamebanana.com/mmdl/1814684
+    Name: celeste3dengine_92ea9.zip
+    MirrorName: '1814684'
+    ID: GameBanana/1814684
     IsLatestVersion: true
   - Description: 1.1.0 - 1.1.0 Official Release
     HasEverestYaml: true
@@ -272098,11 +272098,21 @@
     MirrorName: '1762496'
     ID: GameBanana/1762496
     IsLatestVersion: false
+  - Description: ARCHIVED - 1.2.2 - 1.2.0 Blender Add-On, Wind Shader & Optimization
+    HasEverestYaml: true
+    Size: 1774953
+    CreatedDate: 1789232772
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1814672
+    Name: celeste3dengine_bdba1.zip
+    MirrorName: '1814672'
+    ID: GameBanana/1814672
+    IsLatestVersion: false
   - Description: ARCHIVED - 1.2.1 - 1.2.0 Blender Add-On, Wind Shader & Optimization
     HasEverestYaml: true
     Size: 1774954
     CreatedDate: 1789230861
-    Downloads: 0
+    Downloads: 17
     URL: https://gamebanana.com/mmdl/1814646
     Name: celeste3dengine_b2ffd.zip
     MirrorName: '1814646'
@@ -272112,7 +272122,7 @@
     HasEverestYaml: true
     Size: 1783495
     CreatedDate: 1789230044
-    Downloads: 0
+    Downloads: 8
     URL: https://gamebanana.com/mmdl/1814628
     Name: celeste3dengine_c5e23.zip
     MirrorName: '1814628'
@@ -272143,7 +272153,7 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9a0a8264fd2.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9a09ade746b.png
-  ModifiedDate: 1789232784
+  ModifiedDate: 1789233616
   Name: Celeste 3D Engine
   PageURL: https://gamebanana.com/mods/641088
   Screenshots:
