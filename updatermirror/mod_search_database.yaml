@@ -272068,15 +272068,15 @@
   Downloads: 3832
   FeaturedTier: 0
   Files:
-  - Description: 1.2.0 - 1.2.0 Blender Add-On, Wind Shader & Optimization
+  - Description: 1.2.1 - 1.2.0 Blender Add-On, Wind Shader & Optimization
     HasEverestYaml: true
-    Size: 1783495
-    CreatedDate: 1789230044
+    Size: 1774954
+    CreatedDate: 1789230861
     Downloads: 0
-    URL: https://gamebanana.com/mmdl/1814628
-    Name: celeste3dengine_c5e23.zip
-    MirrorName: '1814628'
-    ID: GameBanana/1814628
+    URL: https://gamebanana.com/mmdl/1814646
+    Name: celeste3dengine_b2ffd.zip
+    MirrorName: '1814646'
+    ID: GameBanana/1814646
     IsLatestVersion: true
   - Description: 1.1.0 - 1.1.0 Official Release
     HasEverestYaml: true
@@ -272097,6 +272097,16 @@
     Name: celeste3dengine_41780.zip
     MirrorName: '1762496'
     ID: GameBanana/1762496
+    IsLatestVersion: false
+  - Description: ARCHIVED - 1.2.0 - 1.2.0 Blender Add-On, Wind Shader & Optimization
+    HasEverestYaml: true
+    Size: 1783495
+    CreatedDate: 1789230044
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1814628
+    Name: celeste3dengine_c5e23.zip
+    MirrorName: '1814628'
+    ID: GameBanana/1814628
     IsLatestVersion: false
   - Description: ARCHIVED - 0.1.1
     HasEverestYaml: true
@@ -272123,7 +272133,7 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9a0a8264fd2.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a9a09ade746b.png
-  ModifiedDate: 1789230096
+  ModifiedDate: 1789230879
   Name: Celeste 3D Engine
   PageURL: https://gamebanana.com/mods/641088
   Screenshots:
@@ -272142,7 +272152,7 @@
     extremely close from Unity's component system. GameObject, Behaviour, Collider3D,
     if you've touched something like that before, this should feel familiar fast.<br><br><b>You
     can basically think of Celeste 3D Engine as "Unity in Celeste".</b><br><br>
-  UpdatedDate: 1788482478
+  UpdatedDate: 1789230724
   Views: 1516
 - Author: Jl4cTuk
   Category:
