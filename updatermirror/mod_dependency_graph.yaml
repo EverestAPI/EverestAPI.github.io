@@ -53414,6 +53414,13 @@ IBCMateuszkus:
   - Name: ShroomHelper
     Version: 1.2.5
   OptionalDependencies: []
+IDDisplay:
+  URL: https://gamebanana.com/mmdl/1814682
+  MirrorName: '1814682'
+  Dependencies:
+  - Name: Everest
+    Version: 1.5935.0
+  OptionalDependencies: []
 ILHookDebugger:
   URL: https://gamebanana.com/mmdl/1774492
   MirrorName: '1774492'
