@@ -293094,8 +293094,18 @@
   Downloads: 507
   FeaturedTier: 0
   Files:
-  - Description: '1.0.1 - Sound Ripples: Fixed seeker bell detection of player persisting
-      past screen transitions'
+  - Description: 1.1 - Mod Settings NPC, Flag Invisible Barrier, Dream Droplet
+    HasEverestYaml: true
+    Size: 692194
+    CreatedDate: 1789219684
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1814479
+    Name: endersextras_11.zip
+    MirrorName: '1814479'
+    ID: GameBanana/1814479
+    IsLatestVersion: true
+  - Description: 'ARCHIVED - 1.0.1 - Sound Ripples: Fixed seeker bell detection of
+      player persisting past screen transitions'
     HasEverestYaml: true
     Size: 649684
     CreatedDate: 1777201381
@@ -293104,8 +293114,8 @@
     Name: endersextras_359c2.zip
     MirrorName: '1686198'
     ID: GameBanana/1686198
-    IsLatestVersion: true
-  - Description: 1.0.0 - it has things
+    IsLatestVersion: false
+  - Description: ARCHIVED - 1.0.0 - it has things
     HasEverestYaml: true
     Size: 649518
     CreatedDate: 1777110810
@@ -293119,7 +293129,7 @@
   Likes: 0
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_69ec8f0398b04.png
-  ModifiedDate: 1777209931
+  ModifiedDate: 1789219707
   Name: Ender's Extras
   PageURL: https://gamebanana.com/mods/666460
   Screenshots:
