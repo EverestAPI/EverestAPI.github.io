@@ -178670,6 +178670,16 @@
   Downloads: 766
   FeaturedTier: 0
   Files:
+  - Description: v1.3.0
+    HasEverestYaml: true
+    Size: 33617346
+    CreatedDate: 1789222992
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1814523
+    Name: pinballdownside.zip
+    MirrorName: '1814523'
+    ID: GameBanana/1814523
+    IsLatestVersion: true
   - Description: v1.2.0
     HasEverestYaml: true
     Size: 33418507
@@ -178679,7 +178689,7 @@
     Name: pinballdownside_a7350.zip
     MirrorName: '1330071'
     ID: GameBanana/1330071
-    IsLatestVersion: true
+    IsLatestVersion: false
   - Description: v1.1.1
     HasEverestYaml: true
     Size: 33409111
@@ -178725,7 +178735,7 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_66cada3d46243.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_66ca6b70359e7.png
-  ModifiedDate: 1746111729
+  ModifiedDate: 1789223100
   Name: Pinball Downside
   PageURL: https://gamebanana.com/mods/537711
   Screenshots:
@@ -178759,13 +178769,13 @@
     hours on this!<br><br>Music:<br>- "Echoes from the Op'Mahun"<br>- "Commitment"<br>-
     "Temptation"<br>- "Sacrifice"<br><br>All from the <i class="SelectedElement">Gods
     Will be Watching</i> <a href="https://www.youtube.com/watch?v=3NyWQo_JB98" target="_blank">Final
-    Chapter OST</a>, made by fingerspit<br><br><a href="https://www.youtube.com/watch?v=ul-sTsTs7Q4">Clear
-    video<br></a>(for the reasons explained above, I don't recommand watching the
-    clear video unless you don't plan on playing the map, or you're really stuck)<br><br><hr><br><i>If
-    you find any issue within the map, no matter how trivial, please contact me on
-    discord. @elekitu</i><br>
+    Chapter OST</a>, made by fingerspit<br><br><a href="https://www.youtube.com/watch?v=ul-sTsTs7Q4"
+    target="_blank">Clear video<br></a>(for the reasons explained above, I don't recommand
+    watching the clear video unless you don't plan on playing the map, or you're really
+    stuck)<br><br><hr><br><i>If you find any issue within the map, no matter how trivial,
+    please contact me on discord. @elekitu</i><br>
   UpdatedDate: 1732561470
-  Views: 5437
+  Views: 5438
 - Author: baltdev
   Category:
     ID: GameBanana_Mod_6801

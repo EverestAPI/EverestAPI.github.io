@@ -77118,15 +77118,17 @@ Pilo's A Sides:
     Version: 1.5986.0
   OptionalDependencies: []
 PinballDownside:
-  URL: https://gamebanana.com/mmdl/1330071
-  MirrorName: '1330071'
+  URL: https://gamebanana.com/mmdl/1814523
+  MirrorName: '1814523'
   Dependencies:
+  - Name: ArphimigonsToyBox
+    Version: 1.4.1
   - Name: BounceHelper
     Version: 1.10.0
+  - Name: BrokemiaHelper
+    Version: 1.8.5
   - Name: CherryHelper
     Version: 1.7.3
-  - Name: CommunalHelper
-    Version: 1.20.4
   - Name: ContortHelper
     Version: 1.5.5
   - Name: CrystallineHelper
