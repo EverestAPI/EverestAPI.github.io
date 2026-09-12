@@ -333051,55 +333051,25 @@
   CategoryName: Skins
   CreatedDate: 1789034478
   Description: Why not carrying around a little fella and let them activate your gates?
-  Downloads: 37
+  Downloads: 38
   FeaturedTier: 0
   Files:
-  - Description: 1.0.3
+  - Description: 1.0.4
     HasEverestYaml: true
-    Size: 116729
-    CreatedDate: 1789119661
-    Downloads: 10
-    URL: https://gamebanana.com/mmdl/1813353
-    Name: minecraftbatteries0003.zip
-    MirrorName: '1813353'
-    ID: GameBanana/1813353
+    Size: 117001
+    CreatedDate: 1789231351
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1814655
+    Name: minecraftbatteries0004.zip
+    MirrorName: '1814655'
+    ID: GameBanana/1814655
     IsLatestVersion: true
-  - Description: 1.0.2
-    HasEverestYaml: true
-    Size: 116713
-    CreatedDate: 1789117023
-    Downloads: 4
-    URL: https://gamebanana.com/mmdl/1813339
-    Name: minecraftbatteries0002.zip
-    MirrorName: '1813339'
-    ID: GameBanana/1813339
-    IsLatestVersion: false
-  - Description: 1.0.1
-    HasEverestYaml: true
-    Size: 61847
-    CreatedDate: 1789057302
-    Downloads: 13
-    URL: https://gamebanana.com/mmdl/1812770
-    Name: minecraftbatteries0001.zip
-    MirrorName: '1812770'
-    ID: GameBanana/1812770
-    IsLatestVersion: false
-  - Description: 1.0.0
-    HasEverestYaml: true
-    Size: 56663
-    CreatedDate: 1789034447
-    Downloads: 10
-    URL: https://gamebanana.com/mmdl/1812574
-    Name: minecraftbatteries.zip
-    MirrorName: '1812574'
-    ID: GameBanana/1812574
-    IsLatestVersion: false
   GameBananaType: Obsolete
   Likes: 5
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aa27fc28d221.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aa27fc7e650b.png
-  ModifiedDate: 1789119668
+  ModifiedDate: 1789231365
   Name: Minecraft Batteries
   PageURL: https://gamebanana.com/mods/715783
   Screenshots:
@@ -333110,7 +333080,7 @@
   Text: A skin pack replacing the original batteries into Minecraft mechanism<br>Hmm,
     sounds pretty logical since they're both pixel games, right?
   UpdatedDate: 1789117054
-  Views: 185
+  Views: 195
 - Author: rifs
   Category:
     ID: GameBanana_Mod_6801
