@@ -330936,13 +330936,23 @@
     Name: breakablespinners.zip
     MirrorName: '1816936'
     ID: GameBanana/1816936
+    IsLatestVersion: false
+  - Description: ''
+    HasEverestYaml: true
+    Size: 93887
+    CreatedDate: 1789511815
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1817622
+    Name: breakablespinners_70ef6.zip
+    MirrorName: '1817622'
+    ID: GameBanana/1817622
     IsLatestVersion: true
   GameBananaType: Obsolete
   Likes: 0
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a976585d5376.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aa89203e901d.png
-  ModifiedDate: 1789432330
+  ModifiedDate: 1789511827
   Name: BreakableSpinner
   PageURL: https://gamebanana.com/mods/712721
   Screenshots:
@@ -330951,7 +330961,7 @@
   Text: Spinner that can be broken by dash.<br>it has a rainbow version whose color
     can be changed by rainbow spinner color controller(maddie helping hand)
   UpdatedDate: 1789397103
-  Views: 90
+  Views: 93
 - Author: EllaMelon
   Category:
     ID: GameBanana_Mod_6801
