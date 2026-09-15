@@ -346753,3 +346753,49 @@
     w more extensive per-map/per-mod configuration + extra support for code mods
   UpdatedDate: 1788406398
   Views: 41
+- Author: Lepoice
+  Category:
+    ID: GameBanana_Mod_6801
+    Name: Standalone
+    Parent:
+      ID: GameBanana_Mod_6800
+      Name: Maps
+  CategoryId: GameBanana_Mod_6800
+  CategoryName: Maps
+  CreatedDate: 1789488201
+  Description: which city is it still
+  Downloads: 0
+  FeaturedTier: 0
+  Files:
+  - Description: ''
+    HasEverestYaml: true
+    Size: 203612519
+    CreatedDate: 1789488070
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1817322
+    Name: unforgottencity_a8a8f.zip
+    MirrorName: '1817322'
+    ID: GameBanana/1817322
+    IsLatestVersion: false
+  GameBananaType: Obsolete
+  Likes: 0
+  MirroredScreenshots:
+  - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aa96a07e57ac.png
+  - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aa96a102624c.png
+  ModifiedDate: 1789488201
+  Name: Unforgotten City
+  PageURL: https://gamebanana.com/mods/717511
+  Screenshots:
+  - https://images.gamebanana.com/img/ss/mods/6aa96a07e57ac.jpg
+  - https://images.gamebanana.com/img/ss/mods/6aa96a102624c.jpg
+  - https://images.gamebanana.com/img/ss/mods/6aa96a139bf66.jpg
+  - https://images.gamebanana.com/img/ss/mods/6aa96a15cd872.jpg
+  - https://images.gamebanana.com/img/ss/mods/6aa96a183349e.jpg
+  - https://images.gamebanana.com/img/ss/mods/6aa96a1a8da3d.jpg
+  SubcategoryId: GameBanana_Mod_6801
+  SubcategoryName: Standalone
+  Text: One day<br>Madeline returned to the city.<br><br>But.. There are something
+    different?<br>Thorns grow recklessly<br>lightning is everywhere.<br><br>Can Madeline
+    climb it again?
+  UpdatedDate: 1789488201
+  Views: 0
