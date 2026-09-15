@@ -330927,7 +330927,7 @@
   Downloads: 31
   FeaturedTier: 0
   Files:
-  - Description: ''
+  - Description: '1.02'
     HasEverestYaml: true
     Size: 92103
     CreatedDate: 1789431563
@@ -330937,7 +330937,7 @@
     MirrorName: '1816936'
     ID: GameBanana/1816936
     IsLatestVersion: false
-  - Description: ''
+  - Description: '1.01'
     HasEverestYaml: true
     Size: 93887
     CreatedDate: 1789511815
@@ -330952,7 +330952,7 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a976585d5376.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aa89203e901d.png
-  ModifiedDate: 1789511827
+  ModifiedDate: 1789511935
   Name: BreakableSpinner
   PageURL: https://gamebanana.com/mods/712721
   Screenshots:
@@ -330960,7 +330960,7 @@
   - https://images.gamebanana.com/img/ss/mods/6aa89203e901d.jpg
   Text: Spinner that can be broken by dash.<br>it has a rainbow version whose color
     can be changed by rainbow spinner color controller(maddie helping hand)
-  UpdatedDate: 1789397103
+  UpdatedDate: 1789511895
   Views: 93
 - Author: EllaMelon
   Category:
@@ -333969,25 +333969,35 @@
   CategoryName: Maps
   CreatedDate: 1789252046
   Description: Madeline crashed her car in space
-  Downloads: 27
+  Downloads: 28
   FeaturedTier: 0
   Files:
-  - Description: 1.0.0
+  - Description: '1.1.0 - Consistency Update #1'
+    HasEverestYaml: true
+    Size: 1325326
+    CreatedDate: 1789511818
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1817623
+    Name: lekemomentumvacuum_58477.zip
+    MirrorName: '1817623'
+    ID: GameBanana/1817623
+    IsLatestVersion: true
+  - Description: ARCHIVED - 1.0.0
     HasEverestYaml: true
     Size: 1324806
     CreatedDate: 1789251905
-    Downloads: 27
+    Downloads: 28
     URL: https://gamebanana.com/mmdl/1814956
     Name: lekemomentumvacuum_01d01.zip
     MirrorName: '1814956'
     ID: GameBanana/1814956
-    IsLatestVersion: true
+    IsLatestVersion: false
   GameBananaType: Obsolete
   Likes: 1
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aa5d0f56df06.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aa5ce824443e.png
-  ModifiedDate: 1789252046
+  ModifiedDate: 1789512062
   Name: Momentum Vacuum
   PageURL: https://gamebanana.com/mods/716631
   Screenshots:
@@ -334001,8 +334011,8 @@
   SubcategoryName: Standalone
   Text: Zoom your way through the galaxy without dashing a single time. Made for Lekelamega's
     dashless contest.
-  UpdatedDate: 1789252046
-  Views: 79
+  UpdatedDate: 1789512043
+  Views: 81
 - Author: Sirius0798
   Category:
     ID: GameBanana_Mod_6801
