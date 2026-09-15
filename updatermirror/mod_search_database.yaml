@@ -333043,26 +333043,36 @@
   CategoryName: Maps
   CreatedDate: 1788968167
   Description: 100% Evil and Dashless farewell modification for true celeste grandmasters.
-  Downloads: 59
+  Downloads: 65
   FeaturedTier: 0
   Files:
+  - Description: 1.0.6 - Updated the golden room and added more dialog
+    HasEverestYaml: true
+    Size: 12968652
+    CreatedDate: 1789461992
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1817146
+    Name: evilfarewell_106.zip
+    MirrorName: '1817146'
+    ID: GameBanana/1817146
+    IsLatestVersion: true
   - Description: 1.0.5 - Fixed the feather cheese in room 2 and made room 3 route
       more consistent
     HasEverestYaml: true
     Size: 12737571
     CreatedDate: 1789415846
-    Downloads: 0
+    Downloads: 6
     URL: https://gamebanana.com/mmdl/1816780
     Name: evilfarewell_105.zip
     MirrorName: '1816780'
     ID: GameBanana/1816780
-    IsLatestVersion: true
+    IsLatestVersion: false
   GameBananaType: Obsolete
   Likes: 2
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aa17706275a4.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aa17706a17e0.png
-  ModifiedDate: 1789415919
+  ModifiedDate: 1789462078
   Name: Evil Farewell (9Evil)
   PageURL: https://gamebanana.com/mods/715522
   Screenshots:
@@ -333080,7 +333090,7 @@
     A golden for each checkpoint (don't) and a platinum berry for a full deathless
     challenge (don't)
   UpdatedDate: 1788968167
-  Views: 402
+  Views: 408
 - Author: saharpanda
   Category:
     ID: GameBanana_Mod_4632
