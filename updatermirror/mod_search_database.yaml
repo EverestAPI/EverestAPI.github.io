@@ -334467,7 +334467,7 @@
   CategoryId: GameBanana_Mod_11181
   CategoryName: Skins
   CreatedDate: 1789448525
-  Description: giveEntities
+  Description: give Entities
   Downloads: 7
   FeaturedTier: 0
   Files:
@@ -334480,18 +334480,30 @@
     Name: giveentities.zip
     MirrorName: '1817088'
     ID: GameBanana/1817088
+    IsLatestVersion: false
+  - Description: ARCHIVED - 0.1.1 - giveEntitiesMod
+    HasEverestYaml: true
+    Size: 14959
+    CreatedDate: 1789477429
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1817237
+    Name: giveentitiesv0_1_1.zip
+    MirrorName: '1817237'
+    ID: GameBanana/1817237
     IsLatestVersion: true
   GameBananaType: Obsolete
   Likes: 0
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aa8d082d6552.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aa8d0864b254.png
-  ModifiedDate: 1789448525
-  Name: giveEntities
+  ModifiedDate: 1789477775
+  Name: give Entities
   PageURL: https://gamebanana.com/mods/717426
   Screenshots:
   - https://images.gamebanana.com/img/ss/mods/6aa8d082d6552.jpg
   - https://images.gamebanana.com/img/ss/mods/6aa8d0864b254.jpg
+  - https://images.gamebanana.com/img/ss/mods/6aa942b7cdb79.jpg
+  - https://images.gamebanana.com/img/ss/mods/6aa942bd6d531.jpg
   SubcategoryId: GameBanana_Mod_16940
   SubcategoryName: Collectibles
   Text: "<b>Content Warning: Flashing Lights &amp; Patterns</b><br><br>This modification\
@@ -334500,9 +334512,13 @@
     \ command to find entities, or \"search_a\" to inspect entity properties. Finally,\
     \ use the \"give\" command to add an entity as your follower.\r\n\r\nExamples:<br>give\
     \ theo_crystal idle<br>give pufferfish alert<br>give refill idle<br>give refilltwo\
-    \ idle<br><br>"
-  UpdatedDate: 1789473790
-  Views: 26
+    \ idle<br><br><span class=\"qk-md-text complete\">This mod will NOT ruin your\
+    \ gaming, but don't be reckless! </span><span class=\"qk-md-strong complete\"\
+    ><span class=\"qk-md-text complete\">Please don't summon flashing entities unless\
+    \ you want a seizure.</span></span><span class=\"qk-md-text complete\"> Your eyes\
+    \ will thank you.</span>"
+  UpdatedDate: 1789477822
+  Views: 28
 - Author: '0x0ade'
   Category:
     ID: GameBanana_Tool_1654
