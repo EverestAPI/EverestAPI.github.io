@@ -118594,19 +118594,29 @@
   CategoryName: Helpers
   CreatedDate: 1691159864
   Description: a helper, not for reverse.
-  Downloads: 73810
+  Downloads: 73815
   FeaturedTier: 0
   Files:
-  - Description: v16.4
+  - Description: v17.0
+    HasEverestYaml: true
+    Size: 550292
+    CreatedDate: 1789825205
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1820625
+    Name: reversehelper.zip
+    MirrorName: '1820625'
+    ID: GameBanana/1820625
+    IsLatestVersion: true
+  - Description: ARCHIVED - v16.4
     HasEverestYaml: true
     Size: 528432
     CreatedDate: 1779884277
-    Downloads: 8090
+    Downloads: 8093
     URL: https://gamebanana.com/mmdl/1712597
     Name: reversehelper_663b5.zip
     MirrorName: '1712597'
     ID: GameBanana/1712597
-    IsLatestVersion: true
+    IsLatestVersion: false
   - Description: ARCHIVED - v16.3
     HasEverestYaml: true
     Size: 528580
@@ -118672,7 +118682,7 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_64cba1f7acb31.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_64cba0d08a96d.png
-  ModifiedDate: 1786859769
+  ModifiedDate: 1789825216
   Name: Reverse Helper
   PageURL: https://gamebanana.com/mods/460304
   Screenshots:
