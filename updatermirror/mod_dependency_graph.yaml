@@ -11544,6 +11544,23 @@ Barbarer:
   - Name: VivHelper
     Version: 1.14.10
   OptionalDependencies: []
+Barely Awake:
+  URL: https://gamebanana.com/mmdl/1820710
+  MirrorName: '1820710'
+  Dependencies:
+  - Name: CollabUtils2
+    Version: 1.13.5
+  - Name: Everest
+    Version: 1.5105.0
+  - Name: ExtendedCameraDynamics
+    Version: 1.0.7
+  - Name: ExtendedVariantMode
+    Version: 0.39.9
+  - Name: MaxHelpingHand
+    Version: 1.33.7
+  - Name: VivHelper
+    Version: 1.14.10
+  OptionalDependencies: []
 Bark:
   URL: https://gamebanana.com/mmdl/859480
   MirrorName: '859480'
