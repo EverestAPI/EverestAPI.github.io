@@ -347446,10 +347446,20 @@
   CategoryName: Maps
   CreatedDate: 1789828917
   Description: there and back again
-  Downloads: 0
+  Downloads: 2
   FeaturedTier: 0
   Files:
-  - Description: ''
+  - Description: '1.1'
+    HasEverestYaml: true
+    Size: 5560
+    CreatedDate: 1789830946
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1820743
+    Name: barely_awake_golden_collection_fix_.zip
+    MirrorName: '1820743'
+    ID: GameBanana/1820743
+    IsLatestVersion: true
+  - Description: '1.0'
     HasEverestYaml: true
     Size: 5538
     CreatedDate: 1789828908
@@ -347458,13 +347468,13 @@
     Name: barelyawake.zip
     MirrorName: '1820710'
     ID: GameBanana/1820710
-    IsLatestVersion: true
+    IsLatestVersion: false
   GameBananaType: Obsolete
   Likes: 0
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aae9f203e144.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aae9f259aab4.png
-  ModifiedDate: 1789829130
+  ModifiedDate: 1789830956
   Name: Barely Awake
   PageURL: https://gamebanana.com/mods/718699
   Screenshots:
@@ -347477,4 +347487,4 @@
     Clear is, to the best of my knowledge, high gm+2 or low gm+3</span><br><br>video
     by player696103392. thanks freya!!
   UpdatedDate: 1789828917
-  Views: 0
+  Views: 5
