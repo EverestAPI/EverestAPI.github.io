@@ -347452,13 +347452,23 @@
   - Description: ''
     HasEverestYaml: true
     Size: 5595
+    CreatedDate: 1789831640
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1820750
+    Name: barely_awake_second_golden_fix_.zip
+    MirrorName: '1820750'
+    ID: GameBanana/1820750
+    IsLatestVersion: true
+  - Description: ''
+    HasEverestYaml: true
+    Size: 5595
     CreatedDate: 1789831034
     Downloads: 0
     URL: https://gamebanana.com/mmdl/1820746
     Name: barely_awake_respawn_fix_.zip
     MirrorName: '1820746'
     ID: GameBanana/1820746
-    IsLatestVersion: true
+    IsLatestVersion: false
   - Description: '1.1'
     HasEverestYaml: true
     Size: 5560
@@ -347474,7 +347484,7 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aae9f203e144.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6aae9f259aab4.png
-  ModifiedDate: 1789831045
+  ModifiedDate: 1789831645
   Name: Barely Awake
   PageURL: https://gamebanana.com/mods/718699
   Screenshots:
