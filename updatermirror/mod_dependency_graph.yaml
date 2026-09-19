@@ -129786,6 +129786,23 @@ min:
   - Name: VivHelper
     Version: 1.14.6
   OptionalDependencies: []
+min min min min min:
+  URL: https://gamebanana.com/mmdl/1820833
+  MirrorName: '1820833'
+  Dependencies:
+  - Name: CollabUtils2
+    Version: 1.13.5
+  - Name: Everest
+    Version: 1.5105.0
+  - Name: ExtendedCameraDynamics
+    Version: 1.0.7
+  - Name: ExtendedVariantMode
+    Version: 0.39.9
+  - Name: MaxHelpingHand
+    Version: 1.33.7
+  - Name: VivHelper
+    Version: 1.14.10
+  OptionalDependencies: []
 min_noahcrawfish:
   URL: https://gamebanana.com/mmdl/1603471
   MirrorName: '1603471'
