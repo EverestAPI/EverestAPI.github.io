@@ -640,6 +640,55 @@
   {
     "CategoryId": "GameBanana_Mod_6800",
     "Screenshots": [
+      "https://images.gamebanana.com/img/ss/mods/6a593563d411c.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a59356291e18.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a593562ada38.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a593562bc805.jpg"
+    ],
+    "Category": {
+      "Parent": {
+        "ID": "GameBanana_Mod_6800",
+        "Name": "Maps"
+      },
+      "ID": "GameBanana_Mod_6802",
+      "Name": "Campaign"
+    },
+    "Description": "Congratulations, ParrotDash!",
+    "Views": 2509,
+    "GameBananaType": "Obsolete",
+    "UpdatedDate": 1784233154,
+    "FeaturedTier": 3,
+    "SubcategoryId": "GameBanana_Mod_6802",
+    "SubcategoryName": "Campaign",
+    "Text": "The Platinum Parade is a difficult juggernaut with around 75 rooms, dedicated to<span class=\"GreenColor\"> <b>ParrotDash<\/b> <\/span>for completing Chapter 9 D-Side's Platinum Berry!<br><br>The required rooms peak at<span class=\"RedColor\"> red expert<\/span>, but there are many GM berries, and some optional challenges even beyond that!<br><br>These rooms are heavily inspired by rooms in <b>Chapter 9 D-Side (By Monika)<\/b>!<br><br><hr>More detailed credits:<br><br>The endscreen artwork was made by skyfoz, and True Love was made by TheGur90. The cassette version of True Love was made by Amber!<br>The thumbnail was made by Xelk, and the styleground was improved by Flamey. Luke870 helped with playtesting and QA. Juckter03 helped me to rank room difficulty and clear them all!<br>All mapper credits are within the map.<br>Shoutout to Monika for making the D-Side pack! You've been a heavy inspiration to us.<br>Also, shoutout to the GOAT ParrotDash for completing 9D deathless!<br><br>Thank you for reading, we hope you check it out!",
+    "ModifiedDate": 1784649556,
+    "Name": "Platinum Parade",
+    "PageURL": "https://gamebanana.com/mods/694848",
+    "MirroredScreenshots": [
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a593563d411c.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a59356291e18.png"
+    ],
+    "CreatedDate": 1784233154,
+    "Author": "Donker19",
+    "CategoryName": "Maps",
+    "Downloads": 631,
+    "Files": [{
+      "MirrorName": "1760519",
+      "IsLatestVersion": true,
+      "Description": "1.0.1 - Platinum Parade v1.0.1",
+      "HasEverestYaml": true,
+      "Size": 15817722,
+      "CreatedDate": 1784649536,
+      "Downloads": 414,
+      "ID": "GameBanana/1760519",
+      "URL": "https://gamebanana.com/mmdl/1760519",
+      "Name": "platinumparade_v1_0_1.zip"
+    }],
+    "Likes": 32
+  },
+  {
+    "CategoryId": "GameBanana_Mod_6800",
+    "Screenshots": [
       "https://images.gamebanana.com/img/ss/mods/69cfb61a2b91c.jpg",
       "https://images.gamebanana.com/img/ss/mods/69cfb63069fc4.jpg",
       "https://images.gamebanana.com/img/ss/mods/69cfb6306e68a.jpg",
@@ -777,94 +826,81 @@
     "Likes": 50
   },
   {
-    "CategoryId": "GameBanana_Mod_5081",
-    "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/6a63ec42a5726.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a63ec4593f96.jpg"
-    ],
-    "Category": {
-      "ID": "GameBanana_Mod_5081",
-      "Name": "Helpers"
-    },
-    "Description": "modthatclosesthegamewhenitopens",
-    "Views": 4544,
-    "GameBananaType": "Obsolete",
-    "UpdatedDate": 1784933498,
-    "FeaturedTier": 3,
-    "Text": "the original mod that closes the game when it opens helper, from that one bsky post<br><br>please don't repeat the bit of complaining about the game closing when it opens if you download this lmao, if i see it happen i'm taking the mod down<br><br>(to gamebanana moderators who might withhold this for a lack of screenshots, there is no visual in game content to screenshot for this. please be kind lol)",
-    "ModifiedDate": 1785539162,
-    "Name": "modthatclosesthegamewhenitopenshelper",
-    "PageURL": "https://gamebanana.com/mods/697168",
-    "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a63ec42a5726.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a63ec4593f96.png"
-    ],
-    "CreatedDate": 1784933498,
-    "Author": "bunnerfly",
-    "CategoryName": "Helpers",
-    "Downloads": 99,
-    "Files": [{
-      "MirrorName": "1763725",
-      "IsLatestVersion": true,
-      "Description": "",
-      "HasEverestYaml": true,
-      "Size": 10031,
-      "CreatedDate": 1784933455,
-      "Downloads": 99,
-      "ID": "GameBanana/1763725",
-      "URL": "https://gamebanana.com/mmdl/1763725",
-      "Name": "modthatclosesthegamewhenitopenshelper.zip"
-    }],
-    "Likes": 32
-  },
-  {
     "CategoryId": "GameBanana_Mod_6800",
     "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/6a593563d411c.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a59356291e18.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a593562ada38.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a593562bc805.jpg"
+      "https://images.gamebanana.com/img/ss/mods/6a86618a1cb05.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a8660061e050.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a866004c40f3.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a866002b1938.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a8660038adae.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a8660031df02.jpg"
     ],
     "Category": {
       "Parent": {
         "ID": "GameBanana_Mod_6800",
         "Name": "Maps"
       },
-      "ID": "GameBanana_Mod_6802",
-      "Name": "Campaign"
+      "ID": "GameBanana_Mod_6803",
+      "Name": "Collab/Contest"
     },
-    "Description": "Congratulations, ParrotDash!",
-    "Views": 2509,
+    "Description": "Explore the Canvas, Appreciate the Art",
+    "Views": 4239,
     "GameBananaType": "Obsolete",
-    "UpdatedDate": 1784233154,
+    "UpdatedDate": 1789704940,
     "FeaturedTier": 4,
-    "SubcategoryId": "GameBanana_Mod_6802",
-    "SubcategoryName": "Campaign",
-    "Text": "The Platinum Parade is a difficult juggernaut with around 75 rooms, dedicated to<span class=\"GreenColor\"> <b>ParrotDash<\/b> <\/span>for completing Chapter 9 D-Side's Platinum Berry!<br><br>The required rooms peak at<span class=\"RedColor\"> red expert<\/span>, but there are many GM berries, and some optional challenges even beyond that!<br><br>These rooms are heavily inspired by rooms in <b>Chapter 9 D-Side (By Monika)<\/b>!<br><br><hr>More detailed credits:<br><br>The endscreen artwork was made by skyfoz, and True Love was made by TheGur90. The cassette version of True Love was made by Amber!<br>The thumbnail was made by Xelk, and the styleground was improved by Flamey. Luke870 helped with playtesting and QA. Juckter03 helped me to rank room difficulty and clear them all!<br>All mapper credits are within the map.<br>Shoutout to Monika for making the D-Side pack! You've been a heavy inspiration to us.<br>Also, shoutout to the GOAT ParrotDash for completing 9D deathless!<br><br>Thank you for reading, we hope you check it out!",
-    "ModifiedDate": 1784649556,
-    "Name": "Platinum Parade",
-    "PageURL": "https://gamebanana.com/mods/694848",
+    "SubcategoryId": "GameBanana_Mod_6803",
+    "SubcategoryName": "Collab/Contest",
+    "Text": "We received feedbacks about some mechanic conflicts in this contest, so in the latest version, <span class=\"RedColor\">following helpers are required to be disabled<\/span> before you can enter the lobby, sorry for the inconvenience but we want you to be able to enjoy the maps in most possible stable ways:<br>YaoiHelper, DaxHelper, LeniencyHelper, and PuzzleHelper<br><br>我们接到了一些反馈，根据调查，以下Helper会造成地图机制崩溃或者受到较大影响，因此在最新版中<span class=\"RedColor\">我们要求以下Helper在进入大厅前被禁用<\/span>，以保证各位玩家的稳定游戏体验：<br>YaoiHelper, DaxHelper, LeniencyHelper, PuzzleHelper<br><br><h1>欢迎各位来到<span class=\"GreenColor\">画布竞赛合集<\/span>！<\/h1>经过了一年多的打磨，画布终于要和大家见面啦！<br>本竞赛合集包含<span class=\"GreenColor\">超过20张地图<\/span>。<br>合集涵盖<span class=\"GreenColor\">酱二至酱五<\/span>的难度，每一份<i>独一无二的绘画作品<\/i>等待大家去探索！<br>祝各位玩得开心！<br><br><h1>Welcome to the <span class=\"GreenColor\">Canvas Contest<\/span>!<\/h1>After more than a year of refinement, Canvas Contest is finally ready to meet you all!<br>This contest includes <span class=\"GreenColor\">over 20 maps<\/span>.<br>With difficulties ranging from <span class=\"GreenColor\">Intermediate to Grandmaster<\/span>, <i>the unique paintings<\/i> are waiting you exploring.<br>Hope you enjoy the map!<br><br>",
+    "ModifiedDate": 1789704731,
+    "Name": "Canvas Contest",
+    "PageURL": "https://gamebanana.com/mods/706886",
     "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a593563d411c.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a59356291e18.png"
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a86618a1cb05.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a8660061e050.png"
     ],
-    "CreatedDate": 1784233154,
-    "Author": "Donker19",
+    "CreatedDate": 1787198375,
+    "Author": "bits-Atomizated",
     "CategoryName": "Maps",
-    "Downloads": 631,
-    "Files": [{
-      "MirrorName": "1760519",
-      "IsLatestVersion": true,
-      "Description": "1.0.1 - Platinum Parade v1.0.1",
-      "HasEverestYaml": true,
-      "Size": 15817722,
-      "CreatedDate": 1784649536,
-      "Downloads": 414,
-      "ID": "GameBanana/1760519",
-      "URL": "https://gamebanana.com/mmdl/1760519",
-      "Name": "platinumparade_v1_0_1.zip"
-    }],
-    "Likes": 32
+    "Downloads": 6475,
+    "Files": [
+      {
+        "MirrorName": "1819540",
+        "IsLatestVersion": true,
+        "Description": "1.1.13 - Main Pack",
+        "HasEverestYaml": true,
+        "Size": 4205239,
+        "CreatedDate": 1789704720,
+        "Downloads": 127,
+        "ID": "GameBanana/1819540",
+        "URL": "https://gamebanana.com/mmdl/1819540",
+        "Name": "canvascontest0113.zip"
+      },
+      {
+        "MirrorName": "1816251",
+        "IsLatestVersion": true,
+        "Description": "1.0.7 - Graphics",
+        "HasEverestYaml": true,
+        "Size": 109717693,
+        "CreatedDate": 1789353729,
+        "Downloads": 250,
+        "ID": "GameBanana/1816251",
+        "URL": "https://gamebanana.com/mmdl/1816251",
+        "Name": "canvascontest_graphics0007.zip"
+      },
+      {
+        "MirrorName": "1815102",
+        "IsLatestVersion": true,
+        "Description": "1.0.3 - Audio Pack",
+        "HasEverestYaml": true,
+        "Size": 365859423,
+        "CreatedDate": 1789263787,
+        "Downloads": 297,
+        "ID": "GameBanana/1815102",
+        "URL": "https://gamebanana.com/mmdl/1815102",
+        "Name": "canvascontest_audio0003.zip"
+      }
+    ],
+    "Likes": 40
   },
   {
     "CategoryId": "GameBanana_Mod_6800",
@@ -1038,83 +1074,6 @@
   {
     "CategoryId": "GameBanana_Mod_6800",
     "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/6a86618a1cb05.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a8660061e050.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a866004c40f3.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a866002b1938.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a8660038adae.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6a8660031df02.jpg"
-    ],
-    "Category": {
-      "Parent": {
-        "ID": "GameBanana_Mod_6800",
-        "Name": "Maps"
-      },
-      "ID": "GameBanana_Mod_6803",
-      "Name": "Collab/Contest"
-    },
-    "Description": "Explore the Canvas, Appreciate the Art",
-    "Views": 4239,
-    "GameBananaType": "Obsolete",
-    "UpdatedDate": 1789704940,
-    "FeaturedTier": 5,
-    "SubcategoryId": "GameBanana_Mod_6803",
-    "SubcategoryName": "Collab/Contest",
-    "Text": "We received feedbacks about some mechanic conflicts in this contest, so in the latest version, <span class=\"RedColor\">following helpers are required to be disabled<\/span> before you can enter the lobby, sorry for the inconvenience but we want you to be able to enjoy the maps in most possible stable ways:<br>YaoiHelper, DaxHelper, LeniencyHelper, and PuzzleHelper<br><br>我们接到了一些反馈，根据调查，以下Helper会造成地图机制崩溃或者受到较大影响，因此在最新版中<span class=\"RedColor\">我们要求以下Helper在进入大厅前被禁用<\/span>，以保证各位玩家的稳定游戏体验：<br>YaoiHelper, DaxHelper, LeniencyHelper, PuzzleHelper<br><br><h1>欢迎各位来到<span class=\"GreenColor\">画布竞赛合集<\/span>！<\/h1>经过了一年多的打磨，画布终于要和大家见面啦！<br>本竞赛合集包含<span class=\"GreenColor\">超过20张地图<\/span>。<br>合集涵盖<span class=\"GreenColor\">酱二至酱五<\/span>的难度，每一份<i>独一无二的绘画作品<\/i>等待大家去探索！<br>祝各位玩得开心！<br><br><h1>Welcome to the <span class=\"GreenColor\">Canvas Contest<\/span>!<\/h1>After more than a year of refinement, Canvas Contest is finally ready to meet you all!<br>This contest includes <span class=\"GreenColor\">over 20 maps<\/span>.<br>With difficulties ranging from <span class=\"GreenColor\">Intermediate to Grandmaster<\/span>, <i>the unique paintings<\/i> are waiting you exploring.<br>Hope you enjoy the map!<br><br>",
-    "ModifiedDate": 1789704731,
-    "Name": "Canvas Contest",
-    "PageURL": "https://gamebanana.com/mods/706886",
-    "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a86618a1cb05.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a8660061e050.png"
-    ],
-    "CreatedDate": 1787198375,
-    "Author": "bits-Atomizated",
-    "CategoryName": "Maps",
-    "Downloads": 6475,
-    "Files": [
-      {
-        "MirrorName": "1819540",
-        "IsLatestVersion": true,
-        "Description": "1.1.13 - Main Pack",
-        "HasEverestYaml": true,
-        "Size": 4205239,
-        "CreatedDate": 1789704720,
-        "Downloads": 127,
-        "ID": "GameBanana/1819540",
-        "URL": "https://gamebanana.com/mmdl/1819540",
-        "Name": "canvascontest0113.zip"
-      },
-      {
-        "MirrorName": "1816251",
-        "IsLatestVersion": true,
-        "Description": "1.0.7 - Graphics",
-        "HasEverestYaml": true,
-        "Size": 109717693,
-        "CreatedDate": 1789353729,
-        "Downloads": 250,
-        "ID": "GameBanana/1816251",
-        "URL": "https://gamebanana.com/mmdl/1816251",
-        "Name": "canvascontest_graphics0007.zip"
-      },
-      {
-        "MirrorName": "1815102",
-        "IsLatestVersion": true,
-        "Description": "1.0.3 - Audio Pack",
-        "HasEverestYaml": true,
-        "Size": 365859423,
-        "CreatedDate": 1789263787,
-        "Downloads": 297,
-        "ID": "GameBanana/1815102",
-        "URL": "https://gamebanana.com/mmdl/1815102",
-        "Name": "canvascontest_audio0003.zip"
-      }
-    ],
-    "Likes": 40
-  },
-  {
-    "CategoryId": "GameBanana_Mod_6800",
-    "Screenshots": [
       "https://images.gamebanana.com/img/ss/mods/6a93aa4fa4739.jpg",
       "https://images.gamebanana.com/img/ss/mods/6a93aa5562ca1.jpg"
     ],
@@ -1220,6 +1179,67 @@
       }
     ],
     "Likes": 35
+  },
+  {
+    "CategoryId": "GameBanana_Mod_6800",
+    "Screenshots": [
+      "https://images.gamebanana.com/img/ss/mods/6a8c17a21109e.jpg",
+      "https://images.gamebanana.com/img/ss/mods/6a8c17d4eca8e.jpg"
+    ],
+    "Category": {
+      "Parent": {
+        "ID": "GameBanana_Mod_6800",
+        "Name": "Maps"
+      },
+      "ID": "GameBanana_Mod_6803",
+      "Name": "Collab/Contest"
+    },
+    "Description": "100 vases, 4000 words",
+    "Views": 410,
+    "GameBananaType": "Obsolete",
+    "UpdatedDate": 1787578956,
+    "FeaturedTier": 5,
+    "SubcategoryId": "GameBanana_Mod_6803",
+    "SubcategoryName": "Collab/Contest",
+    "Text": "Welcome to the Vase Contest exhibit, my submission to Overscope Contest! <br><br>It was originally supposed to be a quick shitpost where i \u201dbroke\u201d the 30 custom assets rule by getting 30 people to send me a vase, but it transformed into something way, way bigger through a cruel twist of overscope fate. <br><br>The exhibit displays the 100 vases submitted to the contest, with 4000 words of pretentious vase analysis to reflect on! <br><br>no sheet for a variety of reasons, but i can dm some people their placement/comment if they can't watch or play the exhibit <br><br><b>Information to the overscope contest judges: <\/b><br><br><ul><li>There is a speed berry hidden to the left of spawn<\/li><li>I chose to \"break\" rule 4<\/li><li>Please judge it using: 40% originality, 50% deco, 10% gameplay.<\/li><li>GL judging this bs :sob:<\/li><\/ul>",
+    "ModifiedDate": 1787578921,
+    "Name": "The Vase Contest Exhibition",
+    "PageURL": "https://gamebanana.com/mods/709111",
+    "MirroredScreenshots": [
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a8c17a21109e.png",
+      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a8c17d4eca8e.png"
+    ],
+    "CreatedDate": 1787576312,
+    "Author": "kalypsoooo",
+    "CategoryName": "Maps",
+    "Downloads": 80,
+    "Files": [
+      {
+        "MirrorName": "1795821",
+        "IsLatestVersion": true,
+        "Description": "Updated Map",
+        "HasEverestYaml": true,
+        "Size": 8342852,
+        "CreatedDate": 1787578905,
+        "Downloads": 59,
+        "ID": "GameBanana/1795821",
+        "URL": "https://gamebanana.com/mmdl/1795821",
+        "Name": "vasecontest_c5ed1.zip"
+      },
+      {
+        "MirrorName": "1795672",
+        "IsLatestVersion": false,
+        "Description": "ARCHIVED - 0.0.5 - map",
+        "HasEverestYaml": true,
+        "Size": 8342740,
+        "CreatedDate": 1787566063,
+        "Downloads": 21,
+        "ID": "GameBanana/1795672",
+        "URL": "https://gamebanana.com/mmdl/1795672",
+        "Name": "vasecontest.zip"
+      }
+    ],
+    "Likes": 26
   },
   {
     "CategoryId": "GameBanana_Mod_6800",
