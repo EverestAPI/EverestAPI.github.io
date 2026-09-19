@@ -65934,6 +65934,21 @@ Mergewell:
   MirrorName: '1266155'
   Dependencies: []
   OptionalDependencies: []
+Merging Madness:
+  URL: https://gamebanana.com/mmdl/1819693
+  MirrorName: '1819693'
+  Dependencies:
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: Everest
+    Version: 1.6397.0
+  - Name: HonlyHelper
+    Version: 1.7.5
+  - Name: MaxHelpingHand
+    Version: 1.40.7
+  - Name: SorbetHelper
+    Version: 1.9.2
+  OptionalDependencies: []
 MerryMountain:
   URL: https://gamebanana.com/mmdl/715910
   MirrorName: '715910'
