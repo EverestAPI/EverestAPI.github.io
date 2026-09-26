@@ -1351,51 +1351,44 @@
   },
   {
     "CategoryId": "GameBanana_Mod_6800",
-    "Screenshots": [
-      "https://images.gamebanana.com/img/ss/mods/6ab5a8d809108.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6ab5a101cfcc9.jpg",
-      "https://images.gamebanana.com/img/ss/mods/6ab5a101d13a1.jpg"
-    ],
+    "Screenshots": ["https://images.gamebanana.com/img/ss/mods/6ab7fe808f9a0.jpg"],
     "Category": {
       "Parent": {
         "ID": "GameBanana_Mod_6800",
         "Name": "Maps"
       },
-      "ID": "GameBanana_Mod_6801",
-      "Name": "Standalone"
+      "ID": "GameBanana_Mod_6802",
+      "Name": "Campaign"
     },
-    "Description": "A speedrun-focused map possible in under a minute",
-    "Views": 90,
+    "Description": "I Still Love You\u2026\u2026",
+    "Views": 377,
     "GameBananaType": "Obsolete",
-    "UpdatedDate": 1790289977,
+    "UpdatedDate": 1790443409,
     "FeaturedTier": 6,
-    "SubcategoryId": "GameBanana_Mod_6801",
-    "SubcategoryName": "Standalone",
-    "Text": "A non-linear speedrun routing map made for <a href=\"https://gamebanana.com/jams/238\">60 Second Rush!<br><br><\/a>The intended experience is to be played with the speedberry, and there's easier silver and bronze times for those who don't want to commit to trying to get the sub 1.<br><br>I'm required to upload a video for verification purposes but I highly suggest routing the map yourself before watching, there are many viable routes and I encourage you to find as many as possible but the one I used was the most consistent for me: <span class=\"Spoiler\"><a href=\"https://youtu.be/fsCtffyWo7I\">https://youtu.be/fsCtffyWo7I<\/a><\/span><br><br>I can't give a good estimate on the difficulty, but the casual clear is beginner and the sub 1 clear is at least expert depending on your route<br><br>Music is <a href=\"https://www.youtube.com/watch?v=YfjsyKFbyqM\">Lifeworld<\/a> by Oneohtrix Point Never",
-    "ModifiedDate": 1790290143,
-    "Name": "Three Sacrifices",
-    "PageURL": "https://gamebanana.com/mods/720431",
-    "MirroredScreenshots": [
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6ab5a8d809108.png",
-      "https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6ab5a101cfcc9.png"
-    ],
-    "CreatedDate": 1790289977,
-    "Author": "Yoshachobi7",
+    "SubcategoryId": "GameBanana_Mod_6802",
+    "SubcategoryName": "Campaign",
+    "Text": "<b>My best project yet.<\/b><br><br><hr><br>Started 2 years ago, I didn't realize that it would take me that much time to finish that one single chapter. But here it is, <span class=\"GreenColor\"><b><i>Sunrise Glow<\/i><\/b><\/span>.<br><br>An <b>After Story<\/b> will be updated to the mod file soon (hopefully).<br><br>Huge thank you to <b>everyone<\/b> who make this map possible. I love you all <b><3<\/b><br><br><hr><br>About this map, <b><span class=\"GreenColor\"><i>Sunrise Glow<\/i><\/span><\/b> is a map whose difficulty is around <span class=\"RedColor\"><b><span class=\"GreenColor\">Beginner<\/span><\/b><\/span>, with <b>~24 gameplay rooms<\/b>, and <b><span class=\"RedColor\">no strawberry<\/span><\/b> <span class=\"Spoiler\">(though the goldberry still exists)<\/span>.<br><br><hr><br>Music used is <a href=\"https://www.youtube.com/watch?v=429NnlSrWwY&list=OLAK5uy_ndzWwcMsWXbrzusVNt9wdXMdYx_i97KeU\" target=\"_blank\">My Song, Your Note<\/a> by Varien (Nikki Kaeler), from the DDLC Plus OST<br><br><hr><br>Enjoy!",
+    "ModifiedDate": 1790443331,
+    "Name": "Love Letter: Sunrise Glow",
+    "PageURL": "https://gamebanana.com/mods/719687",
+    "MirroredScreenshots": ["https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6ab7fe808f9a0.png"],
+    "CreatedDate": 1790065582,
+    "Author": "DX3906",
     "CategoryName": "Maps",
-    "Downloads": 25,
+    "Downloads": 93,
     "Files": [{
-      "MirrorName": "1825564",
+      "MirrorName": "1827446",
       "IsLatestVersion": true,
       "Description": "",
       "HasEverestYaml": true,
-      "Size": 5114448,
-      "CreatedDate": 1790289874,
-      "Downloads": 25,
-      "ID": "GameBanana/1825564",
-      "URL": "https://gamebanana.com/mmdl/1825564",
-      "Name": "threesacrifices.zip"
+      "Size": 39842655,
+      "CreatedDate": 1790443252,
+      "Downloads": 0,
+      "ID": "GameBanana/1827446",
+      "URL": "https://gamebanana.com/mmdl/1827446",
+      "Name": "sunriseglow_65470.zip"
     }],
-    "Likes": 5
+    "Likes": 19
   },
   {
     "CategoryId": "GameBanana_Mod_6800",
