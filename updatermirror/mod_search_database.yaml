@@ -152682,19 +152682,29 @@
   CategoryName: Helpers
   CreatedDate: 1713203015
   Description: A helper I made when I'm mopping desk
-  Downloads: 403331
+  Downloads: 403385
   FeaturedTier: 0
   Files:
+  - Description: 1.55.7
+    HasEverestYaml: true
+    Size: 4019624
+    CreatedDate: 1790440407
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1827401
+    Name: chroniahelper5507.zip
+    MirrorName: '1827401'
+    ID: GameBanana/1827401
+    IsLatestVersion: true
   - Description: 1.55.6
     HasEverestYaml: true
     Size: 3985871
     CreatedDate: 1789406350
-    Downloads: 5310
+    Downloads: 5364
     URL: https://gamebanana.com/mmdl/1816656
     Name: chroniahelper5506.zip
     MirrorName: '1816656'
     ID: GameBanana/1816656
-    IsLatestVersion: true
+    IsLatestVersion: false
   - Description: 1.55.5
     HasEverestYaml: true
     Size: 3985745
@@ -152870,7 +152880,7 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_68de9a60228c3.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_68df06c1d08ef.png
-  ModifiedDate: 1789406362
+  ModifiedDate: 1790440441
   Name: Chronia Helper
   PageURL: https://gamebanana.com/mods/507580
   Screenshots:
@@ -330402,6 +330412,16 @@
   Downloads: 88
   FeaturedTier: 0
   Files:
+  - Description: '1.1'
+    HasEverestYaml: true
+    Size: 315771
+    CreatedDate: 1790440454
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1827402
+    Name: correwithcare0100.zip
+    MirrorName: '1827402'
+    ID: GameBanana/1827402
+    IsLatestVersion: true
   - Description: ''
     HasEverestYaml: true
     Size: 83504
@@ -330411,13 +330431,13 @@
     Name: correwithcare.zip
     MirrorName: '1799004'
     ID: GameBanana/1799004
-    IsLatestVersion: true
+    IsLatestVersion: false
   GameBananaType: Obsolete
   Likes: 5
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a904a2800b82.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a904a2bd8a69.png
-  ModifiedDate: 1787841205
+  ModifiedDate: 1790440473
   Name: Corre With Care
   PageURL: https://gamebanana.com/mods/710380
   Screenshots:

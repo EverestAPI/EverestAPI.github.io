@@ -26868,11 +26868,11 @@ ChromiaSMH:
     Version: 1.9.2
   OptionalDependencies: []
 ChroniaHelper:
-  URL: https://gamebanana.com/mmdl/1816656
-  MirrorName: '1816656'
+  URL: https://gamebanana.com/mmdl/1827401
+  MirrorName: '1827401'
   Dependencies:
   - Name: Everest
-    Version: 1.6485.0
+    Version: 1.6580.0
   OptionalDependencies:
   - Name: CommunalHelper
     Version: 1.23.0
@@ -30031,11 +30031,11 @@ Corps:
     Version: 1.2.14
   OptionalDependencies: []
 CorreWithCare:
-  URL: https://gamebanana.com/mmdl/1799004
-  MirrorName: '1799004'
+  URL: https://gamebanana.com/mmdl/1827402
+  MirrorName: '1827402'
   Dependencies:
   - Name: Everest
-    Version: 1.6485.0
+    Version: 1.6580.0
   OptionalDependencies: []
 Correction the system:
   URL: https://gamebanana.com/mmdl/1732368
