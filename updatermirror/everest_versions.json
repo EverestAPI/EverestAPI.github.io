@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-03T20:19:57Z",
+    "olympusBuildFileSize": 73455764,
+    "mainFileSize": 71636391,
+    "mainDownload": "https://github.com/EverestAPI/Everest/releases/download/stable-1.6623.0/main.zip",
+    "olympusMetaDownload": "https://github.com/EverestAPI/Everest/releases/download/stable-1.6623.0/olympus-meta.zip",
+    "olympusMetaFileSize": 355,
+    "commit": "47d6a61fa918c17b8085b93b61ee59a7465968f8",
+    "olympusBuildDownload": "https://github.com/EverestAPI/Everest/releases/download/stable-1.6623.0/olympus-build.zip",
+    "branch": "stable",
+    "version": 6623,
+    "isNative": true
+  },
+  {
     "date": "2026-09-28T21:02:32.6839665Z",
     "olympusBuildFileSize": 73466947,
     "mainFileSize": 71942337,
