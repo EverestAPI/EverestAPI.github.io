@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-10-03T09:19:20.4098858Z",
+    "changelog": "∙ Manage Installed Mods: Use same mechanics to retrieve mod descriptions as for names and categories",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5919/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.10.03.01",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5919/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5919/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-09-22T12:03:40.3599628Z",
     "changelog": "∙ Added a download queue to allow users to continue browsing Olympus while a mod is downloaded",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5910/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
