@@ -337032,19 +337032,29 @@
   CategoryName: Helpers
   CreatedDate: 1790381958
   Description: ''
-  Downloads: 111
+  Downloads: 112
   FeaturedTier: 0
   Files:
-  - Description: 1.0.5 - talker interaction modifier update 2
+  - Description: 1.0.6 - birthday update! custom deathless berry added
+    HasEverestYaml: true
+    Size: 544620
+    CreatedDate: 1791056705
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1836135
+    Name: godlesshelper_27f75.zip
+    MirrorName: '1836135'
+    ID: GameBanana/1836135
+    IsLatestVersion: true
+  - Description: ARCHIVED - 1.0.5 - talker interaction modifier update 2
     HasEverestYaml: true
     Size: 515594
     CreatedDate: 1790878795
-    Downloads: 25
+    Downloads: 26
     URL: https://gamebanana.com/mmdl/1833572
     Name: godlesshelper_516a8.zip
     MirrorName: '1833572'
     ID: GameBanana/1833572
-    IsLatestVersion: true
+    IsLatestVersion: false
   - Description: ARCHIVED - 1.0.4 - kill player trigger keep strawberries option
     HasEverestYaml: true
     Size: 514343
@@ -337100,16 +337110,16 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6ab7b49946507.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6ab6fd97c0abd.png
-  ModifiedDate: 1790879050
+  ModifiedDate: 1791057093
   Name: Godless Helper
   PageURL: https://gamebanana.com/mods/720791
   Screenshots:
   - https://images.gamebanana.com/img/ss/mods/6ab7b49946507.jpg
   - https://images.gamebanana.com/img/ss/mods/6ab6fd97c0abd.jpg
   - https://images.gamebanana.com/img/ss/mods/6ab6fe1ab45db.jpg
-  Text: 'This is my personal helper containing various things I have needed to use
-    in my maps!<br>Some of the featured are very specialized, while some are intended
-    to have the most customizability I could possibly allow for.<br><br><h1>Stylegrounds:</h1><b>Northern
+  Text: '<b>Cus</b>This is my personal helper containing various things I have needed
+    to use in my maps!<br>Some of the featured are very specialized, while some are
+    intended to have the most customizability I could possibly allow for.<br><br><h1>Stylegrounds:</h1><b>Northern
     Lights (Extra Custom):&nbsp;</b>A version of the vanilla Northern Lights styleground,
     but with a lot of customizability. You can change the image that the styleground
     uses, the range of Y levels at which the strands appear, the number of strands,
@@ -337120,11 +337130,15 @@
     nodes can be overridden on a per-strand basis instead.<br><br><h1>Entities:</h1><b>Buffer
     Refill:&nbsp;</b>A refill that makes buffer windows extend through its freeze
     frames, thus making timings easier. Has a customizable hitbox, sprite, and other
-    properties.<br><br><b>Flag Zip Mover:&nbsp;</b>A zip mover that can react to a
-    flag to start moving, and can set or unset flags during various stages of its
-    movement. Customizable visually and mechanically.<br><br><b>Freeze Frame Refill:&nbsp;</b>A
-    refill that only gives you freeze frames. This is a different placement for convenience,
-    but it can use Buffer Refill functionality and is functionally the same entity.<br><br><b>Invisible
+    properties.<br><br><b>Custom Deathless Berry:</b>&nbsp;A berry that behaves like
+    a golden, but can be resprited, Also has a Tag field, which can be used to make
+    a Collect Custom Deathless Berry trigger only collect berries that have this tag.
+    (Note: I intend to work more on this in the future but wanted to put it out anyway)<br><br><b>Flag
+    Zip Mover:&nbsp;</b>A zip mover that can react to a flag to start moving, and
+    can set or unset flags during various stages of its movement. Customizable visually
+    and mechanically.<br><br><b>Freeze Frame Refill:&nbsp;</b>A refill that only gives
+    you freeze frames. This is a different placement for convenience, but it can use
+    Buffer Refill functionality and is functionally the same entity.<br><br><b>Invisible
     Spikes:&nbsp;</b>Spikes that you can see in L<span class="ZNx93QP1XNrBdT5MI6SY"><span
     class="expandableItem">önn but not in-game.</span></span><br><br><b>Liftboost
     Refill:&nbsp;</b>This refill gives you Liftboost! The speed and timer are customizable,
@@ -337180,23 +337194,27 @@
     Trigger:&nbsp;</b>A trigger that makes confetti appear at the chosen node or at
     the player''s position. Has many customizability options, including confetti coloring,
     the number of them, other visual options, and a LOT of physics-based options.
-    Acts like the vanilla summit checkpoint confetti by default.<br><br><b>Kill Player
-    Trigger:</b>&nbsp;A trigger that kills the player when entered. You can configure
-    whether the death count towards death count statistics or not. You can also configure
-    whether the trigger lets you keep strawberries (incl. goldens) through the death.<br><br>Notes:<br><ul><li>In
-    every entity that can respawn, the One Use field is missing, because you can set
-    the Respawn Time field to a negative number to make the entities one-use.</li><li>The
-    replacement of the One Use field, as well as "Range" fields using the `min..max`
-    format, is a way to keep the number of fields smaller so that the helper is at
-    least somewhat more manageable to look at.</li><li>The custom hitbox syntax is
-    the same as in FrostHelper.</li><li>Thank you emeowvie for the Liftboost Refill
-    sprite!</li><li>Fractured Stratum is the map that I made most of the release version
-    entities for, but as of the release of the helper, it is not out yet.</li><li>DM
-    me @toir.wav on discord or wherever else you can find me to report any bugs or
-    share suggestions.</li></ul><br><br>Hopefully helping the searchability: godlesshelper
-    godless clouds godlessclouds godless helper'
+    Acts like the vanilla summit checkpoint confetti by default.<br><br><b>Collect
+    Custom Deathless Berry:</b>&nbsp;This trigger collects specifically the Custom
+    Deathless Berry from this trigger. It has a Tag field, which, if specified, makes
+    the trigger only collect berries that also have the same tag specified in their
+    field.<br><br><b>Kill Player Trigger:</b>&nbsp;A trigger that kills the player
+    when entered. You can configure whether the death count towards death count statistics
+    or not. You can also configure whether the trigger lets you keep strawberries
+    (incl. goldens) through the death.<br><br>Notes:<br><ul><li>In every entity that
+    can respawn, the One Use field is missing, because you can set the Respawn Time
+    field to a negative number to make the entities one-use.</li><li>The replacement
+    of the One Use field, as well as "Range" fields using the `min..max` format, is
+    a way to keep the number of fields smaller so that the helper is at least somewhat
+    more manageable to look at.</li><li>The custom hitbox syntax is the same as in
+    FrostHelper.</li><li>Thank you emeowvie for the Liftboost Refill sprite!</li><li>Fractured
+    Stratum is the map that I made most of the release version entities for, but as
+    of the release of the helper, it is not out yet.</li><li>DM me @toir.wav on discord
+    or wherever else you can find me to report any bugs or share suggestions.</li></ul><br><br>Hopefully
+    helping the searchability: godlesshelper godless clouds godlessclouds godless
+    helper'
   UpdatedDate: 1790381958
-  Views: 179
+  Views: 183
 - Author: laajatonnetti
   Category:
     ID: GameBanana_Mod_6801
