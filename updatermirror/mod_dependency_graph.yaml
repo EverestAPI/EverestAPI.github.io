@@ -49389,8 +49389,8 @@ Glitchtophen:
     Version: 1.0.76
   OptionalDependencies: []
 Glitchtophen 2.0:
-  URL: https://gamebanana.com/mmdl/1767451
-  MirrorName: '1767451'
+  URL: https://gamebanana.com/mmdl/1836253
+  MirrorName: '1836253'
   Dependencies:
   - Name: AdventureHelper
     Version: 1.6.0
@@ -49413,9 +49413,9 @@ Glitchtophen 2.0:
   - Name: DJMapHelper
     Version: 1.13.4
   - Name: Everest
-    Version: 1.6286.0
-  - Name: Everest
     Version: 1.6305.0
+  - Name: Everest
+    Version: 1.6286.0
   - Name: Everest
     Version: 1.6249.0
   - Name: Everest
