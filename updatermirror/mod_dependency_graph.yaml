@@ -41839,6 +41839,13 @@ ExtendedVariantMode:
     Version: 1.6.12
   - Name: JungleHelper
     Version: 1.1.5
+ExtendederVariants:
+  URL: https://gamebanana.com/mmdl/1836247
+  MirrorName: '1836247'
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.5935.0
+  OptionalDependencies: []
 ExtraPortraits:
   URL: https://gamebanana.com/mmdl/1221044
   MirrorName: '1221044'

@@ -350819,3 +350819,60 @@
     Asset Pack
   UpdatedDate: 1791018632
   Views: 43
+- Author: angelcaru
+  Category:
+    ID: GameBanana_Mod_4635
+    Name: Mechanics
+  CategoryId: GameBanana_Mod_4635
+  CategoryName: Mechanics
+  CreatedDate: 1791064965
+  Description: Extraordinarily silly modifications to the game's mechanics
+  Downloads: 0
+  FeaturedTier: 0
+  Files:
+  - Description: 0.2.0 - Extendeder Variants Mod
+    HasEverestYaml: true
+    Size: 18859
+    CreatedDate: 1791064213
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1836247
+    Name: extendedervariants.zip
+    MirrorName: '1836247'
+    ID: GameBanana/1836247
+    IsLatestVersion: true
+  GameBananaType: Obsolete
+  Likes: 0
+  MirroredScreenshots:
+  - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6ac17b0e5ecca.png
+  - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6ac17b1e9c06e.png
+  ModifiedDate: 1791064965
+  Name: Extendeder Variants
+  PageURL: https://gamebanana.com/mods/723704
+  Screenshots:
+  - https://images.gamebanana.com/img/ss/mods/6ac17b0e5ecca.jpg
+  - https://images.gamebanana.com/img/ss/mods/6ac17b1e9c06e.jpg
+  Text: "<h1>Extendeder Variants (i don't have a better name for this)</h1>\r\n\r\n\
+    Collection of all the silly code mods I have made so far. Will probably be expanded\
+    \ whenever I have more silly ideas :3<br><br>\r\n\r\nFeatures:<br><br>\r\n<ul>\r\
+    \n    <li><b>Disable Subpixels</b>: Centers Madeline's position within the pixel\
+    \ every frame. This means her velocity will essentially always be rounded to a\
+    \ multiple of 60px/s</li>\r\n    <li><b>All Berries Are Winged</b>: Converts all\
+    \ strawberries into winged ones. Moon berries will be turned into winged red berries.\
+    \ NOTE: This variant is currently very buggy. It is recommended to fully restart\
+    \ the game after disabling it.</li>\r\n    <li><b>Constant Seeded</b>: Applies\
+    \ the rules of seeded berries to all gamplay. If you would lose the seeded berry,\
+    \ you die. Entering a room or respawning acts like picking up the seeded for the\
+    \ first time, which gives a longer grace period during which you can actually\
+    \ jump and dash</li>\r\n    <li><b>Disable Collision</b>: Disables collision with\
+    \ solids. Note that you can still jump off of them, but they no longer stop your\
+    \ movement. Separated into horizontal and vertical collision.</li>\r\n    <li><b>Jump\
+    \ Height Depends On H Speed</b>: Makes Madeline's jump height depend on her speed,\
+    \ like in Super Mario 64.</li>\r\n    <li><b>Turnaround Jumps</b>: Jumping in\
+    \ the opposite direction that you're going will instantly flip all of your horizontal\
+    \ speed.</li>\r\n    <li><b>Punch Card</b>: Adds the Punch Card from Undertale.\
+    \ Pressing the button bound to Open Punch Card while in a state where Madeline\
+    \ is considered \"in control\" will schedule the punch card to open the next frame,\
+    \ which will set Madeline's state to StDummy. Closing the punch card will set\
+    \ Madeline's state to StNormal</li>\r\n</ul>"
+  UpdatedDate: 1791064965
+  Views: 0
