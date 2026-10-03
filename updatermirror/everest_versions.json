@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-10-03T20:41:30.2915743Z",
+    "olympusBuildFileSize": 73466823,
+    "mainFileSize": 71942349,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5926/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "maddie480-bot",
+    "commit": "2da7eae37b8b79410dd6ecaa8a1ce905a314c89d",
+    "description": "Bump TAS Check dependencies",
+    "branch": "dev",
+    "version": 6626,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5926/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5926/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-10-03T20:27:51.6053935Z",
     "olympusBuildFileSize": 73466940,
     "mainFileSize": 71942336,
