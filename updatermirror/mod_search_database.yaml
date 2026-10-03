@@ -337037,13 +337037,13 @@
   Files:
   - Description: 1.0.6 - birthday update! custom deathless berry added
     HasEverestYaml: true
-    Size: 544620
-    CreatedDate: 1791056705
+    Size: 537348
+    CreatedDate: 1791057516
     Downloads: 0
-    URL: https://gamebanana.com/mmdl/1836135
-    Name: godlesshelper_27f75.zip
-    MirrorName: '1836135'
-    ID: GameBanana/1836135
+    URL: https://gamebanana.com/mmdl/1836151
+    Name: godlesshelper_e9dc9.zip
+    MirrorName: '1836151'
+    ID: GameBanana/1836151
     IsLatestVersion: true
   - Description: ARCHIVED - 1.0.5 - talker interaction modifier update 2
     HasEverestYaml: true
@@ -337110,7 +337110,7 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6ab7b49946507.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6ab6fd97c0abd.png
-  ModifiedDate: 1791057093
+  ModifiedDate: 1791057535
   Name: Godless Helper
   PageURL: https://gamebanana.com/mods/720791
   Screenshots:
@@ -337120,7 +337120,7 @@
   Text: '<b>Cus</b>This is my personal helper containing various things I have needed
     to use in my maps!<br>Some of the featured are very specialized, while some are
     intended to have the most customizability I could possibly allow for.<br><br><h1>Stylegrounds:</h1><b>Northern
-    Lights (Extra Custom):&nbsp;</b>A version of the vanilla Northern Lights styleground,
+    Lights (Extra Custom): </b>A version of the vanilla Northern Lights styleground,
     but with a lot of customizability. You can change the image that the styleground
     uses, the range of Y levels at which the strands appear, the number of strands,
     their colors, duration, height, and vertical movement speed. You can also change
@@ -337128,91 +337128,89 @@
     the gradient of the background, and the number of particles. On top of that, all
     of the global settings pertaining to the strands of northern lights and their
     nodes can be overridden on a per-strand basis instead.<br><br><h1>Entities:</h1><b>Buffer
-    Refill:&nbsp;</b>A refill that makes buffer windows extend through its freeze
-    frames, thus making timings easier. Has a customizable hitbox, sprite, and other
-    properties.<br><br><b>Custom Deathless Berry:</b>&nbsp;A berry that behaves like
-    a golden, but can be resprited, Also has a Tag field, which can be used to make
-    a Collect Custom Deathless Berry trigger only collect berries that have this tag.
-    (Note: I intend to work more on this in the future but wanted to put it out anyway)<br><br><b>Flag
-    Zip Mover:&nbsp;</b>A zip mover that can react to a flag to start moving, and
-    can set or unset flags during various stages of its movement. Customizable visually
-    and mechanically.<br><br><b>Freeze Frame Refill:&nbsp;</b>A refill that only gives
-    you freeze frames. This is a different placement for convenience, but it can use
-    Buffer Refill functionality and is functionally the same entity.<br><br><b>Invisible
-    Spikes:&nbsp;</b>Spikes that you can see in L<span class="ZNx93QP1XNrBdT5MI6SY"><span
-    class="expandableItem">önn but not in-game.</span></span><br><br><b>Liftboost
-    Refill:&nbsp;</b>This refill gives you Liftboost! The speed and timer are customizable,
+    Refill: </b>A refill that makes buffer windows extend through its freeze frames,
+    thus making timings easier. Has a customizable hitbox, sprite, and other properties.<br><br><b>Custom
+    Deathless Berry:</b> A berry that behaves like a golden, but can be resprited,
+    Also has a Tag field, which can be used to make a Collect Custom Deathless Berry
+    trigger only collect berries that have this tag. (Note: I intend to work more
+    on this in the future but wanted to put it out anyway)<br><br><b>Flag Zip Mover: </b>A
+    zip mover that can react to a flag to start moving, and can set or unset flags
+    during various stages of its movement. Customizable visually and mechanically.<br><br><b>Freeze
+    Frame Refill: </b>A refill that only gives you freeze frames. This is a different
+    placement for convenience, but it can use Buffer Refill functionality and is functionally
+    the same entity.<br><br><b>Invisible Spikes: </b>Spikes that you can see in L<span
+    class="ZNx93QP1XNrBdT5MI6SY"><span class="expandableItem">önn but not in-game.</span></span><br><br><b>Liftboost
+    Refill: </b>This refill gives you Liftboost! The speed and timer are customizable,
     and so are the visuals and its hitbox. Has a Redirect X option that allows the
     X liftboost to be applicable in both directions during the timer.<br><br><b>Liftboost
-    Refill Wall:&nbsp;</b>Functions like a Liftboost Refill, but has its own visuals
-    and a square hitbox. Can be turned into a Liftboost Field, but is its own placement
-    for convenience.<br><br><b>Liftboost Field:&nbsp;</b>A field that gives the player
+    Refill Wall: </b>Functions like a Liftboost Refill, but has its own visuals and
+    a square hitbox. Can be turned into a Liftboost Field, but is its own placement
+    for convenience.<br><br><b>Liftboost Field: </b>A field that gives the player
     liftboost for every frame that the player is in it, and does not get consumed
     like a refill would. Has the same liftboost-related options as a Liftboost Refill.<br><br><b>Relative
-    Rebound Dash Block:&nbsp;</b>A dash block that lets you write customizable formulas
+    Rebound Dash Block: </b>A dash block that lets you write customizable formulas
     for handling the speed of the player after the player breaks the block. Has x,
     y, and facing values, as well as support for flags, sliders, and counters. Uses
     the NCalc evaluator of mathematical and logical expressions. Can also remove the
     player''s dash cooldown and refill dashes when broken. Can set flags when broken.<br><br><b>Room
-    Reload NPC:&nbsp;</b>An NPC with a pre-made arrow texture that, when interacted
-    with, reloads the room as if you had just entered a transition. Keeps your strawberries,
-    including deathless berries.<br><br><b>Speed Vault Heart:&nbsp;</b>A crystal heart
+    Reload NPC: </b>An NPC with a pre-made arrow texture that, when interacted with,
+    reloads the room as if you had just entered a transition. Keeps your strawberries,
+    including deathless berries.<br><br><b>Speed Vault Heart: </b>A crystal heart
     that, by default when collected, takes your speed away, but stores it in the nearest
     other Speed Vault Heart, which allows the player to collect said heart to add
     the stored speed back onto their own speed. The behavior of storing and collecting
     speed has multiple toggleable options. The hitbox and sprites are customizable.
-    Can set flags upon collection.<br><br><h1>Controllers:</h1><b>Dash Trail Controller:</b>&nbsp;A
+    Can set flags upon collection.<br><br><h1>Controllers:</h1><b>Dash Trail Controller:</b> A
     barebones controller that I intend to expand the functionality of in the future.
     Changes the player''s dash trail colors to a set of any number of colors that
     it cycles between. Also changes the player''s dash particles to two chosen colors.
     Note that there is a Mod Setting to disable the effects of this controller in-game.<br><br><b>Dash
-    Uncrouch Controller:&nbsp;</b>A controller that detects when you are Dash Attacking,
+    Uncrouch Controller: </b>A controller that detects when you are Dash Attacking,
     and, if so, uncrouches you if certain conditions are met. For example, by default
     it does not uncrouch dashes when the player has coyote time, allowing dream hypers
     and other forms of hypers to still be performed, as long as there is no air time
-    without coyote frames.<br><br><b>Liftboost Controller:&nbsp;</b>A controller that
-    can change how liftboost is calculated for the player, using custom formulas for
-    the X and Y of the liftboost. Has the variables of: x and y (liftspeed), px and
-    py (player speed), and facing, as well as support for flags, sliders, and counters.
+    without coyote frames.<br><br><b>Liftboost Controller: </b>A controller that can
+    change how liftboost is calculated for the player, using custom formulas for the
+    X and Y of the liftboost. Has the variables of: x and y (liftspeed), px and py
+    (player speed), and facing, as well as support for flags, sliders, and counters.
     Uses the NCalc evaluator of mathematical and logical expressions. If you simply
     use `x` as the formula for Liftboost X, it will become uncapped (instead of the
-    cap of -250 to 250 in vanilla).<br><br><b>Relative Rebound Controller:</b>&nbsp;A
-    controller that lets you write customizable formulas for handling the speed of
-    the player after the player collides with an entity that causes a Rebound (knockback),
-    such as a dash block or a kevin. Has x, y, and facing values, as well as support
-    for flags, sliders, and counters. Uses the NCalc evaluator of mathematical and
-    logical expressions. Can also remove the player''s dash cooldown and refill dashes
-    when a Rebound happens.<br><br><b>Talker Interaction Modifier:</b> This modifier
-    takes the closest entity with a talker to itself or its node if one exists, and
-    disables that talker (invis + no behavior) unless the player is within a chosen
-    radius from the entity or from a chosen point. Can also use custom NCalc logical
-    expressions involving the distance of the player, flags, counters, and sliders
-    to define when the talker should be disabled or enabled. (A TalkComponent or talker
-    is a UI element which lets you interact with, e.g., binoculars and NPCs.) Can
-    also count interactions with each new talker into a session counter. Can also
-    completely disable the visuals of the talker without disabling functionality.<br><br><h1>Triggers:</h1><b>Confetti
-    Trigger:&nbsp;</b>A trigger that makes confetti appear at the chosen node or at
-    the player''s position. Has many customizability options, including confetti coloring,
+    cap of -250 to 250 in vanilla).<br><br><b>Relative Rebound Controller:</b> A controller
+    that lets you write customizable formulas for handling the speed of the player
+    after the player collides with an entity that causes a Rebound (knockback), such
+    as a dash block or a kevin. Has x, y, and facing values, as well as support for
+    flags, sliders, and counters. Uses the NCalc evaluator of mathematical and logical
+    expressions. Can also remove the player''s dash cooldown and refill dashes when
+    a Rebound happens.<br><br><b>Talker Interaction Modifier:</b> This modifier takes
+    the closest entity with a talker to itself or its node if one exists, and disables
+    that talker (invis + no behavior) unless the player is within a chosen radius
+    from the entity or from a chosen point. Can also use custom NCalc logical expressions
+    involving the distance of the player, flags, counters, and sliders to define when
+    the talker should be disabled or enabled. (A TalkComponent or talker is a UI element
+    which lets you interact with, e.g., binoculars and NPCs.) Can also count interactions
+    with each new talker into a session counter. Can also completely disable the visuals
+    of the talker without disabling functionality.<br><br><h1>Triggers:</h1><b>Confetti
+    Trigger: </b>A trigger that makes confetti appear at the chosen node or at the
+    player''s position. Has many customizability options, including confetti coloring,
     the number of them, other visual options, and a LOT of physics-based options.
     Acts like the vanilla summit checkpoint confetti by default.<br><br><b>Collect
-    Custom Deathless Berry:</b>&nbsp;This trigger collects specifically the Custom
-    Deathless Berry from this trigger. It has a Tag field, which, if specified, makes
-    the trigger only collect berries that also have the same tag specified in their
-    field.<br><br><b>Kill Player Trigger:</b>&nbsp;A trigger that kills the player
-    when entered. You can configure whether the death count towards death count statistics
-    or not. You can also configure whether the trigger lets you keep strawberries
-    (incl. goldens) through the death.<br><br>Notes:<br><ul><li>In every entity that
-    can respawn, the One Use field is missing, because you can set the Respawn Time
-    field to a negative number to make the entities one-use.</li><li>The replacement
-    of the One Use field, as well as "Range" fields using the `min..max` format, is
-    a way to keep the number of fields smaller so that the helper is at least somewhat
-    more manageable to look at.</li><li>The custom hitbox syntax is the same as in
-    FrostHelper.</li><li>Thank you emeowvie for the Liftboost Refill sprite!</li><li>Fractured
-    Stratum is the map that I made most of the release version entities for, but as
-    of the release of the helper, it is not out yet.</li><li>DM me @toir.wav on discord
-    or wherever else you can find me to report any bugs or share suggestions.</li></ul><br><br>Hopefully
-    helping the searchability: godlesshelper godless clouds godlessclouds godless
-    helper'
+    Custom Deathless Berry:</b> This trigger collects specifically the Custom Deathless
+    Berry from this trigger. It has a Tag field, which, if specified, makes the trigger
+    only collect berries that also have the same tag specified in their field.<br><br><b>Kill
+    Player Trigger:</b> A trigger that kills the player when entered. You can configure
+    whether the death count towards death count statistics or not. You can also configure
+    whether the trigger lets you keep strawberries (incl. goldens) through the death.<br><br>Notes:<br><ul><li>In
+    every entity that can respawn, the One Use field is missing, because you can set
+    the Respawn Time field to a negative number to make the entities one-use.</li><li>The
+    replacement of the One Use field, as well as "Range" fields using the `min..max`
+    format, is a way to keep the number of fields smaller so that the helper is at
+    least somewhat more manageable to look at.</li><li>The custom hitbox syntax is
+    the same as in FrostHelper.</li><li>Thank you emeowvie for the Liftboost Refill
+    sprite!</li><li>Fractured Stratum is the map that I made most of the release version
+    entities for, but as of the release of the helper, it is not out yet.</li><li>DM
+    me @toir.wav on discord or wherever else you can find me to report any bugs or
+    share suggestions.</li></ul><br><br>Hopefully helping the searchability: godlesshelper
+    godless clouds godlessclouds godless helper'
   UpdatedDate: 1790381958
   Views: 183
 - Author: laajatonnetti
