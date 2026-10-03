@@ -337850,7 +337850,17 @@
   Downloads: 29
   FeaturedTier: 0
   Files:
-  - Description: 1.0.2 - its the map
+  - Description: 1.0.3 - its the map again
+    HasEverestYaml: true
+    Size: 343667
+    CreatedDate: 1791051975
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1836049
+    Name: funnymap_32113.zip
+    MirrorName: '1836049'
+    ID: GameBanana/1836049
+    IsLatestVersion: true
+  - Description: ARCHIVED - 1.0.2 - its the map
     HasEverestYaml: true
     Size: 343855
     CreatedDate: 1791051564
@@ -337859,13 +337869,13 @@
     Name: funnymap_7795b.zip
     MirrorName: '1836043'
     ID: GameBanana/1836043
-    IsLatestVersion: true
+    IsLatestVersion: false
   GameBananaType: Obsolete
   Likes: 0
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6abd4fac39662.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6abd4fb369de9.png
-  ModifiedDate: 1791051579
+  ModifiedDate: 1791052005
   Name: funny map
   PageURL: https://gamebanana.com/mods/722583
   Screenshots:
