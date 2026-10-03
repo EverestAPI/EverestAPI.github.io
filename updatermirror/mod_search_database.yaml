@@ -304785,18 +304785,18 @@
   CategoryName: Maps
   CreatedDate: 1779753423
   Description: CHOKE.
-  Downloads: 321
+  Downloads: 322
   FeaturedTier: 0
   Files:
-  - Description: 1999.1999.1999.1 - CHOKE.
+  - Description: 1999.1999.1999.2 - SCREAM.
     HasEverestYaml: true
-    Size: 102430327
-    CreatedDate: 1783772491
-    Downloads: 88
-    URL: https://gamebanana.com/mmdl/1751536
-    Name: girlhell1999_db09f.zip
-    MirrorName: '1751536'
-    ID: GameBanana/1751536
+    Size: 102390214
+    CreatedDate: 1791051461
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1836041
+    Name: girlhell1999.zip
+    MirrorName: '1836041'
+    ID: GameBanana/1836041
     IsLatestVersion: true
   - Description: ARCHIVED - 1.0.0
     HasEverestYaml: true
@@ -304848,12 +304848,22 @@
     MirrorName: '1748453'
     ID: GameBanana/1748453
     IsLatestVersion: false
+  - Description: ARCHIVED - 1999.1999.1999.1 - CHOKE.
+    HasEverestYaml: true
+    Size: 102430327
+    CreatedDate: 1783772491
+    Downloads: 89
+    URL: https://gamebanana.com/mmdl/1751536
+    Name: girlhell1999_db09f.zip
+    MirrorName: '1751536'
+    ID: GameBanana/1751536
+    IsLatestVersion: false
   GameBananaType: Obsolete
-  Likes: 12
+  Likes: 13
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a522e3889d6f.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6a456df88a921.png
-  ModifiedDate: 1783772712
+  ModifiedDate: 1791051521
   Name: GIRL HELL 1999
   PageURL: https://gamebanana.com/mods/680378
   Screenshots:
@@ -304870,8 +304880,8 @@
     Y0UR PR0BL3M<br>GM+<br>MUSIC TRANSLATION CONTEST 4<br><br><span class="RedColor">SONG
     IS <a href="https://www.youtube.com/watch?v=BmmMfZR8C80">GIRL HELL 1999</a> BY
     FEMTANYL</span>'
-  UpdatedDate: 1782937092
-  Views: 2542
+  UpdatedDate: 1791051689
+  Views: 2546
 - Author: Banana 23
   Category:
     ID: GameBanana_Mod_6803
@@ -337842,20 +337852,20 @@
   Files:
   - Description: 1.0.2 - its the map
     HasEverestYaml: true
-    Size: 343846
-    CreatedDate: 1791051308
+    Size: 343855
+    CreatedDate: 1791051564
     Downloads: 0
-    URL: https://gamebanana.com/mmdl/1836037
-    Name: funnymap.zip
-    MirrorName: '1836037'
-    ID: GameBanana/1836037
+    URL: https://gamebanana.com/mmdl/1836043
+    Name: funnymap_7795b.zip
+    MirrorName: '1836043'
+    ID: GameBanana/1836043
     IsLatestVersion: true
   GameBananaType: Obsolete
   Likes: 0
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6abd4fac39662.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6abd4fb369de9.png
-  ModifiedDate: 1791051322
+  ModifiedDate: 1791051579
   Name: funny map
   PageURL: https://gamebanana.com/mods/722583
   Screenshots:

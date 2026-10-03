@@ -125576,8 +125576,8 @@ funnnnyyyyy:
     Version: 1.5674.0
   OptionalDependencies: []
 funnymap:
-  URL: https://gamebanana.com/mmdl/1836037
-  MirrorName: '1836037'
+  URL: https://gamebanana.com/mmdl/1836043
+  MirrorName: '1836043'
   Dependencies:
   - Name: CherryHelper
     Version: 1.8.2
@@ -125792,8 +125792,8 @@ gettingoveritwithmadelineceleste:
     Version: 1.33.7
   OptionalDependencies: []
 girlhell1999:
-  URL: https://gamebanana.com/mmdl/1751536
-  MirrorName: '1751536'
+  URL: https://gamebanana.com/mmdl/1836041
+  MirrorName: '1836041'
   Dependencies:
   - Name: Anonhelper
     Version: 1.1.1
@@ -125803,6 +125803,8 @@ girlhell1999:
     Version: 0.12.5
   - Name: Batteries
     Version: 1.1.4
+  - Name: BrokemiaHelper
+    Version: 1.8.5
   - Name: CherryHelper
     Version: 1.8.2
   - Name: ChroniaHelper
@@ -125826,9 +125828,9 @@ girlhell1999:
   - Name: EeveeHelper
     Version: 1.12.5
   - Name: Everest
-    Version: 1.6309.0
-  - Name: Everest
     Version: 1.6304.0
+  - Name: Everest
+    Version: 1.6309.0
   - Name: EverestCore
     Version: 1.5935.0
   - Name: ExtendedCameraDynamics
