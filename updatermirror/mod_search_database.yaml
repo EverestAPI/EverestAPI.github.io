@@ -337515,24 +337515,34 @@
   CategoryName: Maps
   CreatedDate: 1790654142
   Description: The Dance of Batteries and Mechanisms
-  Downloads: 361
-  FeaturedTier: 6
+  Downloads: 368
+  FeaturedTier: 0
   Files:
+  - Description: 1.1.9 - debug
+    HasEverestYaml: true
+    Size: 27307826
+    CreatedDate: 1791033787
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1835753
+    Name: where_a_thousand_mechanisms_dwell_32f41.zip
+    MirrorName: '1835753'
+    ID: GameBanana/1835753
+    IsLatestVersion: true
   - Description: 1.1.8
     HasEverestYaml: true
     Size: 27307006
     CreatedDate: 1791005295
-    Downloads: 19
+    Downloads: 25
     URL: https://gamebanana.com/mmdl/1835436
     Name: where_a_thousand_mechanisms_dwell_146fa.zip
     MirrorName: '1835436'
     ID: GameBanana/1835436
-    IsLatestVersion: true
+    IsLatestVersion: false
   - Description: 1.1.7
     HasEverestYaml: true
     Size: 27303339
     CreatedDate: 1790918561
-    Downloads: 41
+    Downloads: 42
     URL: https://gamebanana.com/mmdl/1834145
     Name: where_a_thousand_mechanisms_dwell_15513.zip
     MirrorName: '1834145'
@@ -337673,7 +337683,7 @@
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6abb317fcd36f.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6abb31830393a.png
-  ModifiedDate: 1791005325
+  ModifiedDate: 1791033820
   Name: Where a Thousand Mechanisms Dwell
   PageURL: https://gamebanana.com/mods/722106
   Screenshots:
@@ -337699,7 +337709,7 @@
     Difficulty: Yellow GM to Green GM+1<br>- 8 Rooms<br>- 3 Strawberries to collect<br>-
     3 Mini games<br>- 20 Gym rooms<br><br>'
   UpdatedDate: 1790654142
-  Views: 500
+  Views: 507
 - Author: Judah ADG
   Category:
     ID: GameBanana_Mod_6801
