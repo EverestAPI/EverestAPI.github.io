@@ -338129,14 +338129,24 @@
   CategoryName: Maps
   CreatedDate: 1790895508
   Description: Three-map Beginner campaign.
-  Downloads: 68
-  FeaturedTier: 6
+  Downloads: 129
+  FeaturedTier: 0
   Files:
+  - Description: '3 - Fixed dependencies. '
+    HasEverestYaml: true
+    Size: 22368298
+    CreatedDate: 1791028786
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1835687
+    Name: mountblythe03.zip
+    MirrorName: '1835687'
+    ID: GameBanana/1835687
+    IsLatestVersion: true
   - Description: '2 - Fixed minor positioning issue. Fixed credits. '
     HasEverestYaml: true
     Size: 22368514
     CreatedDate: 1790895481
-    Downloads: 68
+    Downloads: 87
     URL: https://gamebanana.com/mmdl/1833868
     Name: mountblythe01.zip
     MirrorName: '1833868'
@@ -338146,18 +338156,18 @@
     HasEverestYaml: true
     Size: 22368072
     CreatedDate: 1790968507
-    Downloads: 0
+    Downloads: 38
     URL: https://gamebanana.com/mmdl/1834800
     Name: mountblythe02.zip
     MirrorName: '1834800'
     ID: GameBanana/1834800
-    IsLatestVersion: true
+    IsLatestVersion: false
   GameBananaType: Obsolete
-  Likes: 9
+  Likes: 11
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6abee357e03b5.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_mods_6abee36086e57.png
-  ModifiedDate: 1790968573
+  ModifiedDate: 1791028852
   Name: Mount Blythe
   PageURL: https://gamebanana.com/mods/722964
   Screenshots:
@@ -338178,7 +338188,7 @@
     chapters, <br><br></li><li dir="ltr" aria-level="1">Six Strawberries,<br><br></li><li
     dir="ltr" aria-level="1">Mix of vanilla and modded entities. <br><br></li></ul>
   UpdatedDate: 1790895508
-  Views: 175
+  Views: 280
 - Author: Farewell_X
   Category:
     ID: GameBanana_Mod_6802

@@ -68798,11 +68798,13 @@ MountBaker:
     Version: 1.9.6
   OptionalDependencies: []
 MountBlythe:
-  URL: https://gamebanana.com/mmdl/1834800
-  MirrorName: '1834800'
+  URL: https://gamebanana.com/mmdl/1835687
+  MirrorName: '1835687'
   Dependencies:
   - Name: CommunalHelper
     Version: 1.25.5
+  - Name: Dax's Resources
+    Version: 0.0.15
   - Name: Everest
     Version: 1.6531.0
   - Name: ExtendedVariantMode
