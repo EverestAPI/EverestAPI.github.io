@@ -350696,25 +350696,35 @@
   CreatedDate: 1790963461
   Description: A dashless WIP map exploring the potential of vanilla movement, without
     extreme precision
-  Downloads: 4
+  Downloads: 17
   FeaturedTier: 0
   Files:
-  - Description: ''
+  - Description: 0.1.1
+    HasEverestYaml: true
+    Size: 258818
+    CreatedDate: 1791018981
+    Downloads: 0
+    URL: https://gamebanana.com/mmdl/1835566
+    Name: adashlesstravelled_b3c74.zip
+    MirrorName: '1835566'
+    ID: GameBanana/1835566
+    IsLatestVersion: true
+  - Description: ARCHIVED - 0.1.0
     HasEverestYaml: true
     Size: 258687
     CreatedDate: 1790964089
-    Downloads: 0
+    Downloads: 13
     URL: https://gamebanana.com/mmdl/1834710
     Name: adashlesstravelled_e61e8.zip
     MirrorName: '1834710'
     ID: GameBanana/1834710
-    IsLatestVersion: true
+    IsLatestVersion: false
   GameBananaType: Obsolete
   Likes: 0
   MirroredScreenshots:
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_wips_6abfebabbe459.png
   - https://celestemodupdater.0x0a.de/banana-mirror-images/img_ss_wips_6abfebabbb9da.png
-  ModifiedDate: 1790964091
+  ModifiedDate: 1791018991
   Name: A Dash-Less Travelled (WIP)
   PageURL: https://gamebanana.com/wips/104082
   Screenshots:
@@ -350731,8 +350741,8 @@
     in development.<br><br>Credits to:<br>DanTKO (stylegrounds assets)<br>Shub (stylegrounds
     assets)<br>Spooooky (tilesets)<br><br>Dependencies:<br>Maddie's Helping Hand<br>Spooooky's
     Asset Pack
-  UpdatedDate: 1790963461
-  Views: 3
+  UpdatedDate: 1791018632
+  Views: 39
 - Author: roarpulse
   Category:
     ID: GameBanana_Mod_6801
