@@ -1,7 +1,7 @@
 Obsolete:
   GameBanana_Mod_6800:
   - name: All
-    count: 4996
+    count: 4998
   - id: GameBanana_Mod_6802
     name: Campaign
     count: 511
@@ -13,7 +13,7 @@ Obsolete:
     count: 28
   - id: GameBanana_Mod_6801
     name: Standalone
-    count: 3182
+    count: 3184
   GameBanana_Mod_4632:
   - name: All
     count: 183
@@ -49,10 +49,10 @@ Obsolete:
     count: 245
   GameBanana_Wip_Root:
   - name: All
-    count: 103
+    count: 104
   - id: GameBanana_Wip_680
     name: Maps
-    count: 75
+    count: 76
   - id: GameBanana_Wip_466
     name: Other/Misc
     count: 28
@@ -85,4 +85,4 @@ Obsolete:
     count: 60
   GameBanana_Mod_2317:
   - name: All
-    count: 62
+    count: 63

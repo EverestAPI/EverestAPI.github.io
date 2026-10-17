@@ -1240,6 +1240,15 @@
   xxHash:
   - 0fe2706105d35b58
   Size: 1122038
+8eq playtest:
+  Version: 1.0.0
+  LastUpdate: 1792247340
+  GameBananaFileId: '1852459'
+  MirrorName: '1852459'
+  URL: https://gamebanana.com/mmdl/1852459
+  xxHash:
+  - 24b2c00ac5158e68
+  Size: 5774323
 920tiles:
   Version: 2.0.1
   LastUpdate: 1764117083
@@ -1485,13 +1494,13 @@ ACollectionOfObjects:
   Size: 8386
 ADashLessTravelled:
   Version: 0.0.1
-  LastUpdate: 1791018981
-  GameBananaFileId: '1835566'
-  MirrorName: '1835566'
-  URL: https://gamebanana.com/mmdl/1835566
+  LastUpdate: 1792232874
+  GameBananaFileId: '1852130'
+  MirrorName: '1852130'
+  URL: https://gamebanana.com/mmdl/1852130
   xxHash:
-  - 52e23d73e1566a0b
-  Size: 258818
+  - c8cb5a475f44cc71
+  Size: 260979
 ADownwardsClimb:
   Version: 1.0.0
   LastUpdate: 1791192194
@@ -5886,13 +5895,13 @@ Bonsai Plaza:
   Size: 6608825
 Boobawanquadra:
   Version: 0.0.1
-  LastUpdate: 1789387850
-  GameBananaFileId: '1816469'
-  MirrorName: '1816469'
-  URL: https://gamebanana.com/mmdl/1816469
+  LastUpdate: 1792227329
+  GameBananaFileId: '1851997'
+  MirrorName: '1851997'
+  URL: https://gamebanana.com/mmdl/1851997
   xxHash:
-  - 19342e76241bc941
-  Size: 15125237
+  - 3ee1e42c77de552a
+  Size: 15125284
 Boombastic_Valley:
   Version: 1.0.1
   LastUpdate: 1787525180
@@ -8378,14 +8387,14 @@ CelesteArcade:
   - 728a73633a30a5a6
   Size: 21608555
 CelesteAutoRecord:
-  Version: 1.0.0
-  LastUpdate: 1791977175
-  GameBananaFileId: '1848096'
-  MirrorName: '1848096'
-  URL: https://gamebanana.com/mmdl/1848096
+  Version: 1.1.2
+  LastUpdate: 1792236214
+  GameBananaFileId: '1852201'
+  MirrorName: '1852201'
+  URL: https://gamebanana.com/mmdl/1852201
   xxHash:
-  - 3ddb424335f8e35c
-  Size: 114593823
+  - 48dc8c0e8bff6335
+  Size: 114636907
 CelesteBlind:
   Version: 0.0.1
   LastUpdate: 1694564301
@@ -14399,14 +14408,14 @@ Earthen_Dream:
   - 887d67d754f5b119
   Size: 817682
 EarthquakeSides:
-  Version: 1.0.27
-  LastUpdate: 1790601865
-  GameBananaFileId: '1829795'
-  MirrorName: '1829795'
-  URL: https://gamebanana.com/mmdl/1829795
+  Version: 1.0.28
+  LastUpdate: 1792245816
+  GameBananaFileId: '1852414'
+  MirrorName: '1852414'
+  URL: https://gamebanana.com/mmdl/1852414
   xxHash:
-  - d3751155ab26fc3f
-  Size: 58883145
+  - 0a0d242c4c9e4e5e
+  Size: 58901289
 EasierToRun:
   Version: 1.0.0
   LastUpdate: 1744553842
@@ -15524,14 +15533,14 @@ ExtendedStasis:
   - 7e3438a808e8330e
   Size: 2160654
 ExtendedVariantMode:
-  Version: 0.51.0
-  LastUpdate: 1788953980
-  GameBananaFileId: '1811743'
-  MirrorName: '1811743'
-  URL: https://gamebanana.com/mmdl/1811743
+  Version: 0.51.1
+  LastUpdate: 1792248713
+  GameBananaFileId: '1852506'
+  MirrorName: '1852506'
+  URL: https://gamebanana.com/mmdl/1852506
   xxHash:
-  - f4e65d3b64dc7a27
-  Size: 499117
+  - fe5ca3d9b1b1a337
+  Size: 499501
 ExtendederVariants:
   Version: 0.2.0
   LastUpdate: 1791064213
@@ -17099,14 +17108,14 @@ Follow Me:
   - b88dba1b9f9d4a78
   Size: 16886131
 Follower Addons & Such:
-  Version: 1.7.0
-  LastUpdate: 1792204643
-  GameBananaFileId: '1851464'
-  MirrorName: '1851464'
-  URL: https://gamebanana.com/mmdl/1851464
+  Version: 1.7.1
+  LastUpdate: 1792223490
+  GameBananaFileId: '1851904'
+  MirrorName: '1851904'
+  URL: https://gamebanana.com/mmdl/1851904
   xxHash:
-  - 9ef7b7c4de35742e
-  Size: 33786
+  - 6701f31b03975fad
+  Size: 37592
 FontCustomizer:
   Version: 0.6.0
   LastUpdate: 1758427346
@@ -18215,14 +18224,14 @@ GMDuality:
   - 3fdd16de280fe406
   Size: 144805
 GMJourney:
-  Version: 0.0.1
-  LastUpdate: 1791840295
-  GameBananaFileId: '1846600'
-  MirrorName: '1846600'
-  URL: https://gamebanana.com/mmdl/1846600
+  Version: 0.1.0
+  LastUpdate: 1792250555
+  GameBananaFileId: '1852542'
+  MirrorName: '1852542'
+  URL: https://gamebanana.com/mmdl/1852542
   xxHash:
-  - 7938f60750fac198
-  Size: 7411108
+  - d7fba582f2c6ae2a
+  Size: 4056957
 GMplusGyms:
   Version: 0.3.15
   LastUpdate: 1755259728
@@ -19591,6 +19600,15 @@ GrogsGarage:
   xxHash:
   - 6480567974a07a26
   Size: 37188
+GroundTouchCountMod:
+  Version: 1.0.0
+  LastUpdate: 1792239819
+  GameBananaFileId: '1852291'
+  MirrorName: '1852291'
+  URL: https://gamebanana.com/mmdl/1852291
+  xxHash:
+  - 6c1ac071d55e628a
+  Size: 16070
 GuestRoomCollab:
   Version: 1.0.0
   LastUpdate: 1675983416
@@ -26152,6 +26170,15 @@ McLeste:
   xxHash:
   - d4f0a7cf1f8efd86
   Size: 121332
+MeMap:
+  Version: 0.0.1
+  LastUpdate: 1792223124
+  GameBananaFileId: '1851892'
+  MirrorName: '1851892'
+  URL: https://gamebanana.com/mmdl/1851892
+  xxHash:
+  - f9ec29b890ab280d
+  Size: 7053
 Meat Of The D Sides:
   Version: 1.0.0
   LastUpdate: 1592779605
@@ -41398,6 +41425,15 @@ TheKinginDeepBlue:
   xxHash:
   - 68f65c68b13cc4c1
   Size: 74222615
+TheLonelyGarden:
+  Version: 1.0.0
+  LastUpdate: 1792252190
+  GameBananaFileId: '1852579'
+  MirrorName: '1852579'
+  URL: https://gamebanana.com/mmdl/1852579
+  xxHash:
+  - a6ed449501cd8e0a
+  Size: 3360698
 TheLostKingdom:
   Version: 1.0.0
   LastUpdate: 1780691154
@@ -48311,14 +48347,14 @@ downpour:
   - b50f0c199974c44a
   Size: 46849
 dragon:
-  Version: 1.1.0
-  LastUpdate: 1792214965
-  GameBananaFileId: '1851701'
-  MirrorName: '1851701'
-  URL: https://gamebanana.com/mmdl/1851701
+  Version: 1.1.3
+  LastUpdate: 1792243106
+  GameBananaFileId: '1852364'
+  MirrorName: '1852364'
+  URL: https://gamebanana.com/mmdl/1852364
   xxHash:
-  - f6876079a320e453
-  Size: 1162214
+  - 2fa30ddd223fb1dc
+  Size: 1136824
 drawzaL:
   Version: 0.1.0
   LastUpdate: 1751882574
@@ -49499,14 +49535,14 @@ gockeline-citycontest:
   - 87b0f64092ba38da
   Size: 17323
 godlesshelper:
-  Version: 1.0.8
-  LastUpdate: 1792189585
-  GameBananaFileId: '1851018'
-  MirrorName: '1851018'
-  URL: https://gamebanana.com/mmdl/1851018
+  Version: 1.0.9
+  LastUpdate: 1792243510
+  GameBananaFileId: '1852374'
+  MirrorName: '1852374'
+  URL: https://gamebanana.com/mmdl/1852374
   xxHash:
-  - 8709ba8dfac9ddcc
-  Size: 563082
+  - eb337586b752b055
+  Size: 564780
 goob map:
   Version: 0.0.1
   LastUpdate: 1710901819
