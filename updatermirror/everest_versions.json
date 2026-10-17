@@ -374,21 +374,6 @@
     "isNative": true
   },
   {
-    "date": "2026-08-10T19:59:55.54519Z",
-    "olympusBuildFileSize": 73461849,
-    "mainFileSize": 71936647,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5767/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "author": "Wartori54",
-    "commit": "d72e94f4b9e62b91cbdea674587ed39d53de9550",
-    "description": "Change IEnumerator to IEnumerable to remove helper class in ModUpdaterHelper",
-    "branch": "dev",
-    "version": 6467,
-    "isNative": true,
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5767/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 269,
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5767/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
-  },
-  {
     "date": "2026-08-08T19:11:24Z",
     "olympusBuildFileSize": 73450545,
     "mainFileSize": 71630610,

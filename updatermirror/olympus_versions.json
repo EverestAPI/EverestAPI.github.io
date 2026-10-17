@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-13T20:34:52.7511427Z",
+    "changelog": "∙ Minor code refactoring",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5937/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.10.13.01",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5937/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5937/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-10-12T19:09:35.0342603Z",
+    "changelog": "∙ Update LuaJIT on Windows (hoping to fix random crashes...) and macOS",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5935/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.10.12.06",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5935/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5935/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-10-03T09:27:15.6596864Z",
     "changelog": "∙ Close Download Queue when clearing it if there is nothing left to download",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5921/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
