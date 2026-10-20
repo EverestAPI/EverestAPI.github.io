@@ -1,10 +1,10 @@
 Obsolete:
   GameBanana_Mod_6800:
   - name: All
-    count: 4996
+    count: 5006
   - id: GameBanana_Mod_6802
     name: Campaign
-    count: 511
+    count: 513
   - id: GameBanana_Mod_6803
     name: Collab/Contest
     count: 455
@@ -13,7 +13,7 @@ Obsolete:
     count: 28
   - id: GameBanana_Mod_6801
     name: Standalone
-    count: 3182
+    count: 3191
   GameBanana_Mod_4632:
   - name: All
     count: 183
@@ -22,10 +22,10 @@ Obsolete:
     count: 1
   GameBanana_Mod_4633:
   - name: All
-    count: 51
+    count: 52
   - id: GameBanana_Mod_14168
     name: Translations
-    count: 22
+    count: 23
   GameBanana_Tool_Root:
   - name: All
     count: 75
@@ -49,10 +49,10 @@ Obsolete:
     count: 245
   GameBanana_Wip_Root:
   - name: All
-    count: 103
+    count: 104
   - id: GameBanana_Wip_680
     name: Maps
-    count: 75
+    count: 76
   - id: GameBanana_Wip_466
     name: Other/Misc
     count: 28
@@ -64,13 +64,13 @@ Obsolete:
     count: 52
   GameBanana_Mod_11181:
   - name: All
-    count: 371
+    count: 372
   - id: GameBanana_Mod_16940
     name: Collectibles
     count: 40
   - id: GameBanana_Mod_11182
     name: Other/Misc
-    count: 80
+    count: 81
   - id: GameBanana_Mod_11183
     name: Player
     count: 197
@@ -85,4 +85,4 @@ Obsolete:
     count: 60
   GameBanana_Mod_2317:
   - name: All
-    count: 62
+    count: 63
