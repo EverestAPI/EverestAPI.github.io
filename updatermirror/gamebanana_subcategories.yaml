@@ -1,22 +1,22 @@
 Obsolete:
   GameBanana_Mod_6800:
   - name: All
-    count: 5006
+    count: 5014
   - id: GameBanana_Mod_6802
     name: Campaign
     count: 513
   - id: GameBanana_Mod_6803
     name: Collab/Contest
-    count: 455
+    count: 456
   - id: GameBanana_Mod_15667
     name: Multiplayer
     count: 28
   - id: GameBanana_Mod_6801
     name: Standalone
-    count: 3191
+    count: 3198
   GameBanana_Mod_4632:
   - name: All
-    count: 183
+    count: 182
   - id: GameBanana_Mod_4636
     name: Twitch Integration
     count: 1
@@ -49,10 +49,10 @@ Obsolete:
     count: 245
   GameBanana_Wip_Root:
   - name: All
-    count: 104
+    count: 105
   - id: GameBanana_Wip_680
     name: Maps
-    count: 76
+    count: 77
   - id: GameBanana_Wip_466
     name: Other/Misc
     count: 28
@@ -64,13 +64,13 @@ Obsolete:
     count: 52
   GameBanana_Mod_11181:
   - name: All
-    count: 372
+    count: 374
   - id: GameBanana_Mod_16940
     name: Collectibles
     count: 40
   - id: GameBanana_Mod_11182
     name: Other/Misc
-    count: 81
+    count: 83
   - id: GameBanana_Mod_11183
     name: Player
     count: 197
