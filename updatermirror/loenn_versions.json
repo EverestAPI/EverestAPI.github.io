@@ -20,21 +20,21 @@
     "node_id": "MDQ6VXNlcjQxMzUwNjQ=",
     "organizations_url": "https://api.github.com/users/Vexatos/orgs"
   },
-  "tag_name": "v1.0.10",
-  "created_at": "2026-05-26T15:01:32Z",
-  "body": "- Added Core Mode Ice Tile Overlay option to metadata window\r\n- Fixed Everest being added to the dependency list multiple times\r\n- Fixed rendering issue with playback billboards\r\n- Fixed not all variants of a tile being used during rendering\r\n\r\n\r\nFor developers:\r\n\r\n- Fixed `mods.readFromPlugin` not defaulting to the calling plugin if not specified",
-  "url": "https://api.github.com/repos/CelestialCartographers/Loenn/releases/329517547",
-  "assets_url": "https://api.github.com/repos/CelestialCartographers/Loenn/releases/329517547/assets",
+  "tag_name": "v1.0.12",
+  "created_at": "2026-10-28T06:11:43Z",
+  "body": "- Added Everest Teleport Trigger (this time for real)\r\n- Allow Static Movers attribute on Invisible Barrier and Seeker Barrier is now off by default",
+  "url": "https://api.github.com/repos/CelestialCartographers/Loenn/releases/426329469",
+  "assets_url": "https://api.github.com/repos/CelestialCartographers/Loenn/releases/426329469/assets",
   "immutable": false,
   "assets": [
     {
-      "created_at": "2026-05-26T15:49:13Z",
-      "browser_download_url": "https://github.com/CelestialCartographers/Loenn/releases/download/v1.0.10/Loenn-v1.0.10-linux.AppImage",
+      "created_at": "2026-10-28T06:31:25Z",
+      "browser_download_url": "https://github.com/CelestialCartographers/Loenn/releases/download/v1.0.12/Loenn-v1.0.12-linux.AppImage",
       "label": null,
-      "url": "https://api.github.com/repos/CelestialCartographers/Loenn/releases/assets/430293688",
+      "url": "https://api.github.com/repos/CelestialCartographers/Loenn/releases/assets/684072765",
       "content_type": "application/vnd.appimage",
       "size": 6396408,
-      "updated_at": "2026-05-26T15:49:14Z",
+      "updated_at": "2026-10-28T06:31:38Z",
       "uploader": {
         "gists_url": "https://api.github.com/users/Vexatos/gists{/gist_id}",
         "repos_url": "https://api.github.com/users/Vexatos/repos",
@@ -56,20 +56,20 @@
         "node_id": "MDQ6VXNlcjQxMzUwNjQ=",
         "organizations_url": "https://api.github.com/users/Vexatos/orgs"
       },
-      "name": "Loenn-v1.0.10-linux.AppImage",
-      "digest": "sha256:68f3bb2baf3efa8643e1f83961c289ba5536c1f8bcc1992ebbee079cd78d6714",
-      "id": 430293688,
+      "name": "Loenn-v1.0.12-linux.AppImage",
+      "digest": "sha256:633c69d36922bc984a30f6600811b1253b308e744fb5c5f15b837ba1b9425010",
+      "id": 684072765,
       "state": "uploaded",
-      "node_id": "RA_kwDOCvF_EM4ZpcK4"
+      "node_id": "RA_kwDOCvF_EM4oxh89"
     },
     {
-      "created_at": "2026-05-26T15:49:12Z",
-      "browser_download_url": "https://github.com/CelestialCartographers/Loenn/releases/download/v1.0.10/Loenn-v1.0.10-linux.zip",
+      "created_at": "2026-10-28T06:31:25Z",
+      "browser_download_url": "https://github.com/CelestialCartographers/Loenn/releases/download/v1.0.12/Loenn-v1.0.12-linux.zip",
       "label": null,
-      "url": "https://api.github.com/repos/CelestialCartographers/Loenn/releases/assets/430293684",
+      "url": "https://api.github.com/repos/CelestialCartographers/Loenn/releases/assets/684072751",
       "content_type": "application/zip",
-      "size": 709869,
-      "updated_at": "2026-05-26T15:49:13Z",
+      "size": 711709,
+      "updated_at": "2026-10-28T06:31:38Z",
       "uploader": {
         "gists_url": "https://api.github.com/users/Vexatos/gists{/gist_id}",
         "repos_url": "https://api.github.com/users/Vexatos/repos",
@@ -91,20 +91,20 @@
         "node_id": "MDQ6VXNlcjQxMzUwNjQ=",
         "organizations_url": "https://api.github.com/users/Vexatos/orgs"
       },
-      "name": "Loenn-v1.0.10-linux.zip",
-      "digest": "sha256:0063a199a06af0a0bf308e4b4c45f7d4b9d021844ad39a1ff219b5cceedee95b",
-      "id": 430293684,
+      "name": "Loenn-v1.0.12-linux.zip",
+      "digest": "sha256:d84ca3a1794800216fc00211a95752293ea3d6cc05d4d1cd4d7d5130ccd93242",
+      "id": 684072751,
       "state": "uploaded",
-      "node_id": "RA_kwDOCvF_EM4ZpcK0"
+      "node_id": "RA_kwDOCvF_EM4oxh8v"
     },
     {
-      "created_at": "2026-05-26T15:49:11Z",
-      "browser_download_url": "https://github.com/CelestialCartographers/Loenn/releases/download/v1.0.10/Loenn-v1.0.10-macos.app.zip",
+      "created_at": "2026-10-28T06:31:24Z",
+      "browser_download_url": "https://github.com/CelestialCartographers/Loenn/releases/download/v1.0.12/Loenn-v1.0.12-macos.app.zip",
       "label": null,
-      "url": "https://api.github.com/repos/CelestialCartographers/Loenn/releases/assets/430293680",
+      "url": "https://api.github.com/repos/CelestialCartographers/Loenn/releases/assets/684072708",
       "content_type": "application/zip",
-      "size": 6985671,
-      "updated_at": "2026-05-26T15:49:12Z",
+      "size": 6987511,
+      "updated_at": "2026-10-28T06:31:38Z",
       "uploader": {
         "gists_url": "https://api.github.com/users/Vexatos/gists{/gist_id}",
         "repos_url": "https://api.github.com/users/Vexatos/repos",
@@ -126,20 +126,20 @@
         "node_id": "MDQ6VXNlcjQxMzUwNjQ=",
         "organizations_url": "https://api.github.com/users/Vexatos/orgs"
       },
-      "name": "Loenn-v1.0.10-macos.app.zip",
-      "digest": "sha256:deb72c91e2190e9be6d7ddb50bcd742e860debdbf231912259d7e17060f85d5d",
-      "id": 430293680,
+      "name": "Loenn-v1.0.12-macos.app.zip",
+      "digest": "sha256:c6475ec4971a1f16758f3e6c4e33db42563326ef405a12a993b78e324305d021",
+      "id": 684072708,
       "state": "uploaded",
-      "node_id": "RA_kwDOCvF_EM4ZpcKw"
+      "node_id": "RA_kwDOCvF_EM4oxh8E"
     },
     {
-      "created_at": "2026-05-26T15:49:09Z",
-      "browser_download_url": "https://github.com/CelestialCartographers/Loenn/releases/download/v1.0.10/Loenn-v1.0.10-windows.zip",
+      "created_at": "2026-10-28T06:31:22Z",
+      "browser_download_url": "https://github.com/CelestialCartographers/Loenn/releases/download/v1.0.12/Loenn-v1.0.12-windows.zip",
       "label": null,
-      "url": "https://api.github.com/repos/CelestialCartographers/Loenn/releases/assets/430293657",
+      "url": "https://api.github.com/repos/CelestialCartographers/Loenn/releases/assets/684072673",
       "content_type": "application/zip",
-      "size": 7436881,
-      "updated_at": "2026-05-26T15:49:11Z",
+      "size": 7438693,
+      "updated_at": "2026-10-28T06:31:38Z",
       "uploader": {
         "gists_url": "https://api.github.com/users/Vexatos/gists{/gist_id}",
         "repos_url": "https://api.github.com/users/Vexatos/repos",
@@ -161,20 +161,20 @@
         "node_id": "MDQ6VXNlcjQxMzUwNjQ=",
         "organizations_url": "https://api.github.com/users/Vexatos/orgs"
       },
-      "name": "Loenn-v1.0.10-windows.zip",
-      "digest": "sha256:b0752c934049358ec55783d7596aed7bfeda4eabd3eaaf95aacc59c80720eaf2",
-      "id": 430293657,
+      "name": "Loenn-v1.0.12-windows.zip",
+      "digest": "sha256:1d16647072bda912c423807a7045f1a8993b190a1399d1870f6dc15a82b1998b",
+      "id": 684072673,
       "state": "uploaded",
-      "node_id": "RA_kwDOCvF_EM4ZpcKZ"
+      "node_id": "RA_kwDOCvF_EM4oxh7h"
     },
     {
-      "created_at": "2026-05-26T15:49:14Z",
-      "browser_download_url": "https://github.com/CelestialCartographers/Loenn/releases/download/v1.0.10/Loenn-v1.0.10.love",
+      "created_at": "2026-10-28T06:31:26Z",
+      "browser_download_url": "https://github.com/CelestialCartographers/Loenn/releases/download/v1.0.12/Loenn-v1.0.12.love",
       "label": null,
-      "url": "https://api.github.com/repos/CelestialCartographers/Loenn/releases/assets/430293694",
+      "url": "https://api.github.com/repos/CelestialCartographers/Loenn/releases/assets/684072801",
       "content_type": "application/x-love-game",
-      "size": 775996,
-      "updated_at": "2026-05-26T15:49:14Z",
+      "size": 778302,
+      "updated_at": "2026-10-28T06:31:38Z",
       "uploader": {
         "gists_url": "https://api.github.com/users/Vexatos/gists{/gist_id}",
         "repos_url": "https://api.github.com/users/Vexatos/repos",
@@ -196,23 +196,23 @@
         "node_id": "MDQ6VXNlcjQxMzUwNjQ=",
         "organizations_url": "https://api.github.com/users/Vexatos/orgs"
       },
-      "name": "Loenn-v1.0.10.love",
-      "digest": "sha256:d60653b0f20631477d6e3a0943b6675caa23e65c4ff4c5460e80b10557b157d4",
-      "id": 430293694,
+      "name": "Loenn-v1.0.12.love",
+      "digest": "sha256:2b25a73a338022fb7085ce6a6cbbf045614b6e900bc411f1b3c4e32658c478c7",
+      "id": 684072801,
       "state": "uploaded",
-      "node_id": "RA_kwDOCvF_EM4ZpcK-"
+      "node_id": "RA_kwDOCvF_EM4oxh9h"
     }
   ],
-  "updated_at": "2026-05-26T15:49:41Z",
+  "updated_at": "2026-10-28T06:31:38Z",
   "prerelease": false,
-  "html_url": "https://github.com/CelestialCartographers/Loenn/releases/tag/v1.0.10",
+  "html_url": "https://github.com/CelestialCartographers/Loenn/releases/tag/v1.0.12",
   "target_commitish": "master",
   "draft": false,
-  "zipball_url": "https://api.github.com/repos/CelestialCartographers/Loenn/zipball/v1.0.10",
-  "name": "Lönn - 1.0.10",
-  "upload_url": "https://uploads.github.com/repos/CelestialCartographers/Loenn/releases/329517547/assets{?name,label}",
-  "id": 329517547,
-  "published_at": "2026-05-26T15:49:41Z",
-  "tarball_url": "https://api.github.com/repos/CelestialCartographers/Loenn/tarball/v1.0.10",
-  "node_id": "RE_kwDOCvF_EM4TpAnr"
+  "zipball_url": "https://api.github.com/repos/CelestialCartographers/Loenn/zipball/v1.0.12",
+  "name": "Lönn - 1.0.12",
+  "upload_url": "https://uploads.github.com/repos/CelestialCartographers/Loenn/releases/426329469/assets{?name,label}",
+  "id": 426329469,
+  "published_at": "2026-10-28T06:31:15Z",
+  "tarball_url": "https://api.github.com/repos/CelestialCartographers/Loenn/tarball/v1.0.12",
+  "node_id": "RE_kwDOCvF_EM4ZaUV9"
 }

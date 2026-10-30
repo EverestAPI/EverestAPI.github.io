@@ -1,10 +1,10 @@
 Obsolete:
   GameBanana_Mod_6800:
   - name: All
-    count: 5025
+    count: 5035
   - id: GameBanana_Mod_6802
     name: Campaign
-    count: 516
+    count: 517
   - id: GameBanana_Mod_6803
     name: Collab/Contest
     count: 457
@@ -13,10 +13,10 @@ Obsolete:
     count: 28
   - id: GameBanana_Mod_6801
     name: Standalone
-    count: 3204
+    count: 3214
   GameBanana_Mod_4632:
   - name: All
-    count: 184
+    count: 185
   - id: GameBanana_Mod_4636
     name: Twitch Integration
     count: 1
@@ -28,13 +28,13 @@ Obsolete:
     count: 23
   GameBanana_Tool_Root:
   - name: All
-    count: 75
+    count: 76
   - id: GameBanana_Tool_653
     name: Ahorn Plugin
     count: 6
   - id: GameBanana_Tool_1098
     name: Lönn Plugin
-    count: 21
+    count: 22
   - id: GameBanana_Tool_1654
     name: Mod Installer
     count: 4
@@ -58,13 +58,13 @@ Obsolete:
     count: 28
   GameBanana_Mod_1501:
   - name: All
-    count: 15
+    count: 16
   GameBanana_Mod_4635:
   - name: All
     count: 52
   GameBanana_Mod_11181:
   - name: All
-    count: 374
+    count: 376
   - id: GameBanana_Mod_16940
     name: Collectibles
     count: 40
@@ -73,7 +73,7 @@ Obsolete:
     count: 83
   - id: GameBanana_Mod_11183
     name: Player
-    count: 197
+    count: 198
   GameBanana_Mod_15655:
   - name: All
     count: 133
@@ -85,4 +85,4 @@ Obsolete:
     count: 60
   GameBanana_Mod_2317:
   - name: All
-    count: 63
+    count: 64
