@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-01T02:42:49.2812538Z",
+    "olympusBuildFileSize": 73466822,
+    "mainFileSize": 71942334,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5970/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "SnipUndercover",
+    "commit": "54f09a60451bbd47e83c6c8317311ffa8e3e26b4",
+    "description": "Fix AZP mono install failure",
+    "branch": "dev",
+    "version": 6670,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5970/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5970/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-10-31T21:47:00.0669459Z",
+    "olympusBuildFileSize": 73467710,
+    "mainFileSize": 71942241,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5965/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "author": "maddie480-bot",
+    "commit": "4aaaf93e75f193c5cf74eea3b20c87722b7722a1",
+    "description": "Bump TAS Check dependencies",
+    "branch": "dev",
+    "version": 6665,
+    "isNative": true,
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5965/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5965/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-10-31T21:38:11.400502Z",
+    "olympusBuildFileSize": 73467771,
+    "mainFileSize": 71942307,
+    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5964/artifacts?artifactName=main&api-version=5.0&%24format=zip",
+    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5964/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
+    "olympusMetaFileSize": 269,
+    "commit": "cac41cca0309d83fd113f76d7895314502884268",
+    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5964/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip",
+    "branch": "beta",
+    "version": 6664,
+    "isNative": true
+  },
+  {
+    "date": "2026-10-31T21:28:30Z",
+    "olympusBuildFileSize": 73455501,
+    "mainFileSize": 71635660,
+    "mainDownload": "https://github.com/EverestAPI/Everest/releases/download/stable-1.6662.0/main.zip",
+    "olympusMetaDownload": "https://github.com/EverestAPI/Everest/releases/download/stable-1.6662.0/olympus-meta.zip",
+    "olympusMetaFileSize": 355,
+    "commit": "322fb9e19d890564b997657fe362d8d44b1f338d",
+    "olympusBuildDownload": "https://github.com/EverestAPI/Everest/releases/download/stable-1.6662.0/olympus-build.zip",
+    "branch": "stable",
+    "version": 6662,
+    "isNative": true
+  },
+  {
     "date": "2026-10-22T20:57:58.0891699Z",
     "olympusBuildFileSize": 73466846,
     "mainFileSize": 71942303,
@@ -252,21 +308,6 @@
     "branch": "stable",
     "version": 6531,
     "isNative": true
-  },
-  {
-    "date": "2026-09-03T23:54:08.2294291Z",
-    "olympusBuildFileSize": 73467301,
-    "mainFileSize": 71941722,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5829/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "author": "SnipUndercover",
-    "commit": "082e21b0b6dd7ff7c96d65b2ca2c632f4fd8df75",
-    "description": "Fix `TryGotoPrevBestFit` using `TryGotoNext` with 1 predicate",
-    "branch": "dev",
-    "version": 6529,
-    "isNative": true,
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5829/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 269,
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5829/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
   },
   {
     "date": "2026-08-22T18:45:35Z",
