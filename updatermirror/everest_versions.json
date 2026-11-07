@@ -269,34 +269,6 @@
     "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5855/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
   },
   {
-    "date": "2026-09-05T20:53:18.2639576Z",
-    "olympusBuildFileSize": 73467208,
-    "mainFileSize": 71941699,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5836/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "author": "maddie480-bot",
-    "commit": "790e3a54112c5a18f12e51b338ddeac2c6bfcd8e",
-    "description": "Bump TAS Check dependencies",
-    "branch": "dev",
-    "version": 6536,
-    "isNative": true,
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5836/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 269,
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5836/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip"
-  },
-  {
-    "date": "2026-09-05T20:35:37.5930089Z",
-    "olympusBuildFileSize": 73467336,
-    "mainFileSize": 71941725,
-    "mainDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5833/artifacts?artifactName=main&api-version=5.0&%24format=zip",
-    "olympusMetaDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5833/artifacts?artifactName=olympus-meta&api-version=5.0&%24format=zip",
-    "olympusMetaFileSize": 269,
-    "commit": "082e21b0b6dd7ff7c96d65b2ca2c632f4fd8df75",
-    "olympusBuildDownload": "https://dev.azure.com/EverestAPI/Everest/_apis/build/builds/5833/artifacts?artifactName=olympus-build&api-version=5.0&%24format=zip",
-    "branch": "beta",
-    "version": 6533,
-    "isNative": true
-  },
-  {
     "date": "2026-09-05T20:24:03Z",
     "olympusBuildFileSize": 73450229,
     "mainFileSize": 71631143,
