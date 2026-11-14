@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-11-11T22:11:52.8936495Z",
+    "changelog": "∙ Added Content Warnings and AI Usage indicators to the Download Mods menu",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5990/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.11.11.02",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5990/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5990/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-11-01T19:54:29.6359843Z",
     "changelog": "∙ Chinese translation update",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/5973/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
