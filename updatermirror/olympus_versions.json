@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-11-25T22:51:53.2778971Z",
+    "changelog": "∙ Fixed a crash in Manage Installed Mods when mod descriptions could not be loaded",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/6019/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.11.25.06",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/6019/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/6019/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-11-25T22:47:23.3281451Z",
+    "changelog": "∙ The Olympus self-updater now downloads everything before installing, to reduce the risk of partial-update issues",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/6018/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.11.25.05",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/6018/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/6018/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
+    "date": "2026-11-25T22:32:10.1199342Z",
+    "changelog": "∙ Minor internal tweak",
+    "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/6017/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",
+    "branch": "main",
+    "version": "26.11.25.04",
+    "macosDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/6017/artifacts?artifactName=macos.main&api-version=5.0&%24format=zip",
+    "linuxDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/6017/artifacts?artifactName=linux.main&api-version=5.0&%24format=zip"
+  },
+  {
     "date": "2026-11-14T20:35:42.7592827Z",
     "changelog": "∙ Optimized PNG assets",
     "windowsDownload": "https://dev.azure.com/EverestAPI/Olympus/_apis/build/builds/6004/artifacts?artifactName=windows.main&api-version=5.0&%24format=zip",

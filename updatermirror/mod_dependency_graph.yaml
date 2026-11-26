@@ -590,8 +590,8 @@
     Version: 1.0.76
   OptionalDependencies: []
 118.71% Fulfilled Emptiness:
-  URL: https://gamebanana.com/mmdl/1797868
-  MirrorName: '1797868'
+  URL: https://gamebanana.com/mmdl/1902521
+  MirrorName: '1902521'
   Dependencies:
   - Name: Everest
     Version: 1.0.0
@@ -24607,11 +24607,11 @@ CeLeaste:
     Version: 0.14.3
   OptionalDependencies: []
 CeilingUltra:
-  URL: https://gamebanana.com/mmdl/1896990
-  MirrorName: '1896990'
+  URL: https://gamebanana.com/mmdl/1903350
+  MirrorName: '1903350'
   Dependencies:
   - Name: Everest
-    Version: '1.6662'
+    Version: '1.6696'
   OptionalDependencies:
   - Name: GravityHelper
     Version: 1.1.49
@@ -25465,6 +25465,15 @@ CelesteRandomizerHelper:
   - Name: Ezel's CC-Sides
     Version: 1.8.6
   OptionalDependencies: []
+CelesteRanked:
+  URL: https://gamebanana.com/mmdl/1902767
+  MirrorName: '1902767'
+  Dependencies:
+  - Name: EverestCore
+    Version: 1.6662.0
+  OptionalDependencies:
+  - Name: RankedLobby
+    Version: 1.0.0
 CelesteRelayRace:
   URL: https://gamebanana.com/mmdl/1217091
   MirrorName: '1217091'
@@ -27622,8 +27631,8 @@ ChromiaSMH:
     Version: 1.9.2
   OptionalDependencies: []
 ChroniaHelper:
-  URL: https://gamebanana.com/mmdl/1892329
-  MirrorName: '1892329'
+  URL: https://gamebanana.com/mmdl/1905221
+  MirrorName: '1905221'
   Dependencies:
   - Name: Everest
     Version: 1.6580.0
@@ -32857,6 +32866,13 @@ Crystal Cavern:
   - Name: SorbetHelper
     Version: 1.3.1
   OptionalDependencies: []
+Crystal Climb:
+  URL: https://gamebanana.com/mmdl/1904376
+  MirrorName: '1904376'
+  Dependencies:
+  - Name: Everest
+    Version: 1.6696.0
+  OptionalDependencies: []
 Crystal Garden:
   URL: https://gamebanana.com/mmdl/1265670
   MirrorName: '1265670'
@@ -35627,8 +35643,8 @@ DawnBreak:
     Version: 1.5285.0
   OptionalDependencies: []
 DawnHelper:
-  URL: https://gamebanana.com/mmdl/1865091
-  MirrorName: '1865091'
+  URL: https://gamebanana.com/mmdl/1901824
+  MirrorName: '1901824'
   Dependencies:
   - Name: EverestCore
     Version: 1.5935.0
@@ -40473,8 +40489,8 @@ ES2023-FILLEDWRIDDLEMANS:
     Version: 1.2.7
   OptionalDependencies: []
 EX-Sides:
-  URL: https://gamebanana.com/mmdl/1898571
-  MirrorName: '1898571'
+  URL: https://gamebanana.com/mmdl/1904454
+  MirrorName: '1904454'
   Dependencies:
   - Name: AdamsAddons
     Version: 1.15.06
@@ -47107,11 +47123,9 @@ FontLoennPlugin:
     Version: 1.3471.0
   OptionalDependencies: []
 For AnRan:
-  URL: https://gamebanana.com/mmdl/1898192
-  MirrorName: '1898192'
+  URL: https://gamebanana.com/mmdl/1904954
+  MirrorName: '1904954'
   Dependencies:
-  - Name: ChineseFontPack
-    Version: 1.4.2
   - Name: ChroniaHelper
     Version: 1.47.24
   - Name: CrystallineHelper
@@ -52535,25 +52549,45 @@ Gravity:
     Version: 1.0.9
   OptionalDependencies: []
 Gravity Stuff:
-  URL: https://gamebanana.com/mmdl/1816646
-  MirrorName: '1816646'
+  URL: https://gamebanana.com/mmdl/1903257
+  MirrorName: '1903257'
   Dependencies:
+  - Name: AdamsAddons
+    Version: 1.15.8
   - Name: BounceHelper
     Version: 1.14.1
+  - Name: CherryHelper
+    Version: 1.8.2
+  - Name: ChroniaHelper
+    Version: 1.55.12
   - Name: CommunalHelper
     Version: 1.25.3
+  - Name: CrystallineHelper
+    Version: 1.17.3
   - Name: Everest
     Version: 1.6397.0
   - Name: ExtendedVariantMode
     Version: 0.50.3
+  - Name: FrostHelper
+    Version: 1.81.0
   - Name: GravityHelper
     Version: 1.2.28
+  - Name: JPC2024Assets
+    Version: 1.0.1
   - Name: MaxHelpingHand
     Version: 1.40.10
+  - Name: MeliHelper
+    Version: 1.3.0
   - Name: NerdHelper
     Version: 1.6.4
   - Name: OutbackHelper
     Version: 1.7.3
+  - Name: ProgHelper
+    Version: 1.5.10
+  - Name: ScugHelper
+    Version: 2.53.4
+  - Name: SorbetHelper
+    Version: 1.9.2
   - Name: VivHelper
     Version: 1.14.10
   OptionalDependencies: []
@@ -72114,61 +72148,25 @@ My Frist Celes Map Troll Map:
     Version: 1.9.32
   OptionalDependencies: []
 My Maps:
-  URL: https://gamebanana.com/mmdl/1898870
-  MirrorName: '1898870'
+  URL: https://gamebanana.com/mmdl/1904219
+  MirrorName: '1904219'
   Dependencies:
-  - Name: AdventureHelper
-    Version: 1.6.0
-  - Name: AurorasHelper
-    Version: 0.12.5
-  - Name: ChroniaHelper
-    Version: 1.44.7
-  - Name: ChronoHelper
-    Version: 1.2.9
-  - Name: CollabUtils2
-    Version: 1.13.4
+  - Name: Needle Helper
+    Version: 1.0.0
   - Name: CommunalHelper
     Version: 1.24.5
-  - Name: ContortHelper
-    Version: 1.5.5
-  - Name: CpopHelper
-    Version: 1.3.0
   - Name: CrystallineHelper
     Version: 1.17.2
   - Name: DJMapHelper
     Version: 1.13.4
-  - Name: Everest
-    Version: 1.6249.0
-  - Name: Everest
-    Version: 1.5509.0
   - Name: ExtendedVariantMode
     Version: 0.50.3
   - Name: FemtoHelper
     Version: 1.15.21
   - Name: FlaglinesAndSuch
     Version: 1.6.67
-  - Name: FrenchHelper
-    Version: 1.1.9
-  - Name: FrostHelper
-    Version: 1.78.0
-  - Name: GameHelper
-    Version: 1.11.1
-  - Name: GravityHelper
-    Version: 1.2.24
-  - Name: MaxHelpingHand
-    Version: 1.40.7
-  - Name: PandorasBox
-    Version: 1.0.49
-  - Name: ScugHelper
-    Version: 2.39.3
   - Name: SorbetHelper
     Version: 1.8.3
-  - Name: Spooooky's Asset Pack
-    Version: 1.0.10
-  - Name: StyleMaskHelper
-    Version: 1.4.0
-  - Name: VivHelper
-    Version: 1.14.10
   OptionalDependencies: []
 My World:
   URL: https://gamebanana.com/mmdl/561887
@@ -80432,6 +80430,55 @@ PinballDownside:
     Version: 1.14.8
   - Name: memorialHelper
     Version: 1.0.4
+  OptionalDependencies: []
+Pink cloudscape:
+  URL: https://gamebanana.com/mmdl/1903755
+  MirrorName: '1903755'
+  Dependencies:
+  - Name: AdventureHelper
+    Version: 1.6.0
+  - Name: ChroniaHelper
+    Version: 1.52.40
+  - Name: CommunalHelper
+    Version: 1.25.5
+  - Name: CrystallineHelper
+    Version: 1.17.3
+  - Name: Everest
+    Version: 1.6580.0
+  - Name: Everest
+    Version: 1.6458.0
+  - Name: Everest
+    Version: 1.6531.0
+  - Name: ExtendedCameraDynamics
+    Version: 1.2.0
+  - Name: ExtendedVariantMode
+    Version: 0.51.0
+  - Name: FlaglinesAndSuch
+    Version: 1.6.80
+  - Name: FrostHelper
+    Version: 1.79.1
+  - Name: GameHelper
+    Version: 1.11.3
+  - Name: HonlyHelper
+    Version: 1.7.5
+  - Name: KyfexHelper
+    Version: 0.15.0
+  - Name: LuaCutscenes
+    Version: 0.2.13
+  - Name: MaxHelpingHand
+    Version: 1.40.9
+  - Name: OutbackHelper
+    Version: 1.7.3
+  - Name: ScugHelper
+    Version: 2.53.4
+  - Name: SorbetHelper
+    Version: 1.9.2
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: ZoomOutHelperPrototype
+    Version: 0.2.0
+  - Name: bitsbolts
+    Version: 1.5.1
   OptionalDependencies: []
 PinkPortraitsPack:
   URL: https://gamebanana.com/mmdl/1035425
@@ -89762,8 +89809,8 @@ Samegrade:
     Version: 1.2.19
   OptionalDependencies: []
 Samu's Cpop-Sides:
-  URL: https://gamebanana.com/mmdl/1889758
-  MirrorName: '1889758'
+  URL: https://gamebanana.com/mmdl/1903910
+  MirrorName: '1903910'
   Dependencies:
   - Name: CpopHelper
     Version: 1.3.0
@@ -92319,8 +92366,8 @@ SenselessVernalAutumnal:
     Version: 1.3.6
   OptionalDependencies: []
 SenselessZescent:
-  URL: https://gamebanana.com/mmdl/1859456
-  MirrorName: '1859456'
+  URL: https://gamebanana.com/mmdl/1904632
+  MirrorName: '1904632'
   Dependencies:
   - Name: AchievementHelper
     Version: 1.0.4
@@ -93854,6 +93901,39 @@ Shocking Cavern:
     Version: 1.14.6
   - Name: memorialHelper
     Version: 1.0.4
+  OptionalDependencies: []
+ShortTechspam:
+  URL: https://gamebanana.com/mmdl/1903858
+  MirrorName: '1903858'
+  Dependencies:
+  - Name: Anonhelper
+    Version: 1.1.1
+  - Name: ChroniaHelper
+    Version: 1.52.26
+  - Name: CommunalHelper
+    Version: 1.25.4
+  - Name: CrystallineHelper
+    Version: 1.17.2
+  - Name: Everest
+    Version: 1.6418.0
+  - Name: FemtoHelper
+    Version: 1.15.20
+  - Name: FrostHelper
+    Version: 1.80.2
+  - Name: GalacticaHelper
+    Version: 1.2.0
+  - Name: GravityHelper
+    Version: 1.2.28
+  - Name: IsaGrabBag
+    Version: 1.7.3
+  - Name: LeniencyHelper
+    Version: 1.2.3
+  - Name: MaxHelpingHand
+    Version: 1.40.7
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: VortexHelper
+    Version: 1.2.19
   OptionalDependencies: []
 Short_Climb:
   URL: https://gamebanana.com/mmdl/1495850
@@ -97759,8 +97839,8 @@ Speedrun:
     Version: 1.0.78
   OptionalDependencies: []
 Speedrun Sheet:
-  URL: https://gamebanana.com/mmdl/1899688
-  MirrorName: '1899688'
+  URL: https://gamebanana.com/mmdl/1903751
+  MirrorName: '1903751'
   Dependencies:
   - Name: Everest
     Version: '1.6397'
@@ -97770,8 +97850,8 @@ Speedrun Sheet:
   - Name: SomeSplitButtons
     Version: 1.4.1
 SpeedrunTool:
-  URL: https://gamebanana.com/mmdl/1900091
-  MirrorName: '1900091'
+  URL: https://gamebanana.com/mmdl/1904526
+  MirrorName: '1904526'
   Dependencies:
   - Name: Everest
     Version: '1.6696'
@@ -105600,6 +105680,43 @@ The Center of Dreams:
   - Name: VortexHelper
     Version: 1.2.11
   OptionalDependencies: []
+The City Never Sleeps:
+  URL: https://gamebanana.com/mmdl/1904169
+  MirrorName: '1904169'
+  Dependencies:
+  - Name: Batteries
+    Version: 1.1.4
+  - Name: CommunalHelper
+    Version: 1.25.10
+  - Name: Everest
+    Version: 1.6623.0
+  - Name: ExtendedVariantMode
+    Version: 0.51.2
+  - Name: FrostHelper
+    Version: 1.81.1
+  - Name: GameHelper
+    Version: 1.11.3
+  - Name: GravityHelper
+    Version: 1.2.29
+  - Name: HonlyHelper
+    Version: 1.7.5
+  - Name: MaxHelpingHand
+    Version: 1.40.11
+  - Name: NerdHelper
+    Version: 1.6.4
+  - Name: Sardine7
+    Version: 1.2.0
+  - Name: SorbetHelper
+    Version: 1.9.2
+  - Name: Spooooky's Asset Pack
+    Version: 1.0.13
+  - Name: VivHelper
+    Version: 1.14.10
+  - Name: VortexHelper
+    Version: 1.2.19
+  - Name: WindHelper
+    Version: 1.5.1
+  OptionalDependencies: []
 The Clear New World:
   URL: https://gamebanana.com/mmdl/1476966
   MirrorName: '1476966'
@@ -113427,6 +113544,41 @@ USSRNAMEdreamycity:
     Version: 1.0.47
   - Name: ReverseHelper
     Version: 1.6.0
+  OptionalDependencies: []
+UllUll:
+  URL: https://gamebanana.com/mmdl/1903783
+  MirrorName: '1903783'
+  Dependencies:
+  - Name: AdamsAddons
+    Version: 1.15.8
+  - Name: ChronoHelper
+    Version: 1.3.3
+  - Name: CommunalHelper
+    Version: 1.25.10
+  - Name: Everest
+    Version: 1.6662.0
+  - Name: ExtendedVariantMode
+    Version: 0.51.1
+  - Name: FemtoHelper
+    Version: 1.16.2
+  - Name: FlaglinesAndSuch
+    Version: 1.6.80
+  - Name: FrostHelper
+    Version: 1.81.1
+  - Name: JungleHelper
+    Version: 1.4.11
+  - Name: LemonHelper
+    Version: 0.1.6
+  - Name: MaxHelpingHand
+    Version: 1.40.10
+  - Name: NerdHelper
+    Version: 1.6.4
+  - Name: SorbetHelper
+    Version: 1.9.2
+  - Name: StyleMaskHelper
+    Version: 1.5.1
+  - Name: aonHelper
+    Version: 0.20.0
   OptionalDependencies: []
 Ultra Dash:
   URL: https://gamebanana.com/mmdl/942572
@@ -148117,8 +148269,8 @@ wheelchair-madeline:
     Version: 0.7.2
   OptionalDependencies: []
 white tower:
-  URL: https://gamebanana.com/mmdl/1832015
-  MirrorName: '1832015'
+  URL: https://gamebanana.com/mmdl/1903039
+  MirrorName: '1903039'
   Dependencies:
   - Name: CherryHelper
     Version: 1.8.2
