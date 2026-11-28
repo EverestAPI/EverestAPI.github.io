@@ -6817,8 +6817,8 @@ AmberSchnakeWheelContest:
     Version: 1.5.10
   OptionalDependencies: []
 AmbrosiaHelper:
-  URL: https://gamebanana.com/mmdl/1788317
-  MirrorName: '1788317'
+  URL: https://gamebanana.com/mmdl/1906932
+  MirrorName: '1906932'
   Dependencies:
   - Name: EverestCore
     Version: 1.6314.0
@@ -25466,14 +25466,14 @@ CelesteRandomizerHelper:
     Version: 1.8.6
   OptionalDependencies: []
 CelesteRanked:
-  URL: https://gamebanana.com/mmdl/1902767
-  MirrorName: '1902767'
+  URL: https://gamebanana.com/mmdl/1905611
+  MirrorName: '1905611'
   Dependencies:
   - Name: EverestCore
     Version: 1.6662.0
-  OptionalDependencies:
   - Name: RankedLobby
     Version: 1.0.0
+  OptionalDependencies: []
 CelesteRelayRace:
   URL: https://gamebanana.com/mmdl/1217091
   MirrorName: '1217091'
@@ -27631,8 +27631,8 @@ ChromiaSMH:
     Version: 1.9.2
   OptionalDependencies: []
 ChroniaHelper:
-  URL: https://gamebanana.com/mmdl/1905221
-  MirrorName: '1905221'
+  URL: https://gamebanana.com/mmdl/1906342
+  MirrorName: '1906342'
   Dependencies:
   - Name: Everest
     Version: 1.6580.0
@@ -47969,6 +47969,29 @@ ForsakenRunes:
   - Name: EverestCore
     Version: 1.5935.0
   OptionalDependencies: []
+ForsakenSite:
+  URL: https://gamebanana.com/mmdl/1906152
+  MirrorName: '1906152'
+  Dependencies:
+  - Name: BounceHelper
+    Version: 1.14.1
+  - Name: CommunalHelper
+    Version: 1.25.10
+  - Name: CrystallineHelper
+    Version: 1.17.3
+  - Name: Everest
+    Version: 1.6642.0
+  - Name: ExtendedVariantMode
+    Version: 0.51.2
+  - Name: FrostHelper
+    Version: 1.81.0
+  - Name: MaxHelpingHand
+    Version: 1.40.10
+  - Name: NerdHelper
+    Version: 1.6.4
+  - Name: bitsbolts
+    Version: 1.5.1
+  OptionalDependencies: []
 FortressMountain:
   URL: https://gamebanana.com/mmdl/1815788
   MirrorName: '1815788'
@@ -49899,23 +49922,6 @@ Gameplayyy:
     Version: 1.14.10
   - Name: bitsbolts
     Version: 1.4.3
-  OptionalDependencies: []
-Gameswordassets:
-  URL: https://gamebanana.com/mmdl/1319631
-  MirrorName: '1319631'
-  Dependencies:
-  - Name: CollabUtils2
-    Version: 1.10.10
-  - Name: Everest
-    Version: NoVersion
-  - Name: FrostHelper
-    Version: 1.51.2
-  - Name: MaxHelpingHand
-    Version: 1.30.8
-  - Name: StyleMaskHelper
-    Version: 1.3.3
-  - Name: TwigHelper
-    Version: 1.5.3
   OptionalDependencies: []
 GameswordsColorGrass:
   URL: https://gamebanana.com/mmdl/1810299
@@ -60752,8 +60758,8 @@ Lava8068:
     Version: 1.14.10
   OptionalDependencies: []
 Lavande:
-  URL: https://gamebanana.com/mmdl/1897161
-  MirrorName: '1897161'
+  URL: https://gamebanana.com/mmdl/1906280
+  MirrorName: '1906280'
   Dependencies:
   - Name: Batteries
     Version: 1.1.4
@@ -71217,8 +71223,8 @@ MountKimitanySagaRandomizerConfig:
     Version: 0.6.0
   OptionalDependencies: []
 MountSofty:
-  URL: https://gamebanana.com/mmdl/1837816
-  MirrorName: '1837816'
+  URL: https://gamebanana.com/mmdl/1907801
+  MirrorName: '1907801'
   Dependencies:
   - Name: ChroniaHelper
     Version: 1.52.13
@@ -80240,6 +80246,31 @@ Pidgey Skin:
   Dependencies:
   - Name: Everest
     Version: 1.1888.0
+  OptionalDependencies: []
+PiggyWheelContest:
+  URL: https://gamebanana.com/mmdl/1907950
+  MirrorName: '1907950'
+  Dependencies:
+  - Name: AletrisSandbox
+    Version: 1.1.3
+  - Name: CollabUtils2
+    Version: 1.13.6
+  - Name: CommunalHelper
+    Version: 1.25.10
+  - Name: Everest
+    Version: 1.6642.0
+  - Name: ExtendedVariantMode
+    Version: 0.51.2
+  - Name: FemtoHelper
+    Version: 1.16.4
+  - Name: FrostHelper
+    Version: 1.81.2
+  - Name: GravityHelper
+    Version: 1.2.33
+  - Name: MaxHelpingHand
+    Version: 1.40.11
+  - Name: SorbetHelper
+    Version: 1.9.2
   OptionalDependencies: []
 PillarsOfSand:
   URL: https://gamebanana.com/mmdl/1798949
@@ -105681,8 +105712,8 @@ The Center of Dreams:
     Version: 1.2.11
   OptionalDependencies: []
 The City Never Sleeps:
-  URL: https://gamebanana.com/mmdl/1904169
-  MirrorName: '1904169'
+  URL: https://gamebanana.com/mmdl/1906758
+  MirrorName: '1906758'
   Dependencies:
   - Name: Batteries
     Version: 1.1.4
@@ -118312,8 +118343,8 @@ WindGodGirl:
     Version: 1.0.75
   OptionalDependencies: []
 WindHelper:
-  URL: https://gamebanana.com/mmdl/1855779
-  MirrorName: '1855779'
+  URL: https://gamebanana.com/mmdl/1906961
+  MirrorName: '1906961'
   Dependencies:
   - Name: Everest
     Version: 1.5617.0
@@ -145927,6 +145958,15 @@ thecaverns:
     Version: 1.14.8
   - Name: VortexHelper
     Version: 1.2.16
+  OptionalDependencies: []
+thecircularity:
+  URL: https://gamebanana.com/mmdl/1907960
+  MirrorName: '1907960'
+  Dependencies:
+  - Name: Everest
+    Version: 1.6000.0
+  - Name: VivHelper
+    Version: 1.14.10
   OptionalDependencies: []
 thefasteryourun:
   URL: https://gamebanana.com/mmdl/1678289
